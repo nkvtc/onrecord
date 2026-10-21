@@ -1,0 +1,33 @@
+{
+ "abstract": "The Energy Policy and Conservation Act, as amended (\"EPCA\"), prescribes energy conservation standards for various consumer products and certain commercial and industrial equipment, including commercial refrigerators, freezers, and refrigerator-freezers (\"commercial refrigeration equipment\" or \"CRE\"). EPCA also requires the U.S. Department of Energy (\"DOE\") to periodically review its existing standards to determine whether more-stringent standards would be technologically feasible and economically justified and would result in significant energy savings. In this final rule, DOE is adopting new and amended energy conservation standards for CRE. It has determined that the new and amended energy conservation standards for this equipment would result in significant conservation of energy and are technologically feasible and economically justified.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 136,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/136",
+   "name": "Energy Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF ENERGY",
+   "slug": "energy-department",
+   "url": "https://www.federalregister.gov/agencies/energy-department"
+  }
+ ],
+ "citation": "90 FR 7464",
+ "dates": "The effective date of this rule is March 24, 2025. Compliance with the new and amended standards established for commercial refrigerators, freezers, and refrigerator-freezers in this final rule is required on and after Monday, January 22, 2029. The incorporation by reference of certain material listed in this rule was approved by the Director of the Federal Register as of March 10, 2009 and October 23, 2013.",
+ "document_number": "2024-31214",
+ "effective_on": "2025-03-24",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/01/21/2024-31214/energy-conservation-program-energy-conservation-standards-for-commercial-refrigerators-freezers-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-21/pdf/2024-31214.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-01-21",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/21/2024-31214.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers",
+ "type": "Rule"
+}

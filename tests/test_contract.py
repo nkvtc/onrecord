@@ -1,0 +1,55 @@
+"""Rules every adapter must follow. A new adapter gets these checks for free:
+add its module, register it, drop at least one real response into tests/fixtures/<name>/.
+"""
+
+from datetime import date
+
+import pytest
+
+from onrecord.adapters import ADAPTERS
+from onrecord.models import EVENT_KINDS
+
+from .conftest import FIXTURES, load_fixture
+
+CASES = [
+    (name, path.name) for name in ADAPTERS for path in sorted((FIXTURES / name).glob("*.json"))
+]
+
+
+@pytest.mark.parametrize("name", list(ADAPTERS))
+def test_every_adapter_has_fixtures(name):
+    assert list((FIXTURES / name).glob("*")), f"add a real response to tests/fixtures/{name}/"
+
+
+@pytest.mark.parametrize("name", list(ADAPTERS))
+def test_adapter_declares_itself(name):
+    cls = ADAPTERS[name]
+    assert cls.name == name
+    assert cls.jurisdiction and cls.description
+
+
+@pytest.mark.parametrize(("name", "fixture_name"), CASES)
+def test_parse_output_is_sourced(name, fixture_name):
+    cls = ADAPTERS[name]
+    result = cls.parse(load_fixture(name, fixture_name))
+
+    assert result.meta.title
+    assert result.meta.canonical_url.startswith("https://")
+    assert result.events or result.claims or result.observations, "parsed nothing"
+
+    for e in result.events:
+        assert e.kind in EVENT_KINDS
+        assert isinstance(e.on, date)
+        assert e.locator, "every event must say where in the source it came from"
+        assert e.extracted_by == cls.extracted_by()
+    for c in result.claims:
+        assert c.text and c.speaker and c.locator
+    for o in result.observations:
+        assert o.series_id and o.unit and o.series_label
+
+
+@pytest.mark.parametrize(("name", "fixture_name"), CASES)
+def test_parse_is_deterministic(name, fixture_name):
+    cls = ADAPTERS[name]
+    raw = load_fixture(name, fixture_name)
+    assert cls.parse(raw) == cls.parse(raw)

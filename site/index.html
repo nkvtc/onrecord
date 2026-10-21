@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>onrecord · US–Canada trade</title>
+<meta name="description" content="Every official US and Canadian action on tariffs since 2025, what each government said, and what the trade figures did. Sourced line by line.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap">
+  <div class="brand">onrecord</div>
+  <h1>US–Canada trade, on the record</h1>
+  <p class="lede">Every US presidential action and Canadian government announcement on tariffs since January 2025, against the official monthly trade figures. Each item links to the primary source. Nothing here is from news coverage.</p>
+  <p class="meta" id="meta">Loading…</p>
+</header>
+
+<main class="wrap">
+  <section class="card" aria-labelledby="chart-title">
+    <div class="card-head">
+      <div>
+        <h2 id="chart-title">Canada's merchandise trade with <span id="partner-name">United States</span></h2>
+        <p class="sub">Monthly, CAD millions, balance-of-payments basis, seasonally adjusted. Source: Statistics Canada, Table 12-10-0011-01.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Trading partner" id="partner"></div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="chart" id="chart"></div>
+    <p class="note">Tick rows under the chart mark the dates of US presidential actions (signing date) and Canadian government announcements. Hover or tap a tick to see it. Trade figures move for many reasons; lining up dates shows timing, not cause.</p>
+    <details class="table-toggle"><summary>Show the numbers as a table</summary><div id="table"></div></details>
+  </section>
+
+  <section aria-labelledby="tl-title">
+    <div class="tl-head">
+      <h2 id="tl-title">Timeline</h2>
+      <div class="filters">
+        <div class="seg" role="group" aria-label="Show" id="kind"></div>
+        <input type="search" id="q" placeholder="Filter, e.g. steel, 14193, lumber" aria-label="Filter timeline">
+      </div>
+    </div>
+    <p class="sub" id="count"></p>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p><strong>How to read this.</strong> <em>Actions</em> are official legal instruments (Federal Register). <em>Statements</em> are what a government said in a news release; a statement is not proof that something took effect. Dates come from source metadata, and every item keeps a hash of the exact document it came from.</p>
+  <p>Data: <a href="data/timeline.json">timeline.json</a> · <a href="data/series.json">series.json</a> · <a href="data/onrecord.sqlite">full SQLite database</a> · <a id="sql-link" href="#">query it with SQL in your browser</a>. Code is AGPL-3.0, data CC BY-SA 4.0. Spotted an error? Open an issue on GitHub.</p>
+</footer>
+
+<div class="tip" id="tip" role="status" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

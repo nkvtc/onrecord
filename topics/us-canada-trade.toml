@@ -1,0 +1,40 @@
+# US–Canada trade and tariffs.
+#
+# Each table below is handed to the adapter of the same name. Tune queries freely:
+# a too-broad query just means more documents to review, a too-narrow one means
+# missed history. When in doubt, err broad and say why in the PR.
+
+id = "us-canada-trade"
+title = "US–Canada trade and tariffs"
+since = 2025-01-01
+description = """
+Every official US and Canadian action on tariffs and trade between the two countries
+since January 2025, what each government said about them, and what the official
+trade figures did afterwards.
+"""
+
+[federal_register]
+# Federal Register full-text search. `types`: PRESDOCU (executive orders, proclamations,
+# memoranda), RULE, PRORULE, NOTICE. `agencies` uses federalregister.gov agency slugs.
+queries = [
+  { term = "Canada tariff", types = ["PRESDOCU"] },
+  { term = "Canada tariff", types = ["RULE"] },
+  { term = "Canada", agencies = ["trade-representative-office-of-united-states"] },
+]
+
+[canada_news]
+# Government of Canada news API. Department slugs as used by api.io.canada.ca.
+departments = ["departmentfinance", "departmentofforeignaffairstradeanddevelopment"]
+# A release is kept if a word in its title or teaser starts with any of these
+# (case-insensitive): "tariff" matches "tariffs". Avoid bare "united states" or
+# "trade": they pull in every G7 communiqué and trade mission.
+keywords = [
+  "tariff", "countermeasure", "surtax", "remission", "cusma", "usmca", "duties",
+  "trade action", "trade dispute", "trade war", "retaliat", "section 232",
+  "steel", "aluminum", "softwood", "lumber",
+]
+
+[statcan_trade]
+# Statistics Canada table 12-10-0011 (merchandise trade by principal partner, monthly).
+partners = ["United States", "European Union", "All countries"]
+months = 48

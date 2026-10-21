@@ -1,0 +1,29 @@
+name: New source
+description: Propose a government data source to add as an adapter
+labels: [adapter]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source
+      description: e.g. Canada Gazette Part II
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Official API or data documentation URL
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What would it give us?
+      options: [Events (legal acts), Claims (statements), Observations (statistics), Several]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Access notes
+      description: Key needed? Rate limits? License? Example request?

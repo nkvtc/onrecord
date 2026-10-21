@@ -1,0 +1,24 @@
+name: Data error
+description: Something on the record is wrong, missing, or misleading
+labels: [data-error]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Which item?
+      description: Title or link of the timeline item, or the chart/month
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source showing the correct information
+      description: A primary source (gazette, register, statistical agency). News articles help as context but can't be the fix.
+    validations:
+      required: true
