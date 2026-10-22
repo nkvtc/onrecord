@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>onrecord · US–Canada trade</title>
 <meta name="description" content="Every official US and Canadian action on tariffs since 2025, what each government said, and what the trade figures did. Sourced line by line.">
+<!-- API keys live in this page, so lock down where scripts load from and where data can go. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://api.anthropic.com https://api.openai.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,6 +18,45 @@
 </header>
 
 <main class="wrap">
+  <section class="card ai" aria-labelledby="ai-title">
+    <div class="card-head">
+      <div>
+        <h2 id="ai-title">Ask the record</h2>
+        <p class="sub">Optional. Answers come only from the records on this page, with each claim linked to its source. Uses your own Anthropic or OpenAI key.</p>
+      </div>
+      <span class="sub" id="ai-who"></span>
+    </div>
+
+    <form id="ai-connect" class="ai-setup" autocomplete="off">
+      <div id="ai-setup">
+        <div class="ai-row">
+          <select id="ai-provider" aria-label="Provider">
+            <option value="anthropic">Anthropic</option>
+            <option value="openai">OpenAI</option>
+          </select>
+          <input id="ai-key" type="password" placeholder="Paste your API key" aria-label="API key" spellcheck="false">
+          <button type="submit" class="primary">Connect</button>
+        </div>
+        <label class="sub"><input type="checkbox" id="ai-remember"> Remember the key in this browser</label>
+        <p class="sub">Your key goes straight from your browser to the provider you pick. onrecord has no server and never sees it. Each question costs a few cents on your account.</p>
+        <p class="ai-err" id="ai-setup-err" role="alert"></p>
+      </div>
+    </form>
+
+    <div id="ai-chat" hidden>
+      <div class="ai-row ai-tools">
+        <select id="ai-model" aria-label="Model"></select>
+        <button type="button" id="ai-forget" class="link">Disconnect and forget key</button>
+      </div>
+      <div id="ai-log" aria-live="polite"></div>
+      <div class="chips" id="ai-examples"></div>
+      <form id="ai-form" class="ai-row">
+        <input id="ai-q" type="text" placeholder="Ask about what happened, e.g. what changed for Canadian lumber?" aria-label="Your question">
+        <button type="submit" id="ai-send" class="primary">Ask</button>
+      </form>
+    </div>
+  </section>
+
   <section class="card" aria-labelledby="chart-title">
     <div class="card-head">
       <div>
@@ -50,5 +91,6 @@
 
 <div class="tip" id="tip" role="status" hidden></div>
 <script src="app.js"></script>
+<script type="module" src="chat.js"></script>
 </body>
 </html>

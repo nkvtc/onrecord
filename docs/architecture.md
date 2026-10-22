@@ -13,7 +13,10 @@
 8. Serve       static site, JSON, SQLite download; (planned) API + MCP server
 ```
 
-Layers 1–4 and 8 exist today. The rule that holds the design together: **nothing in a
+Layers 1–4 and 8 exist today, plus an early version of 7: the site's "Ask the record"
+panel (`site/chat.js`) sends the exported records to Anthropic or OpenAI with the
+reader's own key and requires `[R#]` citations to them. It reads only what layers 1–4
+produced, so it can't add facts to the archive. The rule that holds the design together: **nothing in a
 higher layer may state a fact that a lower layer can't point to.**
 
 ## Record types

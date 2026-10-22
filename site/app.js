@@ -6,6 +6,9 @@ const PRESIDENTIAL = new Set(["executive_order", "proclamation", "memorandum", "
 const DOMAIN_START = "2024-01-01";
 const state = { partner: "United States", kind: "all", q: "" };
 let timeline = [], series = {};
+// Shared with chat.js (a module, loaded after this script).
+let markReady;
+window.onrecord = { ready: new Promise((r) => (markReady = r)), jumpTo: (id) => jumpTo(id) };
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -17,6 +20,8 @@ const css = (name) => getComputedStyle(document.documentElement).getPropertyValu
 async function load() {
   const [t, s, m] = await Promise.all(["timeline", "series", "meta"].map((n) => fetch(`data/${n}.json`).then((r) => r.json())));
   timeline = t; series = s;
+  Object.assign(window.onrecord, { timeline: t, series: s, meta: m });
+  markReady();
   $("#meta").textContent = `${m.counts.documents} source documents · updated ${m.generated_at.slice(0, 10)}`;
   const db = new URL("data/onrecord.sqlite", location.href).href;
   $("#sql-link").href = `https://lite.datasette.io/?url=${encodeURIComponent(db)}`;

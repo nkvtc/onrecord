@@ -73,6 +73,18 @@ Full design: [docs/architecture.md](docs/architecture.md). Hosting and costs:
 [docs/hosting.md](docs/hosting.md). What we count as a fact:
 [docs/methodology.md](docs/methodology.md).
 
+## Ask the record (optional AI)
+
+The site has an "Ask the record" panel. Paste your own Anthropic or OpenAI API key and
+ask questions in plain language. The model sees only the archived records and must cite
+them; citations link back to the timeline item and its primary source. Answers are
+labelled as interpretation.
+
+There is no onrecord server: the key stays in your browser (in memory, or in local
+storage if you tick "remember") and requests go directly to the provider. A question
+costs a few cents on your account (about 20k tokens of records per first question,
+cached for follow-ups). Code: [`site/chat.js`](site/chat.js).
+
 ## Use the data
 
 Every deployment publishes `data/timeline.json`, `data/series.json`, and the full
