@@ -1,0 +1,45 @@
+{
+ "abstract": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2026 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period announces the closure of a teaching hospital and the opportunity to apply for available slots, and updates and refines the requirements for the Hospital Outpatient Quality Reporting Program, Rural Emergency Hospital Quality Reporting Program, Ambulatory Surgical Center Quality Reporting Program, Overall Hospital Quality Star Rating, and hospitals to make public their standard charge information and enforcement of hospital price transparency, as well as summarizes comments received in response to a request for information on measure concepts regarding Well-Being and Nutrition for consideration in future years for the OQR, REHQR, and ASCQR programs.",
+ "action": "Final rule with comment period.",
+ "agencies": [
+  {
+   "id": 221,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+   "name": "Health and Human Services Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+   "slug": "health-and-human-services-department",
+   "url": "https://www.federalregister.gov/agencies/health-and-human-services-department"
+  },
+  {
+   "id": 45,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/45",
+   "name": "Centers for Medicare & Medicaid Services",
+   "parent_id": 221,
+   "raw_name": "Centers for Medicare & Medicaid Services",
+   "slug": "centers-for-medicare-medicaid-services",
+   "url": "https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services"
+  },
+  {
+   "raw_name": "Office of the Secretary"
+  }
+ ],
+ "citation": "90 FR 53448",
+ "dates": "Effective Date: The provisions of this rule are effective January 1, 2026.",
+ "document_number": "2025-20907",
+ "effective_on": "2026-01-01",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-25/pdf/2025-20907.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-11-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/25/2025-20907.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; Quality Reporting Programs; Overall Hospital Quality Star Rating; Hospital Price Transparency; and Notice of Closure of a Teaching Hospital and Opportunity To Apply for Available Slots",
+ "type": "Rule"
+}

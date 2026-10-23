@@ -1,0 +1,33 @@
+{
+ "abstract": "To implement the President's Deregulatory Initiatives, and to better reflect modern travel operations while still accounting for statutory requirements, GSA is issuing this final rule amending the entire Federal Travel Regulation (FTR). These updates streamline text and remove duplicative regulations to drive more efficient and effective Federal travel and relocation, while saving money for American taxpayers.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 210,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/210",
+   "name": "General Services Administration",
+   "parent_id": null,
+   "raw_name": "GENERAL SERVICES ADMINISTRATION",
+   "slug": "general-services-administration",
+   "url": "https://www.federalregister.gov/agencies/general-services-administration"
+  }
+ ],
+ "citation": "90 FR 56890",
+ "dates": "Effective date: December 8, 2025.",
+ "document_number": "2025-22289",
+ "effective_on": "2025-12-08",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/12/08/2025-22289/federal-travel-regulation-reorganizing-and-streamlining-the-federal-travel-regulation-to-improve",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-08/pdf/2025-22289.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-12-08",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/12/08/2025-22289.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Federal Travel Regulation; Reorganizing and Streamlining the Federal Travel Regulation To Improve Operational Efficiency",
+ "type": "Rule"
+}

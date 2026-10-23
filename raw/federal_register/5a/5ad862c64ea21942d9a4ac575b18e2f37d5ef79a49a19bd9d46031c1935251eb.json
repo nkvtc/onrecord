@@ -1,0 +1,33 @@
+{
+ "abstract": "The U.S. Trade Representative must conduct a review of trade in automotive goods under the United States-Mexico-Canada Agreement (USMCA) and submit a report to the Committee on Finance of the Senate and the Committee on Ways and Means of the House of Representatives no later than July 1, 2026. USTR invites comments concerning the operation of the USMCA with respect to automotive goods, including the implementation and enforcement of the USMCA rules of origin for automotive goods, as well as whether the automotive provisions of the USMCA are effective in light of technological and production advances.",
+ "action": "Request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "90 FR 56247",
+ "dates": "January 7, 2026 at 11:59pm EST: Deadline for submission of written comments.",
+ "document_number": "2025-22105",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/12/05/2025-22105/request-for-comments-concerning-the-operation-of-the-united-states-mexico-canada-agreement-with",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-05/pdf/2025-22105.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-12-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/12/05/2025-22105.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments Concerning the Operation of the United States-Mexico-Canada Agreement With Respect To Trade in Automotive Goods",
+ "type": "Notice"
+}

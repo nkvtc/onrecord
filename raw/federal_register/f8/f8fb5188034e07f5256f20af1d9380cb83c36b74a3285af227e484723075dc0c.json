@@ -1,0 +1,45 @@
+{
+ "abstract": "This final rule revises the Medicare hospital inpatient prospective payment systems (IPPS) for operating and capital-related costs of acute care hospitals; makes changes relating to Medicare graduate medical education (GME) for teaching hospitals; updates the payment policies and the annual payment rates for the Medicare prospective payment system (PPS) for inpatient hospital services provided by long-term care hospitals (LTCHs); updates and makes changes to requirements for certain quality programs; and makes other policy- related changes. We are also finalizing the provisions of the interim final action with comment period regarding the changes to the FY 2025 IPPS rates due to the court decision in Bridgeport Hosp. v. Becerra. Lastly, it finalizes certain updates to the ONC Health Information Technology (IT) Certification Program.",
+ "action": "Final rules.",
+ "agencies": [
+  {
+   "id": 221,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+   "name": "Health and Human Services Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+   "slug": "health-and-human-services-department",
+   "url": "https://www.federalregister.gov/agencies/health-and-human-services-department"
+  },
+  {
+   "id": 45,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/45",
+   "name": "Centers for Medicare & Medicaid Services",
+   "parent_id": 221,
+   "raw_name": "Centers for Medicare & Medicaid Services",
+   "slug": "centers-for-medicare-medicaid-services",
+   "url": "https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services"
+  },
+  {
+   "raw_name": "Office of the Secretary"
+  }
+ ],
+ "citation": "90 FR 36536",
+ "dates": "These final rules are effective on October 1, 2025. The incorporation by reference of certain material listed in this document is approved by the Director of the Federal Register as of October 1, 2025.",
+ "document_number": "2025-14681",
+ "effective_on": "2025-10-01",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/08/04/2025-14681/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-04/pdf/2025-14681.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-08-04",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/04/2025-14681.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2026 Rates; Changes to the FY 2025 IPPS Rates Due to Court Decision; Requirements for Quality Programs; and Other Policy Changes; Health Data, Technology, and Interoperability: Electronic Prescribing, Real-Time Prescription Benefit and Electronic Prior Authorization",
+ "type": "Rule"
+}

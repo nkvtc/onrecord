@@ -1,0 +1,42 @@
+{
+ "abstract": "To address ongoing aviation security threats, U.S. Customs and Border Protection (CBP) is amending its regulations pertaining to the Air Cargo Advance Screening (ACAS) program to require the transmission of additional data elements. The ACAS program enhances the security of flights carrying cargo into the United States by requiring the transmission of certain air cargo data and performing targeted risk assessments based on the transmitted data prior to an aircraft's departure for the United States. These risk assessments identify and prevent high-risk air cargo from being loaded onto an aircraft that could pose a risk to an aircraft during flight.",
+ "action": "Interim final rule; request for comments.",
+ "agencies": [
+  {
+   "id": 227,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+   "name": "Homeland Security Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+   "slug": "homeland-security-department",
+   "url": "https://www.federalregister.gov/agencies/homeland-security-department"
+  },
+  {
+   "id": 501,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/501",
+   "name": "U.S. Customs and Border Protection",
+   "parent_id": 227,
+   "raw_name": "U.S. Customs and Border Protection",
+   "slug": "u-s-customs-and-border-protection",
+   "url": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection"
+  }
+ ],
+ "citation": "90 FR 52796",
+ "dates": "Effective Date: This interim final rule is effective as of November 21, 2025.",
+ "document_number": "2025-20606",
+ "effective_on": "2025-11-21",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/11/21/2025-20606/enhanced-air-cargo-advance-screening-acas",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-21/pdf/2025-20606.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-11-21",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/21/2025-20606.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Enhanced Air Cargo Advance Screening (ACAS)",
+ "type": "Rule"
+}

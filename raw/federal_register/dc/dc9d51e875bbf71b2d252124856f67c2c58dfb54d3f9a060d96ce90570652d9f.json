@@ -1,0 +1,42 @@
+{
+ "abstract": "This document sets forth final regulations regarding the clean electricity production credit and the clean electricity investment credit established by the Inflation Reduction Act of 2022. These final regulations provide rules for determining greenhouse gas emissions rates resulting from the production of electricity; petitioning for provisional emissions rates; and determining eligibility for these credits in various circumstances. The final regulations affect all taxpayers that claim the clean electricity production credit with respect to a qualified facility or the clean electricity investment credit with respect to a qualified facility or energy storage technology, as applicable, that is placed in service after 2024.",
+ "action": "Final regulations.",
+ "agencies": [
+  {
+   "id": 497,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+   "name": "Treasury Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF THE TREASURY",
+   "slug": "treasury-department",
+   "url": "https://www.federalregister.gov/agencies/treasury-department"
+  },
+  {
+   "id": 254,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/254",
+   "name": "Internal Revenue Service",
+   "parent_id": 497,
+   "raw_name": "Internal Revenue Service",
+   "slug": "internal-revenue-service",
+   "url": "https://www.federalregister.gov/agencies/internal-revenue-service"
+  }
+ ],
+ "citation": "90 FR 4006",
+ "dates": "Effective date: These regulations are effective on January 15, 2025.",
+ "document_number": "2025-00196",
+ "effective_on": "2025-01-15",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/01/15/2025-00196/section-45y-clean-electricity-production-credit-and-section-48e-clean-electricity-investment-credit",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-15/pdf/2025-00196.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-01-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/15/2025-00196.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Section 45Y Clean Electricity Production Credit and Section 48E Clean Electricity Investment Credit",
+ "type": "Rule"
+}

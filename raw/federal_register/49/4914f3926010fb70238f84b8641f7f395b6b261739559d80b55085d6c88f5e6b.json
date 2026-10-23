@@ -1,0 +1,33 @@
+{
+ "abstract": "On April 1, 2026, the United States International Trade Commission (USITC) determined that quartz surface products (QSP) are being imported into the United States in such increased quantities as to be a substantial cause of serious injury, or the threat thereof, to the domestic industry producing an article that is like or directly competitive with the imported article. The Commissioners who voted in the affirmative are now conducting a process to recommend a safeguard measure for the President. The Office of the United States Trade Representative (USTR), on behalf of the Trade Policy Staff Committee (TPSC), is announcing a process so that, once the USITC makes its recommendation and issues its report to the President, domestic producers, importers, exporters, and other interested parties subsequently may submit their views and evidence on the appropriateness of the recommended safeguard measure. USTR also invites interested parties to participate in a public hearing regarding this matter.",
+ "action": "Request for comments and notice of public hearing.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "91 FR 28096",
+ "dates": "June 1, 2026, at 11:59 p.m. EST: Deadline for submission of written comments, requests to testify, and summaries of written testimony.",
+ "document_number": "2026-09809",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2026/05/15/2026-09809/request-for-comments-and-public-hearing-about-the-administrations-action-following-a-determination",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-15/pdf/2026-09809.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-05-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/15/2026-09809.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments and Public Hearing About the Administration's Action Following a Determination of Import Injury With Regard to Quartz Surface Products (QSP)",
+ "type": "Notice"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": "The U.S. Trade Representative has determined that appropriate action in this investigation includes: certain services fees on the maritime transport services of Chinese operators and shipowners; on maritime transport services of operators using Chinese-built vessels to be applicable on a non-discriminatory basis; certain service fees on the maritime transport services of operators of foreign-built vehicle carriers to be applicable on a non-discriminatory basis; and restrictions on certain maritime transport services for U.S. Liquified Natural Gas (LNG) to be applicable on a non-discriminatory basis. In addition, the U.S. Trade Representative is proposing additional tariffs on certain ship-to-shore cranes on a non-discriminatory basis, and proposing additional tariffs on certain other cargo handling equipment of China. USTR requests written comments regarding the proposed tariff actions set forth in this notice and will convene a public hearing in relation to the proposed tariffs.",
+ "action": "Notice of action and proposed action, request for comments, and notice of public hearing.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "90 FR 17114",
+ "dates": "Dates applicable to fees on certain maritime transport services are contained in Annexes I, II, and III.",
+ "document_number": "2025-06927",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/04/23/2025-06927/notice-of-action-and-proposed-action-in-section-301-investigation-of-chinas-targeting-the-maritime",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-23/pdf/2025-06927.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-04-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/23/2025-06927.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Action and Proposed Action in Section 301 Investigation of China's Targeting the Maritime, Logistics, and Shipbuilding Sectors for Dominance, Request for Comments",
+ "type": "Notice"
+}
