@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "91 FR 13201",
+ "dates": null,
+ "document_number": "2026-05383",
+ "effective_on": null,
+ "executive_order_number": "14392",
+ "html_url": "https://www.federalregister.gov/documents/2026/03/18/2026-05383/ensuring-truthful-advertising-of-products-claiming-to-be-made-in-america",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-18/pdf/2026-05383.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-03-18",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/18/2026-05383.txt",
+ "signing_date": "2026-03-13",
+ "subtype": "Executive Order",
+ "title": "Ensuring Truthful Advertising of Products Claiming To Be Made in America",
+ "type": "Presidential Document"
+}

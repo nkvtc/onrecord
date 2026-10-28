@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "91 FR 68007",
+ "dates": null,
+ "document_number": "2026-22051",
+ "effective_on": null,
+ "executive_order_number": "14438",
+ "html_url": "https://www.federalregister.gov/documents/2026/10/28/2026-22051/decreasing-housing-costs-for-the-american-people",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-28/pdf/2026-22051.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-10-28",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/28/2026-22051.txt",
+ "signing_date": "2026-10-22",
+ "subtype": "Executive Order",
+ "title": "Decreasing Housing Costs for the American People",
+ "type": "Presidential Document"
+}

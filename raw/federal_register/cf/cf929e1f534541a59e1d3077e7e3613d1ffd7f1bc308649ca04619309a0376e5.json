@@ -1,0 +1,51 @@
+{
+ "abstract": "On November 13, 2025, the United States and the Republic of Korea (ROK) issued a Joint Fact Sheet reaffirming the historic announcement in July of the Korea Strategic Trade and Investment Deal (U.S.-ROK Deal), which reflects the strength and endurance of the U.S.- ROK Alliance. The Joint Fact Sheet sets out steps the United States and the ROK will take to further the U.S.-ROK Alliance under the U.S.-ROK Deal. The Secretary of Commerce and United States Trade Representative, in consultation with the Commissioner of U.S. Customs and Border Protection and the Chair of the United States International Trade Commission, have determined that certain tariff modifications are necessary to implement that deal. This notice amends the Harmonized Tariff Schedule of the United States to implement certain tariff elements of that deal, adjusting tariffs on certain articles that are products of the ROK, including the country-specific reciprocal tariffs provided for under Executive Order 14257, as amended; tariffs on automobiles and automobile parts provided for under Proclamation 10908, as amended; tariffs on timber, lumber, and their derivatives provided for under Proclamation 10976; and tariffs on certain aircraft and aircraft parts provided for under Executive Order 14257, as amended, Proclamation 9704, as amended, Proclamation 9705, as amended, and Proclamation 10962.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  },
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 261,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/261",
+   "name": "International Trade Administration",
+   "parent_id": 54,
+   "raw_name": "International Trade Administration",
+   "slug": "international-trade-administration",
+   "url": "https://www.federalregister.gov/agencies/international-trade-administration"
+  }
+ ],
+ "citation": "90 FR 55964",
+ "dates": "This notice is effective December 4, 2025. The modifications to the Harmonized Tariff Schedule of the United States set forth in Part A of the Annex are effective with respect to automobiles and automobile parts entered for consumption, or withdrawn from warehouse consumption, on or after 12:01 a.m. eastern time on November 1, 2025. The modifications to the Harmonized Tariff Schedule of the United States set forth in Part B of the Annex are effective with respect to goods subject to the country-specific reciprocal tariffs, timber, lumber, and their derivatives, and certain aircraft and aircraft parts, entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern time on November 14, 2025.",
+ "document_number": "2025-21940",
+ "effective_on": "2025-12-04",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/12/04/2025-21940/implementing-certain-tariff-related-elements-of-the-us-korea-strategic-trade-and-investment-deal",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-04/pdf/2025-21940.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-12-04",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/12/04/2025-21940.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Implementing Certain Tariff-Related Elements of the U.S.-Korea Strategic Trade and Investment Deal",
+ "type": "Notice"
+}

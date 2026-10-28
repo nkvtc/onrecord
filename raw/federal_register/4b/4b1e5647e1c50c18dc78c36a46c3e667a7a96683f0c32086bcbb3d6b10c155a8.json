@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "90 FR 13673",
+ "dates": null,
+ "document_number": "2025-05212",
+ "effective_on": null,
+ "executive_order_number": "14241",
+ "html_url": "https://www.federalregister.gov/documents/2025/03/25/2025-05212/immediate-measures-to-increase-american-mineral-production",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-25/pdf/2025-05212.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-03-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/25/2025-05212.txt",
+ "signing_date": "2025-03-20",
+ "subtype": "Executive Order",
+ "title": "Immediate Measures To Increase American Mineral Production",
+ "type": "Presidential Document"
+}

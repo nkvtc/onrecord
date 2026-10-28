@@ -1,0 +1,51 @@
+{
+ "abstract": "On September 5, 2025, President Trump issued Executive Order 14346 (Modifying the Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements). Executive Order 14346 directed and authorized the Secretary of Commerce (Secretary) and the United States Trade Representative (Trade Representative) to implement the terms of any framework trade and security agreement or final trade and security agreement concluded between the United States and a foreign trading partner that involve the national emergency declared in Executive Order 14257 of April 2, 2025 (Regulating Imports with a Reciprocal Tariff to Rectify Trade Practices that Contribute to Large and Persistent Annual United States Goods Trade Deficits), or threats to the national security found pursuant to Section 232 of the Trade Expansion Act of 1962 (Section 232). On January 15, 2026, the American Institute in Taiwan (AIT) and the Taipei Economic and Cultural Representative Office in the United States (TECRO) signed the Memorandum of Understanding Between the Taipei Economic and Cultural Representative Office in the United States and the American Institute in Taiwan Relating to Taiwan-U.S. Investment (MOU). In the MOU, the United States committed to, among other things, modify tariffs imposed under Section 232 in certain respects. On February 12, 2026, AIT and TECRO signed the Agreement Between the American Institute in Taiwan and the Taipei Economic and Cultural Representative Office in the United States on Reciprocal Trade Between the United States of America and Taiwan (ART or Agreement). Both the MOU and the ART qualify for implementation under Executive Order 14346. The Secretary and Trade Representative are taking necessary and appropriate action to implement the MOU at this time. The Secretary and Trade Representative are not implementing the ART at this time as it has not yet entered into force. This notice amends the Harmonized Tariff Schedule of the United States (HTSUS) to implement the terms of the MOU pertaining to the modification of certain Section 232 tariffs applied to automobile parts, timber, lumber, and wood derivative products of Taiwan. In addition, the MOU states that the United States will remove derivative Section 232 steel, aluminum, and copper tariffs from aircraft components that are products of Taiwan.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 261,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/261",
+   "name": "International Trade Administration",
+   "parent_id": 54,
+   "raw_name": "International Trade Administration",
+   "slug": "international-trade-administration",
+   "url": "https://www.federalregister.gov/agencies/international-trade-administration"
+  },
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "91 FR 31818",
+ "dates": "This notice is effective May 28, 2026. The modifications to the HTSUS set forth in the Annex to this Notice are effective with respect to goods entered for consumption, or withdrawn from warehouse consumption, on or after 12:01 a.m. eastern time on May 1, 2026.",
+ "document_number": "2026-10571",
+ "effective_on": "2026-05-28",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2026/05/28/2026-10571/implementing-certain-tariff-related-elements-of-a-trade-and-security-agreement-between-the-american",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-28/pdf/2026-10571.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-05-28",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/28/2026-10571.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Implementing Certain Tariff-Related Elements of a Trade and Security Agreement Between the American Institute in Taiwan and the Taipei Economic and Cultural Representative Office in the United States",
+ "type": "Notice"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "90 FR 20369",
+ "dates": null,
+ "document_number": "2025-08683",
+ "effective_on": null,
+ "executive_order_number": "14296",
+ "html_url": "https://www.federalregister.gov/documents/2025/05/14/2025-08683/keeping-promises-to-veterans-and-establishing-a-national-center-for-warrior-independence",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-14/pdf/2025-08683.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-05-14",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/14/2025-08683.txt",
+ "signing_date": "2025-05-09",
+ "subtype": "Executive Order",
+ "title": "Keeping Promises to Veterans and Establishing a National Center for Warrior Independence",
+ "type": "Presidential Document"
+}

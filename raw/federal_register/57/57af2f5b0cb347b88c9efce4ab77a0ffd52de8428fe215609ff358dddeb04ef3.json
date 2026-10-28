@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "91 FR 8703",
+ "dates": null,
+ "document_number": "2026-03628",
+ "effective_on": null,
+ "executive_order_number": "14387",
+ "html_url": "https://www.federalregister.gov/documents/2026/02/23/2026-03628/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-23/pdf/2026-03628.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-02-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/23/2026-03628.txt",
+ "signing_date": "2026-02-18",
+ "subtype": "Executive Order",
+ "title": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate- Based Herbicides",
+ "type": "Presidential Document"
+}

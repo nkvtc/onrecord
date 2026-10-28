@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "90 FR 8613",
+ "dates": null,
+ "document_number": "2025-02089",
+ "effective_on": null,
+ "executive_order_number": "14167",
+ "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02089/clarifying-the-militarys-role-in-protecting-the-territorial-integrity-of-the-united-states",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02089.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-01-30",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02089.txt",
+ "signing_date": "2025-01-20",
+ "subtype": "Executive Order",
+ "title": "Clarifying the Military's Role in Protecting the Territorial Integrity of the United States",
+ "type": "Presidential Document"
+}

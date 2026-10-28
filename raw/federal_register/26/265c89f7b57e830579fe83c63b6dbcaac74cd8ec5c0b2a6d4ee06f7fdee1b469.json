@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "91 FR 7393",
+ "dates": null,
+ "document_number": "2026-03156",
+ "effective_on": null,
+ "executive_order_number": "14386",
+ "html_url": "https://www.federalregister.gov/documents/2026/02/17/2026-03156/strengthening-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-17/pdf/2026-03156.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-02-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/17/2026-03156.txt",
+ "signing_date": "2026-02-11",
+ "subtype": "Executive Order",
+ "title": "Strengthening United States National Defense With America's Beautiful Clean Coal Power Generation Fleet",
+ "type": "Presidential Document"
+}

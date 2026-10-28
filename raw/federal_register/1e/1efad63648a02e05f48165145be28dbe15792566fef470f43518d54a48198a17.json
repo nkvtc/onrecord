@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "90 FR 9277",
+ "dates": null,
+ "document_number": "2025-02512",
+ "effective_on": null,
+ "executive_order_number": "14200",
+ "html_url": "https://www.federalregister.gov/documents/2025/02/11/2025-02512/amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-11/pdf/2025-02512.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-02-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/11/2025-02512.txt",
+ "signing_date": "2025-02-05",
+ "subtype": "Executive Order",
+ "title": "Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China",
+ "type": "Presidential Document"
+}
