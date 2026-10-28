@@ -32,7 +32,7 @@ def test_rule_has_effective_date(fixture):
 def test_news_release_is_a_claim_not_an_event(fixture):
     raw = fixture(
         "canada_news",
-        "_canada-announces-155b-tariff-package-in-response-to-unjustified-us-tariffs.html.json",
+        "canada-announces-155b-tariff-package-in-response-to-unjustified-us-tariffs.html.json",
     )
     r = CanadaNews.parse(raw)
     assert r.events == []

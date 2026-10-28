@@ -2,7 +2,7 @@
 //
 // There is no onrecord server. The key stays in this browser (memory, or localStorage if the
 // reader opts in) and requests go straight from the browser to Anthropic or OpenAI.
-// The model only sees the records exported with this site and must cite them as [R#];
+// The model only sees the current topic's exported records and must cite them as [R#];
 // answers are shown as interpretation, with every citation linking back to the timeline item.
 
 import Anthropic from "https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@0.131.0/+esm";
@@ -15,12 +15,6 @@ const ANTHROPIC_MODELS = [
 // Server-side refusal fallback is available for these on the Claude API.
 const FALLBACK_MODELS = new Set(["claude-opus-5-5", "claude-sonnet-5-5"]);
 const STORE_KEY = "onrecord.ai";
-const EXAMPLES = [
-  "What did the US do on Canadian steel and aluminum, and when did each step happen?",
-  "Which US actions against Canada were later suspended or modified?",
-  "What did Canada announce in response to the February 2025 US tariffs?",
-  "How did Canada's exports to the US move in 2025, and what happened around the same time?",
-];
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -72,42 +66,45 @@ function showState() {
 // ---- the record as context ------------------------------------------------
 
 function buildContext() {
-  const { timeline, series, meta } = window.onrecord;
+  const { topic, timeline, series, money, meta } = window.onrecord;
   const items = [...timeline].sort((a, b) => (a.date + a.id).localeCompare(b.date + b.id));
-  ai.refs = items.map((i) => i.id);
+  // R-refs cover timeline items first, then donations; ai.refs maps each back to its target.
+  ai.refs = items.map((i) => ({ type: "item", id: i.id }));
   const lines = items.map((i, n) => {
-    const what = i.kind === "action" ? `US/${i.jurisdiction} legal action (${i.doc_type})` : `${i.jurisdiction} government statement`;
-    const events = i.events.map((e) => `${e.kind} ${e.on}`).join(", ");
-    const summary = (i.summary || "").replace(/\s+/g, " ").slice(0, 400);
+    const what = i.kind === "action" ? `${i.jurisdiction} official action (${i.doc_type})` : `${i.jurisdiction} government statement`;
+    const events = i.events.length > 1 ? i.events.map((e) => `${e.kind} ${e.on}`).join(", ") : "";
+    const summary = (i.summary || "").replace(/\s+/g, " ").slice(0, 300);
     return [`R${n + 1}`, i.date, what, i.publisher, i.title, events && `dates: ${events}`, i.citation, summary && `summary: ${summary}`]
       .filter(Boolean).join(" | ");
   });
+  const donations = (money?.transactions || []).map((t) => {
+    ai.refs.push({ type: "money", url: t.url, label: `${t.payer}, $${t.amount.toLocaleString("en-US")}` });
+    return [`R${ai.refs.length}`, t.date, t.kind, `${t.payer} (${t.payer_type}${t.place ? ", " + t.place : ""})`,
+      `to ${t.payee}`, `USD ${t.amount}`, t.locator].join(" | ");
+  });
   const tables = Object.values(series).map((s) =>
     `${s.label}, ${s.unit}: ` + s.points.filter(([d]) => d >= "2024-01-01").map(([d, v]) => `${d.slice(0, 7)} ${v}`).join("; "));
+  const publishers = [...new Set(timeline.map((i) => i.publisher))].sort();
 
   return `You answer questions about government actions using ONLY the onrecord archive below.
 
-The archive covers US–Canada trade and tariffs since January 2025. It was built from:
-- US Federal Register documents (legal actions: executive orders, proclamations, rules, notices),
-- Government of Canada news releases (statements: what Canada said, not legal instruments),
-- Statistics Canada monthly merchandise trade figures.
-It does NOT yet include Canada Gazette orders, US Census trade data, court rulings, or news coverage.
-Archive exported ${meta.generated_at.slice(0, 10)}.
+Topic: ${topic.title}. ${topic.description}
+Record publishers: ${publishers.join("; ")}.${tables.length ? " Plus official statistical series listed under FIGURES." : ""}${donations.length ? " Plus donations as reported to the FEC, listed under MONEY." : ""}
+News coverage is not part of the archive. Archive exported ${meta.generated_at.slice(0, 10)}.
 
 Rules:
 1. Every factual sentence cites its records like [R12] or [R3, R40]. Never cite anything else.
 2. If the archive does not answer the question, say so plainly and name which missing source would.
    Do not fill gaps from memory. If you add general background, label it "Outside the record:".
-3. Keep "said" and "done" apart: statements (news releases) are claims; Federal Register items are legal actions.
-4. Lining up dates shows timing, not cause. Don't claim a policy caused a change in trade figures.
-   You may describe what the numbers did and what happened around the same time.
-5. Be concise and concrete: dates, names, numbers. Use short paragraphs or bullet lists. No preamble.
+3. Keep "said" and "done" apart: government statements are claims; official actions are legal acts.
+4. Lining up dates shows timing, not cause. Don't claim one thing caused another unless a record says so.
+5. Never imply wrongdoing, motive or a relationship between people or organizations that no record states.
+   The same name in two records is not proof it is the same person or company; say so if it matters.
+6. Be concise and concrete: dates, names, numbers. Use short paragraphs or bullet lists. No preamble.
 
-RECORDS (one per line: ref | date | type | publisher | title | dates | citation | summary)
+RECORDS (ref | date | type | publisher | title | dates | citation | summary)
 ${lines.join("\n")}
-
-TRADE FIGURES (Statistics Canada, monthly)
-${tables.join("\n")}`;
+${tables.length ? `\nFIGURES (monthly)\n${tables.join("\n")}\n` : ""}${donations.length ? `\nMONEY (ref | date | kind | payer | payee | amount | where in the filing)\n${donations.join("\n")}\n` : ""}`;
 }
 
 // ---- providers ------------------------------------------------------------
@@ -177,10 +174,13 @@ async function askOpenAI(system, onText) {
 
 function renderAnswer(md) {
   const link = (n) => {
-    const id = ai.refs[Number(n) - 1];
-    const item = id && window.onrecord.timeline.find((i) => i.id === id);
+    const ref = ai.refs[Number(n) - 1];
+    if (ref?.type === "money") {
+      return `<a href="${esc(ref.url)}" class="ref" target="_blank" rel="noopener" title="${esc(ref.label)}">R${n}</a>`;
+    }
+    const item = ref && window.onrecord.timeline.find((i) => i.id === ref.id);
     if (!item) return `R${n}`;
-    return `<a href="#" class="ref" data-id="${esc(id)}" title="${esc(item.date + " · " + item.title)}">R${n}</a>`;
+    return `<a href="#" class="ref" data-id="${esc(item.id)}" title="${esc(item.date + " · " + item.title)}">R${n}</a>`;
   };
   return esc(md)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
@@ -197,7 +197,7 @@ async function ask(question) {
   ai.busy = true;
   $("#ai-send").disabled = true;
   const log = $("#ai-log");
-  log.insertAdjacentHTML("beforeend", `<div class="ai-q">${esc(question)}</div><div class="ai-a"><div class="ai-label">AI interpretation of the record · check the cited sources</div><div class="ai-body"><p class="sub">Reading ${window.onrecord.timeline.length} records…</p></div><div class="ai-foot"></div></div>`);
+  log.insertAdjacentHTML("beforeend", `<div class="ai-q">${esc(question)}</div><div class="ai-a"><div class="ai-label">AI interpretation of the record · check the cited sources</div><div class="ai-body"><p class="sub">Reading ${window.onrecord.timeline.length + (window.onrecord.money?.transactions.length || 0)} records…</p></div><div class="ai-foot"></div></div>`);
   const answer = log.lastElementChild, body = answer.querySelector(".ai-body");
   answer.scrollIntoView({ behavior: "smooth", block: "nearest" });
 
@@ -223,7 +223,17 @@ async function ask(question) {
 function init() {
   loadSaved();
   $("#ai-provider").value = ai.provider;
-  $("#ai-examples").innerHTML = EXAMPLES.map((q) => `<button type="button" class="chip">${esc(q)}</button>`).join("");
+  const showExamples = (topic) => {
+    const examples = topic.site.ask?.examples || [];
+    $("#ai-examples").innerHTML = examples.map((q) => `<button type="button" class="chip">${esc(q)}</button>`).join("");
+  };
+  showExamples(window.onrecord.topic);
+  // A new topic means a new archive in context: start a fresh conversation.
+  window.onrecord.onTopicChange((topic) => {
+    ai.history = [];
+    $("#ai-log").innerHTML = "";
+    showExamples(topic);
+  });
 
   $("#ai-connect").addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -262,7 +272,7 @@ function init() {
     if (b) ask(b.textContent);
   });
   $("#ai-log").addEventListener("click", (e) => {
-    const a = e.target.closest("a.ref");
+    const a = e.target.closest("a.ref[data-id]");
     if (!a) return;
     e.preventDefault();
     window.onrecord.jumpTo(a.dataset.id);

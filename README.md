@@ -7,9 +7,15 @@ orders, gazette notices, votes, regulations, and official statistics. It shows w
 *said*, what was *legally done*, and what the official numbers did afterwards, with
 every item linked to the primary source.
 
-The first topic is **US–Canada trade and tariffs since January 2025**: every US
-presidential action, every Canadian government announcement, and Statistics Canada's
-monthly trade figures, on one timeline.
+Three topics so far:
+
+- **US–Canada trade**: every US presidential action and Canadian government announcement
+  on tariffs since January 2025, against *both* countries' official monthly trade figures.
+- **EU–US trade**: US actions affecting the EU, the EU's own legal acts and proposals
+  (countermeasures, their suspensions, the framework agreement), and both sides' figures.
+- **Accountability**: every executive order since January 20, 2025, every pardon and
+  commutation the Justice Department has published, and every donation the presidential
+  inaugural committee reported to the FEC, plus a name lookup across all records.
 
 > Status: early. The data pipeline works and runs daily. The site is a first view.
 > Everything on the [roadmap](docs/roadmap.md) is open for contributors.
@@ -34,7 +40,7 @@ Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
 uv sync
-uv run onrecord pull      # fetch from Federal Register, canada.ca, Statistics Canada (~10s)
+uv run onrecord pull      # fetch every topic from its official sources (~3 min)
 uv run onrecord export    # write the static site to build/
 python -m http.server --directory build 8000
 ```
@@ -50,10 +56,15 @@ archive).
 | `federal_register` | US | Executive orders, proclamations, rules, notices: signing, publication, effective dates | no |
 | `canada_news` | CA | Government of Canada news releases (claims) | no |
 | `statcan_trade` | CA | Monthly merchandise trade by partner (Table 12-10-0011) | no |
+| `fred_trade` | US | US Census Bureau goods trade by country, republished on FRED | no |
+| `eurlex` | EU | EU regulations, decisions, Commission proposals (EUR-Lex SPARQL) | no |
+| `eurostat_trade` | EU | EU27 monthly goods trade by partner (Eurostat) | no |
+| `doj_clemency` | US | Pardons and commutations (DOJ Office of the Pardon Attorney) | no |
+| `fec_form13` | US | Donations to the presidential inaugural committee (FEC Form 13) | optional `FEC_API_KEY` |
 
 Wanted next: Canada Gazette (the legal instruments behind Canadian countermeasures),
-US Census trade data, USITC tariff schedule, LEGISinfo, Congress.gov, EUR-Lex,
-Eurostat. See [docs/roadmap.md](docs/roadmap.md).
+USITC tariff schedule, court dockets, lobbying disclosures, federal contracts,
+Congress.gov. See [docs/roadmap.md](docs/roadmap.md).
 
 ## How it works
 

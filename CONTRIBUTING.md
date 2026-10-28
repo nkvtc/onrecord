@@ -39,7 +39,8 @@ Steps:
 3. Add a config table for it to the relevant topic TOML.
 4. Run it live once, then copy 1–3 **real** raw responses from `data/raw/<name>/` into
    `tests/fixtures/<name>/`. Never hand-write fixtures. They must be what the server
-   actually returned.
+   actually returned. If your parser needs the document's real `source_id` or URL (to
+   resolve relative links, say), record them in `tests/fixtures/<name>/_sources.json`.
 5. The contract tests in `tests/test_contract.py` now run against your adapter
    automatically. Add a few source-specific assertions in `tests/test_adapters.py`.
 

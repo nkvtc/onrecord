@@ -10,7 +10,7 @@ from pathlib import Path
 from .adapters import ADAPTERS
 from .export import export
 from .http import Http
-from .store import Store
+from .store import LEGACY_TOPIC, Store
 from .topics import TOPICS_DIR, all_topics
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -36,7 +36,7 @@ def cmd_pull(args) -> int:
             new = seen = 0
             try:
                 for raw in cls(http).fetch(topic):
-                    _, is_new = store.ingest(raw, cls.parse(raw))
+                    _, is_new = store.ingest(raw, cls.parse(raw), topic=topic.id)
                     seen += 1
                     new += is_new
             except Exception as e:  # one broken source must not stop the others
@@ -67,8 +67,22 @@ def cmd_rebuild(args) -> int:
     store = Store(args.data)
     n = 0
     for entry in store.manifest():
+        if "tag" in entry:
+            store.tag(entry["source"], entry["source_id"], entry["tag"], record=False)
+            continue
         raw = store.read_raw(entry)
-        store.ingest(raw, ADAPTERS[raw.source].parse(raw), record=False)
+        if raw.sha256 != entry["sha256"]:
+            # Bytes on disk changed since they were archived (e.g. git rewrote line endings).
+            # Ingesting them would invent a new "version" of an official document.
+            print(
+                f"Archive integrity error: {entry['source']}:{entry['source_id']} "
+                f"does not match its recorded sha256. Check out the data branch with "
+                f"line-ending conversion off (see data/.gitattributes).",
+                file=sys.stderr,
+            )
+            return 1
+        topic = entry.get("topic") or LEGACY_TOPIC
+        store.ingest(raw, ADAPTERS[raw.source].parse(raw), topic=topic, record=False)
         n += 1
     print(f"Rebuilt database from {n} archived document versions.")
     return 0
@@ -76,7 +90,7 @@ def cmd_rebuild(args) -> int:
 
 def cmd_export(args) -> int:
     store = Store(args.data)
-    meta = export(store, args.out, ROOT / "site")
+    meta = export(store, args.out, all_topics(args.topics), ROOT / "site")
     print(f"Exported to {args.out}: {meta['counts']}")
     return 0
 
@@ -93,7 +107,7 @@ def cmd_status(args) -> int:
             f"{r['source']:18} {r['docs']:5} docs  {r['versions']:5} versions  "
             f"{r['first']} .. {r['last']}  last fetch {r['fetched'][:19]}"
         )
-    for t in ("events", "claims", "observations"):
+    for t in ("events", "claims", "observations", "transactions"):
         print(f"{t:18} {store.db.execute(f'SELECT COUNT(*) FROM {t}').fetchone()[0]}")
     return 0
 
@@ -126,6 +140,7 @@ def main(argv=None) -> int:
 
     ex = sub.add_parser("export", help="write the static site + JSON")
     ex.add_argument("--out", type=Path, default=ROOT / "build")
+    ex.add_argument("--topics", type=Path, default=TOPICS_DIR)
     ex.set_defaults(fn=cmd_export)
 
     sub.add_parser("status", help="what's in the database").set_defaults(fn=cmd_status)

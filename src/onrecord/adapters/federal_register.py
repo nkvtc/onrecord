@@ -53,6 +53,11 @@ class FederalRegister(Adapter):
                 ("conditions[term]", q["term"]) if "term" in q else None,
                 *[("conditions[type][]", t) for t in q.get("types", [])],
                 *[("conditions[agencies][]", a) for a in q.get("agencies", [])],
+                *[
+                    ("conditions[presidential_document_type][]", t)
+                    for t in q.get("presidential_document_types", [])
+                ],
+                ("conditions[president][]", q["president"]) if "president" in q else None,
                 *[("fields[]", f) for f in FIELDS],
             ]
             url: str | None = API

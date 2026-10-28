@@ -1,0 +1,56 @@
+# Presidential power and money: executive orders, clemency, inaugural donations.
+#
+# This topic records what official sources say happened. It does not label anything
+# as corrupt and does not link people across datasets automatically: a donor and a
+# pardon recipient with the same name are not shown as connected unless a reviewed,
+# sourced link is added. See docs/methodology.md, "Accountability records".
+
+id = "accountability"
+title = "Executive orders, pardons and inaugural money"
+since = 2025-01-20
+description = """
+Every executive order of the current administration, every pardon and commutation
+published by the Justice Department, and every donation reported by the presidential
+inaugural committee, each linked to its official source.
+"""
+
+[federal_register]
+queries = [
+  { presidential_document_types = ["executive_order"], president = "donald-trump" },
+]
+
+[doj_clemency]
+pages = ["https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present"]
+
+[fec_form13]
+# Trump Vance Inaugural Committee, Inc.
+committees = ["C00894162"]
+
+[site]
+order = 3
+tab = "Accountability"
+view = "accountability"
+headline = "Executive orders, pardons and inaugural money"
+lede = """Every executive order since January 20, 2025, every pardon and commutation the \
+Justice Department has published, and every donation the inaugural committee reported \
+to the FEC. Official records only, each linked to its source. Nothing here asserts \
+wrongdoing; it shows what the record says so you can check it."""
+
+[[site.filters]]
+label = "All"
+
+[[site.filters]]
+label = "Executive orders"
+doc_types = ["executive_order"]
+
+[[site.filters]]
+label = "Pardons and commutations"
+doc_types = ["pardoned", "commuted", "clemency"]
+
+[site.ask]
+examples = [
+  "Who were the largest donors to the inaugural committee?",
+  "What kinds of offenses were most of the pardons for?",
+  "Which executive orders were signed in the first week?",
+  "What clemency was granted by proclamation rather than to named individuals?",
+]

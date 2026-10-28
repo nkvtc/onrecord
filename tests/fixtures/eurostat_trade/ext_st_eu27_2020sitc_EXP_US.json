@@ -1,0 +1,280 @@
+{
+ "class": "dataset",
+ "dimension": {
+  "freq": {
+   "category": {
+    "index": {
+     "M": 0
+    },
+    "label": {
+     "M": "Monthly"
+    }
+   },
+   "label": "Time frequency"
+  },
+  "geo": {
+   "category": {
+    "index": {
+     "EU27_2020": 0
+    },
+    "label": {
+     "EU27_2020": "European Union - 27 countries (from 2020)"
+    }
+   },
+   "label": "Geopolitical entity (reporting)"
+  },
+  "indic_et": {
+   "category": {
+    "index": {
+     "TRD_VAL_SCA": 0
+    },
+    "label": {
+     "TRD_VAL_SCA": "Seasonally and calendar adjusted trade value in million ECU/EURO"
+    }
+   },
+   "label": "External trade indicator"
+  },
+  "partner": {
+   "category": {
+    "index": {
+     "US": 0
+    },
+    "label": {
+     "US": "United States"
+    }
+   },
+   "label": "Geopolitical entity (partner)"
+  },
+  "sitc06": {
+   "category": {
+    "index": {
+     "TOTAL": 0
+    },
+    "label": {
+     "TOTAL": "Total - all products"
+    }
+   },
+   "label": "Standard International Trade Classification (SITC Rev. 4, 2006)"
+  },
+  "stk_flow": {
+   "category": {
+    "index": {
+     "EXP": 0
+    },
+    "label": {
+     "EXP": "Exports"
+    }
+   },
+   "label": "Stock or flow"
+  },
+  "time": {
+   "category": {
+    "index": {
+     "2024-01": 0,
+     "2024-02": 1,
+     "2024-03": 2,
+     "2024-04": 3,
+     "2024-05": 4,
+     "2024-06": 5,
+     "2024-07": 6,
+     "2024-08": 7,
+     "2024-09": 8,
+     "2024-10": 9,
+     "2024-11": 10,
+     "2024-12": 11,
+     "2025-01": 12,
+     "2025-02": 13,
+     "2025-03": 14,
+     "2025-04": 15,
+     "2025-05": 16,
+     "2025-06": 17,
+     "2025-07": 18,
+     "2025-08": 19,
+     "2025-09": 20,
+     "2025-10": 21,
+     "2025-11": 22,
+     "2025-12": 23,
+     "2026-01": 24,
+     "2026-02": 25,
+     "2026-03": 26,
+     "2026-04": 27,
+     "2026-05": 28,
+     "2026-06": 29,
+     "2026-07": 30,
+     "2026-08": 31
+    },
+    "label": {
+     "2024-01": "2024-01",
+     "2024-02": "2024-02",
+     "2024-03": "2024-03",
+     "2024-04": "2024-04",
+     "2024-05": "2024-05",
+     "2024-06": "2024-06",
+     "2024-07": "2024-07",
+     "2024-08": "2024-08",
+     "2024-09": "2024-09",
+     "2024-10": "2024-10",
+     "2024-11": "2024-11",
+     "2024-12": "2024-12",
+     "2025-01": "2025-01",
+     "2025-02": "2025-02",
+     "2025-03": "2025-03",
+     "2025-04": "2025-04",
+     "2025-05": "2025-05",
+     "2025-06": "2025-06",
+     "2025-07": "2025-07",
+     "2025-08": "2025-08",
+     "2025-09": "2025-09",
+     "2025-10": "2025-10",
+     "2025-11": "2025-11",
+     "2025-12": "2025-12",
+     "2026-01": "2026-01",
+     "2026-02": "2026-02",
+     "2026-03": "2026-03",
+     "2026-04": "2026-04",
+     "2026-05": "2026-05",
+     "2026-06": "2026-06",
+     "2026-07": "2026-07",
+     "2026-08": "2026-08"
+    }
+   },
+   "label": "Time"
+  }
+ },
+ "extension": {
+  "agencyId": "ESTAT",
+  "annotation": [
+   {
+    "date": "2018-04-09T15:46:30+0200",
+    "type": "CREATED"
+   },
+   {
+    "title": "<adms:identifier xmlns:adms=\"http://www.w3.org/ns/adms#\" xmlns:skos=\"http://www.w3.org/2004/02/skos/core.html\" xmlns:dct=\"http://purl.org/dc/terms/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><adms:Identifier rdf:about=\"https://doi.org/10.2908/EXT_ST_EU27_2020SITC\"><skos:notation rdf:datatype=\"http://purl.org/spar/datacite/doi\">10.2908/EXT_ST_EU27_2020SITC</skos:notation><dct:creator rdf:resource=\"http://publications.europa.eu/resource/authority/corporate-body/ESTAT\"/><dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">2023-01-19</dct:issued></adms:Identifier></adms:identifier>",
+    "type": "DISSEMINATION_DOI_XML"
+   },
+   {
+    "title": "DATASET",
+    "type": "DISSEMINATION_OBJECT_TYPE"
+   },
+   {
+    "date": "2026-10-16T11:00:00+0200",
+    "type": "DISSEMINATION_TIMESTAMP_DATA"
+   },
+   {
+    "date": "2026-10-16T11:00:00+0200",
+    "type": "DISSEMINATION_TIMESTAMP_GLOBAL"
+   },
+   {
+    "date": "2026-10-16T11:00:00+0200",
+    "type": "DISSEMINATION_TIMESTAMP_PLANNED"
+   },
+   {
+    "href": "https://ec.europa.eu/eurostat/cache/metadata/en/ext_go_agg_esms.htm",
+    "title": "Explanatory texts (metadata)",
+    "type": "ESMS_HTML"
+   },
+   {
+    "href": "https://ec.europa.eu/eurostat/api/dissemination/files?file=metadata/ext_go_agg_esms.sdmx.zip",
+    "title": "Explanatory texts (metadata)",
+    "type": "ESMS_SDMX"
+   },
+   {
+    "title": "6397337",
+    "type": "OBS_COUNT"
+   },
+   {
+    "title": "2026-08",
+    "type": "OBS_PERIOD_OVERALL_LATEST"
+   },
+   {
+    "title": "2002-01",
+    "type": "OBS_PERIOD_OVERALL_OLDEST"
+   },
+   {
+    "text": "Eurostat",
+    "type": "SOURCE_INSTITUTIONS"
+   },
+   {
+    "date": "2026-10-16T11:00:00+0200",
+    "type": "UPDATE_DATA"
+   },
+   {
+    "date": "2026-10-16T11:00:00+0200",
+    "type": "UPDATE_STRUCTURE"
+   }
+  ],
+  "datastructure": {
+   "agencyId": "ESTAT",
+   "id": "EXT_ST_EU27_2020SITC",
+   "version": "79.0"
+  },
+  "id": "EXT_ST_EU27_2020SITC",
+  "lang": "EN",
+  "positions-with-no-data": {
+   "freq": [],
+   "geo": [],
+   "indic_et": [],
+   "partner": [],
+   "sitc06": [],
+   "stk_flow": [],
+   "time": []
+  },
+  "version": "1.0"
+ },
+ "id": [
+  "freq",
+  "stk_flow",
+  "indic_et",
+  "partner",
+  "sitc06",
+  "geo",
+  "time"
+ ],
+ "label": "EU27 (from 2020) trade by SITC product group",
+ "size": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  32
+ ],
+ "source": "ESTAT",
+ "updated": "2026-10-16T11:00:00+0200",
+ "value": {
+  "0": 42407.7,
+  "1": 41946.5,
+  "10": 46438.3,
+  "11": 46296.0,
+  "12": 50330.3,
+  "13": 53678.1,
+  "14": 67564.7,
+  "15": 47115.6,
+  "16": 46420.3,
+  "17": 41929.8,
+  "18": 41167.6,
+  "19": 38200.3,
+  "2": 43176.5,
+  "20": 51364.3,
+  "21": 38249.2,
+  "22": 38334.7,
+  "23": 38880.2,
+  "24": 38401.1,
+  "25": 40003.0,
+  "26": 40980.9,
+  "27": 41118.0,
+  "28": 43966.4,
+  "29": 43641.9,
+  "3": 44734.0,
+  "30": 46232.0,
+  "31": 44975.7,
+  "4": 43903.1,
+  "5": 45395.4,
+  "6": 43622.3,
+  "7": 46369.0,
+  "8": 46339.7,
+  "9": 43737.0
+ },
+ "version": "2.0"
+}

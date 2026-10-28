@@ -6,6 +6,7 @@ Four layers, kept apart on purpose:
 - Event:       something that officially happened (signed, published, took effect, ...).
 - Claim:       something an official body *said*. Not proof that it happened.
 - Observation: a number from an official statistical release (trade flows, prices, ...).
+- Transaction: money between named parties, as reported in an official filing.
 
 Every Event, Claim and Observation points back at the RawDocument it came from,
 plus a `locator` saying where inside that document to look. If a record can't say
@@ -56,6 +57,10 @@ class Event:
     title: str
     locator: str  # where in the source document this is stated
     extracted_by: str  # "rule:<adapter>@<version>" or later "llm:<model>"
+    # Who the act was done to or for, when the source names one (e.g. a pardon recipient).
+    subject: str | None = None
+    # Source-stated particulars, copied verbatim (district, offense, sentence, ...).
+    details: dict = field(default_factory=dict)
 
 
 EVENT_KINDS = {
@@ -67,6 +72,11 @@ EVENT_KINDS = {
     "revoked",
     "challenged",  # court challenge filed
     "struck_down",
+    "proposed",  # a formal proposal (e.g. European Commission proposal for a regulation)
+    "adopted",  # an act adopted by the body with power to adopt it
+    "pardoned",
+    "commuted",
+    "clemency",  # pardon or commutation, where the source doesn't say which
 }
 
 
@@ -90,9 +100,26 @@ class Observation:
     released_at: str | None  # when the agency published this value (revisions happen!)
 
 
+@dataclass(frozen=True)
+class Transaction:
+    """Money moving between parties, as reported in an official filing."""
+
+    kind: str  # "donation", "refund"
+    payer: str  # exactly as filed, e.g. "PILGRIM'S PRIDE CORPORATION"
+    payer_type: str  # "individual", "organization", "unitemized"
+    payee: str
+    amount: float
+    currency: str
+    on: date
+    locator: str
+    extracted_by: str
+    details: dict = field(default_factory=dict)  # city/state etc.; never street addresses
+
+
 @dataclass
 class ParseResult:
     meta: DocumentMeta
     events: list[Event] = field(default_factory=list)
     claims: list[Claim] = field(default_factory=list)
     observations: list[Observation] = field(default_factory=list)
+    transactions: list[Transaction] = field(default_factory=list)

@@ -1,0 +1,84 @@
+# EU–US trade and tariffs.
+
+id = "eu-us-trade"
+title = "EU–US trade and tariffs"
+since = 2025-01-01
+description = """
+US presidential actions on tariffs affecting the European Union, the EU's own legal
+acts and proposals concerning the United States (including countermeasures and the
+trade framework agreement), and both sides' official monthly trade figures.
+"""
+
+[federal_register]
+queries = [
+  { term = "European Union tariff", types = ["PRESDOCU"] },
+  { term = "European Union", agencies = ["trade-representative-office-of-united-states"] },
+]
+
+[eurlex]
+# English title must contain one of these. Broad on purpose; noise is cut below.
+title_any = ["united states", "rebalancing measures"]
+# CELEX sectors: 2 international agreements, 3 legislation, 5 preparatory acts.
+sectors = ["2", "3", "5"]
+# Acts authored only by these bodies are dropped (DG SANTE = animal/plant health import
+# rules that mention the US as an origin, not trade policy). DG Trade acts are always kept.
+exclude_authors = ["SANTE", "OP_DATPRO"]
+
+[eurostat_trade]
+partners = ["US"]
+
+[fred_trade]
+series = [
+  { id = "EXP0003", label = "US exports of goods to the European Union" },
+  { id = "IMP0003", label = "US imports of goods from the European Union" },
+]
+
+[site]
+order = 2
+tab = "EU–US"
+headline = "EU–US trade, on the record"
+lede = """US presidential actions on tariffs affecting the EU, the EU's own legal acts and \
+proposals concerning the US, and both sides' official monthly trade figures. Each item \
+links to the primary source."""
+
+[[site.charts]]
+label = "EU figures"
+note = "Eurostat, ext_st_eu27_2020sitc. EUR millions, seasonally and calendar adjusted."
+views = [
+  { label = "US", title = "EU trade with the United States", exports = "eurostat:ext_st_eu27_2020sitc:EXP:US", imports = "eurostat:ext_st_eu27_2020sitc:IMP:US" },
+]
+
+[[site.charts]]
+label = "US figures"
+note = "US Census Bureau, republished on FRED. USD millions, not seasonally adjusted, so expect monthly swings."
+views = [
+  { label = "EU", title = "US trade with the European Union", exports = "fred:EXP0003", imports = "fred:IMP0003" },
+]
+
+[[site.markers]]
+label = "US presidential action"
+jurisdiction = "US"
+doc_types = ["executive_order", "proclamation", "memorandum", "determination"]
+
+[[site.markers]]
+label = "EU legal act or proposal"
+jurisdiction = "EU"
+
+[[site.filters]]
+label = "All"
+
+[[site.filters]]
+label = "US actions"
+jurisdiction = "US"
+
+[[site.filters]]
+label = "EU acts"
+jurisdiction = "EU"
+
+[site.ask]
+examples = [
+  "What countermeasures did the EU adopt against US tariffs, and when were they suspended?",
+  "What does the record show about the EU–US framework agreement?",
+  "Which US presidential actions targeted the EU, in order?",
+  "How did EU exports to the US move in 2025 by each side's figures?",
+]

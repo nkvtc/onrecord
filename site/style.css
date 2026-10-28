@@ -12,6 +12,7 @@
   --series-2: #eb6834; /* imports */
   --us: #1f3a5f;
   --ca: #b3261e;
+  --eu: #9a6b00;
   --chip: #efede8;
 }
 @media (prefers-color-scheme: dark) {
@@ -29,6 +30,7 @@
     --series-2: #d95926;
     --us: #9db8e0;
     --ca: #f08a83;
+    --eu: #e3b341;
     --chip: #262624;
   }
 }
@@ -36,10 +38,11 @@
   color-scheme: dark;
   --bg: #121211; --surface: #1a1a19; --border: #2e2d2b; --grid: #262624;
   --text: #f0efec; --text-2: #c3c2b7; --muted: #8e8d86; --accent: #3987e5;
-  --series-1: #3987e5; --series-2: #d95926; --us: #9db8e0; --ca: #f08a83; --chip: #262624;
+  --series-1: #3987e5; --series-2: #d95926; --us: #9db8e0; --ca: #f08a83; --eu: #e3b341; --chip: #262624;
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0;
   background: var(--bg);
@@ -49,7 +52,8 @@ body {
 a { color: var(--accent); }
 .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
 header { padding-top: 40px; padding-bottom: 8px; }
-.brand { font-weight: 700; letter-spacing: .04em; color: var(--muted); font-size: 13px; text-transform: uppercase; }
+.topbar { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+.brand { text-decoration: none; font-weight: 700; letter-spacing: .04em; color: var(--muted); font-size: 13px; text-transform: uppercase; }
 h1 { font-size: clamp(26px, 5vw, 36px); line-height: 1.15; margin: 6px 0 10px; }
 h2 { font-size: 18px; margin: 0; }
 .lede { color: var(--text-2); max-width: 680px; margin: 0 0 6px; }
@@ -103,6 +107,7 @@ input[type="search"] {
 .badge { font-size: 11px; font-weight: 700; padding: 1px 6px; border-radius: 4px; color: var(--surface); }
 .badge.US { background: var(--us); }
 .badge.CA { background: var(--ca); }
+.badge.EU { background: var(--eu); }
 .kind { text-transform: uppercase; letter-spacing: .04em; font-size: 11px; }
 .summary { color: var(--text-2); font-size: 14px; margin-top: 4px; }
 .events { font-size: 12px; color: var(--muted); margin-top: 4px; }
@@ -153,3 +158,33 @@ footer { color: var(--text-2); font-size: 13px; padding-bottom: 48px; border-top
   input[type="search"] { width: 100%; }
   .filters { width: 100%; }
 }
+
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+.tabs a {
+  text-decoration: none; color: var(--text-2); font-size: 14px; font-weight: 600;
+  padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border);
+}
+.tabs a:hover { color: var(--text); border-color: var(--muted); }
+.tabs a[aria-current="page"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 20px 0 0; }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.stat b { display: block; font-size: 28px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.stat span { display: block; color: var(--text-2); font-size: 14px; margin-top: 4px; }
+.stat small { display: block; color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+.table-wrap { overflow-x: auto; margin: 8px 0; }
+table.money { border-collapse: collapse; width: 100%; font-size: 14px; }
+table.money th { text-align: left; font-size: 12px; color: var(--muted); font-weight: 600; padding: 6px 12px 6px 0; border-bottom: 1px solid var(--border); }
+table.money td { padding: 6px 12px 6px 0; border-bottom: 1px solid var(--grid); vertical-align: top; }
+table.money td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.money tr.refund td { color: var(--text-2); }
+.pill { font-size: 11px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
+#money-q { width: 280px; }
+
+.xref-group { border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px; }
+.xref-group h3 { font-size: 14px; margin: 4px 0; }
+.xref-group ul { margin: 4px 0 8px; padding-left: 18px; font-size: 14px; }
+.xref-group li { margin: 2px 0; }
+#xref-q { flex: 1 1 260px; font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }

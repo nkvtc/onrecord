@@ -38,3 +38,63 @@ keywords = [
 # Statistics Canada table 12-10-0011 (merchandise trade by principal partner, monthly).
 partners = ["United States", "European Union", "All countries"]
 months = 48
+
+[fred_trade]
+# US-side figures for the same flows. FRED ids: EXP/IMP + partner code (CA = Canada).
+series = [
+  { id = "EXPCA", label = "US exports of goods to Canada" },
+  { id = "IMPCA", label = "US imports of goods from Canada" },
+]
+
+# ---------------------------------------------------------------------------
+# How the website presents this topic. Series ids are "<adapter prefix>:<id>".
+
+[site]
+order = 1
+tab = "US–Canada"
+headline = "US–Canada trade, on the record"
+lede = """Every US presidential action and Canadian government announcement on tariffs since January 2025, against both countries' official monthly trade figures. Each item links to the primary source. Nothing here is from news coverage."""
+
+[[site.charts]]
+label = "Canada's figures"
+note = "Statistics Canada, Table 12-10-0011-01. CAD millions, balance-of-payments basis, seasonally adjusted."
+views = [
+  { label = "US", title = "Canada's trade with the United States", exports = "statcan:12100011:1.2.2.2.2.0.0.0.0.0", imports = "statcan:12100011:1.1.2.2.2.0.0.0.0.0" },
+  { label = "EU", title = "Canada's trade with the European Union", exports = "statcan:12100011:1.2.2.2.3.0.0.0.0.0", imports = "statcan:12100011:1.1.2.2.3.0.0.0.0.0" },
+  { label = "World", title = "Canada's trade with the world", exports = "statcan:12100011:1.2.2.2.1.0.0.0.0.0", imports = "statcan:12100011:1.1.2.2.1.0.0.0.0.0" },
+]
+
+[[site.charts]]
+label = "US figures"
+note = "US Census Bureau, republished on FRED. USD millions, not seasonally adjusted, so expect monthly swings."
+views = [
+  { label = "Canada", title = "US trade with Canada", exports = "fred:EXPCA", imports = "fred:IMPCA" },
+]
+
+[[site.markers]]
+label = "US presidential action"
+jurisdiction = "US"
+doc_types = ["executive_order", "proclamation", "memorandum", "determination"]
+
+[[site.markers]]
+label = "Canadian government announcement"
+jurisdiction = "CA"
+
+[[site.filters]]
+label = "All"
+
+[[site.filters]]
+label = "US actions"
+jurisdiction = "US"
+
+[[site.filters]]
+label = "Canada statements"
+jurisdiction = "CA"
+
+[site.ask]
+examples = [
+  "What did the US do on Canadian steel and aluminum, and when did each step happen?",
+  "Which US actions against Canada were later suspended or modified?",
+  "What did Canada announce in response to the February 2025 US tariffs?",
+  "How did US imports from Canada move in 2025, by both countries' figures?",
+]

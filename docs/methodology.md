@@ -37,6 +37,37 @@ current limits:
   full-text search). A relevance review step is on the roadmap.
 - Canadian legal instruments (Canada Gazette orders) aren't collected yet, so Canada's
   side currently shows announcements only, not the orders that implemented them.
+- The `eurlex` filter keeps acts whose English title mentions the United States and drops
+  acts authored only by the Commission's health directorate (animal and plant health
+  import rules). Some anti-dumping notices on US products are kept; they are trade
+  measures, though not part of the tariff dispute.
+- US figures come from the Census Bureau via FRED and are not seasonally adjusted;
+  Canadian and EU figures shown are seasonally adjusted. The chart says which.
+
+## Accountability records
+
+The accountability topic holds executive orders, clemency grants and reported donations.
+It is the part of the project most likely to be misread, so its rules are stricter:
+
+- **No labels.** We don't call anything corrupt, suspicious or improper. We show what
+  official records say: who signed what, who was granted clemency, who reported giving
+  how much to whom.
+- **No automatic links between people.** A donor and a pardon recipient with the same
+  name may be different people. The site's name lookup searches every record but always
+  says that a matching name is not proof of a connection. A connection is shown as a
+  fact only when a primary source states it, added by hand through a reviewed pull
+  request with that source cited.
+- **As filed.** Donor names, amounts, dates and places are reproduced exactly as the
+  filer reported them, typos included (e.g. a city paired with the wrong state). We
+  don't correct filings; we link to them. Street addresses are not republished.
+- **Amendments supersede.** Committees amend reports. Only the latest amendment of each
+  report is counted, so donations aren't double counted; earlier filings stay archived.
+- **Where the source is ambiguous, so are we.** When the Justice Department lists
+  pardons and commutations together in one table without saying which applies to whom,
+  each entry is labelled "pardon or commutation", not guessed.
+- **Known gaps.** Mass grants by proclamation (e.g. January 6 defendants) are recorded as
+  one item: the Justice Department page doesn't list the individuals. Donations to other
+  committees (super PACs, campaign committees) and lobbying disclosures aren't collected yet.
 
 ## Corrections
 

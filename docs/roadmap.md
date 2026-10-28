@@ -8,16 +8,18 @@ Each item is sized to be a separate issue. ⭐ = good first issue.
   (e.g. *United States Surtax Order*). RSS at `https://gazette.gc.ca/rss/p2-eng.xml`
   lists issues, so each issue's index page needs crawling. Highest priority: right
   now Canada's side has announcements but not the legal acts.
-- ⭐ **US Census international trade API**: US-side monthly imports/exports by
-  country and HS code. Needs a free key (`CENSUS_API_KEY`). Lets us compare US and
-  Canadian figures for the same flows (they never match exactly, and that's worth showing).
+- **US Census international trade API** (by HS code): totals by country already come
+  from FRED; product-level detail (steel, autos, lumber) needs a free Census key.
 - **USITC Harmonized Tariff Schedule**: what the tariff rate on a product actually
   is, by date. Needed for the "tariff status tracker".
 - **CBP CSMS messages**: the operational guidance that says when duties actually start
   being collected.
 - **Court dockets** (CourtListener API): challenges to tariff actions (e.g. IEEPA cases).
 - **LEGISinfo / Congress.gov**: bills and votes.
-- **EU**: EUR-Lex (legal acts), Eurostat Comext (trade), TARIC (tariffs), for an EU–US topic.
+- **EU**: Commission press releases (claims), TARIC (tariff rates by product).
+- **Accountability**: other FEC committees (super PACs, campaign committees), USAspending
+  contracts, Office of Government Ethics disclosures, court dockets for pardoned cases.
+  Each needs the same "no automatic links" rule (see methodology.md).
 - **Lobbying**: US Senate LDA filings, Canada's Registry of Lobbyists.
 
 ## Features

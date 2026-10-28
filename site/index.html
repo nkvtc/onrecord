@@ -3,26 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>onrecord · US–Canada trade</title>
-<meta name="description" content="Every official US and Canadian action on tariffs since 2025, what each government said, and what the trade figures did. Sourced line by line.">
+<title>onrecord</title>
+<meta name="description" content="What governments actually did, sourced line by line: US–Canada and EU–US trade actions with both sides' trade figures, executive orders, pardons and inaugural donations.">
 <!-- API keys live in this page, so lock down where scripts load from and where data can go. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://api.anthropic.com https://api.openai.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="wrap">
-  <div class="brand">onrecord</div>
-  <h1>US–Canada trade, on the record</h1>
-  <p class="lede">Every US presidential action and Canadian government announcement on tariffs since January 2025, against the official monthly trade figures. Each item links to the primary source. Nothing here is from news coverage.</p>
-  <p class="meta" id="meta">Loading…</p>
+  <div class="topbar">
+    <a class="brand" href="#">onrecord</a>
+    <nav class="tabs" id="tabs" aria-label="Topics"></nav>
+  </div>
+  <h1 id="headline">Loading…</h1>
+  <p class="lede" id="lede"></p>
+  <p class="meta" id="meta"></p>
 </header>
 
 <main class="wrap">
+  <div class="stats" id="stats" hidden></div>
+
   <section class="card ai" aria-labelledby="ai-title">
     <div class="card-head">
       <div>
         <h2 id="ai-title">Ask the record</h2>
-        <p class="sub">Optional. Answers come only from the records on this page, with each claim linked to its source. Uses your own Anthropic or OpenAI key.</p>
+        <p class="sub">Optional. Answers come only from this topic's records, with each claim linked to its source. Uses your own Anthropic or OpenAI key.</p>
       </div>
       <span class="sub" id="ai-who"></span>
     </div>
@@ -51,24 +56,47 @@
       <div id="ai-log" aria-live="polite"></div>
       <div class="chips" id="ai-examples"></div>
       <form id="ai-form" class="ai-row">
-        <input id="ai-q" type="text" placeholder="Ask about what happened, e.g. what changed for Canadian lumber?" aria-label="Your question">
+        <input id="ai-q" type="text" placeholder="Ask about what happened" aria-label="Your question">
         <button type="submit" id="ai-send" class="primary">Ask</button>
       </form>
     </div>
   </section>
 
-  <section class="card" aria-labelledby="chart-title">
+  <section class="card" id="chart-card" aria-labelledby="chart-title" hidden>
     <div class="card-head">
       <div>
-        <h2 id="chart-title">Canada's merchandise trade with <span id="partner-name">United States</span></h2>
-        <p class="sub">Monthly, CAD millions, balance-of-payments basis, seasonally adjusted. Source: Statistics Canada, Table 12-10-0011-01.</p>
+        <h2 id="chart-title"></h2>
+        <p class="sub" id="chart-note"></p>
       </div>
-      <div class="seg" role="group" aria-label="Trading partner" id="partner"></div>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Whose figures" id="chart-source"></div>
+        <div class="seg" role="group" aria-label="Trading partner" id="partner"></div>
+      </div>
     </div>
     <div class="legend" id="legend"></div>
     <div class="chart" id="chart"></div>
-    <p class="note">Tick rows under the chart mark the dates of US presidential actions (signing date) and Canadian government announcements. Hover or tap a tick to see it. Trade figures move for many reasons; lining up dates shows timing, not cause.</p>
+    <p class="note">Ticks under the chart mark official actions (signing or adoption date) and government announcements. Hover or tap a tick to see it. Trade figures move for many reasons; lining up dates shows timing, not cause. Each country reports its own figures, and the two never match exactly.</p>
     <details class="table-toggle"><summary>Show the numbers as a table</summary><div id="table"></div></details>
+  </section>
+
+  <section class="card" id="money-card" aria-labelledby="money-title" hidden>
+    <div class="card-head">
+      <div>
+        <h2 id="money-title">Reported donations</h2>
+        <p class="sub" id="money-sub"></p>
+      </div>
+      <input type="search" id="money-q" placeholder="Filter donors, e.g. a company or city" aria-label="Filter donations">
+    </div>
+    <p class="sub" id="money-count"></p>
+    <div class="table-wrap"><table class="money" id="money-table"></table></div>
+    <button type="button" class="link" id="money-more" hidden>Show all</button>
+  </section>
+
+  <section class="card" id="xref-card" aria-labelledby="xref-title" hidden>
+    <h2 id="xref-title">Look up a name across every record</h2>
+    <p class="sub">Searches every topic: donations, pardons, executive orders, trade actions. <strong>A matching name is not proof that two records are about the same person or company.</strong> Check the sources before drawing any connection.</p>
+    <div class="ai-row"><input type="search" id="xref-q" placeholder="e.g. a company, a person, a place" aria-label="Name to look up"></div>
+    <div id="xref-results"></div>
   </section>
 
   <section aria-labelledby="tl-title">
@@ -76,7 +104,7 @@
       <h2 id="tl-title">Timeline</h2>
       <div class="filters">
         <div class="seg" role="group" aria-label="Show" id="kind"></div>
-        <input type="search" id="q" placeholder="Filter, e.g. steel, 14193, lumber" aria-label="Filter timeline">
+        <input type="search" id="q" placeholder="Filter the timeline" aria-label="Filter timeline">
       </div>
     </div>
     <p class="sub" id="count"></p>
@@ -85,8 +113,8 @@
 </main>
 
 <footer class="wrap">
-  <p><strong>How to read this.</strong> <em>Actions</em> are official legal instruments (Federal Register). <em>Statements</em> are what a government said in a news release; a statement is not proof that something took effect. Dates come from source metadata, and every item keeps a hash of the exact document it came from.</p>
-  <p>Data: <a href="data/timeline.json">timeline.json</a> · <a href="data/series.json">series.json</a> · <a href="data/onrecord.sqlite">full SQLite database</a> · <a id="sql-link" href="#">query it with SQL in your browser</a>. Code is AGPL-3.0, data CC BY-SA 4.0. Spotted an error? Open an issue on GitHub.</p>
+  <p><strong>How to read this.</strong> <em>Actions</em> are official legal instruments (Federal Register, EUR-Lex, Justice Department warrants). <em>Statements</em> are what a government said in a news release; a statement is not proof that something took effect. Donations are as reported to the FEC by the recipient. Dates come from source metadata, and every item keeps a hash of the exact document it came from.</p>
+  <p>Data: <a id="data-link" href="data/topics.json">this topic's JSON</a> · <a href="data/onrecord.sqlite">full SQLite database</a> · <a id="sql-link" href="#">query it with SQL in your browser</a>. Code is AGPL-3.0, data CC BY-SA 4.0. Spotted an error? <a href="https://github.com/nkvtc/onrecord/issues/new?template=data-error.yml">Report it</a>.</p>
 </footer>
 
 <div class="tip" id="tip" role="status" hidden></div>

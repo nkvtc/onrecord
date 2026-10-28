@@ -21,6 +21,7 @@ class Topic:
     since: date
     description: str = ""
     sources: dict = field(default_factory=dict)  # adapter name -> its config table
+    site: dict = field(default_factory=dict)  # how the website presents this topic
 
     def config(self, adapter: str) -> dict | None:
         return self.sources.get(adapter)
@@ -29,6 +30,7 @@ class Topic:
 def load_topic(path: Path) -> Topic:
     data = tomllib.loads(Path(path).read_text(encoding="utf-8"))
     meta = {k: data.pop(k) for k in ("id", "title", "since", "description") if k in data}
+    site = data.pop("site", {})
     since = meta["since"]
     if isinstance(since, str):
         since = date.fromisoformat(since)
@@ -38,6 +40,7 @@ def load_topic(path: Path) -> Topic:
         since=since,
         description=meta.get("description", ""),
         sources=data,
+        site=site,
     )
 
 

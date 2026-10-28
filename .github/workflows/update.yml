@@ -40,13 +40,15 @@ jobs:
             git worktree add --orphan -b data data
             printf '*.sqlite\n' > data/.gitignore
           fi
+          # Archived bytes are hashed: git must never rewrite line endings in them.
+          printf '* -text\n' > data/.gitattributes
 
       - run: uv run onrecord rebuild
       - name: Pull from government sources
         # A failing source is reported but must not block publishing the rest.
         run: uv run onrecord pull || echo "::warning::some sources failed, see log"
         env:
-          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
       - run: uv run onrecord status
       - run: uv run onrecord export --out build
 
