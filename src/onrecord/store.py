@@ -261,7 +261,23 @@ class Store:
         return doc_id, True
 
     def replace_derived(self, document_id: int, parsed: ParseResult) -> None:
-        """Re-parse path: swap out everything derived from one document."""
+        """Re-parse path: swap out everything derived from one document, metadata included."""
+        m = parsed.meta
+        self.db.execute(
+            """UPDATE documents SET title=?, jurisdiction=?, publisher=?, doc_type=?,
+                   published_on=?, canonical_url=?, citation=?, extra_json=? WHERE id=?""",
+            (
+                m.title,
+                m.jurisdiction,
+                m.publisher,
+                m.doc_type,
+                _iso(m.published_on),
+                m.canonical_url,
+                m.citation,
+                json.dumps(m.extra, sort_keys=True),
+                document_id,
+            ),
+        )
         for table in ("events", "claims", "observations", "transactions"):
             self.db.execute(f"DELETE FROM {table} WHERE document_id=?", (document_id,))
         self._write_derived(document_id, parsed)

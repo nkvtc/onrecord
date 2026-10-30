@@ -13,6 +13,8 @@
   --us: #1f3a5f;
   --ca: #b3261e;
   --eu: #9a6b00;
+  --agency: #6b6a65;
+  --p1: #2a78d6; --p2: #eb6834; --p3: #1baf7a; --p4: #eda100; --p5: #e87ba4;
   --chip: #efede8;
 }
 @media (prefers-color-scheme: dark) {
@@ -31,6 +33,8 @@
     --us: #9db8e0;
     --ca: #f08a83;
     --eu: #e3b341;
+    --agency: #a8a69d;
+    --p1: #3987e5; --p2: #d95926; --p3: #199e70; --p4: #c98500; --p5: #d55181;
     --chip: #262624;
   }
 }
@@ -39,6 +43,8 @@
   --bg: #121211; --surface: #1a1a19; --border: #2e2d2b; --grid: #262624;
   --text: #f0efec; --text-2: #c3c2b7; --muted: #8e8d86; --accent: #3987e5;
   --series-1: #3987e5; --series-2: #d95926; --us: #9db8e0; --ca: #f08a83; --eu: #e3b341; --chip: #262624;
+  --agency: #a8a69d;
+  --p1: #3987e5; --p2: #d95926; --p3: #199e70; --p4: #c98500; --p5: #d55181;
 }
 
 * { box-sizing: border-box; }
@@ -188,3 +194,8 @@ table.money tr.refund td { color: var(--text-2); }
 .xref-group ul { margin: 4px 0 8px; padding-left: 18px; font-size: 14px; }
 .xref-group li { margin: 2px 0; }
 #xref-q { flex: 1 1 260px; font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+
+.panel { margin: 20px 0; }
+.panel-lead .big { font-size: 18px; line-height: 1.4; margin: 10px 0 4px; }
+.panel-lead .big b { font-variant-numeric: tabular-nums; }
+.panel .bar:hover text { fill: var(--text) !important; }

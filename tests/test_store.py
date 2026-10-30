@@ -91,3 +91,19 @@ def test_money_export_uses_only_latest_amendment(tmp_path, fixture):
     money = build_money(store, "m")
     assert [r["citation"] for r in money["reports"]] == ["FEC filing 1910509"]
     assert len(money["transactions"]) == 974
+
+
+def test_http_gives_up_on_long_retry_after(monkeypatch):
+    import httpx
+    import pytest
+
+    from onrecord.http import Http
+
+    def handler(request):
+        return httpx.Response(429, headers={"Retry-After": "64135"}, request=request)
+
+    http = Http(min_interval=0)
+    http.client = httpx.Client(transport=httpx.MockTransport(handler))
+    monkeypatch.setattr("time.sleep", lambda s: pytest.fail(f"slept {s}s"))
+    with pytest.raises(httpx.HTTPStatusError):
+        http.get("https://example.test/")

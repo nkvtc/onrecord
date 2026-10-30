@@ -41,13 +41,14 @@ class FederalRegister(Adapter):
     name = "federal_register"
     jurisdiction = "US"
     description = "US Federal Register: presidential documents, rules, notices"
+    version = 2
 
     def fetch(self, topic: Topic) -> Iterator[RawDocument]:
         cfg = topic.config(self.name) or {}
         seen: set[str] = set()
         for q in cfg.get("queries", []):
             params: list[tuple[str, str]] = [
-                ("per_page", "200"),
+                ("per_page", "1000"),
                 ("order", "oldest"),
                 ("conditions[publication_date][gte]", topic.since.isoformat()),
                 ("conditions[term]", q["term"]) if "term" in q else None,
@@ -149,6 +150,11 @@ class FederalRegister(Adapter):
                     "pdf_url": d.get("pdf_url"),
                     "raw_text_url": d.get("raw_text_url"),
                     "agencies": agencies,
+                    # For counting orders per president: corrections and republished
+                    # copies share an order's number, so counts use distinct numbers.
+                    "executive_order_number": d.get("executive_order_number"),
+                    "president": (d.get("president") or {}).get("identifier"),
+                    "signing_date": d.get("signing_date"),
                 },
             ),
             events=events,

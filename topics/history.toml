@@ -1,0 +1,65 @@
+# Historical context: how today's numbers compare with past presidencies.
+#
+# Every comparison here is computed from official records with a stated counting rule
+# (see docs/methodology.md, "Historical comparisons"). The page shows the rule next to
+# each chart, because a comparison is only as fair as the way it counts.
+
+id = "history"
+title = "How this compares with past presidencies"
+since = 1994-01-01
+description = """
+Executive orders signed per president (Federal Register, 1994 onward), clemency granted
+on petitions per president (Justice Department, back to 1900), and total donations
+reported by each presidential inaugural committee (FEC, 2005 onward).
+"""
+
+[federal_register]
+# The Federal Register's online records start in 1994.
+queries = [
+  { presidential_document_types = ["executive_order"] },
+]
+
+[doj_clemency_stats]
+pages = ["https://www.justice.gov/pardon/clemency-statistics"]
+
+[fec_inaugural_totals]
+committees = [
+  { id = "C00409011", label = "Bush 2005", inauguration = "2005-01-20" },
+  { id = "C00458166", label = "Obama 2009", inauguration = "2009-01-20" },
+  { id = "C00540005", label = "Obama 2013", inauguration = "2013-01-20" },
+  { id = "C00629584", label = "Trump 2017", inauguration = "2017-01-20" },
+  { id = "C00765040", label = "Biden 2021", inauguration = "2021-01-20" },
+  { id = "C00894162", label = "Trump 2025", inauguration = "2025-01-20" },
+]
+
+[site]
+order = 5
+tab = "In context"
+view = "history"
+headline = "How this compares with past presidencies"
+lede = """The same official records, counted the same way across presidents: executive \
+orders signed, clemency granted, and money raised for inaugurations. Each chart states \
+exactly how it counts, so you can check it."""
+
+[[site.panels]]
+kind = "eo_pace"
+title = "Executive orders signed, by day in office"
+
+[[site.panels]]
+kind = "clemency_by_president"
+title = "Clemency granted on petitions, by president"
+
+[[site.panels]]
+kind = "inaugural_totals"
+title = "Money raised by inaugural committees"
+
+[[site.filters]]
+label = "All executive orders"
+
+[site.ask]
+examples = [
+  "How many executive orders had each president signed by this point in their term?",
+  "Which presidents granted the most commutations, and how does that compare with pardons?",
+  "How has inaugural committee fundraising changed since 2005?",
+  "Which executive orders were signed on the first day of each term?",
+]

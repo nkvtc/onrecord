@@ -9,6 +9,7 @@ Layout:
     data/<topic>/timeline.json     dated items (one per document, or per person for lists)
     data/<topic>/series.json       statistical series used by the topic
     data/<topic>/money.json        reported transactions (donations, refunds)
+    data/<topic>/panels.json       computed comparisons (see panels.py)
     data/meta.json                 build time and global counts
     data/onrecord.sqlite           everything
 """
@@ -20,6 +21,7 @@ import shutil
 from datetime import UTC, datetime
 from pathlib import Path
 
+from .panels import build_panels
 from .store import Store
 from .topics import Topic
 
@@ -215,6 +217,10 @@ def export(store: Store, out_dir: Path, topics: list[Topic], site_dir: Path | No
         dump(data_dir / topic.id / "timeline.json", timeline)
         dump(data_dir / topic.id / "series.json", series)
         dump(data_dir / topic.id / "money.json", money)
+        dump(
+            data_dir / topic.id / "panels.json",
+            build_panels(store, topic.site.get("panels", []), datetime.now(UTC).date()),
+        )
         index.append(
             {
                 "id": topic.id,

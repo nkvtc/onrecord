@@ -44,6 +44,25 @@ current limits:
 - US figures come from the Census Bureau via FRED and are not seasonally adjusted;
   Canadian and EU figures shown are seasonally adjusted. The chart says which.
 
+## Historical comparisons
+
+Comparisons across presidents are where a careless count does the most damage, so each
+one is computed in `src/onrecord/panels.py` with a written rule, and the site prints
+that rule under the chart.
+
+- **Executive orders** count distinct order numbers by signing date. The Federal
+  Register API also returns corrections and republished copies under the same number;
+  counting documents instead of numbers overstates totals (Obama: 294 documents, 276
+  orders). The comparison uses days in office, so a president part-way through a term is
+  compared with others at the same day, not with their full totals. Clinton is left out
+  because the online record starts in 1994.
+- **Clemency** uses the Justice Department's own per-president tables of petitions
+  granted. Grants by proclamation to whole groups are not in those tables, and the page
+  says so. A current term appears only when DOJ publishes it; until then the page shows
+  the count from DOJ's grant list, labelled as a different measure.
+- **Inaugural money** is the total each committee reported to the FEC in its latest
+  supplement or 90-day report, in nominal dollars (not adjusted for inflation).
+
 ## Accountability records
 
 The accountability topic holds executive orders, clemency grants and reported donations.

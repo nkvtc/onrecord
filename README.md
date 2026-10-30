@@ -7,15 +7,20 @@ orders, gazette notices, votes, regulations, and official statistics. It shows w
 *said*, what was *legally done*, and what the official numbers did afterwards, with
 every item linked to the primary source.
 
-Three topics so far:
+Five topics so far:
 
 - **US–Canada trade**: every US presidential action and Canadian government announcement
   on tariffs since January 2025, against *both* countries' official monthly trade figures.
 - **EU–US trade**: US actions affecting the EU, the EU's own legal acts and proposals
   (countermeasures, their suspensions, the framework agreement), and both sides' figures.
+- **US–China trade**: US tariff actions and export controls against China since the
+  2018 trade war, with US trade figures back to 1985.
 - **Accountability**: every executive order since January 20, 2025, every pardon and
   commutation the Justice Department has published, and every donation the presidential
   inaugural committee reported to the FEC, plus a name lookup across all records.
+- **In context**: the same records counted the same way across presidents: executive
+  orders by day in office (1994 onward), clemency per president (back to 1900), and
+  money raised by inaugural committees (2005 onward). Each chart states its counting rule.
 
 > Status: early. The data pipeline works and runs daily. The site is a first view.
 > Everything on the [roadmap](docs/roadmap.md) is open for contributors.
@@ -61,6 +66,8 @@ archive).
 | `eurostat_trade` | EU | EU27 monthly goods trade by partner (Eurostat) | no |
 | `doj_clemency` | US | Pardons and commutations (DOJ Office of the Pardon Attorney) | no |
 | `fec_form13` | US | Donations to the presidential inaugural committee (FEC Form 13) | optional `FEC_API_KEY` |
+| `doj_clemency_stats` | US | Clemency granted per president, back to 1900 (DOJ statistics) | no |
+| `fec_inaugural_totals` | US | Total donations per inaugural committee, 2005 onward (FEC) | optional `FEC_API_KEY` |
 
 Wanted next: Canada Gazette (the legal instruments behind Canadian countermeasures),
 USITC tariff schedule, court dockets, lobbying disclosures, federal contracts,

@@ -31,8 +31,9 @@ class FredTrade(Adapter):
 
     def fetch(self, topic: Topic) -> Iterator[RawDocument]:
         cfg = topic.config(self.name) or {}
-        start = date(topic.since.year - 1, 1, 1).isoformat()
+        default_start = date(topic.since.year - 1, 1, 1).isoformat()
         for s in cfg.get("series", []):
+            start = s.get("start", default_start)
             resp = self.http.get(CSV_URL, params={"id": s["id"], "cosd": start})
             # Wrap the CSV with the label from the topic file, so parse() stays pure.
             item = {"series": s, "csv": resp.text, "url": str(resp.url)}

@@ -10,7 +10,7 @@ const TYPE_LABELS = {
 const JUR_COLOR = { US: "--us", CA: "--ca", EU: "--eu" };
 
 const state = { topic: null, chart: 0, view: 0, filter: 0, q: "", moneyQ: "", moneyAll: false };
-let topics = [], meta = {}, data = { timeline: [], series: {}, money: { reports: [], transactions: [] } };
+let topics = [], meta = {}, data = { timeline: [], series: {}, money: { reports: [], transactions: [] }, panels: [] };
 const cache = {};
 
 // Shared with chat.js (a module, loaded after this script).
@@ -34,8 +34,8 @@ const getJSON = (path) => fetch(path).then((r) => { if (!r.ok) throw new Error(`
 
 async function loadTopic(id) {
   if (!cache[id]) {
-    const [timeline, series, money] = await Promise.all(["timeline", "series", "money"].map((n) => getJSON(`data/${id}/${n}.json`)));
-    cache[id] = { timeline, series, money };
+    const [timeline, series, money, panels] = await Promise.all(["timeline", "series", "money", "panels"].map((n) => getJSON(`data/${id}/${n}.json`)));
+    cache[id] = { timeline, series, money, panels };
   }
   return cache[id];
 }
@@ -50,7 +50,8 @@ async function init() {
   $("#money-more").addEventListener("click", () => { state.moneyAll = true; renderMoney(); });
   $("#xref-q").addEventListener("input", debounce(renderXref, 200));
   new ResizeObserver(() => state.topic && renderChart()).observe($("#chart"));
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => renderChart());
+  new ResizeObserver(debounce(() => state.topic && renderPanels(), 100)).observe($("#panels"));
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { renderChart(); renderPanels(); });
   addEventListener("hashchange", route);
   await route();
 }
@@ -90,6 +91,7 @@ function renderTopic() {
   $("#xref-card").hidden = s.view !== "accountability";
   $("#xref-q").value = ""; $("#xref-results").innerHTML = "";
   renderStats();
+  renderPanels();
   renderMoney();
   renderTimeline();
 }
@@ -151,12 +153,13 @@ function renderChart() {
     { label: "Exports", s: data.series[view.exports], color: css("--series-1") },
     { label: "Imports", s: data.series[view.imports], color: css("--series-2") },
   ].filter((l) => l.s);
-  lines.forEach((l) => (l.points = l.s.points.filter(([d]) => d >= DOMAIN_START)));
+  const since = view.since || DOMAIN_START;
+  lines.forEach((l) => (l.points = l.s.points.filter(([d]) => d >= since)));
   const allPts = lines.flatMap((l) => l.points);
   if (!allPts.length) { host.innerHTML = `<p class="sub">No figures exported for this view yet.</p>`; $("#legend").innerHTML = ""; return; }
   const unit = lines[0].s.unit;
 
-  const t0 = Date.parse(DOMAIN_START);
+  const t0 = Date.parse(since);
   const lastPeriod = allPts.reduce((a, [d]) => (d > a ? d : a), "");
   const end = new Date(lastPeriod + "T00:00:00Z"); end.setUTCMonth(end.getUTCMonth() + 1);
   const t1 = Math.max(end.getTime(), Date.now());
@@ -170,9 +173,11 @@ function renderChart() {
     grid += `<line x1="${M.l}" x2="${W - M.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${M.l - 8}" y="${y(v) + 4}" text-anchor="end">${fmtNum(v)}</text>`;
   }
   let xAxis = "";
+  const years = new Date(t1).getUTCFullYear() - new Date(t0).getUTCFullYear();
+  const every = years > 24 ? 5 : years > 10 ? 2 : 1;
   for (let yr = new Date(t0).getUTCFullYear(); yr <= new Date(t1).getUTCFullYear(); yr++) {
     const iso = `${yr}-01-01`;
-    if (Date.parse(iso) < t0 || Date.parse(iso) > t1) continue;
+    if (Date.parse(iso) < t0 || Date.parse(iso) > t1 || yr % every) continue;
     xAxis += `<line x1="${x(iso)}" x2="${x(iso)}" y1="${M.t}" y2="${M.t + plotH}"/><text x="${x(iso) + 4}" y="${M.t + plotH + 16}">${yr}</text>`;
   }
 
@@ -185,13 +190,14 @@ function renderChart() {
 
   const rows = markers.map((m) => ({
     ...m,
-    color: css(JUR_COLOR[m.jurisdiction] || "--muted"),
-    items: data.timeline.filter((i) => i.jurisdiction === m.jurisdiction && i.date >= DOMAIN_START &&
+    color: css(m.color || JUR_COLOR[m.jurisdiction] || "--muted"),
+    items: data.timeline.filter((i) => i.jurisdiction === m.jurisdiction && i.date >= since &&
       (!m.doc_types || m.doc_types.includes(i.doc_type))),
   }));
   const rugs = rows.map((r, row) => {
     const cy = rugY + row * rugGap;
-    return `<text class="rug-label" x="${M.l - 8}" y="${cy + 4}" text-anchor="end">${esc(r.jurisdiction)}</text>` +
+    const tag = rows.filter((x) => x.jurisdiction === r.jurisdiction).length > 1 ? `${r.jurisdiction} ${row + 1}` : r.jurisdiction;
+    return `<text class="rug-label" x="${M.l - 8}" y="${cy + 4}" text-anchor="end">${esc(tag)}</text>` +
       r.items.map((i) => {
         const cx = x(i.date);
         return `<rect x="${cx - 1}" y="${cy - 7}" width="2" height="14" rx="1" fill="${r.color}"/>` +
@@ -355,3 +361,135 @@ function jumpTo(id) {
 }
 
 init().catch((err) => { $("#headline").textContent = "Could not load data"; $("#lede").textContent = `${err.message}. Run \`onrecord export\` first.`; });
+
+// ---- comparison panels (topics/<id>.toml [[site.panels]], computed in panels.py) ----
+
+const fmtMoneyShort = (v) => v >= 1e9 ? `$${(v / 1e9).toFixed(2)}B` : `$${(v / 1e6).toFixed(1)}M`;
+const PANEL_COLORS = ["--p1", "--p2", "--p3", "--p4", "--p5"];
+const eoState = { span: "4y" };
+
+function renderPanels() {
+  const host = $("#panels");
+  const panels = data.panels || [];
+  host.hidden = !panels.length;
+  if (!panels.length) { host.innerHTML = ""; return; }
+  host.innerHTML = panels.map((p, i) => `<section class="card panel" data-panel="${i}"><div class="card-head"><div><h2>${esc(p.title)}</h2>` +
+    `<p class="sub">${esc(p.source)}</p></div><div class="controls" data-controls></div></div><div class="panel-lead" data-lead></div>` +
+    `<div class="legend" data-legend></div><div class="chart" data-chart></div><p class="note"><strong>How this counts.</strong> ${esc(p.rule)}</p><div data-foot></div></section>`).join("");
+  panels.forEach((p, i) => {
+    const el = host.querySelector(`[data-panel="${i}"]`);
+    ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural })[p.kind]?.(el, p);
+  });
+}
+
+function drawEoPace(el, p) {
+  const terms = p.terms.map((t, i) => ({ ...t, color: css(PANEL_COLORS[i % PANEL_COLORS.length]) }));
+  const cur = terms.find((t) => t.current);
+  const others = terms.filter((t) => !t.current);
+  if (cur) {
+    el.querySelector("[data-lead]").innerHTML = `<p class="big">Day ${fmtNum(p.day_now)} in office: <b>${esc(cur.label)}</b> has signed <b>${fmtNum(cur.total)}</b> executive orders.</p>` +
+      `<p class="sub">At the same point: ${others.map((t) => `${esc(t.label)} ${fmtNum(t.by_same_day)}`).join(" · ")}. Whole-presidency totals: ${others.map((t) => `${esc(t.label)} ${fmtNum(t.total)}`).join(" · ")}.</p>`;
+  }
+  const controls = el.querySelector("[data-controls]");
+  controls.innerHTML = `<div class="seg" role="group" aria-label="Time span">${[["4y", "First 4 years"], ["8y", "Up to 8 years"]].map(([v, l]) =>
+    `<button type="button" data-v="${v}" aria-pressed="${eoState.span === v}">${l}</button>`).join("")}</div>`;
+  controls.onclick = (e) => { const b = e.target.closest("button"); if (b) { eoState.span = b.dataset.v; drawEoPace(el, p); } };
+
+  const host = el.querySelector("[data-chart]");
+  const W = Math.max(320, host.clientWidth), narrow = W < 560;
+  const M = { l: 44, r: narrow ? 12 : 170, t: 12, b: 28 }, H = narrow ? 240 : 300;
+  const xmax = eoState.span === "4y" ? 1461 : 2922;
+  const series = terms.map((t) => ({ ...t, pts: [[0, 0], ...t.points.filter(([d]) => d <= xmax)] }));
+  series.forEach((s) => {
+    const lastDay = Math.min(s.days_in_office, xmax), last = s.pts[s.pts.length - 1];
+    if (last[0] < lastDay) s.pts.push([lastDay, last[1]]);
+  });
+  const ymax = Math.max(10, ...series.flatMap((s) => s.pts.map(([, n]) => n))) * 1.08;
+  const x = (d) => M.l + (d / xmax) * (W - M.l - M.r);
+  const y = (n) => M.t + (H - M.t - M.b) - (n / ymax) * (H - M.t - M.b);
+  const step = niceStep(ymax / 4);
+  let grid = "";
+  for (let v = 0; v <= ymax; v += step) grid += `<line x1="${M.l}" x2="${W - M.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${M.l - 8}" y="${y(v) + 4}" text-anchor="end">${fmtNum(v)}</text>`;
+  for (let yr = 1; yr * 365.25 <= xmax; yr++) grid += `<line x1="${x(yr * 365.25)}" x2="${x(yr * 365.25)}" y1="${M.t}" y2="${H - M.b}"/><text x="${x(yr * 365.25)}" y="${H - 8}" text-anchor="middle">year ${yr}</text>`;
+  // Step lines: the count only changes on days an order is signed.
+  const path = (pts) => pts.map(([d, n], i) => i ? `H${x(d).toFixed(1)}V${y(n).toFixed(1)}` : `M${x(d).toFixed(1)},${y(n).toFixed(1)}`).join("");
+  const lines = series.map((s) => `<path class="line" stroke="${s.color}" d="${path(s.pts)}"${s.current ? ' stroke-width="3"' : ""}/>`).join("");
+  // Direct labels at line ends, nudged apart so they don't overlap.
+  const ends = series.map((s) => ({ s, yv: y(s.pts[s.pts.length - 1][1]), xv: x(s.pts[s.pts.length - 1][0]) })).sort((a, b) => a.yv - b.yv);
+  for (let i = 1; i < ends.length; i++) if (ends[i].yv - ends[i - 1].yv < 13) ends[i].yv = ends[i - 1].yv + 13;
+  const labels = narrow ? "" : ends.map((e) => `<text x="${e.xv + 6}" y="${e.yv + 4}" style="fill:var(--text-2)">${esc(e.s.label)} ${fmtNum(e.s.pts[e.s.pts.length - 1][1])}</text>`).join("");
+  const today = cur && p.day_now <= xmax ? `<line class="crosshair" x1="${x(p.day_now)}" x2="${x(p.day_now)}" y1="${M.t}" y2="${H - M.b}"/><text x="${x(p.day_now) + 4}" y="${M.t + 10}">today</text>` : "";
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Cumulative executive orders by day in office for ${terms.length} presidencies">` +
+    `<g class="grid">${grid}</g>${today}${lines}${labels}<line class="crosshair" data-xh y1="${M.t}" y2="${H - M.b}" visibility="hidden"/>` +
+    `<rect class="hit" data-plot x="${M.l}" y="${M.t}" width="${W - M.l - M.r}" height="${H - M.t - M.b}"/></svg>`;
+  el.querySelector("[data-legend]").innerHTML = terms.map((t) => `<span><i style="background:${t.color}"></i>${esc(t.label)}</span>`).join("");
+  const svg = host.querySelector("svg"), xh = svg.querySelector("[data-xh]");
+  const at = (s, d) => s.pts.reduce((n, [pd, pn]) => (pd <= d ? pn : n), 0);
+  svg.querySelector("[data-plot]").addEventListener("pointermove", (e) => {
+    const d = Math.max(0, Math.min(xmax, Math.round((((e.offsetX / svg.clientWidth) * W - M.l) / (W - M.l - M.r)) * xmax)));
+    xh.setAttribute("x1", x(d)); xh.setAttribute("x2", x(d)); xh.setAttribute("visibility", "visible");
+    showTip(e, `<b>Day ${fmtNum(d)} in office</b>` + series.filter((s) => d <= s.days_in_office).map((s) =>
+      `<span class="v"><i style="background:${s.color}"></i>${esc(s.label)}: ${fmtNum(at(s, d))}</span>`).join(""));
+  });
+  svg.querySelector("[data-plot]").addEventListener("pointerleave", () => { xh.setAttribute("visibility", "hidden"); hideTip(); });
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["President", `By day ${fmtNum(p.day_now ?? 0)}`, "Whole presidency"],
+    terms.map((t) => [t.label, fmtNum(t.by_same_day ?? 0), t.current ? `${fmtNum(t.total)} so far` : fmtNum(t.total)]));
+}
+
+function hbars(el, rows, segments, fmt) {
+  // rows: [{label, values: [one per segment], note, url}]; segments: [{label, color}]
+  const host = el.querySelector("[data-chart]");
+  const W = Math.max(320, host.clientWidth), narrow = W < 560;
+  const labelW = narrow ? 120 : 170, valueW = 80, barH = 16, gap = 8;
+  const H = rows.length * (barH + gap) + 4;
+  const max = Math.max(...rows.map((r) => r.values.reduce((a, b) => a + b, 0)), 1);
+  const x = (v) => (v / max) * (W - labelW - valueW);
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Horizontal bar chart">` + rows.map((r, i) => {
+    const yy = i * (barH + gap);
+    let off = labelW, bars = "";
+    r.values.forEach((v, j) => {
+      const w = x(v);
+      // 2px surface gap between stacked segments.
+      const gapAfter = j < r.values.length - 1 && r.values[j + 1] > 0 ? 2 : 0;
+      if (w > 0) bars += `<rect x="${off}" y="${yy}" width="${Math.max(w - gapAfter, 1)}" height="${barH}" rx="2" fill="${segments[j].color}"/>`;
+      off += w;
+    });
+    const total = r.values.reduce((a, b) => a + b, 0);
+    return `<g class="bar" data-i="${i}"><text x="${labelW - 8}" y="${yy + barH - 4}" text-anchor="end" style="fill:var(--text-2)">${esc(r.label)}</text>${bars}` +
+      `<text x="${off + 6}" y="${yy + barH - 4}" style="fill:var(--text-2)">${esc(fmt(total))}</text>` +
+      `<rect class="hit" x="0" y="${yy - gap / 2}" width="${W}" height="${barH + gap}"/></g>`;
+  }).join("") + `</svg>`;
+  el.querySelector("[data-legend]").innerHTML = segments.length > 1 ? segments.map((s) => `<span><i style="background:${s.color}"></i>${esc(s.label)}</span>`).join("") : "";
+  host.querySelectorAll(".bar").forEach((g) => {
+    const r = rows[g.dataset.i];
+    g.addEventListener("pointermove", (e) => showTip(e, `<b>${esc(r.label)}</b>` + r.values.map((v, j) =>
+      `<span class="v"><i style="background:${segments[j].color}"></i>${esc(segments[j].label)}: ${esc(fmt(v))}</span>`).join("") +
+      (r.note ? `<span class="sub">${esc(r.note)}</span>` : "")));
+    g.addEventListener("pointerleave", hideTip);
+    if (r.url) { g.style.cursor = "pointer"; g.addEventListener("click", () => window.open(r.url, "_blank", "noopener")); }
+  });
+}
+
+function drawClemency(el, p) {
+  const segments = [{ label: "Pardons", color: css("--series-1") }, { label: "Commutations", color: css("--series-2") }];
+  const rows = p.presidents.map((r) => ({ label: r.president, values: [r.pardons, r.commutations], note: `${r.total_row}, fiscal years ${r.first_fiscal_year}–${r.last_fiscal_year}`, url: p.url }));
+  hbars(el, rows, segments, fmtNum);
+  const c = p.current_term;
+  el.querySelector("[data-lead]").innerHTML = c ? `<p class="sub">The current term isn't in this table: DOJ adds a president's statistics later. DOJ's grant list for the current term names <b>${fmtNum(c.named_grants)}</b> people, plus ${fmtNum(c.grants_by_proclamation)} group grants by proclamation (<a href="${esc(c.url)}" target="_blank" rel="noopener">source</a>). That list counts people, not petitions, so it isn't directly comparable with the bars.</p>` : "";
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["President", "Pardons", "Commutations", "Period"],
+    p.presidents.map((r) => [r.president, fmtNum(r.pardons), fmtNum(r.commutations), `FY ${r.first_fiscal_year}–${r.last_fiscal_year}`]));
+}
+
+function drawInaugural(el, p) {
+  const rows = p.rows.slice().reverse().map((r) => ({ label: r.label, values: [r.total], note: `${r.committee}, ${r.citation} (${r.report})`, url: r.url }));
+  hbars(el, rows, [{ label: "Reported donations", color: css("--series-1") }], fmtMoneyShort);
+  const last = p.rows[p.rows.length - 1], prev = p.rows[p.rows.length - 2];
+  el.querySelector("[data-lead]").innerHTML = last && prev ? `<p class="big"><b>${esc(last.label)}</b>: ${fmtMoneyShort(last.total)} reported, ${(last.total / prev.total).toFixed(1)}× ${esc(prev.label)}'s ${fmtMoneyShort(prev.total)}.</p>` : "";
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Inauguration", "Reported donations", "Filing"],
+    p.rows.map((r) => [r.label, fmtUSD(r.total), r.citation]));
+}
+
+function tableToggle(head, rows) {
+  return `<details class="table-toggle"><summary>Show the numbers as a table</summary><table><thead><tr>${head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead>` +
+    `<tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></details>`;
+}

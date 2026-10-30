@@ -1,0 +1,70 @@
+# US–China trade, tariffs and export controls, from the 2018 trade war to now.
+
+id = "us-china-trade"
+title = "US–China trade, tariffs and export controls"
+since = 2018-01-01
+description = """
+US presidential actions on tariffs against China, USTR Section 301 actions and
+exclusions, Commerce Department export controls naming Chinese entities, and US
+official monthly trade figures with China back to 1985. China's own official
+announcements are not yet collected.
+"""
+
+[federal_register]
+queries = [
+  { term = "China tariff", types = ["PRESDOCU"] },
+  { term = "China", agencies = ["trade-representative-office-of-united-states"] },
+  { term = "\"entity list\" China", agencies = ["industry-and-security-bureau"] },
+]
+
+[fred_trade]
+series = [
+  { id = "EXPCH", label = "US exports of goods to China", start = "1985-01-01" },
+  { id = "IMPCH", label = "US imports of goods from China", start = "1985-01-01" },
+]
+
+[site]
+order = 3
+tab = "US–China"
+headline = "US–China trade, on the record"
+lede = """Every US tariff action and export control against China since the 2018 trade \
+war, against the official monthly trade figures. Each item links to the primary \
+source. China's own announcements aren't collected yet, so this shows the US side."""
+
+[[site.charts]]
+label = "US figures"
+note = "US Census Bureau, republished on FRED. USD millions, not seasonally adjusted, so expect monthly swings."
+views = [
+  { label = "Since 2017", title = "US trade with China since 2017", exports = "fred:EXPCH", imports = "fred:IMPCH", since = "2017-01-01" },
+  { label = "Since 1985", title = "US trade with China since 1985", exports = "fred:EXPCH", imports = "fred:IMPCH", since = "1985-01-01" },
+]
+
+[[site.markers]]
+label = "Presidential action"
+jurisdiction = "US"
+doc_types = ["executive_order", "proclamation", "memorandum", "determination"]
+
+[[site.markers]]
+label = "USTR or Commerce rule or notice"
+jurisdiction = "US"
+color = "--agency"
+doc_types = ["rule", "notice", "proposed_rule"]
+
+[[site.filters]]
+label = "All"
+
+[[site.filters]]
+label = "Presidential actions"
+doc_types = ["executive_order", "proclamation", "memorandum", "determination"]
+
+[[site.filters]]
+label = "Agency rules and notices"
+doc_types = ["rule", "notice", "proposed_rule"]
+
+[site.ask]
+examples = [
+  "What tariff actions did the US take against China in 2018 and 2019?",
+  "Which Chinese entities were added to the Entity List in 2025?",
+  "How did US imports from China change after 2018, according to the figures?",
+  "What happened to the Section 301 tariff exclusions over time?",
+]
