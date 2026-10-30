@@ -1,0 +1,33 @@
+{
+ "abstract": "In light of the Government of China's apparent failure to comply with the January 15, 2020, Economic and Trade Agreement Between the Government of the United States of America and the Government of the People's Republic of China (Phase One Agreement), at the direction of the President, the United States Trade Representative has initiated an investigation to determine whether the rights of the United States under the Phase One Agreement are being denied or an act, policy, or practice of China violates, or is inconsistent with, the provisions of, or otherwise denies benefits to the United States under, the Phase One Agreement. The Section 301 Committee is holding a public hearing in this investigation and solicits public comment on China's implementation of the Phase One Agreement and potential actions to address these issues.",
+ "action": "Notice of initiation of investigation and hearing, and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "90 FR 48733",
+ "dates": "October 24, 2025: The U.S. Trade Representative initiated the investigation.",
+ "document_number": "2025-19679",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/10/28/2025-19679/initiation-of-section-301-investigation-chinas-implementation-of-commitments-under-the-phase-one",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-28/pdf/2025-19679.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-10-28",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/28/2025-19679.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Initiation of Section 301 Investigation: China's Implementation of Commitments Under the Phase One Agreement; Notice of Hearing; and Request for Public Comments",
+ "type": "Notice"
+}

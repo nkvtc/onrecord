@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "75 FR 737",
+ "dates": null,
+ "document_number": "2010-38",
+ "effective_on": null,
+ "executive_order_number": "13527",
+ "html_url": "https://www.federalregister.gov/documents/2010/01/06/2010-38/establishing-federal-capability-for-the-timely-provision-of-medical-countermeasures-following-a",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-01-06/pdf/2010-38.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2010-01-06",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/01/06/2010-38.txt",
+ "signing_date": "2009-12-30",
+ "subtype": "Executive Order",
+ "title": "Establishing Federal Capability for the Timely Provision of Medical Countermeasures Following a Biological Attack",
+ "type": "Presidential Document"
+}

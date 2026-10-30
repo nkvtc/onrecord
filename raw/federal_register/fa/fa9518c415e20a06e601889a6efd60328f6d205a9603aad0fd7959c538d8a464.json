@@ -1,0 +1,33 @@
+{
+ "abstract": "In prior notices, the U.S. Trade Representative modified the action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by excluding from additional duties certain medical-care products needed to address the COVID-19 pandemic. The 99 exclusions for medical care products to address COVID-19 were published on December 29, 2020, and are scheduled to expire on November 14, 2021. On August 27, 2021, USTR requested comments on whether to extend the COVID exclusions. This notice announces the U.S. Trade Representative's determination to provide a 16-day transition period for all COVID exclusions (through November 30, 2021), and to extend 81 of the COVID exclusions for an additional 6 months.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "86 FR 63438",
+ "dates": "To provide a transition period, this notice extends the 99 exclusions scheduled to expire on November 14, 2021, through November 30, 2021. Those exclusions receiving further extensions will expire six months after November 30, 20201, on May 31, 2022. U.S. Customs and Border Protection will issue instructions on entry guidance and implementation.",
+ "document_number": "2021-24918",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2021/11/16/2021-24918/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-11-16/pdf/2021-24918.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-11-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/11/16/2021-24918.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Product Exclusion Extensions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

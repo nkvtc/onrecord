@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "72 FR 10589",
+ "dates": null,
+ "document_number": "07-1137",
+ "effective_on": null,
+ "executive_order_number": "13426",
+ "html_url": "https://www.federalregister.gov/documents/2007/03/08/07-1137/establishing-a-commission-on-care-for-americas-returning-wounded-warriors-and-a-task-force-on",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2007-03-08/pdf/07-1137.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2007-03-08",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2007/03/08/07-1137.txt",
+ "signing_date": "2007-03-06",
+ "subtype": "Executive Order",
+ "title": "Establishing a Commission on Care for America's Returning Wounded Warriors and a Task Force on Returning Global War on Terror Heroes",
+ "type": "Presidential Document"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": "Effective July 6, 2018, the U.S. Trade Representative imposed additional duties on goods of China with an annual trade value of approximately $34 billion as part of the action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation. The U.S. Trade Representative initiated the exclusion process in July 2018 and, to date, has granted ten sets of exclusions. The second set of exclusions was published in March 2019 and will expire in March 2020. On December 30, 2019, the U.S. Trade Representative established a process for the public to comment on whether to extend particular exclusions granted in March 2019 for up to 12 months. This notice announces the U.S. Trade Representative's determination to extend certain exclusions for 12 months.",
+ "action": "Notice of product exclusion extensions.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "85 FR 15849",
+ "dates": "The product exclusion extensions announced in this notice will apply as of March 25, 2020 and extend for one year. U.S. Customs and Border Protection will issue instructions on entry guidance and implementation.",
+ "document_number": "2020-05674",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/03/19/2020-05674/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-19/pdf/2020-05674.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-03-19",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/03/19/2020-05674.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Product Exclusion Extensions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

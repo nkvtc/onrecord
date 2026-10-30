@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "60 FR 28507",
+ "dates": null,
+ "document_number": "95-13484",
+ "effective_on": null,
+ "executive_order_number": "12961",
+ "html_url": "https://www.federalregister.gov/documents/1995/05/31/95-13484/presidential-advisory-committee-on-gulf-war-veterans-illnesses",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1995-05-31/pdf/95-13484.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1995-05-31",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1995/05/31/95-13484.txt",
+ "signing_date": "1995-05-26",
+ "subtype": "Executive Order",
+ "title": "Presidential Advisory Committee on Gulf War Veterans' Illnesses",
+ "type": "Presidential Document"
+}

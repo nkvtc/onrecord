@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "76 FR 29143",
+ "dates": null,
+ "document_number": "2011-12645",
+ "effective_on": null,
+ "executive_order_number": "13573",
+ "html_url": "https://www.federalregister.gov/documents/2011/05/20/2011-12645/blocking-property-of-senior-officials-of-the-government-of-syria",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-05-20/pdf/2011-12645.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2011-05-20",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/05/20/2011-12645.txt",
+ "signing_date": "2011-05-18",
+ "subtype": "Executive Order",
+ "title": "Blocking Property of Senior Officials of the Government of Syria",
+ "type": "Presidential Document"
+}

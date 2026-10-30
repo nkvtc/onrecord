@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "65 FR 49469",
+ "dates": null,
+ "document_number": "00-20670",
+ "effective_on": null,
+ "executive_order_number": "13165",
+ "html_url": "https://www.federalregister.gov/documents/2000/08/14/00-20670/creation-of-the-white-house-task-force-on-drug-use-in-sports-and-authorization-for-the-director-of",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2000-08-14/pdf/00-20670.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "2000-08-14",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2000/08/14/00-20670.txt",
+ "signing_date": "2000-08-09",
+ "subtype": "Executive Order",
+ "title": "Creation of the White House Task Force on Drug Use in Sports and Authorization for the Director of the Office of National Drug Control Policy To Serve as the United States Government's Representative on the Board of the World Anti-Doping Agency",
+ "type": "Presidential Document"
+}

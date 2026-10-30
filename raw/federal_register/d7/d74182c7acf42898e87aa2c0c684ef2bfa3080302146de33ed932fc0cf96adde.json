@@ -1,0 +1,42 @@
+{
+ "abstract": "Huawei Technologies Co., Ltd. (Huawei) and 114 of its foreign affiliates were added to the Entity List by the Bureau of Industry and Security (BIS) in 2019, but continue to participate in many important international standards organizations in which U.S. companies also participate. As international standards serve as the building blocks for product development and help ensure functionality, interoperability, and safety of the products, it is important to U.S. technological leadership that U.S. companies be able to work in these bodies in order to ensure that U.S. standards proposals are fully considered. Since Huawei's addition to the Entity List, organizations have consequently sought clarity about U.S. industry participation in standards development. BIS is amending the Export Administration Regulations (EAR) to authorize the release of certain technology to Huawei and its affiliates on the Entity List without a license if such release is made for the purpose of contributing to the revision or development of a \"standard\" in a \"standards organization.\" For the purpose of this interim final rule, a \"standard\" is as defined in Office of Management and Budget (OMB) Circular A-119: Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities, and a \"standards organization,\" is the equivalent of a \"voluntary consensus standards body\" as defined in Office of Management and Budget (OMB) Circular A- 119: Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities. This interim final rule does not change the assessment of whether \"technology\" is subject to the EAR. BIS is requesting comments on the impact of these revisions.",
+ "action": "Interim final rule; request for comments.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "85 FR 36719",
+ "dates": "This rule is effective June 18, 2020. Submit comments on or before August 17, 2020.",
+ "document_number": "2020-13093",
+ "effective_on": "2020-06-18",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/06/18/2020-13093/release-of-technology-to-certain-entities-on-the-entity-list-in-the-context-of-standards",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-06-18/pdf/2020-13093.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-06-18",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/06/18/2020-13093.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Release of “Technology” to Certain Entities on the Entity List in the Context of Standards Organizations",
+ "type": "Rule"
+}

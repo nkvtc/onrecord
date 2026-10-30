@@ -1,0 +1,33 @@
+{
+ "abstract": "In prior notices, the U.S. Trade Representative modified the actions in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by excluding from additional duties certain medical-care products needed to address COVID, and subsequently extended certain of these exclusions. The current COVID exclusions--covering 81 medical- care products--are scheduled to expire on May 15, 2023. This notice announces the U.S. Trade Representative's determination to provide a 16-day transition period for all COVID exclusions, extending them through May 31, 2023, and to extend 77 of the COVID exclusions through September 30, 2023.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "88 FR 31580",
+ "dates": "To provide a transition period, this notice extends the 81 exclusions scheduled to expire on May 15, 2023 through May 31, 2023, listed in Annex B to notice 86 FR 63438). Those exclusions receiving further extensions and listed in the Annex to this notice are extended through September 30, 2023. U.S. Customs and Border Protection will issue instructions on entry guidance and implementation.",
+ "document_number": "2023-10460",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2023/05/17/2023-10460/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-05-17/pdf/2023-10460.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2023-05-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/05/17/2023-10460.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Product Exclusion Extensions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

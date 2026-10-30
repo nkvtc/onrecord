@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "85 FR 18403",
+ "dates": null,
+ "document_number": "2020-06969",
+ "effective_on": null,
+ "executive_order_number": "13911",
+ "html_url": "https://www.federalregister.gov/documents/2020/04/01/2020-06969/delegating-additional-authority-under-the-defense-production-act-with-respect-to-health-and-medical",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-04-01/pdf/2020-06969.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-04-01",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/04/01/2020-06969.txt",
+ "signing_date": "2020-03-27",
+ "subtype": "Executive Order",
+ "title": "Delegating Additional Authority Under the Defense Production Act With Respect to Health and Medical Resources To Respond to the Spread of COVID-19",
+ "type": "Presidential Document"
+}

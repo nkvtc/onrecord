@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "61 FR 25131",
+ "dates": null,
+ "document_number": "96-12720",
+ "effective_on": null,
+ "executive_order_number": "13003",
+ "html_url": "https://www.federalregister.gov/documents/1996/05/17/96-12720/establishing-an-emergency-board-to-investigate-disputes-between-certain-railroads-represented-by-the",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1996-05-17/pdf/96-12720.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1996-05-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1996/05/17/96-12720.txt",
+ "signing_date": "1996-05-15",
+ "subtype": "Executive Order",
+ "title": "Establishing an Emergency Board To Investigate Disputes Between Certain Railroads Represented by the National Carriers' Conference Committee of the National Railway Labor Conference and Their Employees Represented by the Brotherhood of Maintenance of Way Employes Disputes exist between certain railroads represented by the National Carriers' Conference Committee of the National Railway Labor Conference, including Consolidated Rail Corporation (including the Clearfield Cluster), Burlington Northern Railroad Co., CSX Transportation Inc., Norfolk Southern Railway Co., Atchison, Topeka and Santa Fe Railway Co., Union Pacific Railroad, Chicago & North Western Railway Co., Kansas City Southern Railway Co., and their employees represented by the Brotherhood of Maintenance of Way Employes. The railroads involved in these disputes are designated on the attached list, which is made a part of this order.",
+ "type": "Presidential Document"
+}

@@ -1,0 +1,42 @@
+{
+ "abstract": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 11 entries to the Entity List, under the destinations of the Peoples Republic of China (China) (6), the Russian Federation (Russia) (3), and the United Arab Emirates (UAE) (2). These entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States. This rule also modifies one existing entity on the Entity List under the destination of China.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "89 FR 25503",
+ "dates": "This rule is effective April 11, 2024.",
+ "document_number": "2024-07760",
+ "effective_on": "2024-04-11",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/04/11/2024-07760/addition-of-entities-to-and-revision-of-entry-on-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-04-11/pdf/2024-07760.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-04-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/04/11/2024-07760.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Entities to and Revision of Entry on the Entity List",
+ "type": "Rule"
+}

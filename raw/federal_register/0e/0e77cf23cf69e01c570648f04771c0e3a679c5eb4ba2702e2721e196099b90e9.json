@@ -1,0 +1,42 @@
+{
+ "abstract": "The Bureau of Industry and Security (BIS) is requesting comments on future extensions of a temporary general license under the Export Administration Regulations (EAR). BIS is requesting these comments to assist the U.S. Government in evaluating whether the temporary general license should continue to be extended, to evaluate whether any other changes may be warranted to the temporary general license, and to identify any alternative authorization or other regulatory provisions that may more effectively address what is being authorized under the temporary general license.",
+ "action": "Notification of inquiry.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "85 FR 14428",
+ "dates": "Submit comments on or before March 25, 2020.",
+ "document_number": "2020-05194",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/03/12/2020-05194/request-for-comments-on-future-extensions-of-temporary-general-license-tgl",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-12/pdf/2020-05194.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-03-12",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/03/12/2020-05194.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments on Future Extensions of Temporary General License (TGL)",
+ "type": "Proposed Rule"
+}

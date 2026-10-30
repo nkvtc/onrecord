@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "83 FR 1513",
+ "dates": null,
+ "document_number": "2018-00630",
+ "effective_on": null,
+ "executive_order_number": "13822",
+ "html_url": "https://www.federalregister.gov/documents/2018/01/12/2018-00630/supporting-our-veterans-during-their-transition-from-uniformed-service-to-civilian-life",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-01-12/pdf/2018-00630.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-01-12",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/01/12/2018-00630.txt",
+ "signing_date": "2018-01-09",
+ "subtype": "Executive Order",
+ "title": "Supporting Our Veterans During Their Transition From Uniformed Service to Civilian Life",
+ "type": "Presidential Document"
+}

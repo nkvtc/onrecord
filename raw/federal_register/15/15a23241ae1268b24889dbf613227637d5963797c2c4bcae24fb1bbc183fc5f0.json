@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "81 FR 33331",
+ "dates": null,
+ "document_number": "2016-12579",
+ "effective_on": null,
+ "executive_order_number": "13730",
+ "html_url": "https://www.federalregister.gov/documents/2016/05/26/2016-12579/2016-amendments-to-the-manual-for-courts-martial-united-states",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-05-26/pdf/2016-12579.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2016-05-26",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/05/26/2016-12579.txt",
+ "signing_date": "2016-05-20",
+ "subtype": "Executive Order",
+ "title": "2016 Amendments to the Manual for Courts-Martial, United States",
+ "type": "Presidential Document"
+}

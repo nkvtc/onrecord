@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "79 FR 75041",
+ "dates": null,
+ "document_number": "2014-29625",
+ "effective_on": null,
+ "executive_order_number": "13683",
+ "html_url": "https://www.federalregister.gov/documents/2014/12/16/2014-29625/amendments-to-executive-orders-11030-13653-and-13673",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-12-16/pdf/2014-29625.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2014-12-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/12/16/2014-29625.txt",
+ "signing_date": "2014-12-11",
+ "subtype": "Executive Order",
+ "title": "Amendments to Executive Orders 11030, 13653, and 13673",
+ "type": "Presidential Document"
+}

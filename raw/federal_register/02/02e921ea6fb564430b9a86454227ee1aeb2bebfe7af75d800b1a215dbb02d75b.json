@@ -1,0 +1,33 @@
+{
+ "abstract": "In prior notices, the U.S. Trade Representative modified the actions in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by excluding from additional duties certain medical-care products needed to address COVID, and subsequently extended certain of these exclusions. The current COVID exclusions--covering 81 medical- care products--are scheduled to expire on November 30, 2022. This notice announces the U.S. Trade Representative's determination to further extend the 81 COVID exclusions for an additional three months.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "87 FR 73383",
+ "dates": "The modification announced in this notice extends the COVID exclusions through February 28, 2023.",
+ "document_number": "2022-25990",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/11/29/2022-25990/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-11-29/pdf/2022-25990.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-11-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/11/29/2022-25990.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Product Exclusion Extensions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "59 FR 32645",
+ "dates": null,
+ "document_number": "94-15498",
+ "effective_on": null,
+ "executive_order_number": "12922",
+ "html_url": "https://www.federalregister.gov/documents/1994/06/23/94-15498/blocking-property-of-certain-haitian-nationals",
+ "pdf_url": null,
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1994-06-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1994/06/23/94-15498.txt",
+ "signing_date": "1994-06-21",
+ "subtype": "Executive Order",
+ "title": "Blocking Property of Certain Haitian Nationals",
+ "type": "Presidential Document"
+}

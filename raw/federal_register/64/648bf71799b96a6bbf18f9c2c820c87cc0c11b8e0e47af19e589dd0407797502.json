@@ -1,0 +1,42 @@
+{
+ "abstract": "In this rule, the Department of Commerce, Bureau of Industry and Security (BIS), amends the Export Administration Regulations (EAR) to expand the Validated End User Authorization (VEU) program to include VEU Authorization for data centers located in specified destinations (\"Data Center VEU\" or \"Data Center VEU Authorization\"). This expansion of the VEU program to include Data Center VEU is intended to facilitate quick and reliable export or reexport of items on the Commerce Control List necessary for a data center, including advanced computing items, to preapproved trusted end users. Data Center VEU adopts much of the framework of the existing VEU program, with additional requirements. This expansion of eligibility is intended to update the VEU program to recognize the advancement and benefits of artificial intelligence. As under the original VEU Authorization Program, the U.S. government will rigorously review Data Center VEU candidates' applications subject to detailed and verifiable criteria.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "89 FR 80080",
+ "dates": "This rule is effective on October 2, 2024.",
+ "document_number": "2024-22587",
+ "effective_on": "2024-10-02",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/10/02/2024-22587/expansion-of-validated-end-user-authorization-data-center-validated-end-user-authorization",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-02/pdf/2024-22587.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-10-02",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/10/02/2024-22587.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Expansion of Validated End User Authorization: Data Center Validated End User Authorization",
+ "type": "Rule"
+}

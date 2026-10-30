@@ -1,0 +1,42 @@
+{
+ "abstract": "In this final rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 26 entries to the Entity List, under the destinations of the People's Republic of China (China), Egypt, Pakistan, and the United Arab Emirates (UAE) and modifies one existing entry under the destination of China. This rule also removes two entities from the entity list: one entity listed under the destination of China, and a second entity listed under the destinations of Canada, India, Japan, Malaysia, Sweden and the UAE.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "89 FR 84460",
+ "dates": "This rule is effective October 23, 2024.",
+ "document_number": "2024-24562",
+ "effective_on": "2024-10-23",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/10/23/2024-24562/addition-of-entities-revision-of-an-entry-and-removal-of-entries-on-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-23/pdf/2024-24562.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-10-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/10/23/2024-24562.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Entities, Revision of an Entry, and Removal of Entries on the Entity List",
+ "type": "Rule"
+}

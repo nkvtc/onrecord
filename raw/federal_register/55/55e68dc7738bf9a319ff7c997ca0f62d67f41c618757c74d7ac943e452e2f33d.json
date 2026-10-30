@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "86 FR 13803",
+ "dates": null,
+ "document_number": "2021-05200",
+ "effective_on": null,
+ "executive_order_number": "14021",
+ "html_url": "https://www.federalregister.gov/documents/2021/03/11/2021-05200/guaranteeing-an-educational-environment-free-from-discrimination-on-the-basis-of-sex-including",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-11/pdf/2021-05200.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-03-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/11/2021-05200.txt",
+ "signing_date": "2021-03-08",
+ "subtype": "Executive Order",
+ "title": "Guaranteeing an Educational Environment Free From Discrimination on the Basis of Sex, Including Sexual Orientation or Gender Identity",
+ "type": "Presidential Document"
+}

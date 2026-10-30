@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "62 FR 35659",
+ "dates": null,
+ "document_number": "97-17512",
+ "effective_on": null,
+ "executive_order_number": "13052",
+ "html_url": "https://www.federalregister.gov/documents/1997/07/02/97-17512/hong-kong-economic-and-trade-offices",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1997-07-02/pdf/97-17512.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1997-07-02",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1997/07/02/97-17512.txt",
+ "signing_date": "1997-06-30",
+ "subtype": "Executive Order",
+ "title": "Hong Kong Economic and Trade Offices",
+ "type": "Presidential Document"
+}

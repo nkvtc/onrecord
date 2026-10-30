@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "89 FR 27355",
+ "dates": null,
+ "document_number": "2024-08332",
+ "effective_on": null,
+ "executive_order_number": "14122",
+ "html_url": "https://www.federalregister.gov/documents/2024/04/17/2024-08332/covid-19-and-public-health-preparedness-and-response",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-04-17/pdf/2024-08332.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-04-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/04/17/2024-08332.txt",
+ "signing_date": "2024-04-12",
+ "subtype": "Executive Order",
+ "title": "COVID-19 and Public Health Preparedness and Response",
+ "type": "Presidential Document"
+}

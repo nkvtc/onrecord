@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "72 FR 26709",
+ "dates": null,
+ "document_number": "07-2367",
+ "effective_on": null,
+ "executive_order_number": "13431",
+ "html_url": "https://www.federalregister.gov/documents/2007/05/11/07-2367/establishment-of-temporary-organization-to-facilitate-united-states-government-assistance-for",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2007-05-11/pdf/07-2367.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2007-05-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2007/05/11/07-2367.txt",
+ "signing_date": "2007-05-08",
+ "subtype": "Executive Order",
+ "title": "Establishment of Temporary Organization To Facilitate United States Government Assistance for Transition in Iraq",
+ "type": "Presidential Document"
+}

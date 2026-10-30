@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "74 FR 6113",
+ "dates": null,
+ "document_number": "E9-2486",
+ "effective_on": null,
+ "executive_order_number": "13497",
+ "html_url": "https://www.federalregister.gov/documents/2009/02/04/E9-2486/revocation-of-certain-executive-orders-concerning-regulatory-planning-and-review",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-02-04/pdf/E9-2486.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2009-02-04",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/02/04/E9-2486.txt",
+ "signing_date": "2009-01-30",
+ "subtype": "Executive Order",
+ "title": "Revocation of Certain Executive Orders Concerning Regulatory Planning and Review",
+ "type": "Presidential Document"
+}

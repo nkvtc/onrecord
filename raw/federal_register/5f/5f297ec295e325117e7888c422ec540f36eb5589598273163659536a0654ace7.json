@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "66 FR 28829",
+ "dates": null,
+ "document_number": "01-13381",
+ "effective_on": null,
+ "executive_order_number": "13213",
+ "html_url": "https://www.federalregister.gov/documents/2001/05/24/01-13381/additional-measures-with-respect-to-prohibiting-the-importation-of-rough-diamonds-from-sierra-leone",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-05-24/pdf/01-13381.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2001-05-24",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/05/24/01-13381.txt",
+ "signing_date": "2001-05-22",
+ "subtype": "Executive Order",
+ "title": "Additional Measures With Respect To Prohibiting the Importation of Rough Diamonds From Sierra Leone",
+ "type": "Presidential Document"
+}

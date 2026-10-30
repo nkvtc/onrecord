@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "74 FR 2287",
+ "dates": null,
+ "document_number": "E9-814",
+ "effective_on": null,
+ "executive_order_number": "13485",
+ "html_url": "https://www.federalregister.gov/documents/2009/01/14/E9-814/providing-an-order-of-succession-within-the-department-of-transportation",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-01-14/pdf/E9-814.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2009-01-14",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/01/14/E9-814.txt",
+ "signing_date": "2009-01-09",
+ "subtype": "Executive Order",
+ "title": "Providing an Order of Succession Within the Department of Transportation",
+ "type": "Presidential Document"
+}

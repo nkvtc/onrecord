@@ -1,0 +1,33 @@
+{
+ "abstract": "On June 20, 2018 (83 FR 28710), the U.S. Trade Representative (Trade Representative) provided notice of an initial action in the Section 301 investigation of the acts, policies, and practices of the Government of China related to technology transfer, intellectual property, and innovation. The initial action was the imposition of an additional 25 percent ad valorem duty on products of China with an annual trade value of approximately $34 billion, effective July 6, 2018. The June 20 notice also sought public comment on another proposed action, in the form of an additional 25 percent ad valorem duty on products of China with an annual trade value of approximately $16 billion. The public comment process in connection with the proposed additional action is ongoing. On July 6, 2018, China responded to the initial action by imposing increased duties on goods of the United States. In light of China's decision to respond to the investigation by imposing duties on U.S. goods, the Trade Representative proposes a modification of the action taken in this investigation. The proposed modification is to maintain the original $34 billion action and the proposed $16 billion action, and to take further action in the form of an additional 10 percent ad valorem duty on products of China with an annual trade value of approximately $200 billion. The products subject to this proposed supplemental action are classified in the HTSUS subheadings set out in the Annex to this notice. The Office of the U.S. Trade Representative (USTR) is seeking public comment and will hold a public hearing regarding this proposed modification of the action in the investigation.",
+ "action": "Request for comments and notice of public hearing.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "83 FR 33608",
+ "dates": "To be assured of consideration, you must submit comments and responses in accordance with the following schedule:",
+ "document_number": "2018-15090",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/07/17/2018-15090/request-for-comments-concerning-proposed-modification-of-action-pursuant-to-section-301-chinas-acts",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-07-17/pdf/2018-15090.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-07-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/07/17/2018-15090.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments Concerning Proposed Modification of Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

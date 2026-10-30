@@ -1,0 +1,42 @@
+{
+ "abstract": "In response to the Russian Federation's (Russia's) further invasion of Ukraine, with this final rule, the Department of Commerce is adding new Russia license requirements and licensing policies to the Export Administration Regulations (EAR) to protect U.S. national security and foreign policy interests. These new Russia measures: Impose new Commerce Control List (CCL)-based license requirements for Russia; add two new foreign \"direct product\" rules (FDP rules) specific to Russia and Russian `military end users;' specify a license review policy of denial applicable to all of the license requirements being added in this rule, with certain limited exceptions; significantly restrict the use of EAR license exceptions; expand the existing Russia `military end use' and `military end user' control scope to all items \"subject to the EAR\" other than food and medicine designated EAR99, or ECCN 5A992.c and 5D992.c unless for Russian \"government end users\" and Russian state-owned enterprises (SoEs); transfer forty-five Russian entities from the Military End-User (MEU) List to the Entity List with an expanded license requirement of all items subject to the EAR (including foreign-produced items subject to the Russia-MEU FDP rules); and add two new Russia entities and revise two Russia entities to the Entity List. Lastly, this rule imposes comprehensive export, reexport and transfer (in-country) restrictions for the so-called Donetsk People's Republic (DNR) and Luhansk People's Republics (LNR) regions of Ukraine (\"Covered Regions of Ukraine\") and makes conforming revisions to export, reexport transfer (in-country) restrictions for Crimea Region of Ukraine provisions.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "87 FR 12226",
+ "dates": "This rule is effective February 24, 2022.",
+ "document_number": "2022-04300",
+ "effective_on": "2022-02-24",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/03/03/2022-04300/implementation-of-sanctions-against-russia-under-the-export-administration-regulations-ear",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-03-03/pdf/2022-04300.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-03-03",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/03/03/2022-04300.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Implementation of Sanctions Against Russia Under the Export Administration Regulations (EAR)",
+ "type": "Rule"
+}

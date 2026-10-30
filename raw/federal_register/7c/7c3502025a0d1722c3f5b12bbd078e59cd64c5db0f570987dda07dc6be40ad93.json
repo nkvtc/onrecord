@@ -1,0 +1,42 @@
+{
+ "abstract": "The Department of Commerce is amending the Export Administration Regulations (EAR) by adding 10 entities under 13 entries to the Entity List. These entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States. These entities are listed on the Entity List under the destinations of Canada (2), China (5), France (1), Luxembourg (1), Netherlands (1), and Russia (3).",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "88 FR 12170",
+ "dates": "This rule is effective February 24, 2023.",
+ "document_number": "2023-03929",
+ "effective_on": "2023-02-24",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2023/02/27/2023-03929/additions-of-entities-to-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-02-27/pdf/2023-03929.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2023-02-27",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/02/27/2023-03929.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Additions of Entities to the Entity List",
+ "type": "Rule"
+}

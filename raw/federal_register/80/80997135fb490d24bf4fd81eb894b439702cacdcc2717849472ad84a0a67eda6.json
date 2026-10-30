@@ -1,0 +1,42 @@
+{
+ "abstract": "In this final rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding a new `Military End User' (MEU) List that includes the first tranche of entities. The U.S. Government has determined that these entities are `military end users' for purposes of the `military end user' control in the EAR that applies to specified items for exports, reexports, or transfers (in-country) to the People's Republic of China (China), Russia, and Venezuela when such items are destined for a `military end user.' The existing `military end-use' and `military end user' controls under the EAR, including BIS's authority to inform the public of a license requirement for an item due to an unacceptable risk of diversion to a `military end user' via amendment to the EAR, are essential for protecting U.S. national security interests. The addition of the new MEU List via amendment to the EAR and this first tranche of entities is also responsive to requests received from the public. This final rule will add one hundred and two `military end users' to the MEU List consisting of fifty-seven under China and forty-five under Russia. However, the establishment of the MEU List does not imply that other parties, not included on the list, are not subject to the `military end-use' and `military end user' controls under the EAR.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "85 FR 83793",
+ "dates": "This rule is effective December 23, 2020.",
+ "document_number": "2020-28052",
+ "effective_on": "2020-12-23",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/12/23/2020-28052/addition-of-military-end-user-meu-list-to-the-export-administration-regulations-and-addition-of",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-23/pdf/2020-28052.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-12-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/23/2020-28052.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of `Military End User' (MEU) List to the Export Administration Regulations and Addition of Entities to the MEU List",
+ "type": "Rule"
+}

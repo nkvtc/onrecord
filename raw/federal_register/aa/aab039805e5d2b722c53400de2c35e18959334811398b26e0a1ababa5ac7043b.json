@@ -1,0 +1,33 @@
+{
+ "abstract": "The U.S. Trade Representative (Trade Representative) has determined that appropriate action in this investigation includes the imposition of an additional ad valorem duty of 25 percent on products from China classified in the subheadings of the Harmonized Tariff Schedule of the United States (HTSUS) set out in Annex A of this notice. The Trade Representative has further determined to establish a process by which U.S. stakeholders may request that particular products classified within a covered tariff subheading in Annex A be excluded from these additional duties. Further, the Office of the U.S. Trade Representative (USTR) is seeking public comment and will hold a public hearing regarding a proposed additional action in this investigation. The proposed additional action is the imposition of an ad valorem duty of 25 percent on products of China classified in the HTSUS subheadings set out in Annex C of this notice.",
+ "action": "Notice of action, request for comments, and notice of public hearing.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "83 FR 28710",
+ "dates": "Applicable date of duties: The additional duties set out in Annex A to this notice are applicable with respect to products that are entered for consumption, or withdrawn from warehouse for consumption, on or after July 6, 2018.",
+ "document_number": "2018-13248",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/06/20/2018-13248/notice-of-action-and-request-for-public-comment-concerning-proposed-determination-of-action-pursuant",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-06-20/pdf/2018-13248.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-06-20",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/06/20/2018-13248.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Action and Request for Public Comment Concerning Proposed Determination of Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": "On March 12, 2024, the Office of the United States Trade Representative (USTR) received a petition requesting an investigation of China's acts, policies, and practices targeting the maritime, logistics, and shipbuilding sectors for dominance. On consideration of the petition and the advice of the Section 301 Committee, the U.S. Trade Representative has initiated an investigation into the issues raised in the petition. The inter-agency Section 301 Committee will hold a public hearing and is seeking public comments in connection with this investigation.",
+ "action": "Notice of investigation initiation, hearing, and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "89 FR 29424",
+ "dates": "April 17, 2024: The U.S. Trade Representative initiated the investigation.",
+ "document_number": "2024-08515",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/04/22/2024-08515/initiation-of-section-301-investigation-chinas-acts-policies-and-practices-targeting-the-maritime",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-04-22/pdf/2024-08515.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-04-22",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/04/22/2024-08515.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Initiation of Section 301 Investigation: China's Acts, Policies, and Practices Targeting the Maritime, Logistics, and Shipbuilding Sectors for Dominance",
+ "type": "Notice"
+}

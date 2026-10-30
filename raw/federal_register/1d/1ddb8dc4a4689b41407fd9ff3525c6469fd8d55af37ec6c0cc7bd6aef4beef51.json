@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "65 FR 50121",
+ "dates": null,
+ "document_number": "00-20938",
+ "effective_on": null,
+ "executive_order_number": "13166",
+ "html_url": "https://www.federalregister.gov/documents/2000/08/16/00-20938/improving-access-to-services-for-persons-with-limited-english-proficiency",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2000-08-16/pdf/00-20938.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "2000-08-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2000/08/16/00-20938.txt",
+ "signing_date": "2000-08-11",
+ "subtype": "Executive Order",
+ "title": "Improving Access to Services for Persons With Limited English Proficiency",
+ "type": "Presidential Document"
+}

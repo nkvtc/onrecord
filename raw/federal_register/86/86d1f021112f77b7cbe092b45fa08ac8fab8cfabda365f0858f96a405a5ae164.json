@@ -1,0 +1,33 @@
+{
+ "abstract": "In a notice published on September 18, 2024, the U.S. Trade Representative announced certain modifications to the actions taken in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation. Additionally, the U.S. Trade Representative announced 14 temporary exclusions for solar manufacturing equipment and a list of subheadings eligible for consideration of temporary exclusion under an exclusion process for certain machinery used in domestic manufacturing. This notice announces that USTR will open an electronic portal for exclusion requests on October 15, 2024, and sets out the procedures for submitting requests.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "89 FR 83755",
+ "dates": "October 15, 2024, at 12:01 a.m. EDT: The web portal for submitting exclusion requests will open at https://comments.ustr.gov.",
+ "document_number": "2024-23880",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/10/17/2024-23880/procedures-for-requests-to-exclude-certain-machinery-used-in-domestic-manufacturing-from-actions",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-17/pdf/2024-23880.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-10-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/10/17/2024-23880.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Procedures for Requests To Exclude Certain Machinery Used in Domestic Manufacturing From Actions Pursuant to the Section 301 Investigation of China's Acts, Policies and Practices Related to Technology Transfer, Intellectual Property and Innovation",
+ "type": "Notice"
+}

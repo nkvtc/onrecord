@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "80 FR 54405",
+ "dates": null,
+ "document_number": "2015-22888",
+ "effective_on": null,
+ "executive_order_number": "13705",
+ "html_url": "https://www.federalregister.gov/documents/2015/09/09/2015-22888/designating-the-international-renewable-energy-agency-as-a-public-international-organization",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-09-09/pdf/2015-22888.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2015-09-09",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/09/09/2015-22888.txt",
+ "signing_date": "2015-09-03",
+ "subtype": "Executive Order",
+ "title": "Designating the International Renewable Energy Agency as a Public International Organization Entitled To Enjoy Certain Privileges, Exemptions, and Immunities",
+ "type": "Presidential Document"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "66 FR 31373",
+ "dates": null,
+ "document_number": "01-14862",
+ "effective_on": null,
+ "executive_order_number": "13216",
+ "html_url": "https://www.federalregister.gov/documents/2001/06/11/01-14862/amendment-to-executive-order-13125-increasing-participation-of-asian-americans-and-pacific-islanders",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-06-11/pdf/01-14862.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2001-06-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/06/11/01-14862.txt",
+ "signing_date": "2001-06-06",
+ "subtype": "Executive Order",
+ "title": "Amendment to Executive Order 13125, Increasing Participation of Asian Americans and Pacific Islanders in Federal Programs",
+ "type": "Presidential Document"
+}

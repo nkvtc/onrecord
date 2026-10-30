@@ -1,0 +1,33 @@
+{
+ "abstract": "In prior notices, the U.S. Trade Representative modified the action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by excluding from additional duties certain medical-care products needed to address the COVID-19 outbreak. On March 25, 2020, the U.S. Trade Representative sought public comment on additional modifications in this investigation in order to address COVID-19. This notice announces the U.S. Trade Representative's determination to extend certain product exclusions and to make further modifications to remove Section 301 duties from additional medical-care products to address COVID-19.",
+ "action": "Notice of product exclusion extensions and additional modifications.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "85 FR 85831",
+ "dates": "The product exclusion extensions announced in this notice will extend the exclusions through March 31, 2021. The modifications to exclude additional products will apply as of January 1, 2021 until March 31, 2021. U.S. Customs and Border Protection will issue instructions on entry guidance and implementation.",
+ "document_number": "2020-28780",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/12/29/2020-28780/notice-of-product-exclusion-extensions-and-additional-modifications-chinas-acts-policies-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-29/pdf/2020-28780.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-12-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/29/2020-28780.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Product Exclusion Extensions and Additional Modifications: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

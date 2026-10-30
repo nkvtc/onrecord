@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "74 FR 32047",
+ "dates": null,
+ "document_number": "E9-16034",
+ "effective_on": null,
+ "executive_order_number": "13510",
+ "html_url": "https://www.federalregister.gov/documents/2009/07/06/E9-16034/waiver-under-the-trade-act-of-1974-with-respect-to-the-republic-of-belarus",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-07-06/pdf/E9-16034.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2009-07-06",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/07/06/E9-16034.txt",
+ "signing_date": "2009-07-01",
+ "subtype": "Executive Order",
+ "title": "Waiver Under the Trade Act of 1974 With Respect to the Republic of Belarus",
+ "type": "Presidential Document"
+}

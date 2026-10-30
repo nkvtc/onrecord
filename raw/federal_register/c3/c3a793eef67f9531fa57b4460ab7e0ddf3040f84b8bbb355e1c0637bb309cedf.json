@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "69 FR 62391",
+ "dates": null,
+ "document_number": "04-23994",
+ "effective_on": null,
+ "executive_order_number": "13359",
+ "html_url": "https://www.federalregister.gov/documents/2004/10/25/04-23994/amendment-to-executive-order-13173-interagency-task-force-on-the-economic-development-of-the-central",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2004-10-25/pdf/04-23994.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2004-10-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2004/10/25/04-23994.txt",
+ "signing_date": "2004-10-20",
+ "subtype": "Executive Order",
+ "title": "Amendment to Executive Order 13173, Interagency Task Force on the Economic Development of the Central San Joaquin Valley",
+ "type": "Presidential Document"
+}

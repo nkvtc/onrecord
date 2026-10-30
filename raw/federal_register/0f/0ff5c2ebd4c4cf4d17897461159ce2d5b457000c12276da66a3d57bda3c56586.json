@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "69 FR 46055",
+ "dates": null,
+ "document_number": "04-17636",
+ "effective_on": null,
+ "executive_order_number": "13350",
+ "html_url": "https://www.federalregister.gov/documents/2004/07/30/04-17636/termination-of-emergency-declared-in-executive-order-12722-with-respect-to-iraq-and-modification-of",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2004-07-30/pdf/04-17636.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2004-07-30",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2004/07/30/04-17636.txt",
+ "signing_date": "2004-07-29",
+ "subtype": "Executive Order",
+ "title": "Termination of Emergency Declared in Executive Order 12722 With Respect to Iraq and Modification of Executive Order 13290, Executive Order 13303, and Executive Order 13315",
+ "type": "Presidential Document"
+}

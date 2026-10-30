@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "60 FR 14199",
+ "dates": null,
+ "document_number": "95-6588",
+ "effective_on": null,
+ "executive_order_number": "12956",
+ "html_url": "https://www.federalregister.gov/documents/1995/03/15/95-6588/executive-order-12956-of-march-13-1995",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1995-03-15/pdf/95-6588.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1995-03-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1995/03/15/95-6588.txt",
+ "signing_date": "1995-03-13",
+ "subtype": "Executive Order",
+ "title": "Executive Order 12956 of March 13, 1995",
+ "type": "Presidential Document"
+}

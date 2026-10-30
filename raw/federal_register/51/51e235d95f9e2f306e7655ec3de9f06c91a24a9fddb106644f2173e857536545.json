@@ -1,0 +1,33 @@
+{
+ "abstract": "The interagency Trade Policy Staff Committee (TPSC) invites written comments to assist the Office of the United States Trade Representative (USTR) in the preparation of its annual report to Congress on China's compliance with the commitments made in connection with its accession to the World Trade Organization (WTO). Due to COVID- 19, the TPSC will foster public participation via written questions and responses relating to the comments received by the TPSC rather than an in-person hearing. This notice includes the schedule for submission of comments, questions and responses.",
+ "action": "Notice of request for written comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "86 FR 46066",
+ "dates": "September 15, 2021 at 11:59 p.m. EDT: Deadline for submission of written comments.",
+ "document_number": "2021-17606",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2021/08/17/2021-17606/request-for-written-comments-concerning-chinas-compliance-with-wto-commitments",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-17/pdf/2021-17606.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-08-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/17/2021-17606.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Written Comments Concerning China's Compliance With WTO Commitments",
+ "type": "Notice"
+}

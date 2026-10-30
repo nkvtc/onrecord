@@ -1,0 +1,33 @@
+{
+ "abstract": "Effective August 23, 2018, the U.S. Trade Representative imposed additional duties on goods of China with an annual trade value of approximately $16 billion as part of the action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation. The U.S. Trade Representative initiated the exclusion process in September 2018 and granted multiple sets of exclusions. The third set of exclusions was granted in October 2019, and are scheduled to expire on October 2, 2020. The U.S. Trade Representative has decided to consider a possible extension for up to 12 months of particular exclusions granted in October 2019. The Office of the U.S. Trade Representative (USTR) invites public comment on whether to extend particular exclusions.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "85 FR 38243",
+ "dates": "July 1, 2020 at 12:01 a.m. ET: The public docket on the web portal at https://comments.USTR.gov will open for parties to submit comments on the possible extension of particular exclusions. July 30, 2020 at 11:59 p.m. ET: To be assured of consideration, submit written comments on the public docket by this deadline.",
+ "document_number": "2020-13660",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/06/25/2020-13660/request-for-comments-concerning-the-extension-of-particular-exclusions-granted-under-the-october",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-06-25/pdf/2020-13660.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-06-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/06/25/2020-13660.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments Concerning the Extension of Particular Exclusions Granted Under the October 2019 Product Exclusion Notice From the $16 Billion Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

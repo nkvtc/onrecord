@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "80 FR 6425",
+ "dates": null,
+ "document_number": "2015-02379",
+ "effective_on": null,
+ "executive_order_number": "13690",
+ "html_url": "https://www.federalregister.gov/documents/2015/02/04/2015-02379/establishing-a-federal-flood-risk-management-standard-and-a-process-for-further-soliciting-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-02-04/pdf/2015-02379.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2015-02-04",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/02/04/2015-02379.txt",
+ "signing_date": "2015-01-30",
+ "subtype": "Executive Order",
+ "title": "Establishing a Federal Flood Risk Management Standard and a Process for Further Soliciting and Considering Stakeholder Input",
+ "type": "Presidential Document"
+}

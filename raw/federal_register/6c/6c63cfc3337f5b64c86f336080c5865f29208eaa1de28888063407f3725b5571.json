@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "70 FR 58289",
+ "dates": null,
+ "document_number": "05-20156",
+ "effective_on": null,
+ "executive_order_number": "13386",
+ "html_url": "https://www.federalregister.gov/documents/2005/10/05/05-20156/further-amendment-to-executive-order-13369-relating-to-the-presidents-advisory-panel-on-federal-tax",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2005-10-05/pdf/05-20156.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2005-10-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2005/10/05/05-20156.txt",
+ "signing_date": "2005-09-30",
+ "subtype": "Executive Order",
+ "title": "Further Amendment to Executive Order 13369, Relating to the President's Advisory Panel on Federal Tax Reform",
+ "type": "Presidential Document"
+}

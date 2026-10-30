@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "85 FR 12977",
+ "dates": null,
+ "document_number": "2020-04730",
+ "effective_on": null,
+ "executive_order_number": "13907",
+ "html_url": "https://www.federalregister.gov/documents/2020/03/05/2020-04730/establishment-of-the-interagency-environment-committee-for-monitoring-and-enforcement-under-section",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-05/pdf/2020-04730.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-03-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/03/05/2020-04730.txt",
+ "signing_date": "2020-02-28",
+ "subtype": "Executive Order",
+ "title": "Establishment of the Interagency Environment Committee for Monitoring and Enforcement Under Section 811 of the United States-Mexico-Canada Agreement Implementation Act",
+ "type": "Presidential Document"
+}

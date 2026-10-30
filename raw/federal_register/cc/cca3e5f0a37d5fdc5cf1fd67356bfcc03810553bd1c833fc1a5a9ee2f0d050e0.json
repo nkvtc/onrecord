@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "82 FR 16093",
+ "dates": null,
+ "document_number": "2017-06576",
+ "effective_on": null,
+ "executive_order_number": "13783",
+ "html_url": "https://www.federalregister.gov/documents/2017/03/31/2017-06576/promoting-energy-independence-and-economic-growth",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2017-03-31",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/31/2017-06576.txt",
+ "signing_date": "2017-03-28",
+ "subtype": "Executive Order",
+ "title": "Promoting Energy Independence and Economic Growth",
+ "type": "Presidential Document"
+}

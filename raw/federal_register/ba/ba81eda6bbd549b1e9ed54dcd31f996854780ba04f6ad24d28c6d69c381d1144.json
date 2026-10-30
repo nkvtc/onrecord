@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "80 FR 15871",
+ "dates": null,
+ "document_number": "2015-07016",
+ "effective_on": null,
+ "executive_order_number": "13693",
+ "html_url": "https://www.federalregister.gov/documents/2015/03/25/2015-07016/planning-for-federal-sustainability-in-the-next-decade",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-03-25/pdf/2015-07016.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2015-03-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/03/25/2015-07016.txt",
+ "signing_date": "2015-03-19",
+ "subtype": "Executive Order",
+ "title": "Planning for Federal Sustainability in the Next Decade",
+ "type": "Presidential Document"
+}

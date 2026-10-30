@@ -1,0 +1,33 @@
+{
+ "abstract": "In prior notices, the U.S. Trade Representative has modified the action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by removing additional duties from medical-care products needed to address the COVID-19 outbreak. In light of ongoing developments, the Office of the U.S. Trade Representative (USTR) is requesting public comments on possible further modifications to remove duties from additional medical-care products.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "85 FR 16987",
+ "dates": "The docket for comments will remain open at least until June 25, 2020, and may be extended as appropriate. To facilitate timely consideration of possible modifications, interested parties should submit comments as promptly as possible. To be assured of consideration, any responses to comments should be submitted within three business days after a comment is posted in the docket.",
+ "document_number": "2020-06285",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/03/25/2020-06285/request-for-comments-on-additional-modifications-to-the-301-action-to-address-covid-19-chinas-acts",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-25/pdf/2020-06285.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-03-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/03/25/2020-06285.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments on Additional Modifications to the 301 Action To Address COVID-19: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

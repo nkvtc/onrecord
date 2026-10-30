@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "79 FR 45671",
+ "dates": null,
+ "document_number": "2014-18682",
+ "effective_on": null,
+ "executive_order_number": "13674",
+ "html_url": "https://www.federalregister.gov/documents/2014/08/06/2014-18682/revised-list-of-quarantinable-communicable-diseases",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-08-06/pdf/2014-18682.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2014-08-06",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/08/06/2014-18682.txt",
+ "signing_date": "2014-07-31",
+ "subtype": "Executive Order",
+ "title": "Revised List of Quarantinable Communicable Diseases",
+ "type": "Presidential Document"
+}

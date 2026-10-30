@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "85 FR 65647",
+ "dates": null,
+ "document_number": "2020-23116",
+ "effective_on": null,
+ "executive_order_number": "13956",
+ "html_url": "https://www.federalregister.gov/documents/2020/10/16/2020-23116/modernizing-americas-water-resource-management-and-water-infrastructure",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-16/pdf/2020-23116.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-10-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/16/2020-23116.txt",
+ "signing_date": "2020-10-13",
+ "subtype": "Executive Order",
+ "title": "Modernizing America's Water Resource Management and Water Infrastructure",
+ "type": "Presidential Document"
+}

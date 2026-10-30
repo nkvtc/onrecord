@@ -1,0 +1,42 @@
+{
+ "abstract": "In this rule, the Bureau of Industry and Security (BIS) is amending the Export Administration Regulations (EAR) to implement necessary controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items. In addition, BIS is expanding controls on transactions involving items for supercomputer and semiconductor manufacturing end uses, for example, this rule expands the scope of foreign-produced items subject to license requirements for twenty-eight existing entities on the Entity List that are located in China. BIS is also informing the public that specific activities of \"U.S. persons\" that `support' the \"development\" or \"production\" of certain ICs in the PRC require a license. Lastly, to minimize short term impact on the semiconductor supply chain from this rule, BIS is establishing a Temporary General License to permit specific, limited manufacturing activities in China related to items destined for use outside China and is identifying a model certificate that may be used in compliance programs to assist, along with other measures, in conducting due diligence. `",
+ "action": "Interim final rule; request for comments.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "87 FR 62186",
+ "dates": "a. Effective on October 7, 2022, are the following instructions: 7 (Sec. 740.2), 9 (Sec. 740.10), 11 (Sec. 742.6), 17 (Sec. 744.23), and 25 (supplement no. 1 to part 774).",
+ "document_number": "2022-21658",
+ "effective_on": "2022-10-07",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-10-13",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-21658.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification",
+ "type": "Rule"
+}

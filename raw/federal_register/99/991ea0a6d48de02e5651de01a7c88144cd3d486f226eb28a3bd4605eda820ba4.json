@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "81 FR 58807",
+ "dates": null,
+ "document_number": "2016-20713",
+ "effective_on": null,
+ "executive_order_number": "13738",
+ "html_url": "https://www.federalregister.gov/documents/2016/08/26/2016-20713/amendment-to-executive-order-13673",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-08-26/pdf/2016-20713.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2016-08-26",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/08/26/2016-20713.txt",
+ "signing_date": "2016-08-23",
+ "subtype": "Executive Order",
+ "title": "Amendment to Executive Order 13673",
+ "type": "Presidential Document"
+}

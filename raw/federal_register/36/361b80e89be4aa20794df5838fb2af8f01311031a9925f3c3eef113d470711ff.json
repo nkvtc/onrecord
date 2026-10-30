@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "74 FR 67049",
+ "dates": null,
+ "document_number": "Z9-30020",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2009/12/18/Z9-30020/correction-half-day-closing-of-executive-departments-and-agencies-on-thursday-december-24-2009",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-12-18/pdf/Z9-30020.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2009-12-18",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/12/18/Z9-30020.txt",
+ "signing_date": null,
+ "subtype": "Executive Order",
+ "title": "Correction: Half-Day Closing of Executive Departments and Agencies on Thursday, December 24, 2009",
+ "type": "Presidential Document"
+}

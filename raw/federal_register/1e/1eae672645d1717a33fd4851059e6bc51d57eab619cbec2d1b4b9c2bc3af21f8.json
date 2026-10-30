@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "66 FR 56025",
+ "dates": null,
+ "document_number": "01-27917",
+ "effective_on": null,
+ "executive_order_number": "13233",
+ "html_url": "https://www.federalregister.gov/documents/2001/11/05/01-27917/further-implementation-of-the-presidential-records-act",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-11-05/pdf/01-27917.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2001-11-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/11/05/01-27917.txt",
+ "signing_date": "2001-11-01",
+ "subtype": "Executive Order",
+ "title": "Further Implementation of the Presidential Records Act",
+ "type": "Presidential Document"
+}

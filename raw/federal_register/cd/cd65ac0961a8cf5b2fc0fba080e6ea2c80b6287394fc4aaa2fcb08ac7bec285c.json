@@ -1,0 +1,42 @@
+{
+ "abstract": "On October 7, 2022, the Bureau of Industry and Security (BIS) placed on public display an interim final rule: \"Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification.\" On October 13, 2022, Under Secretary for Industry and Security Alan F. Estevez and Assistant Secretary for Export Administration Thea D. Rozman Kendler will conduct a public briefing on the rule and associated actions. This announcement provides details on the procedures for attending the public briefing.",
+ "action": "Procedures for accessing a public briefing on regulatory actions.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "87 FR 61970",
+ "dates": "Public briefing: The public briefing call will be held on October 13, 2022. The public briefing call will begin at 9 a.m. Eastern Daylight Time (EDT) local time and conclude at 10 a.m. EDT. The telephone number for attending this event will be posted on the BIS website at https://bis.doc.gov/index.php/about-bis/newsroom/2082 no later than October 7 at 5 p.m.",
+ "document_number": "2022-22037",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/10/13/2022-22037/procedures-for-access-to-the-public-briefing-on-additional-export-controls-on-certain-advanced",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-22037.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-10-13",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/10/13/2022-22037.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Procedures for Access to the Public Briefing on Additional Export Controls on Certain Advanced Computing and Semiconductor Manufacturing Items",
+ "type": "Rule"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "86 FR 9429",
+ "dates": null,
+ "document_number": "2021-03139",
+ "effective_on": null,
+ "executive_order_number": "14014",
+ "html_url": "https://www.federalregister.gov/documents/2021/02/12/2021-03139/blocking-property-with-respect-to-the-situation-in-burma",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-02-12/pdf/2021-03139.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-02-12",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/02/12/2021-03139.txt",
+ "signing_date": "2021-02-10",
+ "subtype": "Executive Order",
+ "title": "Blocking Property With Respect to the Situation in Burma",
+ "type": "Presidential Document"
+}

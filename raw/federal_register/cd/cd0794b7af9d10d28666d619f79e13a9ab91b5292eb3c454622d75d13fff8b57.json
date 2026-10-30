@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "74 FR 6533",
+ "dates": null,
+ "document_number": "E9-2893",
+ "effective_on": null,
+ "executive_order_number": "13498",
+ "html_url": "https://www.federalregister.gov/documents/2009/02/09/E9-2893/amendments-to-executive-order-13199-and-establishment-of-the-presidents-advisory-council-for",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-02-09/pdf/E9-2893.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2009-02-09",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/02/09/E9-2893.txt",
+ "signing_date": "2009-02-05",
+ "subtype": "Executive Order",
+ "title": "Amendments to Executive Order 13199 and Establishment of the President's Advisory Council for Faith-Based and Neighborhood Partnerships",
+ "type": "Presidential Document"
+}

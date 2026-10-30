@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "70 FR 43739",
+ "dates": null,
+ "document_number": "05-15160",
+ "effective_on": null,
+ "executive_order_number": "13384",
+ "html_url": "https://www.federalregister.gov/documents/2005/07/29/05-15160/assignment-of-functions-relating-to-original-appointments-as-commissioned-officers-and-chief-warrant",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2005-07-29/pdf/05-15160.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2005-07-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2005/07/29/05-15160.txt",
+ "signing_date": "2005-07-27",
+ "subtype": "Executive Order",
+ "title": "Assignment of Functions Relating to Original Appointments as Commissioned Officers and Chief Warrant Officer Appointments in the Armed Forces",
+ "type": "Presidential Document"
+}

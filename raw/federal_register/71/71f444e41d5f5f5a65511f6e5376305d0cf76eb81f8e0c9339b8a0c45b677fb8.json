@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "75 FR 39439",
+ "dates": null,
+ "document_number": "2010-16864",
+ "effective_on": null,
+ "executive_order_number": "13546",
+ "html_url": "https://www.federalregister.gov/documents/2010/07/08/2010-16864/optimizing-the-security-of-biological-select-agents-and-toxins-in-the-united-states",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-07-08/pdf/2010-16864.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2010-07-08",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/07/08/2010-16864.txt",
+ "signing_date": "2010-07-02",
+ "subtype": "Executive Order",
+ "title": "Optimizing the Security of Biological Select Agents and Toxins in the United States",
+ "type": "Presidential Document"
+}

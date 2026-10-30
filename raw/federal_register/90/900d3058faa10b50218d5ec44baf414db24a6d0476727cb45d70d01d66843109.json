@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "77 FR 6659",
+ "dates": null,
+ "document_number": "2012-3097",
+ "effective_on": null,
+ "executive_order_number": "13599",
+ "html_url": "https://www.federalregister.gov/documents/2012/02/08/2012-3097/blocking-property-of-the-government-of-iran-and-iranian-financial-institutions",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-02-08/pdf/2012-3097.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2012-02-08",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/02/08/2012-3097.txt",
+ "signing_date": "2012-02-05",
+ "subtype": "Executive Order",
+ "title": "Blocking Property of the Government of Iran and Iranian Financial Institutions",
+ "type": "Presidential Document"
+}

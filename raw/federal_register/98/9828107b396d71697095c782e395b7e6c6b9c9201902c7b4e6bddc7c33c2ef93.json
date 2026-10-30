@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "64 FR 23007",
+ "dates": null,
+ "document_number": "99-10901",
+ "effective_on": null,
+ "executive_order_number": "13120",
+ "html_url": "https://www.federalregister.gov/documents/1999/04/29/99-10901/ordering-the-selected-reserve-and-certain-individual-ready-reserve-members-of-the-armed-forces-to",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1999-04-29/pdf/99-10901.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1999-04-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1999/04/29/99-10901.txt",
+ "signing_date": "1999-04-27",
+ "subtype": "Executive Order",
+ "title": "Ordering the Selected Reserve and Certain Individual Ready Reserve Members of the Armed Forces to Active Duty",
+ "type": "Presidential Document"
+}

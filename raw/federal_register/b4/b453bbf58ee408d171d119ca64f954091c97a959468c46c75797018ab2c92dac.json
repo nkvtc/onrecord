@@ -1,0 +1,33 @@
+{
+ "abstract": "Effective January 27, 2022, the U.S. International Trade Commission (USITC) implemented certain changes to the Harmonized Tariff Schedule of the United States (HTSUS) to conform to amendments adopted by the World Customs Organization. To rectify a technical error and ensure that those amendments do not extend the scope of the additional duties in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation (China 301 investigation), this notice makes two technical modifications in the HTSUS notes implementing the additional duties.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "87 FR 9785",
+ "dates": "The technical modifications in the Annex to this notice are applicable as of January 27, 2022.",
+ "document_number": "2022-03701",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/02/22/2022-03701/chinas-acts-policies-and-practices-related-to-technology-transfer-intellectual-property-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-02-22/pdf/2022-03701.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-02-22",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/02/22/2022-03701.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation; Technical Modifications to 301 Action",
+ "type": "Notice"
+}

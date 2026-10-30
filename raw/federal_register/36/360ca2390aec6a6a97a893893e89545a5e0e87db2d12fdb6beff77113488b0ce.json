@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "82 FR 34597",
+ "dates": null,
+ "document_number": "2017-15860",
+ "effective_on": null,
+ "executive_order_number": "13806",
+ "html_url": "https://www.federalregister.gov/documents/2017/07/26/2017-15860/assessing-and-strengthening-the-manufacturing-and-defense-industrial-base-and-supply-chain",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-07-26/pdf/2017-15860.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2017-07-26",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/07/26/2017-15860.txt",
+ "signing_date": "2017-07-21",
+ "subtype": "Executive Order",
+ "title": "Assessing and Strengthening the Manufacturing and Defense Industrial Base and Supply Chain Resiliency of the United States",
+ "type": "Presidential Document"
+}

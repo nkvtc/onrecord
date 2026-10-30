@@ -1,0 +1,42 @@
+{
+ "abstract": "This final rule amends the Export Administration Regulations (EAR) by adding fifteen entities under seventeen entries to the Entity List. These fifteen entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States and will be listed on the Entity List under the destinations of the People's Republic of China, Hong Kong, Pakistan, Russia, Saudi Arabia, Turkey, the United Arab Emirates and the United Kingdom. This final rule also modifies two entries on the entity list: One entry under the destination of Hong Kong and one entry under the destination of Russia. Lastly, this final rule removes one entity under the destination of Greece from the Entity List. The removal is the result of a request for removal BIS received pursuant to the EAR and a review of information provided in the removal request.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "83 FR 44821",
+ "dates": "This rule is effective September 4, 2018.",
+ "document_number": "2018-18766",
+ "effective_on": "2018-09-04",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/09/04/2018-18766/addition-of-certain-entities-to-the-entity-list-revision-of-entries-on-the-entity-list-and-removal",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-09-04/pdf/2018-18766.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-09-04",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/09/04/2018-18766.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Certain Entities to the Entity List, Revision of Entries on the Entity List and Removal of Certain Entities From the Entity List",
+ "type": "Rule"
+}

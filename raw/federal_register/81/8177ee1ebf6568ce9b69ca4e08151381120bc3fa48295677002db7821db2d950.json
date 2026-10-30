@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "81 FR 88609",
+ "dates": null,
+ "document_number": "2016-29519",
+ "effective_on": null,
+ "executive_order_number": "13751",
+ "html_url": "https://www.federalregister.gov/documents/2016/12/08/2016-29519/safeguarding-the-nation-from-the-impacts-of-invasive-species",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-08/pdf/2016-29519.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2016-12-08",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/08/2016-29519.txt",
+ "signing_date": "2016-12-05",
+ "subtype": "Executive Order",
+ "title": "Safeguarding the Nation From the Impacts of Invasive Species",
+ "type": "Presidential Document"
+}

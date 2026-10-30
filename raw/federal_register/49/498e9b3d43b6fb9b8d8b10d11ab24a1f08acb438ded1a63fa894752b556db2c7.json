@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "86 FR 73593",
+ "dates": null,
+ "document_number": "2021-28334",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2021/12/28/2021-28334/to-modify-the-harmonized-tariff-schedule-of-the-united-states-and-for-other-purposes",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-28/pdf/2021-28334.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": "10326",
+ "publication_date": "2021-12-28",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/28/2021-28334.txt",
+ "signing_date": "2021-12-23",
+ "subtype": "Proclamation",
+ "title": "To Modify the Harmonized Tariff Schedule of the United States and for Other Purposes",
+ "type": "Presidential Document"
+}

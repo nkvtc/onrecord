@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "70 FR 35505",
+ "dates": null,
+ "document_number": "05-12284",
+ "effective_on": null,
+ "executive_order_number": "13379",
+ "html_url": "https://www.federalregister.gov/documents/2005/06/20/05-12284/amendment-to-executive-order-13369-relating-to-the-presidents-advisory-panel-on-federal-tax-reform",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2005-06-20/pdf/05-12284.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2005-06-20",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2005/06/20/05-12284.txt",
+ "signing_date": "2005-06-16",
+ "subtype": "Executive Order",
+ "title": "Amendment to Executive Order 13369, Relating to the President's Advisory Panel on Federal Tax Reform",
+ "type": "Presidential Document"
+}

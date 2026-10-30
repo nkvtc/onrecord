@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "84 FR 12041",
+ "dates": null,
+ "document_number": "2019-06325",
+ "effective_on": null,
+ "executive_order_number": "13865",
+ "html_url": "https://www.federalregister.gov/documents/2019/03/29/2019-06325/coordinating-national-resilience-to-electromagnetic-pulses",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-29/pdf/2019-06325.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2019-03-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/03/29/2019-06325.txt",
+ "signing_date": "2019-03-26",
+ "subtype": "Executive Order",
+ "title": "Coordinating National Resilience to Electromagnetic Pulses",
+ "type": "Presidential Document"
+}

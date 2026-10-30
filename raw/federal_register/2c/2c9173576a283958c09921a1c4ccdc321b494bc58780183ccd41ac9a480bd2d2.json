@@ -1,0 +1,42 @@
+{
+ "abstract": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 49 entities under 52 entries to the Entity List. These entries are under the destinations of the People's Republic of China (China) (42), Estonia (1), Finland (1), Germany (1), India (3), Turkey (2), United Arab Emirates (1), and the United Kingdom (1). Some entities may have multiple entries, accounting for the difference in the total number of entities and entries. These 49 entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "88 FR 70352",
+ "dates": "This rule is effective on October 6, 2023.",
+ "document_number": "2023-22536",
+ "effective_on": "2023-10-06",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2023/10/11/2023-22536/addition-of-entities-to-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-10-11/pdf/2023-22536.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2023-10-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/10/11/2023-22536.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Entities to the Entity List",
+ "type": "Rule"
+}

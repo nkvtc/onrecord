@@ -1,0 +1,42 @@
+{
+ "abstract": "Huawei Technologies Co., Ltd. (Huawei) and a number of non- U.S. affiliates have been placed on the Entity List. In order to further address the continuing threat to U.S. national security and foreign policy interests posed by Huawei and its non-U.S. affiliates, the Bureau of Industry and Security (BIS) in this final rule is making three sets of changes to controls for Huawei and its listed non-U.S. affiliates under the Export Administration Regulations (EAR). First, BIS is adding additional non-U.S. affiliates of Huawei to the Entity List because they also pose a significant risk of involvement in activities contrary to the national security or foreign policy interests of the United States. Second, this rule removes a temporary general license for Huawei and its non-U.S. affiliates and replaces those provisions with a more limited authorization that will better protect U.S. national security and foreign policy interests. Third, in response to public comments, this final rule amends General Prohibition Three, also known as the foreign-produced direct product rule, to revise the control over certain foreign-produced items recently implemented by BIS. These revisions are consistent with the authority provided by the Export Control Reform Act of 2018 (ECRA).",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "85 FR 51596",
+ "dates": "This rule is effective August 17, 2020.",
+ "document_number": "2020-18213",
+ "effective_on": "2020-08-17",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-20/pdf/2020-18213.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-08-20",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/20/2020-18213.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Huawei Non-U.S. Affiliates to the Entity List, the Removal of Temporary General License, and Amendments to General Prohibition Three (Foreign-Produced Direct Product Rule)",
+ "type": "Rule"
+}

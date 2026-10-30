@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "73 FR 60095",
+ "dates": null,
+ "document_number": "E8-24342",
+ "effective_on": null,
+ "executive_order_number": "13475",
+ "html_url": "https://www.federalregister.gov/documents/2008/10/10/E8-24342/further-amendments-to-executive-orders-12139-and-12949-in-light-of-the-foreign-intelligence",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2008-10-10/pdf/E8-24342.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2008-10-10",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2008/10/10/E8-24342.txt",
+ "signing_date": "2008-10-07",
+ "subtype": "Executive Order",
+ "title": "Further Amendments To Executive Orders 12139 And 12949 In Light of the Foreign Intelligence Surveillance Act of 1978 Amendments Act of 2008",
+ "type": "Presidential Document"
+}

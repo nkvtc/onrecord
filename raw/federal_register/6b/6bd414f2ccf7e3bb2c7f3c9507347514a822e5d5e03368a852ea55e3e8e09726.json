@@ -1,0 +1,33 @@
+{
+ "abstract": "In a notice published on September 8, 2022, USTR announced that the July 6, 2018 and August 23, 2018 actions, as modified, in the section 301 investigation of China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation did not terminate on their four-year anniversary dates and would continue. The notice also announced that the U.S. Trade Representative would conduct a review of the actions. In connection with that review, and at the specific direction of the President, the U.S. Trade Representative is proposing modifications to the actions by adding or increasing ad valorem rates of duty, as directed by the President, for certain products of China in strategic sectors. In addition, the U.S. Trade Representative is proposing subheadings eligible for an exclusion process by which interested persons may request that particular machinery used in domestic manufacturing be temporarily excluded from these tariffs. The U.S. Trade Representative also is proposing to modify the actions by granting 19 temporary exclusions for certain solar manufacturing equipment. The products subject to these proposed modifications and the products being proposed for the exclusion process are set out in annexes to this notice. USTR is seeking public comments regarding the proposed modifications and exclusion process.",
+ "action": "Request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "89 FR 46252",
+ "dates": "May 29, 2024, at 12:01 a.m. EDT: The public docket on the web portal at https://comments.ustr.gov will open for interested persons to submit comments.",
+ "document_number": "2024-11634",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/05/28/2024-11634/request-for-comments-on-proposed-modifications-and-machinery-exclusion-process-in-four-year-review",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-05-28/pdf/2024-11634.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-05-28",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/05/28/2024-11634.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments on Proposed Modifications and Machinery Exclusion Process in Four-Year Review of Actions Taken in the Section 301 Investigation: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

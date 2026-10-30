@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "63 FR 52125",
+ "dates": null,
+ "document_number": "98-26250",
+ "effective_on": null,
+ "executive_order_number": "13102",
+ "html_url": "https://www.federalregister.gov/documents/1998/09/29/98-26250/further-amendment-to-executive-order-13038-advisory-committee-on-public-interest-obligations-of",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1998-09-29/pdf/98-26250.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1998-09-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1998/09/29/98-26250.txt",
+ "signing_date": "1998-09-25",
+ "subtype": "Executive Order",
+ "title": "Further Amendment to Executive Order 13038, Advisory Committee on Public Interest Obligations of Digital Television Broadcasters",
+ "type": "Presidential Document"
+}

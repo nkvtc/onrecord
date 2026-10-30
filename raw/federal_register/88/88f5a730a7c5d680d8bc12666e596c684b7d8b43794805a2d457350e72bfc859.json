@@ -1,0 +1,33 @@
+{
+ "abstract": "The U.S. Trade Representative is commencing the statutory four-year review of the two actions taken under Section 301 of the Trade Act of 1974, as amended, in the investigation of China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation. The two actions were effective, respectively, on July 6, 2018 and August 23, 2018, and subsequently were modified by imposing additional duties on supplemental lists of products, as well as by the temporary removal of duties on certain products through product exclusions. The first step in the four-year review process is notifying representatives of domestic industries which benefit from the trade actions, as modified, of the possible termination of the actions, and of the opportunity for these representatives to request continuation of the actions. Requests for continuation must be received in the 60-day window prior to the four-year anniversary of the respective action: Between May 7, 2022, and July 5, 2022, for the July 6, 2018 action, and between June 24, 2022, and August 22, 2022, for the August 23, 2018, action. The Office of the United States Trade Representative (USTR) is opening dockets in these two time windows for representatives of domestic industries which benefit from the trade actions to request continuation of the corresponding trade actions, as modified. If the actions continue as a result of one or more requests from representatives of domestic industries which benefit from the trade actions, USTR will proceed with the next phase of the review. The second phase of the review will be announced in one or more subsequent notices, and will provide opportunities for public comments from all interested parties.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "87 FR 26797",
+ "dates": "For the July 6, 2018 trade action, the web portal at https:// comments.ustr.gov/s/ will open for requests to continue the action on May 7, 2022, and close at 11:59 p.m. on July 5, 2022. For the August 23, 2018 trade action, the web portal at https://comments.ustr.gov/s/ will open for requests to continue the action on June 24, 2022, and close at 11:59 p.m. on August 22, 2022.",
+ "document_number": "2022-09688",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/05/05/2022-09688/initiation-of-four-year-review-process-chinas-acts-policies-and-practices-related-to-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-05-05/pdf/2022-09688.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-05-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/05/05/2022-09688.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Initiation of Four-Year Review Process: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": "In connection with the Four-Year Review of actions taken in the section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation, and in accordance with the specific direction of the President, the U.S. Trade Representative has determined to: modify the actions being taken in the investigation by imposing additional section 301 duties or increasing the rate of existing section 301 duties, on certain products of China in strategic sectors; propose increasing tariff rates for certain tungsten products, wafers, and polysilicon, with a public comment process to be set out via separate notice; provide a list of subheadings eligible for consideration of temporary exclusion under an exclusion process for certain machinery used in domestic manufacturing; and modify the actions to temporarily exclude from section 301 duties certain solar manufacturing equipment.",
+ "action": "Notice of modification of actions.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "89 FR 76581",
+ "dates": "Tariff increases in 2024 are applicable with respect to products that are entered for consumption, or withdrawn from warehouse for consumption, on or after September 27, 2024. Tariff increases in 2025 and 2026 are applicable with respect to products that are entered for consumption, or withdrawn from warehouse for consumption, on or after January 1 of the corresponding year. Exclusions for solar equipment included in Annex B are retroactive and applicable with respect to products that are entered for consumption, or withdrawn from warehouse for consumption, on or after January 1, 2024, and through May 31, 2025.",
+ "document_number": "2024-21217",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/09/18/2024-21217/notice-of-modification-chinas-acts-policies-and-practices-related-to-technology-transfer",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-09-18/pdf/2024-21217.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-09-18",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/09/18/2024-21217.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Modification: China's Acts, Policies and Practices Related to Technology Transfer, Intellectual Property and Innovation",
+ "type": "Notice"
+}

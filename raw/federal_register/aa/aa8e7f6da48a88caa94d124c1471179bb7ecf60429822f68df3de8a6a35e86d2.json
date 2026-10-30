@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "76 FR 13497",
+ "dates": null,
+ "document_number": "2011-5903",
+ "effective_on": null,
+ "executive_order_number": "13568",
+ "html_url": "https://www.federalregister.gov/documents/2011/03/11/2011-5903/extending-provisions-of-the-international-organizations-immunities-act-to-the-office-of-the-high",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-03-11/pdf/2011-5903.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2011-03-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/03/11/2011-5903.txt",
+ "signing_date": "2011-03-08",
+ "subtype": "Executive Order",
+ "title": "Extending Provisions of the International Organizations Immunities Act to the Office of the High Representative in Bosnia and Herzegovina and the International Civilian Office in Kosovo",
+ "type": "Presidential Document"
+}

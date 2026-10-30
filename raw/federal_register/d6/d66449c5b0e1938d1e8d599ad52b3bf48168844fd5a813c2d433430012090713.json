@@ -1,0 +1,42 @@
+{
+ "abstract": "This final rule amends the Export Administration Regulations (EAR) by adding seven entities under seven entries to the Entity List. These seven entities have been determined by the U.S. Government to be acting contrary to the foreign policy or national security interests of the United States and will be listed on the Entity List under the destinations of the People's Republic of China (China), Pakistan, and the United Arab Emirates (UAE). This final rule also modifies four existing entries on the Entity List under the destination of China.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "87 FR 8180",
+ "dates": "This rule is effective February 14, 2022.",
+ "document_number": "2022-03029",
+ "effective_on": "2022-02-14",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/02/14/2022-03029/addition-of-certain-entities-to-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-02-14/pdf/2022-03029.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-02-14",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/02/14/2022-03029.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Certain Entities to the Entity List",
+ "type": "Rule"
+}

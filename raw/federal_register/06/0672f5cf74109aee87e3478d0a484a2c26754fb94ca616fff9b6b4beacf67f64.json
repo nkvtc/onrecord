@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "72 FR 40053",
+ "dates": null,
+ "document_number": "07-3593",
+ "effective_on": null,
+ "executive_order_number": "13439",
+ "html_url": "https://www.federalregister.gov/documents/2007/07/20/07-3593/establishing-an-interagency-working-group-on-import-safety",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2007-07-20/pdf/07-3593.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2007-07-20",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2007/07/20/07-3593.txt",
+ "signing_date": "2007-07-18",
+ "subtype": "Executive Order",
+ "title": "Establishing an Interagency Working Group on Import Safety",
+ "type": "Presidential Document"
+}

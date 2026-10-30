@@ -1,0 +1,42 @@
+{
+ "abstract": "In response to the Russian Federation's (Russia's) further invasion of Ukraine, and Belarus's substantial enabling of Russia's invasion, the Department of Commerce is imposing restrictions on the export, reexport, or transfer (in-country) to or within Russia or Belarus of `luxury goods' under the Export Administration Regulations (EAR) and for exports, reexports and transfers (in-country) worldwide to certain Russian or Belarusian oligarchs and other malign actors supporting the Russian or Belarusian governments. Taken together, these new export controls will significantly limit financially elite individuals' and organizations' access to luxury goods and thereby accentuate the consequences of providing such support.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "87 FR 14785",
+ "dates": "This rule is effective on March 11, 2022.",
+ "document_number": "2022-05604",
+ "effective_on": "2022-03-11",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/03/16/2022-05604/imposition-of-sanctions-on-luxury-goods-destined-for-russia-and-belarus-and-for-russian-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-03-16/pdf/2022-05604.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-03-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/03/16/2022-05604.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Imposition of Sanctions on `Luxury Goods' Destined for Russia and Belarus and for Russian and Belarusian Oligarchs and Malign Actors Under the Export Administration Regulations (EAR)",
+ "type": "Rule"
+}

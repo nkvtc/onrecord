@@ -1,0 +1,33 @@
+{
+ "abstract": "On August 20, 2019, at the direction of the President, the U.S. Trade Representative determined to modify the action being taken in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by imposing additional ad valorem duties on goods of China with an annual trade value of approximately $300 billion. The additional duties on products in List 1, which is set out in Annex A of that action, became effective on September 1, 2019. The U.S. Trade Representative initiated a product exclusion process in October 2019, and has issued seven product exclusion notices under this action and is issuing an eighth notice concurrent with this notice. The product exclusions granted under these notices are scheduled to expire on September 1, 2020. The U.S. Trade Representative decided to consider a possible extension of particular exclusions granted under the first seven product exclusion notices. This notice announces the U.S. Trade Representative's decision to consider a possible extension of particular exclusions granted under the eighth notice of product exclusions.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "85 FR 48595",
+ "dates": "August 5, 2020: The public docket on the web portal at https:// comments.USTR.gov opened for parties to submit comments on the possible extension of particular exclusions.",
+ "document_number": "2020-17441",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/08/11/2020-17441/request-for-comments-concerning-the-extension-of-particular-exclusions-granted-under-the-300-billion",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-11/pdf/2020-17441.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-08-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/11/2020-17441.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments Concerning the Extension of Particular Exclusions Granted Under the $300 Billion Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

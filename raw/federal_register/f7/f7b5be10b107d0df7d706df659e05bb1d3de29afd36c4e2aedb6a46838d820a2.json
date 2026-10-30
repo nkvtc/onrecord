@@ -1,0 +1,42 @@
+{
+ "abstract": "In this final rule, BIS amends the Export Administration Regulations (EAR) to apply more restrictive treatment to exports and reexports to, and transfers (in-country) within, Nicaragua of items subject to the EAR. This action is consistent with the State Department's addition of Nicaragua to the list of countries that are subject to a U.S. arms embargo under the International Traffic in Arms Regulations (ITAR). To reflect this changed status under the ITAR, BIS adds Nicaragua to Country Group D:5. BIS's amendments also address concerns regarding the Nicaraguan Government's commission of human rights abuses against citizens and civil society groups, as well as the regime's ongoing military and security cooperation with Russia. Specifically, BIS is moving Nicaragua from Country Group B to Country Group D, a more restrictive country grouping, applying a stringent licensing policy for items controlled for national security reasons, and making the country subject to `military end use' and `military end user' restrictions. This rule advances the U.S. Government's efforts to restrict the availability of items subject to the EAR to Nicaragua's military and security services. Additionally, consistent with BIS's authorities under the Export Control Reform Act of 2018, this rule demonstrates a commitment to using export controls to protect human rights and promote democracy.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "89 FR 18780",
+ "dates": "This rule is effective March 15, 2024.",
+ "document_number": "2024-05696",
+ "effective_on": "2024-03-15",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/03/15/2024-05696/revisions-to-export-reexport-and-transfer-in-country-controls-for-nicaragua-under-the-export",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-15/pdf/2024-05696.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-03-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/15/2024-05696.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Revisions To Export, Reexport, and Transfer (In-Country) Controls for Nicaragua Under the Export Administration Regulations",
+ "type": "Rule"
+}

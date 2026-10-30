@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "66 FR 7853",
+ "dates": null,
+ "document_number": "01-2398",
+ "effective_on": null,
+ "executive_order_number": "13197",
+ "html_url": "https://www.federalregister.gov/documents/2001/01/25/01-2398/governmentwide-accountability-for-merit-system-principles-workforce-information",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-01-25/pdf/01-2398.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "2001-01-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/01/25/01-2398.txt",
+ "signing_date": "2001-01-18",
+ "subtype": "Executive Order",
+ "title": "Governmentwide Accountability for Merit System Principles; Workforce Information",
+ "type": "Presidential Document"
+}

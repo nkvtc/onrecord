@@ -1,0 +1,42 @@
+{
+ "abstract": "On October 7, 2022, the Bureau of Industry and Security (BIS) released the interim final rule (IFR), \"Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification\" (October 7 IFR), which amended the Export Administration Regulations (EAR) to implement controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items, and to make other EAR changes to implement appropriate related controls, including on certain \"U.S. person\" activities. This Advanced Computing/ Supercomputing IFR (AC/S IFR) addresses comments received in response to only the part of the October 7 IFR that controls advanced computing ICs and computer commodities that contain such ICs. This rule also makes other changes to make the controls more effective and less burdensome, including by correcting and clarifying the controls to more effectively achieve the policy objectives identified in the October 7 IFR. This AC/S IFR is published concurrently with a second BIS IFR, \"Export Controls on Semiconductor Manufacturing Items,\" which addresses public comments received in response to other portions of the October 7 IFR. Together, these IFRs revise the October 7 IFR controls to more effectively achieve BIS's focused national security policy objectives. These revisions protect U.S. national security interests by further restricting China's ability to obtain critical technologies to modernize its military capabilities in ways that threaten the national security interests of the United States and its allies.",
+ "action": "Interim final rule; request for comments.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "88 FR 73458",
+ "dates": "This rule is effective November 17, 2023, except for amendatory instruction 11 amending supplement no. 1 to part 736 of the EAR, which is effective from November 17, 2023, to January 1, 2026.",
+ "document_number": "2023-23055",
+ "effective_on": "2023-11-17",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-10-25/pdf/2023-23055.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2023-10-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/10/25/2023-23055.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections",
+ "type": "Rule"
+}

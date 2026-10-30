@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "75 FR 19869",
+ "dates": null,
+ "document_number": "2010-8878",
+ "effective_on": null,
+ "executive_order_number": "13536",
+ "html_url": "https://www.federalregister.gov/documents/2010/04/15/2010-8878/blocking-property-of-certain-persons-contributing-to-the-conflict-in-somalia",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-04-15/pdf/2010-8878.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2010-04-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/04/15/2010-8878.txt",
+ "signing_date": "2010-04-12",
+ "subtype": "Executive Order",
+ "title": "Blocking Property of Certain Persons Contributing to the Conflict in Somalia",
+ "type": "Presidential Document"
+}

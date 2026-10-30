@@ -1,0 +1,42 @@
+{
+ "abstract": "The Bureau of Industry and Security (BIS) is amending the Export Administration Regulations (EAR) by removing 9 persons from the Unverified List (UVL) and adding them to the Entity List, all under the destination of Russia. BIS has been unable to verify the bona fides of all 9 persons being removed from the UVL and added to the Entity List, due to the foreign government's prevention of timely end-use checks. BIS is also amending the EAR by removing 27 persons from the UVL, one under the destination of Pakistan and 26 under the destination of China, because BIS was able to verify their bona fides.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "87 FR 76924",
+ "dates": "This rule is effective: December 16, 2022.",
+ "document_number": "2022-27149",
+ "effective_on": "2022-12-16",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/12/16/2022-27149/revisions-to-the-unverified-list-and-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-12-16/pdf/2022-27149.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-12-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/12/16/2022-27149.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Revisions to the Unverified List and the Entity List",
+ "type": "Rule"
+}

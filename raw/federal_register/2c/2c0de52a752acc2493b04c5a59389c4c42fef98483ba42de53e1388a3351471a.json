@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "65 FR 26115",
+ "dates": null,
+ "document_number": "00-11336",
+ "effective_on": null,
+ "executive_order_number": "13152",
+ "html_url": "https://www.federalregister.gov/documents/2000/05/04/00-11336/further-amendment-to-executive-order-11478-equal-employment-opportunity-in-federal-government",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2000-05-04/pdf/00-11336.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "2000-05-04",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2000/05/04/00-11336.txt",
+ "signing_date": "2000-05-02",
+ "subtype": "Executive Order",
+ "title": "Further Amendment to Executive Order 11478, Equal Employment Opportunity in Federal Government",
+ "type": "Presidential Document"
+}

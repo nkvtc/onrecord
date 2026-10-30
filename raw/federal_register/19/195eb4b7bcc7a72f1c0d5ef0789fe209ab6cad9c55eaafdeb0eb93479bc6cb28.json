@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "66 FR 7271",
+ "dates": null,
+ "document_number": "01-2014",
+ "effective_on": null,
+ "executive_order_number": "13191",
+ "html_url": "https://www.federalregister.gov/documents/2001/01/22/01-2014/implementation-of-the-african-growth-and-opportunity-act-and-the-united-states-caribbean-basin-trade",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-01-22/pdf/01-2014.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "2001-01-22",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/01/22/01-2014.txt",
+ "signing_date": "2001-01-17",
+ "subtype": "Executive Order",
+ "title": "Implementation of the African Growth and Opportunity Act and the United States-Caribbean Basin Trade Partnership Act",
+ "type": "Presidential Document"
+}

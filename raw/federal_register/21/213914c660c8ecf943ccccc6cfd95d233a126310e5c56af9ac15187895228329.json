@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "63 FR 17309",
+ "dates": null,
+ "document_number": "98-9599",
+ "effective_on": null,
+ "executive_order_number": "13079",
+ "html_url": "https://www.federalregister.gov/documents/1998/04/09/98-9599/waiver-under-the-trade-act-of-1974-with-respect-to-vietnam",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1998-04-09/pdf/98-9599.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1998-04-09",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1998/04/09/98-9599.txt",
+ "signing_date": "1998-04-07",
+ "subtype": "Executive Order",
+ "title": "Waiver Under The Trade Act Of 1974 With Respect to Vietnam",
+ "type": "Presidential Document"
+}

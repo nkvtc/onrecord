@@ -1,0 +1,42 @@
+{
+ "abstract": "This rule amends the Export Administration Regulations (EAR) by adding twenty-one persons under twenty-three entries to the Entity List. The twenty-one persons who are added to the Entity List have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States. These twenty-one persons will be listed on the Entity List under the destinations of Bulgaria, China, Kazakhstan, Russia, Syria, and the United Arab Emirates (U.A.E.). In addition, this rule amends the EAR by removing three entities from the Entity List. This rule removes one entity listed under the destination of Taiwan and two entities listed under the destination of the U.A.E. from the Entity List. All three of the removals are the results of requests for removal received by BIS pursuant to the section of the EAR used for requesting removal or modification of an Entity List entry and a review of information provided in the removal requests. Finally, this final rule modifies two existing entries on the Entity List. This rule modifies one entry under China and one entry under Pakistan to provide additional or modified addresses and/or names for these persons.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "83 FR 3577",
+ "dates": "This rule is effective January 26, 2018.",
+ "document_number": "2018-01332",
+ "effective_on": "2018-01-26",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/01/26/2018-01332/addition-of-certain-entities-removal-of-certain-entities-and-revisions-of-entries-on-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-01-26/pdf/2018-01332.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-01-26",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/01/26/2018-01332.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Certain Entities; Removal of Certain Entities; and Revisions of Entries on the Entity List",
+ "type": "Rule"
+}

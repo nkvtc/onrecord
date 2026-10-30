@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "63 FR 49643",
+ "dates": null,
+ "document_number": "98-25023",
+ "effective_on": null,
+ "executive_order_number": "13101",
+ "html_url": "https://www.federalregister.gov/documents/1998/09/16/98-25023/greening-the-government-through-waste-prevention-recycling-and-federal-acquisition",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1998-09-16/pdf/98-25023.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1998-09-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1998/09/16/98-25023.txt",
+ "signing_date": "1998-09-14",
+ "subtype": "Executive Order",
+ "title": "Greening the Government Through Waste Prevention, Recycling, and Federal Acquisition",
+ "type": "Presidential Document"
+}

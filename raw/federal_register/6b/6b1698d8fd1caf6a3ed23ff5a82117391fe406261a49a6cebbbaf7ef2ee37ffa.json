@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "61 FR 1693",
+ "dates": null,
+ "document_number": "96-955",
+ "effective_on": null,
+ "executive_order_number": "12986",
+ "html_url": "https://www.federalregister.gov/documents/1996/01/22/96-955/international-union-for-conservation-of-nature-and-natural-resources",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1996-01-22/pdf/96-955.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1996-01-22",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1996/01/22/96-955.txt",
+ "signing_date": "1996-01-18",
+ "subtype": "Executive Order",
+ "title": "International Union for Conservation of Nature and Natural Resources",
+ "type": "Presidential Document"
+}

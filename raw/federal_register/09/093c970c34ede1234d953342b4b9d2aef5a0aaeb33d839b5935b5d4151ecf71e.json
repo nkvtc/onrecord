@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "71 FR 38511",
+ "dates": null,
+ "document_number": "06-6101",
+ "effective_on": null,
+ "executive_order_number": "13409",
+ "html_url": "https://www.federalregister.gov/documents/2006/07/07/06-6101/establishing-an-emergency-board-to-investigate-a-dispute-between-southeastern-pennsylvania",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2006-07-07/pdf/06-6101.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2006-07-07",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2006/07/07/06-6101.txt",
+ "signing_date": "2006-07-03",
+ "subtype": "Executive Order",
+ "title": "Establishing an Emergency Board To Investigate a Dispute Between Southeastern Pennsylvania Transportation Authority and Its Locomotive Engineers Represented by the Brotherhood of Locomotive Engineers and Trainmen",
+ "type": "Presidential Document"
+}

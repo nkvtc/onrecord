@@ -1,0 +1,33 @@
+{
+ "abstract": "On August 20, 2019, at the direction of the President, the U.S. Trade Representative determined to modify the action being taken in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by imposing additional duties of 10 percent ad valorem on goods of China with an annual trade value of approximately $300 billion. The additional duties on products in List 1, which is set out in Annex A of that action, became effective on September 1, 2019. The U.S. Trade Representative initiated a product exclusion process in October 2019, and has issued eight product exclusion notices under this action. These exclusions will expire on September 1, 2020. On June 26, July 17, and August 11, 2020, the U.S. Trade Representative established processes for the public to comment on whether to extend particular exclusions granted under the $300 billion action for up to 12 months. This notice announces the U.S. Trade Representative's determination to extend certain exclusions through December 31, 2020.",
+ "action": "Notice of product exclusion extensions.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "85 FR 54616",
+ "dates": "The product exclusion extensions announced in this notice will apply as of September 1, 2020, and extend through December 31, 2020. U.S. Customs and Border Protection will issue instructions on entry guidance and implementation.",
+ "document_number": "2020-19419",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/09/02/2020-19419/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-09-02/pdf/2020-19419.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-09-02",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/09/02/2020-19419.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Product Exclusion Extensions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

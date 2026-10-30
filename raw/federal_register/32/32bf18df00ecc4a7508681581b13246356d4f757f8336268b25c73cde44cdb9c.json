@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "86 FR 6837",
+ "dates": null,
+ "document_number": "2021-01714",
+ "effective_on": null,
+ "executive_order_number": "13984",
+ "html_url": "https://www.federalregister.gov/documents/2021/01/25/2021-01714/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-25/pdf/2021-01714.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-01-25",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/25/2021-01714.txt",
+ "signing_date": "2021-01-19",
+ "subtype": "Executive Order",
+ "title": "Taking Additional Steps To Address the National Emergency With Respect to Significant Malicious Cyber- Enabled Activities",
+ "type": "Presidential Document"
+}

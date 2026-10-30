@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "69 FR 53593",
+ "dates": null,
+ "document_number": "04-20051",
+ "effective_on": null,
+ "executive_order_number": "13355",
+ "html_url": "https://www.federalregister.gov/documents/2004/09/01/04-20051/strengthened-management-of-the-intelligence-community",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2004-09-01/pdf/04-20051.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2004-09-01",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2004/09/01/04-20051.txt",
+ "signing_date": "2004-08-27",
+ "subtype": "Executive Order",
+ "title": "Strengthened Management of the Intelligence Community",
+ "type": "Presidential Document"
+}

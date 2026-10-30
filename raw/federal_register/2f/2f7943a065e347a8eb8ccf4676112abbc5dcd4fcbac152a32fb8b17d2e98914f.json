@@ -1,0 +1,33 @@
+{
+ "abstract": "In accordance with the specific direction of the President, the U.S. Trade Representative proposes to modify the action being taken in this investigation by increasing the rate of additional duty from 25 percent to 30 percent on the products of China currently subject to tariff actions first taken in June, August, and September 2018, with an aggregate annual trade value of approximately $250 billion. The products subject to this proposed modification are specified in prior notices, and for the convenience of the public also are set out in the Annexes to this notice. The Office of the U.S. Trade Representative invites public comment on the proposed modification.",
+ "action": "Request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "84 FR 46212",
+ "dates": "September 20, 2019: To be assured of consideration, submit written comments by September 20, 2019.",
+ "document_number": "2019-18946",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2019/09/03/2019-18946/request-for-comments-concerning-proposed-modification-of-action-pursuant-to-section-301-chinas-acts",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-09-03/pdf/2019-18946.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2019-09-03",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/09/03/2019-18946.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments Concerning Proposed Modification of Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

@@ -1,0 +1,33 @@
+{
+ "abstract": "In prior notices, the U.S. Trade Representative modified the action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation by excluding certain products from additional duties in multiple tranches. From the various tranches of granted exclusions, the U.S. Trade Representative subsequently extended 549 exclusions. Most of these extensions expired by December 31, 2020. The remainder expired earlier this year. USTR invites specific comments on whether to reinstate particular product exclusions.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "86 FR 56345",
+ "dates": "October 12, 2021 at 12:01 a.m. EDT: The public docket on the web portal at https://comments.USTR.gov will open for parties to submit comments on the possible reinstatement of particular exclusions. December 1, 2021 at 11:59 p.m. EST: To be assured of consideration, submit written comments on the public docket by this date.",
+ "document_number": "2021-22062",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2021/10/08/2021-22062/request-for-comments-on-the-possible-reinstatement-of-certain-exclusions-in-the-section-301",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-10-08/pdf/2021-22062.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-10-08",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/10/08/2021-22062.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments on the Possible Reinstatement of Certain Exclusions in the Section 301 Investigation of China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

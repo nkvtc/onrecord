@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "60 FR 8169",
+ "dates": null,
+ "document_number": "95-3671",
+ "effective_on": null,
+ "executive_order_number": "12949",
+ "html_url": "https://www.federalregister.gov/documents/1995/02/13/95-3671/foreign-intelligence-physical-searches",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1995-02-13/pdf/95-3671.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1995-02-13",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1995/02/13/95-3671.txt",
+ "signing_date": "1995-02-09",
+ "subtype": "Executive Order",
+ "title": "Foreign Intelligence Physical Searches",
+ "type": "Presidential Document"
+}

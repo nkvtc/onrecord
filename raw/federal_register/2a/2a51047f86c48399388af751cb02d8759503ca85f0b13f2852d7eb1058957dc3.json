@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "75 FR 21973",
+ "dates": null,
+ "document_number": "2010-9796",
+ "effective_on": null,
+ "executive_order_number": "13539",
+ "html_url": "https://www.federalregister.gov/documents/2010/04/27/2010-9796/presidents-council-of-advisors-on-science-and-technology",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-04-27/pdf/2010-9796.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2010-04-27",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/04/27/2010-9796.txt",
+ "signing_date": "2010-04-21",
+ "subtype": "Executive Order",
+ "title": "President's Council of Advisors on Science and Technology",
+ "type": "Presidential Document"
+}

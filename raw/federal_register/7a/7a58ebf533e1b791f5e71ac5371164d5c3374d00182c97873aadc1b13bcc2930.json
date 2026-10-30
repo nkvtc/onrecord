@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "62 FR 43451",
+ "dates": null,
+ "document_number": "97-21607",
+ "effective_on": null,
+ "executive_order_number": "13058",
+ "html_url": "https://www.federalregister.gov/documents/1997/08/13/97-21607/protecting-federal-employees-and-the-public-from-exposure-to-tobacco-smoke-in-the-federal-workplace",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1997-08-13/pdf/97-21607.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1997-08-13",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1997/08/13/97-21607.txt",
+ "signing_date": "1997-08-09",
+ "subtype": "Executive Order",
+ "title": "Protecting Federal Employees and the Public From Exposure to Tobacco Smoke in the Federal Workplace",
+ "type": "Presidential Document"
+}

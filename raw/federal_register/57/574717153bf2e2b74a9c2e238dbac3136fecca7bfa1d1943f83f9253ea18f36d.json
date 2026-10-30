@@ -1,0 +1,33 @@
+{
+ "abstract": "USTR is conducting a four-year review of the July 6, 2018 action, as modified, and the August 23, 2018 action, as modified, in the section 301 investigation of China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation. As part of the review, USTR is seeking public comments on the effectiveness of the actions in achieving the objectives of the investigation, other actions that could be taken, and the effects of such actions on the United States economy, including consumers.",
+ "action": "Request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "87 FR 62914",
+ "dates": "November 15, 2022 at 12:01 a.m. EST: The public docket on the web portal at https://comments.USTR.gov will open for interested persons to submit comments.",
+ "document_number": "2022-22469",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2022/10/17/2022-22469/request-for-comments-in-four-year-review-of-actions-taken-in-the-section-301-investigation-chinas",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-10-17/pdf/2022-22469.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2022-10-17",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/10/17/2022-22469.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Comments in Four-Year Review of Actions Taken in the Section 301 Investigation: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

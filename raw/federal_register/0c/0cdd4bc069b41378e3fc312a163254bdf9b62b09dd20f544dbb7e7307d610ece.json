@@ -1,0 +1,33 @@
+{
+ "abstract": "The Office of the United States Trade Representative (USTR) has led the United States' efforts on the Indigenous Peoples Economic and Trade Cooperation Arrangement (IPETCA) since the United States became an Observer to the IPETCA Partnership Council--the governing body of IPETCA--in April 2024. USTR is accepting applications from qualified individuals interested in serving a two-year term (with an option to extend for a third year) as an Indigenous Peoples' representative alongside U.S. government representatives on the observer delegation from the United States.",
+ "action": "Request for applications.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "89 FR 86074",
+ "dates": "Submit applications no later than 5 p.m. EST on December 6, 2024.",
+ "document_number": "2024-25111",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/10/29/2024-25111/request-for-applications-from-individuals-interested-in-serving-as-an-indigenous-peoples",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-29/pdf/2024-25111.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-10-29",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/10/29/2024-25111.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Request for Applications From Individuals Interested in Serving as an Indigenous Peoples' Representative on the Observer Delegation From the United States to the Partnership Council of the Indigenous Peoples Economic and Trade Cooperation Arrangement",
+ "type": "Notice"
+}

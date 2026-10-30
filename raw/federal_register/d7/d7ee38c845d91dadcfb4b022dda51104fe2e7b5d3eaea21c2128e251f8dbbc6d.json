@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "82 FR 12497",
+ "dates": null,
+ "document_number": "2017-04353",
+ "effective_on": null,
+ "executive_order_number": "13778",
+ "html_url": "https://www.federalregister.gov/documents/2017/03/03/2017-04353/restoring-the-rule-of-law-federalism-and-economic-growth-by-reviewing-the-waters-of-the-united",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-03/pdf/2017-04353.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2017-03-03",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/03/2017-04353.txt",
+ "signing_date": "2017-02-28",
+ "subtype": "Executive Order",
+ "title": "Restoring the Rule of Law, Federalism, and Economic Growth by Reviewing the \"Waters of the United States\" Rule",
+ "type": "Presidential Document"
+}

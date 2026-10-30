@@ -1,0 +1,42 @@
+{
+ "abstract": "On May 16, 2019, Huawei Technologies Co., Ltd. (Huawei) and sixty-eight of its non-U.S. affiliates were added to the Entity List. Their addition to the Entity List imposed a licensing requirement under the Export Administration Regulations (EAR) regarding the export, reexport, or transfer (in-country) of any item subject to the EAR to any of these 69 listed Huawei entities. The Entity List-based licensing requirement applied in addition to any other license requirement, if any, applicable under the EAR to the transaction in question. On May 22, 2019, the Bureau of Industry and Security (BIS) published a temporary general license, effective May 20, 2019, that modified the effect of the listing in order to temporarily authorize engagement in certain transactions, involving the export, reexport, or transfer (in- country) of items subject to the EAR to the 69 listed Huawei entities. The U.S. Government has decided to extend the temporary general license through November 18, 2019. In order to implement this decision, this final rule revises the temporary general license to remove the expiration date of August 19, 2019, and substitutes the date of November 18, 2019. This final rule also makes certain clarifying changes to the authorized transactions under the temporary general license to improve public understanding. Lastly, this final rule revises the temporary general license by changing which party to the transaction is required to create the certification statement by requiring that the exporter, reexporter, or transferor obtain a certification statement from the pertinent Huawei listed entity prior to using the temporary general license. Concurrently with the this final rule, BIS is also publishing elsewhere in this issue of the Federal Register the final rule, Addition of Certain Entities to the Entity List and Revision of Entries on the Entity List. This final rule, as a conforming change for the addition of these other non-U.S. affiliates of Huawei to the Entity List, revises the temporary general license to include those additional Huawei affiliates within the scope of the temporary general license.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "84 FR 43487",
+ "dates": "This rule is effective August 19, 2019 through November 18, 2019, except for amendatory instructions 1 and 3, which are effective August 19, 2019. The expiration date of the final rule published on May 22, 2019 (84 FR 23468) is extended until November 18, 2019.",
+ "document_number": "2019-17920",
+ "effective_on": "2019-08-19",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2019/08/21/2019-17920/temporary-general-license-extension-of-validity-clarifications-to-authorized-transactions-and",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-08-21/pdf/2019-17920.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2019-08-21",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/08/21/2019-17920.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Temporary General License: Extension of Validity, Clarifications to Authorized Transactions, and Changes to Certification Statement Requirements",
+ "type": "Rule"
+}

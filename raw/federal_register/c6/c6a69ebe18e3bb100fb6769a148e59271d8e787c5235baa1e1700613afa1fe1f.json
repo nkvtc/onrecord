@@ -1,0 +1,33 @@
+{
+ "abstract": "Effective July 1, 2026, the U.S. International Trade Commission (USITC) implemented certain changes to statistical reporting categories in the Harmonized Tariff Schedule of the United States (HTSUS). As a result of these changes, USTR is making conforming amendments to four product exclusions associated with the Section 301 investigation of China Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "91 FR 56538",
+ "dates": "The conforming amendments announced in the Annex to this notice are effective as of July 1, 2026. Customs and Border Protection (CBP) will issue instructions on entry guidance and implementation.",
+ "document_number": "2026-17925",
+ "effective_on": "2026-07-01",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2026/09/02/2026-17925/notice-of-conforming-amendments-to-product-exclusions-chinas-acts-policies-and-practices-related-to",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-02/pdf/2026-17925.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2026-09-02",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/02/2026-17925.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Conforming Amendments to Product Exclusions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

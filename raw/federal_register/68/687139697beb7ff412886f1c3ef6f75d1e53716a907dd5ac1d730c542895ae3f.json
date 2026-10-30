@@ -1,0 +1,33 @@
+{
+ "abstract": "In a notice published on June 20, 2018, the U.S. Trade Representative (Trade Representative) determined that appropriate action to obtain the elimination of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation includes the imposition of an additional ad valorem duty of 25 percent on products from China classified in certain enumerated subheadings of the Harmonized Tariff Schedule of the United States (HTSUS). See 83 FR 28710. The June 20 notice also announced that the Trade Representative would establish a process by which U.S. stakeholders may request that particular products classified within a covered tariff subheading be excluded from the additional duties. Today's notice sets out the specific procedures and criteria related to requests for product exclusions, and opens up a docket for the receipt of exclusion requests.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "83 FR 32181",
+ "dates": "USTR must receive requests to exclude a particular product by October 9, 2018. Responses to a request for exclusion of a particular product are due 14 days after the request is posted in docket number USTR-2018-0025 on www.regulations.gov. Any replies to responses to an exclusion request are due 7 days after the close of the 14 day response period.",
+ "document_number": "2018-14820",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/07/11/2018-14820/procedures-to-consider-requests-for-exclusion-of-particular-products-from-the-determination-of",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-07-11/pdf/2018-14820.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-07-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/07/11/2018-14820.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Procedures To Consider Requests for Exclusion of Particular Products From the Determination of Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

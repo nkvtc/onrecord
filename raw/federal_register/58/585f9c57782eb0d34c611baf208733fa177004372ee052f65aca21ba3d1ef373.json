@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "81 FR 78701",
+ "dates": null,
+ "document_number": "2016-27171",
+ "effective_on": null,
+ "executive_order_number": "13747",
+ "html_url": "https://www.federalregister.gov/documents/2016/11/09/2016-27171/advancing-the-global-health-security-agenda-to-achieve-a-world-safe-and-secure-from-infectious",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-11-09/pdf/2016-27171.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2016-11-09",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/11/09/2016-27171.txt",
+ "signing_date": "2016-11-04",
+ "subtype": "Executive Order",
+ "title": "Advancing the Global Health Security Agenda To Achieve a World Safe and Secure From Infectious Disease Threats",
+ "type": "Presidential Document"
+}

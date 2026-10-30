@@ -1,0 +1,42 @@
+{
+ "abstract": "This final rule amends the Export Administration Regulations (EAR) by adding twelve entities, under a total of sixteen entries, to the Entity List. These twelve entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States and will be listed on the Entity List under the destinations of China, Hong Kong, Pakistan and the United Arab Emirates. This rule also modifies one existing entry on the Entity List under the destination of the United Arab Emirates. Finally, this rule removes one entity under the destination of the United Arab Emirates. The removal is made in connection with a request for removal that BIS received pursuant to sections of the EAR used for requesting removal or modification of an Entity List entry and a review of information provided in that request.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "84 FR 21233",
+ "dates": "This rule is effective May 14, 2019.",
+ "document_number": "2019-09945",
+ "effective_on": "2019-05-14",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2019/05/14/2019-09945/addition-of-certain-entities-to-the-entity-list-revision-of-an-entry-on-the-entity-list-and-removal",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-05-14/pdf/2019-09945.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2019-05-14",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/05/14/2019-09945.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Certain Entities to the Entity List, Revision of an Entry on the Entity List, and Removal of an Entity From the Entity List",
+ "type": "Rule"
+}

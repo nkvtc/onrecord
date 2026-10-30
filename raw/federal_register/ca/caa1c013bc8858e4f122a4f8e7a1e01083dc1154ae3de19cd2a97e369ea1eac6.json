@@ -1,0 +1,33 @@
+{
+ "abstract": "In a notice published on August 16, 2018 (83 FR 40823), the U.S. Trade Representative (Trade Representative) determined to take an additional action in the Section 301 investigation of China's acts, policies, and practices related to technology transfer, intellectual property, and innovation. The August 16 notice also announced that the Trade Representative would establish a process by which U.S. stakeholders may request that particular products classified within a tariff subheading covered by the additional action be excluded from the additional duties. This notice sets out the specific procedures and criteria related to requests for product exclusions, and opens up a docket for the receipt of exclusion requests.",
+ "action": "Notice and request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "83 FR 47236",
+ "dates": "USTR must receive all requests to exclude a particular product by December 18, 2018. Responses to a request for exclusion of a particular product are due 14 days after the request is posted in docket number USTR-2018-0032 on www.regulations.gov. Any replies to responses to an exclusion request are due the later of 7 days after the close of the 14 day response period, or 7 days after the posting of a response.",
+ "document_number": "2018-20246",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/09/18/2018-20246/procedures-to-consider-requests-for-exclusion-of-particular-products-from-the-additional-action",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-09-18/pdf/2018-20246.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-09-18",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/09/18/2018-20246.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Procedures To Consider Requests for Exclusion of Particular Products From the Additional Action Pursuant to Section 301: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}

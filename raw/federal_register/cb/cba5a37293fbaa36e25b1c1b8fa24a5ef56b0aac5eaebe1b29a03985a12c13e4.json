@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "79 FR 42971",
+ "dates": null,
+ "document_number": "2014-17522",
+ "effective_on": null,
+ "executive_order_number": "13672",
+ "html_url": "https://www.federalregister.gov/documents/2014/07/23/2014-17522/further-amendments-to-executive-order-11478-equal-employment-opportunity-in-the-federal-government",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-07-23/pdf/2014-17522.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2014-07-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/07/23/2014-17522.txt",
+ "signing_date": "2014-07-21",
+ "subtype": "Executive Order",
+ "title": "Further Amendments to Executive Order 11478, Equal Employment Opportunity in the Federal Government, and Executive Order 11246, Equal Employment Opportunity",
+ "type": "Presidential Document"
+}

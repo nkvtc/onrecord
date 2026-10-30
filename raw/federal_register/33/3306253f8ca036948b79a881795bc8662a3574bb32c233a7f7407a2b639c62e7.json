@@ -1,0 +1,33 @@
+{
+ "abstract": "The U.S. Trade Representative has initiated an investigation, of China's acts, policies, and practices related to targeting of the semiconductor industry for dominance. The inter-agency Section 301 Committee is holding a public hearing and seeking public comments in connection with this investigation.",
+ "action": "Notice of initiation of investigation and a hearing, and a request for comments.",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "89 FR 106725",
+ "dates": "December 23, 2024: The U.S. Trade Representative initiated the investigation.",
+ "document_number": "2024-31306",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/12/30/2024-31306/initiation-of-section-301-investigation-hearing-and-request-for-public-comments-chinas-acts-policies",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-30/pdf/2024-31306.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-12-30",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/30/2024-31306.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Initiation of Section 301 Investigation; Hearing; and Request for Public Comments: China's Acts, Policies, and Practices Related to Targeting of the Semiconductor Industry for Dominance",
+ "type": "Notice"
+}

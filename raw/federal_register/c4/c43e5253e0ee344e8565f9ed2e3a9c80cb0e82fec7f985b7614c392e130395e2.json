@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "85 FR 6721",
+ "dates": null,
+ "document_number": "2020-02438",
+ "effective_on": null,
+ "executive_order_number": "13903",
+ "html_url": "https://www.federalregister.gov/documents/2020/02/05/2020-02438/combating-human-trafficking-and-online-child-exploitation-in-the-united-states",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-02-05/pdf/2020-02438.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-02-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/02/05/2020-02438.txt",
+ "signing_date": "2020-01-31",
+ "subtype": "Executive Order",
+ "title": "Combating Human Trafficking and Online Child Exploitation in the United States",
+ "type": "Presidential Document"
+}

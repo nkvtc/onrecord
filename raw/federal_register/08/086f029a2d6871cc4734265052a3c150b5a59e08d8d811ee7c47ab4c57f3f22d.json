@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "86 FR 3733",
+ "dates": null,
+ "document_number": "2021-01094",
+ "effective_on": null,
+ "executive_order_number": "13973",
+ "html_url": "https://www.federalregister.gov/documents/2021/01/15/2021-01094/providing-an-order-of-succession-within-the-environmental-protection-agency",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-15/pdf/2021-01094.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-01-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/15/2021-01094.txt",
+ "signing_date": "2021-01-08",
+ "subtype": "Executive Order",
+ "title": "Providing an Order of Succession Within the Environmental Protection Agency",
+ "type": "Presidential Document"
+}

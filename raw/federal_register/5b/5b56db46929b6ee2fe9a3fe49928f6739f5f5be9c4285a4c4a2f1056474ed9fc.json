@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "89 FR 15421",
+ "dates": null,
+ "document_number": "2024-04573",
+ "effective_on": null,
+ "executive_order_number": "14117",
+ "html_url": "https://www.federalregister.gov/documents/2024/03/01/2024-04573/preventing-access-to-americans-bulk-sensitive-personal-data-and-united-states-government-related",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-01/pdf/2024-04573.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-03-01",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/01/2024-04573.txt",
+ "signing_date": "2024-02-28",
+ "subtype": "Executive Order",
+ "title": "Preventing Access to Americans' Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern",
+ "type": "Presidential Document"
+}

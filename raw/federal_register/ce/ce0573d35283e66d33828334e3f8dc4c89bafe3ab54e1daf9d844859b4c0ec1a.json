@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "62 FR 55329",
+ "dates": null,
+ "document_number": "97-28427",
+ "effective_on": null,
+ "executive_order_number": "13065",
+ "html_url": "https://www.federalregister.gov/documents/1997/10/24/97-28427/further-amendment-to-executive-order-13038-advisory-committee-on-public-interest-obligations-of",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1997-10-24/pdf/97-28427.pdf",
+ "president": {
+  "identifier": "william-j-clinton",
+  "name": "William J. Clinton"
+ },
+ "proclamation_number": null,
+ "publication_date": "1997-10-24",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1997/10/24/97-28427.txt",
+ "signing_date": "1997-10-22",
+ "subtype": "Executive Order",
+ "title": "Further Amendment to Executive Order 13038 Advisory Committee on Public Interest Obligations of Digital Television Broadcasters",
+ "type": "Presidential Document"
+}

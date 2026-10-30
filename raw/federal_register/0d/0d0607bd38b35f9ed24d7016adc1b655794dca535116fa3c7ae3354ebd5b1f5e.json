@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "78 FR 33945",
+ "dates": null,
+ "document_number": "2013-13523",
+ "effective_on": null,
+ "executive_order_number": "13645",
+ "html_url": "https://www.federalregister.gov/documents/2013/06/05/2013-13523/authorizing-the-implementation-of-certain-sanctions-set-forth-in-the-iran-freedom-and-counter-",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-06-05/pdf/2013-13523.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2013-06-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/06/05/2013-13523.txt",
+ "signing_date": "2013-06-03",
+ "subtype": "Executive Order",
+ "title": "Authorizing the Implementation of Certain Sanctions Set Forth in the Iran Freedom and Counter- Proliferation Act of 2012 and Additional Sanctions With Respect To Iran",
+ "type": "Presidential Document"
+}

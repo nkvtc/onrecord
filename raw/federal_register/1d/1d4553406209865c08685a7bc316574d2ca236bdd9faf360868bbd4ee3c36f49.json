@@ -1,0 +1,42 @@
+{
+ "abstract": "In this final rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 140 entities to the Entity List. These entries are listed on the Entity List under the destinations of China, People's Republic of (China), Japan, South Korea, and Singapore and have been determined by the U.S. Government to be acting contrary to the national security and foreign policy interests of the United States. This final rule also modifies 14 existing entries on the Entity List, consisting of revisions to 14 entries under China. This final rule publishes concurrently with BIS's interim final rule, \"Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items\" (0694-AJ74), which makes additional changes to the EAR controls on advanced computing items and semiconductor manufacturing items. This final rule is part of this larger effort to ensure that appropriate EAR controls are in place on these items, including in connection with transactions destined to or otherwise involving the entities being added to the Entity List, as well as for existing entries on the Entity List that are being modified. All of these entities (those newly added and those being modified) are involved with the development and production of \"advanced-node integrated circuits\" (\"advanced-node ICs\") and/or semiconductor manufacturing items, and/or have supported the Chinese government's Military-Civil Fusion (MCF) Development Strategy. Additionally, this final rule designates nine of these entities being added and seven of the entries being modified as entities for which entity-specific restrictions involving foreign-produced items apply. This final rule also amends the EAR by removing three entities from the Validated End- User (VEU) Program.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "89 FR 96830",
+ "dates": "Effective date: This rule is effective December 2, 2024.",
+ "document_number": "2024-28267",
+ "effective_on": "2024-12-02",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2024/12/05/2024-28267/additions-and-modifications-to-the-entity-list-removals-from-the-validated-end-user-veu-program",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28267.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2024-12-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/05/2024-28267.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Additions and Modifications to the Entity List; Removals From the Validated End-User (VEU) Program",
+ "type": "Rule"
+}

@@ -1,0 +1,42 @@
+{
+ "abstract": "The Bureau of Industry and Security (BIS), Department of Commerce, is issuing this interim final rule to implement the provisions of the Export Control Reform Act of 2018 by: imposing additional license requirements under the Export Administration Regulations (EAR) for exports, reexports, and transfers (in-country), as well as specific activities of U.S. persons, in connection with certain military-intelligence end uses and end users; clarifying that license requirements under the EAR for specific activities of U.S. persons apply even when the items at issue are not subject to the EAR; establishing restrictions on transactions intended to circumvent license requirements for listed entities; and expanding the scope of activities subject to chemical and biological weapons and rocket systems and unmanned aerial vehicles end-use controls.",
+ "action": "Interim final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "86 FR 4865",
+ "dates": "Effective date: This rule is effective March 16, 2021. Comment date: Comments must be received by BIS no later than March 1, 2021.",
+ "document_number": "2021-00977",
+ "effective_on": "2021-03-16",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2021/01/15/2021-00977/expansion-of-certain-end-use-and-end-user-controls-and-controls-on-specific-activities-of-us-persons",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-15/pdf/2021-00977.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2021-01-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/15/2021-00977.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Expansion of Certain End-Use and End-User Controls and Controls on Specific Activities of U.S. Persons",
+ "type": "Rule"
+}

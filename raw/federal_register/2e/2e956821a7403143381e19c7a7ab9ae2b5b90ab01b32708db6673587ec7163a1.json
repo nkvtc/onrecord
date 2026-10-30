@@ -1,0 +1,42 @@
+{
+ "abstract": "This rule amends the Export Administration Regulations (EAR) by adding forty-four entities (eight entities and thirty-six subordinate institutions) to the Entity List. The entities that are being added to the Entity List have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States. These entities will be listed on the Entity List under the destination of China. This rule also modifies one entry under China to provide additional addresses and names for the entity at issue.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "83 FR 37423",
+ "dates": "This rule is effective August 1, 2018.",
+ "document_number": "2018-16474",
+ "effective_on": "2018-08-01",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2018/08/01/2018-16474/addition-of-certain-entities-and-modification-of-entry-on-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-08-01/pdf/2018-16474.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2018-08-01",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/08/01/2018-16474.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Certain Entities; and Modification of Entry on the Entity List",
+ "type": "Rule"
+}

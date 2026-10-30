@@ -1,0 +1,42 @@
+{
+ "abstract": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding twenty-four entities to the Entity List. These twenty-four entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States. These entities will be listed on the Entity List under the destinations of the People's Republic of China (China), Iran, Pakistan, Russia and the United Arab Emirates (U.A.E.). This rule also revises five existing entries on the Entity list, one each under the destinations of France, Iran, Lebanon, Singapore and the United Kingdom.",
+ "action": "Final rule.",
+ "agencies": [
+  {
+   "id": 54,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+   "name": "Commerce Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF COMMERCE",
+   "slug": "commerce-department",
+   "url": "https://www.federalregister.gov/agencies/commerce-department"
+  },
+  {
+   "id": 241,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/241",
+   "name": "Industry and Security Bureau",
+   "parent_id": 54,
+   "raw_name": "Bureau of Industry and Security",
+   "slug": "industry-and-security-bureau",
+   "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau"
+  }
+ ],
+ "citation": "85 FR 14794",
+ "dates": "This rule is effective March 16, 2020.",
+ "document_number": "2020-03157",
+ "effective_on": "2020-03-16",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2020/03/16/2020-03157/addition-of-entities-to-the-entity-list-and-revision-of-entry-on-the-entity-list",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-16/pdf/2020-03157.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-03-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/03/16/2020-03157.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Addition of Entities to the Entity List, and Revision of Entry on the Entity List",
+ "type": "Rule"
+}

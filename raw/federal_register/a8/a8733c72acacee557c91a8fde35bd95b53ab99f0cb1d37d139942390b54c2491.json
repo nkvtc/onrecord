@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "73 FR 75531",
+ "dates": null,
+ "document_number": "E8-29564",
+ "effective_on": null,
+ "executive_order_number": "13481",
+ "html_url": "https://www.federalregister.gov/documents/2008/12/11/E8-29564/providing-an-order-of-succession-within-the-department-of-justice",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2008-12-11/pdf/E8-29564.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2008-12-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2008/12/11/E8-29564.txt",
+ "signing_date": "2008-12-09",
+ "subtype": "Executive Order",
+ "title": "Providing An Order of Succession Within the Department of Justice",
+ "type": "Presidential Document"
+}

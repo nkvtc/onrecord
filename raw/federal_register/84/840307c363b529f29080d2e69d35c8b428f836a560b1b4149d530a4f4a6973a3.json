@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "88 FR 54867",
+ "dates": null,
+ "document_number": "2023-17449",
+ "effective_on": null,
+ "executive_order_number": "14105",
+ "html_url": "https://www.federalregister.gov/documents/2023/08/11/2023-17449/addressing-united-states-investments-in-certain-national-security-technologies-and-products-in",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-11/pdf/2023-17449.pdf",
+ "president": {
+  "identifier": "joe-biden",
+  "name": "Joseph R. Biden Jr."
+ },
+ "proclamation_number": null,
+ "publication_date": "2023-08-11",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/11/2023-17449.txt",
+ "signing_date": "2023-08-09",
+ "subtype": "Executive Order",
+ "title": "Addressing United States Investments in Certain National Security Technologies and Products in Countries of Concern",
+ "type": "Presidential Document"
+}

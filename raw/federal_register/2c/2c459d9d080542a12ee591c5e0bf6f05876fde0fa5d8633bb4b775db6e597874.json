@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "85 FR 83739",
+ "dates": null,
+ "document_number": "2020-28605",
+ "effective_on": null,
+ "executive_order_number": "13967",
+ "html_url": "https://www.federalregister.gov/documents/2020/12/23/2020-28605/promoting-beautiful-federal-civic-architecture",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-23/pdf/2020-28605.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-12-23",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/23/2020-28605.txt",
+ "signing_date": "2020-12-18",
+ "subtype": "Executive Order",
+ "title": "Promoting Beautiful Federal Civic Architecture",
+ "type": "Presidential Document"
+}

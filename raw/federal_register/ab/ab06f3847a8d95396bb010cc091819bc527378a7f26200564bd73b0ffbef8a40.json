@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "85 FR 49929",
+ "dates": null,
+ "document_number": "2020-18012",
+ "effective_on": null,
+ "executive_order_number": "13944",
+ "html_url": "https://www.federalregister.gov/documents/2020/08/14/2020-18012/combating-public-health-emergencies-and-strengthening-national-security-by-ensuring-essential",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-14/pdf/2020-18012.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2020-08-14",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/14/2020-18012.txt",
+ "signing_date": "2020-08-06",
+ "subtype": "Executive Order",
+ "title": "Combating Public Health Emergencies and Strengthening National Security by Ensuring Essential Medicines, Medical Countermeasures, and Critical Inputs Are Made in the United States",
+ "type": "Presidential Document"
+}

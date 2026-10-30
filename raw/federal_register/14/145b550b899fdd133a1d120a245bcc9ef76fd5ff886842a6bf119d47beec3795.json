@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "69 FR 25299",
+ "dates": null,
+ "document_number": "04-10378",
+ "effective_on": null,
+ "executive_order_number": "13337",
+ "html_url": "https://www.federalregister.gov/documents/2004/05/05/04-10378/issuance-of-permits-with-respect-to-certain-energy-related-facilities-and-land-transportation",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2004-05-05/pdf/04-10378.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2004-05-05",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2004/05/05/04-10378.txt",
+ "signing_date": "2004-04-30",
+ "subtype": "Executive Order",
+ "title": "Issuance of Permits With Respect to Certain Energy-Related Facilities and Land Transportation Crossings on the International Boundaries of the United States",
+ "type": "Presidential Document"
+}

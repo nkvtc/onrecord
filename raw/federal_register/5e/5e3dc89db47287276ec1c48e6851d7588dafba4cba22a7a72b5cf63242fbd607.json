@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "75 FR 53837",
+ "dates": null,
+ "document_number": "2010-22002",
+ "effective_on": null,
+ "executive_order_number": "13551",
+ "html_url": "https://www.federalregister.gov/documents/2010/09/01/2010-22002/blocking-property-of-certain-persons-with-respect-to-north-korea",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-09-01/pdf/2010-22002.pdf",
+ "president": {
+  "identifier": "barack-obama",
+  "name": "Barack Obama"
+ },
+ "proclamation_number": null,
+ "publication_date": "2010-09-01",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/09/01/2010-22002.txt",
+ "signing_date": "2010-08-30",
+ "subtype": "Executive Order",
+ "title": "Blocking Property of Certain Persons With Respect to North Korea",
+ "type": "Presidential Document"
+}

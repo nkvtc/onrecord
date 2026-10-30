@@ -1,0 +1,33 @@
+{
+ "abstract": null,
+ "action": null,
+ "agencies": [
+  {
+   "id": 538,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+   "name": "Executive Office of the President",
+   "parent_id": null,
+   "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+   "slug": "executive-office-of-the-president",
+   "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president"
+  }
+ ],
+ "citation": "66 FR 57355",
+ "dates": null,
+ "document_number": "01-28762",
+ "effective_on": null,
+ "executive_order_number": "13234",
+ "html_url": "https://www.federalregister.gov/documents/2001/11/15/01-28762/presidential-task-force-on-citizen-preparedness-in-the-war-on-terrorism",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-11-15/pdf/01-28762.pdf",
+ "president": {
+  "identifier": "george-w-bush",
+  "name": "George W. Bush"
+ },
+ "proclamation_number": null,
+ "publication_date": "2001-11-15",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/11/15/01-28762.txt",
+ "signing_date": "2001-11-09",
+ "subtype": "Executive Order",
+ "title": "Presidential Task Force on Citizen Preparedness in the War on Terrorism",
+ "type": "Presidential Document"
+}

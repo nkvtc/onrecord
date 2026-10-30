@@ -1,0 +1,33 @@
+{
+ "abstract": "In a notice published on May 9, 2019 (May 9 Notice), the U.S. Trade Representative (Trade Representative) increased the rate of additional duty from 10 percent to 25 percent for the products of China covered by the September 2018 action that are (i) entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern daylight time on May 10, 2019, and (ii) exported to the United States on or after May 10, 2019. An implementing notice published on May 15, 2019 (May 15 Notice), provided that products of China that are covered by the September 2018 action and that were exported to the United States prior to May 10, 2019, are not subject to the additional duty of 25 percent, as long as these products are entered into the United States prior to June 1, 2019. This notice extends the June 1, 2019 date to June 15, 2019.",
+ "action": "China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "agencies": [
+  {
+   "id": 491,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/491",
+   "name": "Trade Representative, Office of United States",
+   "parent_id": null,
+   "raw_name": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE",
+   "slug": "trade-representative-office-of-united-states",
+   "url": "https://www.federalregister.gov/agencies/trade-representative-office-of-united-states"
+  }
+ ],
+ "citation": "84 FR 26930",
+ "dates": "HTSUS heading 9903.88.09, set out in the Annex to the May 15 Notice and as amended by the Annex to this notice, applies to products of China covered by the September 2018 action that were exported before May 10, 2019, and entered into the United States on or after May 10, 2019, and before June 15, 2019. The modification in the Annex to this notice applies as of June 1, 2019.",
+ "document_number": "2019-12104",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2019/06/10/2019-12104/additional-implementing-modification-to-section-301-action-chinas-acts-policies-and-practices",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-06-10/pdf/2019-12104.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2019-06-10",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/06/10/2019-12104.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Additional Implementing Modification to Section 301 Action: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+ "type": "Notice"
+}
