@@ -81,3 +81,14 @@ def test_inaugural_panel(tmp_path, fixture):
     store.ingest(raw, FecInauguralTotals.parse(raw), topic="h")
     (row,) = inaugural_totals(store, date(2026, 10, 30))["rows"]
     assert row["label"] == "Bush 2005" and row["total"] == 42_790_021.0
+
+
+def test_negative_fec_file_numbers_cite_the_scan():
+    from onrecord.adapters.fec_inaugural_totals import filing_ref
+
+    f = {
+        "file_number": -9626062,
+        "beginning_image_number": "201909170300294801",
+        "pdf_url": "https://docquery.fec.gov/pdf/801/201909170300294801/201909170300294801.pdf",
+    }
+    assert filing_ref("C00629584", f) == ("FEC image 201909170300294801", f["pdf_url"])

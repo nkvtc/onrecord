@@ -25,8 +25,9 @@ API = "https://api.open.fec.gov/v1/filings/"
 
 def filing_ref(committee_id: str, f: dict) -> tuple[str, str]:
     """(citation, url) for one filing. Older reports were filed on paper: no file number,
-    only scanned images, so they're cited by image number and linked to the scan."""
-    if f.get("file_number"):
+    only scanned images (FEC marks some with negative numbers), so they're cited by image
+    number and linked to the scan."""
+    if (f.get("file_number") or 0) > 0:  # FEC gives paper amendments negative numbers
         n = f["file_number"]
         return f"FEC filing {n}", f"https://docquery.fec.gov/cgi-bin/forms/{committee_id}/{n}/"
     image = f.get("beginning_image_number")
