@@ -1,0 +1,874 @@
+{
+ "response": {
+  "data": [
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "17415531135.54",
+    "current_month_rcpt_outly_amt": "2626601267.83",
+    "record_date": "2015-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "20845305877.22",
+    "current_month_rcpt_outly_amt": "3429774741.68",
+    "record_date": "2015-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "23393136548.86",
+    "current_month_rcpt_outly_amt": "2547830671.64",
+    "record_date": "2015-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "26334246280.13",
+    "current_month_rcpt_outly_amt": "2941109731.27",
+    "record_date": "2015-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "29935925400.37",
+    "current_month_rcpt_outly_amt": "3601679120.24",
+    "record_date": "2015-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "31843436606.19",
+    "current_month_rcpt_outly_amt": "1907511205.82",
+    "record_date": "2015-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "35041196205.29",
+    "current_month_rcpt_outly_amt": "3197759599.10",
+    "record_date": "2015-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "3435496536.36",
+    "current_month_rcpt_outly_amt": "3435496536.36",
+    "record_date": "2015-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "6322278337.89",
+    "current_month_rcpt_outly_amt": "2886781801.53",
+    "record_date": "2015-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "9212948453.38",
+    "current_month_rcpt_outly_amt": "2890670115.49",
+    "record_date": "2015-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "12260400191.11",
+    "current_month_rcpt_outly_amt": "3047451737.73",
+    "record_date": "2016-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "14800327325.76",
+    "current_month_rcpt_outly_amt": "2539927134.65",
+    "record_date": "2016-02-29"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "17673575963.41",
+    "current_month_rcpt_outly_amt": "2873248637.65",
+    "record_date": "2016-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "20471473340.93",
+    "current_month_rcpt_outly_amt": "2797897377.52",
+    "record_date": "2016-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "22898864116.12",
+    "current_month_rcpt_outly_amt": "2427390775.19",
+    "record_date": "2016-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "25679550454.65",
+    "current_month_rcpt_outly_amt": "2780686338.53",
+    "record_date": "2016-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "28738705061.09",
+    "current_month_rcpt_outly_amt": "3059154606.44",
+    "record_date": "2016-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "31691853308.09",
+    "current_month_rcpt_outly_amt": "2953148247.00",
+    "record_date": "2016-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "34837269316.54",
+    "current_month_rcpt_outly_amt": "3145416008.45",
+    "record_date": "2016-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "3069258551.44",
+    "current_month_rcpt_outly_amt": "3069258551.44",
+    "record_date": "2016-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "5965985104.08",
+    "current_month_rcpt_outly_amt": "2896726552.64",
+    "record_date": "2016-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "8812278979.99",
+    "current_month_rcpt_outly_amt": "2846293875.91",
+    "record_date": "2016-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "11779386165.49",
+    "current_month_rcpt_outly_amt": "2967107185.50",
+    "record_date": "2017-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "14269242742.90",
+    "current_month_rcpt_outly_amt": "2489856577.41",
+    "record_date": "2017-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "16936421340.97",
+    "current_month_rcpt_outly_amt": "2667178598.07",
+    "record_date": "2017-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "19945706184.72",
+    "current_month_rcpt_outly_amt": "3009284843.75",
+    "record_date": "2017-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "22366986679.16",
+    "current_month_rcpt_outly_amt": "2421280494.44",
+    "record_date": "2017-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "25238430951.16",
+    "current_month_rcpt_outly_amt": "2871444272.00",
+    "record_date": "2017-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "28426651294.52",
+    "current_month_rcpt_outly_amt": "3188220343.36",
+    "record_date": "2017-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "31373881330.33",
+    "current_month_rcpt_outly_amt": "2947230035.81",
+    "record_date": "2017-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "34575150111.34",
+    "current_month_rcpt_outly_amt": "3201268781.01",
+    "record_date": "2017-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "3239205174.82",
+    "current_month_rcpt_outly_amt": "3239205174.82",
+    "record_date": "2017-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "6339534683.44",
+    "current_month_rcpt_outly_amt": "3100329508.62",
+    "record_date": "2017-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "9446249137.93",
+    "current_month_rcpt_outly_amt": "3106714454.49",
+    "record_date": "2017-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "12634326555.57",
+    "current_month_rcpt_outly_amt": "3188077417.64",
+    "record_date": "2018-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "15308759286.09",
+    "current_month_rcpt_outly_amt": "2674432730.52",
+    "record_date": "2018-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "18392373902.72",
+    "current_month_rcpt_outly_amt": "3083614616.63",
+    "record_date": "2018-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "21840360052.91",
+    "current_month_rcpt_outly_amt": "3447986150.19",
+    "record_date": "2018-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "24808736115.62",
+    "current_month_rcpt_outly_amt": "2968376062.71",
+    "record_date": "2018-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "28318342333.21",
+    "current_month_rcpt_outly_amt": "3509606217.59",
+    "record_date": "2018-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "32477289274.92",
+    "current_month_rcpt_outly_amt": "4158946941.71",
+    "record_date": "2018-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "36726482331.77",
+    "current_month_rcpt_outly_amt": "4249193056.85",
+    "record_date": "2018-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "41298963821.80",
+    "current_month_rcpt_outly_amt": "4572481490.03",
+    "record_date": "2018-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "5550559303.59",
+    "current_month_rcpt_outly_amt": "5550559303.59",
+    "record_date": "2018-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "11835289380.50",
+    "current_month_rcpt_outly_amt": "6284730076.91",
+    "record_date": "2018-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "17827155391.63",
+    "current_month_rcpt_outly_amt": "5991866011.13",
+    "record_date": "2018-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "24455130999.54",
+    "current_month_rcpt_outly_amt": "6627975607.91",
+    "record_date": "2019-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "29531344976.60",
+    "current_month_rcpt_outly_amt": "5076213977.06",
+    "record_date": "2019-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "34694019187.85",
+    "current_month_rcpt_outly_amt": "5162674211.25",
+    "record_date": "2019-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "39931461491.54",
+    "current_month_rcpt_outly_amt": "5237442303.69",
+    "record_date": "2019-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "44865678659.57",
+    "current_month_rcpt_outly_amt": "4934217168.03",
+    "record_date": "2019-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "50471671335.86",
+    "current_month_rcpt_outly_amt": "5605992676.29",
+    "record_date": "2019-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "56944935469.18",
+    "current_month_rcpt_outly_amt": "6473264133.32",
+    "record_date": "2019-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "63950237005.61",
+    "current_month_rcpt_outly_amt": "7005301536.43",
+    "record_date": "2019-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "70783723012.49",
+    "current_month_rcpt_outly_amt": "6833486006.88",
+    "record_date": "2019-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "7757405617.51",
+    "current_month_rcpt_outly_amt": "7757405617.51",
+    "record_date": "2019-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "14697641608.52",
+    "current_month_rcpt_outly_amt": "6940235991.01",
+    "record_date": "2019-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "21146628883.26",
+    "current_month_rcpt_outly_amt": "6448987274.74",
+    "record_date": "2019-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "28064260695.01",
+    "current_month_rcpt_outly_amt": "6917631811.75",
+    "record_date": "2020-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "34350503268.36",
+    "current_month_rcpt_outly_amt": "6286242573.35",
+    "record_date": "2020-02-29"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "39165253260.47",
+    "current_month_rcpt_outly_amt": "4814749992.11",
+    "record_date": "2020-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "43278813762.63",
+    "current_month_rcpt_outly_amt": "4113560502.16",
+    "record_date": "2020-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "47111713176.99",
+    "current_month_rcpt_outly_amt": "3832899414.36",
+    "record_date": "2020-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "51591954809.30",
+    "current_month_rcpt_outly_amt": "4480241632.31",
+    "record_date": "2020-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "56604782491.09",
+    "current_month_rcpt_outly_amt": "5012827681.79",
+    "record_date": "2020-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "62500835296.39",
+    "current_month_rcpt_outly_amt": "5896052805.30",
+    "record_date": "2020-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "68550229845.51",
+    "current_month_rcpt_outly_amt": "6049394549.12",
+    "record_date": "2020-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "6155928279.56",
+    "current_month_rcpt_outly_amt": "6155928279.56",
+    "record_date": "2020-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "12121226628.67",
+    "current_month_rcpt_outly_amt": "5965298349.11",
+    "record_date": "2020-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "18168336710.00",
+    "current_month_rcpt_outly_amt": "6047110081.33",
+    "record_date": "2020-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "24039104095.11",
+    "current_month_rcpt_outly_amt": "5870767385.11",
+    "record_date": "2021-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "30362449679.03",
+    "current_month_rcpt_outly_amt": "6323345583.92",
+    "record_date": "2021-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "36637875923.57",
+    "current_month_rcpt_outly_amt": "6275426244.54",
+    "record_date": "2021-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "43765989810.60",
+    "current_month_rcpt_outly_amt": "7128113887.03",
+    "record_date": "2021-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "50198500373.12",
+    "current_month_rcpt_outly_amt": "6432510562.52",
+    "record_date": "2021-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "57348302389.66",
+    "current_month_rcpt_outly_amt": "7149802016.54",
+    "record_date": "2021-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "64857161659.63",
+    "current_month_rcpt_outly_amt": "7508859269.97",
+    "record_date": "2021-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "72127604776.47",
+    "current_month_rcpt_outly_amt": "7270443116.84",
+    "record_date": "2021-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "79984829486.30",
+    "current_month_rcpt_outly_amt": "7857224709.83",
+    "record_date": "2021-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "7770037973.54",
+    "current_month_rcpt_outly_amt": "7770037973.54",
+    "record_date": "2021-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "15586258130.75",
+    "current_month_rcpt_outly_amt": "7816220157.21",
+    "record_date": "2021-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "23772865556.64",
+    "current_month_rcpt_outly_amt": "8186607425.89",
+    "record_date": "2021-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "32359470134.10",
+    "current_month_rcpt_outly_amt": "8586604577.46",
+    "record_date": "2022-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "40408006401.10",
+    "current_month_rcpt_outly_amt": "8048536267.00",
+    "record_date": "2022-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "48559256845.23",
+    "current_month_rcpt_outly_amt": "8151250444.13",
+    "record_date": "2022-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "57721646813.19",
+    "current_month_rcpt_outly_amt": "9162389967.96",
+    "record_date": "2022-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "65817037486.57",
+    "current_month_rcpt_outly_amt": "8095390673.38",
+    "record_date": "2022-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "74180619051.25",
+    "current_month_rcpt_outly_amt": "8363581564.68",
+    "record_date": "2022-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "82710940590.58",
+    "current_month_rcpt_outly_amt": "8530321539.33",
+    "record_date": "2022-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "91166512419.39",
+    "current_month_rcpt_outly_amt": "8455571828.81",
+    "record_date": "2022-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "99907565997.10",
+    "current_month_rcpt_outly_amt": "8741053577.71",
+    "record_date": "2022-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "8163250209.25",
+    "current_month_rcpt_outly_amt": "8163250209.25",
+    "record_date": "2022-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "15334722079.34",
+    "current_month_rcpt_outly_amt": "7171471870.09",
+    "record_date": "2022-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "21887109240.92",
+    "current_month_rcpt_outly_amt": "6552387161.58",
+    "record_date": "2022-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "28724796201.78",
+    "current_month_rcpt_outly_amt": "6837686960.86",
+    "record_date": "2023-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "35073858618.53",
+    "current_month_rcpt_outly_amt": "6349062416.75",
+    "record_date": "2023-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "41225465181.60",
+    "current_month_rcpt_outly_amt": "6151606563.07",
+    "record_date": "2023-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "47575158248.26",
+    "current_month_rcpt_outly_amt": "6349693066.66",
+    "record_date": "2023-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "53948249997.31",
+    "current_month_rcpt_outly_amt": "6373091749.05",
+    "record_date": "2023-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "60423738280.09",
+    "current_month_rcpt_outly_amt": "6475488282.78",
+    "record_date": "2023-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "67333687473.97",
+    "current_month_rcpt_outly_amt": "6909949193.88",
+    "record_date": "2023-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "73658828355.01",
+    "current_month_rcpt_outly_amt": "6325140881.04",
+    "record_date": "2023-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "80337268464.15",
+    "current_month_rcpt_outly_amt": "6678440109.14",
+    "record_date": "2023-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "6902737488.69",
+    "current_month_rcpt_outly_amt": "6902737488.69",
+    "record_date": "2023-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "13198943683.08",
+    "current_month_rcpt_outly_amt": "6296206194.39",
+    "record_date": "2023-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "18943396538.06",
+    "current_month_rcpt_outly_amt": "5744452854.98",
+    "record_date": "2023-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "25420022514.18",
+    "current_month_rcpt_outly_amt": "6476625976.12",
+    "record_date": "2024-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "31628410744.73",
+    "current_month_rcpt_outly_amt": "6208388230.55",
+    "record_date": "2024-02-29"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "37692695638.39",
+    "current_month_rcpt_outly_amt": "6064284893.66",
+    "record_date": "2024-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "44059204366.16",
+    "current_month_rcpt_outly_amt": "6366508727.77",
+    "record_date": "2024-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "49283866068.01",
+    "current_month_rcpt_outly_amt": "5224661701.85",
+    "record_date": "2024-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "55607210736.87",
+    "current_month_rcpt_outly_amt": "6323344668.86",
+    "record_date": "2024-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "62740698927.58",
+    "current_month_rcpt_outly_amt": "7133488190.71",
+    "record_date": "2024-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "69787650476.54",
+    "current_month_rcpt_outly_amt": "7046951548.96",
+    "record_date": "2024-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "77036909944.89",
+    "current_month_rcpt_outly_amt": "7249259468.35",
+    "record_date": "2024-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "7297256976.25",
+    "current_month_rcpt_outly_amt": "7297256976.25",
+    "record_date": "2024-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "14009126014.21",
+    "current_month_rcpt_outly_amt": "6711869037.96",
+    "record_date": "2024-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "20823506578.43",
+    "current_month_rcpt_outly_amt": "6814380564.22",
+    "record_date": "2024-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "28164922515.01",
+    "current_month_rcpt_outly_amt": "7341415936.58",
+    "record_date": "2025-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "35411735190.39",
+    "current_month_rcpt_outly_amt": "7246812675.38",
+    "record_date": "2025-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "43579643649.95",
+    "current_month_rcpt_outly_amt": "8167908459.56",
+    "record_date": "2025-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "59213560998.66",
+    "current_month_rcpt_outly_amt": "15633917348.71",
+    "record_date": "2025-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "81386125537.87",
+    "current_month_rcpt_outly_amt": "22172564539.21",
+    "record_date": "2025-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "108017789769.64",
+    "current_month_rcpt_outly_amt": "26631664231.77",
+    "record_date": "2025-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "135687843801.04",
+    "current_month_rcpt_outly_amt": "27670054031.40",
+    "record_date": "2025-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "165190786550.58",
+    "current_month_rcpt_outly_amt": "29502942749.54",
+    "record_date": "2025-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "194865739872.82",
+    "current_month_rcpt_outly_amt": "29674953322.24",
+    "record_date": "2025-09-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "31353501081.11",
+    "current_month_rcpt_outly_amt": "31353501081.11",
+    "record_date": "2025-10-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "62109453101.52",
+    "current_month_rcpt_outly_amt": "30755952020.41",
+    "record_date": "2025-11-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "90001835137.37",
+    "current_month_rcpt_outly_amt": "27892382035.20",
+    "record_date": "2025-12-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "117744283357.61",
+    "current_month_rcpt_outly_amt": "27742448220.24",
+    "record_date": "2026-01-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "144338092069.10",
+    "current_month_rcpt_outly_amt": "26593808711.49",
+    "record_date": "2026-02-28"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "166492966469.80",
+    "current_month_rcpt_outly_amt": "22154874400.70",
+    "record_date": "2026-03-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "188617100017.23",
+    "current_month_rcpt_outly_amt": "22124133547.43",
+    "record_date": "2026-04-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "188574795451.00",
+    "current_month_rcpt_outly_amt": "-42304566.23",
+    "record_date": "2026-05-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "163019127010.17",
+    "current_month_rcpt_outly_amt": "-25555668440.83",
+    "record_date": "2026-06-30"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "154472685103.20",
+    "current_month_rcpt_outly_amt": "-8546441906.97",
+    "record_date": "2026-07-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "167308212393.62",
+    "current_month_rcpt_outly_amt": "12835527290.42",
+    "record_date": "2026-08-31"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "current_fytd_rcpt_outly_amt": "173218614643.40",
+    "current_month_rcpt_outly_amt": "5910402249.78",
+    "record_date": "2026-09-30"
+   }
+  ],
+  "links": {
+   "first": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000",
+   "last": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000",
+   "next": null,
+   "prev": null,
+   "self": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000"
+  },
+  "meta": {
+   "count": 139,
+   "dataFormats": {
+    "classification_desc": "String",
+    "current_fytd_rcpt_outly_amt": "$10.20",
+    "current_month_rcpt_outly_amt": "$10.20",
+    "record_date": "YYYY-MM-DD"
+   },
+   "dataTypes": {
+    "classification_desc": "STRING",
+    "current_fytd_rcpt_outly_amt": "CURRENCY",
+    "current_month_rcpt_outly_amt": "CURRENCY",
+    "record_date": "DATE"
+   },
+   "labels": {
+    "classification_desc": "Classification Description",
+    "current_fytd_rcpt_outly_amt": "Current FYTD Receipt or Outlay Amount",
+    "current_month_rcpt_outly_amt": "Current Month Receipt or Outlay Amount",
+    "record_date": "Record Date"
+   },
+   "total-count": 139,
+   "total-pages": 1
+  }
+ },
+ "series": {
+  "classification": "Customs Duties",
+  "label": "Customs duties"
+ }
+}

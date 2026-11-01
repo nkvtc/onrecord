@@ -1,0 +1,44 @@
+<item>
+                <title>Geostationary Weather Satellites: Next Generation Program Challenges Put Vital Observations at Risk</title>
+                <link>https://www.gao.gov/products/gao-26-107739</link>
+                <description>
+What GAO Found
+
+The National Oceanic and Atmospheric Administration (NOAA) initially planned for the Geostationary Extended Observations (GeoXO) program to be a series of six satellites with a projected lifecycle cost of $19.6 billion. In August 2025, Commerce directed the GeoXO program office to implement a major restructuring to reduce lifecycle costs, and in April 2026 Commerce approved the program’s new baseline. This new baseline reduces the number of satellites from six to four, decreases the number of instruments from five to two (see figure), and is expected to reduce the program’s lifecycle cost to $13 billion.
+
+Instrument Changes for the Geostationary Extended Observations Program, as of April 2026
+
+
+
+If the first GeoXO satellite launches as expected in 2032, there is a risk of a gap in the continuity of satellite data. NOAA’s policy requires at least two operational satellites and one operational spare to be available to ensure the continuity of data. The current spare satellite is projected to meet the end of its life in October 2032, several months before the first GeoXO satellite is fully operational. There may be a period of several months when NOAA does not have an operational spare satellite. If either of the two operational satellites were impaired during that time, there would be a gap in geostationary weather data (see figure).
+
+Potential Gap in Data Continuity Without Operational Spare Satellite
+
+
+
+The effects of the rebaseline add uncertainty to the program’s cost, schedule, and instrument configuration. For example, the program office has yet to complete an independent cost estimate for its updated cost baseline, so it is unclear whether the $13 billion estimate for the restructuring is reasonable.
+
+GeoXO’s prior lifecycle cost estimate of $19.6 billion from 2022 partially met three and substantially met one of the best practices associated with a well-documented estimate. The gaps were due, in part, to the program’s lack of a separate narrative document that summarized the estimate and the methodology used. These gaps will make it difficult for GeoXO to replicate calculations and detect possible errors in the estimate and its ongoing revisions, and can undermine the ability to use the information to improve future cost estimates.
+
+The GeoXO program fully incorporated selected leading practices related to requirements management in its policies and procedures, which was a lesson learned from previous weather satellite programs. However, the program did not fully incorporate leading practices for other lessons learned:
+
+
+
+	Contingency planning: NOAA partially incorporated leading practices for contingency planning into its plans to address potential satellite availability gaps. Specifically, the plan was missing key elements, such as an impact analysis for potential failure scenarios and specific actions needed to implement all contingency strategies. Until NOAA incorporates the missing key elements, it may not be sufficiently prepared to mitigate potential gaps in geostationary weather satellite data, which would diminish its ability to track and monitor hazardous weather.
+	Technology readiness: NOAA and the National Aeronautics and Space Administration (NASA) did not incorporate leading practices related to documenting the results of its process to assess the readiness of key new technologies. Specifically, the GeoXO program did not document its assessment of the readiness of key technologies for three new instruments and did not develop a comprehensive report with the results of this assessment, which is required by NASA guidance. Thus, whether the program has enough information to determine if a technology is sufficiently mature is unclear, which increases the risk of delay and cost overruns.
+
+
+Why GAO Did This Study
+
+Geostationary environmental satellites play a critical role in the nation’s weather forecasting. These satellites provide information on atmospheric conditions for monitoring Earth’s weather, including severe storms and hurricanes.
+
+NOAA, a component of the Department of Commerce, through collaboration with NASA, is procuring the next generation of geostationary weather satellites, called GeoXO. GeoXO satellites are intended to replace the current series of geostationary environmental satellites as they reach the end of their useful lives. The GeoXO mission was planned to continue the vital observations provided by the existing operational geostationary satellites and bring new and improved capabilities.
+
+GAO was asked to review the GeoXO program. This report addresses (1) the status of the GeoXO program, (2) the extent to which NOAA and NASA have implemented relevant best practices to establish cost estimates, and (3) the extent to which NOAA and NASA incorporated leading practices related to selected lessons learned from previous weather satellite programs into the development and organization of GeoXO program.
+
+GAO analyzed agency documents, including program office plans, management reports, documentation supporting the program’s December 2022 cost estimate, contingency plans, requirements policies and procedures, and documentation that provided the results of the technical readiness assessments. GAO then compared this documentation against leading practices and interviewed agency officials.
+
+</description>
+                <pubDate>Fri, 16 Oct 2026 08:45:07 -0400</pubDate>
+                <guid isPermaLink="false">/products/gao-26-107739</guid>
+            </item>

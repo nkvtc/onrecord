@@ -1,0 +1,42 @@
+{
+ "abstract": "This interim final rule amends U.S. Customs and Border Protection (CBP) regulations so that a tonnage year, for purposes of calculating tonnage taxes for a vessel, is aligned with the fiscal year of the Federal Government. Currently, CBP calculates a unique tonnage year for each vessel, starting when the vessel first enters the United States. This rule also permits CBP to issue a single electronic receipt for the payment of tonnage taxes and light money. This rule simplifies the tonnage tax process, decreases the number of errors in assessing tonnage taxes, and simplifies the tracking of tonnage tax payments.",
+ "action": "Interim final rule; request for comments.",
+ "agencies": [
+  {
+   "id": 227,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+   "name": "Homeland Security Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+   "slug": "homeland-security-department",
+   "url": "https://www.federalregister.gov/agencies/homeland-security-department"
+  },
+  {
+   "id": 501,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/501",
+   "name": "U.S. Customs and Border Protection",
+   "parent_id": 227,
+   "raw_name": "U.S. Customs and Border Protection",
+   "slug": "u-s-customs-and-border-protection",
+   "url": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection"
+  }
+ ],
+ "citation": "90 FR 44512",
+ "dates": "Effective Date: This interim final rule is effective on September 16, 2025.",
+ "document_number": "2025-17826",
+ "effective_on": "2025-09-16",
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/09/16/2025-17826/tonnage-tax-modernization",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-16/pdf/2025-17826.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-09-16",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/16/2025-17826.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Tonnage Tax Modernization",
+ "type": "Rule"
+}

@@ -1,0 +1,119 @@
+{
+ "endpoint": "search/spending_by_category/awarding_agency/",
+ "kind": "agencies_by_state",
+ "request": {
+  "filters": {
+   "place_of_performance_locations": [
+    {
+     "country": "USA",
+     "state": "AK"
+    }
+   ],
+   "time_period": [
+    {
+     "end_date": "2026-09-30",
+     "start_date": "2025-10-01"
+    }
+   ]
+  },
+  "limit": 10
+ },
+ "response": {
+  "category": "awarding_agency",
+  "limit": 10,
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+   "'subawards' will be deprecated in the future. Set ‘spending_level’ to ‘subawards’ instead. See documentation for more information. "
+  ],
+  "page_metadata": {
+   "hasNext": true,
+   "hasPrevious": false,
+   "next": 2,
+   "page": 1,
+   "previous": null
+  },
+  "results": [
+   {
+    "agency_slug": "department-of-health-and-human-services",
+    "amount": 5516151854.29,
+    "code": "HHS",
+    "id": 806,
+    "name": "Department of Health and Human Services",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "social-security-administration",
+    "amount": 2936218104.6,
+    "code": "SSA",
+    "id": 539,
+    "name": "Social Security Administration",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-defense",
+    "amount": 2085431535.97,
+    "code": "DOD",
+    "id": 1173,
+    "name": "Department of Defense",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-transportation",
+    "amount": 1966333199.77,
+    "code": "DOT",
+    "id": 731,
+    "name": "Department of Transportation",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-veterans-affairs",
+    "amount": 1209095984.84,
+    "code": "VA",
+    "id": 561,
+    "name": "Department of Veterans Affairs",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "federal-communications-commission",
+    "amount": 1159513371.86,
+    "code": "FCC",
+    "id": 538,
+    "name": "Federal Communications Commission",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-homeland-security",
+    "amount": 966553949.86,
+    "code": "DHS",
+    "id": 766,
+    "name": "Department of Homeland Security",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-agriculture",
+    "amount": 792950637.32,
+    "code": "USDA",
+    "id": 95,
+    "name": "Department of Agriculture",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-the-interior",
+    "amount": 689483056.65,
+    "code": "DOI",
+    "id": 209,
+    "name": "Department of the Interior",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "general-services-administration",
+    "amount": 502055486.66,
+    "code": "GSA",
+    "id": 614,
+    "name": "General Services Administration",
+    "total_outlays": null
+   }
+  ],
+  "spending_level": "transactions"
+ }
+}

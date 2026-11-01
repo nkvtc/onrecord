@@ -1,0 +1,42 @@
+{
+ "abstract": "In order to effectuate the President's Executive Order 14289, \"Addressing Certain Tariffs on Imported Articles,\" which eliminates the compounding or \"stacking\" of certain overlapping tariffs that were imposed under various statutory authorities and Executive orders to protect national security and address unusual and extraordinary threats to the national security, foreign policy, and economy of the United States, the Secretary of Homeland Security has determined that appropriate action is needed to ensure collection of applicable duties as well as to modify the Harmonized Tariff Schedule of the United States (HTSUS) as set out in the Annex to this notice.",
+ "action": "Notice.",
+ "agencies": [
+  {
+   "id": 227,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+   "name": "Homeland Security Department",
+   "parent_id": null,
+   "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+   "slug": "homeland-security-department",
+   "url": "https://www.federalregister.gov/agencies/homeland-security-department"
+  },
+  {
+   "id": 501,
+   "json_url": "https://www.federalregister.gov/api/v1/agencies/501",
+   "name": "U.S. Customs and Border Protection",
+   "parent_id": 227,
+   "raw_name": "U.S. Customs and Border Protection",
+   "slug": "u-s-customs-and-border-protection",
+   "url": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection"
+  }
+ ],
+ "citation": "90 FR 21487",
+ "dates": "The HTSUS is modified with respect to covered articles, as set out in the Annex to this document, at 12:01 a.m. eastern daylight time on May 16, 2025. The amendments shall apply to all covered articles that were entered for consumption, or withdrawn from warehouse for consumption, as specified in the Annex to this document. Requests for refunds may be filed on or after May 16, 2025.",
+ "document_number": "2025-09066",
+ "effective_on": null,
+ "executive_order_number": null,
+ "html_url": "https://www.federalregister.gov/documents/2025/05/20/2025-09066/notice-of-implementation-of-addressing-certain-tariffs-on-imported-articles-pursuant-to-the",
+ "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-20/pdf/2025-09066.pdf",
+ "president": {
+  "identifier": "donald-trump",
+  "name": "Donald Trump"
+ },
+ "proclamation_number": null,
+ "publication_date": "2025-05-20",
+ "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/20/2025-09066.txt",
+ "signing_date": null,
+ "subtype": null,
+ "title": "Notice of Implementation of Addressing Certain Tariffs on Imported Articles Pursuant to the President's Executive Order 14289",
+ "type": "Notice"
+}
