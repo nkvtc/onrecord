@@ -1,0 +1,6 @@
+{
+  "mts9_customs_duties.json": {
+    "source_id": "mts9:customs_duties",
+    "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_9?filter=classification_desc%3Aeq%3ACustoms+Duties&sort=record_date&fields=record_date%2Cclassification_desc%2Ccurrent_month_rcpt_outly_amt%2Ccurrent_fytd_rcpt_outly_amt&page%5Bsize%5D=1000"
+  }
+}

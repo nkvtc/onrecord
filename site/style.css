@@ -199,3 +199,23 @@ table.money tr.refund td { color: var(--text-2); }
 .panel-lead .big { font-size: 18px; line-height: 1.4; margin: 10px 0 4px; }
 .panel-lead .big b { font-variant-numeric: tabular-nums; }
 .panel .bar:hover text { fill: var(--text) !important; }
+
+.map-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 16px; align-items: start; }
+svg.map { width: 100%; height: auto; display: block; }
+svg.map path { stroke: var(--surface); stroke-width: 0.5; cursor: pointer; }
+svg.map path:hover { stroke: var(--text); stroke-width: 1.2; }
+svg.map path.sel { stroke: var(--text); stroke-width: 2; }
+.map-side h3 { font-size: 15px; margin: 4px 0; }
+.map-side .big { font-size: 22px; margin: 4px 0; }
+.map-side ol.rank { padding-left: 20px; font-size: 14px; margin: 6px 0; }
+.map-side ul.agency { list-style: none; padding: 0; margin: 6px 0; font-size: 13px; }
+.map-side ul.agency li { display: grid; grid-template-columns: 1fr 60px 36px; gap: 6px; align-items: center; margin: 4px 0; }
+.map-side ul.agency .bar { height: 8px; background: var(--chip); border-radius: 4px; overflow: hidden; }
+.map-side ul.agency .bar i { display: block; height: 100%; background: var(--series-1); }
+.map-side ul.agency b { text-align: right; font-variant-numeric: tabular-nums; }
+.ramp { display: inline-flex !important; gap: 0 !important; }
+.ramp i { width: 22px !important; height: 10px !important; border-radius: 0 !important; }
+.panel select { font: inherit; font-size: 13px; padding: 5px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+@media (max-width: 720px) { .map-wrap { grid-template-columns: 1fr; } }
+
+.note-warn { font-size: 13px; color: var(--text-2); border-left: 3px solid var(--series-2); padding: 4px 0 4px 10px; margin: 8px 0; }

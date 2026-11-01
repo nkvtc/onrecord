@@ -33,7 +33,7 @@ committees = [
 ]
 
 [site]
-order = 5
+order = 6
 tab = "In context"
 view = "history"
 headline = "How this compares with past presidencies"

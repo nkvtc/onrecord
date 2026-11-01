@@ -33,9 +33,14 @@ def test_parse_output_is_sourced(name, fixture_name):
 
     assert result.meta.title
     assert result.meta.canonical_url.startswith("https://")
-    assert result.events or result.claims or result.observations or result.transactions, (
-        "parsed nothing"
-    )
+    # Dataset snapshots (e.g. spending by state) carry their table as meta.extra["rows"].
+    assert (
+        result.events
+        or result.claims
+        or result.observations
+        or result.transactions
+        or result.meta.extra.get("rows")
+    ), "parsed nothing"
 
     for e in result.events:
         assert e.kind in EVENT_KINDS

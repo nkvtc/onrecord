@@ -1,0 +1,14 @@
+{
+  "geo_state_FY2026.json": {
+    "source_id": "geo:state:FY2026",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_geography/"
+  },
+  "agencies_ND_FY2026.json": {
+    "source_id": "agencies:ND:FY2026",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_category/awarding_agency/"
+  },
+  "contractors_FY2026.json": {
+    "source_id": "contractors:FY2026",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_category/recipient/"
+  }
+}

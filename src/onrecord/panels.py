@@ -163,4 +163,103 @@ BUILDERS: dict[str, Callable[[Store, date], dict]] = {
 
 
 def build_panels(store: Store, panels: list[dict], today: date) -> list[dict]:
-    return [{**p, **BUILDERS[p["kind"]](store, today)} for p in panels]
+    out = []
+    for p in panels:
+        # Extra keys in the topic file (series, since, ...) are passed to the builder.
+        options = {k: v for k, v in p.items() if k not in ("kind", "title")}
+        out.append({**p, **BUILDERS[p["kind"]](store, today, **options)})
+    return out
+
+
+# ---- Follow the money -----------------------------------------------------------
+
+
+def _rows(store: Store, kind: str) -> list[dict]:
+    """Extras of the latest usaspending documents of one kind."""
+    out = []
+    for doc in _latest_docs(store, "usaspending"):
+        x = json.loads(doc["extra_json"] or "{}")
+        if x.get("kind") == kind:
+            out.append(x)
+    return out
+
+
+def monthly_revenue(store: Store, today: date, series: str, since: str = "2015-01-01") -> dict:
+    rows = store.db.execute(
+        """SELECT period, value FROM observations o WHERE series_id = ? AND released_at = (
+               SELECT MAX(released_at) FROM observations
+               WHERE series_id = o.series_id AND period = o.period)
+           ORDER BY period""",
+        (series,),
+    ).fetchall()
+    points = [[r["period"], r["value"]] for r in rows if r["period"] >= since]
+    years: dict[str, dict] = {}
+    for period, value in points:
+        y = years.setdefault(period[:4], {"year": period[:4], "total": 0.0, "months": 0})
+        y["total"] += value
+        y["months"] += 1
+    meta = store.db.execute(
+        "SELECT label, unit FROM series WHERE series_id=?", (series,)
+    ).fetchone()
+    return {
+        "series": series,
+        "label": meta["label"] if meta else series,
+        "unit": meta["unit"] if meta else "",
+        "points": points,
+        "years": [{**y, "total": round(y["total"], 1)} for y in years.values()],
+        "negative_months": [[p, v] for p, v in points if v < 0],
+        "source": "US Treasury, Monthly Treasury Statement, Table 9",
+        "rule": (
+            "Customs duties as net receipts: what was collected in the month minus refunds "
+            "paid out. A bar below zero means refunds exceeded collections that month. "
+            "Calendar-year totals add up the months shown; a partial year says how many "
+            "months it covers. Nominal dollars."
+        ),
+    }
+
+
+def spending_map(store: Store, today: date) -> dict:
+    states = {str(x["fiscal_year"]): x["rows"] for x in _rows(store, "geo_state")}
+    counties = {str(x["fiscal_year"]): x["rows"] for x in _rows(store, "geo_county")}
+    agencies = {}
+    for x in _rows(store, "agencies_by_state"):
+        agencies.setdefault(str(x["fiscal_year"]), {})[x["state"]] = x["rows"]
+    return {
+        "states": dict(sorted(states.items())),
+        "counties": counties,
+        "agencies": agencies,
+        "source": "USAspending.gov",
+        "rule": (
+            "Obligations on federal awards (contracts, grants, loans and direct payments, "
+            "including Social Security and Medicare) by place of performance, per fiscal "
+            "year (October to September), divided by population. Federal salaries are not "
+            "included. Place of performance can be where a contractor or claims processor "
+            "operates rather than where people use the benefit, so check the agency "
+            "breakdown before reading a state's color as favoritism."
+        ),
+    }
+
+
+def top_contractors(store: Store, today: date) -> dict:
+    found = sorted(_rows(store, "top_contractors"), key=lambda x: x["fiscal_year"])
+    latest = found[-1] if found else {"fiscal_year": None, "rows": []}
+    return {
+        "fiscal_year": latest["fiscal_year"],
+        "rows": latest["rows"],
+        "source": "USAspending.gov",
+        "rule": (
+            "Contract obligations (award types A–D) in the fiscal year, by recipient as "
+            "reported. The same company can appear more than once under different "
+            "recipient IDs (parent and subsidiary registrations); we show them as reported "
+            "rather than merge them."
+        ),
+    }
+
+
+BUILDERS.update(
+    {
+        "monthly_revenue": monthly_revenue,
+        "spending_map": spending_map,
+        "top_contractors": top_contractors,
+    }
+)

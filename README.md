@@ -7,7 +7,7 @@ orders, gazette notices, votes, regulations, and official statistics. It shows w
 *said*, what was *legally done*, and what the official numbers did afterwards, with
 every item linked to the primary source.
 
-Five topics so far:
+Six topics so far:
 
 - **US–Canada trade**: every US presidential action and Canadian government announcement
   on tariffs since January 2025, against *both* countries' official monthly trade figures.
@@ -18,6 +18,10 @@ Five topics so far:
 - **Accountability**: every executive order since January 20, 2025, every pardon and
   commutation the Justice Department has published, and every donation the presidential
   inaugural committee reported to the FEC, plus a name lookup across all records.
+- **Follow the money**: tariff revenue the Treasury actually collected each month (net
+  of refunds, back to 2015), a map of federal award spending per person by state and
+  county with the agencies behind each state, the largest federal contractors, and new
+  GAO audit reports.
 - **In context**: the same records counted the same way across presidents: executive
   orders by day in office (1994 onward), clemency per president (back to 1900), and
   money raised by inaugural committees (2005 onward). Each chart states its counting rule.
@@ -68,6 +72,9 @@ archive).
 | `fec_form13` | US | Donations to the presidential inaugural committee (FEC Form 13) | optional `FEC_API_KEY` |
 | `doj_clemency_stats` | US | Clemency granted per president, back to 1900 (DOJ statistics) | no |
 | `fec_inaugural_totals` | US | Total donations per inaugural committee, 2005 onward (FEC) | optional `FEC_API_KEY` |
+| `treasury_mts` | US | Monthly Treasury Statement receipts by source (customs duties) | no |
+| `usaspending` | US | Federal award spending by state, county, agency, contractor | no |
+| `gao_reports` | US | Government Accountability Office reports (RSS) | no |
 
 Wanted next: Canada Gazette (the legal instruments behind Canadian countermeasures),
 USITC tariff schedule, court dockets, lobbying disclosures, federal contracts,

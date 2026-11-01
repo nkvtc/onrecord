@@ -115,6 +115,7 @@ EXTENSIONS = {
     "text/plain": "txt",
     "text/html": "html",
     "text/csv": "csv",
+    "application/xml": "xml",
 }
 
 # Manifest entries written before topics existed all came from the first topic.

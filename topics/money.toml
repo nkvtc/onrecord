@@ -1,0 +1,76 @@
+# Follow the money: tariff revenue, federal spending by place, and the government's auditors.
+
+id = "money"
+title = "Follow the money"
+since = 2025-01-01
+description = """
+Tariff revenue the Treasury actually collected each month (net of refunds), where
+federal award money goes by state and county, which companies receive the most in
+federal contracts, and what the Government Accountability Office reports.
+"""
+
+[treasury_mts]
+series = [
+  { classification = "Customs Duties", label = "Customs duties" },
+]
+
+[usaspending]
+# Fiscal year N runs October 1 of N-1 to September 30 of N.
+state_years = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+county_years = [2026]
+# Agency breakdown per state and top contractors, for this fiscal year.
+detail_year = 2026
+
+[gao_reports]
+feed = "https://www.gao.gov/rss/reports.xml"
+
+[federal_register]
+# Customs notices on refunds and on tariff collection, so the revenue chart can be read
+# against what the agencies published.
+queries = [
+  { term = "refund duties", agencies = ["u-s-customs-and-border-protection"] },
+  { term = "tariff", types = ["PRESDOCU"] },
+]
+
+[site]
+order = 5
+tab = "Follow the money"
+view = "money"
+headline = "Follow the money"
+lede = """What the Treasury collected in tariffs each month, where federal award money \
+goes by state and county, and which companies get the most in federal contracts. \
+Official figures only, each with how it's counted."""
+
+[[site.panels]]
+kind = "monthly_revenue"
+title = "Tariff revenue the Treasury collected, by month"
+series = "treasury:mts9:customs_duties"
+since = "2015-01-01"
+
+[[site.panels]]
+kind = "spending_map"
+title = "Federal award spending per person, by state"
+
+[[site.panels]]
+kind = "top_contractors"
+title = "Largest federal contract recipients"
+
+[[site.filters]]
+label = "All"
+
+[[site.filters]]
+label = "GAO reports"
+doc_types = ["audit_report"]
+
+[[site.filters]]
+label = "Tariff and customs actions"
+jurisdiction = "US"
+doc_types = ["executive_order", "proclamation", "memorandum", "determination", "rule", "notice"]
+
+[site.ask]
+examples = [
+  "How much did the Treasury collect in customs duties in 2025 compared with 2024?",
+  "Which months had negative customs receipts, and what does the record show around then?",
+  "Which agencies account for most federal award spending in Pennsylvania?",
+  "What has GAO reported on recently?",
+]

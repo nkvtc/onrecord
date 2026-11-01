@@ -378,7 +378,7 @@ function renderPanels() {
     `<div class="legend" data-legend></div><div class="chart" data-chart></div><p class="note"><strong>How this counts.</strong> ${esc(p.rule)}</p><div data-foot></div></section>`).join("");
   panels.forEach((p, i) => {
     const el = host.querySelector(`[data-panel="${i}"]`);
-    ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural })[p.kind]?.(el, p);
+    ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural, monthly_revenue: drawRevenue, spending_map: drawMap, top_contractors: drawContractors })[p.kind]?.(el, p);
   });
 }
 
@@ -492,4 +492,172 @@ function drawInaugural(el, p) {
 function tableToggle(head, rows) {
   return `<details class="table-toggle"><summary>Show the numbers as a table</summary><table><thead><tr>${head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead>` +
     `<tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></details>`;
+}
+
+// ---- Follow the money panels --------------------------------------------------
+
+const FIPS = { "01": "AL", "02": "AK", "04": "AZ", "05": "AR", "06": "CA", "08": "CO", "09": "CT", "10": "DE", "11": "DC", "12": "FL", "13": "GA", "15": "HI", "16": "ID", "17": "IL", "18": "IN", "19": "IA", "20": "KS", "21": "KY", "22": "LA", "23": "ME", "24": "MD", "25": "MA", "26": "MI", "27": "MN", "28": "MS", "29": "MO", "30": "MT", "31": "NE", "32": "NV", "33": "NH", "34": "NJ", "35": "NM", "36": "NY", "37": "NC", "38": "ND", "39": "OH", "40": "OK", "41": "OR", "42": "PA", "44": "RI", "45": "SC", "46": "SD", "47": "TN", "48": "TX", "49": "UT", "50": "VT", "51": "VA", "53": "WA", "54": "WV", "55": "WI", "56": "WY", "72": "PR" };
+// One-hue sequential ramp (light to dark), from the validated default palette.
+const RAMP = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"];
+const geoCache = {};
+const mapState = { fy: null, layer: "state", selected: null, measure: "all" };
+// Agencies whose payments (Medicare, Medicaid, Social Security) are often booked where a
+// claims processor sits, not where people receive them.
+const BENEFIT_AGENCIES = ["Department of Health and Human Services", "Social Security Administration"];
+
+async function geometry(layer) {
+  if (!geoCache[layer]) {
+    const topo = await getJSON(`vendor/${layer === "state" ? "states" : "counties"}-albers-10m.json`);
+    geoCache[layer] = topojson.feature(topo, topo.objects[layer === "state" ? "states" : "counties"]).features;
+  }
+  return geoCache[layer];
+}
+
+function geoPath(geom) {
+  const ring = (r) => "M" + r.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join("L") + "Z";
+  if (!geom) return "";
+  if (geom.type === "Polygon") return geom.coordinates.map(ring).join("");
+  if (geom.type === "MultiPolygon") return geom.coordinates.flatMap((p) => p.map(ring)).join("");
+  return "";
+}
+
+function quantileBreaks(values, n) {
+  const v = values.filter((x) => x > 0).sort((a, b) => a - b);
+  return Array.from({ length: n - 1 }, (_, i) => v[Math.floor(((i + 1) / n) * v.length)]);
+}
+
+function drawRevenue(el, p) {
+  const host = el.querySelector("[data-chart]");
+  const W = Math.max(320, host.clientWidth), narrow = W < 560;
+  const M = { l: 52, r: 12, t: 12, b: 24 }, plotH = narrow ? 200 : 260;
+  const rugTypes = ["executive_order", "proclamation", "memorandum", "determination"];
+  const acts = data.timeline.filter((i) => rugTypes.includes(i.doc_type) && i.date >= p.points[0]?.[0]);
+  const H = M.t + plotH + M.b + (acts.length ? 30 : 0);
+  const pts = p.points;
+  if (!pts.length) { host.innerHTML = `<p class="sub">No figures yet.</p>`; return; }
+  const vmax = Math.max(...pts.map(([, v]) => v)) * 1.08, vmin = Math.min(0, ...pts.map(([, v]) => v)) * 1.15;
+  const t0 = Date.parse(pts[0][0]), t1 = Date.parse(pts[pts.length - 1][0]) + 31 * 864e5;
+  const x = (iso) => M.l + ((Date.parse(iso) - t0) / (t1 - t0)) * (W - M.l - M.r);
+  const y = (v) => M.t + ((vmax - v) / (vmax - vmin)) * plotH;
+  const bw = Math.max(1, (W - M.l - M.r) / pts.length - 1);
+  const step = niceStep((vmax - vmin) / 5);
+  let grid = "";
+  for (let v = Math.ceil(vmin / step) * step; v <= vmax; v += step) grid += `<line x1="${M.l}" x2="${W - M.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${M.l - 8}" y="${y(v) + 4}" text-anchor="end">${v === 0 ? "0" : (v < 0 ? "−$" : "$") + fmtNum(Math.abs(v) / 1000) + "B"}</text>`;
+  for (let yr = new Date(t0).getUTCFullYear() + 1; yr <= new Date(t1).getUTCFullYear(); yr++) {
+    if (yr % (narrow ? 2 : 1)) continue;
+    grid += `<text x="${x(`${yr}-01-01`)}" y="${M.t + plotH + 16}" text-anchor="middle">${yr}</text>`;
+  }
+  const pos = css("--series-1"), neg = css("--series-2");
+  const bars = pts.map(([d, v]) => `<rect x="${x(d)}" y="${Math.min(y(v), y(0))}" width="${bw}" height="${Math.max(1, Math.abs(y(v) - y(0)))}" rx="1" fill="${v < 0 ? neg : pos}"/>`).join("");
+  const rugY = M.t + plotH + M.b + 14;
+  const rug = acts.map((i) => `<rect x="${x(i.date) - 1}" y="${rugY - 7}" width="2" height="14" rx="1" fill="${css("--us")}"/><rect class="hit" data-id="${esc(i.id)}" x="${x(i.date) - 5}" y="${rugY - 10}" width="10" height="20"/>`).join("");
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Monthly customs duties, net of refunds">` +
+    `<g class="grid">${grid}</g>${bars}<line x1="${M.l}" x2="${W - M.r}" y1="${y(0)}" y2="${y(0)}" stroke="var(--muted)"/>` +
+    (acts.length ? `<text class="rug-label" x="${M.l - 8}" y="${rugY + 4}" text-anchor="end">US</text>${rug}` : "") +
+    `<rect class="hit" data-plot x="${M.l}" y="${M.t}" width="${W - M.l - M.r}" height="${plotH}"/></svg>`;
+  el.querySelector("[data-legend]").innerHTML = `<span><i style="background:${pos}"></i>Net duties collected</span><span><i style="background:${neg}"></i>Refunds exceeded collections</span>` +
+    (acts.length ? `<span><i class="tick" style="background:var(--us)"></i>Presidential tariff action (${acts.length})</span>` : "");
+  const svg = host.querySelector("svg");
+  svg.querySelector("[data-plot]").addEventListener("pointermove", (e) => {
+    const px = (e.offsetX / svg.clientWidth) * W;
+    const [d, v] = pts.reduce((a, b) => (Math.abs(x(b[0]) - px) < Math.abs(x(a[0]) - px) ? b : a));
+    showTip(e, `<b>${fmtMonth(d)}</b><span class="v">${v < 0 ? "Net refunds" : "Net collected"}: ${v < 0 ? "−" : ""}$${(Math.abs(v) / 1000).toFixed(2)}B</span>`);
+  });
+  svg.querySelector("[data-plot]").addEventListener("pointerleave", hideTip);
+  svg.querySelectorAll(".hit[data-id]").forEach((r) => {
+    const item = data.timeline.find((i) => i.id === r.dataset.id);
+    r.addEventListener("pointerenter", (e) => showTip(e, `<b>${fmtDay(item.date)}</b>${esc(item.title)}<br><span class="sub">Click to open in timeline</span>`));
+    r.addEventListener("pointerleave", hideTip);
+    r.addEventListener("click", () => { hideTip(); jumpTo(item.id); });
+  });
+
+  const yrs = Object.fromEntries(p.years.map((y) => [y.year, y]));
+  const last = p.years[p.years.length - 1], full = p.years.filter((y) => y.months === 12);
+  const prev = full[full.length - 1], before = full[full.length - 2];
+  const negSum = p.negative_months.reduce((a, [, v]) => a + v, 0);
+  el.querySelector("[data-lead]").innerHTML = prev && before ? `<p class="big"><b>${prev.year}</b>: $${(prev.total / 1000).toFixed(1)}B in customs duties, ${(prev.total / before.total).toFixed(1)}× ${before.year}'s $${(before.total / 1000).toFixed(1)}B.` +
+    (last.months < 12 ? ` ${last.year} so far (${last.months} months): $${(last.total / 1000).toFixed(1)}B.` : "") + `</p>` +
+    (p.negative_months.length ? `<p class="sub">${p.negative_months.length} month${p.negative_months.length > 1 ? "s" : ""} with more refunded than collected (${p.negative_months.map(([d]) => fmtMonth(d)).join(", ")}), net −$${(Math.abs(negSum) / 1000).toFixed(1)}B. The Treasury figures show that refunds happened, not why; see the timeline below for what agencies published.</p>` : "") : "";
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Calendar year", "Net customs duties", "Months"],
+    p.years.slice().reverse().map((y) => [y.year, `$${(y.total / 1000).toFixed(2)}B`, String(y.months)]));
+  void yrs;
+}
+
+async function drawMap(el, p) {
+  const years = Object.keys(p.states);
+  if (!years.length) { el.querySelector("[data-chart]").innerHTML = `<p class="sub">No spending data yet.</p>`; return; }
+  if (!mapState.fy || !years.includes(mapState.fy)) mapState.fy = years[years.length - 1];
+  const countyYears = Object.keys(p.counties);
+  if (mapState.layer === "county" && !countyYears.includes(mapState.fy)) mapState.layer = "state";
+
+  const controls = el.querySelector("[data-controls]");
+  controls.innerHTML = `<select aria-label="Fiscal year" data-fy>${years.map((y) => `<option value="${y}"${y === mapState.fy ? " selected" : ""}>FY${y}</option>`).join("")}</select>` +
+    `<div class="seg" role="group" aria-label="Map level">${[["state", "States"], ["county", "Counties"]].map(([v, l]) =>
+      `<button type="button" data-layer="${v}" aria-pressed="${mapState.layer === v}"${v === "county" && !countyYears.includes(mapState.fy) ? " disabled title=\"County data only for FY" + countyYears.join(", ") + "\"" : ""}>${l}</button>`).join("")}</div>`;
+  const hasAgencies = mapState.layer === "state" && p.agencies[mapState.fy];
+  if (!hasAgencies) mapState.measure = "all";
+  controls.insertAdjacentHTML("beforeend", `<div class="seg" role="group" aria-label="What to count">${[["all", "All awards"], ["ex", "Excluding HHS & SSA"]].map(([v, l]) =>
+    `<button type="button" data-measure="${v}" aria-pressed="${mapState.measure === v}"${v === "ex" && !hasAgencies ? ` disabled title="Agency breakdown collected for FY${Object.keys(p.agencies).join(", ")}, states only"` : ""}>${l}</button>`).join("")}</div>`);
+  controls.querySelectorAll("[data-measure]").forEach((b) => (b.onclick = () => { mapState.measure = b.dataset.measure; drawMap(el, p); }));
+  controls.querySelector("[data-fy]").onchange = (e) => { mapState.fy = e.target.value; drawMap(el, p); };
+  controls.querySelectorAll("[data-layer]").forEach((b) => (b.onclick = () => { mapState.layer = b.dataset.layer; drawMap(el, p); }));
+
+  const baseRows = (mapState.layer === "state" ? p.states : p.counties)[mapState.fy] || [];
+  // "Excluding HHS & SSA": subtract those agencies' amounts using the agency breakdown.
+  const rows = mapState.measure === "ex" ? baseRows.map((r) => {
+    const ag = p.agencies[mapState.fy]?.[r.code] || [];
+    const benefits = ag.filter((a) => BENEFIT_AGENCIES.includes(a.name)).reduce((t, a) => t + a.amount, 0);
+    const amount = Math.max(0, (r.amount || 0) - benefits);
+    return { ...r, amount, per_capita: r.population ? amount / r.population : null };
+  }) : baseRows;
+  const byCode = Object.fromEntries(rows.map((r) => [r.code, r]));
+  const breaks = quantileBreaks(rows.map((r) => r.per_capita || 0), RAMP.length);
+  const color = (v) => (v > 0 ? RAMP[breaks.findIndex((b) => v < b) === -1 ? RAMP.length - 1 : breaks.findIndex((b) => v < b)] : css("--chip"));
+  const features = await geometry(mapState.layer);
+  const keyOf = (f) => (mapState.layer === "state" ? FIPS[f.id] : f.id);
+
+  const host = el.querySelector("[data-chart]");
+  host.innerHTML = `<div class="map-wrap"><svg class="map" viewBox="0 0 975 610" role="img" aria-label="Map of federal award spending per person, ${mapState.layer === "state" ? "by state" : "by county"}, FY${mapState.fy}">` +
+    features.map((f) => { const r = byCode[keyOf(f)]; return `<path d="${geoPath(f.geometry)}" fill="${color(r?.per_capita)}" data-k="${esc(keyOf(f) || "")}" data-n="${esc(f.properties?.name || "")}"${mapState.selected === keyOf(f) ? ' class="sel"' : ""}/>`; }).join("") +
+    `</svg><div class="map-side" data-side></div></div>`;
+  el.querySelector("[data-legend]").innerHTML = `<span class="ramp">${RAMP.map((c, i) => `<i style="background:${c}" title="${i === 0 ? "under $" + fmtNum(breaks[0]) : i === RAMP.length - 1 ? "$" + fmtNum(breaks[i - 1]) + "+" : "$" + fmtNum(breaks[i - 1]) + "–" + fmtNum(breaks[i])}"></i>`).join("")}</span>` +
+    `<span>Per person: $${fmtNum(breaks[0])} or less → $${fmtNum(breaks[breaks.length - 1])} or more (each color is one-seventh of ${mapState.layer === "state" ? "states" : "counties"})</span>`;
+
+  const side = host.querySelector("[data-side]");
+  const ranked = rows.filter((r) => r.per_capita).sort((a, b) => b.per_capita - a.per_capita);
+  const showSide = (code) => {
+    const r = byCode[code];
+    const ag = p.agencies[mapState.fy]?.[code];
+    if (mapState.layer === "state" && r) {
+      const total = (baseRows.find((x) => x.code === code) || r).amount || 1;
+      side.innerHTML = `<h3>${esc(r.name)}, FY${mapState.fy}</h3><p class="big"><b>$${fmtNum(r.per_capita)}</b> per person${mapState.measure === "ex" ? " excluding HHS & SSA" : ""}</p>` +
+        `<p class="sub">$${(r.amount / 1e9).toFixed(1)}B total · population ${fmtNum(r.population || 0)} · rank ${ranked.findIndex((x) => x.code === code) + 1} of ${ranked.length}</p>` +
+        (ag && ag[0] && ag[0].amount / total > 0.7 && mapState.measure === "all" ? `<p class="note-warn">${Math.round((ag[0].amount / total) * 100)}% of this is one agency (${esc(ag[0].name)}). Place-of-performance figures can reflect where a contractor or claims processor is located rather than where people receive the money. Try <b>Excluding HHS &amp; SSA</b>.</p>` : "") +
+        (ag ? `<p class="sub">Largest awarding agencies:</p><ul class="agency">${ag.slice(0, 6).map((a) => `<li><span>${esc(a.name)}</span><span class="bar"><i style="width:${Math.max(1, (a.amount / total) * 100).toFixed(1)}%"></i></span><b>${Math.round((a.amount / total) * 100)}%</b></li>`).join("")}</ul>` :
+          `<p class="sub">Agency breakdown is collected for FY${Object.keys(p.agencies).join(", ")}.</p>`);
+    } else if (r) {
+      side.innerHTML = `<h3>${esc(r.name)}, FY${mapState.fy}</h3><p class="big"><b>$${fmtNum(r.per_capita)}</b> per person</p><p class="sub">$${(r.amount / 1e6).toFixed(0)}M total · population ${fmtNum(r.population || 0)}</p>`;
+    } else {
+      side.innerHTML = `<h3>${mapState.layer === "state" ? "Highest per person" : "Click a county"}</h3>` + (mapState.layer === "state" ? `<ol class="rank">${ranked.slice(0, 8).map((x) => `<li><a href="#" data-pick="${esc(x.code)}">${esc(x.name)}</a> $${fmtNum(x.per_capita)}</li>`).join("")}</ol><p class="sub">Click a state for its agency breakdown.</p>` : "");
+      side.querySelectorAll("[data-pick]").forEach((a) => (a.onclick = (e) => { e.preventDefault(); mapState.selected = a.dataset.pick; drawMap(el, p); }));
+    }
+  };
+  showSide(mapState.selected);
+  host.querySelectorAll("path[data-k]").forEach((path) => {
+    path.addEventListener("pointermove", (e) => {
+      const r = byCode[path.dataset.k];
+      showTip(e, `<b>${esc(r?.name || path.dataset.n)}</b>` + (r ? `<span class="v">$${fmtNum(r.per_capita || 0)} per person</span><span class="sub">$${(r.amount / 1e9).toFixed(2)}B total, FY${mapState.fy}</span>` : `<span class="sub">No data</span>`));
+    });
+    path.addEventListener("pointerleave", hideTip);
+    path.addEventListener("click", () => { mapState.selected = path.dataset.k; host.querySelectorAll("path.sel").forEach((x) => x.classList.remove("sel")); path.classList.add("sel"); showSide(path.dataset.k); });
+  });
+  el.querySelector("[data-foot]").innerHTML = tableToggle([mapState.layer === "state" ? "State" : "County", "Per person", "Total", "Population"],
+    ranked.slice(0, mapState.layer === "state" ? 60 : 100).map((r) => [r.name, `$${fmtNum(r.per_capita)}`, `$${(r.amount / 1e9).toFixed(2)}B`, fmtNum(r.population || 0)]));
+}
+
+function drawContractors(el, p) {
+  const rows = p.rows.map((r) => ({ label: titleCase(r.name), values: [r.amount], note: `FY${p.fiscal_year}, recipient ID ${r.recipient_id || "n/a"}` }));
+  hbars(el, rows, [{ label: "Contract obligations", color: css("--series-1") }], (v) => `$${(v / 1e9).toFixed(1)}B`);
+  el.querySelector("[data-lead]").innerHTML = p.fiscal_year ? `<p class="sub">Fiscal year ${p.fiscal_year} (October ${p.fiscal_year - 1} to September ${p.fiscal_year}).</p>` : "";
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Recipient (as reported)", "Contract obligations"], p.rows.map((r) => [r.name, fmtUSD(r.amount)]));
 }

@@ -24,6 +24,8 @@ those terms:
 | Eurostat | Eurostat reuse policy (CC BY 4.0) |
 | DOJ Office of the Pardon Attorney | Public domain (US federal work) |
 | FEC filings | Public record; see note below |
+| Treasury Fiscal Data, USAspending, GAO | Public domain (US federal works) |
+| US map geometry (us-atlas, from the US Census Bureau) | ISC licence, bundled in `site/vendor/` |
 
 **FEC data.** Federal law (52 U.S.C. 30111(a)(4)) prohibits using contributor
 information from FEC reports to solicit contributions or for commercial purposes. Our

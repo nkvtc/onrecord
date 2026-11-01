@@ -63,6 +63,28 @@ that rule under the chart.
 - **Inaugural money** is the total each committee reported to the FEC in its latest
   supplement or 90-day report, in nominal dollars (not adjusted for inflation).
 
+## Spending and revenue
+
+- **Tariff revenue** is customs duties from the Monthly Treasury Statement, Table 9, as
+  *net* receipts: collections minus refunds in the month. A negative month means refunds
+  exceeded collections. The Treasury figure shows that refunds happened, not why; the
+  reason has to come from another primary source (a court order, a CBP notice), and the
+  page says so instead of guessing.
+- **The spending map** shows obligations on federal awards reported to USAspending, by
+  place of performance, per person. It includes Social Security, Medicare and other
+  direct payments, contracts, grants and loans; it excludes federal salaries.
+  Per-person figures are driven by things that aren't favoritism: retirees, military
+  bases, and where contractors and claims processors are located. A state's color can
+  reflect where a Medicare contractor sits rather than where people get care. The page
+  shows each state's awarding agencies for that reason.
+- **Top contractors** are listed as reported, by recipient ID. One company can appear
+  more than once (parent and subsidiary registrations); we don't merge them, because
+  merging by name is how wrong totals happen.
+- **GAO reports** are the auditor's own published findings, stored as claims. The feed
+  only carries recent items, so the archive starts on the day collection began.
+- **Not yet**: improper payments (paymentaccuracy.gov publishes no clean data file we
+  could find), Inspector General reports (oversight.gov blocked automated requests).
+
 ## Accountability records
 
 The accountability topic holds executive orders, clemency grants and reported donations.

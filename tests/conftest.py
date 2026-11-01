@@ -7,7 +7,12 @@ import pytest
 from onrecord.models import RawDocument
 
 FIXTURES = Path(__file__).parent / "fixtures"
-CONTENT_TYPES = {".json": "application/json", ".html": "text/html", ".txt": "text/plain"}
+CONTENT_TYPES = {
+    ".json": "application/json",
+    ".html": "text/html",
+    ".txt": "text/plain",
+    ".xml": "application/xml",
+}
 
 
 def fixture_names(source: str) -> list[str]:
