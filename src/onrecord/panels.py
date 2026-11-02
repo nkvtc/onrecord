@@ -337,6 +337,56 @@ def receipts_outlays(store: Store, today: date) -> dict:
     }
 
 
+def money_flow(store: Store, today: date) -> dict:
+    years = []
+    for x in _extras(store, "treasury_budget", "mts9"):
+        receipts, outlays = x["totals"].get("receipts"), x["totals"].get("outlays")
+        if receipts is None or not outlays:
+            continue
+        rows = x["rows"]
+        sources = sorted(
+            (
+                {"name": r["name"], "amount": r["amount"]}
+                for r in rows
+                if r["section"] == "receipts"
+            ),
+            key=lambda r: -r["amount"],
+        )
+        lines = [r for r in x["rows"] if r["section"] == "outlays"]
+        uses = sorted(
+            ({"name": r["name"], "amount": r["amount"]} for r in lines if r["amount"] > 0),
+            key=lambda r: -r["amount"],
+        )
+        # Both sides balance on gross spending: net outlays are spending minus money that
+        # came back in, so that money is shown as a source rather than netted away.
+        came_back = -sum(r["amount"] for r in lines if r["amount"] < 0)
+        years.append(
+            {
+                **_span(x),
+                "receipts": receipts,
+                "outlays": outlays,
+                "borrowed": max(0.0, outlays - receipts),
+                "surplus": max(0.0, receipts - outlays),
+                "came_back": came_back,
+                "sources": sources,
+                "uses": uses,
+            }
+        )
+    return {
+        "years": years,
+        "source": "US Treasury, Monthly Treasury Statement, Table 9",
+        "rule": (
+            "Left: every receipt line Treasury booked, plus what it borrowed to cover the gap "
+            "(net outlays minus receipts), plus money that came back in for a purpose "
+            "(premiums, loan repayments, payments between government accounts), which the "
+            "budget nets out of spending. Right: every purpose with positive net outlays. "
+            "Money is pooled in the Treasury, so the chart shows the totals on each side, "
+            "not which tax paid for which program; only payroll taxes are earmarked by law, "
+            "for Social Security and Medicare trust funds. " + FISCAL_YEAR + " Nominal dollars."
+        ),
+    }
+
+
 # Monthly Treasury Statement agency names that USAspending spells differently.
 AGENCY_ALIASES = {
     "Department of Defense--Military Programs": "Department of Defense",
@@ -441,6 +491,7 @@ BUILDERS.update(
     {
         "budget_functions": budget_functions,
         "receipts_outlays": receipts_outlays,
+        "money_flow": money_flow,
         "agency_outlays": agency_outlays,
         "improper_payments": improper_payments,
     }

@@ -236,3 +236,14 @@ svg.map path.sel { stroke: var(--text); stroke-width: 2; }
 .agency-detail ul.agency .bar i { display: block; height: 100%; background: var(--series-1); }
 .agency-detail ul.plain { padding-left: 18px; margin: 4px 0; font-size: 13px; }
 .agency-detail .links { font-size: 13px; }
+
+.chart svg.flow .band { opacity: .28; transition: opacity .12s; }
+.chart svg.flow .band:hover { opacity: .55; }
+.chart .flow-name { fill: var(--text); font-weight: 600; }
+.donuts { display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: center; }
+.donut { margin: 0; flex: 1 1 260px; max-width: 360px; }
+.donut svg { margin: 0 auto; }
+.donut ul { list-style: none; padding: 0; margin: 10px 0 0; font-size: 13px; }
+.donut li { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto; gap: 8px; align-items: center; margin: 3px 0; }
+.donut li i { width: 10px; height: 10px; border-radius: 2px; }
+.donut li span { color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

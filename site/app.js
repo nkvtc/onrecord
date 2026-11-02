@@ -379,7 +379,7 @@ function renderPanels() {
   panels.forEach((p, i) => {
     const el = host.querySelector(`[data-panel="${i}"]`);
     ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural, monthly_revenue: drawRevenue, spending_map: drawMap, top_contractors: drawContractors,
-      budget_functions: drawFunctions, receipts_outlays: drawReceipts, agency_outlays: drawAgencies, improper_payments: drawImproper })[p.kind]?.(el, p);
+      budget_functions: drawFunctions, receipts_outlays: drawReceipts, money_flow: drawFlow, agency_outlays: drawAgencies, improper_payments: drawImproper })[p.kind]?.(el, p);
   });
 }
 
@@ -668,7 +668,7 @@ function drawContractors(el, p) {
 
 // ---- Where the money goes panels ----------------------------------------------
 
-const budgetState = { fy: null, agency: null, improper: "programs" };
+const budgetState = { fy: null, agency: null, improper: "programs", flow: "flow" };
 // Shorter names for long budget-function and agency labels; the full name is in tooltips.
 const SHORT = {
   "Education, Training, Employment, and Social Services": "Education & social services",
@@ -681,6 +681,8 @@ const SHORT = {
   "Undistributed Offsetting Receipts": "Offsetting receipts",
   "Department of Defense--Military Programs": "Defense (military)",
   "Employment and General Retirement": "Payroll taxes",
+  "Individual Income Taxes": "Income taxes",
+  "Corporation Income Taxes": "Corporate taxes",
   "Social Security Administration": "Social Security Admin.",
 };
 const shortName = (n) => SHORT[n] || n.replace(/^Department of (the )?/, "");
@@ -768,6 +770,97 @@ function drawReceipts(el, p) {
   });
   el.querySelector("[data-foot]").innerHTML = tableToggle(["Fiscal year", "Collected", "Spent", "Deficit", "Customs duties"],
     years.slice().reverse().map((y) => [fyLabel(y), fmtB(y.receipts), fmtB(y.outlays), fmtB(y.deficit), fmtB(y.receipt_lines.find((l) => l.name === "Customs Duties")?.amount)]));
+}
+
+// Group a sorted list into its first n lines plus one remainder line.
+function topRest(lines, n, restName) {
+  const top = lines.slice(0, n), rest = lines.slice(n).reduce((t, l) => t + l.amount, 0);
+  return rest > 0 ? [...top, { name: restName, amount: rest, parts: lines.slice(n) }] : top;
+}
+
+function flowSides(y) {
+  // Receipts share one hue, stepped lighter so each slice still reads apart from its neighbour.
+  const left = topRest(y.sources, 5, "Other receipts").map((l, i) => ({ ...l, color: css("--us"), alpha: 1 - i * 0.13 }));
+  if (y.borrowed > 0) left.push({ name: "Borrowed", amount: y.borrowed, color: css("--ca"), note: "Net outlays minus receipts: the deficit." });
+  if (y.came_back > 0) left.push({ name: "Came back in", amount: y.came_back, color: css("--agency"), note: "Premiums, loan repayments and payments between government accounts, which the budget nets out of spending." });
+  const right = topRest(y.uses, 8, "Everything else").map((l, i) => ({ ...l, color: css(i < 5 ? PANEL_COLORS[i] : "--agency") }));
+  if (y.surplus > 0) right.push({ name: "Surplus", amount: y.surplus, color: css("--p3") });
+  return { left, right };
+}
+
+function drawFlow(el, p) {
+  if (!p.years.length) return;
+  const y = fySelect(el, p.years);
+  const controls = el.querySelector("[data-controls]");
+  controls.insertAdjacentHTML("beforeend", `<div class="seg" role="group" aria-label="View">${[["flow", "Flow"], ["pie", "Pie"]].map(([v, l]) =>
+    `<button type="button" data-v="${v}" aria-pressed="${budgetState.flow === v}">${l}</button>`).join("")}</div>`);
+  controls.querySelector(".seg").onclick = (e) => { const b = e.target.closest("button"); if (b) { budgetState.flow = b.dataset.v; drawFlow(el, p); } };
+  const { left, right } = flowSides(y);
+  const sumL = left.reduce((t, l) => t + l.amount, 0), sumR = right.reduce((t, l) => t + l.amount, 0);
+  el.querySelector("[data-lead]").innerHTML = `<p class="big">In ${esc(fyLabel(y))} the Treasury collected <b>${fmtB(y.receipts)}</b>` +
+    (y.borrowed > 0 ? ` and borrowed <b>${fmtB(y.borrowed)}</b>` : "") + `, and spent <b>${fmtB(y.outlays)}</b> net.</p>` +
+    `<p class="sub">The money is pooled, so this shows what went in and what came out, not which tax paid for which program.` +
+    (y.came_back > 0 ? ` Each side totals ${fmtB(sumR)}: the net spending plus ${fmtB(y.came_back)} that came back in and was paid out again.` : "") + `</p>`;
+  const tip = (l, total) => `<b>${esc(l.name)}</b><span class="v"><i style="background:${l.color}"></i>${fmtB(l.amount)} · ${pct(l.amount / total, 1)}</span>` +
+    (l.note ? `<span class="sub">${esc(l.note)}</span>` : "") + (l.parts ? `<span class="sub">${l.parts.slice(0, 6).map((x) => `${esc(shortName(x.name))} ${fmtB(x.amount)}`).join(" · ")}</span>` : "");
+  const host = el.querySelector("[data-chart]");
+  const W = Math.max(320, host.clientWidth), narrow = W < 560;
+  const nodes = [];
+  if (budgetState.flow === "flow") {
+    const H = narrow ? 480 : 440, gap = 6, nw = 10, lw = narrow ? 104 : 170;
+    const xL = lw, xM = W / 2 - nw / 2, xR = W - lw - nw;
+    // One scale for both sides, so a band's thickness is its dollars on either side.
+    const k = (H - gap * Math.max(left.length, right.length)) / Math.max(sumL, sumR);
+    const stack = (side, x0) => { let yy = 0; return side.map((l) => { const n = { ...l, x: x0, y: yy, h: Math.max(1, l.amount * k) }; yy += n.h + gap; return n; }); };
+    const L = stack(left, xL), R = stack(right, xR);
+    const mid = Math.max(sumL, sumR) * k, mTop = (H - mid) / 2;
+    const band = (x0, y0, x1, y1, h, color, i) => {
+      const c = (x0 + x1) / 2;
+      return `<path class="band" data-i="${i}" d="M${x0},${y0}C${c},${y0} ${c},${y1} ${x1},${y1}L${x1},${y1 + h}C${c},${y1 + h} ${c},${y0 + h} ${x0},${y0 + h}Z" fill="${color}"/>`;
+    };
+    let bands = "", my = mTop;
+    L.forEach((n) => { nodes.push([n, sumL]); bands += band(xL + nw, n.y, xM, my, n.h, n.color, nodes.length - 1); my += n.h; });
+    my = mTop;
+    R.forEach((n) => { nodes.push([n, sumR]); bands += band(xM + nw, my, xR, n.y, n.h, n.color, nodes.length - 1); my += n.h; });
+    const label = (n, x, anchor) => {
+      const name = shortName(n.name), max = Math.floor(lw / 6.4);
+      return `<text x="${x}" y="${n.y + n.h / 2 - (n.h > 22 ? 3 : -4)}" text-anchor="${anchor}" class="flow-name">${esc(name.length > max ? name.slice(0, max - 1) + "…" : name)}</text>` +
+        (n.h > 22 ? `<text x="${x}" y="${n.y + n.h / 2 + 11}" text-anchor="${anchor}">${fmtB(n.amount)}</text>` : "");
+    };
+    const rects = [...L, ...R].map((n, i) => `<rect class="node" data-i="${i}" x="${n.x}" y="${n.y}" width="${nw}" height="${n.h}" rx="2" fill="${n.color}" fill-opacity="${n.alpha ?? 1}"/>`).join("");
+    host.innerHTML = `<svg class="flow" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Federal receipts and borrowing flowing into spending by purpose">` +
+      `<g>${bands}</g>${rects}<rect x="${xM}" y="${mTop}" width="${nw}" height="${mid}" rx="2" fill="var(--text-2)"/>` +
+      `<text x="${W / 2}" y="${mTop - 6}" text-anchor="middle" class="flow-name">Treasury</text>` +
+      L.map((n) => label(n, xL - 6, "end")).join("") + R.map((n) => label(n, xR + nw + 6, "start")).join("") + `</svg>`;
+  } else {
+    const size = narrow ? Math.min(W, 300) : Math.min(340, W / 2 - 16), r = size / 2 - 4, ri = r * 0.58;
+    const donut = (side, total, title) => {
+      let a = -Math.PI / 2;
+      const arcs = side.map((l) => {
+        const nodes_i = nodes.push([l, total]) - 1, a1 = a + (l.amount / total) * Math.PI * 2, big = a1 - a > Math.PI ? 1 : 0;
+        const pt = (rad, ang) => `${size / 2 + rad * Math.cos(ang)},${size / 2 + rad * Math.sin(ang)}`;
+        const d = `M${pt(r, a)}A${r},${r} 0 ${big} 1 ${pt(r, a1)}L${pt(ri, a1)}A${ri},${ri} 0 ${big} 0 ${pt(ri, a)}Z`;
+        a = a1;
+        return `<path class="node" data-i="${nodes_i}" d="${d}" fill="${l.color}" fill-opacity="${l.alpha ?? 1}" stroke="var(--surface)" stroke-width="1.5"/>`;
+      }).join("");
+      return `<figure class="donut"><svg viewBox="0 0 ${size} ${size}" width="${size}" height="${size}" role="img" aria-label="${esc(title)}">${arcs}` +
+        `<text x="${size / 2}" y="${size / 2 - 4}" text-anchor="middle" class="flow-name">${esc(title)}</text><text x="${size / 2}" y="${size / 2 + 14}" text-anchor="middle">${fmtB(total)}</text></svg>` +
+        `<ul>${side.map((l) => `<li><i style="background:${l.color};opacity:${l.alpha ?? 1}"></i><span>${esc(shortName(l.name))}</span><b>${pct(l.amount / total)}</b></li>`).join("")}</ul></figure>`;
+    };
+    host.innerHTML = `<div class="donuts">${donut(left, sumL, "Came from")}${donut(right, sumR, "Went to")}</div>`;
+  }
+  host.querySelectorAll("[data-i]").forEach((g) => {
+    const [l, total] = nodes[g.dataset.i];
+    g.addEventListener("pointermove", (e) => showTip(e, tip(l, total)));
+    g.addEventListener("pointerleave", hideTip);
+  });
+  el.querySelector("[data-legend]").innerHTML = budgetState.flow === "flow"
+    ? `<span><i style="background:${css("--us")}"></i>Taxes & receipts</span>` + (y.borrowed > 0 ? `<span><i style="background:${css("--ca")}"></i>Borrowed</span>` : "") +
+      `<span><i style="background:${css("--agency")}"></i>Came back in / everything else</span><span>Hover a band for its amount</span>`
+    : "";
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Side", "Line", fyLabel(y), "Share"],
+    [...left.flatMap((l) => (l.parts ? l.parts.map((x) => ({ ...x, part: true })) : [l]).map((x) => ["In", x.name, fmtB(x.amount), pct(x.amount / sumL, 1)])),
+      ...y.uses.map((x) => ["Out", x.name, fmtB(x.amount), pct(x.amount / sumR, 1)]), ...(y.surplus > 0 ? [["Out", "Surplus", fmtB(y.surplus), pct(y.surplus / sumR, 1)]] : [])]);
 }
 
 function drawAgencies(el, p) {

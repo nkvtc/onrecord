@@ -37,6 +37,10 @@ kind = "budget_functions"
 title = "What the money was spent on"
 
 [[site.panels]]
+kind = "money_flow"
+title = "Where the money comes from, and where it goes"
+
+[[site.panels]]
 kind = "receipts_outlays"
 title = "Collected vs spent, by fiscal year"
 

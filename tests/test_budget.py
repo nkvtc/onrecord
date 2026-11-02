@@ -5,7 +5,13 @@ from datetime import date
 from onrecord.adapters.payment_accuracy import PaymentAccuracy
 from onrecord.adapters.treasury_budget import TreasuryBudget
 from onrecord.adapters.usaspending_agencies import UsaSpendingAgencies
-from onrecord.panels import agency_outlays, budget_functions, improper_payments, receipts_outlays
+from onrecord.panels import (
+    agency_outlays,
+    budget_functions,
+    improper_payments,
+    money_flow,
+    receipts_outlays,
+)
 from onrecord.store import Store
 
 
@@ -68,6 +74,11 @@ def test_budget_panels(tmp_path, fixture):
 
     ro = receipts_outlays(store, today)
     assert 1.9e12 < ro["years"][1]["deficit"] < 2.1e12
+
+    mf = money_flow(store, today)["years"][1]
+    left = sum(r["amount"] for r in mf["sources"]) + mf["borrowed"] + mf["came_back"]
+    right = sum(r["amount"] for r in mf["uses"]) + mf["surplus"]
+    assert abs(left - right) / right < 0.01  # both sides of the flow balance
 
     a = agency_outlays(store, today)
     hhs = next(x for x in a["years"][0]["agencies"] if x["name"].endswith("Human Services"))

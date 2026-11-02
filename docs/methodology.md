@@ -92,6 +92,11 @@ that rule under the chart.
   be negative (deposit insurance premiums, loan repayments). "Out of every dollar"
   shares are taken over the positive lines only, so they add up to 100%. The year in
   progress is labelled with how many months it covers.
+- **Where the money comes from, and where it goes** (the flow and pie views) uses the
+  same table. In: every receipt line, plus borrowing (net outlays minus receipts), plus
+  money that came back in for a purpose, which the budget subtracts from spending. Out:
+  every function with positive net outlays. Both sides then total the same gross amount.
+  Federal money is pooled, so the chart does not claim which tax paid for which program.
 - **Collected vs spent** uses the same table's total receipts and total net outlays.
   The deficit is the difference. Nominal dollars, not adjusted for inflation or GDP.
 - **Departments** are net outlays by agency from Table 5. Bureau lines are listed as the
