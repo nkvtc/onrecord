@@ -1,0 +1,64 @@
+# Where it goes: the federal budget as the Treasury books it, what each department does
+# with its share, and the agencies' own estimates of payments that went wrong.
+
+id = "budget"
+title = "Where the money goes"
+since = 2025-01-01
+description = """
+Federal spending by purpose and by department (Monthly Treasury Statement, every fiscal
+year since 2015), what each department says it does and what its money funds
+(USAspending.gov), and improper payment estimates by program (PaymentAccuracy.gov, OMB).
+"""
+
+[treasury_budget]
+first_year = 2015
+
+[usaspending_agencies]
+# Profiles for agencies with at least this much in budgetary resources this year.
+min_budget_authority = 1e9
+
+[payment_accuracy]
+
+[gao_reports]
+feed = "https://www.gao.gov/rss/reports.xml"
+
+[site]
+order = 6
+tab = "Where it goes"
+view = "budget"
+headline = "Where the money goes"
+lede = """What the federal government spent and collected each fiscal year, what the money \
+was for, which departments spent it and what they do, and how much the agencies \
+themselves estimate was paid improperly. Treasury and OMB figures, each with how it's \
+counted."""
+
+[[site.panels]]
+kind = "budget_functions"
+title = "What the money was spent on"
+
+[[site.panels]]
+kind = "receipts_outlays"
+title = "Collected vs spent, by fiscal year"
+
+[[site.panels]]
+kind = "agency_outlays"
+title = "Which departments spent it, and what they do"
+
+[[site.panels]]
+kind = "improper_payments"
+title = "Payments the agencies say went wrong"
+
+[[site.filters]]
+label = "All"
+
+[[site.filters]]
+label = "GAO reports"
+doc_types = ["audit_report"]
+
+[site.ask]
+examples = [
+  "What share of federal spending went to interest on the debt in FY2026, and how has that changed since 2015?",
+  "Which programs had the largest improper payment estimates in the latest year?",
+  "What does the Department of Health and Human Services spend its money on?",
+  "How big was the deficit in FY2026 compared with FY2019?",
+]

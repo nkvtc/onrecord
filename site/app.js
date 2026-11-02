@@ -378,7 +378,8 @@ function renderPanels() {
     `<div class="legend" data-legend></div><div class="chart" data-chart></div><p class="note"><strong>How this counts.</strong> ${esc(p.rule)}</p><div data-foot></div></section>`).join("");
   panels.forEach((p, i) => {
     const el = host.querySelector(`[data-panel="${i}"]`);
-    ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural, monthly_revenue: drawRevenue, spending_map: drawMap, top_contractors: drawContractors })[p.kind]?.(el, p);
+    ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural, monthly_revenue: drawRevenue, spending_map: drawMap, top_contractors: drawContractors,
+      budget_functions: drawFunctions, receipts_outlays: drawReceipts, agency_outlays: drawAgencies, improper_payments: drawImproper })[p.kind]?.(el, p);
   });
 }
 
@@ -444,6 +445,8 @@ function hbars(el, rows, segments, fmt) {
   const H = rows.length * (barH + gap) + 4;
   const max = Math.max(...rows.map((r) => r.values.reduce((a, b) => a + b, 0)), 1);
   const x = (v) => (v / max) * (W - labelW - valueW);
+  const maxChars = Math.floor(labelW / 5.8);
+  const clip = (s) => (s.length > maxChars ? s.slice(0, maxChars - 1).trimEnd() + "…" : s);
   host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Horizontal bar chart">` + rows.map((r, i) => {
     const yy = i * (barH + gap);
     let off = labelW, bars = "";
@@ -455,18 +458,19 @@ function hbars(el, rows, segments, fmt) {
       off += w;
     });
     const total = r.values.reduce((a, b) => a + b, 0);
-    return `<g class="bar" data-i="${i}"><text x="${labelW - 8}" y="${yy + barH - 4}" text-anchor="end" style="fill:var(--text-2)">${esc(r.label)}</text>${bars}` +
+    return `<g class="bar" data-i="${i}"><text x="${labelW - 8}" y="${yy + barH - 4}" text-anchor="end" style="fill:var(--text-2)"${r.selected ? ' font-weight="600"' : ""}>${esc(clip(r.label))}</text>${bars}` +
       `<text x="${off + 6}" y="${yy + barH - 4}" style="fill:var(--text-2)">${esc(fmt(total))}</text>` +
       `<rect class="hit" x="0" y="${yy - gap / 2}" width="${W}" height="${barH + gap}"/></g>`;
   }).join("") + `</svg>`;
   el.querySelector("[data-legend]").innerHTML = segments.length > 1 ? segments.map((s) => `<span><i style="background:${s.color}"></i>${esc(s.label)}</span>`).join("") : "";
   host.querySelectorAll(".bar").forEach((g) => {
     const r = rows[g.dataset.i];
-    g.addEventListener("pointermove", (e) => showTip(e, `<b>${esc(r.label)}</b>` + r.values.map((v, j) =>
+    g.addEventListener("pointermove", (e) => showTip(e, `<b>${esc(r.full || r.label)}</b>` + r.values.map((v, j) =>
       `<span class="v"><i style="background:${segments[j].color}"></i>${esc(segments[j].label)}: ${esc(fmt(v))}</span>`).join("") +
       (r.note ? `<span class="sub">${esc(r.note)}</span>` : "")));
     g.addEventListener("pointerleave", hideTip);
-    if (r.url) { g.style.cursor = "pointer"; g.addEventListener("click", () => window.open(r.url, "_blank", "noopener")); }
+    if (r.onClick) { g.style.cursor = "pointer"; g.addEventListener("click", () => { hideTip(); r.onClick(); }); }
+    else if (r.url) { g.style.cursor = "pointer"; g.addEventListener("click", () => window.open(r.url, "_blank", "noopener")); }
   });
 }
 
@@ -660,4 +664,166 @@ function drawContractors(el, p) {
   hbars(el, rows, [{ label: "Contract obligations", color: css("--series-1") }], (v) => `$${(v / 1e9).toFixed(1)}B`);
   el.querySelector("[data-lead]").innerHTML = p.fiscal_year ? `<p class="sub">Fiscal year ${p.fiscal_year} (October ${p.fiscal_year - 1} to September ${p.fiscal_year}).</p>` : "";
   el.querySelector("[data-foot]").innerHTML = tableToggle(["Recipient (as reported)", "Contract obligations"], p.rows.map((r) => [r.name, fmtUSD(r.amount)]));
+}
+
+// ---- Where the money goes panels ----------------------------------------------
+
+const budgetState = { fy: null, agency: null, improper: "programs" };
+// Shorter names for long budget-function and agency labels; the full name is in tooltips.
+const SHORT = {
+  "Education, Training, Employment, and Social Services": "Education & social services",
+  "General Science, Space, and Technology": "Science & space",
+  "Natural Resources and Environment": "Environment",
+  "Community and Regional Development": "Community development",
+  "Commerce and Housing Credit": "Commerce & housing credit",
+  "Veterans Benefits and Services": "Veterans",
+  "Administration of Justice": "Justice",
+  "Undistributed Offsetting Receipts": "Offsetting receipts",
+  "Department of Defense--Military Programs": "Defense (military)",
+  "Employment and General Retirement": "Payroll taxes",
+  "Social Security Administration": "Social Security Admin.",
+};
+const shortName = (n) => SHORT[n] || n.replace(/^Department of (the )?/, "");
+const fmtB = (v) => {
+  if (v == null) return "n/a";
+  const a = Math.abs(v), sign = v < 0 ? "−" : "";
+  return a >= 1e12 ? `${sign}$${(a / 1e12).toFixed(2)}T` : a >= 1e9 ? `${sign}$${(a / 1e9).toFixed(a >= 1e11 ? 0 : 1)}B` : `${sign}$${(a / 1e6).toFixed(0)}M`;
+};
+const pct = (v, d = 0) => `${(v * 100).toFixed(d)}%`;
+const fyLabel = (y) => `FY${y.fy}` + (y.months < 12 ? ` (${y.months} months)` : "");
+
+function fySelect(el, years) {
+  if (!budgetState.fy || !years.some((y) => y.fy === budgetState.fy)) budgetState.fy = years[years.length - 1].fy;
+  const controls = el.querySelector("[data-controls]");
+  controls.innerHTML = `<select aria-label="Fiscal year" data-fy>${years.slice().reverse().map((y) =>
+    `<option value="${y.fy}"${y.fy === budgetState.fy ? " selected" : ""}>${esc(fyLabel(y))}</option>`).join("")}</select>`;
+  // The year is shared by the budget panels, so changing it redraws all of them.
+  controls.querySelector("[data-fy]").onchange = (e) => { budgetState.fy = +e.target.value; renderPanels(); };
+  return years.find((y) => y.fy === budgetState.fy);
+}
+
+function drawFunctions(el, p) {
+  if (!p.years.length) return;
+  const y = fySelect(el, p.years);
+  const prev = y.months === 12 ? p.years.find((x) => x.fy === y.fy - 1) : null;
+  const prevBy = Object.fromEntries((prev?.lines || []).map((l) => [l.name, l.amount]));
+  const positive = y.lines.filter((l) => l.amount > 0);
+  const gross = positive.reduce((t, l) => t + l.amount, 0);
+  // "Out of every dollar": shares of the lines that are spending (positive), so the strip
+  // adds up to 100%. Negative lines are listed below the strip, not in it.
+  const top = positive.slice(0, 5), rest = gross - top.reduce((t, l) => t + l.amount, 0);
+  const strip = [...top.map((l, i) => ({ name: l.name, amount: l.amount, color: css(PANEL_COLORS[i]) })),
+    { name: "Everything else", amount: rest, color: css("--chip"), cls: "rest" }];
+  el.querySelector("[data-lead]").innerHTML =
+    `<p class="big">In ${esc(fyLabel(y))} the federal government spent <b>${fmtB(y.total)}</b> (net). Out of every dollar spent:</p>` +
+    `<div class="dollar-strip" role="img" aria-label="Share of spending by purpose">${strip.map((s) =>
+      `<span class="${s.cls || ""}" style="flex:${s.amount};background:${s.color};opacity:${s.alpha ?? 1}" title="${esc(s.name)}: ${pct(s.amount / gross, 1)}"><b>${Math.round((s.amount / gross) * 100)}¢</b><em>${esc(shortName(s.name))}</em></span>`).join("")}</div>`;
+  const rows = y.lines.map((l) => ({
+    label: shortName(l.name), full: l.name, values: [Math.max(0, l.amount)],
+    note: (l.amount > 0 ? `${pct(l.amount / gross, 1)} of spending.` : "Net negative: more came back in than was paid out.") +
+      (prevBy[l.name] != null ? ` FY${prev.fy}: ${fmtB(prevBy[l.name])}.` : ""),
+  }));
+  hbars(el, rows, [{ label: "Net outlays", color: css("--series-1") }], fmtB);
+  // hbars draws only the positive part; print the signed value for net-negative lines.
+  el.querySelectorAll("[data-chart] g.bar").forEach((g, i) => { const t = g.querySelectorAll("text")[1]; if (t) t.textContent = fmtB(y.lines[i].amount); });
+  const first = p.years[0].fy !== y.fy ? p.years[0] : null;
+  const firstBy = Object.fromEntries((first?.lines || []).map((l) => [l.name, l.amount]));
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Purpose", fyLabel(y), "Share of spending", prev ? `FY${prev.fy}` : "", first ? `FY${first.fy}` : ""],
+    y.lines.map((l) => [l.name, fmtB(l.amount), l.amount > 0 ? pct(l.amount / gross, 1) : "", prev ? fmtB(prevBy[l.name]) : "", first ? fmtB(firstBy[l.name]) : ""]));
+}
+
+function drawReceipts(el, p) {
+  const years = p.years.filter((y) => y.outlays);
+  if (!years.length) return;
+  const cur = years.find((y) => y.fy === budgetState.fy) || years[years.length - 1];
+  el.querySelector("[data-lead]").innerHTML = `<p class="big">${esc(fyLabel(cur))}: collected <b>${fmtB(cur.receipts)}</b>, spent <b>${fmtB(cur.outlays)}</b>. ` +
+    `The gap, <b>${fmtB(cur.deficit)}</b>, was borrowed: ${pct(cur.deficit / cur.outlays)} of what was spent.</p>`;
+  const segments = [{ label: "Collected (receipts)", color: css("--series-1") }, { label: "Spent (net outlays)", color: css("--series-2") }];
+  const host = el.querySelector("[data-chart]");
+  const W = Math.max(320, host.clientWidth), H = 260, M = { l: 48, r: 8, t: 14, b: 26 };
+  const max = Math.max(...years.map((y) => Math.max(y.receipts, y.outlays))) * 1.05;
+  const band = (W - M.l - M.r) / years.length, bw = Math.max(3, Math.min(18, band * 0.36));
+  const yv = (v) => M.t + (H - M.t - M.b) * (1 - v / max);
+  let grid = "";
+  for (let v = 0; v <= max; v += 2e12) grid += `<line x1="${M.l}" x2="${W - M.r}" y1="${yv(v)}" y2="${yv(v)}"/><text x="${M.l - 6}" y="${yv(v) + 4}" text-anchor="end">$${v / 1e12}T</text>`;
+  const narrow = W < 560;
+  const cols = years.map((y, i) => {
+    const cx = M.l + band * i + band / 2;
+    const label = !narrow || (years.length - 1 - i) % 2 === 0 ? `<text x="${cx}" y="${H - 8}" text-anchor="middle"${y.fy === cur.fy ? ' font-weight="600"' : ""}>${narrow ? "'" + String(y.fy).slice(2) : y.fy}${y.months < 12 ? "*" : ""}</text>` : "";
+    return `<g class="col" data-i="${i}"><rect x="${cx - bw - 1}" y="${yv(y.receipts)}" width="${bw}" height="${yv(0) - yv(y.receipts)}" rx="2" fill="${segments[0].color}"/>` +
+      `<rect x="${cx + 1}" y="${yv(y.outlays)}" width="${bw}" height="${yv(0) - yv(y.outlays)}" rx="2" fill="${segments[1].color}"/>${label}` +
+      `<rect class="hit" x="${cx - band / 2}" y="${M.t}" width="${band}" height="${H - M.t - M.b}"/></g>`;
+  }).join("");
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Federal receipts and outlays by fiscal year"><g class="grid">${grid}</g>${cols}</svg>`;
+  el.querySelector("[data-legend]").innerHTML = segments.map((s) => `<span><i style="background:${s.color}"></i>${esc(s.label)}</span>`).join("") +
+    (years.some((y) => y.months < 12) ? `<span>* year in progress</span>` : "") + `<span>Click a year to show it in every panel</span>`;
+  host.querySelectorAll("g.col").forEach((g) => {
+    const y = years[g.dataset.i];
+    g.style.cursor = "pointer";
+    g.addEventListener("pointermove", (e) => showTip(e, `<b>${esc(fyLabel(y))}</b><span class="v"><i style="background:${segments[0].color}"></i>Collected: ${fmtB(y.receipts)}</span>` +
+      `<span class="v"><i style="background:${segments[1].color}"></i>Spent: ${fmtB(y.outlays)}</span><span class="v">Deficit: ${fmtB(y.deficit)}</span>` +
+      `<span class="sub">Largest sources: ${y.receipt_lines.slice(0, 3).map((l) => `${esc(shortName(l.name))} ${fmtB(l.amount)}`).join(" · ")}</span>`));
+    g.addEventListener("pointerleave", hideTip);
+    g.addEventListener("click", () => { hideTip(); budgetState.fy = y.fy; renderPanels(); });
+  });
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Fiscal year", "Collected", "Spent", "Deficit", "Customs duties"],
+    years.slice().reverse().map((y) => [fyLabel(y), fmtB(y.receipts), fmtB(y.outlays), fmtB(y.deficit), fmtB(y.receipt_lines.find((l) => l.name === "Customs Duties")?.amount)]));
+}
+
+function drawAgencies(el, p) {
+  if (!p.years.length) return;
+  const y = fySelect(el, p.years);
+  const shown = y.agencies.filter((a) => a.amount > 0).slice(0, 20);
+  if (!budgetState.agency || !y.agencies.some((a) => a.name === budgetState.agency)) budgetState.agency = shown[0]?.name;
+  const rows = shown.map((a) => ({
+    label: shortName(a.name), full: a.name, values: [a.amount], selected: a.name === budgetState.agency,
+    note: `${pct(a.amount / y.total, 1)} of net outlays. Click for what it does.`,
+    onClick: () => { budgetState.agency = a.name; drawAgencies(el, p); },
+  }));
+  hbars(el, rows, [{ label: "Net outlays", color: css("--series-1") }], fmtB);
+  el.querySelector("[data-lead]").innerHTML = `<p class="sub">${esc(fyLabel(y))}, ${fmtB(y.total)} in all. The 20 largest are shown; click one for its mission, what its money funds, and its largest bureaus.</p>`;
+  const a = y.agencies.find((x) => x.name === budgetState.agency);
+  const prof = a?.profile ? p.profiles[a.profile] : null;
+  const fns = (prof?.functions || []).filter((f) => f.gross_outlays > 0);
+  const fnTotal = fns.reduce((t, f) => t + f.gross_outlays, 0) || 1;
+  const link = (url, text) => (url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : "");
+  const detail = !a ? "" : `<div class="agency-detail"><h3>${esc(a.name)}</h3><p class="big"><b>${fmtB(a.amount)}</b> net outlays in ${esc(fyLabel(y))}, ${pct(a.amount / y.total, 1)} of the total</p>` +
+    (prof?.mission ? `<blockquote>${esc(prof.mission)}<cite>The agency's mission in its own words, via USAspending.gov</cite></blockquote>` : "") +
+    `<div class="agency-cols">` +
+    (fns.length ? `<div><p class="sub">What its money funds (gross outlays, FY${prof.fiscal_year}):</p><ul class="agency">${fns.slice(0, 7).map((f) =>
+      `<li><span title="${esc(f.name)}">${esc(shortName(f.name))}</span><span class="bar"><i style="width:${Math.max(1, (f.gross_outlays / fnTotal) * 100).toFixed(1)}%"></i></span><b>${fmtB(f.gross_outlays)}</b></li>`).join("")}</ul></div>` : "") +
+    (a.bureaus.length ? `<div><p class="sub">Largest bureaus listed by the Treasury:</p><ul class="plain">${a.bureaus.slice().sort((m, n) => n.amount - m.amount).map((b) => `<li>${esc(b.name)} <b>${fmtB(b.amount)}</b></li>`).join("")}</ul></div>` : "") +
+    `</div><p class="links">${[link(prof?.url, "USAspending profile"), link(prof?.cj_url, "Budget request to Congress"), link(prof?.website, "Agency website")].filter(Boolean).join(" · ")}</p></div>`;
+  el.querySelector("[data-foot]").innerHTML = detail + tableToggle(["Agency", fyLabel(y), "Share"], y.agencies.map((x) => [x.name, fmtB(x.amount), pct(x.amount / y.total, 1)]));
+}
+
+function drawImproper(el, p) {
+  if (!p.years.length) return;
+  const controls = el.querySelector("[data-controls]");
+  controls.innerHTML = `<div class="seg" role="group" aria-label="View">${[["programs", "Largest programs"], ["years", "By year"]].map(([v, l]) =>
+    `<button type="button" data-v="${v}" aria-pressed="${budgetState.improper === v}">${l}</button>`).join("")}</div>`;
+  controls.onclick = (e) => { const b = e.target.closest("button"); if (b) { budgetState.improper = b.dataset.v; drawImproper(el, p); } };
+  const last = p.years[p.years.length - 1];
+  const M = 1e6; // published in USD millions
+  el.querySelector("[data-lead]").innerHTML = `<p class="big">Agencies estimate <b>${fmtB(last.amount * M)}</b> in improper or unverifiable payments in FY${last.fy}: ` +
+    `${pct(last.amount / last.outlays, 1)} of the ${fmtB(last.outlays * M)} paid out by the ${fmtNum(last.programs)} programs they measured.</p>` +
+    `<p class="sub">The agencies' own estimates, reported to OMB. Largest by agency: ${p.by_agency.slice(0, 4).map((a) => `${esc(a.agency)} ${fmtB(a.amount * M)}`).join(" · ")}. <a href="${esc(p.url)}" target="_blank" rel="noopener">The dataset</a></p>`;
+  if (budgetState.improper === "programs") {
+    const segments = [{ label: "Improper", color: css("--series-2") }, { label: "Unknown (couldn't be verified)", color: css("--p4") }];
+    const rows = p.programs.slice(0, 15).map((r) => {
+      const unknown = r.unknown || 0, improper = r.improper ?? r.improper_and_unknown - unknown;
+      // "Office - Program - detail": the program part reads best in a short label.
+      const parts = r.program.split(" - ");
+      return { label: `${r.agency} · ${parts[parts.length > 1 ? 1 : 0]}`, full: `${r.agency}: ${r.program}`, values: [improper * M, unknown * M],
+        note: `${pct(r.rate || 0, 1)} of ${fmtB((r.outlays || 0) * M)} paid out` + (r.confidence ? `. Confidence interval ${r.confidence}, margin of error ${r.margin_of_error}` : "") };
+    });
+    hbars(el, rows, segments, fmtB);
+    el.querySelector("[data-foot]").innerHTML = tableToggle(["Agency", "Program", `FY${p.fiscal_year} estimate`, "Rate", "Outlays", "Overpaid"],
+      p.programs.map((r) => [r.agency, r.program, fmtB(r.improper_and_unknown * M), pct(r.rate || 0, 1), fmtB((r.outlays || 0) * M), r.overpayments != null ? fmtB(r.overpayments * M) : ""]));
+  } else {
+    const rows = p.years.slice().reverse().map((y) => ({ label: `FY${y.fy}`, values: [y.amount * M], note: `${fmtNum(y.programs)} programs measured, ${pct(y.amount / (y.outlays || 1), 1)} of their outlays` }));
+    hbars(el, rows, [{ label: "Improper and unknown payments", color: css("--series-2") }], fmtB);
+    el.querySelector("[data-foot]").innerHTML = tableToggle(["Fiscal year", "Estimate", "Programs", "Rate"],
+      p.years.slice().reverse().map((y) => [`FY${y.fy}`, fmtB(y.amount * M), fmtNum(y.programs), pct(y.amount / (y.outlays || 1), 1)]));
+  }
 }

@@ -11,9 +11,12 @@ from .fec_inaugural_totals import FecInauguralTotals
 from .federal_register import FederalRegister
 from .fred_trade import FredTrade
 from .gao_reports import GaoReports
+from .payment_accuracy import PaymentAccuracy
 from .statcan_trade import StatcanTrade
+from .treasury_budget import TreasuryBudget
 from .treasury_mts import TreasuryMts
 from .usaspending import UsaSpending
+from .usaspending_agencies import UsaSpendingAgencies
 
 ADAPTERS: dict[str, type[Adapter]] = {
     a.name: a
@@ -31,6 +34,9 @@ ADAPTERS: dict[str, type[Adapter]] = {
         TreasuryMts,
         UsaSpending,
         GaoReports,
+        TreasuryBudget,
+        UsaSpendingAgencies,
+        PaymentAccuracy,
     )
 }
 

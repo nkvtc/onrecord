@@ -82,8 +82,32 @@ that rule under the chart.
   merging by name is how wrong totals happen.
 - **GAO reports** are the auditor's own published findings, stored as claims. The feed
   only carries recent items, so the archive starts on the day collection began.
-- **Not yet**: improper payments (paymentaccuracy.gov publishes no clean data file we
-  could find), Inspector General reports (oversight.gov blocked automated requests).
+- **Not yet**: Inspector General reports (oversight.gov blocked automated requests).
+
+## The federal budget
+
+- **What the money was spent on** is net outlays by budget function from the Monthly
+  Treasury Statement, Table 9, for each fiscal year (October to September). "Net" means
+  money paid out minus money that came back in for the same purpose, so a function can
+  be negative (deposit insurance premiums, loan repayments). "Out of every dollar"
+  shares are taken over the positive lines only, so they add up to 100%. The year in
+  progress is labelled with how many months it covers.
+- **Collected vs spent** uses the same table's total receipts and total net outlays.
+  The deficit is the difference. Nominal dollars, not adjusted for inflation or GDP.
+- **Departments** are net outlays by agency from Table 5. Bureau lines are listed as the
+  Treasury prints them; they are gross of transfers inside the government, so a bureau
+  can exceed its department's net total. Each agency's mission is its own text from
+  USAspending, quoted, never paraphrased. "What its money funds" is the agency's gross
+  outlays by budget function as reported to USAspending, a different measure from
+  Treasury's net figure, and the page labels it so.
+- **Improper payments** are the agencies' own estimates, from statistical samples,
+  reported to OMB under the Payment Integrity Information Act and published at
+  paymentaccuracy.gov. "Improper" includes payments that were the right amount but
+  lacked required documentation, so it is not a fraud estimate; "unknown" means the
+  agency could not determine whether a payment was proper. Each program's confidence
+  interval and margin of error are shown where the agency reported them. The programs
+  measured change from year to year, so totals across years are not strictly
+  comparable.
 
 ## Accountability records
 

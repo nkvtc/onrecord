@@ -22,6 +22,10 @@ Six topics so far:
   of refunds, back to 2015), a map of federal award spending per person by state and
   county with the agencies behind each state, the largest federal contractors, and new
   GAO audit reports.
+- **Where it goes**: the whole federal budget by fiscal year since 2015: what the money
+  was spent on, what was collected and the deficit, which departments spent it with each
+  one's mission, what its money funds and its largest bureaus, and the agencies' own
+  estimates of improper payments by program (2004 onward).
 - **In context**: the same records counted the same way across presidents: executive
   orders by day in office (1994 onward), clemency per president (back to 1900), and
   money raised by inaugural committees (2005 onward). Each chart states its counting rule.
@@ -75,6 +79,9 @@ archive).
 | `treasury_mts` | US | Monthly Treasury Statement receipts by source (customs duties) | no |
 | `usaspending` | US | Federal award spending by state, county, agency, contractor | no |
 | `gao_reports` | US | Government Accountability Office reports (RSS) | no |
+| `treasury_budget` | US | Monthly Treasury Statement: receipts, outlays by function and by agency, per fiscal year | no |
+| `usaspending_agencies` | US | Agency missions, budgetary resources, spending by budget function | no |
+| `payment_accuracy` | US | Improper payment estimates by program (OMB, PaymentAccuracy.gov) | no |
 
 Wanted next: Canada Gazette (the legal instruments behind Canadian countermeasures),
 USITC tariff schedule, court dockets, lobbying disclosures, federal contracts,

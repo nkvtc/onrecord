@@ -8,6 +8,7 @@ it; nothing is hand-entered.
 from __future__ import annotations
 
 import json
+import re
 from collections.abc import Callable
 from datetime import date
 
@@ -261,5 +262,186 @@ BUILDERS.update(
         "monthly_revenue": monthly_revenue,
         "spending_map": spending_map,
         "top_contractors": top_contractors,
+    }
+)
+
+
+# ---- Where the money goes -------------------------------------------------------
+
+
+def _extras(store: Store, source: str, kind: str) -> list[dict]:
+    out = []
+    for doc in _latest_docs(store, source):
+        x = json.loads(doc["extra_json"] or "{}")
+        if x.get("kind") == kind:
+            out.append(x)
+    return sorted(out, key=lambda x: x.get("fiscal_year") or 0)
+
+
+def _span(x: dict) -> dict:
+    return {"fy": x["fiscal_year"], "through": x["through"], "months": x["months"]}
+
+
+FISCAL_YEAR = "Fiscal years run October to September (FY2026 ended September 30, 2026)."
+
+
+def budget_functions(store: Store, today: date) -> dict:
+    years = []
+    for x in _extras(store, "treasury_budget", "mts9"):
+        lines = [r for r in x["rows"] if r["section"] == "outlays"]
+        years.append(
+            {
+                **_span(x),
+                "total": x["totals"].get("outlays"),
+                "lines": sorted(lines, key=lambda r: -r["amount"]),
+            }
+        )
+    return {
+        "years": years,
+        "source": "US Treasury, Monthly Treasury Statement, Table 9",
+        "rule": (
+            "Net outlays by budget function: what was paid out for each purpose, minus "
+            "money that came back in for that purpose (premiums, loan repayments, asset "
+            'sales), so a line can be negative. "Undistributed offsetting receipts" are '
+            "payments between government accounts (such as agencies' contributions to "
+            "employee pensions) taken off the total once. " + FISCAL_YEAR + " The year in "
+            "progress shows its months so far. Nominal dollars, not adjusted for inflation."
+        ),
+    }
+
+
+def receipts_outlays(store: Store, today: date) -> dict:
+    years = []
+    for x in _extras(store, "treasury_budget", "mts9"):
+        receipts, outlays = x["totals"].get("receipts"), x["totals"].get("outlays")
+        lines = [r for r in x["rows"] if r["section"] == "receipts"]
+        years.append(
+            {
+                **_span(x),
+                "receipts": receipts,
+                "outlays": outlays,
+                "deficit": outlays - receipts if receipts is not None and outlays else None,
+                "receipt_lines": sorted(lines, key=lambda r: -r["amount"]),
+            }
+        )
+    return {
+        "years": years,
+        "source": "US Treasury, Monthly Treasury Statement, Table 9",
+        "rule": (
+            "Total receipts and total net outlays in each fiscal year, as booked in the "
+            "Monthly Treasury Statement; the gap between them is the deficit the Treasury "
+            "borrowed to cover. Social Security's off-budget accounts are included. "
+            + FISCAL_YEAR
+            + " Nominal dollars."
+        ),
+    }
+
+
+# Monthly Treasury Statement agency names that USAspending spells differently.
+AGENCY_ALIASES = {
+    "Department of Defense--Military Programs": "Department of Defense",
+    "Corps of Engineers": "Corps of Engineers - Civil Works",
+}
+
+
+def agency_outlays(store: Store, today: date) -> dict:
+    profiles = {}
+    for x in _extras(store, "usaspending_agencies", "agency"):
+        profiles[x["name"]] = {
+            "code": x["code"],
+            "name": x["name"],
+            "abbreviation": x.get("abbreviation"),
+            "mission": x.get("mission"),
+            "website": x.get("website"),
+            "cj_url": x.get("cj_url"),
+            "fiscal_year": x["fiscal_year"],
+            "functions": sorted(x["rows"], key=lambda r: -(r["gross_outlays"] or 0)),
+            "url": "https://www.usaspending.gov/agency/"
+            + re.sub(r"[^a-z0-9]+", "-", x["name"].lower()).strip("-"),
+        }
+    years = []
+    for x in _extras(store, "treasury_budget", "mts5"):
+        agencies = []
+        for a in x["rows"]:
+            match = profiles.get(AGENCY_ALIASES.get(a["name"], a["name"]))
+            agencies.append({**a, "profile": match["name"] if match else None})
+        years.append(
+            {
+                **_span(x),
+                "total": x["totals"].get("outlays"),
+                "agencies": sorted(agencies, key=lambda a: -a["amount"]),
+            }
+        )
+    return {
+        "years": years,
+        "profiles": profiles,
+        "source": "US Treasury, Monthly Treasury Statement, Table 5; USAspending.gov",
+        "rule": (
+            "Net outlays by agency as the Treasury books them (Table 5). Bureau lines are "
+            "the larger units the Treasury lists inside each agency, and they are gross of "
+            "transfers between government accounts, so a bureau can show more than its "
+            "department's net total (Medicare's trust funds inside HHS, for example). "
+            'Missions are each agency\'s own description. The "what it funds" breakdown '
+            "is the agency's gross outlays by budget function as reported to USAspending, "
+            "which runs higher than Treasury's net figure. " + FISCAL_YEAR
+        ),
+    }
+
+
+def improper_payments(store: Store, today: date) -> dict:
+    docs = _extras(store, "payment_accuracy", "programs")
+    if not docs:
+        return {"years": [], "programs": [], "source": "PaymentAccuracy.gov", "rule": ""}
+    latest = max(docs, key=lambda x: x["dataset_year"])
+    rows = latest["rows"]
+    years: dict[int, dict] = {}
+    for r in rows:
+        y = years.setdefault(
+            r["fiscal_year"], {"fy": r["fiscal_year"], "amount": 0.0, "outlays": 0.0, "programs": 0}
+        )
+        if r.get("improper_and_unknown") is None:
+            continue
+        y["amount"] += r["improper_and_unknown"]
+        y["outlays"] += r.get("outlays") or 0
+        y["programs"] += 1
+    last_fy = max(years)
+    current = [r for r in rows if r["fiscal_year"] == last_fy and r.get("improper_and_unknown")]
+    current.sort(key=lambda r: -r["improper_and_unknown"])
+    by_agency: dict[str, float] = {}
+    for r in current:
+        by_agency[r["agency"]] = by_agency.get(r["agency"], 0) + r["improper_and_unknown"]
+    return {
+        "dataset_year": latest["dataset_year"],
+        "fiscal_year": last_fy,
+        "years": [
+            {**y, "amount": round(y["amount"], 1), "outlays": round(y["outlays"], 1)}
+            for _, y in sorted(years.items())
+        ],
+        "programs": current[:25],
+        "program_count": len(current),
+        "by_agency": sorted(
+            ({"agency": k, "amount": round(v, 1)} for k, v in by_agency.items()),
+            key=lambda a: -a["amount"],
+        ),
+        "url": "https://paymentaccuracy.gov/resources",
+        "source": "Office of Management and Budget, PaymentAccuracy.gov",
+        "rule": (
+            "Each agency's own estimate, from statistical samples, of payments in programs "
+            'it found susceptible to error. "Improper" means paid to the wrong party, in '
+            "the wrong amount, or without the documentation the rules require, so it is not "
+            'a fraud estimate and much of it is paperwork. "Unknown" means the agency '
+            "couldn't tell whether the payment was proper. OMB publishes USD millions; shown "
+            "here in billions. The set of programs measured changes from year to year, so totals "
+            "across years are not strictly comparable."
+        ),
+    }
+
+
+BUILDERS.update(
+    {
+        "budget_functions": budget_functions,
+        "receipts_outlays": receipts_outlays,
+        "agency_outlays": agency_outlays,
+        "improper_payments": improper_payments,
     }
 )

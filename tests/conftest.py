@@ -12,6 +12,7 @@ CONTENT_TYPES = {
     ".html": "text/html",
     ".txt": "text/plain",
     ".xml": "application/xml",
+    ".xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 }
 
 

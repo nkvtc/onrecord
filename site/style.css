@@ -219,3 +219,20 @@ svg.map path.sel { stroke: var(--text); stroke-width: 2; }
 @media (max-width: 720px) { .map-wrap { grid-template-columns: 1fr; } }
 
 .note-warn { font-size: 13px; color: var(--text-2); border-left: 3px solid var(--series-2); padding: 4px 0 4px 10px; margin: 8px 0; }
+
+.dollar-strip { display: flex; gap: 2px; height: 46px; margin: 8px 0 14px; border-radius: 6px; overflow: hidden; }
+.dollar-strip span { display: flex; flex-direction: column; justify-content: center; padding: 0 6px; min-width: 0; color: #fff; overflow: hidden; }
+.dollar-strip span.rest { color: var(--text); }
+.dollar-strip b { font-size: 14px; font-variant-numeric: tabular-nums; }
+.dollar-strip em { font-style: normal; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.agency-detail { border-top: 1px solid var(--border); margin-top: 12px; padding-top: 12px; }
+.agency-detail h3 { margin: 0 0 4px; font-size: 16px; }
+.agency-detail blockquote { margin: 10px 0; padding: 4px 0 4px 12px; border-left: 3px solid var(--series-1); color: var(--text-2); font-size: 14px; line-height: 1.5; }
+.agency-detail cite { display: block; font-size: 12px; font-style: normal; color: var(--text-2); margin-top: 4px; }
+.agency-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.agency-detail ul.agency { list-style: none; padding: 0; margin: 4px 0; font-size: 13px; }
+.agency-detail ul.agency li { display: grid; grid-template-columns: minmax(0, 1.4fr) 1fr auto; gap: 8px; align-items: center; margin: 4px 0; }
+.agency-detail ul.agency .bar { height: 8px; background: var(--chip); border-radius: 4px; overflow: hidden; }
+.agency-detail ul.agency .bar i { display: block; height: 100%; background: var(--series-1); }
+.agency-detail ul.plain { padding-left: 18px; margin: 4px 0; font-size: 13px; }
+.agency-detail .links { font-size: 13px; }

@@ -116,6 +116,7 @@ EXTENSIONS = {
     "text/html": "html",
     "text/csv": "csv",
     "application/xml": "xml",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "xlsx",
 }
 
 # Manifest entries written before topics existed all came from the first topic.
