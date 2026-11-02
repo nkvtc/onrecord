@@ -1,0 +1,344 @@
+{
+ "fiscal_year": 2017,
+ "response": {
+  "data": [
+   {
+    "classification_desc": "Veterans Benefits and Services",
+    "classification_id": "29357492",
+    "current_fytd_rcpt_outly_amt": "176542429396.10",
+    "parent_id": "29357477",
+    "print_order_nbr": "28",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "General Government",
+    "classification_id": "29357494",
+    "current_fytd_rcpt_outly_amt": "19833532504.79",
+    "parent_id": "29357477",
+    "print_order_nbr": "30",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Individual Income Taxes",
+    "classification_id": "29357466",
+    "current_fytd_rcpt_outly_amt": "1587119168060.09",
+    "parent_id": "29357465",
+    "print_order_nbr": "2",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Corporation Income Taxes",
+    "classification_id": "29357467",
+    "current_fytd_rcpt_outly_amt": "297047881064.55",
+    "parent_id": "29357465",
+    "print_order_nbr": "3",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Income Security",
+    "classification_id": "29357490",
+    "current_fytd_rcpt_outly_amt": "504013992231.39",
+    "parent_id": "29357477",
+    "print_order_nbr": "26",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Social Security",
+    "classification_id": "29357491",
+    "current_fytd_rcpt_outly_amt": "944878364646.45",
+    "parent_id": "29357477",
+    "print_order_nbr": "27",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Administration of Justice",
+    "classification_id": "29357493",
+    "current_fytd_rcpt_outly_amt": "58943634886.81",
+    "parent_id": "29357477",
+    "print_order_nbr": "29",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Receipts",
+    "classification_id": "29357465",
+    "current_fytd_rcpt_outly_amt": "null",
+    "parent_id": "null",
+    "print_order_nbr": "1",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "1"
+   },
+   {
+    "classification_desc": "Net Interest",
+    "classification_id": "29357495",
+    "current_fytd_rcpt_outly_amt": "262780896891.58",
+    "parent_id": "29357477",
+    "print_order_nbr": "31",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Undistributed Offsetting Receipts",
+    "classification_id": "29357497",
+    "current_fytd_rcpt_outly_amt": "-89824750434.87",
+    "parent_id": "29357477",
+    "print_order_nbr": "32",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Total",
+    "classification_id": "29357498",
+    "current_fytd_rcpt_outly_amt": "3980605417586.44",
+    "parent_id": "29357477",
+    "print_order_nbr": "33",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Other Retirement",
+    "classification_id": "29357471",
+    "current_fytd_rcpt_outly_amt": "4190632295.93",
+    "parent_id": "29357468",
+    "print_order_nbr": "7",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "3"
+   },
+   {
+    "classification_desc": "Excise Taxes",
+    "classification_id": "29357472",
+    "current_fytd_rcpt_outly_amt": "83822381040.73",
+    "parent_id": "29357465",
+    "print_order_nbr": "8",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Estate and Gift Taxes",
+    "classification_id": "29357473",
+    "current_fytd_rcpt_outly_amt": "22767709579.77",
+    "parent_id": "29357465",
+    "print_order_nbr": "9",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Customs Duties",
+    "classification_id": "29357474",
+    "current_fytd_rcpt_outly_amt": "34575150111.34",
+    "parent_id": "29357465",
+    "print_order_nbr": "10",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Miscellaneous Receipts",
+    "classification_id": "29357475",
+    "current_fytd_rcpt_outly_amt": "127666088630.61",
+    "parent_id": "29357465",
+    "print_order_nbr": "11",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Total",
+    "classification_id": "29357476",
+    "current_fytd_rcpt_outly_amt": "3314893904524.18",
+    "parent_id": "29357465",
+    "print_order_nbr": "12",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Net Outlays",
+    "classification_id": "29357477",
+    "current_fytd_rcpt_outly_amt": "null",
+    "parent_id": "null",
+    "print_order_nbr": "13",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "1"
+   },
+   {
+    "classification_desc": "National Defense",
+    "classification_id": "29357478",
+    "current_fytd_rcpt_outly_amt": "600277920490.87",
+    "parent_id": "29357477",
+    "print_order_nbr": "14",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "International Affairs",
+    "classification_id": "29357479",
+    "current_fytd_rcpt_outly_amt": "46316973214.74",
+    "parent_id": "29357477",
+    "print_order_nbr": "15",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "General Science, Space, and Technology",
+    "classification_id": "29357480",
+    "current_fytd_rcpt_outly_amt": "30453853217.48",
+    "parent_id": "29357477",
+    "print_order_nbr": "16",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Energy",
+    "classification_id": "29357481",
+    "current_fytd_rcpt_outly_amt": "3952381781.74",
+    "parent_id": "29357477",
+    "print_order_nbr": "17",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Natural Resources and Environment",
+    "classification_id": "29357482",
+    "current_fytd_rcpt_outly_amt": "36067540649.05",
+    "parent_id": "29357477",
+    "print_order_nbr": "18",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Agriculture",
+    "classification_id": "29357483",
+    "current_fytd_rcpt_outly_amt": "20761652848.18",
+    "parent_id": "29357477",
+    "print_order_nbr": "19",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Education, Training, Employment, and Social Services",
+    "classification_id": "29357487",
+    "current_fytd_rcpt_outly_amt": "142156579659.55",
+    "parent_id": "29357477",
+    "print_order_nbr": "23",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Medicare",
+    "classification_id": "29357489",
+    "current_fytd_rcpt_outly_amt": "597304755180.54",
+    "parent_id": "29357477",
+    "print_order_nbr": "25",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Health",
+    "classification_id": "29357488",
+    "current_fytd_rcpt_outly_amt": "533058672766.95",
+    "parent_id": "29357477",
+    "print_order_nbr": "24",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Social Insurance and Retirement Receipts:",
+    "classification_id": "29357468",
+    "current_fytd_rcpt_outly_amt": "null",
+    "parent_id": "29357465",
+    "print_order_nbr": "4",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Employment and General Retirement",
+    "classification_id": "29357469",
+    "current_fytd_rcpt_outly_amt": "1111896553575.01",
+    "parent_id": "29357468",
+    "print_order_nbr": "5",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "3"
+   },
+   {
+    "classification_desc": "Unemployment Insurance",
+    "classification_id": "29357470",
+    "current_fytd_rcpt_outly_amt": "45808340166.15",
+    "parent_id": "29357468",
+    "print_order_nbr": "6",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "3"
+   },
+   {
+    "classification_desc": "Commerce and Housing Credit",
+    "classification_id": "29357484",
+    "current_fytd_rcpt_outly_amt": "-27271987833.40",
+    "parent_id": "29357477",
+    "print_order_nbr": "20",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Transportation",
+    "classification_id": "29357485",
+    "current_fytd_rcpt_outly_amt": "93943349015.08",
+    "parent_id": "29357477",
+    "print_order_nbr": "21",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   },
+   {
+    "classification_desc": "Community and Regional Development",
+    "classification_id": "29357486",
+    "current_fytd_rcpt_outly_amt": "26415626473.41",
+    "parent_id": "29357477",
+    "print_order_nbr": "22",
+    "record_date": "2017-09-30",
+    "sequence_level_nbr": "2"
+   }
+  ],
+  "links": {
+   "first": "&page%5Bnumber%5D=1&page%5Bsize%5D=2000",
+   "last": "&page%5Bnumber%5D=1&page%5Bsize%5D=2000",
+   "next": null,
+   "prev": null,
+   "self": "&page%5Bnumber%5D=1&page%5Bsize%5D=2000"
+  },
+  "meta": {
+   "count": 33,
+   "dataFormats": {
+    "classification_desc": "String",
+    "classification_id": "String",
+    "current_fytd_rcpt_outly_amt": "$10.20",
+    "parent_id": "String",
+    "print_order_nbr": "String",
+    "record_date": "YYYY-MM-DD",
+    "sequence_level_nbr": "String"
+   },
+   "dataTypes": {
+    "classification_desc": "STRING",
+    "classification_id": "STRING",
+    "current_fytd_rcpt_outly_amt": "CURRENCY",
+    "parent_id": "STRING",
+    "print_order_nbr": "STRING",
+    "record_date": "DATE",
+    "sequence_level_nbr": "STRING"
+   },
+   "labels": {
+    "classification_desc": "Classification Description",
+    "classification_id": "Classification ID",
+    "current_fytd_rcpt_outly_amt": "Current FYTD Receipt or Outlay Amount",
+    "parent_id": "Parent ID",
+    "print_order_nbr": "Print Order Sequence Number",
+    "record_date": "Record Date",
+    "sequence_level_nbr": "Sequence Level Number"
+   },
+   "total-count": 33,
+   "total-pages": 1
+  }
+ },
+ "table": 9
+}

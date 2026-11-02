@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 858488529.65,
+      "name": "Energy information, policy, and regulation",
+      "obligated_amount": 864076608.95
+     }
+    ],
+    "gross_outlay_amount": 858488529.65,
+    "name": "Energy",
+    "obligated_amount": 864076608.95
+   }
+  ],
+  "toptier_code": "031"
+ },
+ "endpoint": "agency/031/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "NRC",
+  "about_agency_data": null,
+  "agency_id": 554,
+  "congressional_justification_url": "https://www.nrc.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "NRC.jpg",
+  "messages": [],
+  "mission": "To ensure the safe use of radioactive materials for beneficial civilian purposes while protecting people and the environment.",
+  "name": "Nuclear Regulatory Commission",
+  "subtier_agency_count": 1,
+  "toptier_code": "031",
+  "website": "https://www.nrc.gov/"
+ }
+}

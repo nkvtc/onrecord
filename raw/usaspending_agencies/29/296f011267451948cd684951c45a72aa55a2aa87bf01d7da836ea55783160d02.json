@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1195241351.04,
+      "name": "Social services",
+      "obligated_amount": 1587153612.6
+     }
+    ],
+    "gross_outlay_amount": 1195241351.04,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 1587153612.6
+   }
+  ],
+  "toptier_code": "485"
+ },
+ "endpoint": "agency/485/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "CNCS",
+  "about_agency_data": null,
+  "agency_id": 1166,
+  "congressional_justification_url": "https://www.nationalservice.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "Improving lives, strengthening communities and fortifying the civic health of our nation.",
+  "name": "Corporation for National and Community Service",
+  "subtier_agency_count": 1,
+  "toptier_code": "485",
+  "website": "https://www.nationalservice.gov/"
+ }
+}

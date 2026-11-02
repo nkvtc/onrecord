@@ -1,0 +1,60 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 2
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 12452831336.35,
+      "name": "Disaster relief and insurance",
+      "obligated_amount": 12399548127.84
+     }
+    ],
+    "gross_outlay_amount": 12452831336.35,
+    "name": "Community and Regional Development",
+    "obligated_amount": 12399548127.84
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 2589396605.98,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 2901712487.13
+     }
+    ],
+    "gross_outlay_amount": 2589396605.98,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 2901712487.13
+   }
+  ],
+  "toptier_code": "073"
+ },
+ "endpoint": "agency/073/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "SBA",
+  "about_agency_data": null,
+  "agency_id": 803,
+  "congressional_justification_url": "https://www.sba.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "SBA.jpg",
+  "messages": [],
+  "mission": "To maintain and strengthen the nation's economy by enabling the establishment and vitality of small businesses and to assist in the economic recovery of communities after disasters.",
+  "name": "Small Business Administration",
+  "subtier_agency_count": 1,
+  "toptier_code": "073",
+  "website": "https://www.sba.gov/"
+ }
+}

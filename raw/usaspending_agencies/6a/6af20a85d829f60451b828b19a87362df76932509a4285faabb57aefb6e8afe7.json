@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1812097244.39,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 1841930352.49
+     }
+    ],
+    "gross_outlay_amount": 1812097244.39,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 1841930352.49
+   }
+  ],
+  "toptier_code": "050"
+ },
+ "endpoint": "agency/050/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "SEC",
+  "about_agency_data": null,
+  "agency_id": 680,
+  "congressional_justification_url": "https://www.sec.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "The mission of the SEC is to protect investors; maintain fair, orderly, and efficient markets; and facilitate capital formation. The SEC strives to promote a market environment that is worthy of the public's trust.",
+  "name": "Securities and Exchange Commission",
+  "subtier_agency_count": 1,
+  "toptier_code": "050",
+  "website": "https://www.sec.gov/"
+ }
+}

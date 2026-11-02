@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1113676811.61,
+      "name": "Health research and training",
+      "obligated_amount": 1210257264.89
+     }
+    ],
+    "gross_outlay_amount": 1113676811.61,
+    "name": "Health",
+    "obligated_amount": 1210257264.89
+   }
+  ],
+  "toptier_code": "579"
+ },
+ "endpoint": "agency/579/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "PCORTF",
+  "about_agency_data": null,
+  "agency_id": 1516,
+  "congressional_justification_url": null,
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "Provide for the coordination of relevant Federal health programs to build data capacity for comparative clinical effectiveness research, including the development and use of clinical registries and health outcomes research networks, in order to develop and maintain a comprehensive, interoperable data network to collect, link, and analyze data on outcomes and effectiveness from multiple sources including electronic health records.",
+  "name": "Patient-Centered Outcomes Research Trust Fund",
+  "subtier_agency_count": 0,
+  "toptier_code": "579",
+  "website": "https://aspe.hhs.gov/patient-centered-outcomes-research-trust-fund"
+ }
+}

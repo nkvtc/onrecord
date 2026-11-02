@@ -1,0 +1,184 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 9
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 128591616868.95,
+      "name": "Food and nutrition assistance",
+      "obligated_amount": 135446874995.76
+     },
+     {
+      "gross_outlay_amount": 1866176491.85,
+      "name": "Housing assistance",
+      "obligated_amount": 1716213248.74
+     },
+     {
+      "gross_outlay_amount": 1105769.6,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 3209573.5
+     }
+    ],
+    "gross_outlay_amount": 130458899130.4,
+    "name": "Income Security",
+    "obligated_amount": 137166297818.0
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 29738530687.44,
+      "name": "Agricultural research and services",
+      "obligated_amount": 30642498720.97
+     },
+     {
+      "gross_outlay_amount": 34050659698.62,
+      "name": "Farm income stabilization",
+      "obligated_amount": 29329377978.36
+     }
+    ],
+    "gross_outlay_amount": 63789190386.06,
+    "name": "Agriculture",
+    "obligated_amount": 59971876699.33
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 15637882481.02,
+      "name": "Conservation and land management",
+      "obligated_amount": 16211242636.65
+     },
+     {
+      "gross_outlay_amount": 529984028.14,
+      "name": "Water resources",
+      "obligated_amount": 853609801.32
+     },
+     {
+      "gross_outlay_amount": 118433337.7,
+      "name": "Recreational resources",
+      "obligated_amount": 127883531.98
+     },
+     {
+      "gross_outlay_amount": 3036247.06,
+      "name": "Other natural resources",
+      "obligated_amount": 2583714.86
+     }
+    ],
+    "gross_outlay_amount": 16289336093.92,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 17195319684.81
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 3039797118.89,
+      "name": "Area and regional development",
+      "obligated_amount": 2907763279.67
+     },
+     {
+      "gross_outlay_amount": 638613458.9,
+      "name": "Disaster relief and insurance",
+      "obligated_amount": 773687960.85
+     },
+     {
+      "gross_outlay_amount": 307262643.04,
+      "name": "Community development",
+      "obligated_amount": 25782976.63
+     }
+    ],
+    "gross_outlay_amount": 3985673220.83,
+    "name": "Community and Regional Development",
+    "obligated_amount": 3707234217.15
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1481569877.76,
+      "name": "Mortgage credit",
+      "obligated_amount": 1529629964.07
+     }
+    ],
+    "gross_outlay_amount": 1481569877.76,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 1529629964.07
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1274968332.62,
+      "name": "Consumer and occupational health and safety",
+      "obligated_amount": 1283788600.25
+     }
+    ],
+    "gross_outlay_amount": 1274968332.62,
+    "name": "Health",
+    "obligated_amount": 1283788600.25
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1315955226.22,
+      "name": "International development and humanitarian assistance",
+      "obligated_amount": 702895861.8
+     }
+    ],
+    "gross_outlay_amount": 1315955226.22,
+    "name": "International Affairs",
+    "obligated_amount": 702895861.8
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 607234034.67,
+      "name": "Energy supply",
+      "obligated_amount": 612268460.28
+     }
+    ],
+    "gross_outlay_amount": 607234034.67,
+    "name": "Energy",
+    "obligated_amount": 612268460.28
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 503076516.49,
+      "name": "General purpose fiscal assistance",
+      "obligated_amount": 498791016.62
+     }
+    ],
+    "gross_outlay_amount": 503076516.49,
+    "name": "General Government",
+    "obligated_amount": 498791016.62
+   }
+  ],
+  "toptier_code": "012"
+ },
+ "endpoint": "agency/012/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "USDA",
+  "about_agency_data": null,
+  "agency_id": 95,
+  "congressional_justification_url": "https://www.usda.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "USDA.jpg",
+  "messages": [],
+  "mission": "We provide leadership on food, agriculture, natural resources, rural development, nutrition, and related issues based on sound public policy, the best available science, and efficient management.",
+  "name": "Department of Agriculture",
+  "subtier_agency_count": 32,
+  "toptier_code": "012",
+  "website": "https://www.usda.gov/"
+ }
+}

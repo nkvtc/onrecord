@@ -1,0 +1,58 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 16025094451.89,
+      "name": "Pollution control and abatement",
+      "obligated_amount": 20169063271.41
+     },
+     {
+      "gross_outlay_amount": 1053725905.83,
+      "name": "Water resources",
+      "obligated_amount": 1045624490.87
+     },
+     {
+      "gross_outlay_amount": 791934.91,
+      "name": "Other natural resources",
+      "obligated_amount": 634156.29
+     }
+    ],
+    "gross_outlay_amount": 17079612292.63,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 21215321918.57
+   }
+  ],
+  "toptier_code": "068"
+ },
+ "endpoint": "agency/068/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "EPA",
+  "about_agency_data": null,
+  "agency_id": 700,
+  "congressional_justification_url": "https://www.epa.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "EPA.jpg",
+  "messages": [],
+  "mission": "Our mission is to protect human health and the environment.",
+  "name": "Environmental Protection Agency",
+  "subtier_agency_count": 2,
+  "toptier_code": "068",
+  "website": "https://www.epa.gov/"
+ }
+}

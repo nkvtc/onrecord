@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 8053031182.02,
+      "name": "General science and basic research",
+      "obligated_amount": 6550550600.26
+     }
+    ],
+    "gross_outlay_amount": 8053031182.02,
+    "name": "General Science, Space, and Technology",
+    "obligated_amount": 6550550600.26
+   }
+  ],
+  "toptier_code": "049"
+ },
+ "endpoint": "agency/049/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "NSF",
+  "about_agency_data": null,
+  "agency_id": 655,
+  "congressional_justification_url": "https://www.nsf.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "NSF.jpg",
+  "messages": [],
+  "mission": "To promote the progress of science; to advance the national health, prosperity, and welfare; to secure the national defense; and for other purposes.",
+  "name": "National Science Foundation",
+  "subtier_agency_count": 1,
+  "toptier_code": "049",
+  "website": "https://www.nsf.gov/"
+ }
+}

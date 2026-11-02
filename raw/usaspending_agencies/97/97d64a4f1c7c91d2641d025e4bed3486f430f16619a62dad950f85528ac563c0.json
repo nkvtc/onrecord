@@ -1,0 +1,106 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 5
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1804157932585.67,
+      "name": "Medicare",
+      "obligated_amount": 1792481873052.57
+     }
+    ],
+    "gross_outlay_amount": 1804157932585.67,
+    "name": "Medicare",
+    "obligated_amount": 1792481873052.57
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 757043852358.09,
+      "name": "Health care services",
+      "obligated_amount": 883763252665.92
+     },
+     {
+      "gross_outlay_amount": 50816860021.16,
+      "name": "Health research and training",
+      "obligated_amount": 49006965345.36
+     },
+     {
+      "gross_outlay_amount": 6766686368.16,
+      "name": "Consumer and occupational health and safety",
+      "obligated_amount": 6538496025.76
+     }
+    ],
+    "gross_outlay_amount": 814627398747.41,
+    "name": "Health",
+    "obligated_amount": 939308714037.04
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 50643729518.15,
+      "name": "Other income security",
+      "obligated_amount": 53647273128.81
+     }
+    ],
+    "gross_outlay_amount": 50643729518.15,
+    "name": "Income Security",
+    "obligated_amount": 53647273128.81
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 17564214177.29,
+      "name": "Social services",
+      "obligated_amount": 18345406042.03
+     }
+    ],
+    "gross_outlay_amount": 17564214177.29,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 18345406042.03
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 43000995.11,
+      "name": "Federal law enforcement activities",
+      "obligated_amount": 48881957.06
+     }
+    ],
+    "gross_outlay_amount": 43000995.11,
+    "name": "Administration of Justice",
+    "obligated_amount": 48881957.06
+   }
+  ],
+  "toptier_code": "075"
+ },
+ "endpoint": "agency/075/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "HHS",
+  "about_agency_data": null,
+  "agency_id": 806,
+  "congressional_justification_url": "https://www.hhs.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DHHS.jpg",
+  "messages": [],
+  "mission": "It is the mission of the U.S. Department of Health & Human Services (HHS) to enhance and protect the health and well-being of all Americans. We fulfill that mission by providing for effective health and human services and fostering advances in medicine, public health, and social services.",
+  "name": "Department of Health and Human Services",
+  "subtier_agency_count": 24,
+  "toptier_code": "075",
+  "website": "https://www.hhs.gov/"
+ }
+}

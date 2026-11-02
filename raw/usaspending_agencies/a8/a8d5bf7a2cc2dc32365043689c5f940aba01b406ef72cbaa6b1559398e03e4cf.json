@@ -1,0 +1,68 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 224453235965.63,
+      "name": "Income security for veterans",
+      "obligated_amount": 208283647111.99
+     },
+     {
+      "gross_outlay_amount": 106478463853.71,
+      "name": "Hospital and medical care for veterans",
+      "obligated_amount": 110155810278.16
+     },
+     {
+      "gross_outlay_amount": 69111749578.44,
+      "name": "Other veterans benefits and services",
+      "obligated_amount": 72768108331.78
+     },
+     {
+      "gross_outlay_amount": 17077018445.54,
+      "name": "Veterans education, training, and rehabilitation",
+      "obligated_amount": 16188378217.76
+     },
+     {
+      "gross_outlay_amount": 3631498334.69,
+      "name": "Veterans housing",
+      "obligated_amount": 3753891367.71
+     }
+    ],
+    "gross_outlay_amount": 420751966178.01,
+    "name": "Veterans Benefits and Services",
+    "obligated_amount": 411149835307.4
+   }
+  ],
+  "toptier_code": "036"
+ },
+ "endpoint": "agency/036/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "VA",
+  "about_agency_data": null,
+  "agency_id": 561,
+  "congressional_justification_url": "https://www.va.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOVA.jpg",
+  "messages": [],
+  "mission": "To fulfill President Lincoln's promise \"To care for him who shall have borne the battle, and for his widow, and his orphan\" by serving and honoring the men and women who are America's veterans.",
+  "name": "Department of Veterans Affairs",
+  "subtier_agency_count": 6,
+  "toptier_code": "036",
+  "website": "https://www.va.gov/"
+ }
+}

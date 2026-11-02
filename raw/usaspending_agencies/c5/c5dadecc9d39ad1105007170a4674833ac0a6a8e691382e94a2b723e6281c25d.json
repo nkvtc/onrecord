@@ -1,0 +1,75 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 2
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 83959395232.88,
+      "name": "Higher education",
+      "obligated_amount": 65177099938.71
+     },
+     {
+      "gross_outlay_amount": 45425480991.12,
+      "name": "Elementary, secondary, and vocational education",
+      "obligated_amount": 46844575422.78
+     },
+     {
+      "gross_outlay_amount": 3995492323.27,
+      "name": "Social services",
+      "obligated_amount": 4310312128.51
+     },
+     {
+      "gross_outlay_amount": 868014447.74,
+      "name": "Research and general education aids",
+      "obligated_amount": 868414576.85
+     }
+    ],
+    "gross_outlay_amount": 134248382995.01,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 117200402066.85
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 122325104.19,
+      "name": "Federal law enforcement activities",
+      "obligated_amount": 168310816.12
+     }
+    ],
+    "gross_outlay_amount": 122325104.19,
+    "name": "Administration of Justice",
+    "obligated_amount": 168310816.12
+   }
+  ],
+  "toptier_code": "091"
+ },
+ "endpoint": "agency/091/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "ED",
+  "about_agency_data": null,
+  "agency_id": 1068,
+  "congressional_justification_url": "https://www.ed.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOE.jpg",
+  "messages": [],
+  "mission": "ED's mission is to promote student achievement and preparation for global competitiveness by fostering educational excellence and ensuring equal access.",
+  "name": "Department of Education",
+  "subtier_agency_count": 21,
+  "toptier_code": "091",
+  "website": "https://www.ed.gov/"
+ }
+}

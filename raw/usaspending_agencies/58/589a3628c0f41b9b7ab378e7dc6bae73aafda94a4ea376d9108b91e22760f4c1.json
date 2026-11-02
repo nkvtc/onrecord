@@ -1,0 +1,72 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 3
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 109732380400.34,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 110076015075.3
+     }
+    ],
+    "gross_outlay_amount": 109732380400.34,
+    "name": "Income Security",
+    "obligated_amount": 110076015075.3
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 90607490207.64,
+      "name": "Health care services",
+      "obligated_amount": 90828217615.44
+     }
+    ],
+    "gross_outlay_amount": 90607490207.64,
+    "name": "Health",
+    "obligated_amount": 90828217615.44
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 871167287.57,
+      "name": "Central personnel management",
+      "obligated_amount": 895624317.38
+     }
+    ],
+    "gross_outlay_amount": 871167287.57,
+    "name": "General Government",
+    "obligated_amount": 895624317.38
+   }
+  ],
+  "toptier_code": "024"
+ },
+ "endpoint": "agency/024/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "OPM",
+  "about_agency_data": null,
+  "agency_id": 503,
+  "congressional_justification_url": "https://www.opm.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "OPM.jpg",
+  "messages": [],
+  "mission": "Recruit, retain, and honor a world-class workforce to serve the American people.",
+  "name": "Office of Personnel Management",
+  "subtier_agency_count": 1,
+  "toptier_code": "024",
+  "website": "https://www.opm.gov/"
+ }
+}

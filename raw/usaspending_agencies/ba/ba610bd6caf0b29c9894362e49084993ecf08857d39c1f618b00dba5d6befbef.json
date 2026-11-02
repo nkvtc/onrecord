@@ -1,0 +1,260 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 12
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1267361531632.09,
+      "name": "Interest on Treasury debt securities (gross)",
+      "obligated_amount": 1267361531632.09
+     },
+     {
+      "gross_outlay_amount": 10858693676.33,
+      "name": "Other interest",
+      "obligated_amount": 21750408362.27
+     }
+    ],
+    "gross_outlay_amount": 1278220225308.42,
+    "name": "Net Interest",
+    "obligated_amount": 1289111939994.36
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 414927732619.86,
+      "name": "Central fiscal operations",
+      "obligated_amount": 415127854264.19
+     },
+     {
+      "gross_outlay_amount": 5613379058.53,
+      "name": "Other general government",
+      "obligated_amount": 5570630902.9
+     },
+     {
+      "gross_outlay_amount": 4365935267.51,
+      "name": "General purpose fiscal assistance",
+      "obligated_amount": 1944446249.92
+     }
+    ],
+    "gross_outlay_amount": 424907046945.9,
+    "name": "General Government",
+    "obligated_amount": 422642931417.01
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 136543888608.45,
+      "name": "Health care services",
+      "obligated_amount": 134781296213.96
+     }
+    ],
+    "gross_outlay_amount": 136543888608.45,
+    "name": "Health",
+    "obligated_amount": 134781296213.96
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 103169385499.63,
+      "name": "Other income security",
+      "obligated_amount": 103169385499.63
+     },
+     {
+      "gross_outlay_amount": 921276476.57,
+      "name": "General retirement and disability insurance (excluding social se",
+      "obligated_amount": 921624418.27
+     },
+     {
+      "gross_outlay_amount": 17613572.57,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 17598878.72
+     },
+     {
+      "gross_outlay_amount": 3327488.7,
+      "name": "Housing assistance",
+      "obligated_amount": 571421.61
+     }
+    ],
+    "gross_outlay_amount": 104111603037.47,
+    "name": "Income Security",
+    "obligated_amount": 104109180218.23
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 9023602129.72,
+      "name": "Energy supply",
+      "obligated_amount": 9023602129.72
+     },
+     {
+      "gross_outlay_amount": 465862893.58,
+      "name": "Energy conservation",
+      "obligated_amount": 171369846.58
+     }
+    ],
+    "gross_outlay_amount": 9489465023.3,
+    "name": "Energy",
+    "obligated_amount": 9194971976.3
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 8330441685.1,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 7063356421.63
+     },
+     {
+      "gross_outlay_amount": 1007819192.47,
+      "name": "Deposit insurance",
+      "obligated_amount": 935200377.69
+     },
+     {
+      "gross_outlay_amount": 8366372.19,
+      "name": "Mortgage credit",
+      "obligated_amount": 8449705.56
+     }
+    ],
+    "gross_outlay_amount": 9346627249.76,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 8007006504.88
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 6039746363.8,
+      "name": "Federal law enforcement activities",
+      "obligated_amount": 6280324534.55
+     },
+     {
+      "gross_outlay_amount": 544256000.0,
+      "name": "Federal litigative and judicial activities",
+      "obligated_amount": 544256000.0
+     },
+     {
+      "gross_outlay_amount": 4081000.0,
+      "name": "Criminal justice assistance",
+      "obligated_amount": 4081000.0
+     }
+    ],
+    "gross_outlay_amount": 6588083363.8,
+    "name": "Administration of Justice",
+    "obligated_amount": 6828661534.55
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 2835886409.22,
+      "name": "Higher education",
+      "obligated_amount": 2835886409.22
+     },
+     {
+      "gross_outlay_amount": 510635429.55,
+      "name": "Elementary, secondary, and vocational education",
+      "obligated_amount": 510635429.55
+     },
+     {
+      "gross_outlay_amount": 6389120.32,
+      "name": "Social services",
+      "obligated_amount": 41313932.82
+     },
+     {
+      "gross_outlay_amount": 8220000.0,
+      "name": "Research and general education aids",
+      "obligated_amount": 0.0
+     }
+    ],
+    "gross_outlay_amount": 3361130959.09,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 3387835771.59
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1553498225.06,
+      "name": "International development and humanitarian assistance",
+      "obligated_amount": 1565628853.53
+     },
+     {
+      "gross_outlay_amount": 28531197.61,
+      "name": "International financial programs",
+      "obligated_amount": 626125.53
+     }
+    ],
+    "gross_outlay_amount": 1582029422.67,
+    "name": "International Affairs",
+    "obligated_amount": 1566254979.06
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 186835224.68,
+      "name": "Community development",
+      "obligated_amount": 140890596.05
+     },
+     {
+      "gross_outlay_amount": 254528211.64,
+      "name": "Area and regional development",
+      "obligated_amount": 75415626.76
+     }
+    ],
+    "gross_outlay_amount": 441363436.32,
+    "name": "Community and Regional Development",
+    "obligated_amount": 216306222.81
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1246569.1,
+      "name": "Other natural resources",
+      "obligated_amount": 1246569.1
+     }
+    ],
+    "gross_outlay_amount": 1246569.1,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 1246569.1
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 5000.0,
+      "name": "Ground transportation",
+      "obligated_amount": 0.0
+     }
+    ],
+    "gross_outlay_amount": 5000.0,
+    "name": "Transportation",
+    "obligated_amount": 0.0
+   }
+  ],
+  "toptier_code": "020"
+ },
+ "endpoint": "agency/020/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "TREAS",
+  "about_agency_data": null,
+  "agency_id": 456,
+  "congressional_justification_url": "https://www.treasury.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOT.jpg",
+  "messages": [],
+  "mission": "Maintain a strong economy and create economic and job opportunities by promoting the conditions that enable economic growth and stability at home and abroad, strengthen national security by combating threats and protecting the integrity of the financial system, and manage the U.S. Government's finances and resources effectively.",
+  "name": "Department of the Treasury",
+  "subtier_agency_count": 15,
+  "toptier_code": "020",
+  "website": "https://www.treasury.gov/"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 228457799.08,
+      "name": "Farm income stabilization",
+      "obligated_amount": 230713488.26
+     }
+    ],
+    "gross_outlay_amount": 228457799.08,
+    "name": "Agriculture",
+    "obligated_amount": 230713488.26
+   }
+  ],
+  "toptier_code": "7802"
+ },
+ "endpoint": "agency/7802/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "FCSIC",
+  "about_agency_data": null,
+  "agency_id": 860,
+  "congressional_justification_url": "https://www.fcsic.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "The Farm Credit System Insurance Corporation (FCSIC), a government-controlled, independent entity, shall: protect investors in insured Farm Credit System obligations and taxpayers through sound administration of the Farm Credit Insurance Fund (Insurance Fund); exercise its authorities to minimize Insurance Fund loss; and help ensure the future of a permanent system for delivery of credit to agricultural borrowers.",
+  "name": "Farm Credit System Insurance Corporation",
+  "subtier_agency_count": 0,
+  "toptier_code": "7802",
+  "website": "https://www.fcsic.gov/"
+ }
+}

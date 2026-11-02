@@ -1,0 +1,72 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 3
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 594320064.8,
+      "name": "Executive direction and management",
+      "obligated_amount": 628686495.62
+     }
+    ],
+    "gross_outlay_amount": 594320064.8,
+    "name": "General Government",
+    "obligated_amount": 628686495.62
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 239486290.1,
+      "name": "Criminal justice assistance",
+      "obligated_amount": 284186553.69
+     }
+    ],
+    "gross_outlay_amount": 239486290.1,
+    "name": "Administration of Justice",
+    "obligated_amount": 284186553.69
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 17669615.13,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 21972221.4
+     }
+    ],
+    "gross_outlay_amount": 17669615.13,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 21972221.4
+   }
+  ],
+  "toptier_code": "1100"
+ },
+ "endpoint": "agency/1100/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "EOP",
+  "about_agency_data": null,
+  "agency_id": 48,
+  "congressional_justification_url": "https://www.whitehouse.gov/wp-content/uploads/2021/06/EOP-FY2022-Congressional-Budget-Submission.pdf",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "The EOP has responsibility for tasks ranging from communicating the President's message to the American people to promoting our trade interests abroad.",
+  "name": "Executive Office of the President",
+  "subtier_agency_count": 2,
+  "toptier_code": "1100",
+  "website": "https://www.whitehouse.gov/administration/eop"
+ }
+}

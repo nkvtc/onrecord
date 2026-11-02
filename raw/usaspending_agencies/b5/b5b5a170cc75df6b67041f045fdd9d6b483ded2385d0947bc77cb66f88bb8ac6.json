@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1568291007.69,
+      "name": "International development and humanitarian assistance",
+      "obligated_amount": 1584255837.87
+     }
+    ],
+    "gross_outlay_amount": 1568291007.69,
+    "name": "International Affairs",
+    "obligated_amount": 1584255837.87
+   }
+  ],
+  "toptier_code": "077"
+ },
+ "endpoint": "agency/077/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DFC",
+  "about_agency_data": "On January 2nd, 2020, OPIC was replaced by DFC. In addition to absorbing OPIC, DFC also combined aspects of USAID, including chiefly its Development Credit Authority (DCA). For DATA Act reporting purposes, the newly-created DFC continued to report as OPIC until its last submission in FY20Q4, but began to include the full set of DFC TAS in FY20Q3. DFC's first submission as DFC was in FY21Q1.",
+  "agency_id": 1522,
+  "congressional_justification_url": null,
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "U.S. International Development Finance Corporation (DFC) is America’s development bank. DFC partners with the private sector to finance solutions to the most critical challenges facing the developing world today. We invest across sectors including energy, healthcare, critical infrastructure, and technology. DFC also provides financing for small businesses and women entrepreneurs in order to create jobs in emerging markets. DFC investments adhere to high standards and respect the environment, human rights, and worker rights.",
+  "name": "U.S. International Development Finance Corporation",
+  "subtier_agency_count": 1,
+  "toptier_code": "077",
+  "website": "https://www.dfc.gov/"
+ }
+}

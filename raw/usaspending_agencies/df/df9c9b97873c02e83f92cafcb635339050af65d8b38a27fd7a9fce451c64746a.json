@@ -1,0 +1,70 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 2
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 28146137574.45,
+      "name": "Water resources",
+      "obligated_amount": 34301811746.76
+     },
+     {
+      "gross_outlay_amount": 3025877.06,
+      "name": "Recreational resources",
+      "obligated_amount": 2262119.63
+     },
+     {
+      "gross_outlay_amount": 2000000.0,
+      "name": "Other natural resources",
+      "obligated_amount": 2000000.0
+     }
+    ],
+    "gross_outlay_amount": 28151163451.51,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 34306073866.39
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 325207904.17,
+      "name": "Atomic energy defense activities",
+      "obligated_amount": 198849367.02
+     }
+    ],
+    "gross_outlay_amount": 325207904.17,
+    "name": "National Defense",
+    "obligated_amount": 198849367.02
+   }
+  ],
+  "toptier_code": "096"
+ },
+ "endpoint": "agency/096/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "USACE",
+  "about_agency_data": null,
+  "agency_id": 1412,
+  "congressional_justification_url": "https://www.usace.army.mil/Missions/Civil-Works/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "Serve the public by providing the Nation with quality and responsive Development and management of the Nation's water resources; Support of commercial navigation; Restoration, protection and management of aquatic ecosystems; Flood risk management; and Engineering and technical services in an environmentally sustainable, economic, and technically sound manner with a focus on public safety and collaborative partnerships.",
+  "name": "Corps of Engineers - Civil Works",
+  "subtier_agency_count": 1,
+  "toptier_code": "096",
+  "website": "https://www.usace.army.mil/Missions/Civil-Works/"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 323644524.55,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 334849620.88
+     }
+    ],
+    "gross_outlay_amount": 323644524.55,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 334849620.88
+   }
+  ],
+  "toptier_code": "339"
+ },
+ "endpoint": "agency/339/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "CFTC",
+  "about_agency_data": null,
+  "agency_id": 1129,
+  "congressional_justification_url": "https://www.cftc.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "The mission of the Commodity Futures Trading Commission (CFTC) is to foster open, transparent, competitive, and financially sound markets. By working to avoid systemic risk, the Commission aims to protect market users and their funds, consumers, and the public from fraud, manipulation, and abusive practices related to derivatives and other products that are subject to the Commodity Exchange Act (CEA).",
+  "name": "Commodity Futures Trading Commission",
+  "subtier_agency_count": 1,
+  "toptier_code": "339",
+  "website": "https://www.cftc.gov/"
+ }
+}

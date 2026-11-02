@@ -1,0 +1,89 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 4
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 69809752347.28,
+      "name": "Housing assistance",
+      "obligated_amount": 66873586640.25
+     }
+    ],
+    "gross_outlay_amount": 69809752347.28,
+    "name": "Income Security",
+    "obligated_amount": 66873586640.25
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 9520139638.73,
+      "name": "Community development",
+      "obligated_amount": 8875944702.69
+     }
+    ],
+    "gross_outlay_amount": 9520139638.73,
+    "name": "Community and Regional Development",
+    "obligated_amount": 8875944702.69
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 5457109909.65,
+      "name": "Mortgage credit",
+      "obligated_amount": 5490683509.17
+     },
+     {
+      "gross_outlay_amount": 11199152.44,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 5318188.43
+     }
+    ],
+    "gross_outlay_amount": 5468309062.09,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 5496001697.6
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 54686019.09,
+      "name": "Federal law enforcement activities",
+      "obligated_amount": 16924612.77
+     }
+    ],
+    "gross_outlay_amount": 54686019.09,
+    "name": "Administration of Justice",
+    "obligated_amount": 16924612.77
+   }
+  ],
+  "toptier_code": "086"
+ },
+ "endpoint": "agency/086/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "HUD",
+  "about_agency_data": null,
+  "agency_id": 882,
+  "congressional_justification_url": "https://www.hud.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DHUD.png",
+  "messages": [],
+  "mission": "HUD's mission is to create strong, sustainable, inclusive communities and quality affordable homes for all. HUD is working to strengthen the housing market to bolster the economy and protect consumers; meet the need for quality affordable rental homes; utilize housing as a platform for improving quality of life; build inclusive and sustainable communities free from discrimination, and transform the way HUD does business.",
+  "name": "Department of Housing and Urban Development",
+  "subtier_agency_count": 12,
+  "toptier_code": "086",
+  "website": "https://www.hud.gov/"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 10570646210.44,
+      "name": "General retirement and disability insurance (excluding social se",
+      "obligated_amount": 10413559874.62
+     }
+    ],
+    "gross_outlay_amount": 10570646210.44,
+    "name": "Income Security",
+    "obligated_amount": 10413559874.62
+   }
+  ],
+  "toptier_code": "1602"
+ },
+ "endpoint": "agency/1602/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "PBGC",
+  "about_agency_data": null,
+  "agency_id": 308,
+  "congressional_justification_url": "https://www.pbgc.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "Enhance retirement security by preserving and encouraging the continuation of private pension plans, and protecting the benefits of workers and retirees in traditional pension plans.",
+  "name": "Pension Benefit Guaranty Corporation",
+  "subtier_agency_count": 1,
+  "toptier_code": "1602",
+  "website": "https://www.pbgc.gov/"
+ }
+}

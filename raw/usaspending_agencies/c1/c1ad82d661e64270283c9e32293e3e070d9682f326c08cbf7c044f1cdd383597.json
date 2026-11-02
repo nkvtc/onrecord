@@ -1,0 +1,80 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 2
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 87267220255.61,
+      "name": "Ground transportation",
+      "obligated_amount": 88302109178.73
+     },
+     {
+      "gross_outlay_amount": 34606534420.69,
+      "name": "Air transportation",
+      "obligated_amount": 38340451039.27
+     },
+     {
+      "gross_outlay_amount": 1675000481.24,
+      "name": "Other transportation",
+      "obligated_amount": 1509641721.57
+     },
+     {
+      "gross_outlay_amount": 737017708.71,
+      "name": "Water transportation",
+      "obligated_amount": 1405174867.04
+     },
+     {
+      "gross_outlay_amount": 34839195.29,
+      "name": "Transportation",
+      "obligated_amount": 0.0
+     }
+    ],
+    "gross_outlay_amount": 124320612061.54,
+    "name": "Transportation",
+    "obligated_amount": 129557376806.61
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1160514564.72,
+      "name": "Defense-related activities",
+      "obligated_amount": 1383222011.01
+     }
+    ],
+    "gross_outlay_amount": 1160514564.72,
+    "name": "National Defense",
+    "obligated_amount": 1383222011.01
+   }
+  ],
+  "toptier_code": "069"
+ },
+ "endpoint": "agency/069/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOT",
+  "about_agency_data": null,
+  "agency_id": 731,
+  "congressional_justification_url": "https://www.transportation.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOTransportation.jpg",
+  "messages": [],
+  "mission": "Serve the United States by ensuring a fast, safe, efficient, accessible and convenient transportation system that meets our vital national interests and enhances the quality of life of the American people, today and into the future.",
+  "name": "Department of Transportation",
+  "subtier_agency_count": 13,
+  "toptier_code": "069",
+  "website": "https://www.transportation.gov/"
+ }
+}

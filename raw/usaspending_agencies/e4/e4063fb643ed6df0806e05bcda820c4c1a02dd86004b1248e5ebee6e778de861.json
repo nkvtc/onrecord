@@ -1,0 +1,96 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 5
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1596265675462.18,
+      "name": "Social security",
+      "obligated_amount": 1603581655802.34
+     }
+    ],
+    "gross_outlay_amount": 1596265675462.18,
+    "name": "Social Security",
+    "obligated_amount": 1603581655802.34
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 67482274492.79,
+      "name": "Other income security",
+      "obligated_amount": 68623278666.48
+     }
+    ],
+    "gross_outlay_amount": 67482274492.79,
+    "name": "Income Security",
+    "obligated_amount": 68623278666.48
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 235649.47,
+      "name": "Income security for veterans",
+      "obligated_amount": 235649.47
+     }
+    ],
+    "gross_outlay_amount": 235649.47,
+    "name": "Veterans Benefits and Services",
+    "obligated_amount": 235649.47
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 15277.18,
+      "name": "Health care services",
+      "obligated_amount": 15277.18
+     }
+    ],
+    "gross_outlay_amount": 15277.18,
+    "name": "Health",
+    "obligated_amount": 15277.18
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 18943.96,
+      "name": "Medicare",
+      "obligated_amount": 0.0
+     }
+    ],
+    "gross_outlay_amount": 18943.96,
+    "name": "Medicare",
+    "obligated_amount": 0.0
+   }
+  ],
+  "toptier_code": "028"
+ },
+ "endpoint": "agency/028/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "SSA",
+  "about_agency_data": null,
+  "agency_id": 539,
+  "congressional_justification_url": "https://www.ssa.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "SSA.png",
+  "messages": [],
+  "mission": "Deliver Social Security services that meet the changing needs of the public.",
+  "name": "Social Security Administration",
+  "subtier_agency_count": 1,
+  "toptier_code": "028",
+  "website": "https://www.ssa.gov/"
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 6
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 192844024997.86,
+      "name": "Federal law enforcement activities",
+      "obligated_amount": 294653795087.33
+     }
+    ],
+    "gross_outlay_amount": 192844024997.86,
+    "name": "Administration of Justice",
+    "obligated_amount": 294653795087.33
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 16703791384.2,
+      "name": "Water transportation",
+      "obligated_amount": 31311958920.47
+     },
+     {
+      "gross_outlay_amount": 10619652425.25,
+      "name": "Air transportation",
+      "obligated_amount": 11185720052.64
+     },
+     {
+      "gross_outlay_amount": 88535911.61,
+      "name": "Ground transportation",
+      "obligated_amount": 322642235.98
+     },
+     {
+      "gross_outlay_amount": 8753440.46,
+      "name": "Other transportation",
+      "obligated_amount": 2358428.65
+     }
+    ],
+    "gross_outlay_amount": 27420733161.52,
+    "name": "Transportation",
+    "obligated_amount": 42822679637.74
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 35441714212.87,
+      "name": "Disaster relief and insurance",
+      "obligated_amount": 37104681072.44
+     }
+    ],
+    "gross_outlay_amount": 35441714212.87,
+    "name": "Community and Regional Development",
+    "obligated_amount": 37104681072.44
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1849124843.76,
+      "name": "General property and records management",
+      "obligated_amount": 2028784965.69
+     },
+     {
+      "gross_outlay_amount": 741614110.63,
+      "name": "General purpose fiscal assistance",
+      "obligated_amount": 757916615.41
+     }
+    ],
+    "gross_outlay_amount": 2590738954.39,
+    "name": "General Government",
+    "obligated_amount": 2786701581.1
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 391825172.29,
+      "name": "Defense-related activities",
+      "obligated_amount": 460281276.03
+     }
+    ],
+    "gross_outlay_amount": 391825172.29,
+    "name": "National Defense",
+    "obligated_amount": 460281276.03
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 189629204.11,
+      "name": "Pollution control and abatement",
+      "obligated_amount": 217709605.55
+     }
+    ],
+    "gross_outlay_amount": 189629204.11,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 217709605.55
+   }
+  ],
+  "toptier_code": "070"
+ },
+ "endpoint": "agency/070/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DHS",
+  "about_agency_data": null,
+  "agency_id": 766,
+  "congressional_justification_url": "https://www.dhs.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DHS.jpg",
+  "messages": [],
+  "mission": "With honor and integrity, we will safeguard the American people, our homeland, and our values.",
+  "name": "Department of Homeland Security",
+  "subtier_agency_count": 17,
+  "toptier_code": "070",
+  "website": "https://www.dhs.gov/"
+ }
+}
