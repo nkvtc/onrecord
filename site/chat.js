@@ -19,7 +19,7 @@ const STORE_KEY = "onrecord.ai";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-const ai = { provider: "anthropic", key: "", model: "", remember: false, history: [], refs: [], busy: false };
+export const ai = { provider: "anthropic", key: "", model: "", remember: false, history: [], refs: [], busy: false };
 
 // ---- settings -------------------------------------------------------------
 
@@ -61,6 +61,7 @@ function showState() {
   $("#ai-setup").hidden = connected;
   $("#ai-chat").hidden = !connected;
   $("#ai-who").textContent = connected ? `Using your ${ai.provider === "anthropic" ? "Anthropic" : "OpenAI"} key` : "";
+  dispatchEvent(new Event("onrecord:ai")); // the claim checker offers its AI step only when connected
 }
 
 // ---- the record as context ------------------------------------------------
@@ -224,7 +225,7 @@ function init() {
   loadSaved();
   $("#ai-provider").value = ai.provider;
   const showExamples = (topic) => {
-    const examples = topic.site.ask?.examples || [];
+    const examples = topic?.site.ask?.examples || [];
     $("#ai-examples").innerHTML = examples.map((q) => `<button type="button" class="chip">${esc(q)}</button>`).join("");
   };
   showExamples(window.onrecord.topic);

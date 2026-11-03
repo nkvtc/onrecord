@@ -59,8 +59,25 @@ async function init() {
 async function route() {
   const id = location.hash.slice(1);
   const topic = topics.find((t) => t.id === id);
-  document.body.classList.toggle("is-home", !topic);
-  $("#home").hidden = !!topic;
+  const check = /^check(\?|$)/.test(id);
+  document.body.classList.toggle("is-home", !topic && !check);
+  document.body.classList.toggle("is-check", check);
+  $("#home").hidden = !!topic || check;
+  $("#check").hidden = !check;
+  $("#check-tab").setAttribute("aria-current", check ? "page" : "false");
+  $("#ai-title").textContent = check ? "Let an AI sort the records (optional)" : "Ask the record";
+  $("#ai-sub").textContent = check
+    ? "With your own Anthropic or OpenAI key, an AI searches the records, says which ones support or contradict the claim and why, and cites each one. You can change its picks before sharing."
+    : "Optional. Answers come only from this topic's records, with each claim linked to its source. Uses your own Anthropic or OpenAI key.";
+  if (check) {
+    if (state.topic) scrollTo(0, 0);
+    state.topic = null;
+    document.title = "Check a claim · onrecord";
+    $("#tabs").querySelectorAll("a").forEach((a) => a.setAttribute("aria-current", "false"));
+    markReady();
+    window.onrecord.showCheck?.();
+    return;
+  }
   if (!topic) { state.topic = null; renderHome(); return; }
   if (state.topic?.id === topic.id) return;
   scrollTo(0, 0);

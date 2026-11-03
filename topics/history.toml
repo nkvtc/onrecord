@@ -9,8 +9,9 @@ title = "How this compares with past presidencies"
 since = 1994-01-01
 description = """
 Executive orders signed per president (Federal Register, 1994 onward), clemency granted
-on petitions per president (Justice Department, back to 1900), and total donations
-reported by each presidential inaugural committee (FEC, 2005 onward).
+on petitions per president (Justice Department, back to 1900), every named pardon and
+commutation from Clinton through Biden, and total donations reported by each presidential inaugural
+committee (FEC, 2005 onward).
 """
 
 [federal_register]
@@ -21,6 +22,22 @@ queries = [
 
 [doj_clemency_stats]
 pages = ["https://www.justice.gov/pardon/clemency-statistics"]
+
+[doj_clemency]
+# Every named grant by past presidents, Clinton through Biden, from the Pardon Attorney's per-term
+# pages. The current term lives in topics/accountability.toml.
+pages = [
+  "https://www.justice.gov/pardon/pardons-granted-president-william-j-clinton-1993-2001",
+  "https://www.justice.gov/pardon/commutations-granted-president-william-j-clinton-1993-2001",
+  "https://www.justice.gov/pardon/pardons-granted-president-george-w-bush-2001-2009",
+  "https://www.justice.gov/pardon/commutations-granted-president-george-w-bush-2001-2009",
+  "https://www.justice.gov/pardon/pardons-granted-president-barack-h-obama-2009-2017",
+  "https://www.justice.gov/pardon/commutations-granted-president-barack-h-obama-2009-2017",
+  "https://www.justice.gov/pardon/pardons-granted-president-donald-j-trump-2017-2021",
+  "https://www.justice.gov/pardon/commutations-granted-president-donald-j-trump-2017-2021",
+  "https://www.justice.gov/pardon/pardons-granted-president-joseph-biden-2021-2025",
+  "https://www.justice.gov/pardon/commutations-granted-president-joseph-biden-2021-2025",
+]
 
 [fec_inaugural_totals]
 committees = [
@@ -54,7 +71,15 @@ kind = "inaugural_totals"
 title = "Money raised by inaugural committees"
 
 [[site.filters]]
-label = "All executive orders"
+label = "All"
+
+[[site.filters]]
+label = "Executive orders"
+doc_types = ["executive_order"]
+
+[[site.filters]]
+label = "Pardons and commutations"
+doc_types = ["pardoned", "commuted", "clemency"]
 
 [site.ask]
 examples = [

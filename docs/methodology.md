@@ -167,6 +167,33 @@ It is the part of the project most likely to be misread, so its rules are strict
   one item: the Justice Department page doesn't list the individuals. Donations to other
   committees (super PACs, campaign committees) and lobbying disclosures aren't collected yet.
 
+## Past presidents' clemency
+
+Named pardons and commutations by Presidents Clinton, G. W. Bush, Obama, Trump (first
+term) and Biden come from the Pardon Attorney's per-term pages, archived and parsed like
+the current term. Our counts match the Justice Department's own statistics for every
+term except two small differences we haven't resolved: Obama's pardons (208 parsed vs.
+212 counted by DOJ) and Clinton's commutations (65 vs. 61). Where one table row names
+several people (Biden's January 19, 2025 family pardons), each person is an item. Where
+a row describes a group instead ("the staff of the Select Committee"), the group is one
+item and nobody is named. Mass commutations listed as one line ("Commutation granted to
+1,499 individuals") are one item linking to the recipient list.
+
+## Checking a claim
+
+"Check a claim" searches every record across topics. The ranking is plain word matching
+weighted by how rare each word is, with a bonus for phrases, for records of the type the
+question names (pardon, executive order, bill), and, when the question names a president,
+a filter to records that president signed. It is a search, not a verdict: the page shows
+what matched and lets the reader decide.
+
+The optional AI step uses the reader's own key. It is told what the archive covers, to
+cite only records it found, to be exact about who and what (a pardon for a committee's
+staff is not a pardon for the president's staff), and that a missing record means the
+archive doesn't settle a claim, not that it didn't happen. Its answer is labelled as an
+AI reading. Shared links carry record keys and sides only, never text, and say who chose
+the sides.
+
 ## Corrections
 
 Errors are reported as GitHub issues using the "Data error" template. Fixes go through

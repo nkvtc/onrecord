@@ -14,6 +14,7 @@
   <div class="wrap topbar">
     <a class="brand" href="#">on<span>record</span></a>
     <nav class="tabs" id="tabs" aria-label="Topics"></nav>
+    <a class="check-tab" href="#check" id="check-tab">Check a claim</a>
   </div>
 </div>
 
@@ -29,12 +30,29 @@
     <p class="kicker">Independent · open source · every figure sourced</p>
     <h1 class="home-title">What the US government did, said and spent, on the record.</h1>
     <p class="lede home-lede">onrecord reads official records every day: laws and votes, executive orders, budgets, audits, pardons and trade figures. Every number links to the government document it came from, and the rule for how it is counted is printed next to it. No commentary and no labels; you can check all of it.</p>
+    <form class="home-check" id="home-check" role="search">
+      <label for="home-check-q">Heard a claim? Check it against the record.</label>
+      <div class="check-row"><input id="home-check-q" type="search" placeholder="e.g. Did Biden pardon his staff?" autocomplete="off"><button type="submit" class="primary">Check</button></div>
+      <div class="chips" id="home-examples"></div>
+    </form>
     <div class="tiles" id="tiles"></div>
     <div class="principles">
       <div><h3>Primary sources only</h3><p>Federal Register, the House Clerk, Congress.gov, Treasury, OMB, the FEC, the Justice Department. Each item keeps a hash of the exact file it came from.</p></div>
       <div><h3>Rules you can read</h3><p>Every chart says what it counts and what it leaves out. "Improper" is not fraud; a party-line vote is a fact about the votes, not a verdict on the bill.</p></div>
       <div><h3>Open data and code</h3><p>Download the database, query it in your browser, or rerun the pipeline yourself. Code AGPL-3.0, data CC BY-SA 4.0.</p></div>
     </div>
+  </section>
+  <section id="check" class="check" hidden aria-labelledby="check-title">
+    <p class="kicker">Check a claim</p>
+    <h1 id="check-title" class="check-title">Did they actually do that?</h1>
+    <p class="lede">Ask about something a president, Congress or an agency did. onrecord searches every official record it has archived and shows the ones that bear on it, each linked to the original. Mark which records support or contradict the claim, or let an AI sort them with your own key, then share the link.</p>
+    <form id="check-form" class="check-row" role="search"><input id="check-q" type="search" placeholder="e.g. Did Biden pardon his staff?" aria-label="Claim or question" autocomplete="off"><button type="submit" class="primary">Search the record</button><button type="button" id="check-ai" class="primary alt" hidden>Check with AI</button></form>
+    <div class="chips" id="check-examples"></div>
+    <div id="check-banner"></div>
+    <div id="check-answer" aria-live="polite"></div>
+    <div class="check-share" id="check-share" hidden><span class="sub">Share what you found:</span><button type="button" class="chip" id="check-link">Copy link</button><button type="button" class="chip" id="check-copy">Copy with sources, for a comment</button></div>
+    <div id="check-results"></div>
+    <div class="note check-scope"><b>What this can and can't check.</b> onrecord has executive orders since 1994; every pardon and commutation the Justice Department lists for Presidents Clinton, Bush, Obama, Trump and Biden; bills Congress voted on since 2025 and how the House voted; the federal budget, spending and audits; and US trade actions. It has no news, court records or staff lists. If a record isn't here, that means onrecord hasn't archived it, not that it didn't happen.</div>
   </section>
   <div class="stats" id="stats" hidden></div>
   <div id="panels" hidden></div>
@@ -43,7 +61,7 @@
     <div class="card-head">
       <div>
         <h2 id="ai-title">Ask the record</h2>
-        <p class="sub">Optional. Answers come only from this topic's records, with each claim linked to its source. Uses your own Anthropic or OpenAI key.</p>
+        <p class="sub" id="ai-sub">Optional. Answers come only from this topic's records, with each claim linked to its source. Uses your own Anthropic or OpenAI key.</p>
       </div>
       <span class="sub" id="ai-who"></span>
     </div>
@@ -137,5 +155,6 @@
 <script src="vendor/topojson-client.min.js"></script>
 <script src="app.js"></script>
 <script type="module" src="chat.js"></script>
+<script type="module" src="check.js"></script>
 </body>
 </html>

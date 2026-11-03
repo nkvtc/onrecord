@@ -102,7 +102,9 @@ def clemency_by_president(store: Store, today: date) -> dict:
     # The current term isn't in DOJ's statistics table until the term is over, so
     # report what DOJ's grant list shows, clearly labelled as a different count.
     current = None
-    lists = _latest_docs(store, "doj_clemency")
+    # Past terms' grant pages are archived too (topics/history.toml); only the open-ended
+    # current-term page counts here.
+    lists = [d for d in _latest_docs(store, "doj_clemency") if "present" in d["canonical_url"]]
     if lists:
         rows = store.db.execute(
             f"""SELECT subject FROM events WHERE document_id IN

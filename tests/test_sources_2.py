@@ -89,3 +89,46 @@ def test_fec_form13_matches_filed_totals(fixture):
     assert biggest.payer_type == "organization"
     assert set(biggest.details) <= {"city", "state"}
     assert r.meta.citation == "FEC filing 1910509"
+
+
+def test_past_presidency_pardon_page(fixture):
+    r = DojClemency.parse(
+        fixture("doj_clemency", "pardons-granted-president-joseph-biden-2021-2025.html")
+    )
+    assert r.meta.extra["president"] == "President Joseph Biden"
+    # DOJ's statistics count 80 pardons on petition for this term.
+    assert len(r.events) == 80 and all(e.kind == "pardoned" for e in r.events)
+    family = [e for e in r.events if "nonviolent offenses" in e.details.get("offense", "")]
+    assert {e.subject for e in family} == {
+        "Francis W. Biden",
+        "James B. Biden",
+        "Sara Jones Biden",
+        "John T. Owens",
+        "Valerie Biden Owens",
+    }
+    hunter = next(e for e in r.events if e.subject == "Robert Hunter Biden")
+    assert hunter.on == date(2024, 12, 1) and "Special Counsel" in hunter.details["offense"]
+    # The January 6 committee row is one grant to a described group, not a person.
+    (group,) = [e for e in r.events if not e.subject]
+    assert group.title.startswith(
+        "Pardon: The Members of Congress who served on the Select Committee"
+    )
+    assert "staff of the Select Committee" in group.title and group.details["group"]
+    assert group.details["warrant_url"].startswith("https://www.justice.gov/")
+    assert "#19-Jan-2025-pardon" in group.locator
+
+
+def test_oldest_layout_one_long_table(fixture):
+    r = DojClemency.parse(
+        fixture("doj_clemency", "commutations-granted-president-william-j-clinton-1993-2001.html")
+    )
+    assert r.meta.extra["president"] == "President William J. Clinton"
+    first = min(r.events, key=lambda e: e.on)
+    assert first.subject == "Ernest Charles Krikava" and first.on == date(1994, 11, 23)
+    assert first.kind == "commuted"
+    assert (
+        first.details["district"] == "Nebraska"
+        and first.details["sentenced_on"] == "November 10, 1993"
+    )
+    assert first.details["terms"].startswith("Sentence of imprisonment to expire immediately")
+    assert len(r.events) > 60

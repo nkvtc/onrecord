@@ -33,8 +33,13 @@ Six topics so far:
   stated rule. Look up how any representative voted, and see which party's votes
   passed each spending bill.
 - **In context**: the same records counted the same way across presidents: executive
-  orders by day in office (1994 onward), clemency per president (back to 1900), and
-  money raised by inaugural committees (2005 onward). Each chart states its counting rule.
+  orders by day in office (1994 onward), clemency per president (back to 1900), every
+  named pardon and commutation from Clinton through Biden, and money raised by inaugural
+  committees (2005 onward). Each chart states its counting rule.
+- **Check a claim**: type a question like "Did Biden pardon his staff?" and get every
+  archived record that bears on it, each linked to the original. Mark which records
+  support or contradict the claim (or let an AI sort them with your own key), then share
+  a link or copy the answer with its sources into a comment thread.
 
 > Status: early. The data pipeline works and runs daily. The site is a first view.
 > Everything on the [roadmap](docs/roadmap.md) is open for contributors.
@@ -123,6 +128,20 @@ There is no onrecord server: the key stays in your browser (in memory, or in loc
 storage if you tick "remember") and requests go directly to the provider. A question
 costs a few cents on your account (about 20k tokens of records per first question,
 cached for follow-ups). Code: [`site/chat.js`](site/chat.js).
+
+## Check a claim
+
+The "Check a claim" page searches every archived record at once, in your browser, from
+`data/records.json`. Without a key it ranks matching records and you mark the ones that
+support or contradict the claim. With a key, the AI runs its own searches (a tool that
+calls the same in-browser search), then returns a verdict, a short cited answer and a
+side and reason for each record; you can change its picks.
+
+A shared link carries only the question and record keys with a side for each. The page
+rebuilds every record from onrecord's data, so a link can't make onrecord appear to say
+something its records don't; the page also says the sides were chosen by whoever shared
+it. Record keys hash what the record says, so a link survives the source adding entries.
+Code: [`site/check.js`](site/check.js).
 
 ## Use the data
 

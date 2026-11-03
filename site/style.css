@@ -324,3 +324,54 @@ svg.map path.sel { stroke: var(--text); stroke-width: 2; }
 .spend-bar .yea { justify-content: flex-end; }
 .spend-bar > i { width: 2px; height: 20px; background: var(--text); flex: none; }
 .table-toggle { overflow-x: auto; }
+
+/* ---- Check a claim ---- */
+.check-tab {
+  flex: none; margin-left: auto; text-decoration: none; font-size: 13px; font-weight: 700; color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); border-radius: 999px; padding: 5px 12px; white-space: nowrap;
+}
+.check-tab:hover, .check-tab[aria-current="page"] { background: var(--accent); color: #fff; }
+body.is-check main > :not(#check):not(.ai), body.is-check .topic-only { display: none !important; }
+body.is-check #ai-log, body.is-check #ai-examples, body.is-check #ai-form { display: none; }
+body.is-check .ai { margin-top: 8px; }
+.check { padding: 40px 0 0; }
+.check-title { font-size: clamp(30px, 5vw, 46px); margin: 10px 0 12px; }
+.check .lede { max-width: 760px; }
+.check-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+.check-row input {
+  flex: 1 1 280px; min-width: 0; font: inherit; font-size: 17px; padding: 11px 14px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+}
+.check-row input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.check-row button.primary { padding: 10px 18px; font-size: 15px; }
+button.primary.alt { background: var(--text); color: var(--surface); }
+.home-check { margin: 30px 0 0; padding: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; max-width: 760px; }
+.home-check label { font-family: var(--serif); font-size: 20px; font-weight: 700; }
+.home-check .check-row { margin-top: 10px; }
+#check-banner .note, .check-scope { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; padding: 12px 14px; color: var(--text-2); line-height: 1.5; margin: 18px 0; }
+.check-scope { margin-top: 32px; }
+.check-ans { margin: 18px 0; padding: 16px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; }
+.check-ans p { margin: 8px 0; line-height: 1.55; max-width: 760px; }
+.verdict { display: inline-block; font-weight: 700; font-size: 14px; padding: 4px 10px; border-radius: 6px; margin-bottom: 4px; }
+.v-yes { background: color-mix(in srgb, var(--p3) 18%, transparent); color: var(--text); border-left: 4px solid var(--p3); }
+.v-no { background: color-mix(in srgb, var(--series-2) 18%, transparent); color: var(--text); border-left: 4px solid var(--series-2); }
+.v-mixed { background: color-mix(in srgb, var(--agency) 22%, transparent); color: var(--text); border-left: 4px solid var(--agency); }
+.v-none { background: var(--chip); color: var(--text-2); border-left: 4px solid var(--muted); }
+.check-share { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 12px 0; }
+.side-h { font-size: 15px; margin: 22px 0 6px; font-family: inherit; }
+.recs { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.rec { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.rec.side-s { border-left: 4px solid var(--p3); }
+.rec.side-c { border-left: 4px solid var(--series-2); }
+.rec.side-x { border-left: 4px solid var(--muted); }
+.rec.flash { animation: flash 1.6s ease-out; }
+.rec-head { display: flex; gap: 8px; align-items: baseline; }
+.rec-n { font-weight: 700; font-size: 12px; color: var(--surface); background: var(--text-2); border-radius: 4px; padding: 0 6px; }
+.rec-meta { font-size: 12px; color: var(--muted); }
+.rec-title { display: block; font-weight: 600; margin: 4px 0; color: var(--text); text-decoration: none; line-height: 1.4; overflow-wrap: anywhere; }
+.rec-title:hover { color: var(--accent); text-decoration: underline; }
+.rec-sum { margin: 4px 0; font-size: 14px; color: var(--text-2); line-height: 1.5; overflow-wrap: anywhere; }
+.rec-why { margin: 6px 0; font-size: 14px; line-height: 1.5; }
+.rec-foot { display: flex; gap: 8px; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 6px; }
+.seg.small button { font-size: 12px; padding: 3px 8px; }
+.ref { font-weight: 700; text-decoration: none; }

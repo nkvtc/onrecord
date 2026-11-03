@@ -16,6 +16,7 @@ Layout:
 
 from __future__ import annotations
 
+import hashlib
 import json
 import shutil
 from datetime import UTC, datetime
@@ -73,7 +74,9 @@ def build_timeline(store: Store, topic: str) -> list[dict]:
                 ev = _event_json(e)
                 d = ev.get("details", {})
                 summary = "; ".join(
-                    f"{k}: {d[k]}" for k in ("offense", "sentence", "district", "note") if d.get(k)
+                    f"{k}: {d[k]}"
+                    for k in ("offense", "terms", "sentence", "district", "note")
+                    if d.get(k)
                 )
                 items.append(
                     {
@@ -205,6 +208,45 @@ def build_money(store: Store, topic: str) -> dict:
     return {"reports": reports, "transactions": rows}
 
 
+def record_key(item: dict) -> str:
+    """A short id that survives re-exports, for links that cite a record.
+
+    Timeline ids of itemized lists are positions on the page and shift when the source
+    adds an entry, so a shared link uses what the record says instead.
+    """
+    raw = f"{item['source']}|{item['date']}|{item['title']}"
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:12]
+
+
+def build_records(timelines: dict[str, list[dict]]) -> list[dict]:
+    """Every timeline item across topics, once, in a compact form for claim checks."""
+    out: dict[str, dict] = {}
+    for topic, items in timelines.items():
+        for i in items:
+            key = record_key(i)
+            if key in out:
+                if topic not in out[key]["topics"]:
+                    out[key]["topics"].append(topic)
+                continue
+            ev = i["events"][:8]
+            page = (ev[0].get("locator") or "").split(";")[0] if ev else ""
+            out[key] = {
+                "key": key,
+                "date": i["date"],
+                "type": i["doc_type"],
+                "title": i["title"],
+                "who": ev[0]["actor"] if ev else i["publisher"],
+                "publisher": i["publisher"],
+                "citation": i["citation"],
+                "url": i["url"],
+                "page": page if page.startswith("https://") and page != i["url"] else None,
+                "summary": (i["summary"] or "")[:600] or None,
+                "events": [[e["kind"], e["on"], e["actor"]] for e in ev] if len(ev) > 1 else None,
+                "topics": [topic],
+            }
+    return sorted(out.values(), key=lambda r: r["date"], reverse=True)
+
+
 def export(store: Store, out_dir: Path, topics: list[Topic], site_dir: Path | None = None) -> dict:
     out_dir = Path(out_dir)
     if site_dir and Path(site_dir).exists():
@@ -219,8 +261,9 @@ def export(store: Store, out_dir: Path, topics: list[Topic], site_dir: Path | No
         )
 
     index = []
+    timelines = {}
     for topic in sorted(topics, key=lambda t: (t.site.get("order", 99), t.id)):
-        timeline = build_timeline(store, topic.id)
+        timeline = timelines[topic.id] = build_timeline(store, topic.id)
         series = build_series(store, topic.id)
         money = build_money(store, topic.id)
         dump(data_dir / topic.id / "timeline.json", timeline)
@@ -258,6 +301,7 @@ def export(store: Store, out_dir: Path, topics: list[Topic], site_dir: Path | No
         ],
     }
     dump(data_dir / "topics.json", index)
+    dump(data_dir / "records.json", build_records(timelines))
     dump(data_dir / "meta.json", meta)
     store.db.commit()
     # Ship the whole database too: anyone can query it with SQL in their browser.
