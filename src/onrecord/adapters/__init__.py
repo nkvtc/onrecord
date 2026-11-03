@@ -2,6 +2,7 @@
 
 from .base import Adapter
 from .canada_news import CanadaNews
+from .congress_bills import CongressBills
 from .doj_clemency import DojClemency
 from .doj_clemency_stats import DojClemencyStats
 from .eurlex import EurLex
@@ -37,6 +38,7 @@ ADAPTERS: dict[str, type[Adapter]] = {
         TreasuryBudget,
         UsaSpendingAgencies,
         PaymentAccuracy,
+        CongressBills,
     )
 }
 

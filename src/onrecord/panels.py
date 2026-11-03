@@ -12,6 +12,7 @@ import re
 from collections.abc import Callable
 from datetime import date
 
+from .adapters.congress_bills import URL_TYPE
 from .store import Store
 
 # Presidential terms covered by the Federal Register's online records (1994 onward).
@@ -496,3 +497,141 @@ BUILDERS.update(
         "improper_payments": improper_payments,
     }
 )
+
+
+# ---- Bills that split Congress ----------------------------------------------------
+
+# House roll call questions that decide a bill itself, not a procedural step.
+PASSAGE = (
+    "Passage",
+    "Suspend the Rules and Pass",
+    "Senate Amendment",
+    "Conference Report",
+    "Objections of the President",
+)
+CLOSE = 0.2  # a margin of 20 points or less: the losing side had at least 40%
+SUMMARY_CHARS = 1500
+
+
+def _margin(yea: int, nay: int) -> float:
+    return abs(yea - nay) / (yea + nay)
+
+
+def _party_line(parties: list[dict]) -> bool:
+    """Most Republicans and most Democrats voted on opposite sides."""
+    by = {p["party"]: p for p in parties}
+    r, d = by.get("Republican"), by.get("Democratic")
+    if not r or not d or r["yea"] + r["nay"] < 10 or d["yea"] + d["nay"] < 10:
+        return False
+    return (r["yea"] > r["nay"]) != (d["yea"] > d["nay"])
+
+
+def _status(bill: dict) -> str:
+    if bill["law"]:
+        return "Became law"
+    if bill["vetoed"]:
+        return "Vetoed"
+    passed = {f["chamber"] for f in bill["rows"] if f["passed"]}
+    if passed == {"House", "Senate"}:
+        return "Passed both chambers"
+    last = bill["rows"][-1] if bill["rows"] else None
+    if last and not last["passed"]:
+        return f"Failed in the {last['chamber']}"
+    if passed:
+        return f"Passed the {passed.pop()}"
+    return "Voted on, not passed"
+
+
+def contested_bills(store: Store, today: date) -> dict:
+    house: dict[str, list[dict]] = {}
+    for v in _extras(store, "congress_bills", "house_vote"):
+        q = v.get("question", "")
+        if v.get("bill") and v.get("yea") is not None and any(p in q for p in PASSAGE):
+            if "Recommit" not in q:
+                house.setdefault(v["bill"], []).append(v)
+    bills = []
+    for b in _extras(store, "congress_bills", "bill"):
+        votes = [
+            {
+                "chamber": "House",
+                "date": v["date"],
+                "question": v["question"],
+                "result": v["result"],
+                "yea": v["yea"],
+                "nay": v["nay"],
+                "roll": v["roll"],
+                "url": f"https://clerk.house.gov/Votes/{v['date'][:4]}{v['roll']}",
+                "parties": [p for p in v["rows"] if p["yea"] + p["nay"] > 0],
+                "party_line": _party_line(v["rows"]),
+            }
+            for v in sorted(house.get(f"{b['type']}{b['number']}", []), key=lambda v: v["date"])
+        ]
+        votes += [
+            {
+                "chamber": "Senate",
+                "date": f["date"],
+                "question": f["text"].split(": ", 1)[-1],
+                "result": "Passed" if f["passed"] else "Failed",
+                "yea": f["yea"],
+                "nay": f["nay"],
+                "roll": f["roll"],
+            }
+            for f in b["rows"]
+            if f["chamber"] == "Senate" and f["yea"] is not None and f["yea"] + f["nay"] > 0
+        ]
+        if not votes:
+            continue
+        votes.sort(key=lambda v: v["date"])
+        closest = min(_margin(v["yea"], v["nay"]) for v in votes)
+        party_line = any(v.get("party_line") for v in votes)
+        summary = b["summary"]
+        status = _status(b)
+        bills.append(
+            {
+                "label": b["label"],
+                "title": b["short_title"] or b["title"],
+                "official_title": b["title"],
+                "sponsor": b["sponsor"],
+                "policy_area": b["policy_area"],
+                "introduced": b["introduced"],
+                "latest_action": b["latest_action"],
+                "law": b["law"],
+                "status": status,
+                "active": status.startswith("Passed"),
+                "url": (
+                    f"https://www.congress.gov/bill/{b['congress']}th-congress/"
+                    f"{URL_TYPE.get(b['type'], b['type'])}/{b['number']}"
+                ),
+                "summary": summary
+                and {
+                    "version": summary["version"],
+                    "date": summary["date"],
+                    "text": summary["text"][:SUMMARY_CHARS],
+                    "truncated": len(summary["text"]) > SUMMARY_CHARS,
+                },
+                "votes": votes,
+                "closest_margin": closest,
+                "party_line": party_line,
+                "contested": closest <= CLOSE or party_line,
+            }
+        )
+    bills.sort(key=lambda x: x["latest_action"]["date"], reverse=True)
+    return {
+        "bills": bills,
+        "close": CLOSE,
+        "source": "US House Clerk roll calls; Congress.gov bill status via GovInfo",
+        "rule": (
+            "Bills and joint resolutions with at least one recorded vote on the bill itself "
+            "(passage, suspension, agreeing to the other chamber's version, conference report, "
+            "veto override; not procedural votes such as rules or motions to recommit). A bill "
+            "counts as contested when, on any of those votes, the losing side had at least 40% "
+            "of the yea and nay votes, or most Republicans and most Democrats in the House voted "
+            "on opposite sides. Bills are found through House roll calls, so a bill only the "
+            "Senate has voted on is not listed yet; Senate counts are as stated in the bill's "
+            "official actions. What a bill would change is the Congressional Research "
+            "Service's summary of the latest version it has summarized, quoted as published."
+        ),
+    }
+
+
+BUILDERS["contested_bills"] = contested_bills

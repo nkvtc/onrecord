@@ -25,7 +25,12 @@ Six topics so far:
 - **Where it goes**: the whole federal budget by fiscal year since 2015: what the money
   was spent on, what was collected and the deficit, which departments spent it with each
   one's mission, what its money funds and its largest bureaus, and the agencies' own
-  estimates of improper payments by program (2004 onward).
+  estimates of improper payments by program (2004 onward), plus a flow and pie view of
+  where the money comes from and where it goes.
+- **Bills**: bills Congress has voted on this term, what each would change in the
+  Congressional Research Service's summary, how close each vote was, how the parties
+  split in the House, and where each bill stands. Contested bills are flagged by a
+  stated rule.
 - **In context**: the same records counted the same way across presidents: executive
   orders by day in office (1994 onward), clemency per president (back to 1900), and
   money raised by inaugural committees (2005 onward). Each chart states its counting rule.
@@ -82,6 +87,7 @@ archive).
 | `treasury_budget` | US | Monthly Treasury Statement: receipts, outlays by function and by agency, per fiscal year | no |
 | `usaspending_agencies` | US | Agency missions, budgetary resources, spending by budget function | no |
 | `payment_accuracy` | US | Improper payment estimates by program (OMB, PaymentAccuracy.gov) | no |
+| `congress_bills` | US | House roll calls (Clerk) and bill status with CRS summaries (Congress.gov via GovInfo) | no |
 
 Wanted next: Canada Gazette (the legal instruments behind Canadian countermeasures),
 USITC tariff schedule, court dockets, lobbying disclosures, federal contracts,

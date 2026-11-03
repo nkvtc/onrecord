@@ -114,6 +114,24 @@ that rule under the chart.
   measured change from year to year, so totals across years are not strictly
   comparable.
 
+## Bills in Congress
+
+- **Which bills.** Bills and joint resolutions (the kinds that can become law) with at
+  least one recorded vote on the bill itself: passage, passage under suspension of the
+  rules, agreeing to the other chamber's version, a conference report, or a veto
+  override. Procedural votes (rules, motions to recommit) are not counted. Bills are
+  found through House roll calls, because senate.gov refuses automated requests; a bill
+  only the Senate has voted on appears once the House votes on it.
+- **Contested** means that on at least one of those votes the losing side had at least
+  40% of the yea and nay votes, or most House Republicans and most House Democrats voted
+  on opposite sides. It is a rule about the vote record, not a judgment about the bill.
+- **What it would change** is the Congressional Research Service's summary of the
+  latest version it has summarized, quoted as Congress.gov publishes it, with the version
+  and date. CRS is Congress's nonpartisan research agency. Some bills have no summary yet.
+- **Vote counts.** House counts and the party breakdown come from the Clerk's roll call
+  file. Senate counts are as stated in the bill's official actions ("51 - 50. Record Vote
+  Number: 372"). "Present" and not voting are left out of the margin.
+
 ## Accountability records
 
 The accountability topic holds executive orders, clemency grants and reported donations.

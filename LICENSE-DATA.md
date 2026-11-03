@@ -25,6 +25,7 @@ those terms:
 | DOJ Office of the Pardon Attorney | Public domain (US federal work) |
 | FEC filings | Public record; see note below |
 | Treasury Fiscal Data, USAspending, GAO, PaymentAccuracy.gov (OMB) | Public domain (US federal works) |
+| House Clerk roll calls, Congress.gov bill status and CRS summaries (via GovInfo) | Public domain (US federal works) |
 | US map geometry (us-atlas, from the US Census Bureau) | ISC licence, bundled in `site/vendor/` |
 
 **FEC data.** Federal law (52 U.S.C. 30111(a)(4)) prohibits using contributor

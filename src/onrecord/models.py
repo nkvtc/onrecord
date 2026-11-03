@@ -74,6 +74,8 @@ EVENT_KINDS = {
     "struck_down",
     "proposed",  # a formal proposal (e.g. European Commission proposal for a regulation)
     "adopted",  # an act adopted by the body with power to adopt it
+    "passed",  # one chamber of a legislature passed it
+    "vetoed",
     "pardoned",
     "commuted",
     "clemency",  # pardon or commutation, where the source doesn't say which

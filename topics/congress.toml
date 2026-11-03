@@ -1,0 +1,37 @@
+# Bills Congress has voted on, what each would change in the Congressional Research
+# Service's words, and how close the votes were and how the parties split.
+
+id = "congress"
+title = "Bills that split Congress"
+since = 2025-01-03
+description = """
+Bills and joint resolutions that got a recorded House vote in the current Congress, with
+the Congressional Research Service summary of what each would change, the vote counts in
+each chamber, how each party voted in the House, and where the bill stands now.
+"""
+
+[congress_bills]
+congress = 119
+
+[site]
+order = 7
+tab = "Bills"
+view = "congress"
+headline = "Bills that split Congress"
+lede = """What Congress has voted on this term and what each bill would actually change, \
+in the nonpartisan Congressional Research Service's summary, with how close each vote was \
+and how the parties voted. Sorted so the most divided votes are easy to find."""
+
+[[site.panels]]
+kind = "contested_bills"
+title = "Contested bills, and what they would change"
+
+[[site.filters]]
+label = "All"
+
+[site.ask]
+examples = [
+  "Which bills passed the House by fewer than ten votes this Congress, and what do they do?",
+  "Which contested bills are still waiting for a Senate vote?",
+  "What would the most recent party-line bill change, according to its CRS summary?",
+]

@@ -5,7 +5,7 @@
 const DOMAIN_START = "2024-01-01";
 const TYPE_LABELS = {
   executive_order: "executive order", pardoned: "pardon", commuted: "commutation",
-  clemency: "pardon or commutation", news_release: "statement", international_agreement: "international agreement",
+  clemency: "pardon or commutation", passed: "passed a chamber", proposed: "introduced", adopted: "became law", news_release: "statement", international_agreement: "international agreement",
 };
 const JUR_COLOR = { US: "--us", CA: "--ca", EU: "--eu" };
 
@@ -379,7 +379,7 @@ function renderPanels() {
   panels.forEach((p, i) => {
     const el = host.querySelector(`[data-panel="${i}"]`);
     ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural, monthly_revenue: drawRevenue, spending_map: drawMap, top_contractors: drawContractors,
-      budget_functions: drawFunctions, receipts_outlays: drawReceipts, money_flow: drawFlow, agency_outlays: drawAgencies, improper_payments: drawImproper })[p.kind]?.(el, p);
+      budget_functions: drawFunctions, receipts_outlays: drawReceipts, money_flow: drawFlow, agency_outlays: drawAgencies, improper_payments: drawImproper, contested_bills: drawBills })[p.kind]?.(el, p);
   });
 }
 
@@ -664,6 +664,67 @@ function drawContractors(el, p) {
   hbars(el, rows, [{ label: "Contract obligations", color: css("--series-1") }], (v) => `$${(v / 1e9).toFixed(1)}B`);
   el.querySelector("[data-lead]").innerHTML = p.fiscal_year ? `<p class="sub">Fiscal year ${p.fiscal_year} (October ${p.fiscal_year - 1} to September ${p.fiscal_year}).</p>` : "";
   el.querySelector("[data-foot]").innerHTML = tableToggle(["Recipient (as reported)", "Contract obligations"], p.rows.map((r) => [r.name, fmtUSD(r.amount)]));
+}
+
+// ---- Bills that split Congress ---------------------------------------------------
+
+const billState = { show: "contested", sort: "recent", limit: 15 };
+const PARTY = { Republican: "R", Democratic: "D", Independent: "I" };
+
+function voteRow(v) {
+  const total = v.yea + v.nay, margin = v.yea - v.nay;
+  const parties = (v.parties || []).map((p) => `${PARTY[p.party] || p.party} ${p.yea}–${p.nay}`).join(" · ");
+  const label = v.url ? `<a href="${esc(v.url)}" target="_blank" rel="noopener">Roll ${esc(v.roll)}</a>` : v.roll ? `Record vote ${esc(v.roll)}` : "";
+  return `<li><div class="vote-head"><b>${v.chamber}</b> <span>${fmtDay(v.date)} · ${esc(v.question)}</span></div>` +
+    `<div class="vote-bar" role="img" aria-label="${v.yea} yea, ${v.nay} nay"><span class="yea" style="flex:${v.yea}"></span><span class="nay" style="flex:${v.nay}"></span></div>` +
+    `<div class="vote-foot"><span><b>${v.yea}–${v.nay}</b> ${esc(v.result.toLowerCase())}${Math.abs(margin) <= 10 ? ` by ${Math.abs(margin)} vote${Math.abs(margin) === 1 ? "" : "s"}` : ""} (${pct(Math.max(v.yea, v.nay) / total)} to ${pct(Math.min(v.yea, v.nay) / total)})</span>` +
+    `${parties ? `<span>${esc(parties)}${v.party_line ? ` <em class="flag">party line</em>` : ""}</span>` : ""}<span>${label}</span></div></li>`;
+}
+
+function billCard(b) {
+  const s = b.summary, paras = s ? s.text.split("\n") : [];
+  const statusCls = b.law ? "law" : b.status.startsWith("Failed") || b.status === "Vetoed" ? "stop" : "moving";
+  return `<article class="bill"><header><div><a class="bill-title" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.label)}: ${esc(b.title)}</a>` +
+    `<p class="sub">${[b.sponsor && `Sponsor ${esc(b.sponsor)}`, b.policy_area && esc(b.policy_area), b.introduced && `introduced ${fmtDay(b.introduced)}`].filter(Boolean).join(" · ")}</p></div>` +
+    `<span class="status ${statusCls}">${esc(b.law ? `Law (${b.law})` : b.status)}</span></header>` +
+    `<div class="bill-change"><h4>What it would change${s ? ` <span class="sub">CRS summary, ${esc(s.version.toLowerCase())}, ${fmtDay(s.date)}</span>` : ""}</h4>` +
+    (s ? `<p>${esc(paras[0])}</p>` + (paras.length > 1 || s.truncated ? `<details><summary>Read more</summary>${paras.slice(1).map((p) => `<p>${esc(p)}</p>`).join("")}` +
+      (s.truncated ? `<p><a href="${esc(b.url)}" target="_blank" rel="noopener">Full summary on Congress.gov</a></p>` : "") + `</details>` : "")
+      : `<p class="sub">No Congressional Research Service summary yet. Official title: ${esc(b.official_title)}</p>`) + `</div>` +
+    `<ul class="votes">${b.votes.map(voteRow).join("")}</ul>` +
+    `<p class="sub">Latest action, ${fmtDay(b.latest_action.date)}: ${esc(b.latest_action.text)}</p></article>`;
+}
+
+const closestVote = (b) => {
+  const v = b.votes.reduce((a, x) => (Math.abs(x.yea - x.nay) / (x.yea + x.nay) < Math.abs(a.yea - a.nay) / (a.yea + a.nay) ? x : a));
+  return `${v.chamber} ${v.yea}–${v.nay}, ${v.date}`;
+};
+
+function drawBills(el, p) {
+  const controls = el.querySelector("[data-controls]");
+  const views = [["contested", "Contested"], ["active", "Still moving"], ["law", "Became law"], ["all", "All voted on"]];
+  controls.innerHTML = `<div class="seg" role="group" aria-label="Which bills">${views.map(([v, l]) =>
+    `<button type="button" data-v="${v}" aria-pressed="${billState.show === v}">${l}</button>`).join("")}</div>` +
+    `<select aria-label="Sort" data-sort><option value="recent">Latest action first</option><option value="close"${billState.sort === "close" ? " selected" : ""}>Closest vote first</option></select>`;
+  controls.querySelector(".seg").onclick = (e) => { const b = e.target.closest("button"); if (b) { billState.show = b.dataset.v; billState.limit = 15; drawBills(el, p); } };
+  controls.querySelector("[data-sort]").onchange = (e) => { billState.sort = e.target.value; drawBills(el, p); };
+  const contested = p.bills.filter((b) => b.contested);
+  const pick = { contested: (b) => b.contested, active: (b) => b.contested && b.active, law: (b) => b.contested && b.law, all: () => true }[billState.show];
+  const rows = p.bills.filter(pick);
+  if (billState.sort === "close") rows.sort((a, b) => a.closest_margin - b.closest_margin);
+  el.querySelector("[data-lead]").innerHTML = `<p class="big"><b>${fmtNum(p.bills.length)}</b> bills got a recorded vote on the bill itself this Congress. ` +
+    `<b>${fmtNum(contested.length)}</b> were contested` + (contested.every((b) => b.party_line) ? ", every one of them along party lines in the House: "
+      : `: ${fmtNum(contested.filter((b) => b.party_line).length)} split the parties in the House, `) +
+    `${fmtNum(contested.filter((b) => b.law).length)} became law, ${fmtNum(contested.filter((b) => b.active).length)} are still moving.</p>`;
+  el.querySelector("[data-legend]").innerHTML = `<span><i style="background:${css("--p3")}"></i>Yea</span><span><i style="background:${css("--series-2")}"></i>Nay</span>` +
+    `<span>Showing ${fmtNum(Math.min(rows.length, billState.limit))} of ${fmtNum(rows.length)}</span>`;
+  const host = el.querySelector("[data-chart]");
+  host.innerHTML = rows.length ? `<div class="bills">${rows.slice(0, billState.limit).map(billCard).join("")}</div>` +
+    (rows.length > billState.limit ? `<button type="button" class="more" data-more>Show ${fmtNum(Math.min(15, rows.length - billState.limit))} more</button>` : "")
+    : `<p class="sub">No bills in this group yet.</p>`;
+  host.querySelector("[data-more]")?.addEventListener("click", () => { billState.limit += 15; drawBills(el, p); });
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Bill", "Status", "Closest vote", "Party line", "Latest action"],
+    rows.map((b) => [`${b.label}: ${b.title}`, b.law ? `Law (${b.law})` : b.status, closestVote(b), b.party_line ? "Yes" : "", b.latest_action.date]));
 }
 
 // ---- Where the money goes panels ----------------------------------------------

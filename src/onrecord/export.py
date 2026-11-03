@@ -27,7 +27,16 @@ from .topics import Topic
 
 # Which event date best answers "when did this happen?", in order of preference.
 # Effective dates come last: they can be in the future, and the item shows them anyway.
-PRIMARY_EVENT = ("signed", "adopted", "proposed", "published", "announced", "effective")
+PRIMARY_EVENT = (
+    "signed",
+    "adopted",
+    "vetoed",
+    "passed",
+    "proposed",
+    "published",
+    "announced",
+    "effective",
+)
 
 
 def _event_json(e) -> dict:
