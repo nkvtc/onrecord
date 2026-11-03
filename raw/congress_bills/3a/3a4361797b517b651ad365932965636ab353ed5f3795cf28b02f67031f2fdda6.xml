@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3633</number>
+    <updateDate>2026-09-17T17:09:18Z</updateDate>
+    <updateDateIncludingText>2026-09-17T17:09:18Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-05-29</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/3633</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 91 (Thursday, May 29, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. HILL of Arkansas:H.R. 3633.Congress has the power to enact this legislation pursuantto the following:Regulations with an Effect on Interstate Commerce ArticleI, Section 8, clause 3 (Commerce Clause)[Page H2377]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>ssbk00</systemCode>
+        <name>Banking, Housing, and Urban Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2026-06-01T22:09:36Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2026-05-14T18:18:55Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-09-18T19:20:08Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-06-24T00:51:06Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-06-10T17:12:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-05-29T15:07:05Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-06-24T00:50:46Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-06-10T17:05:41Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-05-29T15:07:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-168,Part 1</citation>
+      </committeeReport>
+      <committeeReport>
+        <citation>H. Rept. 119-168,Part 2</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.</title>
+        <congress>119</congress>
+        <number>707</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-03-25</actionDate>
+          <text>Pursuant to the provisions of H.Res. 1131, H.Res. 707 is amended.</text>
+          <actionTime>14:07:00</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Securing Innovation in Financial Regulation Act</title>
+        <congress>119</congress>
+        <number>3690</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-03</actionDate>
+          <text>Referred to the Committee on Financial Services, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 4016) making appropriations for the Department of Defense for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 3633) to provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission, and for other purposes; providing for consideration of the bill (H.R. 1919) to amend the Federal Reserve Act to prohibit the Federal reserve banks from offering certain products or services directly to an individual, to prohibit the use of central bank digital currency for monetary policy, and for other purposes; providing for consideration of the bill (S. 1582) to provide for the regulation of payment stablecoins, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.</title>
+        <congress>119</congress>
+        <number>580</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-07-16</actionDate>
+          <text>On agreeing to the resolution Agreed to by recorded vote: 217 - 212 (Roll no. 198).</text>
+          <actionTime>23:04:07</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-09-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Tillis to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked (Record Vote No. 234) entered in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-09-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234. (CR S4706)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>234</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-09-15T19:08:40Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-08-08</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4557)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-08-08</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S4557)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-06-01</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 423.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-06-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Banking, Housing, and Urban Affairs. Reported by Senator Scott SC, with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-06-01</actionDate>
+        <text>Committee on Banking, Housing, and Urban Affairs. Reported by Senator Scott SC, with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Banking, Housing, and Urban Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssbk00</systemCode>
+            <name>Banking, Housing, and Urban Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>15:30:33</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>15:30:31</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 294 - 134 (Roll no. 199). (text of amendment in the nature of a substitute: CR H3373-3397)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>199</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll199.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-07-17T19:30:31Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>15:30:31</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 294 - 134 (Roll no. 199).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>199</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll199.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-07-17T19:30:31Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>14:49:15</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H3449)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>10:35:07</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 3633, the Chair put the question on passage of the bill and by voice vote, announced that the ayes had prevailed. Ms. Craig demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>10:34:41</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>09:24:25</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 3633.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>09:22:50</actionTime>
+        <text>Rule provides for consideration of H.R. 4016, H.R. 3633, H.R. 1919 and S. 1582. The resolution provides for consideration of H.R. 4016 and H.R. 3633 under a structured rule, and H.R. 1919 and S. 1582 under a closed rule, with one hour of general debate on each bill. The resolution provides for a motion to recommit on H.R. 4016, H.R. 3633, and H.R. 1919, and a motion to commit on S. 1582.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-17</actionDate>
+        <actionTime>09:22:45</actionTime>
+        <text>Considered under the provisions of rule H. Res. 580. (consideration: CR H3373)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-15</actionDate>
+        <actionTime>09:34:09</actionTime>
+        <text>Rules Committee Resolution H. Res. 580 Reported to House. Rule provides for consideration of H.R. 4016, H.R. 3633, H.R. 1919 and S. 1582. The resolution provides for consideration of H.R. 4016 and H.R. 3633 under a structured rule, and H.R. 1919 and S. 1582 under a closed rule, with one hour of general debate on each bill. The resolution provides for a motion to recommit on H.R. 4016, H.R. 3633, and H.R. 1919, and a motion to commit on S. 1582.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-23</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 134.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00134</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-06-23</actionDate>
+        <text>Reported (Amended) by the Committee on Financial Services. H. Rept. 119-168, Part II.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-23</actionDate>
+        <text>Reported (Amended) by the Committee on Financial Services. H. Rept. 119-168, Part II.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-23</actionDate>
+        <text>Reported (Amended) by the Committee on Agriculture. H. Rept. 119-168, Part I.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-23</actionDate>
+        <text>Reported (Amended) by the Committee on Agriculture. H. Rept. 119-168, Part I.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 32 - 19.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 47 - 6.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Referred to the Committee on Financial Services, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Referred to the Committee on Financial Services, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H001072</bioguideId>
+        <fullName>Rep. Hill, J. French [R-AR-2]</fullName>
+        <firstName>J.</firstName>
+        <lastName>Hill</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <middleName>French</middleName>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>T000467</bioguideId>
+        <fullName>Rep. Thompson, Glenn [R-PA-15]</fullName>
+        <firstName>Glenn</firstName>
+        <lastName>Thompson</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>15</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001119</bioguideId>
+        <fullName>Rep. Craig, Angie [D-MN-2]</fullName>
+        <firstName>Angie</firstName>
+        <lastName>Craig</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>2</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000294</bioguideId>
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Emmer</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>6</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000301</bioguideId>
+        <fullName>Rep. Johnson, Dusty [R-SD-At Large]</fullName>
+        <firstName>Dusty</firstName>
+        <lastName>Johnson</lastName>
+        <party>R</party>
+        <state>SD</state>
+        <district>0</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000230</bioguideId>
+        <fullName>Rep. Davis, Donald G. [D-NC-1]</fullName>
+        <firstName>Donald</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>G.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001213</bioguideId>
+        <fullName>Rep. Steil, Bryan [R-WI-1]</fullName>
+        <firstName>Bryan</firstName>
+        <lastName>Steil</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>1</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000486</bioguideId>
+        <fullName>Rep. Torres, Ritchie [D-NY-15]</fullName>
+        <firstName>Ritchie</firstName>
+        <lastName>Torres</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>15</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000626</bioguideId>
+        <fullName>Rep. Davidson, Warren [R-OH-8]</fullName>
+        <firstName>Warren</firstName>
+        <lastName>Davidson</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <district>8</district>
+        <sponsorshipDate>2025-05-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000583</bioguideId>
+        <fullName>Rep. Gottheimer, Josh [D-NJ-5]</fullName>
+        <firstName>Josh</firstName>
+        <lastName>Gottheimer</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>5</district>
+        <sponsorshipDate>2025-06-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001058</bioguideId>
+        <fullName>Rep. Huizenga, Bill [R-MI-4]</fullName>
+        <firstName>Bill</firstName>
+        <lastName>Huizenga</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>4</district>
+        <sponsorshipDate>2025-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000193</bioguideId>
+        <fullName>Rep. Nunn, Zachary [R-IA-3]</fullName>
+        <firstName>Zachary</firstName>
+        <lastName>Nunn</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>3</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000599</bioguideId>
+        <fullName>Rep. Lawler, Michael [R-NY-17]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Lawler</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>17</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001204</bioguideId>
+        <fullName>Rep. Meuser, Daniel [R-PA-9]</fullName>
+        <firstName>Daniel</firstName>
+        <lastName>Meuser</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>9</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001103</bioguideId>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <firstName>Earl</firstName>
+        <lastName>Carter</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>L. "Buddy"</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001235</bioguideId>
+        <fullName>Rep. Moore, Riley M. [R-WV-2]</fullName>
+        <firstName>Riley</firstName>
+        <lastName>Moore</lastName>
+        <party>R</party>
+        <state>WV</state>
+        <middleName>M.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001323</bioguideId>
+        <fullName>Rep. Begich, Nicholas J. [R-AK-At Large]</fullName>
+        <firstName>Nicholas</firstName>
+        <lastName>Begich</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>J.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001237</bioguideId>
+        <fullName>Rep. McDonald Rivet, Kristen [D-MI-8]</fullName>
+        <firstName>Kristen</firstName>
+        <lastName>McDonald Rivet</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>8</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000488</bioguideId>
+        <fullName>Rep. Thanedar, Shri [D-MI-13]</fullName>
+        <firstName>Shri</firstName>
+        <lastName>Thanedar</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>13</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001233</bioguideId>
+        <fullName>Rep. Messmer, Mark B. [R-IN-8]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Messmer</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>B.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001327</bioguideId>
+        <fullName>Rep. Bresnahan, Robert P. [R-PA-8]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Bresnahan</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2025-06-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001215</bioguideId>
+        <fullName>Rep. Stevens, Haley M. [D-MI-11]</fullName>
+        <firstName>Haley</firstName>
+        <lastName>Stevens</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>M.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2025-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-07-10T17:55:00Z</pubDate>
+        <title>Estimated Budgetary Effects of H.R. 3633, CLARITY Act of 2025</title>
+        <url>https://www.cbo.gov/publication/61542</url>
+        <description>As posted on the website of the House Committee on Rules on July 2, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2025-08-01T15:04:00Z</updateDate>
+        </item>
+        <item>
+          <name>Bank accounts, deposits, capital</name>
+          <updateDate>2025-08-01T16:18:39Z</updateDate>
+        </item>
+        <item>
+          <name>Banking and financial institutions regulation</name>
+          <updateDate>2025-08-01T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Business records</name>
+          <updateDate>2025-08-01T16:18:30Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-04-07T18:05:39Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2025-08-01T14:50:06Z</updateDate>
+        </item>
+        <item>
+          <name>Currency</name>
+          <updateDate>2025-08-01T14:45:46Z</updateDate>
+        </item>
+        <item>
+          <name>Data collection, sharing, protection</name>
+          <updateDate>2026-04-07T18:05:32Z</updateDate>
+        </item>
+        <item>
+          <name>Digital media</name>
+          <updateDate>2025-08-01T14:45:39Z</updateDate>
+        </item>
+        <item>
+          <name>Financial services and investments</name>
+          <updateDate>2025-08-01T15:00:06Z</updateDate>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+          <updateDate>2025-08-01T15:04:30Z</updateDate>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+          <updateDate>2025-08-01T15:14:22Z</updateDate>
+        </item>
+        <item>
+          <name>Securities</name>
+          <updateDate>2025-08-01T14:50:15Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Finance and Financial Sector</name>
+        <updateDate>2025-06-12T14:12:30Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-05-29</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-07-14T21:21:33Z</updateDate>
+        <text><![CDATA[<p><strong>Digital Asset Market Clarity Act of 2025 or the CLARITY Act of 2025</strong></p><p>This bill establishes a regulatory framework for digital commodities, defined by the bill as digital assets that rely upon a&nbsp;blockchain for their value.</p><p>The Commodity Futures Trading Commission must generally regulate digital commodities transactions, including digital commodity exchanges, brokers, and dealers. To qualify for trade on an exchange (1) a digital commodity’s blockchain must be mature, or on a blockchain system that has achieved decentralized control as defined by the bill; or (2) the issuer of the digital commodity must file certain reports. The bill establishes requirements for trade monitoring, recordkeeping, and the commingling of customer assets. &nbsp;</p><p>The bill exempts digital commodities on mature&nbsp;blockchains (and&nbsp;digital commodities on blockchains expected to mature within certain timeframes)&nbsp;from Securities and Exchange Commission (SEC) registration requirements if annual sales fall under a certain amount and other requirements are met. The bill provides the SEC with jurisdiction over digital commodity activities and transactions engaged in by certain brokers and dealers on alternative trading systems and by national securities exchanges.&nbsp;</p><p>Digital commodity exchanges, brokers, and dealers are subject to the Bank Secrecy Act for anti-money laundering and related purposes.</p><p>The bill also sets forth requirements for alternative trading systems, previously issued digital commodities, and provisional registration until the bill is implemented. &nbsp;</p><p>For more information on this bill, see <a href="https://www.congress.gov/crs-product/IN12583">CRS Insight IN12583, Crypto Legislation: An Overview of H.R. 3633, the CLARITY Act</a>.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Digital Asset Market Clarity Act</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) as Reported to Senate for portions of this bill</titleType>
+        <titleTypeCode>108</titleTypeCode>
+        <title>Lummis-Gillibrand Responsible Financial Innovation Act of 2026</title>
+        <updateDate>2026-06-03T05:08:25Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Reported to Senate</billTextVersionName>
+        <billTextVersionCode>RS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Digital Asset Market Clarity Act</title>
+        <updateDate>2026-06-03T05:08:25Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to Senate</titleType>
+        <titleTypeCode>103</titleTypeCode>
+        <title>Digital Asset Market Clarity Act</title>
+        <updateDate>2026-06-03T05:08:25Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Reported to Senate</billTextVersionName>
+        <billTextVersionCode>RS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles as Amended by House</titleType>
+        <titleTypeCode>7</titleTypeCode>
+        <title>To provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission, to amend the Federal Reserve Act to prohibit the Federal reserve banks from offering certain products or services directly to an individual, to prohibit the use of central bank digital currency for monetary policy, and for other purposes.</title>
+        <updateDate>2025-09-23T15:31:56Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission, to amend the Federal Reserve Act to prohibit the Federal reserve banks from offering certain products or services directly to an individual, to prohibit the use of central bank digital currency for monetary policy, and for other purposes.</title>
+        <updateDate>2025-09-22T17:38:16Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Anti-CBDC Surveillance State Act</title>
+        <updateDate>2025-09-20T06:08:14Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>CLARITY Act of 2025</title>
+        <updateDate>2025-09-20T06:08:14Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Digital Asset Market Clarity Act of 2025</title>
+        <updateDate>2025-09-20T06:08:14Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Digital Asset Market Clarity Act of 2025</title>
+        <updateDate>2025-07-22T04:23:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Digital Asset Market Clarity Act of 2025</title>
+        <updateDate>2025-06-24T07:38:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Digital Asset Market Clarity Act of 2025</title>
+        <updateDate>2025-06-03T04:23:20Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission, and for other purposes.</title>
+        <updateDate>2025-06-03T04:18:31Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>6772</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-09-16T11:08:26Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>H001046</bioguideId>
+            <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+            <firstName>Martin</firstName>
+            <lastName>Heinrich</lastName>
+            <party>D</party>
+            <state>NM</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-09-15T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3633</number>
+          <title>Digital Asset Market Clarity Act</title>
+          <updateDateIncludingText>2026-09-17</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-09-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-09-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6771</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-09-16T21:50:12Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>M000934</bioguideId>
+            <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+            <firstName>Jerry</firstName>
+            <lastName>Moran</lastName>
+            <party>R</party>
+            <state>KS</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>11</countIncludingWithdrawnCosponsors>
+          <count>11</count>
+          <item>
+            <bioguideId>R000122</bioguideId>
+            <fullName>Sen. Reed, Jack [D-RI]</fullName>
+            <firstName>John</firstName>
+            <lastName>Reed</lastName>
+            <party>D</party>
+            <state>RI</state>
+            <middleName>F.</middleName>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>C001035</bioguideId>
+            <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+            <firstName>Susan</firstName>
+            <lastName>Collins</lastName>
+            <party>R</party>
+            <state>ME</state>
+            <middleName>M.</middleName>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>H001046</bioguideId>
+            <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+            <firstName>Martin</firstName>
+            <lastName>Heinrich</lastName>
+            <party>D</party>
+            <state>NM</state>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>H001079</bioguideId>
+            <fullName>Sen. Hyde-Smith, Cindy [R-MS]</fullName>
+            <firstName>Cindy</firstName>
+            <lastName>Hyde-Smith</lastName>
+            <party>R</party>
+            <state>MS</state>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000383</bioguideId>
+            <fullName>Sen. King, Angus S., Jr. [I-ME]</fullName>
+            <firstName>Angus</firstName>
+            <lastName>King</lastName>
+            <party>I</party>
+            <state>ME</state>
+            <middleName>S.</middleName>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>C001114</bioguideId>
+            <fullName>Sen. Curtis, John R. [R-UT]</fullName>
+            <firstName>John</firstName>
+            <lastName>Curtis</lastName>
+            <party>R</party>
+            <state>UT</state>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001203</bioguideId>
+            <fullName>Sen. Smith, Tina [D-MN]</fullName>
+            <firstName>Tina</firstName>
+            <lastName>Smith</lastName>
+            <party>D</party>
+            <state>MN</state>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>C001056</bioguideId>
+            <fullName>Sen. Cornyn, John [R-TX]</fullName>
+            <firstName>John</firstName>
+            <lastName>Cornyn</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>M001153</bioguideId>
+            <fullName>Sen. Murkowski, Lisa [R-AK]</fullName>
+            <firstName>Lisa</firstName>
+            <lastName>Murkowski</lastName>
+            <party>R</party>
+            <state>AK</state>
+            <sponsorshipDate>2026-09-15</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>H001089</bioguideId>
+            <fullName>Sen. Hawley, Josh [R-MO]</fullName>
+            <firstName>Josh</firstName>
+            <lastName>Hawley</lastName>
+            <party>R</party>
+            <state>MO</state>
+            <sponsorshipDate>2026-09-16</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001303</bioguideId>
+            <fullName>Sen. Blunt Rochester, Lisa [D-DE]</fullName>
+            <firstName>Lisa</firstName>
+            <lastName>Blunt Rochester</lastName>
+            <party>D</party>
+            <state>DE</state>
+            <sponsorshipDate>2026-09-16</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-09-15T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3633</number>
+          <title>Digital Asset Market Clarity Act</title>
+          <updateDateIncludingText>2026-09-17</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-09-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-09-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>48</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 580, in lieu of the amendments in the nature of a substitute recommended by the Committees on Agriculture and Financial Services now printed in the bill, an amendment in the nature of a substitute consisting of the text of Rules Committee Print 119-6, modified by the amendment printed in part B of House Report 119-199 is considered adopted.</description>
+        <updateDate>2025-07-18T10:54:18Z</updateDate>
+        <latestAction>
+          <actionDate>2025-07-17</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-07-17T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3633</number>
+          <title>Digital Asset Market Clarity Act</title>
+          <updateDateIncludingText>2026-09-17</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-07-17</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-07-17</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-07-17</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-07-17</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2026-06-01T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3633rs/xml/BILLS-119hr3633rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-09-18T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3633rfs/xml/BILLS-119hr3633rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-07-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3633eh/xml/BILLS-119hr3633eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-06-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3633rh/xml/BILLS-119hr3633rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-05-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3633ih/xml/BILLS-119hr3633ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-09-15</actionDate>
+      <text>Motion by Senator Tillis to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked (Record Vote No. 234) entered in Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

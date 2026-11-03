@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2262</number>
+    <updateDate>2026-06-11T23:26:40Z</updateDate>
+    <updateDateIncludingText>2026-06-11T23:26:40Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-03-21</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/2262</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 52 (Friday, March 21, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mrs. HINSON:H.R. 2262.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3Article I, Section 8, Clause 18[Page H1190]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsed00</systemCode>
+        <name>Education and Workforce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2026-01-13T21:59:35Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2026-01-13T19:31:49Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-12-30T19:20:45Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-04-09T13:18:34Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-21T20:02:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-423</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 2988) to amend the Employee Retirement Income Security Act of 1974 to specify requirements concerning the consideration of pecuniary and non-pecuniary factors, and for other purposes; providing for consideration of the bill (H.R. 2262) to amend the Fair Labor Standards Act of 1938 to exclude certain activities from hours worked, and for other purposes; providing for consideration of the bill (H.R. 2270) to amend the Fair Labor Standards Act of 1938 to exclude child and dependent care services and payments from the rate used to compute overtime compensation; providing for consideration of the bill (H.R. 2312) to amend the Fair Labor Standards Act of 1938 to revise the definition of the term ''tipped employee'', and for other purposes; and providing for consideration of the bill (H.R. 4366) to clarify the treatment of 2 or more employers as joint employers under the National Labor Relations Act and the Fair Labor Standards Act of 1938.</title>
+        <congress>119</congress>
+        <number>988</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-01-13</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:04:08</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>17:52:11</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>17:52:09</actionTime>
+        <text>On passage Failed by the Yeas and Nays: 209 - 215 (Roll no. 19).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>19</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll019.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-13T22:52:09Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>17:52:09</actionTime>
+        <text>Failed of passage/not agreed to in House On passage Failed by the Yeas and Nays: 209 - 215 (Roll no. 19).</text>
+        <type>Floor</type>
+        <actionCode>9000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>19</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll019.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-13T22:52:09Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>16:59:35</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 209 - 213 (Roll no. 18).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>18</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll018.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-13T21:59:35Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>16:32:19</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H692-693)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:32:33</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 2262, the Chair put the question on motion to recommit and by voice vote, announced the noes had prevailed. Mr. Norcross demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:32:02</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:31:49</actionTime>
+        <text>Mr. Norcross moved to recommit to the Committee on Education and Workforce. (text: CR H680-681)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:31:30</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:09:50</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 2262.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:09:00</actionTime>
+        <text>Rule provides for consideration of H.R. 2988, H.R. 2262, H.R. 2270, H.R. 2312 and H.R. 4366. The resolution provides for consideration of H.R. 2988 under a structured rule, and H.R. 2262, H.R. 2270, H.R. 2312, and H.R. 4366 under a closed rule. The rule provides for one hour of general debate and one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>14:08:55</actionTime>
+        <text>Considered under the provisions of rule H. Res. 988. (consideration: CR H677-681; text of amendment in the nature of a substitute: CR H677-678)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-12</actionDate>
+        <actionTime>18:48:32</actionTime>
+        <text>Rules Committee Resolution H. Res. 988 Reported to House. Rule provides for consideration of H.R. 2988, H.R. 2262, H.R. 2270, H.R. 2312 and H.R. 4366. The resolution provides for consideration of H.R. 2988 under a structured rule, and H.R. 2262, H.R. 2270, H.R. 2312, and H.R. 4366 under a closed rule. The rule provides for one hour of general debate and one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-30</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 369.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00369</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-12-30</actionDate>
+        <text>Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-423.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-30</actionDate>
+        <text>Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-423.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-04-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 18 - 13.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-03-21</actionDate>
+        <text>Referred to the House Committee on Education and Workforce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-21</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-21</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H001091</bioguideId>
+        <fullName>Rep. Hinson, Ashley [R-IA-2]</fullName>
+        <firstName>Ashley</firstName>
+        <lastName>Hinson</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000595</bioguideId>
+        <fullName>Rep. Letlow, Julia [R-LA-5]</fullName>
+        <firstName>Julia</firstName>
+        <lastName>Letlow</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>5</district>
+        <sponsorshipDate>2025-03-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001233</bioguideId>
+        <fullName>Rep. Messmer, Mark [R-IN-8]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Messmer</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>B.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2025-03-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-07-29T19:07:00Z</pubDate>
+        <title>H.R. 2262, Flexibility for Workers Education Act</title>
+        <url>https://www.cbo.gov/publication/61600</url>
+        <description>As ordered reported by the House Committee on Education and the Workforce on April 9, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Labor and Employment</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2025-04-14T17:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Labor standards</name>
+          <updateDate>2025-04-14T17:59:21Z</updateDate>
+        </item>
+        <item>
+          <name>Wages and earnings</name>
+          <updateDate>2025-04-14T17:59:16Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Labor and Employment</name>
+        <updateDate>2025-03-28T12:58:28Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2025-12-30</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2026-01-12T22:21:03Z</updateDate>
+        <text><![CDATA[<p><strong>Flexibility for Workers Education Act</strong></p><p>This bill modifies the definition of <em>hours worked </em>under the Fair Labor Standards Act&nbsp;to exclude&nbsp;certain voluntary training that occurs outside an employee's regular working hours. Such training does not count as hours worked even if it is offered by the employer, provided that an employee's working conditions are not adversely affected by choosing not to participate and the employee does not perform any work for the employer during the training.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Flexibility for Workers Education Act</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Flexibility for Workers Education Act</title>
+        <updateDate>2025-12-31T03:38:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Flexibility for Workers Education Act</title>
+        <updateDate>2025-03-27T03:23:26Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Flexibility for Workers Education Act</title>
+        <updateDate>2025-03-27T03:23:22Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Fair Labor Standards Act of 1938 to exclude certain activities from hours worked, and for other purposes.</title>
+        <updateDate>2025-03-27T03:18:50Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>146</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 988, the amendment in the nature of a substitute recommended by the Committee on Education and Workforce, modified by the amendment printed in part B of House Report 119-440, is considered adopted.</description>
+        <updateDate>2026-01-14T09:11:50Z</updateDate>
+        <latestAction>
+          <actionDate>2026-01-13</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2026-01-13T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>2262</number>
+          <title>Flexibility for Workers Education Act</title>
+          <updateDateIncludingText>2026-06-11</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-01-13</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-01-13</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2026-01-13</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2026-01-13</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-12-30T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2262rh/xml/BILLS-119hr2262rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-03-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2262ih/xml/BILLS-119hr2262ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-01-13</actionDate>
+      <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+      <actionTime>17:52:11</actionTime>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

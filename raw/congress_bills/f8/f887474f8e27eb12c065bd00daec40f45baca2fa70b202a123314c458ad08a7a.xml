@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1366</number>
+    <updateDate>2026-07-23T23:06:22Z</updateDate>
+    <updateDateIncludingText>2026-07-23T23:06:22Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-02-14</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/1366</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 31 (Friday, February 14, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. AMODEI of Nevada:H.R. 1366.Congress has the power to enact this legislation pursuantto the following:The constitutional authority on which this bill rests isthe power of Congress to make all rules and regulationsrespecting property belonging to the United States underArticle IV, Section 3, Clause 2.[Page H715]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings By (subcommittee)</name>
+                <date>2025-09-03T13:14:54Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2025-08-29T20:24:39Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-18T19:43:35Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-18T16:37:17Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-11-25T18:10:44Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-09-17T22:05:04Z</date>
+          </item>
+          <item>
+            <name>Discharged from</name>
+            <date>2025-09-17T22:04:42Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-14T18:34:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-386</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Mining Regulatory Clarity Act</title>
+        <congress>119</congress>
+        <number>544</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2026-02-11</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 334.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Department of the Interior, Environment, and Related Agencies Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>4754</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-07-24</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 175.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process; providing for consideration of the bill (H.R. 1366) to provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes; providing for consideration of the bill (H.R. 845) to require the Secretary of the Interior to reissue regulations removing the gray wolf from the list of endangered and threatened wildlife under the Endangered Species Act of 1973; providing for consideration of the bill (H.R. 3616) to require the Federal Energy Regulatory Commission to review regulations that may affect the reliable operation of the bulk-power system; providing for consideration of the bill (H.R. 3632) to amend the Federal Power Act to adjust the requirements for orders, rules, and regulations relating to furnishing adequate service, to require owners or operators of generating facilities to provide notice of planned retirements of certain electric generating units, and for other purposes; and providing for consideration of the bill (H.R. 4371) to amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 to enhance efforts to combat the trafficking of children.</title>
+        <congress>119</congress>
+        <number>951</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-12-16</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:32:50</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-03-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 357.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:46:36</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:46:34</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 219 - 198 (Roll no. 358). (text of amendment in the nature of a substitute: CR H6044)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>358</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll358.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-18T19:46:34Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:46:34</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 219 - 198 (Roll no. 358).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>358</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll358.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-18T19:46:34Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:43:35</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 205 - 213 (Roll no. 357).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>357</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll357.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-18T19:43:35Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:40:25</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H6069-6070)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:37:37</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 1366, the Chair put the question on motion to recommit and by voice vote announced the noes had prevailed. Ms. Leger Fernandez demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:37:28</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:37:17</actionTime>
+        <text>Ms. Leger Fernandez moved to recommit to the Committee on Natural Resources. (text: CR H6049)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:36:37</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:04:04</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 1366.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:03:27</actionTime>
+        <text>Rule provides for consideration of H.R. 4776, H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632 and H.R. 4371. The resolution provides for consideration of H.R. 4776, under a structured rule and H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632, and H.R. 4371 under a closed rule. The resolution provides one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:03:22</actionTime>
+        <text>Considered under the provisions of rule H. Res. 951. (consideration: CR H6044-6049)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>09:59:03</actionTime>
+        <text>Rules Committee Resolution H. Res. 951 Reported to House. Rule provides for consideration of H.R. 4776, H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632 and H.R. 4371. The resolution provides for consideration of H.R. 4776, under a structured rule and H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632, and H.R. 4371 under a closed rule. The resolution provides one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-25</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 336.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00336</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-11-25</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-386.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-11-25</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-386.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 17.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Energy and Mineral Resources Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-08-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii06</systemCode>
+            <name>Energy and Mineral Resources Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-14</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>A000369</bioguideId>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Amodei</lastName>
+        <party>R</party>
+        <state>NV</state>
+        <middleName>E.</middleName>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H001066</bioguideId>
+        <fullName>Rep. Horsford, Steven [D-NV-4]</fullName>
+        <firstName>Steven</firstName>
+        <lastName>Horsford</lastName>
+        <party>D</party>
+        <state>NV</state>
+        <district>4</district>
+        <sponsorshipDate>2025-02-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001323</bioguideId>
+        <fullName>Rep. Begich, Nicholas J. [R-AK-At Large]</fullName>
+        <firstName>Nicholas</firstName>
+        <lastName>Begich</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>J.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2025-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2025-05-12T19:16:42Z</updateDate>
+        </item>
+        <item>
+          <name>Land use and conservation</name>
+          <updateDate>2025-05-12T19:16:42Z</updateDate>
+        </item>
+        <item>
+          <name>Mining</name>
+          <updateDate>2025-05-12T19:16:42Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+        <updateDate>2025-05-28T12:48:36Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2025-11-25</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2025-12-16T17:37:47Z</updateDate>
+        <text><![CDATA[<p><strong>Mining Regulatory Clarity Act</strong></p><p>This bill&nbsp;allows mining operators to use federal lands for activities ancillary to mining, such as waste disposal, regardless of whether those lands contain mineral deposits valuable enough to be mined (mineral validity). It also establishes the Abandoned&nbsp;Hardrock Mine Fund.</p><p>The bill addresses a 2022 decision in the U.S. Court of Appeals for the Ninth Circuit&nbsp;related to the Rosemont Copper Mine in Arizona (commonly known as <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2022/05/12/19-17585.pdf">the Rosemont decision</a>, described further in <a href="https://crs.gov/Reports/R48166">CRS Report R48166</a>). The court held that mining claims are only allowed where mineral validity has been established and that mill site claims are more appropriate means for establishing a mining waste disposal site under the Mining Act.</p><p>The bill allows a mining operator to (1) locate and include within its plan of operations as many mill site claims (e.g., areas for waste rock disposal)&nbsp;as are reasonably necessary for its operations, and (2) use or occupy public land in accordance with an approved plan of operations.</p><p>Additionally, the bill requires any revenue generated from fees for such mill site claims to be deposited into the Abandoned Hardrock Mine Fund. The Department of the Interior must use the fund for certain abandoned hardrock mine reclamation activities.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Mining Regulatory Clarity Act</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Mining Regulatory Clarity Act</title>
+        <updateDate>2026-03-19T03:23:23Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Mining Regulatory Clarity Act</title>
+        <updateDate>2025-12-19T12:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes.</title>
+        <updateDate>2025-12-19T12:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Mining Regulatory Clarity Act</title>
+        <updateDate>2025-11-26T05:38:21Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Mining Regulatory Clarity Act</title>
+        <updateDate>2025-11-26T05:38:20Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Mining Regulatory Clarity Act of 2025</title>
+        <updateDate>2025-03-15T04:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes.</title>
+        <updateDate>2025-03-15T04:18:28Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>141</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 951, the amendment in the nature of a substitute recommended by the Committee on the Natural Resources is considered adopted.</description>
+        <updateDate>2025-12-19T09:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-18T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1366</number>
+          <title>Mining Regulatory Clarity Act</title>
+          <updateDateIncludingText>2026-07-23</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-03-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1366pcs/xml/BILLS-119hr1366pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-12-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1366eh/xml/BILLS-119hr1366eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-11-25T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1366rh/xml/BILLS-119hr1366rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-02-14T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1366ih/xml/BILLS-119hr1366ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-03-17</actionDate>
+      <text>Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 357.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

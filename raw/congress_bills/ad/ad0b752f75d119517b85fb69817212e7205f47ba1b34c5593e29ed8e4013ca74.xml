@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5200</number>
+    <updateDate>2026-09-19T23:17:12Z</updateDate>
+    <updateDateIncludingText>2026-09-19T23:17:12Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-09-08</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/5200</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 146 (Monday, September 8, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Ms. MATSUI:H.R. 5200.Congress has the power to enact this legislation pursuantto the following:Clause 3 of Section 8 of Article I of the Constitution[Page H3893]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif16</systemCode>
+            <name>Communications and Technology Subcommittee</name>
+            <activities>
+              <item>
+                <name>Reported by</name>
+                <date>2026-01-15T22:02:25Z</date>
+              </item>
+              <item>
+                <name>Markup by</name>
+                <date>2026-01-15T22:01:57Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2025-09-08T21:01:28Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2026-04-09T15:56:26Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-09-08T16:02:05Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-597</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 375.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>19:20:09</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>19:20:08</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 386 - 7 (Roll no. 126). (text: CR H2974-2975)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>126</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll126.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-20T23:20:08Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>19:20:08</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 386 - 7 (Roll no. 126). (text: CR H2974-2975)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>126</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll126.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-20T23:20:08Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>19:13:40</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2976-2978)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>16:44:32</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>16:38:41</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 5200.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>16:38:40</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H2974-2976)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-20</actionDate>
+        <actionTime>16:38:31</actionTime>
+        <text>Mr. Allen moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 517.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00517</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Reported by the Committee on Energy and Commerce. H. Rept. 119-597.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Reported by the Committee on Energy and Commerce. H. Rept. 119-597.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif16</systemCode>
+            <name>Communications and Technology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Forwarded by Subcommittee to Full Committee by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-01-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif16</systemCode>
+            <name>Communications and Technology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-08</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif16</systemCode>
+            <name>Communications and Technology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Communications and Technology.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-08</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-08</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-08</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001163</bioguideId>
+        <fullName>Rep. Matsui, Doris O. [D-CA-7]</fullName>
+        <firstName>Doris</firstName>
+        <lastName>Matsui</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>O.</middleName>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001257</bioguideId>
+        <fullName>Rep. Bilirakis, Gus M. [R-FL-12]</fullName>
+        <firstName>Gus</firstName>
+        <lastName>Bilirakis</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>M.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2025-09-08</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001300</bioguideId>
+        <fullName>Rep. Barragán, Nanette Diaz [D-CA-44]</fullName>
+        <firstName>Nanette</firstName>
+        <lastName>Barragán</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>Diaz</middleName>
+        <district>44</district>
+        <sponsorshipDate>2025-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-02-24T21:59:00Z</pubDate>
+        <title>H.R. 5200, Emergency Reporting Act</title>
+        <url>https://www.cbo.gov/publication/62178</url>
+        <description>As ordered reported by the House Committee on Energy and Commerce on January 21, 2026</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Science, Technology, Communications</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-09-29T17:35:53Z</updateDate>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+          <updateDate>2025-09-29T17:34:16Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency communications systems</name>
+          <updateDate>2025-09-29T17:34:49Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency medical services and trauma care</name>
+          <updateDate>2025-09-29T17:36:11Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2025-09-29T17:34:44Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-09-29T17:35:48Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-09-29T17:35:35Z</updateDate>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+          <updateDate>2025-09-29T17:37:08Z</updateDate>
+        </item>
+        <item>
+          <name>Telephone and wireless communication</name>
+          <updateDate>2025-09-29T17:35:22Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Science, Technology, Communications</name>
+        <updateDate>2026-04-13T13:14:12Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2026-04-09</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2026-04-15T19:04:34Z</updateDate>
+        <text><![CDATA[<p><strong>Emergency Reporting Act</strong></p><p>This bill requires the Federal Communications Commission (FCC) to investigate and report on emergency communications outages (e.g., 9-1-1 outages).</p><p>Specifically, the FCC must publish a general report on (1) the volume and nature of 9-1-1 outages that are not required to be reported under current outage notification rules, (2) the value and practicality of including visual information in outage notifications from communications providers, and (3) recommended changes to FCC rules to address these issues.</p><p>Separately, the FCC must hold annual public hearings on events for which the Disaster Information Reporting System (DIRS) was activated for at least a week. (DIRS is a reporting system that is activated during severe weather and other events impacting communications service. It enables communications providers to report outages and other degradations to service.) After each such hearing, the FCC must issue a report that includes information about the number, duration, and nature of all associated outages, along with recommendations for improving the resiliency of affected communications services or&nbsp;networks. Such reports must generally be made public on the FCC website.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Emergency Reporting Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Emergency Reporting Act</title>
+        <updateDate>2026-09-19T23:17:12Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Emergency Reporting Act</title>
+        <updateDate>2026-04-23T03:53:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Emergency Reporting Act</title>
+        <updateDate>2026-04-22T03:38:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To direct the Federal Communications Commission to issue reports after activation of the Disaster Information Reporting System and to make improvements to network outage reporting, and for other purposes.</title>
+        <updateDate>2026-04-22T03:38:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Emergency Reporting Act</title>
+        <updateDate>2026-04-10T06:08:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Emergency Reporting Act</title>
+        <updateDate>2025-09-12T03:53:20Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To direct the Federal Communications Commission to issue reports after activation of the Disaster Information Reporting System and to make improvements to network outage reporting, and for other purposes.</title>
+        <updateDate>2025-09-12T03:48:23Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-04-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5200pcs/xml/BILLS-119hr5200pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-04-20T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5200eh/xml/BILLS-119hr5200eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-04-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5200rh/xml/BILLS-119hr5200rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-09-08T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5200ih/xml/BILLS-119hr5200ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-04-21</actionDate>
+      <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 375.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

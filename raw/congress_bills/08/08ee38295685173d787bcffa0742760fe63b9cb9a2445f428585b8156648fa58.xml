@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2393</number>
+    <updateDate>2026-09-19T23:40:39Z</updateDate>
+    <updateDateIncludingText>2026-09-19T23:40:39Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2025-07-23</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-bill/2393</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>ssva00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-12-02T19:37:52Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-07-30T20:00:08Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-07-23T15:46:46Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <congress>119</congress>
+        <number>6710</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-15</actionDate>
+          <text>Referred to the House Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-06-09</actionDate>
+        <text>Became Public Law No: 119-97.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-09</actionDate>
+        <text>Became Public Law No: 119-97.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-09</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-09</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-02</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-02</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <actionTime>13:19:28</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <actionTime>13:19:26</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 405 - 5 (Roll no. 180).</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>180</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll180.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-05-20T17:19:26Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <actionTime>13:19:26</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 405 - 5 (Roll no. 180).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>180</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll180.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-05-20T17:19:26Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <actionTime>13:16:17</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H3646-3647)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-19</actionDate>
+        <actionTime>16:21:23</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-19</actionDate>
+        <actionTime>16:16:28</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on S. 2393.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-19</actionDate>
+        <actionTime>16:16:26</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H3575-3576; text: CR H3575)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-19</actionDate>
+        <actionTime>16:16:15</actionTime>
+        <text>Mr. Bost moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>10:04:23</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:57:06</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S8873-8874; text: CR S8873-8874)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 278.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-12-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Reported by Senator Moran without amendment. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-02</actionDate>
+        <text>Committee on Veterans' Affairs. Reported by Senator Moran without amendment. Without written report.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-07-23</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-07-23</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M000934</bioguideId>
+        <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+        <firstName>Jerry</firstName>
+        <lastName>Moran</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>B001277</bioguideId>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <party>D</party>
+        <state>CT</state>
+        <sponsorshipDate>2025-07-23</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-09-10T18:52:00Z</pubDate>
+        <title>S. 2393, Fiscal Year 2026 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <url>https://www.cbo.gov/publication/61661</url>
+        <description>As ordered reported by the Senate Committee on Veterans’ Affairs on July 30, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-97</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2025-08-08T15:23:54Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2025-08-08T15:23:49Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri</name>
+          <updateDate>2025-08-08T15:23:39Z</updateDate>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+          <updateDate>2025-08-08T15:23:43Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+        <updateDate>2026-06-10T16:43:08Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2025-12-17</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2026-05-13T21:49:44Z</updateDate>
+        <text><![CDATA[<p><strong>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</strong></p><p>This bill authorizes the Department of Veterans Affairs to carry out a major medical facility project in St. Louis, Missouri, during FY2026.</p><p>The bill specifies the maximum amount that may be spent on the project and details that the project consists of the construction of a new bed tower, clinical building expansion, consolidated administrative building and warehouse, utility plant, and parking garages.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2026-06-09</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-06-23T20:01:44Z</updateDate>
+        <text><![CDATA[<p><strong>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</strong></p><p>This act authorizes the Department of Veterans Affairs to carry out a major medical facility project in St. Louis, Missouri, during FY2026.</p><p>The act specifies the maximum amount that may be spent on the project and details that the project consists of the construction of a new bed tower, clinical building expansion, consolidated administrative building and warehouse, utility plant, and parking garages.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <updateDate>2026-09-19T23:40:39Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <updateDate>2026-05-22T10:08:30Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <titleTypeCode>105</titleTypeCode>
+        <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <updateDate>2025-12-18T05:08:16Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to Senate</titleType>
+        <titleTypeCode>103</titleTypeCode>
+        <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <updateDate>2025-12-04T03:38:20Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Reported to Senate</billTextVersionName>
+        <billTextVersionCode>RS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act</title>
+        <updateDate>2025-07-29T12:38:22Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A bill to authorize a major medical facility project for the Department of Veterans Affairs for fiscal year 2026 in St. Louis, Missouri, and for other purposes.</title>
+        <updateDate>2025-07-29T12:33:21Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s2393enr/uslm/BILLS-119s2393enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s2393enr/xml/BILLS-119s2393enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2025-12-17T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s2393es/xml/BILLS-119s2393es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2025-12-02T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s2393rs/xml/BILLS-119s2393rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-07-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s2393is/xml/BILLS-119s2393is.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-06-10T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ97/uslm/PLAW-119publ97.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-06-09</actionDate>
+      <text>Became Public Law No: 119-97.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

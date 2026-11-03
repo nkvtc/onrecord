@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>723</number>
+    <updateDate>2026-09-26T16:27:37Z</updateDate>
+    <updateDateIncludingText>2026-09-26T16:27:37Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2025-02-25</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-bill/723</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>slia00</systemCode>
+        <name>Indian Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Other</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-09-03T20:42:22Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-03-05T19:30:44Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-25T20:00:59Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 119-60</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Tribal Trust Land Homeownership Act of 2025</title>
+        <congress>119</congress>
+        <number>2130</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-02-23</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 439.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Tribal Trust Land Homeownership Act of 2021</title>
+        <congress>117</congress>
+        <number>3381</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2022-12-06</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 590.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Cross-Congress related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Tribal Trust Land Homeownership Act of 2023</title>
+        <congress>118</congress>
+        <number>70</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2023-07-20</actionDate>
+          <text>Held at the desk.</text>
+          <actionTime>12:07:07</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Cross-Congress related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Tribal Trust Land Homeownership Act of 2023</title>
+        <congress>118</congress>
+        <number>3579</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2023-07-12</actionDate>
+          <text>Subcommittee Hearings Held</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Cross-Congress related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-05-04</actionDate>
+        <text>Became Public Law No: 119-88.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-04</actionDate>
+        <text>Became Public Law No: 119-88.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-04</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-04</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-04</actionDate>
+        <actionTime>14:14:23</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-04</actionDate>
+        <actionTime>14:14:22</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 384 - 40 (Roll no. 81).</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>81</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll081.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-04T19:14:22Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-04</actionDate>
+        <actionTime>14:14:22</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 384 - 40 (Roll no. 81).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>81</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll081.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-04T19:14:22Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-04</actionDate>
+        <actionTime>14:07:02</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2390)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <actionTime>16:38:05</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <actionTime>16:30:28</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on S. 723.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <actionTime>16:30:25</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H2359-2362; text: CR H2359-2361)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <actionTime>16:30:20</actionTime>
+        <text>Mr. Westerman moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <actionTime>16:19:03</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <actionTime>16:06:14</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S8689-8691; text: CR S8689-8691)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Star Print ordered on 119-60.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 148.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Reported by Senator Murkowski without amendment. With written report No. 119-60.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <text>Committee on Indian Affairs. Reported by Senator Murkowski without amendment. With written report No. 119-60.</text>
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Indian Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>slia00</systemCode>
+            <name>Indian Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs. (text: CR S1350-1352)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-02-25</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>T000250</bioguideId>
+        <fullName>Sen. Thune, John [R-SD]</fullName>
+        <firstName>John</firstName>
+        <lastName>Thune</lastName>
+        <party>R</party>
+        <state>SD</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001203</bioguideId>
+        <fullName>Sen. Smith, Tina [D-MN]</fullName>
+        <firstName>Tina</firstName>
+        <lastName>Smith</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <sponsorshipDate>2025-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000605</bioguideId>
+        <fullName>Sen. Rounds, Mike [R-SD]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Rounds</lastName>
+        <party>R</party>
+        <state>SD</state>
+        <sponsorshipDate>2025-02-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001096</bioguideId>
+        <fullName>Sen. Cramer, Kevin [R-ND]</fullName>
+        <firstName>Kevin</firstName>
+        <lastName>Cramer</lastName>
+        <party>R</party>
+        <state>ND</state>
+        <sponsorshipDate>2025-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-05-28T20:30:00Z</pubDate>
+        <title>S. 723, Tribal Trust Land Homeownership Act of 2025</title>
+        <url>https://www.cbo.gov/publication/61441</url>
+        <description>As ordered reported by the Senate Committee on Indian Affairs on March 5, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-88</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-05-29T18:16:43Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-05-29T18:16:43Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-05-29T18:16:43Z</updateDate>
+        </item>
+        <item>
+          <name>Housing finance and home ownership</name>
+          <updateDate>2025-05-29T18:16:43Z</updateDate>
+        </item>
+        <item>
+          <name>Indian lands and resources rights</name>
+          <updateDate>2025-05-29T18:16:43Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2025-05-29T18:16:43Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Native Americans</name>
+        <updateDate>2026-05-06T19:52:40Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-25</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2025-06-24T19:16:00Z</updateDate>
+        <text><![CDATA[<p><strong>Tribal Trust Land Homeownership Act of 2025</strong></p><p>This bill sets forth requirements for the processing of a proposed residential leasehold mortgage, business leasehold mortgage, land mortgage, or right-of-way document by the Bureau of Indian Affairs (BIA). The BIA must notify lenders upon receipt of such documentation, perform a preliminary review of such documents not later than 10 days after receipt, and approve or disapprove of such documents within 20 or 30 days, depending on the type of application.</p><p>Additionally, the bill sets forth requirements for the BIA regarding (1) response times for the completion of certified title status reports, (2) notification of delays in processing, and (3) the form of notices and delivery of certain reports.</p><p>The bill also provides relevant federal agencies and Indian tribes with read-only access to the Trust Asset and Accounting Management System maintained by the BIA.</p><p>The Government Accountability Office must report on digitizing documents for the purpose of streamlining and expediting the completion of mortgage packages for residential mortgages on Indian land.</p><p>Finally, the bill establishes within the BIA's Division of Real Estate Services the position of Realty Ombudsman.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2026-05-04</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-06-22T16:21:42Z</updateDate>
+        <text><![CDATA[<p><strong>Tribal Trust Land Homeownership Act of 2025</strong></p><p>This act sets forth requirements for the processing of a proposed residential leasehold mortgage, business leasehold mortgage, land mortgage, or right-of-way document by the Bureau of Indian Affairs (BIA). The BIA must notify lenders upon receipt of such documentation, perform a preliminary review of such documents not later than 10 days after receipt, and approve or disapprove of such documents within 20 or 30 days, depending on the type of application.</p><p>Additionally, the act sets forth requirements for the BIA regarding (1) response times for the completion of certified title status reports, (2) notification of delays in processing, and (3) the form of notices and delivery of certain reports.</p><p>The act also provides relevant federal agencies and Indian tribes with read-only access to the Trust Asset and Accounting Management System maintained by the BIA.</p><p>The Government Accountability Office must report on digitizing documents for the purpose of streamlining and expediting the completion of mortgage packages for residential mortgages on Indian land.</p><p>Finally, the act establishes within the BIA's Division of Real Estate Services the position of Realty Ombudsman.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Tribal Trust Land Homeownership Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Tribal Trust Land Homeownership Act of 2025</title>
+        <updateDate>2026-09-19T23:22:40Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Tribal Trust Land Homeownership Act of 2025</title>
+        <updateDate>2026-03-06T04:08:20Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <titleTypeCode>105</titleTypeCode>
+        <title>Tribal Trust Land Homeownership Act of 2025</title>
+        <updateDate>2025-12-12T06:08:16Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to Senate</titleType>
+        <titleTypeCode>103</titleTypeCode>
+        <title>Tribal Trust Land Homeownership Act of 2025</title>
+        <updateDate>2025-09-05T04:08:19Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Reported to Senate</billTextVersionName>
+        <billTextVersionCode>RS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Tribal Trust Land Homeownership Act of 2025</title>
+        <updateDate>2025-03-04T15:23:22Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A bill to require the Bureau of Indian Affairs to process and complete all mortgage packages associated with residential and business mortgages on Indian land by certain deadlines, and for other purposes.</title>
+        <updateDate>2025-03-04T15:18:40Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s723enr/uslm/BILLS-119s723enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s723enr/xml/BILLS-119s723enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2025-12-11T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s723es/xml/BILLS-119s723es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported to Senate</type>
+        <date>2025-09-03T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s723rs/xml/BILLS-119s723rs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-02-25T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s723is/xml/BILLS-119s723is.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-05-05T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ88/uslm/PLAW-119publ88.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-05-04</actionDate>
+      <text>Became Public Law No: 119-88.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

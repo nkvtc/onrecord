@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4294</number>
+    <updateDate>2026-09-08T18:03:40Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:03:40Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-07-07</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/4294</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 116 (Monday, July 7, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Ms. ELFRETH:H.R. 4294.Congress has the power to enact this legislation pursuantto the following:Necessary and Proper Clause (Art. 1, Sec. 8, Cl. 18)[Page H3194]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sscm00</systemCode>
+        <name>Commerce, Science, and Transportation Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-03-18T16:31:24Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife and Fisheries Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings By (subcommittee)</name>
+                <date>2025-07-22T18:31:01Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2025-07-16T15:11:17Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2026-02-23T20:36:29Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2026-01-22T17:00:00Z</date>
+          </item>
+          <item>
+            <name>Discharged from</name>
+            <date>2026-01-22T16:00:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-07-07T14:00:05Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-510</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2026-03-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-03-17</actionDate>
+        <actionTime>15:37:36</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-17</actionDate>
+        <actionTime>15:37:35</actionTime>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 320 - 66 (Roll no. 88).</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>88</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll088.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-17T19:37:35Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-17</actionDate>
+        <actionTime>15:37:35</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 320 - 66 (Roll no. 88).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>88</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll088.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-17T19:37:35Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-17</actionDate>
+        <actionTime>15:01:01</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2545)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-16</actionDate>
+        <actionTime>17:09:51</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-16</actionDate>
+        <actionTime>16:53:06</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 4294.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-16</actionDate>
+        <actionTime>16:53:05</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H2516-2519; text: CR H2516-2517)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-16</actionDate>
+        <actionTime>16:53:01</actionTime>
+        <text>Mr. Wittman moved to suspend the rules and pass the bill, as amended.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-23</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 436.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00436</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-02-23</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-510.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-02-23</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-510.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Water, Wildlife and Fisheries Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-07-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife and Fisheries Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-07-16</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii13</systemCode>
+            <name>Water, Wildlife and Fisheries Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water, Wildlife and Fisheries.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-07-07</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-07</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>E000301</bioguideId>
+        <fullName>Rep. Elfreth, Sarah [D-MD-3]</fullName>
+        <firstName>Sarah</firstName>
+        <lastName>Elfreth</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>W000804</bioguideId>
+        <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Wittman</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>J.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-07-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000399</bioguideId>
+        <fullName>Rep. Kiggans, Jennifer A. [R-VA-2]</fullName>
+        <firstName>Jennifer</firstName>
+        <lastName>Kiggans</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-07-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H000874</bioguideId>
+        <fullName>Rep. Hoyer, Steny H. [D-MD-5]</fullName>
+        <firstName>Steny</firstName>
+        <lastName>Hoyer</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2025-07-07</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>I000058</bioguideId>
+        <fullName>Rep. Ivey, Glenn [D-MD-4]</fullName>
+        <firstName>Glenn</firstName>
+        <lastName>Ivey</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>4</district>
+        <sponsorshipDate>2025-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001232</bioguideId>
+        <fullName>Rep. McClain Delaney, April [D-MD-6]</fullName>
+        <firstName>April</firstName>
+        <lastName>McClain Delaney</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>6</district>
+        <sponsorshipDate>2025-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000176</bioguideId>
+        <fullName>Rep. Olszewski, Johnny [D-MD-2]</fullName>
+        <firstName>Johnny</firstName>
+        <lastName>Olszewski</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>2</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000687</bioguideId>
+        <fullName>Rep. Mfume, Kweisi [D-MD-7]</fullName>
+        <firstName>Kweisi</firstName>
+        <lastName>Mfume</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>7</district>
+        <sponsorshipDate>2025-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000185</bioguideId>
+        <fullName>Rep. Scott, Robert C. "Bobby" [D-VA-3]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Scott</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>C. "Bobby"</middleName>
+        <district>3</district>
+        <sponsorshipDate>2025-08-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001228</bioguideId>
+        <fullName>Rep. Maloy, Celeste [R-UT-2]</fullName>
+        <firstName>Celeste</firstName>
+        <lastName>Maloy</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>2</district>
+        <sponsorshipDate>2026-01-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000565</bioguideId>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-9]</fullName>
+        <firstName>Paul</firstName>
+        <lastName>Gosar</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <middleName>A.</middleName>
+        <district>9</district>
+        <sponsorshipDate>2026-01-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Chesapeake Bay</name>
+          <updateDate>2025-08-27T13:02:29Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-08-27T13:02:48Z</updateDate>
+        </item>
+        <item>
+          <name>Delaware</name>
+          <updateDate>2025-08-27T13:02:54Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2025-08-27T13:03:38Z</updateDate>
+        </item>
+        <item>
+          <name>Fishes</name>
+          <updateDate>2025-08-27T13:02:00Z</updateDate>
+        </item>
+        <item>
+          <name>Food industry and services</name>
+          <updateDate>2025-08-27T13:03:45Z</updateDate>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+          <updateDate>2025-08-27T13:02:41Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+          <updateDate>2025-08-27T13:02:13Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2025-08-27T13:03:01Z</updateDate>
+        </item>
+        <item>
+          <name>New York State</name>
+          <updateDate>2025-08-27T13:03:09Z</updateDate>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+          <updateDate>2025-08-27T13:03:16Z</updateDate>
+        </item>
+        <item>
+          <name>Seafood</name>
+          <updateDate>2025-08-27T13:02:06Z</updateDate>
+        </item>
+        <item>
+          <name>Virginia</name>
+          <updateDate>2025-08-27T13:03:23Z</updateDate>
+        </item>
+        <item>
+          <name>Watersheds</name>
+          <updateDate>2025-08-27T13:02:34Z</updateDate>
+        </item>
+        <item>
+          <name>West Virginia</name>
+          <updateDate>2025-08-27T13:03:31Z</updateDate>
+        </item>
+        <item>
+          <name>Wildlife conservation and habitat protection</name>
+          <updateDate>2025-08-27T13:02:20Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+        <updateDate>2026-03-20T15:18:22Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2026-02-23</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2026-03-16T10:35:29Z</updateDate>
+        <text><![CDATA[<p><strong>Mitigation Action and Watermen Support Act of 2026 or the MAWS Act of 2026</strong></p><p>This bill requires the National Oceanic and Atmospheric Administration (NOAA) to establish a pilot program to facilitate the purchase of blue catfish caught within the Chesapeake Bay Watershed. (Blue catfish are considered an invasive species in the Chesapeake Bay.)</p><p>Under the program,&nbsp;NOAA must enter into cooperative agreements with manufacturers or processors of pet food, animal feed, or aquaculture feed for the purchase of blue catfish from watermen and seafood processors. NOAA must determine the minimum price per pound after considering market factors; feedback from watermen, seafood processors, and participants in the program; and differentiation of price points for fillet and byproduct.&nbsp;</p><p>The bill also requires NOAA to enter into a memorandum of understanding with nonfederal partners to develop abundance estimates of blue catfish in the Chesapeake Bay Watershed. NOAA must make the first abundance estimate publicly available before beginning the pilot program.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>MAWS Act of 2026</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>MAWS Act of 2026</title>
+        <updateDate>2026-07-18T00:03:33Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>MAWS Act of 2026</title>
+        <updateDate>2026-03-21T03:53:21Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Mitigation Action and Watermen Support Act of 2026</title>
+        <updateDate>2026-03-21T03:53:21Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Mitigation Action and Watermen Support Act of 2026</title>
+        <updateDate>2026-03-19T03:23:25Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To direct the Secretary of Commerce to establish a pilot program with respect to the sale of blue catfish caught within the Chesapeake Bay Watershed.</title>
+        <updateDate>2026-03-19T03:23:25Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>MAWS Act of 2026</title>
+        <updateDate>2026-03-19T03:23:25Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>MAWS Act of 2026</title>
+        <updateDate>2026-02-24T05:23:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Mitigation Action and Watermen Support Act of 2026</title>
+        <updateDate>2026-02-24T05:23:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To direct the Secretary of Commerce to establish a pilot program with respect to the sale of blue catfish caught within the Chesapeake Bay Watershed.</title>
+        <updateDate>2025-07-22T04:31:26Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Mitigation Action and Watermen Support Act of 2025</title>
+        <updateDate>2025-07-22T04:23:24Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>MAWS Act of 2025</title>
+        <updateDate>2025-07-22T04:23:24Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2026-03-18T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4294rfs/xml/BILLS-119hr4294rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-03-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4294eh/xml/BILLS-119hr4294eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-02-23T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4294rh/xml/BILLS-119hr4294rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-07-07T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4294ih/xml/BILLS-119hr4294ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-03-18</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

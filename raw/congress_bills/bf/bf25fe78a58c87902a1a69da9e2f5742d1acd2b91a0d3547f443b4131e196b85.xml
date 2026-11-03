@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>11</number>
+    <updateDate>2026-09-08T18:09:59Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:18:48Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>SJRES</type>
+    <introducedDate>2025-02-04</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-joint-resolution/11</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>sseg00</systemCode>
+        <name>Energy and Natural Resources Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-02-24T23:00:17Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-04T17:51:59Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the joint resolution (H.J. Res. 42) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment"; providing for consideration of the joint resolution (H.J. Res. 61) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to "National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing"; and providing for consideration of the joint resolution (S.J. Res. 11) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to "Protection of Marine Archaeological Resources".</title>
+        <congress>119</congress>
+        <number>177</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-03-04</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:03:41</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to "Protection of Marine Archaeological Resources".</title>
+        <congress>119</congress>
+        <number>62</number>
+        <type>HJRES</type>
+        <latestAction>
+          <actionDate>2025-02-26</actionDate>
+          <text>Referred to the House Committee on Natural Resources.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Became Public Law No: 119-3.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Became Public Law No: 119-3.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-10</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-10</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>10:21:55</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>10:21:53</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 221 - 202, 1 Present (Roll no. 61). (text: CR H1014-1015)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>61</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll061.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-06T15:21:53Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>10:21:53</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 221 - 202, 1 Present (Roll no. 61). (text: CR H1014-1015)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>61</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll061.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-06T15:21:53Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>09:52:07</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>09:15:48</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on S.J. Res. 11.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>09:15:07</actionTime>
+        <text>Rule provides for consideration of H.J. Res. 42, H.J. Res. 61 and S.J. Res. 11. The resolution provides for consideration of H.J. Res. 42, H.J. Res. 61, and S.J. Res. 11 under a closed rule with one of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 42 and H.J. Res. 61 and one motion to commit on S.J. Res. 11.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <actionTime>09:15:02</actionTime>
+        <text>Considered under the provisions of rule H. Res. 177. (consideration: CR H1014-1019)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-04</actionDate>
+        <actionTime>14:03:41</actionTime>
+        <text>Rule H. Res. 177 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <actionTime>13:10:33</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <actionTime>13:08:23</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-02-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Yea-Nay Vote. 54 - 44. Record Vote Number: 92. (text: CR S1333)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>92</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00092.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-02-25T23:15:28Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-02-25</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 54 - 44. Record Vote Number: 92.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>92</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00092.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-02-25T23:15:28Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-02-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by motion. (consideration: CR S1322-1324, S1332-1333)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-02-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 54 - 42. Record Vote Number: 91. (CR S1322)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>91</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00091.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-02-25T18:02:33Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-02-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 15.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-02-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Energy and Natural Resources discharged, by petition, pursuant to 5 U.S.C. 802(c).</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2025-02-24</actionDate>
+        <text>Senate Committee on Energy and Natural Resources discharged, by petition, pursuant to 5 U.S.C. 802(c).</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-04</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-02-04</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000393</bioguideId>
+        <fullName>Sen. Kennedy, John [R-LA]</fullName>
+        <firstName>John</firstName>
+        <lastName>Kennedy</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H001079</bioguideId>
+        <fullName>Sen. Hyde-Smith, Cindy [R-MS]</fullName>
+        <firstName>Cindy</firstName>
+        <lastName>Hyde-Smith</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <sponsorshipDate>2025-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000880</bioguideId>
+        <fullName>Sen. Crapo, Mike [R-ID]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Crapo</lastName>
+        <party>R</party>
+        <state>ID</state>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-3</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2025-02-27T15:16:28Z</updateDate>
+        </item>
+        <item>
+          <name>Archaeology and anthropology</name>
+          <updateDate>2025-02-27T15:16:37Z</updateDate>
+        </item>
+        <item>
+          <name>Historical and cultural resources</name>
+          <updateDate>2025-02-27T15:16:50Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+          <updateDate>2025-02-27T15:16:44Z</updateDate>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+          <updateDate>2025-02-27T15:16:56Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+        <updateDate>2025-02-25T19:55:07Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-04</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2025-02-27T18:07:29Z</updateDate>
+        <text><![CDATA[<p>This joint resolution nullifies the&nbsp;final rule issued by the Bureau of Ocean Energy Management (BOEM) titled <em>Protection of Marine Archaeological&nbsp;</em><em>Resources</em> and published on September 3, 2024. </p><p>The rule requires operators and&nbsp;lessees conducting oil and gas exploration or development on the Outer Continental Shelf and that are seeking BOEM approval for such activities to also provide BOEM with an archaeological report for the area of potential effects.&nbsp;The report must identify potential archaeological resources (material remains of human life or activities that are at least 50 years old and that are of archaeological interest) on the sea floor. The rule modified regulations that only required such a report when a&nbsp;BOEM regional director has reason to believe that an archaeological resource may be present in the lease area.&nbsp;</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2025-03-14</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-06-23T13:56:22Z</updateDate>
+        <text><![CDATA[<p>This joint resolution&nbsp;rescinds a requirement for lessees and operators to submit an archaeological report with any oil and gas exploration or development plan they submit to the Bureau of Ocean Energy Management (BOEM) for approval of activities proposed on the Outer Continental Shelf.&nbsp;(An archaeological report identifies&nbsp;material remains of human life or activities that are at least 50 years old and that are of archaeological interest.)</p><p>Specifically, the joint resolution nullifies BOEM's final rule titled <em>Protection of Marine Archaeological&nbsp;</em><em>Resources</em> and published on September 3, 2024.</p><p>Nullifying this rule requires BOEM to reinstate regulations that were previously in effect and authorized&nbsp;BOEM to&nbsp;require an archaeological&nbsp;report only if a BOEM regional director has reason to believe that an archaeological resource may be present in the lease area.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to "Protection of Marine Archaeological Resources".</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to "Protection of Marine Archaeological Resources".</title>
+        <updateDate>2025-03-12T17:59:33Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to "Protection of Marine Archaeological Resources".</title>
+        <updateDate>2025-02-06T01:03:26Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119sjres11enr/uslm/BILLS-119sjres11enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119sjres11enr/xml/BILLS-119sjres11enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2025-02-25T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119sjres11es/xml/BILLS-119sjres11es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2025-02-24T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119sjres11pcs/xml/BILLS-119sjres11pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-02-04T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119sjres11is/xml/BILLS-119sjres11is.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-03-15T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ3/uslm/PLAW-119publ3.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-03-14</actionDate>
+      <text>Became Public Law No: 119-3.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

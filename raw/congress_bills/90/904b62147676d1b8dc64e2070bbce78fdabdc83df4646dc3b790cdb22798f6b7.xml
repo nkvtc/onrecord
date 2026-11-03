@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>7006</number>
+    <updateDate>2026-09-08T19:31:27Z</updateDate>
+    <updateDateIncludingText>2026-09-08T19:31:27Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-01-12</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/7006</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 8 (Monday, January 12, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. COLE:H.R. 7006.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States .. .'' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H655]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsbu00</systemCode>
+        <name>Budget Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-01-12T17:02:05Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-01-12T17:02:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Consolidated Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>7148</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-02-03</actionDate>
+          <text>Became Public Law No: 119-75.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>4779</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-07-25</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 177.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Financial Services and General Government Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>5166</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-09-05</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 193.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <congress>119</congress>
+        <number>992</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-01-14</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:03:26</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Financial Services and General Government Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>3290</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-01</actionDate>
+          <text>Read twice and referred to the Committee on Appropriations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-01-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>17:27:43</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>17:27:42</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 341 - 79 (Roll no. 28). (text: CR H741-795)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>28</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll028.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-14T22:27:42Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>17:27:42</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 341 - 79 (Roll no. 28). (text: CR H741-795)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>28</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll028.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-14T22:27:42Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>17:21:36</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>17:21:22</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 7006.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>16:45:52</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>16:45:34</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H798-801)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:40:10</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 7006 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:39:59</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:39:45</actionTime>
+        <text>Mr. Cole moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:38:50</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Crane amendment No. 2, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Ms. Lois Frankel (FL) demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:25:59</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 992, the Committee of the Whole proceeded with 10 minutes of debate on the Crane amendment No. 2.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:25:17</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Roy amendment No. 1, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Hoyer demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>15:11:53</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 992, the Committee of the Whole proceeded with 10 minutes of debate on the Roy amendment No. 1.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>14:08:36</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 7006.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>14:07:33</actionTime>
+        <text>The Speaker designated the Honorable Mike Bost to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>14:07:31</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 992 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>14:03:44</actionTime>
+        <text>Rule provides for consideration of H.R. 7006 with 1 hour of general debate. Motion to recommit allowed. Specified amendments are in order.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>14:03:39</actionTime>
+        <text>Considered under the provisions of rule H. Res. 992. (consideration: CR H734-798)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <actionTime>14:03:25</actionTime>
+        <text>Rule H. Res. 992 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-13</actionDate>
+        <actionTime>18:30:47</actionTime>
+        <text>Rules Committee Resolution H. Res. 992 Reported to House. Rule provides for consideration of H.R. 7006 with 1 hour of general debate. Motion to recommit allowed. Specified amendments are in order.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-12</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsbu00</systemCode>
+            <name>Budget Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-12</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-01-14T17:12:00Z</pubDate>
+        <title>H.R. 7006, Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <url>https://www.cbo.gov/publication/62013</url>
+        <description>As posted on the website of the House Committee on Rules on January 11, 2026</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Accounting and auditing</name>
+          <updateDate>2026-01-23T16:41:58Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative Conference of the U.S.</name>
+          <updateDate>2026-01-23T16:09:04Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+          <updateDate>2026-01-23T16:11:43Z</updateDate>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2026-01-23T16:05:06Z</updateDate>
+        </item>
+        <item>
+          <name>Afghanistan</name>
+          <updateDate>2026-01-23T17:08:10Z</updateDate>
+        </item>
+        <item>
+          <name>Africa</name>
+          <updateDate>2026-01-23T16:40:30Z</updateDate>
+        </item>
+        <item>
+          <name>African Development Foundation</name>
+          <updateDate>2026-01-23T16:40:36Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural trade</name>
+          <updateDate>2026-01-23T16:41:18Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska Natives and Hawaiians</name>
+          <updateDate>2026-01-23T16:03:52Z</updateDate>
+        </item>
+        <item>
+          <name>Alliances</name>
+          <updateDate>2026-01-23T16:41:03Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-01-23T15:59:57Z</updateDate>
+        </item>
+        <item>
+          <name>Arab-Israeli relations</name>
+          <updateDate>2026-01-23T16:38:06Z</updateDate>
+        </item>
+        <item>
+          <name>Arms control and nonproliferation</name>
+          <updateDate>2026-01-23T16:40:50Z</updateDate>
+        </item>
+        <item>
+          <name>Asia</name>
+          <updateDate>2026-01-23T16:36:22Z</updateDate>
+        </item>
+        <item>
+          <name>Australia</name>
+          <updateDate>2026-01-23T17:07:30Z</updateDate>
+        </item>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2026-01-23T17:09:56Z</updateDate>
+        </item>
+        <item>
+          <name>Banking and financial institutions regulation</name>
+          <updateDate>2026-01-23T16:03:37Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2026-01-23T16:35:47Z</updateDate>
+        </item>
+        <item>
+          <name>Broadcasting, cable, digital technologies</name>
+          <updateDate>2026-01-23T16:37:29Z</updateDate>
+        </item>
+        <item>
+          <name>Budget deficits and national debt</name>
+          <updateDate>2026-01-23T16:40:44Z</updateDate>
+        </item>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2026-01-23T16:11:13Z</updateDate>
+        </item>
+        <item>
+          <name>Burma</name>
+          <updateDate>2026-01-23T16:42:47Z</updateDate>
+        </item>
+        <item>
+          <name>Canada</name>
+          <updateDate>2026-01-23T16:36:59Z</updateDate>
+        </item>
+        <item>
+          <name>Caribbean area</name>
+          <updateDate>2026-01-23T17:09:06Z</updateDate>
+        </item>
+        <item>
+          <name>Central African Republic</name>
+          <updateDate>2026-01-23T16:47:07Z</updateDate>
+        </item>
+        <item>
+          <name>China</name>
+          <updateDate>2026-01-23T16:38:37Z</updateDate>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2026-01-23T16:07:17Z</updateDate>
+        </item>
+        <item>
+          <name>Coast guard</name>
+          <updateDate>2026-01-23T17:08:47Z</updateDate>
+        </item>
+        <item>
+          <name>Collective security</name>
+          <updateDate>2026-01-23T16:38:31Z</updateDate>
+        </item>
+        <item>
+          <name>Colombia</name>
+          <updateDate>2026-01-23T17:08:22Z</updateDate>
+        </item>
+        <item>
+          <name>Commodities markets</name>
+          <updateDate>2026-01-23T16:09:19Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Futures Trading Commission</name>
+          <updateDate>2026-01-23T16:09:14Z</updateDate>
+        </item>
+        <item>
+          <name>Community Development Financial Institutions Fund</name>
+          <updateDate>2026-01-23T16:03:16Z</updateDate>
+        </item>
+        <item>
+          <name>Competitiveness, trade promotion, trade deficits</name>
+          <updateDate>2026-01-23T16:41:31Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-01-23T16:01:26Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-01-23T16:01:12Z</updateDate>
+        </item>
+        <item>
+          <name>Conflicts and wars</name>
+          <updateDate>2026-01-23T16:46:15Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-01-23T16:04:33Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional-executive branch relations</name>
+          <updateDate>2026-01-23T16:38:42Z</updateDate>
+        </item>
+        <item>
+          <name>Consumer Product Safety Commission</name>
+          <updateDate>2026-01-23T16:09:26Z</updateDate>
+        </item>
+        <item>
+          <name>Consumer affairs</name>
+          <updateDate>2026-01-23T16:09:31Z</updateDate>
+        </item>
+        <item>
+          <name>Correctional facilities and imprisonment</name>
+          <updateDate>2026-01-23T16:43:33Z</updateDate>
+        </item>
+        <item>
+          <name>Crime victims</name>
+          <updateDate>2026-01-23T16:42:53Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against children</name>
+          <updateDate>2026-01-23T16:43:22Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+          <updateDate>2026-01-23T16:04:25Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal procedure and sentencing</name>
+          <updateDate>2026-01-23T16:07:10Z</updateDate>
+        </item>
+        <item>
+          <name>Cuba</name>
+          <updateDate>2026-01-23T17:08:28Z</updateDate>
+        </item>
+        <item>
+          <name>Cultural exchanges and relations</name>
+          <updateDate>2026-01-23T16:36:01Z</updateDate>
+        </item>
+        <item>
+          <name>Currency</name>
+          <updateDate>2026-01-23T16:03:07Z</updateDate>
+        </item>
+        <item>
+          <name>Debt collection</name>
+          <updateDate>2026-01-23T16:04:46Z</updateDate>
+        </item>
+        <item>
+          <name>Democratic Republic of the Congo</name>
+          <updateDate>2026-01-23T16:47:14Z</updateDate>
+        </item>
+        <item>
+          <name>Department of State</name>
+          <updateDate>2026-01-23T16:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Treasury</name>
+          <updateDate>2026-01-23T15:59:51Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2026-01-23T16:45:46Z</updateDate>
+        </item>
+        <item>
+          <name>Diplomacy, foreign officials, Americans abroad</name>
+          <updateDate>2026-01-23T16:35:38Z</updateDate>
+        </item>
+        <item>
+          <name>Disability assistance</name>
+          <updateDate>2026-01-23T17:10:49Z</updateDate>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+          <updateDate>2026-01-23T16:14:25Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2026-01-23T16:00:14Z</updateDate>
+        </item>
+        <item>
+          <name>Drug trafficking and controlled substances</name>
+          <updateDate>2026-01-23T16:05:15Z</updateDate>
+        </item>
+        <item>
+          <name>Drug, alcohol, tobacco use</name>
+          <updateDate>2026-01-23T16:02:31Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2026-01-23T16:03:23Z</updateDate>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+          <updateDate>2026-01-23T16:08:10Z</updateDate>
+        </item>
+        <item>
+          <name>Egypt</name>
+          <updateDate>2026-01-23T16:46:21Z</updateDate>
+        </item>
+        <item>
+          <name>Election Assistance Commission</name>
+          <updateDate>2026-01-23T16:10:00Z</updateDate>
+        </item>
+        <item>
+          <name>Elections, voting, political campaign regulation</name>
+          <updateDate>2026-01-23T16:10:05Z</updateDate>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+          <updateDate>2026-01-23T16:42:24Z</updateDate>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+          <updateDate>2026-01-23T17:10:26Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2026-01-23T16:07:35Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2026-01-23T16:03:31Z</updateDate>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+          <updateDate>2026-01-23T16:12:05Z</updateDate>
+        </item>
+        <item>
+          <name>Ethiopia</name>
+          <updateDate>2026-01-23T17:04:26Z</updateDate>
+        </item>
+        <item>
+          <name>Europe</name>
+          <updateDate>2026-01-23T16:37:13Z</updateDate>
+        </item>
+        <item>
+          <name>Executive Office of the President</name>
+          <updateDate>2026-01-23T16:00:07Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2026-01-23T15:59:43Z</updateDate>
+        </item>
+        <item>
+          <name>Export-Import Bank of the United States</name>
+          <updateDate>2026-01-23T16:41:23Z</updateDate>
+        </item>
+        <item>
+          <name>Family planning and birth control</name>
+          <updateDate>2026-01-23T16:39:08Z</updateDate>
+        </item>
+        <item>
+          <name>Family relationships</name>
+          <updateDate>2026-01-23T16:00:34Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Communications Commission (FCC)</name>
+          <updateDate>2026-01-23T16:10:09Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Deposit Insurance Corporation (FDIC)</name>
+          <updateDate>2026-01-23T16:10:13Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Election Commission (FEC)</name>
+          <updateDate>2026-01-23T16:10:18Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Labor Relations Authority</name>
+          <updateDate>2026-01-23T16:10:24Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Trade Commission (FTC)</name>
+          <updateDate>2026-01-23T16:10:34Z</updateDate>
+        </item>
+        <item>
+          <name>Federal appellate courts</name>
+          <updateDate>2026-01-23T16:06:16Z</updateDate>
+        </item>
+        <item>
+          <name>Federal district courts</name>
+          <updateDate>2026-01-23T16:06:30Z</updateDate>
+        </item>
+        <item>
+          <name>Financial literacy</name>
+          <updateDate>2026-01-23T16:03:59Z</updateDate>
+        </item>
+        <item>
+          <name>First Amendment rights</name>
+          <updateDate>2026-01-23T16:42:36Z</updateDate>
+        </item>
+        <item>
+          <name>Food assistance and relief</name>
+          <updateDate>2026-01-23T17:11:02Z</updateDate>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+          <updateDate>2026-01-23T17:10:54Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+          <updateDate>2026-01-23T16:00:29Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign and international banking</name>
+          <updateDate>2026-01-23T16:41:43Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign loans and debt</name>
+          <updateDate>2026-01-23T16:41:38Z</updateDate>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+          <updateDate>2026-01-23T16:02:17Z</updateDate>
+        </item>
+        <item>
+          <name>Gaza Strip</name>
+          <updateDate>2026-01-23T16:46:09Z</updateDate>
+        </item>
+        <item>
+          <name>General Services Administration</name>
+          <updateDate>2026-01-23T16:10:40Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-01-23T16:04:56Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-01-23T16:00:48Z</updateDate>
+        </item>
+        <item>
+          <name>Government ethics and transparency, public corruption</name>
+          <updateDate>2026-01-23T16:09:52Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-01-23T16:04:38Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2026-01-23T16:04:06Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-01-23T16:09:42Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-01-23T16:01:18Z</updateDate>
+        </item>
+        <item>
+          <name>HIV/AIDS</name>
+          <updateDate>2026-01-23T16:08:48Z</updateDate>
+        </item>
+        <item>
+          <name>Haiti</name>
+          <updateDate>2026-01-23T17:08:41Z</updateDate>
+        </item>
+        <item>
+          <name>Health personnel</name>
+          <updateDate>2026-01-23T17:08:35Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2026-01-23T16:08:26Z</updateDate>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+          <updateDate>2026-01-23T16:39:02Z</updateDate>
+        </item>
+        <item>
+          <name>Higher education</name>
+          <updateDate>2026-01-23T16:07:30Z</updateDate>
+        </item>
+        <item>
+          <name>Historic sites and heritage areas</name>
+          <updateDate>2026-01-23T16:38:11Z</updateDate>
+        </item>
+        <item>
+          <name>Historical and cultural resources</name>
+          <updateDate>2026-01-23T16:12:32Z</updateDate>
+        </item>
+        <item>
+          <name>Homeland security</name>
+          <updateDate>2026-01-23T16:05:34Z</updateDate>
+        </item>
+        <item>
+          <name>Hong Kong</name>
+          <updateDate>2026-01-23T17:07:45Z</updateDate>
+        </item>
+        <item>
+          <name>Human rights</name>
+          <updateDate>2026-01-23T16:42:31Z</updateDate>
+        </item>
+        <item>
+          <name>Human trafficking</name>
+          <updateDate>2026-01-23T16:43:28Z</updateDate>
+        </item>
+        <item>
+          <name>Immunology and vaccination</name>
+          <updateDate>2026-01-23T16:06:36Z</updateDate>
+        </item>
+        <item>
+          <name>Indian social and development programs</name>
+          <updateDate>2026-01-23T16:03:44Z</updateDate>
+        </item>
+        <item>
+          <name>Indonesia</name>
+          <updateDate>2026-01-23T16:39:40Z</updateDate>
+        </item>
+        <item>
+          <name>Infectious and parasitic diseases</name>
+          <updateDate>2026-01-23T16:08:53Z</updateDate>
+        </item>
+        <item>
+          <name>Infrastructure development</name>
+          <updateDate>2026-01-23T16:14:50Z</updateDate>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+          <updateDate>2026-01-23T16:02:02Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2026-01-23T16:05:29Z</updateDate>
+        </item>
+        <item>
+          <name>Internal Revenue Service (IRS)</name>
+          <updateDate>2026-01-23T16:04:20Z</updateDate>
+        </item>
+        <item>
+          <name>International exchange and broadcasting</name>
+          <updateDate>2026-01-23T16:37:37Z</updateDate>
+        </item>
+        <item>
+          <name>International monetary system and foreign exchange</name>
+          <updateDate>2026-01-23T17:10:05Z</updateDate>
+        </item>
+        <item>
+          <name>International organizations and cooperation</name>
+          <updateDate>2026-01-23T16:36:30Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2026-01-23T16:09:46Z</updateDate>
+        </item>
+        <item>
+          <name>Iran</name>
+          <updateDate>2026-01-23T16:46:26Z</updateDate>
+        </item>
+        <item>
+          <name>Israel</name>
+          <updateDate>2026-01-23T16:38:01Z</updateDate>
+        </item>
+        <item>
+          <name>Judges</name>
+          <updateDate>2026-01-23T16:06:10Z</updateDate>
+        </item>
+        <item>
+          <name>Kosovo</name>
+          <updateDate>2026-01-23T16:39:45Z</updateDate>
+        </item>
+        <item>
+          <name>Labor-management relations</name>
+          <updateDate>2026-01-23T16:10:30Z</updateDate>
+        </item>
+        <item>
+          <name>Laos</name>
+          <updateDate>2026-01-23T17:07:23Z</updateDate>
+        </item>
+        <item>
+          <name>Latin America</name>
+          <updateDate>2026-01-23T16:36:54Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement administration and funding</name>
+          <updateDate>2026-01-23T16:02:25Z</updateDate>
+        </item>
+        <item>
+          <name>Lawyers and legal services</name>
+          <updateDate>2026-01-23T16:06:42Z</updateDate>
+        </item>
+        <item>
+          <name>Lease and rental services</name>
+          <updateDate>2026-01-23T16:01:04Z</updateDate>
+        </item>
+        <item>
+          <name>Lebanon</name>
+          <updateDate>2026-01-23T16:46:32Z</updateDate>
+        </item>
+        <item>
+          <name>Legal fees and court costs</name>
+          <updateDate>2026-01-23T16:06:46Z</updateDate>
+        </item>
+        <item>
+          <name>Libraries and archives</name>
+          <updateDate>2026-01-23T16:12:25Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+          <updateDate>2026-01-23T16:37:18Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2026-01-23T16:14:56Z</updateDate>
+        </item>
+        <item>
+          <name>Medical tests and diagnostic methods</name>
+          <updateDate>2026-01-23T16:08:20Z</updateDate>
+        </item>
+        <item>
+          <name>Members of Congress</name>
+          <updateDate>2026-01-23T16:00:42Z</updateDate>
+        </item>
+        <item>
+          <name>Merit Systems Protection Board</name>
+          <updateDate>2026-01-23T16:11:49Z</updateDate>
+        </item>
+        <item>
+          <name>Mexico</name>
+          <updateDate>2026-01-23T16:36:43Z</updateDate>
+        </item>
+        <item>
+          <name>Middle East</name>
+          <updateDate>2026-01-23T16:37:52Z</updateDate>
+        </item>
+        <item>
+          <name>Military assistance, sales, and agreements</name>
+          <updateDate>2026-01-23T16:45:54Z</updateDate>
+        </item>
+        <item>
+          <name>Military education and training</name>
+          <updateDate>2026-01-23T16:40:57Z</updateDate>
+        </item>
+        <item>
+          <name>Minority and disadvantaged businesses</name>
+          <updateDate>2026-01-23T16:14:06Z</updateDate>
+        </item>
+        <item>
+          <name>Monuments and memorials</name>
+          <updateDate>2026-01-23T16:43:06Z</updateDate>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+          <updateDate>2026-01-23T16:00:53Z</updateDate>
+        </item>
+        <item>
+          <name>Multilateral development programs</name>
+          <updateDate>2026-01-23T16:38:56Z</updateDate>
+        </item>
+        <item>
+          <name>National Archives and Records Administration</name>
+          <updateDate>2026-01-23T16:12:17Z</updateDate>
+        </item>
+        <item>
+          <name>National Credit Union Administration</name>
+          <updateDate>2026-01-23T16:12:39Z</updateDate>
+        </item>
+        <item>
+          <name>National Guard and reserves</name>
+          <updateDate>2026-01-23T16:07:52Z</updateDate>
+        </item>
+        <item>
+          <name>National and community service</name>
+          <updateDate>2026-01-23T16:39:27Z</updateDate>
+        </item>
+        <item>
+          <name>National symbols</name>
+          <updateDate>2026-01-23T17:11:39Z</updateDate>
+        </item>
+        <item>
+          <name>Nepal</name>
+          <updateDate>2026-01-23T16:39:50Z</updateDate>
+        </item>
+        <item>
+          <name>News media and reporting</name>
+          <updateDate>2026-01-23T16:42:42Z</updateDate>
+        </item>
+        <item>
+          <name>Nicaragua</name>
+          <updateDate>2026-01-23T17:08:53Z</updateDate>
+        </item>
+        <item>
+          <name>Nigeria</name>
+          <updateDate>2026-01-23T17:05:09Z</updateDate>
+        </item>
+        <item>
+          <name>North America</name>
+          <updateDate>2026-01-23T16:36:49Z</updateDate>
+        </item>
+        <item>
+          <name>North Korea</name>
+          <updateDate>2026-01-23T17:07:39Z</updateDate>
+        </item>
+        <item>
+          <name>Nuclear power</name>
+          <updateDate>2026-01-23T17:11:46Z</updateDate>
+        </item>
+        <item>
+          <name>Office of Government Ethics</name>
+          <updateDate>2026-01-23T16:12:45Z</updateDate>
+        </item>
+        <item>
+          <name>Office of Management and Budget (OMB)</name>
+          <updateDate>2026-01-23T16:05:11Z</updateDate>
+        </item>
+        <item>
+          <name>Office of Personnel Management (OPM)</name>
+          <updateDate>2026-01-23T16:12:51Z</updateDate>
+        </item>
+        <item>
+          <name>Office of Special Counsel</name>
+          <updateDate>2026-01-23T16:12:59Z</updateDate>
+        </item>
+        <item>
+          <name>Organization of American States</name>
+          <updateDate>2026-01-23T17:09:00Z</updateDate>
+        </item>
+        <item>
+          <name>Pakistan</name>
+          <updateDate>2026-01-23T17:08:16Z</updateDate>
+        </item>
+        <item>
+          <name>Palestinians</name>
+          <updateDate>2026-01-23T16:45:59Z</updateDate>
+        </item>
+        <item>
+          <name>Peace Corps</name>
+          <updateDate>2026-01-23T16:39:33Z</updateDate>
+        </item>
+        <item>
+          <name>Philippines</name>
+          <updateDate>2026-01-23T17:07:51Z</updateDate>
+        </item>
+        <item>
+          <name>Postal service</name>
+          <updateDate>2026-01-23T16:14:32Z</updateDate>
+        </item>
+        <item>
+          <name>Presidents and presidential powers, Vice Presidents</name>
+          <updateDate>2026-01-23T16:05:46Z</updateDate>
+        </item>
+        <item>
+          <name>Privacy and Civil Liberties Oversight Board</name>
+          <updateDate>2026-01-23T16:13:04Z</updateDate>
+        </item>
+        <item>
+          <name>Product safety and quality</name>
+          <updateDate>2026-01-23T16:09:37Z</updateDate>
+        </item>
+        <item>
+          <name>Protection of officials</name>
+          <updateDate>2026-01-23T16:06:52Z</updateDate>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+          <updateDate>2026-01-23T16:10:46Z</updateDate>
+        </item>
+        <item>
+          <name>Public-private cooperation</name>
+          <updateDate>2026-01-23T17:11:09Z</updateDate>
+        </item>
+        <item>
+          <name>Puerto Rico</name>
+          <updateDate>2026-01-23T16:11:08Z</updateDate>
+        </item>
+        <item>
+          <name>Radio spectrum allocation</name>
+          <updateDate>2026-01-23T16:37:42Z</updateDate>
+        </item>
+        <item>
+          <name>Reconstruction and stabilization</name>
+          <updateDate>2026-01-23T16:41:08Z</updateDate>
+        </item>
+        <item>
+          <name>Refugees, asylum, displaced persons</name>
+          <updateDate>2026-01-23T16:39:21Z</updateDate>
+        </item>
+        <item>
+          <name>Religion</name>
+          <updateDate>2026-01-23T16:38:25Z</updateDate>
+        </item>
+        <item>
+          <name>Residential rehabilitation and home repair</name>
+          <updateDate>2026-01-23T16:05:01Z</updateDate>
+        </item>
+        <item>
+          <name>Russia</name>
+          <updateDate>2026-01-23T17:09:29Z</updateDate>
+        </item>
+        <item>
+          <name>Rwanda</name>
+          <updateDate>2026-01-23T16:47:19Z</updateDate>
+        </item>
+        <item>
+          <name>Sales and excise taxes</name>
+          <updateDate>2026-01-23T16:02:38Z</updateDate>
+        </item>
+        <item>
+          <name>Securities</name>
+          <updateDate>2026-01-23T16:13:15Z</updateDate>
+        </item>
+        <item>
+          <name>Securities and Exchange Commission (SEC)</name>
+          <updateDate>2026-01-23T16:13:11Z</updateDate>
+        </item>
+        <item>
+          <name>Selective Service System</name>
+          <updateDate>2026-01-23T16:13:38Z</updateDate>
+        </item>
+        <item>
+          <name>Sex and reproductive health</name>
+          <updateDate>2026-01-23T16:39:15Z</updateDate>
+        </item>
+        <item>
+          <name>Sex offenses</name>
+          <updateDate>2026-01-23T17:09:47Z</updateDate>
+        </item>
+        <item>
+          <name>Sex, gender, sexual orientation discrimination</name>
+          <updateDate>2026-01-23T17:10:19Z</updateDate>
+        </item>
+        <item>
+          <name>Small Business Administration</name>
+          <updateDate>2026-01-23T16:13:45Z</updateDate>
+        </item>
+        <item>
+          <name>Small business</name>
+          <updateDate>2026-01-23T16:13:51Z</updateDate>
+        </item>
+        <item>
+          <name>Smuggling and trafficking</name>
+          <updateDate>2026-01-23T16:05:20Z</updateDate>
+        </item>
+        <item>
+          <name>South Sudan</name>
+          <updateDate>2026-01-23T17:05:16Z</updateDate>
+        </item>
+        <item>
+          <name>Specialized courts</name>
+          <updateDate>2026-01-23T16:06:23Z</updateDate>
+        </item>
+        <item>
+          <name>State and local courts</name>
+          <updateDate>2026-01-23T16:07:46Z</updateDate>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+          <updateDate>2026-01-23T16:05:24Z</updateDate>
+        </item>
+        <item>
+          <name>Strategic materials and reserves</name>
+          <updateDate>2026-01-23T16:42:09Z</updateDate>
+        </item>
+        <item>
+          <name>Student aid and college costs</name>
+          <updateDate>2026-01-23T16:07:24Z</updateDate>
+        </item>
+        <item>
+          <name>Sudan</name>
+          <updateDate>2026-01-23T17:05:22Z</updateDate>
+        </item>
+        <item>
+          <name>Supreme Court</name>
+          <updateDate>2026-01-23T16:05:54Z</updateDate>
+        </item>
+        <item>
+          <name>Syria</name>
+          <updateDate>2026-01-23T16:46:41Z</updateDate>
+        </item>
+        <item>
+          <name>Taiwan</name>
+          <updateDate>2026-01-23T16:36:14Z</updateDate>
+        </item>
+        <item>
+          <name>Tax administration and collection, taxpayers</name>
+          <updateDate>2026-01-23T16:02:07Z</updateDate>
+        </item>
+        <item>
+          <name>Tennessee</name>
+          <updateDate>2026-01-23T16:11:28Z</updateDate>
+        </item>
+        <item>
+          <name>Terrorism</name>
+          <updateDate>2026-01-23T16:01:56Z</updateDate>
+        </item>
+        <item>
+          <name>Tibet</name>
+          <updateDate>2026-01-23T17:07:57Z</updateDate>
+        </item>
+        <item>
+          <name>Tunisia</name>
+          <updateDate>2026-01-23T16:46:48Z</updateDate>
+        </item>
+        <item>
+          <name>Turkey</name>
+          <updateDate>2026-01-23T17:09:20Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. Agency for Global Media</name>
+          <updateDate>2026-01-23T16:37:24Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. Commission on International Religious Freedom</name>
+          <updateDate>2026-01-23T16:38:19Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. Institute of Peace</name>
+          <updateDate>2026-01-23T16:37:47Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. International Development Finance Corporation</name>
+          <updateDate>2026-01-23T16:41:53Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. Postal Service</name>
+          <updateDate>2026-01-23T16:14:37Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. Sentencing Commission</name>
+          <updateDate>2026-01-23T16:07:01Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. and foreign investments</name>
+          <updateDate>2026-01-23T16:01:32Z</updateDate>
+        </item>
+        <item>
+          <name>Ukraine</name>
+          <updateDate>2026-01-23T17:09:38Z</updateDate>
+        </item>
+        <item>
+          <name>United Kingdom</name>
+          <updateDate>2026-01-23T16:37:06Z</updateDate>
+        </item>
+        <item>
+          <name>United Nations</name>
+          <updateDate>2026-01-23T16:36:37Z</updateDate>
+        </item>
+        <item>
+          <name>User charges and fees</name>
+          <updateDate>2026-01-23T16:13:19Z</updateDate>
+        </item>
+        <item>
+          <name>Venezuela</name>
+          <updateDate>2026-01-23T17:09:13Z</updateDate>
+        </item>
+        <item>
+          <name>Vietnam</name>
+          <updateDate>2026-01-23T17:08:03Z</updateDate>
+        </item>
+        <item>
+          <name>Virginia</name>
+          <updateDate>2026-01-23T16:14:45Z</updateDate>
+        </item>
+        <item>
+          <name>Visas and passports</name>
+          <updateDate>2026-01-23T16:35:53Z</updateDate>
+        </item>
+        <item>
+          <name>War crimes, genocide, crimes against humanity</name>
+          <updateDate>2026-01-23T16:42:58Z</updateDate>
+        </item>
+        <item>
+          <name>Washington State</name>
+          <updateDate>2026-01-23T16:11:36Z</updateDate>
+        </item>
+        <item>
+          <name>Water resources funding</name>
+          <updateDate>2026-01-23T16:08:58Z</updateDate>
+        </item>
+        <item>
+          <name>Water storage</name>
+          <updateDate>2026-01-23T17:11:24Z</updateDate>
+        </item>
+        <item>
+          <name>Water use and supply</name>
+          <updateDate>2026-01-23T17:11:17Z</updateDate>
+        </item>
+        <item>
+          <name>West Bank</name>
+          <updateDate>2026-01-23T16:46:05Z</updateDate>
+        </item>
+        <item>
+          <name>Women's rights</name>
+          <updateDate>2026-01-23T17:10:14Z</updateDate>
+        </item>
+        <item>
+          <name>World health</name>
+          <updateDate>2026-01-23T16:38:47Z</updateDate>
+        </item>
+        <item>
+          <name>Zimbabwe</name>
+          <updateDate>2026-01-23T17:07:18Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2026-01-13T11:38:53Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-01-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-01-13T13:50:26Z</updateDate>
+        <text><![CDATA[<p><strong>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</strong></p><p>This bill provides FY2026 appropriations to several federal departments and agencies for activities and programs related to financial services, general government, national security, the administration of foreign affairs, and foreign assistance.&nbsp;</p><p>Specifically, the bill includes 2 of the 12 regular FY2026 appropriations bills: (1) the Financial Services and General Government Appropriations Act, 2026; and (2) the National Security, Department of State, and Related Programs Appropriations Act, 2026.</p><p>The departments, agencies, and activities funded in the bill include</p><ul><li>the Department of the Treasury,</li><li>the Executive Office of the President,</li><li>the judiciary,</li><li>the District of Columbia,&nbsp;</li><li>the Department of State and related programs,</li><li>the administration and oversight of foreign assistance programs,&nbsp;&nbsp;</li><li>bilateral economic assistance,</li><li>international security assistance,</li><li>multilateral assistance,&nbsp;</li><li>export and investment assistance, and</li><li>several related and independent agencies.</li></ul><p>The bill also sets forth requirements and restrictions for using funds provided by this and other appropriations acts.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Department of the Treasury Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Financial Services and General Government Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>District of Columbia Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Judiciary Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Executive Office of the President Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Financial Services and General Government Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>District of Columbia Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Judiciary Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Executive Office of the President Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Department of the Treasury Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-01-16T03:53:16Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <updateDate>2026-01-16T03:53:16Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <updateDate>2026-01-16T03:53:16Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <updateDate>2026-01-13T09:23:43Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <updateDate>2026-01-13T09:23:42Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+        <updateDate>2026-01-13T09:23:42Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-01-13T09:18:24Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>150</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 2 printed in House Report 119-445 to prohibit funding for the National Endowment for Democracy.</description>
+        <purpose>Amendment sought to eliminate funding for the National Endowment for Democracy.</purpose>
+        <updateDate>2026-02-03T09:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2026-01-14</actionDate>
+          <text>On agreeing to the Crane amendment (A002) Failed by recorded vote: 127 - 291 (Roll no. 27).</text>
+          <actionTime>17:20:31</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 27</name>
+              <url>https://www.congress.gov/votes/house/119-2/27</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C001132</bioguideId>
+            <fullName>Rep. Crane, Elijah [R-AZ-2]</fullName>
+            <firstName>Elijah</firstName>
+            <lastName>Crane</lastName>
+            <party>R</party>
+            <state>AZ</state>
+            <district>2</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-01-14T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7006</number>
+          <title>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:20:31</actionTime>
+              <text>On agreeing to the Crane amendment (A002) Failed by recorded vote: 127 - 291 (Roll no. 27).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>27</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:20:31Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll027.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:20:31</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>27</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:20:31Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll027.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>15:25:43</actionTime>
+              <text>Amendment (A002) offered by Mr. Crane. (consideration: CR H797-800; text: CR H797)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>15:25:43</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:20:31</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Crane amendment (A002) Failed by recorded vote: 127 - 291 (Roll no. 27).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>27</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:20:31Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll027.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:20:31</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>27</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:20:31Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll027.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>149</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 1 printed in House Report 119-445 to reduce the District of Columbia District and Appeals Court funding by 20% and to strike the salary and expense funding for Judges Boasberg and Boardman's staff.</description>
+        <purpose>Amendment sought to reduce the District of Columbia District and Appeals Court funding by 20% and to strike the salary and expense funding for Judges Boasberg's and Judge Boardman's staffs.</purpose>
+        <updateDate>2026-01-17T09:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2026-01-14</actionDate>
+          <text>On agreeing to the Roy amendment (A001) Failed by recorded vote: 163 - 257, 1 Present (Roll no. 26).</text>
+          <actionTime>17:15:41</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 26</name>
+              <url>https://www.congress.gov/votes/house/119-2/26</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>R000614</bioguideId>
+            <fullName>Rep. Roy, Chip [R-TX-21]</fullName>
+            <firstName>Chip</firstName>
+            <lastName>Roy</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <district>21</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-01-14T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7006</number>
+          <title>Financial Services and General Government and National Security, Department of State, and Related Programs Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:15:41</actionTime>
+              <text>On agreeing to the Roy amendment (A001) Failed by recorded vote: 163 - 257, 1 Present (Roll no. 26).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>26</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:15:41Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll026.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:15:41</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>26</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:15:41Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll026.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>15:11:31</actionTime>
+              <text>Amendment (A001) offered by Mr. Roy. (consideration: CR H795-799; text: CR H795)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>15:11:31</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:15:41</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Roy amendment (A001) Failed by recorded vote: 163 - 257, 1 Present (Roll no. 26).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>26</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:15:41Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll026.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-01-14</actionDate>
+              <actionTime>17:15:41</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>26</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-01-14T22:15:41Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll026.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-01-14T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7006eh/xml/BILLS-119hr7006eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-01-12T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7006ih/xml/BILLS-119hr7006ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-01-15</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

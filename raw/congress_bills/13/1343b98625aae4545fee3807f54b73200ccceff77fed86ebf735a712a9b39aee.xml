@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5103</number>
+    <updateDate>2026-06-24T14:23:29Z</updateDate>
+    <updateDateIncludingText>2026-07-30T16:27:18Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-09-03</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/5103</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 144 (Wednesday, September 3, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. McGUIRE:H.R. 5103.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H3829]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Government Reform Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2026-03-25T19:23:01Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2026-03-25T18:49:43Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2026-01-14T23:11:19Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-09-10T16:39:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-09-03T14:00:05Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+            <activities>
+              <item>
+                <name>Hearings By (subcommittee)</name>
+                <date>2025-12-02T15:15:00Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2025-11-25T19:24:12Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2026-01-14T23:11:04Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-12-17T15:00:00Z</date>
+          </item>
+          <item>
+            <name>Discharged from</name>
+            <date>2025-12-17T14:00:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-09-03T14:00:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-455,Part 1</citation>
+      </committeeReport>
+      <committeeReport>
+        <citation>H. Rept. 119-455,Part 2</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>1131</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-03-25</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:06:39</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-06-16</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 437.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>15:30:05</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>15:30:02</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 218 - 206 (Roll no. 101). (text: CR H2698-2699)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>101</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll101.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-25T19:30:02Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>15:30:02</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 218 - 206 (Roll no. 101).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>101</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll101.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-25T19:30:02Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>15:23:01</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 207 - 214 (Roll no. 100).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>100</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll100.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-25T19:23:01Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>14:49:59</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>14:49:43</actionTime>
+        <text>Ms. McClellan moved to recommit to the Committee on Oversight and Government Reform. (CR H2704)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>14:49:19</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>14:16:43</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 5103.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>14:15:22</actionTime>
+        <text>Rule provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103 and H.R. 7084. The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <actionTime>14:15:17</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1131. (consideration: CR H2698-2705)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <actionTime>19:55:44</actionTime>
+        <text>Rules Committee Resolution H. Res. 1131 Reported to House. Rule provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103 and H.R. 7084. The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 390.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00390</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <text>Reported (Amended) by the Committee on Oversight and Government Reform. H. Rept. 119-455, Part II.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <text>Reported (Amended) by the Committee on Oversight and Government Reform. H. Rept. 119-455, Part II.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-455, Part I.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-14</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-455, Part I.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 26 - 16.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Federal Lands Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-02</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-11-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii10</systemCode>
+            <name>Federal Lands Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 19.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <text>Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <text>Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001239</bioguideId>
+        <fullName>Rep. McGuire, John J. [R-VA-5]</fullName>
+        <firstName>John</firstName>
+        <lastName>McGuire</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>J.</middleName>
+        <district>5</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>H001077</bioguideId>
+        <fullName>Rep. Higgins, Clay [R-LA-3]</fullName>
+        <firstName>Clay</firstName>
+        <lastName>Higgins</lastName>
+        <party>R</party>
+        <state>LA</state>
+        <district>3</district>
+        <sponsorshipDate>2025-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C000059</bioguideId>
+        <fullName>Rep. Calvert, Ken [R-CA-41]</fullName>
+        <firstName>Ken</firstName>
+        <lastName>Calvert</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>41</district>
+        <sponsorshipDate>2025-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001129</bioguideId>
+        <fullName>Rep. Collins, Mike [R-GA-10]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>10</district>
+        <sponsorshipDate>2025-09-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000591</bioguideId>
+        <fullName>Rep. Guest, Michael [R-MS-3]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Guest</lastName>
+        <party>R</party>
+        <state>MS</state>
+        <district>3</district>
+        <sponsorshipDate>2025-12-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-10-03T14:03:00Z</pubDate>
+        <title>H.R. 5103, Make the District of Columbia Safe and Beautiful Act of 2025</title>
+        <url>https://www.cbo.gov/publication/61792</url>
+        <description>As ordered reported by the House Committee on Oversight and Government Reform on September 10, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2025-09-29T13:57:05Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2025-09-29T13:57:23Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-09-29T13:57:53Z</updateDate>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+          <updateDate>2025-09-29T13:57:28Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal procedure and sentencing</name>
+          <updateDate>2025-09-29T13:58:07Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Interior</name>
+          <updateDate>2025-09-29T13:57:41Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2025-09-29T13:56:59Z</updateDate>
+        </item>
+        <item>
+          <name>Firearms and explosives</name>
+          <updateDate>2025-09-29T13:57:59Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement officers</name>
+          <updateDate>2025-09-29T13:57:33Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2025-09-29T13:57:13Z</updateDate>
+        </item>
+        <item>
+          <name>Monuments and memorials</name>
+          <updateDate>2025-09-29T13:57:47Z</updateDate>
+        </item>
+        <item>
+          <name>Public transit</name>
+          <updateDate>2025-09-29T13:58:13Z</updateDate>
+        </item>
+        <item>
+          <name>Virginia</name>
+          <updateDate>2025-09-29T13:57:18Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Public Lands and Natural Resources</name>
+        <updateDate>2025-09-09T16:44:00Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-09-03</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-09-11T20:20:56Z</updateDate>
+        <text><![CDATA[<p><strong>Make the District of Columbia Safe and Beautiful Act&nbsp;</strong></p><p>This bill establishes a commission in the executive branch to<em></em> advise on&nbsp;certain criminal and immigration matters in the District of Columbia (DC). It also establishes a federal program to ensure that  commonly visited areas in DC are cleaned and maintained.&nbsp;(On March 27, 2025, President Donald Trump&nbsp;issued an executive order titled&nbsp;<em>Making the District of Columbia Safe and Beautiful</em>, which established a similar task force and program.)</p><p>First, the&nbsp;bill establishes a commission made up of representatives from the U.S. Attorneys' Offices for DC, Maryland, and Virginia; specified federal agencies; and other designated federal&nbsp;entities.&nbsp;The commission&nbsp;must recommend actions to, among other tasks,&nbsp;address enforcement of federal immigration law in DC, facilitate the provision of federal resources to reduce crime, and assist with recruitment and retention of DC's Metropolitan Police Department officers.</p><p>Next, the bill directs the Department of the Interior to establish a program to coordinate and maintain the cleanliness of commonly visited areas in DC,&nbsp;including monuments, parks, and roads. The program must also restore damaged or removed federal public monuments and similar properties.</p><p>The bill's provisions terminate on January 2, 2029.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Make the District of Columbia Safe and Beautiful Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Make the District of Columbia Safe and Beautiful Act of 2025</title>
+        <updateDate>2026-06-24T14:23:29Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Make the District of Columbia Safe and Beautiful Act of 2025</title>
+        <updateDate>2026-03-27T02:38:23Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Make the District of Columbia Safe and Beautiful Act of 2025</title>
+        <updateDate>2026-03-27T02:38:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission.</title>
+        <updateDate>2026-03-27T02:38:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Make the District of Columbia Safe and Beautiful Act of 2025</title>
+        <updateDate>2026-01-15T10:53:14Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Make the District of Columbia Safe and Beautiful Act of 2026</title>
+        <updateDate>2026-01-15T10:53:14Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission.</title>
+        <updateDate>2025-09-06T07:33:31Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Make the District of Columbia Safe and Beautiful Act</title>
+        <updateDate>2025-09-06T07:23:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>171</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 1131, the amendment in the nature of a substitute recommended by the Committee on Oversight and Government Reform, printed in the bill, is considered adopted.</description>
+        <updateDate>2026-03-27T15:04:33Z</updateDate>
+        <latestAction>
+          <actionDate>2026-03-25</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2026-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5103</number>
+          <title>Make the District of Columbia Safe and Beautiful Act of 2025</title>
+          <updateDateIncludingText>2026-07-30</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-03-25</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-25</actionDate>
+              <text>Amendment reported by the House Committee on Rules. (consideration: CR H2698)</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2026-03-25</actionDate>
+              <text>House amendment offered/reported by: Amendment reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2026-03-25</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-06-16T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5103pcs/xml/BILLS-119hr5103pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-03-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5103eh/xml/BILLS-119hr5103eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-01-14T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5103rh/xml/BILLS-119hr5103rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-09-03T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5103ih/xml/BILLS-119hr5103ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-06-16</actionDate>
+      <text>Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 437.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

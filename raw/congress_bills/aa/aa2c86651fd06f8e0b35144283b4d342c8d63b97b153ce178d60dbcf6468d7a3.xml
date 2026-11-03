@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2483</number>
+    <updateDate>2026-07-30T19:35:55Z</updateDate>
+    <updateDateIncludingText>2026-07-30T19:35:55Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-03-31</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/2483</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 57 (Monday, March 31, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. GUTHRIE:H.R. 2483.Congress has the power to enact this legislation pursuantto the following:section 8 of article I of the Constitution[Page H1375]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sshr00</systemCode>
+        <name>Health, Education, Labor, and Pensions Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-09-18T16:47:23Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-06-05T17:24:28Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsba00</systemCode>
+        <name>Financial Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-05-29T18:46:03Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-31T16:00:30Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-05-29T18:46:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-31T16:00:25Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsed00</systemCode>
+        <name>Education and Workforce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-05-29T18:45:56Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-31T16:00:20Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-05-29T18:44:27Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-04-29T22:06:38Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-31T16:00:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-114</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Safer Response Act of 2025</title>
+        <congress>119</congress>
+        <number>4079</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-23</actionDate>
+          <text>Referred to the House Committee on Energy and Commerce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Halting the Epidemic of Addiction and Loss Act of 2025</title>
+        <congress>119</congress>
+        <number>2336</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-07-17</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>9–8–8 Lifeline Cybersecurity Responsibility Act</title>
+        <congress>119</congress>
+        <number>912</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-02-04</actionDate>
+          <text>Referred to the House Committee on Energy and Commerce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Pregnant and Postpartum Women Treatment Reauthorization Act</title>
+        <congress>119</congress>
+        <number>1004</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-03-12</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Improving Access to Addiction Medicine Providers Act</title>
+        <congress>119</congress>
+        <number>1036</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-03-13</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <congress>119</congress>
+        <number>2121</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-06-18</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Safe Response Act</title>
+        <congress>119</congress>
+        <number>2532</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-07-30</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Youth Prevention and Recovery Reauthorization Act of 2025</title>
+        <congress>119</congress>
+        <number>3006</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-10-14</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>CAREER Act of 2025</title>
+        <congress>119</congress>
+        <number>500</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-02-10</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>MATE Improvement Act</title>
+        <congress>119</congress>
+        <number>946</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-03-11</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Communities of Recovery Reauthorization Act of 2025</title>
+        <congress>119</congress>
+        <number>2695</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-04-07</actionDate>
+          <text>Referred to the House Committee on Energy and Commerce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Mental Health Improvement Act</title>
+        <congress>119</congress>
+        <number>3260</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-05-07</actionDate>
+          <text>Referred to the House Committee on Energy and Commerce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>9–8–8 Lifeline Cybersecurity Responsibility Act</title>
+        <congress>119</congress>
+        <number>1007</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-03-12</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>TREAT Youth Act</title>
+        <congress>119</congress>
+        <number>3689</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-03</actionDate>
+          <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Bipartisan Health Care Act</title>
+        <congress>119</congress>
+        <number>891</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-03-06</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 2483) to reauthorize certain programs that provide for opioid use disorder prevention, treatment, and recovery, and for other purposes; providing for consideration of the bill (H.R. 2931) to direct the Administrator of the Small Business Administration to relocate certain offices of the Small Business Administration in sanctuary jurisdictions, and for other purposes; providing for consideration of the bill (H.R. 2966) to require the Administrator of the Small Business Administration to require an applicant for certain loans of the Administration to provide certain citizenship status documentation, and for other purposes; and providing for consideration of the bill (H.R. 2987) to amend the Small Business Act to require a limit on the number of small business lending companies, and for other purposes.</title>
+        <congress>119</congress>
+        <number>458</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:03:40</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Lower Costs for Everyday Americans Act</title>
+        <congress>119</congress>
+        <number>1768</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-03-03</actionDate>
+          <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, the Budget, the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-12-01</actionDate>
+        <text>Became Public Law No: 119-44.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-01</actionDate>
+        <text>Became Public Law No: 119-44</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-01</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-01</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-25</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-25</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-09-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S6712)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-09-18</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Health, Education, Labor, and Pensions discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2025-09-18</actionDate>
+        <text>Senate Committee on Health, Education, Labor, and Pensions discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>17:11:14</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>17:11:12</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 366 - 57 (Roll no. 151).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>151</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll151.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-06-04T21:11:12Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>17:11:12</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 366 - 57 (Roll no. 151).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>151</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll151.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-06-04T21:11:12Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>17:02:24</actionTime>
+        <text>The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.</text>
+        <type>Floor</type>
+        <actionCode>H34400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>17:02:14</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>17:01:31</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 2483.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>16:31:15</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>16:30:54</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2456-2457)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:27:37</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 2483 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:27:26</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:27:11</actionTime>
+        <text>Mr. Wittman moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:22:49</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 458, the Committee of the Whole proceeded with 10 minutes of debate on the Wittman amendment No. 4.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:21:52</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Pettersen amendment, the Chair put the question on agreeing to the amendment and by voice vote, announced the noes had prevailed. Ms. Pettersen demanded a recorded vote, and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:11:32</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 458, the Committee of the Whole proceeded with 10 minutes of debate on the Pettersen amendment No. 3.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:08:45</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 458, the Committee of the Whole proceeded with 10 minutes of debate on the Kiggans (VA) amendment No. 2.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>15:05:45</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 458, the Committee of the Whole proceeded with 10 minutes of debate on the Bresnahan amendment No. 1.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>14:10:04</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 2483.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>14:09:37</actionTime>
+        <text>The Speaker designated the Honorable Scott DesJarlais to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>14:09:36</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 458 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>14:09:20</actionTime>
+        <text>Rule provides for consideration of H.R. 2483, H.R. 2931, H.R. 2966 and H.R. 2987. The resolution provides for consideration of H.R. 2483 under a structured rule and for consideration of H.R. 2931, H.R. 2966, and H.R. 2987 under a closed rule. The resolution provides for one hour of debate and one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-04</actionDate>
+        <actionTime>14:09:15</actionTime>
+        <text>Considered under the provisions of rule H. Res. 458. (consideration: CR H2441-2456; text: CR H2447-2543)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-03</actionDate>
+        <actionTime>19:20:02</actionTime>
+        <text>Rules Committee Resolution H. Res. 458 Reported to House. Rule provides for consideration of H.R. 2483, H.R. 2931, H.R. 2966 and H.R. 2987. The resolution provides for consideration of H.R. 2483 under a structured rule and for consideration of H.R. 2931, H.R. 2966, and H.R. 2987 under a closed rule. The resolution provides for one hour of debate and one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 84.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00084</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Committee on Financial Services discharged.</text>
+        <type>Discharge</type>
+        <actionCode>H12300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Committee on Financial Services discharged.</text>
+        <type>Committee</type>
+        <actionCode>5500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Committee on the Judiciary discharged.</text>
+        <type>Discharge</type>
+        <actionCode>H12300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Committee on the Judiciary discharged.</text>
+        <type>Committee</type>
+        <actionCode>5500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Committee on Education and Workforce discharged.</text>
+        <type>Discharge</type>
+        <actionCode>H12300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Committee on Education and Workforce discharged.</text>
+        <type>Committee</type>
+        <actionCode>5500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-114, Part I.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-29</actionDate>
+        <text>Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-114, Part I.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 36 - 13.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, the Judiciary, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsba00</systemCode>
+            <name>Financial Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, the Judiciary, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, the Judiciary, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, the Judiciary, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000558</bioguideId>
+        <fullName>Rep. Guthrie, Brett [R-KY-2]</fullName>
+        <firstName>Brett</firstName>
+        <lastName>Guthrie</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000620</bioguideId>
+        <fullName>Rep. Pettersen, Brittany [D-CO-7]</fullName>
+        <firstName>Brittany</firstName>
+        <lastName>Pettersen</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>7</district>
+        <sponsorshipDate>2025-03-31</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-44</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2025-05-02T15:07:22Z</updateDate>
+        </item>
+        <item>
+          <name>Child health</name>
+          <updateDate>2025-05-02T15:04:40Z</updateDate>
+        </item>
+        <item>
+          <name>Community life and organization</name>
+          <updateDate>2025-05-02T15:06:16Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2025-05-02T15:05:31Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-05-02T15:06:50Z</updateDate>
+        </item>
+        <item>
+          <name>Drug trafficking and controlled substances</name>
+          <updateDate>2025-05-02T15:05:07Z</updateDate>
+        </item>
+        <item>
+          <name>Drug, alcohol, tobacco use</name>
+          <updateDate>2025-05-02T15:04:25Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency communications systems</name>
+          <updateDate>2025-05-02T15:05:26Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2025-05-02T15:04:57Z</updateDate>
+        </item>
+        <item>
+          <name>Family services</name>
+          <updateDate>2025-05-02T15:04:46Z</updateDate>
+        </item>
+        <item>
+          <name>First responders and emergency personnel</name>
+          <updateDate>2025-05-02T15:04:51Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-05-02T15:07:00Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2025-05-02T15:05:58Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-05-02T15:07:18Z</updateDate>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+          <updateDate>2025-05-02T15:05:39Z</updateDate>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+          <updateDate>2025-05-02T15:07:28Z</updateDate>
+        </item>
+        <item>
+          <name>Health personnel</name>
+          <updateDate>2025-05-02T15:05:50Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2025-05-02T15:05:13Z</updateDate>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+          <updateDate>2025-05-02T15:04:35Z</updateDate>
+        </item>
+        <item>
+          <name>Higher education</name>
+          <updateDate>2025-05-02T15:06:08Z</updateDate>
+        </item>
+        <item>
+          <name>Housing and community development funding</name>
+          <updateDate>2025-05-02T15:07:50Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2025-05-02T15:07:35Z</updateDate>
+        </item>
+        <item>
+          <name>Long-term, rehabilitative, and terminal care</name>
+          <updateDate>2025-05-02T15:05:20Z</updateDate>
+        </item>
+        <item>
+          <name>Medical education</name>
+          <updateDate>2025-05-02T15:07:57Z</updateDate>
+        </item>
+        <item>
+          <name>Medical research</name>
+          <updateDate>2025-05-02T15:06:44Z</updateDate>
+        </item>
+        <item>
+          <name>Mental health</name>
+          <updateDate>2025-05-02T15:04:30Z</updateDate>
+        </item>
+        <item>
+          <name>Prescription drugs</name>
+          <updateDate>2025-05-02T15:06:30Z</updateDate>
+        </item>
+        <item>
+          <name>Social work, volunteer service, charitable organizations</name>
+          <updateDate>2025-05-02T15:06:23Z</updateDate>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+          <updateDate>2025-05-02T15:07:10Z</updateDate>
+        </item>
+        <item>
+          <name>Student aid and college costs</name>
+          <updateDate>2025-05-02T15:05:44Z</updateDate>
+        </item>
+        <item>
+          <name>Transportation costs</name>
+          <updateDate>2025-05-02T15:07:43Z</updateDate>
+        </item>
+        <item>
+          <name>Women's health</name>
+          <updateDate>2025-05-02T15:06:36Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+        <updateDate>2026-04-03T15:42:50Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-03-31</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-06-02T19:24:54Z</updateDate>
+        <text><![CDATA[<p><strong>SUPPORT for Patients and Communities Reauthorization Act of 2025</strong></p><p>This bill reauthorizes and revises Department of Health and Human Services (HHS) programs  that address substance use disorders, overdoses, and mental health. </p><p>For example, the bill reauthorizes for FY2026-FY2030&nbsp;grant and other programs&nbsp;relating to</p><p>• &nbsp; &nbsp;addressing&nbsp;substance use disorders with respect to pregnant and postpartum women,<br/>• &nbsp; &nbsp;prevention and recovery from substance use disorders for youth,&nbsp;<br/>• &nbsp; &nbsp;housing for individuals in recovery from substance use disorders,<br/>• &nbsp; &nbsp;community organizations facilitating recovery from substance use disorders,<br/>• &nbsp; &nbsp;loan repayment for certain health care providers treating substance use disorders,&nbsp;<br/>• &nbsp; &nbsp;prevention of overdoses of controlled substances,<br/>• &nbsp; &nbsp;treatment of children experiencing psychological trauma, and<br/>• &nbsp; &nbsp;mental and behavioral health education and training for medical and allied health students.</p><p>Also, the bill revises several programs,&nbsp;including by (1) expanding a program that supports resources for first responders to include the purchase of&nbsp;drugs or devices to treat non-opioid overdoses, (2) expanding a program that supports employment services for&nbsp;individuals in recovery so as to allow for the provision of related transportation services, and (3) temporarily authorizing a regional technical assistance center&nbsp;to assist the&nbsp;National Peer-Run Training and Technical Assistance Center for Addiction Recovery Support.</p><p>Additionally, the bill establishes new requirements for&nbsp;HHS, including requirements relating to</p><p>• &nbsp; &nbsp;protecting the National Suicide Prevention Lifeline program from cybersecurity threats,<br/>• &nbsp; &nbsp;establishing a Federal Interagency Work Group on Fentanyl Contamination of Illegal Drugs, and<br/>• &nbsp; &nbsp;reviewing and potentially revising the scheduling of approved products containing a combination of buprenorphine and naloxone under the Controlled Substances Act.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2025-12-01</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-07-30T19:32:35Z</updateDate>
+        <text><![CDATA[<p><strong>SUPPORT for Patients and Communities Reauthorization Act of 2025</strong><br/><br/>This act reauthorizes and revises programs and activities relating to addressing substance use disorders, overdoses, and mental health. (For additional information on each section of this act, see CRS Report <a href="https://www.congress.gov/crs-product/R48864">R48864</a>.)</p><p>TITLE I--PREVENTION</p><p>(Sec. 101) This section reauthorizes through FY2030 Centers for Disease Control and Prevention (CDC) programs that provide information, grants, and technical assistance relating to studying and preventing prenatal and postnatal substance use disorders.</p><p>(Sec. 102) This section reauthorizes through FY2030 CDC programs that carry out and provide grants for surveillance, treatment, and education relating to infections associated with illicit drug use.</p><p>(Sec. 103) This section reauthorizes through FY2030 and expands&nbsp;CDC programs that carry out activities and provide grants relating to monitoring drug use and overdoses (e.g., supporting state prescription drug monitoring programs), preventing and responding to substance use disorders, and raising awareness regarding opioids and other substances.&nbsp;</p><p>The section authorizes additional activities, including wastewater surveillance and collecting data on risk factors associated with overdoses.</p><p>(Sec. 104) This section reestablishes, expands, and provides statutory authority for Department of Health and Human Services (HHS) activities addressing fetal alcohol spectrum disorders (i.e., conditions caused by prenatal alcohol exposure), including carrying out and providing grants for research, education and public awareness, and intervention and support services for affected individuals.</p><p>(Sec. 105) This section specifies that, in providing grants to support state prescription drug monitoring programs,&nbsp;the CDC is not authorized to require states to use specific vendors or interoperability systems other than to align with general, consensus-based standards for interoperability. &nbsp;</p><p>(Sec. 106) This section reauthorizes through FY2030 and expands grants to government entities to provide first responders with opioid overdose reversal drugs (e.g., naloxone) and related training. The grant program is administered by the Substance Abuse and Mental Health Services Administration (SAMHSA).</p><p>The section expands the program to include (1) treatment and training for overdoses from other drugs besides opioids, and (2) treatment with drugs or devices that are legally marketed under applicable law.&nbsp;Current law limits the program to addressing opioid overdoses&nbsp;and to drugs or devices that are officially approved or cleared by the Food and Drug Administration (FDA).</p><p>(Sec. 107) This section reauthorizes through FY2030 and revises the National Child Traumatic Stress Initiative and related activities, which are administered by&nbsp;SAMHSA. Under the initiative, SAMHSA provides grants and other support to improve the quality of and increase access to services addressing psychological trauma in youth and families.&nbsp;</p><p>The section requires grant recipients to develop&nbsp;training&nbsp;and other resources for collaborative implementation of best practices.</p><p>(Sec. 108) This section requires&nbsp;SAMHSA to undertake efforts to protect the 9-8-8 Suicide &amp; Crisis Lifeline from cybersecurity threats. (The lifeline is a three-digit number that connects callers in suicidal crisis or mental health distress to a national network of crisis centers.) The section includes requirements for the lifeline’s network administrator and participating local and regional crisis centers to report identified cybersecurity incidents and vulnerabilities.</p><p>The Government Accountability Office must conduct a study that evaluates cybersecurity risks and vulnerabilities associated with the lifeline and report the findings to Congress.</p><p>(Sec. 109) This section reauthorizes through FY2030&nbsp;CDC activities to collect and report certain public health data relating to potentially traumatic childhood experiences.</p><p>(Sec. 110) This section reauthorizes through FY2030 an interdepartmental committee on substance use disorders, establishes an interagency work group on&nbsp;fentanyl contamination of illegal drugs, and expands certain SAMHSA activities to include supporting strategies to raise awareness about the dangers of synthetic opioids for youth.</p><p>(Sec. 111) This section requires&nbsp;HHS to publish guidance regarding at-home safe drug disposal systems.</p><p>(Sec. 112) This section requires&nbsp;HHS to publish a plan for assessing approved opioid analgesic drugs (i.e., opioid pain relievers) that addresses the public health effects of these drugs, including updates on actions by the FDA with respect to risk-benefit assessments and supporting development and approval of nonaddictive medical products. HHS must provide an opportunity for public input on the FDA’s regulation of opioid analgesic drugs.</p><p>(Sec. 113) This section provides statutory authority for&nbsp;SAMHSA’s State Opioid Response and Tribal Opioid Response Grants to be used for facilitating access to drug checking technologies, such as fentanyl and xylazine test strips, to the extent permitted by federal and state law.</p><p>TITLE II--TREATMENT</p><p>(Sec. 201) This section reauthorizes through FY2030 the Residential Treatment for Pregnant and Postpartum Women program, which is administered by the Center for Substance Abuse Treatment within&nbsp;SAMHSA. This program awards grants to fund services for pregnant and postpartum women with substance use disorders, including services for treatment, recovery support, and case management.&nbsp;</p><p>The section also specifically allows grant recipients to conduct outreach that is targeted at women disproportionately impacted by maternal substance use disorders.</p><p>(Sec. 202) This section provides statutory authority for the Minority Fellowship Program to include fellowships for training in the field of addiction medicine. The Minority Fellowship Program, administered by&nbsp;SAMHSA, funds fellowships for individuals seeking graduate degrees and planning to work on addressing mental or substance use disorders in racial and ethnic minority populations.</p><p>(Sec. 203) This section reauthorizes through FY2030 the Behavioral Health Workforce Education and Training Program for Professionals, which is administered by the Health Resources and Services Administration (HRSA). This program provides grants to educational organizations and programs to recruit and educate students in mental and behavioral health.</p><p>(Sec. 204) This section reauthorizes through FY2030 the Substance Use Disorder Treatment and Recovery Loan Repayment Program, which is administered by&nbsp;HRSA. This program provides repayment of educational loans for health care practitioners who agree to provide direct treatment or recovery support for substance use disorders in certain areas with shortages of health professionals or high rates of overdose.</p><p>(Sec. 206) This section reauthorizes through FY2030 and expands an interagency task force that must develop recommendations relating to (1) best practices for preventing and mitigating trauma in youth and (2) coordinating the federal response to families impacted by substance use disorders and other trauma.</p><p>(Sec. 208) This section requires&nbsp;SAMHSA to conduct a review of how states use funds under the Community Mental Health Services Block Grant program to address first episode psychosis, including the use of evidence-based services for individuals with early serious mental illness and children with serious emotional disturbance. SAMHSA must report to Congress on the findings of the review and update the guidance for the block grant program based on such findings.</p><p>(Sec. 209) This section requires&nbsp;HHS to review relevant data and, if determined appropriate, request that the Drug Enforcement Administration (DEA)&nbsp;revise the scheduling of approved products containing a combination of buprenorphine and naloxone under the Controlled Substances Act. The DEA must review such requests and determine whether to revise the schedules.</p><p>(Sec. 210) This section requires that, when&nbsp;HHS issues new regulations or guidance on grant programs addressing opioid use disorders, references to an opioid overdose reversal drug (e.g., naloxone) must broadly include any opioid overdose reversal drug approved by the FDA.</p><p>Within one year after the act’s enactment,&nbsp;HHS must update all references accordingly in regulations or guidance issued prior to the act’s enactment that are applicable to State Opioid Response Grants, Tribal Opioid Response Grants, or certain other grants relating to substance use disorder prevention.</p><p>(Sec. 211) This section requires&nbsp;HHS to convene a public roundtable with public and private stakeholders on expanding the use of electronic health records among mental health and substance use disorder service providers. HHS must report to Congress on the results of the roundtable with respect to specified topics.</p><p>TITLE III--RECOVERY</p><p>(Sec. 301) This section reauthorizes through FY2030 the Building Communities of Recovery program, which is administered by the Center for Substance Abuse Treatment within&nbsp;SAMHSA. This program provides grants to certain community nonprofit organizations for developing and delivering coordinated community and statewide recovery support services for individuals with substance use disorders.</p><p>(Sec. 302) This section reauthorizes through FY2030 and expands the National Peer-Run Training and Technical Assistance Center for Addiction Recovery Support, which is administered by&nbsp;SAMHSA. The center provides training and resources to public and private nonprofit entities relating to recovery support services for substance use disorders and co-occurring conditions (i.e., mental health conditions coexisting with substance use disorders).</p><p>The section expands the center's functions to include professional development of peer support specialists and recovery support services in nonclinical settings. It also&nbsp;authorizes through FY2030 a regional technical assistance center to support the ability of the center to meet a particular region's needs.</p><p>(Sec. 303) This section reauthorizes through FY2030 grants to&nbsp;nonprofits for establishing or operating opioid recovery centers providing comprehensive treatment and recovery support services. The grant program is administered by SAMHSA.</p><p>(Sec. 304) This section reauthorizes through FY2030 and revises the Preventing Youth Overdose: Treatment, Recovery, Education, Awareness, and Training (PYO-TREAT) program, which is administered by SAMHSA. The PYO-TREAT program provides grants and other support to educational and public entities for substance use disorder prevention, treatment, and recovery for children and young adults.</p><p>The section revises the program to provide statutory authority for (1) requiring applicants to submit plans for sustaining activities under the program after the grant has ended, and (2) expanding eligible grant recipients to include consortia of local educational agencies.&nbsp;SAMHSA must report to Congress on the PYO-TREAT program’s effectiveness.</p><p>(Sec. 305) This section reauthorizes through FY2030 and expands the Treatment, Recovery, and Workforce Support program, which is administered by SAMHSA. This program provides grants to public and private nonprofit entities to support individuals in treatment and recovery for substance use disorders and co-occurring conditions to live independently and participate in the workforce.</p><p>The section authorizes using 5% of such grant funds for transportation services and requires grant recipients to report on the employment and earnings outcomes of program participants.</p><p>Also, the section reauthorizes through FY2030 the&nbsp;Recovery Housing Pilot Program, which assists states in providing individuals in recovery from a substance use disorder with stable, temporary housing for up to two years. This program is administered by the Department of Housing and Urban Development.</p><p>(Sec. 306) This section reauthorizes through FY2030 the Support to Communities: Fostering Opioid Recovery through Workforce Development program, which is administered by the Department of Labor. This program provides grants to public entities to address the economic and workforce-related impacts of substance use disorders through activities such as screening and support services, training, and engaging with employers.</p><p>(Sec. 307) This section requires&nbsp;HHS to convene a public meeting relating to improving awareness of and access to grants provided by SAMHSA. Based on the stakeholder feedback received at the meeting, HHS must implement improvements to relevant websites and report to Congress.</p><p>TITLE IV--MISCELLANEOUS MATTERS</p><p>(Sec. 401) This section allows pharmacies to deliver to prescribing practitioners schedule&nbsp;III-V controlled substances that are not directly administered by the practitioner (i.e., self-administered), provided the controlled substances are subject to a risk evaluation and mitigation strategy to assure safe use by the patient, including post-administration monitoring by a health care provider.&nbsp;</p><p>(Sec. 402) This section expands the types of organizations that may provide training or education required for practitioners registering with the DEA to dispense (i.e., prescribe or administer) schedule II-V controlled substances.&nbsp;This section applies retroactively, taking effect as if enacted on December 29, 2022.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To reauthorize certain programs that provide for opioid use disorder prevention, treatment, and recovery, and for other purposes.</title>
+        <updateDate>2026-07-11T02:58:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <updateDate>2025-09-20T06:08:14Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <updateDate>2025-06-10T02:53:15Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <updateDate>2025-06-07T04:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <updateDate>2025-05-30T02:53:20Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <updateDate>2025-04-01T08:23:24Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+        <updateDate>2025-04-01T08:23:23Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To reauthorize certain programs that provide for opioid use disorder prevention, treatment, and recovery, and for other purposes.</title>
+        <updateDate>2025-04-01T08:18:32Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>26</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 4 printed in Part A of House Report 119-130 to require HHS to convene a public meeting to improve awareness of, access to, and information related to funding opportunities related to mental health and SUD programs of SAMHSA grant programs.</description>
+        <updateDate>2025-06-05T15:33:18Z</updateDate>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>On agreeing to the Wittman amendment (A004) Agreed to by voice vote.</text>
+          <actionTime>15:26:30</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>W000804</bioguideId>
+            <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+            <firstName>Robert</firstName>
+            <lastName>Wittman</lastName>
+            <party>R</party>
+            <state>VA</state>
+            <middleName>J.</middleName>
+            <district>1</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-06-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>2483</number>
+          <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+          <updateDateIncludingText>2026-07-30</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:26:30</actionTime>
+              <text>On agreeing to the Wittman amendment (A004) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:22:25</actionTime>
+              <text>Amendment (A004) offered by Mr. Wittman. (consideration: CR H2455-2456; text: CR H2455)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:22:25</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:26:30</actionTime>
+              <text>House amendment agreed to: On agreeing to the Wittman amendment (A004) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>25</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 3 printed in Part A of House Report 119-130 to codify Biden-era guidance to ensure that budget neutrality requirements for Section 1115 Waivers take into account downstream savings.</description>
+        <purpose>Amendment sought to codify Biden-era guidance to ensure that budget neutrality requirements for section 1115 waivers take into account downstream savings.</purpose>
+        <updateDate>2025-07-15T08:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>On agreeing to the Pettersen amendment (A003) Failed by recorded vote: 213 - 213 (Roll no. 150).</text>
+          <actionTime>17:01:20</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 150</name>
+              <url>https://www.congress.gov/votes/house/119-1/150</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000620</bioguideId>
+            <fullName>Rep. Pettersen, Brittany [D-CO-7]</fullName>
+            <firstName>Brittany</firstName>
+            <lastName>Pettersen</lastName>
+            <party>D</party>
+            <state>CO</state>
+            <district>7</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-06-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>2483</number>
+          <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+          <updateDateIncludingText>2026-07-30</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>17:01:20</actionTime>
+              <text>On agreeing to the Pettersen amendment (A003) Failed by recorded vote: 213 - 213 (Roll no. 150).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>150</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-06-04T21:01:20Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll150.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>17:01:20</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>150</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-06-04T21:01:20Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll150.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:11:15</actionTime>
+              <text>Amendment (A003) offered by Ms. Pettersen. (consideration: CR H2454-2457; text: CR H2454)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:11:15</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>17:01:20</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Pettersen amendment (A003) Failed by recorded vote: 213 - 213 (Roll no. 150).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>150</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-06-04T21:01:20Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll150.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>17:01:20</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>150</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-06-04T21:01:20Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll150.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>24</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 2 printed in Part A of House Report 119-130 to require the Office of the National Coordinator to convene a public roundtable to examine how the expanded use of electronic health records among mental health and substance use service providers can improve outcomes for patients in mental health and substance use disorder settings and how best to increase Electronic Health Record adoption among such providers.</description>
+        <updateDate>2025-06-05T15:31:00Z</updateDate>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>On agreeing to the Kiggans (VA) amendment (A002) Agreed to by voice vote.</text>
+          <actionTime>15:10:42</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>K000399</bioguideId>
+            <fullName>Rep. Kiggans, Jennifer A. [R-VA-2]</fullName>
+            <firstName>Jennifer</firstName>
+            <lastName>Kiggans</lastName>
+            <party>R</party>
+            <state>VA</state>
+            <middleName>A.</middleName>
+            <district>2</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-06-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>2483</number>
+          <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+          <updateDateIncludingText>2026-07-30</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:10:42</actionTime>
+              <text>On agreeing to the Kiggans (VA) amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:08:20</actionTime>
+              <text>Amendment (A002) offered by Mrs. Kiggans (VA). (consideration: CR H2453-2454; text: CR H2453-2454)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:08:20</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:10:42</actionTime>
+              <text>House amendment agreed to: On agreeing to the Kiggans (VA) amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>23</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 1 printed in Part A of House Report 119-130 to require all HHS regulations or guidance documentation to use language that is inclusive of all opioid overdose reversal drugs that have been approved by FDA, instead of referring to brand names.</description>
+        <updateDate>2025-06-05T15:29:32Z</updateDate>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>On agreeing to the Bresnahan amendment (A001) Agreed to by voice vote.</text>
+          <actionTime>15:08:05</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>B001327</bioguideId>
+            <fullName>Rep. Bresnahan, Robert P. [R-PA-8]</fullName>
+            <firstName>Robert</firstName>
+            <lastName>Bresnahan</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <middleName>P.</middleName>
+            <district>8</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-06-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>2483</number>
+          <title>SUPPORT for Patients and Communities Reauthorization Act of 2025</title>
+          <updateDateIncludingText>2026-07-30</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:08:05</actionTime>
+              <text>On agreeing to the Bresnahan amendment (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:05:11</actionTime>
+              <text>Amendment (A001) offered by Mr. Bresnahan. (consideration: CR H2453; text: CR H2453)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:05:11</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-04</actionDate>
+              <actionTime>15:08:05</actionTime>
+              <text>House amendment agreed to: On agreeing to the Bresnahan amendment (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2483enr/uslm/BILLS-119hr2483enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2483enr/xml/BILLS-119hr2483enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-06-05T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2483rfs/xml/BILLS-119hr2483rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-06-04T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2483eh/xml/BILLS-119hr2483eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-05-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2483rh/xml/BILLS-119hr2483rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-03-31T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2483ih/xml/BILLS-119hr2483ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-12-02T04:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ44/uslm/PLAW-119publ44.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-12-01</actionDate>
+      <text>Became Public Law No: 119-44.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

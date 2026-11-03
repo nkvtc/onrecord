@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>42</number>
+    <updateDate>2026-07-17T18:37:45Z</updateDate>
+    <updateDateIncludingText>2026-07-17T18:37:45Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HJRES</type>
+    <introducedDate>2025-02-12</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-joint-resolution/42</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 29 (Wednesday, February 12, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. CLYDE:H.J. Res. 42.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18[Page H678]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-12T15:05:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the joint resolution (H.J. Res. 42) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment"; providing for consideration of the joint resolution (H.J. Res. 61) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to "National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing"; and providing for consideration of the joint resolution (S.J. Res. 11) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to "Protection of Marine Archaeological Resources".</title>
+        <congress>119</congress>
+        <number>177</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-03-04</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:03:41</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment".</title>
+        <congress>119</congress>
+        <number>50</number>
+        <type>SJRES</type>
+        <latestAction>
+          <actionDate>2025-04-28</actionDate>
+          <text>Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-05-09</actionDate>
+        <text>Became Public Law No: 119-8.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-09</actionDate>
+        <text>Became Public Law No: 119-8.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-09</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-09</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-06</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-06</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-01</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-04-30</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Yea-Nay Vote. 52 - 46. Record Vote Number: 223.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>223</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00223.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-04-30T16:03:56Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-04-30</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 52 - 46. Record Vote Number: 223.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>223</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00223.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-04-30T16:03:56Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-04-30</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate. (consideration: CR S2680-2683)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by motion. (consideration: CR S2644)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 52 - 46. Record Vote Number: 222. (CR S2644)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>222</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00222.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-04-30T01:49:01Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-06</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate, read twice.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>16:44:37</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>16:44:35</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 222 - 203 (Roll no. 59). (text: CR H991)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>59</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll059.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-05T21:44:35Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>16:44:35</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 222 - 203 (Roll no. 59). (text: CR H991)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>59</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll059.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-05T21:44:35Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>16:35:15</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H997-998)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>13:40:42</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.J. Res. 42, the Chair put the question on passage of the joint resolution and by voice vote, announced that the ayes had prevailed. Mr. Pallone demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>13:40:23</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>13:00:37</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.J. Res. 42.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>13:00:18</actionTime>
+        <text>Rule provides for consideration of H.J. Res. 42, H.J. Res. 61 and S.J. Res. 11. The resolution provides for consideration of H.J. Res. 42, H.J. Res. 61, and S.J. Res. 11 under a closed rule with one hour of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 42 and H.J. Res. 61 and one motion to commit on S.J. Res. 11.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-05</actionDate>
+        <actionTime>13:00:13</actionTime>
+        <text>Considered under the provisions of rule H. Res. 177. (consideration: CR H991-996)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-03</actionDate>
+        <actionTime>19:17:34</actionTime>
+        <text>Rules Committee Resolution H. Res. 177 Reported to House. Rule provides for consideration of H.J. Res. 42, H.J. Res. 61 and S.J. Res. 11. The resolution provides for consideration of H.J. Res. 42, H.J. Res. 61, and S.J. Res. 11 under a closed rule with one hour of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 42 and H.J. Res. 61 and one motion to commit on S.J. Res. 11.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001116</bioguideId>
+        <fullName>Rep. Clyde, Andrew S. [R-GA-9]</fullName>
+        <firstName>Andrew</firstName>
+        <lastName>Clyde</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>S.</middleName>
+        <district>9</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>T000478</bioguideId>
+        <fullName>Rep. Tenney, Claudia [R-NY-24]</fullName>
+        <firstName>Claudia</firstName>
+        <lastName>Tenney</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>24</district>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001228</bioguideId>
+        <fullName>Rep. Schmidt, Derek [R-KS-2]</fullName>
+        <firstName>Derek</firstName>
+        <lastName>Schmidt</lastName>
+        <party>R</party>
+        <state>KS</state>
+        <district>2</district>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001211</bioguideId>
+        <fullName>Rep. Miller, Mary E. [R-IL-15]</fullName>
+        <firstName>Mary</firstName>
+        <lastName>Miller</lastName>
+        <party>R</party>
+        <state>IL</state>
+        <middleName>E.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000578</bioguideId>
+        <fullName>Rep. LaMalfa, Doug [R-CA-1]</fullName>
+        <firstName>Doug</firstName>
+        <lastName>LaMalfa</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>1</district>
+        <sponsorshipDate>2025-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001099</bioguideId>
+        <fullName>Rep. Haridopolos, Mike [R-FL-8]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Haridopolos</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>8</district>
+        <sponsorshipDate>2025-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000597</bioguideId>
+        <fullName>Rep. Lee, Laurel M. [R-FL-15]</fullName>
+        <firstName>Laurel</firstName>
+        <lastName>Lee</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>M.</middleName>
+        <district>15</district>
+        <sponsorshipDate>2025-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-8</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2025-03-10T18:14:31Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-03-11T19:43:02Z</updateDate>
+        </item>
+        <item>
+          <name>Consumer affairs</name>
+          <updateDate>2025-03-10T18:15:16Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+          <updateDate>2025-03-11T19:42:10Z</updateDate>
+        </item>
+        <item>
+          <name>Energy efficiency and conservation</name>
+          <updateDate>2025-03-10T18:15:07Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+          <updateDate>2025-03-10T18:18:40Z</updateDate>
+        </item>
+        <item>
+          <name>Industrial policy and productivity</name>
+          <updateDate>2025-03-11T19:42:54Z</updateDate>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+          <updateDate>2025-03-11T19:42:34Z</updateDate>
+        </item>
+        <item>
+          <name>Lighting, heating, cooling</name>
+          <updateDate>2025-03-10T18:18:10Z</updateDate>
+        </item>
+        <item>
+          <name>Performance measurement</name>
+          <updateDate>2025-03-10T18:18:03Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+        <updateDate>2025-02-14T14:12:45Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-03-04T20:18:04Z</updateDate>
+        <text><![CDATA[<p>This joint resolution nullifies the&nbsp;<em>Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment&nbsp;</em>rule published by the Department of Energy (DOE) on October 9, 2024. Under the rule, DOE modified its regulations on the energy efficiency of certain types of&nbsp;consumer products (e.g., washing machines and dishwashers) and&nbsp;industrial equipment (e.g., computer room air conditioners). Specifically, it modified certification requirements, labeling requirements, and enforcement provisions for these products and equipment to (1) align reporting requirements with currently applicable energy conservation standards and test procedures, and (2) provide DOE with the information necessary to determine the appropriate classification of products for the application of standards.&nbsp;</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2025-05-09</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-06-05T15:02:24Z</updateDate>
+        <text><![CDATA[<p>This joint resolution eliminates new, more stringent certification, labeling, and enforcement requirements related to energy conservation standards&nbsp;for specific types of appliances.</p><p>Specifically, the joint resolution nullifies a&nbsp;<a href="https://www.federalregister.gov/documents/2024/10/09/2024-21950/energy-conservation-program-for-appliance-standards-certification-requirements-labeling-requirements">rule</a> titled the&nbsp;<em>Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment&nbsp;</em>and published by the Department of Energy (DOE) on October 9, 2024. Under the rule, DOE modified its regulations on the energy efficiency of&nbsp;certain types of&nbsp;consumer products (e.g., washing machines and dishwashers) and&nbsp;industrial equipment (e.g., computer room air conditioners). DOE modified certification requirements, labeling requirements, and enforcement provisions for these products and equipment to (1) align reporting requirements with currently applicable energy conservation standards and test procedures, and (2) provide DOE with the information necessary to determine the appropriate classification of products for the application of standards.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment".</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment".</title>
+        <updateDate>2026-07-10T15:43:35Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment".</title>
+        <updateDate>2026-07-10T15:43:29Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment".</title>
+        <updateDate>2025-02-13T09:18:28Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres42enr/uslm/BILLS-119hjres42enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres42enr/xml/BILLS-119hjres42enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Received in Senate</type>
+        <date>2025-03-06T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres42rds/xml/BILLS-119hjres42rds.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-03-05T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres42eh/xml/BILLS-119hjres42eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-02-12T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres42ih/xml/BILLS-119hjres42ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-05-10T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ8/uslm/PLAW-119publ8.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-05-09</actionDate>
+      <text>Became Public Law No: 119-8.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

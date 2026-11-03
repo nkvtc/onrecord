@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2493</number>
+    <updateDate>2026-09-19T23:18:42Z</updateDate>
+    <updateDateIncludingText>2026-09-19T23:18:42Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-03-31</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/2493</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 57 (Monday, March 31, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. CARTER of Georgia:H.R. 2493.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 of the Constitution[Page H1375]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+            <activities>
+              <item>
+                <name>Reported by</name>
+                <date>2025-09-10T17:50:54Z</date>
+              </item>
+              <item>
+                <name>Markup by</name>
+                <date>2025-09-10T17:44:32Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2025-09-10T17:44:25Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-10-03T20:08:59Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-09-17T16:02:35Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-31T16:07:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-325</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+        <congress>119</congress>
+        <number>2301</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-09-08</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 153.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-04-22</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 377.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>15:44:17</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>15:44:16</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 406 - 4 (Roll no. 128). (text: CR H3021-3022)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>128</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll128.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-21T19:44:16Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>15:44:16</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 406 - 4 (Roll no. 128). (text: CR H3021-3022)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>128</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll128.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-21T19:44:16Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>15:37:22</actionTime>
+        <text>Considered as unfinished business. (text: CR H3025)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>14:35:23</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>14:26:52</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 2493.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>14:26:51</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H3021-3023)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-21</actionDate>
+        <actionTime>14:26:42</actionTime>
+        <text>Mrs. Harshbarger moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-10-03</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 278.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00278</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-10-03</actionDate>
+        <text>Reported by the Committee on Energy and Commerce. H. Rept. 119-325.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-10-03</actionDate>
+        <text>Reported by the Committee on Energy and Commerce. H. Rept. 119-325.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported by the Yeas and Nays: 49 - 0.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Forwarded by Subcommittee to Full Committee by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif14</systemCode>
+            <name>Health Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001103</bioguideId>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <firstName>Earl</firstName>
+        <lastName>Carter</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>L. "Buddy"</middleName>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>F000481</bioguideId>
+        <fullName>Rep. Figures, Shomari [D-AL-2]</fullName>
+        <firstName>Shomari</firstName>
+        <lastName>Figures</lastName>
+        <party>D</party>
+        <state>AL</state>
+        <district>2</district>
+        <sponsorshipDate>2025-03-31</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000619</bioguideId>
+        <fullName>Rep. Rulli, Michael A. [R-OH-6]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Rulli</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2025-03-31</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001216</bioguideId>
+        <fullName>Rep. Schrier, Kim [D-WA-8]</fullName>
+        <firstName>Kim</firstName>
+        <lastName>Schrier</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>8</district>
+        <sponsorshipDate>2025-03-31</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000487</bioguideId>
+        <fullName>Rep. Tokuda, Jill N. [D-HI-2]</fullName>
+        <firstName>Jill</firstName>
+        <lastName>Tokuda</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>N.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-05-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000138</bioguideId>
+        <fullName>Rep. Vindman, Eugene Simon [D-VA-7]</fullName>
+        <firstName>Eugene</firstName>
+        <lastName>Vindman</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <middleName>Simon</middleName>
+        <district>7</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-01-05T21:28:00Z</pubDate>
+        <title>H.R. 2493, Improving Care in Rural America Reauthorization Act of 2025</title>
+        <url>https://www.cbo.gov/publication/61989</url>
+        <description>As reported by the House Committee on Energy and Commerce on October 3, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Health care coverage and access</name>
+          <updateDate>2025-09-16T14:08:14Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2025-09-16T14:08:01Z</updateDate>
+        </item>
+        <item>
+          <name>Rural conditions and development</name>
+          <updateDate>2025-09-16T14:08:08Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Health</name>
+        <updateDate>2025-04-07T13:13:01Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-03-31</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-04-15T19:27:06Z</updateDate>
+        <text><![CDATA[<p><strong>Improving Care in Rural America Reauthorization Act of 2025</strong></p><p>This bill reauthorizes through FY2030 grant programs administered by the Health Resources and Services Administration (HRSA) that provide funding to health care service providers and related entities in rural areas. </p><p>Specifically, the bill reauthorizes grants for&nbsp;</p><ul><li>expanding the delivery of health care services in rural areas,&nbsp;</li><li>developing integrated health care networks (i.e., collaborative groups of local health care organizations) in rural areas, and&nbsp;</li><li>improving the quality of services provided by small health care providers in rural areas.</li></ul><p>Also, the bill requires HRSA to ensure that grant funds for expanding services or developing health care networks are used to (1) meet the health care needs of underserved populations, and (2) engage such populations in the planning and implementation of related activities.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+        <updateDate>2026-09-19T23:18:42Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+        <updateDate>2026-04-28T06:08:34Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+        <updateDate>2026-04-23T03:53:24Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To reauthorize certain programs regarding rural health care.</title>
+        <updateDate>2026-04-23T03:53:24Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+        <updateDate>2025-10-04T05:23:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Improving Care in Rural America Reauthorization Act of 2025</title>
+        <updateDate>2025-04-06T04:38:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To reauthorize certain programs regarding rural health care.</title>
+        <updateDate>2025-04-06T04:33:49Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-04-22T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2493pcs/xml/BILLS-119hr2493pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-04-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2493eh/xml/BILLS-119hr2493eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-10-03T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2493rh/xml/BILLS-119hr2493rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-03-31T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2493ih/xml/BILLS-119hr2493ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-04-22</actionDate>
+      <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 377.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4371</number>
+    <updateDate>2026-05-29T21:20:26Z</updateDate>
+    <updateDateIncludingText>2026-07-30T16:27:18Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-07-14</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/4371</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 120 (Monday, July 14, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. FRY:H.R. 4371.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, of the United States Constitution[Page H3245]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-16T21:47:26Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-16T20:24:10Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-10-17T20:04:19Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-09-10T15:34:09Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-07-14T16:02:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-345</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Kayla Hamilton Act</title>
+        <congress>119</congress>
+        <number>3054</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-10-23</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process; providing for consideration of the bill (H.R. 1366) to provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes; providing for consideration of the bill (H.R. 845) to require the Secretary of the Interior to reissue regulations removing the gray wolf from the list of endangered and threatened wildlife under the Endangered Species Act of 1973; providing for consideration of the bill (H.R. 3616) to require the Federal Energy Regulatory Commission to review regulations that may affect the reliable operation of the bulk-power system; providing for consideration of the bill (H.R. 3632) to amend the Federal Power Act to adjust the requirements for orders, rules, and regulations relating to furnishing adequate service, to require owners or operators of generating facilities to provide notice of planned retirements of certain electric generating units, and for other purposes; and providing for consideration of the bill (H.R. 4371) to amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 to enhance efforts to combat the trafficking of children.</title>
+        <congress>119</congress>
+        <number>951</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-12-16</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:32:50</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>16:53:32</actionTime>
+        <text>The title of the measure was amended. Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38800</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>16:53:31</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>16:53:29</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 225 - 201 (Roll no. 340). (text of amendment in the nature of a substitute: CR H5921-5922)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>340</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll340.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-16T21:53:29Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>16:53:29</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 225 - 201 (Roll no. 340). (text of amendment in the nature of a substitute: CR H5921-5922)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>340</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll340.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-16T21:53:29Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>16:47:26</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 208 - 218 (Roll no. 339).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>339</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll339.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-16T21:47:26Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>16:15:32</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H5933-5934)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>15:24:34</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate H.R. 4371, the Chair put the question on motion to recommit and announced that the ayes had prevailed. Ms. Stansbury demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>15:24:24</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>15:24:10</actionTime>
+        <text>Ms. Stansbury moved to recommit to the Committee on the Judiciary. (text: CR H5927)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>15:23:31</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>14:36:29</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 4371.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>14:35:29</actionTime>
+        <text>Rule provides for consideration of H.R. 4776, H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632 and H.R. 4371. The resolution provides for consideration of H.R. 4776, under a structured rule and H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632, and H.R. 4371 under a closed rule. The resolution provides one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>14:35:24</actionTime>
+        <text>Considered under the provisions of rule H. Res. 951. (consideration: CR H5921-5927)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>14:32:49</actionTime>
+        <text>Rule H. Res. 951 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>09:59:03</actionTime>
+        <text>Rules Committee Resolution H. Res. 951 Reported to House. Rule provides for consideration of H.R. 4776, H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632 and H.R. 4371. The resolution provides for consideration of H.R. 4776, under a structured rule and H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632, and H.R. 4371 under a closed rule. The resolution provides one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-10-17</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 297.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00297</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-10-17</actionDate>
+        <text>Reported (Amended) by the Committee on Judiciary. H. Rept. 119-345.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-10-17</actionDate>
+        <text>Reported (Amended) by the Committee on Judiciary. H. Rept. 119-345.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 16 - 13.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-07-14</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-14</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000478</bioguideId>
+        <fullName>Rep. Fry, Russell [R-SC-7]</fullName>
+        <firstName>Russell</firstName>
+        <lastName>Fry</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>7</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>N000026</bioguideId>
+        <fullName>Rep. Nehls, Troy E. [R-TX-22]</fullName>
+        <firstName>Troy</firstName>
+        <lastName>Nehls</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>E.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2025-07-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001212</bioguideId>
+        <fullName>Rep. Moore, Barry [R-AL-1]</fullName>
+        <firstName>Barry</firstName>
+        <lastName>Moore</lastName>
+        <party>R</party>
+        <state>AL</state>
+        <district>1</district>
+        <sponsorshipDate>2025-07-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-05-29T21:10:00Z</pubDate>
+        <title>H.R. 4371, Kayla Hamilton Act</title>
+        <url>https://www.cbo.gov/publication/62493</url>
+        <description>As passed by the House of Representatives on December 16, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2025-09-22T16:21:08Z</updateDate>
+        </item>
+        <item>
+          <name>Child safety and welfare</name>
+          <updateDate>2025-09-22T16:21:22Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2025-09-22T16:21:12Z</updateDate>
+        </item>
+        <item>
+          <name>Human trafficking</name>
+          <updateDate>2025-09-22T16:21:27Z</updateDate>
+        </item>
+        <item>
+          <name>Immigration status and procedures</name>
+          <updateDate>2025-09-22T16:21:44Z</updateDate>
+        </item>
+        <item>
+          <name>Juvenile crime and gang violence</name>
+          <updateDate>2025-09-22T16:21:17Z</updateDate>
+        </item>
+        <item>
+          <name>Smuggling and trafficking</name>
+          <updateDate>2025-09-22T16:21:33Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+        <updateDate>2025-08-01T14:54:45Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-07-14</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-09-10T18:00:46Z</updateDate>
+        <text><![CDATA[<p><strong>Kayla Hamilton Act</strong></p><p>This bill requires the Department of Health and Human Services (HHS) to consider additional information when it makes placement determinations for unaccompanied alien children in its custody. Under federal law, an <em>unaccompanied alien child</em> is a minor with no lawful immigration status and no parent or legal guardian in the United States to provide care and physical custody.</p><p>Current law&nbsp;requires&nbsp;HHS to (1) place a child in the least restrictive setting that is in the child's best interest, and (2) assess the safety and suitability of a sponsor prior to placing a child with that sponsor.&nbsp;</p><p>In determining the least restrictive setting, this bill requires (currently, permits) HHS to consider the child's danger to self, danger to the community, and flight risk. Additionally, the bill requires placement in a secure facility in the case of a child who is 13 years of age or older and has gang-related markings or tattoos or a history of gang-related arrests or criminal conduct.</p><p>In assessing the safety and suitability of a sponsor, this bill requires&nbsp;HHS to collect and provide to the Department of Homeland Security information about all adult residents of the household, including name, date of birth, Social Security number, immigration status, contact information, and the results of all background and criminal records checks. The bill also&nbsp;prohibits HHS from placing a child with a sponsor who is&nbsp;unlawfully present in the United States.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Kayla Hamilton Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Kayla Hamilton Act</title>
+        <updateDate>2025-12-18T05:23:16Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Kayla Hamilton Act</title>
+        <updateDate>2025-12-18T05:23:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 and the Homeland Security Act of 2002 to enhance efforts to combat the trafficking of children.</title>
+        <updateDate>2025-12-18T05:23:15Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles as Amended by House</titleType>
+        <titleTypeCode>7</titleTypeCode>
+        <title>To amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 and the Homeland Security Act of 2002 to enhance efforts to combat the trafficking of children</title>
+        <updateDate>2025-12-16T22:06:26Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Kayla Hamilton Act</title>
+        <updateDate>2025-10-18T03:23:13Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Kayla Hamilton Act</title>
+        <updateDate>2025-07-24T01:53:22Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 to enhance efforts to combat the trafficking of children.</title>
+        <updateDate>2025-07-24T01:48:27Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>135</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H.Res. 951, the amendment in the nature of a substitute recommended by the Committee on the Judiciary is considered adopted.</description>
+        <updateDate>2025-12-17T09:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-16</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-16T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4371</number>
+          <title>Kayla Hamilton Act</title>
+          <updateDateIncludingText>2026-07-30</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-12-16T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4371eh/xml/BILLS-119hr4371eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-10-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4371rh/xml/BILLS-119hr4371rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-07-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4371ih/xml/BILLS-119hr4371ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-12-17</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

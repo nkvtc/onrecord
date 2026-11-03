@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1326</number>
+    <updateDate>2026-09-08T18:09:59Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:09:59Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-02-13</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/1326</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 30 (Thursday, February 13, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. LUCAS:H.R. 1326.Congress has the power to enact this legislation pursuantto the following:Article 1 Section 8[Page H711]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sseg00</systemCode>
+        <name>Energy and Natural Resources Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-25T18:33:35Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsag00</systemCode>
+        <name>Agriculture Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsag14</systemCode>
+            <name>Conservation, Research, and Biotechnology Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2025-03-14T20:37:10Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-13T14:00:25Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hssy00</systemCode>
+        <name>Science, Space, and Technology Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-13T14:00:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>sseg00</systemCode>
+            <name>Energy and Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>19:10:26</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>19:10:25</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 372 - 35 (Roll no. 73). (text: CR H1204)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>73</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll073.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-24T23:10:25Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>19:10:25</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 372 - 35 (Roll no. 73). (text: CR H1204)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>73</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll073.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-24T23:10:25Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>19:03:49</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H1214)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>15:13:03</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>15:05:29</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 1326.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>15:05:28</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H1204-1205)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>15:05:18</actionTime>
+        <text>Mr. Babin moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsag14</systemCode>
+            <name>Conservation, Research, and Biotechnology Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Conservation, Research, and Biotechnology.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-13</actionDate>
+        <text>Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsag00</systemCode>
+            <name>Agriculture Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-13</actionDate>
+        <text>Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-13</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>L000491</bioguideId>
+        <fullName>Rep. Lucas, Frank D. [R-OK-3]</fullName>
+        <firstName>Frank</firstName>
+        <lastName>Lucas</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <middleName>D.</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000397</bioguideId>
+        <fullName>Rep. Lofgren, Zoe [D-CA-18]</fullName>
+        <firstName>Zoe</firstName>
+        <lastName>Lofgren</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>18</district>
+        <sponsorshipDate>2025-02-13</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000478</bioguideId>
+        <fullName>Rep. Tenney, Claudia [R-NY-24]</fullName>
+        <firstName>Claudia</firstName>
+        <lastName>Tenney</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>24</district>
+        <sponsorshipDate>2025-02-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural practices and innovations</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural research</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Climate change and greenhouse gases</name>
+          <updateDate>2025-03-25T14:31:44Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Agriculture</name>
+          <updateDate>2025-03-25T14:31:44Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+          <updateDate>2025-03-25T14:31:44Z</updateDate>
+        </item>
+        <item>
+          <name>Energy research</name>
+          <updateDate>2025-03-25T14:31:44Z</updateDate>
+        </item>
+        <item>
+          <name>Energy storage, supplies, demand</name>
+          <updateDate>2025-03-25T14:31:44Z</updateDate>
+        </item>
+        <item>
+          <name>Fires</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Forests, forestry, trees</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Pest management</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Research and development</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+        <item>
+          <name>Water use and supply</name>
+          <updateDate>2025-03-25T14:31:43Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Agriculture and Food</name>
+        <updateDate>2025-03-19T13:56:14Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-13</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-03-19T16:58:27Z</updateDate>
+        <text><![CDATA[<p><strong>DOE and USDA Interagency Research Act</strong></p><p>This bill requires the Department of Energy and Department of Agriculture to carry out cross-cutting and collaborative research and development activities through the establishment of an interagency agreement.</p><p>The agencies are authorized to (1) carry out reimbursable agreements in order to maximize research and development effectiveness, and (2) collaborate with other federal agencies. Further, the interagency agreement must require the use of a competitive, merit-reviewed process, which considers applications from federal agencies, national laboratories, institutions of higher education, and nonprofit institutions.</p><p>Research and development activities may include</p><ul><li>collaborative research in a variety of focus areas such as machine learning and artificial intelligence,&nbsp;biofuels and biobased&nbsp;products, grid modernization and security, rural technology development, and wildfire risks and prevention;</li><li>developing methods to accommodate large voluntary standardized and integrated data sets on agricultural, environmental, supply chain, and economic information;</li><li>supporting research infrastructure and workforce development; and</li><li>collaborative research and development on ways to improve agriculture operations and processing efficiencies, and reduce greenhouse gas emissions.</li></ul>]]></text>
+      </summary>
+    </summaries>
+    <title>DOE and USDA Interagency Research Act</title>
+    <titles>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To provide for Department of Energy and Department of Agriculture joint research and development activities, and for other purposes.</title>
+        <updateDate>2026-07-10T16:38:24Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>DOE and USDA Interagency Research Act</title>
+        <updateDate>2025-03-28T11:23:19Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>DOE and USDA Interagency Research Act</title>
+        <updateDate>2025-03-26T02:08:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>DOE and USDA Interagency Research Act</title>
+        <updateDate>2025-03-13T04:23:36Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>DOE and USDA Interagency Research Act</title>
+        <updateDate>2025-03-13T04:23:27Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To provide for Department of Energy and Department of Agriculture joint research and development activities, and for other purposes.</title>
+        <updateDate>2025-03-13T04:20:50Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-03-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1326rfs/xml/BILLS-119hr1326rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-03-24T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1326eh/xml/BILLS-119hr1326eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-02-13T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1326ih/xml/BILLS-119hr1326ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-03-25</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

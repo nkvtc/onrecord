@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4405</number>
+    <updateDate>2026-07-18T00:01:51Z</updateDate>
+    <updateDateIncludingText>2026-07-18T00:01:51Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-07-15</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/4405</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 121 (Tuesday, July 15, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. KHANNA:H.R. 4405.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H3316]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-07-15T14:05:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 185) to advance responsible policies.</title>
+        <congress>119</congress>
+        <number>581</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-11-19</actionDate>
+          <text>Pursuant to the provisions of H. Res. 879, H. Res. 581 is laid on the table.</text>
+          <actionTime>12:03:10</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the joint resolution (S.J. Res. 80) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision; providing for consideration of the joint resolution (H.J. Res. 130) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment; providing for consideration of the joint resolution (H.J. Res. 131) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision; providing for consideration of the concurrent resolution (H. Con. Res. 58) denouncing the horrors of socialism; providing for consideration of the bill (H.R. 1949) to repeal restrictions on the export and import of natural gas; providing for consideration of the bill (H.R. 3109) to require the Secretary of Energy to direct the National Petroleum Council to issue a report with respect to petrochemical refineries in the United States, and for other purposes; providing for consideration of the bill (H.R. 5107) to repeal the Comprehensive Policing and Justice Reform Amendment Act of 2022 enacted by the District of Columbia Council; providing for consideration of the bill (H.R. 5214) to require mandatory pretrial and post conviction detention for crimes of violence and dangerous crimes and require mandatory cash bail for certain offenses that pose a threat to public safety or order in the District of Columbia, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>879</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-11-18</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>15:05:03</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Became Public Law No: 119-38.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Became Public Law No: 119-38.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate, read twice, considered, read the third time, and passed, under the order of 11/18/2025, without amendment by Unanimous Consent. (consideration: CR S8211)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <text>Passed/agreed to in Senate: Received in the Senate, read twice, considered, read the third time, and passed, under the order of 11/18/2025, without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>14:44:00</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>14:43:59</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by recorded vote (2/3 required): 427 - 1 (Roll no. 289). (text: CR H4725)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>289</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll289.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-11-18T19:43:59Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>14:43:59</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by recorded vote (2/3 required): 427 - 1 (Roll no. 289). (text: CR H4725)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>289</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll289.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-11-18T19:43:59Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>13:18:44</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 4405.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>13:18:42</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H4725-4733)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>13:18:15</actionTime>
+        <text>Mr. Jordan moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-15</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-15</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-15</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>K000389</bioguideId>
+        <fullName>Rep. Khanna, Ro [D-CA-17]</fullName>
+        <firstName>Ro</firstName>
+        <lastName>Khanna</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>17</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M001184</bioguideId>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <firstName>Thomas</firstName>
+        <lastName>Massie</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>4</district>
+        <sponsorshipDate>2025-07-15</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001200</bioguideId>
+        <fullName>Rep. Soto, Darren [D-FL-9]</fullName>
+        <firstName>Darren</firstName>
+        <lastName>Soto</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <district>9</district>
+        <sponsorshipDate>2025-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000562</bioguideId>
+        <fullName>Rep. Lynch, Stephen F. [D-MA-8]</fullName>
+        <firstName>Stephen</firstName>
+        <lastName>Lynch</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>F.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2025-07-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000381</bioguideId>
+        <fullName>Rep. Ansari, Yassamin [D-AZ-3]</fullName>
+        <firstName>Yassamin</firstName>
+        <lastName>Ansari</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <district>3</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000312</bioguideId>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <firstName>James</firstName>
+        <lastName>McGovern</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <middleName>P.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000488</bioguideId>
+        <fullName>Rep. Thanedar, Shri [D-MI-13]</fullName>
+        <firstName>Shri</firstName>
+        <lastName>Thanedar</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>13</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000288</bioguideId>
+        <fullName>Rep. Johnson, Henry C. "Hank" [D-GA-4]</fullName>
+        <firstName>Henry</firstName>
+        <lastName>Johnson</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <middleName>C. "Hank"</middleName>
+        <district>4</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000173</bioguideId>
+        <fullName>Rep. Omar, Ilhan [D-MN-5]</fullName>
+        <firstName>Ilhan</firstName>
+        <lastName>Omar</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>5</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000344</bioguideId>
+        <fullName>Rep. Sherman, Brad [D-CA-32]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Sherman</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>32</district>
+        <sponsorshipDate>2025-07-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001324</bioguideId>
+        <fullName>Rep. Bell, Wesley [D-MO-1]</fullName>
+        <firstName>Wesley</firstName>
+        <lastName>Bell</lastName>
+        <party>D</party>
+        <state>MO</state>
+        <district>1</district>
+        <sponsorshipDate>2025-07-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000176</bioguideId>
+        <fullName>Rep. Olszewski, Johnny [D-MD-2]</fullName>
+        <firstName>Johnny</firstName>
+        <lastName>Olszewski</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>2</district>
+        <sponsorshipDate>2025-07-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000197</bioguideId>
+        <fullName>Rep. Pelosi, Nancy [D-CA-11]</fullName>
+        <firstName>Nancy</firstName>
+        <lastName>Pelosi</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>11</district>
+        <sponsorshipDate>2025-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000530</bioguideId>
+        <fullName>Rep. Deluzio, Christopher R. [D-PA-17]</fullName>
+        <firstName>Christopher</firstName>
+        <lastName>Deluzio</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <middleName>R.</middleName>
+        <district>17</district>
+        <sponsorshipDate>2025-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001196</bioguideId>
+        <fullName>Rep. Moulton, Seth [D-MA-6]</fullName>
+        <firstName>Seth</firstName>
+        <lastName>Moulton</lastName>
+        <party>D</party>
+        <state>MA</state>
+        <district>6</district>
+        <sponsorshipDate>2025-07-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <fullName>Del. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>Eleanor</firstName>
+        <lastName>Norton</lastName>
+        <party>D</party>
+        <state>DC</state>
+        <middleName>Holmes</middleName>
+        <district>0</district>
+        <sponsorshipDate>2025-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M000687</bioguideId>
+        <fullName>Rep. Mfume, Kweisi [D-MD-7]</fullName>
+        <firstName>Kweisi</firstName>
+        <lastName>Mfume</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>7</district>
+        <sponsorshipDate>2025-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S000510</bioguideId>
+        <fullName>Rep. Smith, Adam [D-WA-9]</fullName>
+        <firstName>Adam</firstName>
+        <lastName>Smith</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>9</district>
+        <sponsorshipDate>2025-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000096</bioguideId>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <firstName>Danny</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>K.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2025-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001205</bioguideId>
+        <fullName>Rep. Scanlon, Mary Gay [D-PA-5]</fullName>
+        <firstName>Mary Gay</firstName>
+        <lastName>Scanlon</lastName>
+        <party>D</party>
+        <state>PA</state>
+        <district>5</district>
+        <sponsorshipDate>2025-07-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000481</bioguideId>
+        <fullName>Rep. Figures, Shomari [D-AL-2]</fullName>
+        <firstName>Shomari</firstName>
+        <lastName>Figures</lastName>
+        <party>D</party>
+        <state>AL</state>
+        <district>2</district>
+        <sponsorshipDate>2025-07-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001223</bioguideId>
+        <fullName>Rep. Magaziner, Seth [D-RI-2]</fullName>
+        <firstName>Seth</firstName>
+        <lastName>Magaziner</lastName>
+        <party>D</party>
+        <state>RI</state>
+        <district>2</district>
+        <sponsorshipDate>2025-08-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000635</bioguideId>
+        <fullName>Rep. Dexter, Maxine [D-OR-3]</fullName>
+        <firstName>Maxine</firstName>
+        <lastName>Dexter</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <district>3</district>
+        <sponsorshipDate>2025-08-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000598</bioguideId>
+        <fullName>Rep. Garcia, Robert [D-CA-42]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Garcia</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>42</district>
+        <sponsorshipDate>2025-08-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001090</bioguideId>
+        <fullName>Rep. Harder, Josh [D-CA-9]</fullName>
+        <firstName>Josh</firstName>
+        <lastName>Harder</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>9</district>
+        <sponsorshipDate>2025-10-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-38</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-11-19T20:01:14Z</updateDate>
+        </item>
+        <item>
+          <name>Crime victims</name>
+          <updateDate>2025-11-19T20:01:10Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against children</name>
+          <updateDate>2025-11-19T20:01:24Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+          <updateDate>2025-11-19T20:00:50Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal justice information and records</name>
+          <updateDate>2025-11-19T20:00:56Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Justice</name>
+          <updateDate>2025-11-19T20:01:05Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-11-19T20:00:44Z</updateDate>
+        </item>
+        <item>
+          <name>Human trafficking</name>
+          <updateDate>2025-11-19T20:01:33Z</updateDate>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+          <updateDate>2025-11-19T20:01:18Z</updateDate>
+        </item>
+        <item>
+          <name>Sex offenses</name>
+          <updateDate>2025-11-19T20:01:28Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+        <updateDate>2026-04-03T15:36:25Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-07-15</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-09-08T17:37:36Z</updateDate>
+        <text><![CDATA[<p><strong>Epstein Files Transparency Act</strong></p><p>This bill requires the Department of Justice (DOJ) to publish (in a searchable and downloadable format) all&nbsp;unclassified records, documents, communications, and investigative materials in DOJ's possession that relate to the investigation and prosecution of Jeffrey Epstein.</p><p>This includes (1) materials&nbsp;that relate to Ghislaine Maxwell, (2) flight logs and travel records, and (3) individuals named or referenced (including government officials) in connection with the investigation and prosecution of Jeffrey Epstein.</p><p>DOJ is permitted to withhold certain information such as the personal information of victims and materials that would jeopardize an active federal investigation.</p><p>Additionally, not later than 15 days after the required publication, DOJ must report to Congress (1) all categories of information released and withheld, (2) a summary of any redactions made, and (3) a list of all government officials and politically exposed individuals named or referenced in the published materials.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2025-11-19</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-06-02T20:03:43Z</updateDate>
+        <text><![CDATA[<p><strong>Epstein Files Transparency Act</strong></p><p>This act requires the Department of Justice (DOJ) to publish (in a searchable and downloadable format) all&nbsp;unclassified records, documents, communications, and investigative materials in DOJ's possession that relate to the investigation and prosecution of Jeffrey Epstein.</p><p>This includes (1) materials&nbsp;that relate to Ghislaine Maxwell, (2) flight logs and travel records, and (3) individuals named or referenced (including government officials) in connection with the investigation and prosecution of Jeffrey Epstein.</p><p>DOJ is permitted to withhold certain information such as the personal information of victims and materials that would jeopardize an active federal investigation.</p><p>Additionally, not later than 15 days after the required publication, DOJ must report to Congress (1) all categories of information released and withheld, (2) a summary of any redactions made, and (3) a list of all government officials and politically exposed individuals named or referenced in the published materials.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Epstein Files Transparency Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Epstein Files Transparency Act</title>
+        <updateDate>2026-07-18T00:01:51Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Epstein Files Transparency Act</title>
+        <updateDate>2025-11-20T05:53:20Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Epstein Files Transparency Act</title>
+        <updateDate>2025-11-20T05:53:20Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes.</title>
+        <updateDate>2025-11-20T05:53:20Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Epstein Files Transparency Act</title>
+        <updateDate>2025-07-24T02:08:22Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes.</title>
+        <updateDate>2025-07-24T02:03:50Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4405enr/uslm/BILLS-119hr4405enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4405enr/xml/BILLS-119hr4405enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Received in Senate</type>
+        <date>2025-11-19T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4405rds/xml/BILLS-119hr4405rds.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-11-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4405eh/xml/BILLS-119hr4405eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-07-15T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4405ih/xml/BILLS-119hr4405ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-11-20T04:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ38/uslm/PLAW-119publ38.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-11-19</actionDate>
+      <text>Became Public Law No: 119-38.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

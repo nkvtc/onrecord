@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>6398</number>
+    <updateDate>2026-09-19T23:14:34Z</updateDate>
+    <updateDateIncludingText>2026-09-19T23:14:34Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-12-03</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/6398</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 202 (Wednesday, December 3, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. JOYCE of Pennsylvania:H.R. 6398.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 of the U.S. Constitution[Page H5027]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>ssev00</systemCode>
+        <name>Environment and Public Works Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-04-17T14:29:56Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hsif18</systemCode>
+            <name>Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Reported by</name>
+                <date>2025-12-10T15:42:27Z</date>
+              </item>
+              <item>
+                <name>Markup by</name>
+                <date>2025-12-10T15:41:59Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2025-12-03T15:41:40Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2026-04-16T16:27:20Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2026-04-16T16:27:19Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2026-04-15T19:37:26Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2026-04-09T15:54:52Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2026-01-21T22:30:30Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-12-03T15:03:30Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-596</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 6387) to amend the Clean Air Act to require revisions to regulations governing the review and handling of air quality monitoring data influenced by exceptional events or actions to mitigate wildfire risk; providing for consideration of the bill (H.R. 6398) to amend the Clean Air Act relating to review by the Environmental Protection Agency of proposed legislation; providing for consideration of the bill (H.R. 6409) to amend the Clean Air Act to clarify standards for emissions emanating from outside of the United States, and for other purposes; and providing for consideration of the resolution (H. Res. 1156) expressing support for tax policies that support working families.</title>
+        <congress>119</congress>
+        <number>1174</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-04-15</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>13:37:34</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-04-17</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssev00</systemCode>
+            <name>Environment and Public Works Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-04-16</actionDate>
+        <actionTime>12:33:28</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-16</actionDate>
+        <actionTime>12:33:26</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 222 - 205 (Roll no. 118).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>118</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll118.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-16T16:33:26Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-16</actionDate>
+        <actionTime>12:33:26</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 222 - 205 (Roll no. 118).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>118</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll118.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-16T16:33:26Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-16</actionDate>
+        <actionTime>12:27:20</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 213 - 216 (Roll no. 117).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>117</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll117.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-04-16T16:27:20Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-04-16</actionDate>
+        <actionTime>12:21:11</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2938-2939)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:37:45</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 6398, the Chair put the question on motion to recommit, and by voice vote, announced that the noes had prevailed. Mrs. Grijalva demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:37:38</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:37:26</actionTime>
+        <text>Mrs. Grijalva moved to recommit to the Committee on Energy and Commerce. (text: CR H2912-2913)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:36:46</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:05:03</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 6398.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:04:04</actionTime>
+        <text>Rule provides for consideration of H.R. 6387, H.R. 6398, H.R. 6409 and H. Res. 1156. The resolution provides for consideration of each measure under a closed rule with one hour of general debate on each measure. The resolution also provides one motion to recommit on H.R. 6387, H.R. 6398, and H.R. 6409.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>15:03:59</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1174. (consideration: CR H2909-2913; text: CR H2909)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-15</actionDate>
+        <actionTime>09:14:22</actionTime>
+        <text>Rules Committee Resolution H. Res. 1174 Reported to House. Rule provides for consideration of H.R. 6387, H.R. 6398, H.R. 6409 and H. Res. 1156. The resolution provides for consideration of each measure under a closed rule with one hour of general debate on each measure. The resolution also provides one motion to recommit on H.R. 6387, H.R. 6398, and H.R. 6409.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 516.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00516</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Reported by the Committee on Energy and Commerce. H. Rept. 119-596.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Reported by the Committee on Energy and Commerce. H. Rept. 119-596.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported by the Yeas and Nays: 23 - 22.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-01-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif18</systemCode>
+            <name>Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Forwarded by Subcommittee to Full Committee by the Yeas and Nays: 12 - 10.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif18</systemCode>
+            <name>Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-03</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsif18</systemCode>
+            <name>Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-12-03</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>J000302</bioguideId>
+        <fullName>Rep. Joyce, John [R-PA-13]</fullName>
+        <firstName>John</firstName>
+        <lastName>Joyce</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>13</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Air quality</name>
+          <updateDate>2026-03-11T15:14:19Z</updateDate>
+        </item>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2026-03-11T15:14:44Z</updateDate>
+        </item>
+        <item>
+          <name>Climate change and greenhouse gases</name>
+          <updateDate>2026-03-11T15:14:35Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental Protection Agency (EPA)</name>
+          <updateDate>2026-03-11T15:15:04Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+          <updateDate>2026-03-11T15:14:26Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental regulatory procedures</name>
+          <updateDate>2026-03-11T15:15:41Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+        <updateDate>2025-12-08T14:21:13Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-12-03</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-02-24T17:27:19Z</updateDate>
+        <text><![CDATA[<p><strong>Reducing and Eliminating Duplicative Environmental Regulations Act or the RED Tape Act</strong></p><p>This bill removes the requirement under the Clean Air Act that the Environmental Protection Agency (EPA) review and comment on newly authorized federal construction projects and other major federal agency actions that already require review under the National Environmental Policy Act (NEPA) and proposed federal regulations.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>RED Tape Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>RED Tape Act</title>
+        <updateDate>2026-09-19T23:14:34Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Reducing and Eliminating Duplicative Environmental Regulations Act</title>
+        <updateDate>2026-04-21T06:23:27Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>RED Tape Act</title>
+        <updateDate>2026-04-21T06:23:27Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To amend the Clean Air Act relating to review by the Environmental Protection Agency of proposed legislation.</title>
+        <updateDate>2026-04-17T03:53:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>RED Tape Act</title>
+        <updateDate>2026-04-17T03:53:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Reducing and Eliminating Duplicative Environmental Regulations Act</title>
+        <updateDate>2026-04-17T03:53:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>RED Tape Act</title>
+        <updateDate>2026-04-10T03:38:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Reducing and Eliminating Duplicative Environmental Regulations Act</title>
+        <updateDate>2026-04-10T03:38:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>RED Tape Act</title>
+        <updateDate>2025-12-06T04:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Reducing and Eliminating Duplicative Environmental Regulations Act</title>
+        <updateDate>2025-12-06T04:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Clean Air Act relating to review by the Environmental Protection Agency of proposed legislation.</title>
+        <updateDate>2025-12-06T04:18:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2026-04-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr6398rfs/xml/BILLS-119hr6398rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-04-16T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr6398eh/xml/BILLS-119hr6398eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-04-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr6398rh/xml/BILLS-119hr6398rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-12-03T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr6398ih/xml/BILLS-119hr6398ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-04-17</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

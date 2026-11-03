@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1223</number>
+    <updateDate>2026-07-10T16:53:25Z</updateDate>
+    <updateDateIncludingText>2026-07-13T19:42:57Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-02-12</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/1223</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 29 (Wednesday, February 12, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. FONG:H.R. 1223.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3Article I, Section 8, Clause 18[Page H677]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sscm00</systemCode>
+        <name>Commerce, Science, and Transportation Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-05-21T15:21:08Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hssy00</systemCode>
+        <name>Science, Space, and Technology Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Markup By</name>
+            <date>2025-04-29T21:10:34Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-12T15:00:05Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2025-05-21</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-05-20</actionDate>
+        <actionTime>14:12:23</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-20</actionDate>
+        <actionTime>14:12:22</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 412 - 11 (Roll no. 136). (text: 5/19/2025 CR H2113-2114)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>136</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll136.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-05-20T18:12:22Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-05-20</actionDate>
+        <actionTime>14:12:22</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 412 - 11 (Roll no. 136). (text: 5/19/2025 CR H2113-2114)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>136</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll136.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-05-20T18:12:22Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-05-20</actionDate>
+        <actionTime>14:05:25</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2168)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-19</actionDate>
+        <actionTime>15:32:49</actionTime>
+        <text>At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Babin objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn.</text>
+        <type>Floor</type>
+        <actionCode>H37210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-19</actionDate>
+        <actionTime>15:24:52</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 1223.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-19</actionDate>
+        <actionTime>15:24:50</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H2113-2115)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-19</actionDate>
+        <actionTime>15:24:33</actionTime>
+        <text>Mr. Fong moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <text>Referred to the House Committee on Science, Space, and Technology.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssy00</systemCode>
+            <name>Science, Space, and Technology Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000480</bioguideId>
+        <fullName>Rep. Fong, Vince [R-CA-20]</fullName>
+        <firstName>Vince</firstName>
+        <lastName>Fong</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>20</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001215</bioguideId>
+        <fullName>Rep. Stevens, Haley M. [D-MI-11]</fullName>
+        <firstName>Haley</firstName>
+        <lastName>Stevens</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <middleName>M.</middleName>
+        <district>11</district>
+        <sponsorshipDate>2025-02-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000019</bioguideId>
+        <fullName>Rep. Obernolte, Jay [R-CA-23]</fullName>
+        <firstName>Jay</firstName>
+        <lastName>Obernolte</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>23</district>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001238</bioguideId>
+        <fullName>Rep. McBride, Sarah [D-DE-At Large]</fullName>
+        <firstName>Sarah</firstName>
+        <lastName>McBride</lastName>
+        <party>D</party>
+        <state>DE</state>
+        <district>0</district>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000622</bioguideId>
+        <fullName>Rep. Riley, Josh [D-NY-19]</fullName>
+        <firstName>Josh</firstName>
+        <lastName>Riley</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <district>19</district>
+        <sponsorshipDate>2025-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001323</bioguideId>
+        <fullName>Rep. Begich, Nicholas J. [R-AK-At Large]</fullName>
+        <firstName>Nicholas</firstName>
+        <lastName>Begich</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>J.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2025-05-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Science, Technology, Communications</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2025-05-08T16:06:45Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2025-05-08T16:06:45Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2025-05-08T16:06:45Z</updateDate>
+        </item>
+        <item>
+          <name>National Science Foundation</name>
+          <updateDate>2025-05-08T16:06:45Z</updateDate>
+        </item>
+        <item>
+          <name>Research and development</name>
+          <updateDate>2025-05-08T16:06:45Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Science, Technology, Communications</name>
+        <updateDate>2025-03-13T13:51:25Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-12</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-03-20T13:58:04Z</updateDate>
+        <text><![CDATA[<p><strong>Accelerating Networking, Cyberinfrastructure, and Hardware for Oceanic Research Act or the ANCHOR Act&nbsp;</strong></p><p>This bill requires the National Science Foundation (NSF) to develop a plan to improve the cybersecurity and telecommunications capabilities of the U.S. Academic Research Fleet (ARF).</p><p>ARF is comprised of U.S.-flagged vessels that provide at-sea laboratories where oceanographic scientists, educators, and students research and learn about marine science.&nbsp;</p><p>The bill requires the plan to include assessments of</p><ul><li>telecommunications and networking needs of ARF, consistent with typical scientific missions;</li><li>cybersecurity needs appropriate for the operation of ARF vessels and their specific research functions;</li><li>the costs necessary to meet these needs;</li><li>the time required to implement necessary upgrades; and</li><li>opportunities for the adoption of common solutions or&nbsp;consortial licensing agreements, or for the centralization of cybersecurity, telecommunications, or data management at a single facility.&nbsp;</li></ul><p>The plan must also include a spending plan for the NSF, the Office of Naval Research, nonfederal&nbsp;owners of ARF vessels,&nbsp;and users of the vessels to cover identified costs.&nbsp;</p><p>Among other factors specified in the bill, the&nbsp;NSF must consider, as appropriate, the network capabilities necessary to meet mission needs (e.g., to upload data to cloud-based or shoreside servers), international standards and guidance for information security, and requirements for controlled unclassified or classified information.&nbsp;</p><p>The plan must be provided to Congress within 18 months of the bill's enactment, and the NSF must later report to Congress on the plan's implementation.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>ANCHOR Act</title>
+    <titles>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To require a plan to improve the cybersecurity and telecommunications of the U.S. Academic Research Fleet, and for other purposes.</title>
+        <updateDate>2026-07-10T16:53:25Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Accelerating Networking, Cyberinfrastructure, and Hardware for Oceanic Research Act</title>
+        <updateDate>2025-05-24T03:38:19Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>ANCHOR Act</title>
+        <updateDate>2025-05-24T03:38:19Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>ANCHOR Act</title>
+        <updateDate>2025-05-22T02:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Accelerating Networking, Cyberinfrastructure, and Hardware for Oceanic Research Act</title>
+        <updateDate>2025-05-22T02:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>ANCHOR Act</title>
+        <updateDate>2025-03-12T12:53:21Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>ANCHOR Act</title>
+        <updateDate>2025-03-12T12:53:20Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Accelerating Networking, Cyberinfrastructure, and Hardware for Oceanic Research Act</title>
+        <updateDate>2025-03-12T12:53:20Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To require a plan to improve the cybersecurity and telecommunications of the U.S. Academic Research Fleet, and for other purposes.</title>
+        <updateDate>2025-03-12T12:48:46Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-05-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1223rfs/xml/BILLS-119hr1223rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-05-19T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1223eh/xml/BILLS-119hr1223eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-02-12T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1223ih/xml/BILLS-119hr1223ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-05-21</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

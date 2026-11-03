@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>142</number>
+    <updateDate>2026-07-30T13:59:55Z</updateDate>
+    <updateDateIncludingText>2026-07-30T13:59:55Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HJRES</type>
+    <introducedDate>2026-01-22</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-joint-resolution/142</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 15 (Thursday, January 22, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. GILL of Texas:H.J. Res. 142.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H1351]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsgo00</systemCode>
+        <name>Oversight and Government Reform Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-01-22T14:00:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the Senate amendments to the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the joint resolution (H.J. Res. 142) disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025; and providing for consideration of the bill (H.R. 4090) to codify certain provisions of certain Executive Orders relating to domestic mining and hardrock mineral resources, and for other purposes.</title>
+        <congress>119</congress>
+        <number>1032</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-02-03</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>12:34:41</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A joint resolution disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.</title>
+        <congress>119</congress>
+        <number>102</number>
+        <type>SJRES</type>
+        <latestAction>
+          <actionDate>2026-02-04</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 314.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-02-18</actionDate>
+        <text>Became Public Law No: 119-78.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-18</actionDate>
+        <text>Became Public Law No: 119-78.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-18</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-18</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Yea-Nay Vote. 49 - 47. Record Vote Number: 37.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>37</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00037.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-02-12T18:03:28Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 49 - 47. Record Vote Number: 37.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>37</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00037.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-02-12T18:03:28Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate. (consideration: CR S587-593)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by motion.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 51 - 46. Record Vote Number: 36. (CR S571)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>36</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00036.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-02-11T23:20:42Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 315.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>16:14:34</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 215 - 210 (Roll no. 56). (text: CR H2002)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>56</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll056.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-02-04T21:14:34Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>16:14:34</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 215 - 210 (Roll no. 56). (text: CR H2002)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>56</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll056.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-02-04T21:14:34Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>16:07:08</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2010-2011)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>14:08:08</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.J. Res. 142, the Chair put the question on passage of the joint resolution and by voice vote, announced the ayes had prevailed. Mr. Frost demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>14:07:41</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>13:22:45</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.J. Res. 142.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>13:21:48</actionTime>
+        <text>Rule provides for consideration of H.J. Res. 142 and H.R. 4090. The resolution provides for consideration of the Senate amendments to H.R. 7148. Also, the resolution provides for consideration of H.J. Res. 142 and H.R. 4090 under a closed rule and provides for one motion to recommit H.R. 4090.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-04</actionDate>
+        <actionTime>13:21:43</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1032. (consideration: CR H2002-2008)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-02-03</actionDate>
+        <actionTime>09:26:11</actionTime>
+        <text>Rules Committee Resolution H. Res. 1032 Reported to House. Rule provides for consideration of H.J. Res. 142 and H.R. 4090. The resolution provides for consideration of the Senate amendments to H.R. 7148. Also, the resolution provides for consideration of H.J. Res. 142 and H.R. 4090 under a closed rule and provides for one motion to recommit H.R. 4090.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsgo00</systemCode>
+            <name>Oversight and Government Reform Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000603</bioguideId>
+        <fullName>Rep. Gill, Brandon [R-TX-26]</fullName>
+        <firstName>Brandon</firstName>
+        <lastName>Gill</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <district>26</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001214</bioguideId>
+        <fullName>Rep. Steube, W. Gregory [R-FL-17]</fullName>
+        <firstName>W.</firstName>
+        <lastName>Steube</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>Gregory</middleName>
+        <district>17</district>
+        <sponsorshipDate>2026-02-02</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-78</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2026-02-04T17:45:30Z</updateDate>
+        </item>
+        <item>
+          <name>Income tax deductions</name>
+          <updateDate>2026-02-04T17:45:25Z</updateDate>
+        </item>
+        <item>
+          <name>State and local finance</name>
+          <updateDate>2026-04-15T16:48:42Z</updateDate>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+          <updateDate>2026-04-15T16:48:49Z</updateDate>
+        </item>
+        <item>
+          <name>Tax administration and collection, taxpayers</name>
+          <updateDate>2026-04-15T16:49:16Z</updateDate>
+        </item>
+        <item>
+          <name>Wages and earnings</name>
+          <updateDate>2026-04-15T16:48:35Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Government Operations and Politics</name>
+        <updateDate>2026-03-31T18:23:39Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-01-22</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-02-03T17:30:16Z</updateDate>
+        <text><![CDATA[<p>This joint resolution nullifies legislation enacted by the Council of the District of Columbia (DC) on December 20, 2025, titled DC Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025. The nullification reinstates certain DC tax code provisions that were in place before the enactment of the DC legislation and that address, among other things, the standard tax deduction, taxation of tipped wages, and depreciation of qualified property.</p><p>As background, DC automatically adopts, as DC law, changes to federal tax law (known as rolling conformity). Upon enactment of <a href="https://www.congress.gov/bill/119th-congress/house-bill/1?s=7&amp;r=1">H.R.1</a> (commonly known as the&nbsp;One Big Beautiful Bill Act),&nbsp;its tax provisions became DC law, including provisions that increase the standard tax deduction,&nbsp;exempt tips from taxable income, and provide for an elective 100% depreciation allowance for nonresidential real property. The DC legislation subsequently decoupled the DC tax code from&nbsp;these and other tax provisions that originated in H.R.1, and it amended several other provisions in the DC tax code, including restoring the DC child tax credit.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2026-02-18</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-07-13T20:51:17Z</updateDate>
+        <text><![CDATA[<p>This joint resolution reinstates provisions of District of Columbia (DC) tax law to conform with federal tax law.</p><p>As background, DC generally automatically adopts changes to federal tax law (known as rolling conformity). Therefore, upon enactment of&nbsp;the 2025 reconciliation act (commonly known as the One Big Beautiful Bill Act), many of its tax provisions became DC law. DC subsequently enacted its own legislation (the DC Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025) that decoupled DC tax law from these federal provisions.</p><p>This joint resolution nullifies the DC legislation, thereby generally realigning DC tax law with the tax provisions of the 2025 reconciliation act.</p><p>Specifically,&nbsp;the joint resolution reinstates for DC provisions that</p><p>• &nbsp; &nbsp;increase the higher basic standard deduction;<br/>• &nbsp; &nbsp;increase deductible charitable cash contributions (for taxpayers who take the standard deduction);<br/>• &nbsp; &nbsp;establish a $6,000 tax deduction for taxpayers 65 years and older;<br/>• &nbsp; &nbsp;allow a tax deduction of qualified tips, qualified overtime pay, and qualified car loan interest;<br/>• &nbsp; &nbsp;authorize an elective 100% depreciation allowance for nonresidential real property; and<br/>• &nbsp; &nbsp;authorize businesses to deduct 100% of research and experimental costs retroactive to tax year 2022.</p><p>The DC legislation also amended several other provisions of DC tax law, including restoring the DC child tax credit. The joint resolution negates these changes.</p><p></p><p></p>]]></text>
+      </summary>
+    </summaries>
+    <title>Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.</title>
+        <updateDate>2026-07-10T15:23:28Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.</title>
+        <updateDate>2026-02-05T04:23:16Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.</title>
+        <updateDate>2026-01-23T09:18:23Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres142enr/uslm/BILLS-119hjres142enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres142enr/xml/BILLS-119hjres142enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-02-05T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres142pcs/xml/BILLS-119hjres142pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-02-04T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres142eh/xml/BILLS-119hjres142eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-01-22T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres142ih/xml/BILLS-119hjres142ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-02-19T04:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ78/uslm/PLAW-119publ78.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-02-18</actionDate>
+      <text>Became Public Law No: 119-78.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

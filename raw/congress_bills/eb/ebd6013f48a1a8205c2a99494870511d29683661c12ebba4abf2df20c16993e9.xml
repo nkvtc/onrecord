@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>131</number>
+    <updateDate>2026-08-11T17:14:44Z</updateDate>
+    <updateDateIncludingText>2026-08-11T17:14:44Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HJRES</type>
+    <introducedDate>2025-10-10</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-joint-resolution/131</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 168 (Friday, October 10, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. BEGICH:H.J. Res. 131.Congress has the power to enact this legislation pursuantto the following:Congress has the authority to enact this joint resolutionpursuant to Article I, Section 8, Clause 18 of the UnitedStates Constitution, which grants Congress the power to makeall laws necessary and proper for carrying into execution itspowers, including the authority provided by chapter 8 oftitle 5, United States Code (the Congressional Review Act),to disapprove agency rules.[Page H4533]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-10-10T16:32:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the joint resolution (S.J. Res. 80) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision; providing for consideration of the joint resolution (H.J. Res. 130) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment; providing for consideration of the joint resolution (H.J. Res. 131) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision; providing for consideration of the concurrent resolution (H. Con. Res. 58) denouncing the horrors of socialism; providing for consideration of the bill (H.R. 1949) to repeal restrictions on the export and import of natural gas; providing for consideration of the bill (H.R. 3109) to require the Secretary of Energy to direct the National Petroleum Council to issue a report with respect to petrochemical refineries in the United States, and for other purposes; providing for consideration of the bill (H.R. 5107) to repeal the Comprehensive Policing and Justice Reform Amendment Act of 2022 enacted by the District of Columbia Council; providing for consideration of the bill (H.R. 5214) to require mandatory pretrial and post conviction detention for crimes of violence and dangerous crimes and require mandatory cash bail for certain offenses that pose a threat to public safety or order in the District of Columbia, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>879</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-11-18</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>15:05:03</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to "Coastal Plain Oil and Gas Leasing Program Record of Decision".</title>
+        <congress>119</congress>
+        <number>91</number>
+        <type>SJRES</type>
+        <latestAction>
+          <actionDate>2025-12-04</actionDate>
+          <text>Indefinitely postponed by Senate by Unanimous Consent.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <text>Became Public Law No: 119-52.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <text>Became Public Law No: 119-52.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Yea-Nay Vote. 49 - 45. Record Vote Number: 632.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>632</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00632.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-12-04T17:20:23Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 49 - 45. Record Vote Number: 632.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>632</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00632.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-12-04T17:20:23Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by motion. (consideration: CR S8500)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-11-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate, read twice.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>20:52:56</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>20:52:55</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 217 - 209 (Roll no. 295). (text: CR H4750)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>295</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll295.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-11-19T01:52:55Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>20:52:55</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 217 - 209 (Roll no. 295). (text: CR H4750)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>295</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll295.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-11-19T01:52:55Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>20:46:47</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H4760)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>17:44:14</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.J. Res. 131, the Chair put the question on passage of the joint resolution and by voice vote announced the ayes had prevailed. Mr. Huffman demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>17:44:09</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>17:23:07</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.J. Res. 131.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>17:22:52</actionTime>
+        <text>Rule provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107 and H.R. 5214. The resolution provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214 under a closed rule with one hour of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 130, H.J. Res. 131, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214, and one motion to commit S.J. Res. 80.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <actionTime>17:22:47</actionTime>
+        <text>Considered under the provisions of rule H. Res. 879. (consideration: CR H4750-4753)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>20:02:19</actionTime>
+        <text>Rules Committee Resolution H. Res. 879 Reported to House. Rule provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107 and H.R. 5214. The resolution provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214 under a closed rule with one hour of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 130, H.J. Res. 131, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214, and one motion to commit S.J. Res. 80.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-10-10</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-10-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-10-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B001323</bioguideId>
+        <fullName>Rep. Begich, Nicholas J. [R-AK-At Large]</fullName>
+        <firstName>Nicholas</firstName>
+        <lastName>Begich</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>J.</middleName>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-52</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2025-11-19T19:43:12Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-11-19T19:43:19Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Interior</name>
+          <updateDate>2025-11-19T19:43:00Z</updateDate>
+        </item>
+        <item>
+          <name>Mining</name>
+          <updateDate>2025-11-19T19:49:49Z</updateDate>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+          <updateDate>2025-11-19T19:49:30Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Energy</name>
+        <updateDate>2026-04-03T15:37:33Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-10-10</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-07-09T16:19:10Z</updateDate>
+        <text><![CDATA[<p>This joint resolution opens public land for oil and gas leasing in the Arctic National Wildlife Refuge. Specifically, the joint resolution nullifies the <a href="https://eplanning.blm.gov/Documents/?id=d90765c9-a7f2-f011-8407-001dd80c29f3&amp;spid=09e2fa78-a8f2-f011-8407-001dd80db62a">record of decision</a> (ROD) issued by the Bureau of Land Management on December 9, 2024, for the program that leases, develops, produces, and transports oil and gas in and from the Coastal Plain program area within the Arctic National Wildlife Refuge.</p><p>The 2024 ROD that is being nullified by this resolution replaced the 2020 ROD that made all of the approximately 1.6 million acres of the program area available for oil and gas leasing. The 2024 ROD made approximately 1.2 million acres unavailable for leasing or exploration in order to protect and conserve resources and certain uses in these areas. However, the 2024 ROD requires the statutory minimum of 400,000 acres to be made available for oil and gas leasing in a specified lease sale, subject to certain stipulations and operating procedures. Under current law, those acres must be located in the areas with the highest potential for the discovery of hydrocarbons.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2025-12-11</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-07-09T12:12:03Z</updateDate>
+        <text><![CDATA[<p>This joint resolution opens public land for oil and gas leasing in the&nbsp;Arctic National Wildlife Refuge. Specifically, the joint resolution nullifies the <a href="https://eplanning.blm.gov/Documents/?id=d90765c9-a7f2-f011-8407-001dd80c29f3&amp;spid=09e2fa78-a8f2-f011-8407-001dd80db62a">record of decision</a> (ROD)&nbsp;issued by the Bureau of Land Management&nbsp;on December 9, 2024, for the program that leases, develops, produces, and transports oil and gas in and from the Coastal Plain program area within the Arctic National Wildlife Refuge.</p><p>The 2024 ROD that is being nullified by this resolution replaced the 2020 ROD that made all of the approximately 1.6 million acres of the program area available for oil and gas leasing. The 2024 ROD made approximately 1.2 million acres unavailable for leasing or exploration in order to protect and conserve resources and certain uses in these areas. However, the 2024 ROD requires the statutory minimum of 400,000 acres to be made available for oil and gas leasing in a specified lease sale, subject to certain stipulations and operating procedures. Under current law, those acres must be located in the areas with the highest potential for the discovery of hydrocarbons.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.</title>
+        <updateDate>2026-06-26T13:38:44Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to "Coastal Plain Oil and Gas Leasing Program Record of Decision".</title>
+        <updateDate>2026-06-26T13:38:44Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.</title>
+        <updateDate>2025-11-20T05:53:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to "Coastal Plain Oil and Gas Leasing Program Record of Decision".</title>
+        <updateDate>2025-10-11T08:18:20Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres131enr/uslm/BILLS-119hjres131enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres131enr/xml/BILLS-119hjres131enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-11-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres131eh/xml/BILLS-119hjres131eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-10-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hjres131ih/xml/BILLS-119hjres131ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-12-12T04:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ52/uslm/PLAW-119publ52.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-12-11</actionDate>
+      <text>Became Public Law No: 119-52.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>8029</number>
+    <updateDate>2026-09-08T19:31:27Z</updateDate>
+    <updateDateIncludingText>2026-09-08T19:31:27Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-03-20</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/8029</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 51 (Friday, March 20, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. CISCOMANI:H.R. 8029.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:''No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law . . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States .. . .'' Together these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H2627]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2026-03-26T19:20:57Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2026-03-26T18:43:47Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2026-03-20T14:30:10Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsbu00</systemCode>
+        <name>Budget Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-03-20T14:30:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+        <congress>119</congress>
+        <number>7147</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-30</actionDate>
+          <text>Became Public Law No: 119-86.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>4213</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-26</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 139.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>7744</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-03-09</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Appropriations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>1131</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-03-25</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:06:39</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Reforming ICE and Protecting America Act</title>
+        <congress>119</congress>
+        <number>8173</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-02</actionDate>
+          <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>8206</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-06</actionDate>
+          <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-04-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>15:28:47</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>15:28:44</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 218 - 206 (Roll no. 104).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>104</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll104.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-26T19:28:44Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>15:28:44</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 218 - 206 (Roll no. 104).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>104</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll104.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-26T19:28:44Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>15:20:57</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 210 - 215 (Roll no. 103).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>103</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll103.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-03-26T19:20:57Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>15:12:16</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2751-2752)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>14:44:22</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 8029, the Chair put the question on motion to recommit and by voice vote, announced the noes had prevailed. Ms. DeLauro demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>14:43:57</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>14:43:47</actionTime>
+        <text>Ms. DeLauro moved to recommit to the Committee on Appropriations. (CR H2750)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>14:43:17</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>13:24:40</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 8029.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>13:24:01</actionTime>
+        <text>Rule provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103 and H.R. 7084. The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <actionTime>13:23:56</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1131. (consideration: CR H2731-2750)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <actionTime>19:55:44</actionTime>
+        <text>Rules Committee Resolution H. Res. 1131 Reported to House. Rule provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103 and H.R. 7084. The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsbu00</systemCode>
+            <name>Budget Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001133</bioguideId>
+        <fullName>Rep. Ciscomani, Juan [R-AZ-6]</fullName>
+        <firstName>Juan</firstName>
+        <lastName>Ciscomani</lastName>
+        <party>R</party>
+        <state>AZ</state>
+        <district>6</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Citizenship and naturalization</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Coast guard</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Customs enforcement</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Transportation</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Director of National Intelligence</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Employee benefits and pensions</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Emergency Management Agency (FEMA)</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>First responders and emergency personnel</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Geography and mapping</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Immigration status and procedures</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Intellectual property</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement administration and funding</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Lease and rental services</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Members of Congress</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Pollution liability</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Protection of officials</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Public transit</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Puerto Rico</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Radiation</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Railroads</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Research and development</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Senate</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Supreme Court</name>
+          <updateDate>2026-03-26T20:39:55Z</updateDate>
+        </item>
+        <item>
+          <name>Transportation safety and security</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>User charges and fees</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Youth employment and child labor</name>
+          <updateDate>2026-03-26T20:39:54Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2026-03-23T11:07:37Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-03-20</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-03-23T13:19:57Z</updateDate>
+        <text><![CDATA[<p><strong>Pay Our Homeland Defenders Act</strong></p><p>This bill provides appropriations to the Department of Homeland Security (DHS) for the remainder of FY2026. It also ends the partial DHS shutdown that began on February 14, 2026, because the continuing resolution (CR) that was funding DHS expired and a regular FY2026 DHS appropriations bill had not been enacted.&nbsp;</p><p>Specifically, the bill provides appropriations to DHS for Departmental Management, Intelligence, Situational Awareness, and Oversight, including</p><ul><li>the Office of the Secretary and Executive Management;</li><li>the Management Directorate;</li><li>Intelligence, Analysis, and Situational Awareness; and</li><li>the Office of Inspector General.</li></ul><p>In addition, the bill provides appropriations for Security, Enforcement, and Investigations, including</p><ul><li>U.S. Customs and Border Protection,</li><li>U.S. Immigration and Customs Enforcement,</li><li>the Transportation Security Administration,</li><li>the U.S. Coast Guard, and</li><li>the U.S. Secret Service.</li></ul><p>The bill provides appropriations for Protection, Preparedness, Response, and Recovery, including</p><ul><li>the Cybersecurity and Infrastructure Security Agency, and</li><li>the Federal Emergency Management Agency (FEMA).</li></ul><p>The bill provides appropriations for Research, Development, Training, and Services, including</p><ul><li>U.S. Citizenship and Immigration Services,</li><li>the Federal Law Enforcement Training Centers, and</li><li>the Science and Technology Directorate.</li></ul><p>The bill also authorizes back pay, in accordance with current law, for federal employees who were affected by the partial&nbsp;DHS shutdown.</p><p>Finally, the bill ratifies and&nbsp;approves certain obligations that were incurred during the partial DHS&nbsp;shutdown, including obligations incurred to maintain the essential level of activity to protect life and property and bring about an orderly termination of government functions.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Pay Our Homeland Defenders Act</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Pay Our Homeland Defenders Act</title>
+        <updateDate>2026-03-28T04:38:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-03-28T04:38:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Pay Our Homeland Defenders Act</title>
+        <updateDate>2026-03-21T08:23:24Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Pay Our Homeland Defenders Act</title>
+        <updateDate>2026-03-21T08:23:23Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-03-21T08:18:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-03-26T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8029eh/xml/BILLS-119hr8029eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-03-20T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8029ih/xml/BILLS-119hr8029ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-04-02</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

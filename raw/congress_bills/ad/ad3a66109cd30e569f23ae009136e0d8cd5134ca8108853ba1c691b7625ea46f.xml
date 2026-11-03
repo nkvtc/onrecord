@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>307</number>
+    <updateDate>2026-09-21T19:07:31Z</updateDate>
+    <updateDateIncludingText>2026-09-21T19:07:31Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2025-01-29</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-bill/307</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>ssju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-04-30T01:25:34Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-01-29T19:39:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Prison Staff Safety Enhancement Act</title>
+        <congress>118</congress>
+        <number>5062</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2024-12-20</actionDate>
+          <text>Held at the desk.</text>
+          <actionTime>17:05:18</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Cross-Congress related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <text>Became Public Law No: 119-110.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <text>Became Public Law No: 119-110.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-14</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-14</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>18:57:45</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>18:57:43</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 376 - 8 (Roll no. 284). (text: CR H5268-5269)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>284</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll284.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-08-31T22:57:43Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>18:57:43</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 376 - 8 (Roll no. 284). (text: CR H5268-5269)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>284</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll284.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-08-31T22:57:43Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>18:31:31</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H5347)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>16:40:45</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>16:30:07</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on S. 307.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>16:30:05</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H5268-5270)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-31</actionDate>
+        <actionTime>16:30:01</actionTime>
+        <text>Ms. Lee (FL) moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-05</actionDate>
+        <actionTime>14:28:27</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-05</actionDate>
+        <actionTime>14:08:45</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-01</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S2643; text: CR S2643)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent. (consideration: CR S2643: 2; text: CR S2643)</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on the Judiciary discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2025-04-29</actionDate>
+        <text>Senate Committee on the Judiciary discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-01-29</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-01-29</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B001243</bioguideId>
+        <fullName>Sen. Blackburn, Marsha [R-TN]</fullName>
+        <firstName>Marsha</firstName>
+        <lastName>Blackburn</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>O000174</bioguideId>
+        <fullName>Sen. Ossoff, Jon [D-GA]</fullName>
+        <firstName>Jon</firstName>
+        <lastName>Ossoff</lastName>
+        <party>D</party>
+        <state>GA</state>
+        <sponsorshipDate>2025-01-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000312</bioguideId>
+        <fullName>Sen. Justice, James C. [R-WV]</fullName>
+        <firstName>James</firstName>
+        <lastName>Justice</lastName>
+        <party>R</party>
+        <state>WV</state>
+        <middleName>C.</middleName>
+        <sponsorshipDate>2025-02-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000377</bioguideId>
+        <fullName>Sen. Kelly, Mark [D-AZ]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Kelly</lastName>
+        <party>D</party>
+        <state>AZ</state>
+        <sponsorshipDate>2025-02-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-110</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Assault and harassment offenses</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Correctional facilities and imprisonment</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Data collection, sharing, protection</name>
+          <updateDate>2026-04-09T15:41:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Justice</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+        <item>
+          <name>Sex offenses</name>
+          <updateDate>2025-04-01T15:21:11Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Crime and Law Enforcement</name>
+        <updateDate>2026-09-17T17:42:22Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-01-29</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2025-09-16T20:46:06Z</updateDate>
+        <text><![CDATA[<p><strong>Prison Staff Safety Enhancement Act</strong></p><p>This bill establishes requirements for the Department of Justice (DOJ) and component agencies to assess and respond to incidents of sexual harassment and sexual assault by incarcerated individuals against Bureau of Prisons (BOP) staff.</p><p>Specifically, the&nbsp;bill requires DOJ&nbsp;to adopt national standards for the prevention, reduction, and punishment of sexual harassment and sexual assault by incarcerated individuals against correctional officers or other employees of the BOP.</p><p>Additionally, the bill requires the BOP to fully implement the recommendations of the DOJ Inspector General&nbsp;contained in the report titled <em>Evaluation of the Federal Bureau of Prisons’ Efforts to Address Sexual Harassment and Sexual Assault Committed by Inmates Toward Staff</em>.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2026-09-16</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-09-18T19:00:10Z</updateDate>
+        <text><![CDATA[<p><strong>Prison Staff Safety Enhancement Act</strong></p><p>This act establishes requirements for the Department of Justice (DOJ) and component agencies to assess and respond to incidents of sexual harassment and sexual assault by incarcerated individuals against Bureau of Prisons (BOP) staff.</p><p>Specifically, the&nbsp;act requires DOJ&nbsp;to adopt national standards for the prevention, reduction, and punishment of sexual harassment and sexual assault by incarcerated individuals against correctional officers or other employees of the BOP.</p><p>Additionally, the act requires the BOP to fully implement the recommendations of the DOJ Inspector General&nbsp;contained in the report titled <em>Evaluation of the Federal Bureau of Prisons’ Efforts to Address Sexual Harassment and Sexual Assault Committed by Inmates Toward Staff</em>.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Prison Staff Safety Enhancement Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Prison Staff Safety Enhancement Act</title>
+        <updateDate>2026-09-02T02:38:21Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Prison Staff Safety Enhancement Act</title>
+        <updateDate>2025-05-02T11:03:16Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <titleTypeCode>105</titleTypeCode>
+        <title>Prison Staff Safety Enhancement Act</title>
+        <updateDate>2025-04-30T05:23:17Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Prison Staff Safety Enhancement Act</title>
+        <updateDate>2025-03-01T04:38:19Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A bill to address sexual harassment and sexual assault of Bureau of Prisons staff in prisons, and for other purposes.</title>
+        <updateDate>2025-03-01T04:33:23Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s307enr/uslm/BILLS-119s307enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s307enr/xml/BILLS-119s307enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2025-04-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s307es/xml/BILLS-119s307es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-01-29T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s307is/xml/BILLS-119s307is.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-09-17T03:59:59Z</date>
+        <formats/>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-09-16</actionDate>
+      <text>Became Public Law No: 119-110.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

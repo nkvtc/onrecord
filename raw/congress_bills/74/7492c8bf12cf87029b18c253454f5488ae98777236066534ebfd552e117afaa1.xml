@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>7757</number>
+    <updateDate>2026-09-08T18:03:40Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:03:40Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-03-03</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/7757</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 40 (Tuesday, March 3, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. GUTHRIE:H.R. 7757.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 of the United States Constitution.[Page H2369]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sscm00</systemCode>
+        <name>Commerce, Science, and Transportation Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-07-13T20:50:47Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsju00</systemCode>
+        <name>Judiciary Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-03-03T17:03:20Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsif00</systemCode>
+        <name>Energy and Commerce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-03-03T17:03:15Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Promoting a Safe Internet for Minors Act</title>
+        <congress>119</congress>
+        <number>6289</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Forwarded by Subcommittee to Full Committee by Voice Vote.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Kids Internet Safety Partnership Act</title>
+        <congress>119</congress>
+        <number>6437</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Forwarded by Subcommittee to Full Committee by Voice Vote.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-07-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>sscm00</systemCode>
+            <name>Commerce, Science, and Transportation Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>19:02:09</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>19:02:07</actionTime>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 267 - 117 (Roll no. 228). (text: CR H4280-4292)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>228</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll228.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-29T23:02:07Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>19:02:07</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 267 - 117 (Roll no. 228). (text: CR H4280-4292)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>228</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll228.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-29T23:02:07Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>18:30:49</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H4302)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>16:07:35</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>15:31:54</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 7757.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>15:31:53</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H4280-4296)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <actionTime>15:31:42</actionTime>
+        <text>Mr. Guthrie moved to suspend the rules and pass the bill, as amended.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsju00</systemCode>
+            <name>Judiciary Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsif00</systemCode>
+            <name>Energy and Commerce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-03</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000558</bioguideId>
+        <fullName>Rep. Guthrie, Brett [R-KY-2]</fullName>
+        <firstName>Brett</firstName>
+        <lastName>Guthrie</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>2</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>P000034</bioguideId>
+        <fullName>Rep. Pallone, Frank [D-NJ-6]</fullName>
+        <firstName>Frank</firstName>
+        <lastName>Pallone</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>6</district>
+        <sponsorshipDate>2026-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2026-06-30T18:07:07Z</updateDate>
+        </item>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2026-06-30T18:09:28Z</updateDate>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2026-06-30T18:03:50Z</updateDate>
+        </item>
+        <item>
+          <name>Assault and harassment offenses</name>
+          <updateDate>2026-06-30T18:09:49Z</updateDate>
+        </item>
+        <item>
+          <name>Child safety and welfare</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-06-30T18:06:59Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-06-30T18:04:08Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-06-30T18:04:35Z</updateDate>
+        </item>
+        <item>
+          <name>Consumer affairs</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Data collection, sharing, protection</name>
+          <updateDate>2026-06-30T18:07:14Z</updateDate>
+        </item>
+        <item>
+          <name>Digital media</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Drug trafficking and controlled substances</name>
+          <updateDate>2026-06-30T18:06:22Z</updateDate>
+        </item>
+        <item>
+          <name>Drug, alcohol, tobacco use</name>
+          <updateDate>2026-06-30T18:06:22Z</updateDate>
+        </item>
+        <item>
+          <name>Educational guidance</name>
+          <updateDate>2026-06-30T18:04:35Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Trade Commission (FTC)</name>
+          <updateDate>2026-06-30T18:06:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal preemption</name>
+          <updateDate>2026-06-30T18:04:08Z</updateDate>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+          <updateDate>2026-06-30T18:04:08Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-06-30T18:06:22Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-06-30T18:06:59Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Marketing and advertising</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+        <item>
+          <name>Mental health</name>
+          <updateDate>2026-06-30T18:08:44Z</updateDate>
+        </item>
+        <item>
+          <name>Product safety and quality</name>
+          <updateDate>2026-06-30T18:04:08Z</updateDate>
+        </item>
+        <item>
+          <name>Public-private cooperation</name>
+          <updateDate>2026-06-30T18:04:35Z</updateDate>
+        </item>
+        <item>
+          <name>Right of privacy</name>
+          <updateDate>2026-06-30T18:04:08Z</updateDate>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+          <updateDate>2026-06-30T18:03:05Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commerce</name>
+        <updateDate>2026-07-29T20:36:31Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-03-03</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-06-26T13:36:37Z</updateDate>
+        <text><![CDATA[<p><strong>Kids Internet and Digital Safety Act or the KIDS Act</strong></p><p>This bill requires specified online platforms to establish safeguards for minors. The safeguards include (1) limiting access to specified sexual material, (2) providing parental controls on social media and online video game platforms, and (3) requiring artificial intelligence (AI)&nbsp;chatbots to disclose certain information to users who are minors.</p><p>First, publicly available online platforms on which more than one-third of the content is considered sexual material harmful to minors under the bill&nbsp;must adopt technology to identify minors and prevent them from accessing such material.</p><p>Next,&nbsp;social media platforms must (1) implement default settings for minors that limit compulsive usage features and the ability of other users to communicate with minors, and (2) provide tools for parents to manage the privacy and account settings of a minor. Social media platforms may not allow ephemeral messaging features for minors.</p><p>The bill also requires online video game platforms to provide tools that allow parents to (1) limit communication between a minor and other users of the platform, and (2) restrict purchases by a minor on the platform.&nbsp;</p><p>Further, providers of AI chatbots must disclose to users who are minors (1) that the chatbot is an AI system and not a human, and (2) suicide and crisis intervention hotline information.</p><p>Finally, the bill requires specified studies and reports about the effects of social media platforms on minors and provides for enforcement of the bill's requirements by the Federal Trade Commission and state attorneys general.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>KIDS Act</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>SCREEN Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Shielding Children’s Retinas from Egregious Exposure on the Net Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Safeguarding Adolescents From Exploitative BOTs Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>SAFE BOTs Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Kids Online Safety Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Stop Profiling Youth and Kids Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>SPY Kids Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Kids Internet Safety Partnership Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Safe Social Media Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>No Fentanyl on Social Media Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Assessing Safety Tools for Parents and Minors Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>Promoting a Safe Internet for Minors Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>AI Warnings And Resources for Education Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>256</titleTypeCode>
+        <title>AWARE Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Kids Internet and Digital Safety Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>KIDS Act</title>
+        <updateDate>2026-07-15T13:08:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>SPY Kids Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>KIDS Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Kids Internet and Digital Safety Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>AWARE Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>AI Warnings And Resources for Education Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Promoting a Safe Internet for Minors Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Assessing Safety Tools for Parents and Minors Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>No Fentanyl on Social Media Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Safe Social Media Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Kids Internet Safety Partnership Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Stop Profiling Youth and Kids Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Kids Online Safety Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>SAFE BOTs Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Safeguarding Adolescents From Exploitative BOTs Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>SCREEN Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Shielding Children’s Retinas from Egregious Exposure on the Net Act</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To protect children and teens online, empower parents and strengthen families, and for other purposes.</title>
+        <updateDate>2026-07-01T03:53:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>KIDS Act</title>
+        <updateDate>2026-03-04T09:23:23Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Safeguarding Adolescents From Exploitative BOTs Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>SAFE BOTs Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Kids Online Safety Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Stop Profiling Youth and Kids Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>SPY Kids Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Kids Internet Safety Partnership Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Safe Social Media Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>No Fentanyl on Social Media Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Assessing Safety Tools for Parents and Minors Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Promoting a Safe Internet for Minors Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>AI Warnings And Resources for Education Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>AWARE Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>KIDS Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Kids Internet and Digital Safety Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Shielding Children’s Retinas from Egregious Exposure on the Net Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>SCREEN Act</title>
+        <updateDate>2026-03-04T09:23:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To protect children and teens online, empower parents and strengthen families, and for other purposes.</title>
+        <updateDate>2026-03-04T09:18:45Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2026-07-13T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7757rfs/xml/BILLS-119hr7757rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-06-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7757eh/xml/BILLS-119hr7757eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-03-03T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7757ih/xml/BILLS-119hr7757ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-07-13</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

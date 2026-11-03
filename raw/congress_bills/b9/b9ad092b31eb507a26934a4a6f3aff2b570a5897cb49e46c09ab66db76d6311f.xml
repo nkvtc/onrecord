@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>8646</number>
+    <updateDate>2026-09-19T23:30:48Z</updateDate>
+    <updateDateIncludingText>2026-09-19T23:30:48Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-05-01</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/8646</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 77 (Monday, May 4, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. HARRIS:H.R. 8646.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law . . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States .. . .'' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H3337]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2026-06-04T21:57:52Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2026-06-04T21:51:41Z</date>
+          </item>
+          <item>
+            <name>Reported Original Measure</name>
+            <date>2026-05-01T18:06:32Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-632</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>BARK Act of 2025</title>
+        <congress>119</congress>
+        <number>3732</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>Referred to the House Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Finish the Arkansas Valley Conduit Act</title>
+        <congress>119</congress>
+        <number>131</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-01-08</actionDate>
+          <text>The Chair directed the Clerk to notify the Senate of the action of the House.</text>
+          <actionTime>15:24:41</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>TEMP Act</title>
+        <congress>119</congress>
+        <number>7464</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-03-20</actionDate>
+          <text>Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>TEMP Act</title>
+        <congress>119</congress>
+        <number>3843</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2026-02-11</actionDate>
+          <text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 8646) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 7726) to amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act; providing for consideration of the bill (H.R. 7892) to amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud; and providing for consideration of the bill (H.R. 8872) to amend part A of title IV of the Social Security Act to target funds to low-income families, strengthen program integrity guardrails for State expenditure of funds, require measurement of improper payments, and establish goals for eliminating fraud and improper payments under the program of block grants to States for temporary assistance for needy families, and for other purposes.</title>
+        <congress>119</congress>
+        <number>1333</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-06-03</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:32:12</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-06-08</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>18:09:41</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>18:09:40</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 213 - 210 (Roll no. 205).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>205</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll205.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-04T22:09:40Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>18:09:40</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 213 - 210 (Roll no. 205).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>205</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll205.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-04T22:09:40Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>17:57:52</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 210 - 212 (Roll no. 204).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>204</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll204.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-04T21:57:52Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>17:51:58</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>17:51:41</actionTime>
+        <text>Ms. Bynum moved to recommit to the Committee on Appropriations. (text: CR H3875)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>17:51:09</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H3875-3876)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>17:51:07</actionTime>
+        <text>Pursuant to clause 1(c) of rule XIX, the House resumed with further consideration of H.R. 8646.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>13:25:44</actionTime>
+        <text>POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced further proceedings on H.R. 8646 would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>13:25:20</actionTime>
+        <text>The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.</text>
+        <type>Floor</type>
+        <actionCode>H34400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>13:24:52</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>13:24:04</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 8646.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>13:06:24</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1333, the Committee of the Whole proceeded with 20 minutes of debate on the Harris (MD) amendment en bloc.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>12:16:01</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 8646.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>12:15:17</actionTime>
+        <text>The Speaker designated the Honorable Gabe Evans to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>12:15:15</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 1333 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>12:14:46</actionTime>
+        <text>Rule provides for consideration of H.R. 8646, H.R. 7726, H.R. 7892 and H.R. 8872. The resolution provides for consideration of H.R. 8646 under a structured rule and H.R. 7726, H.R. 7892, and H.R. 8872 under a closed rule, with one hour of general debate on each bill. The resolution provides for one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-04</actionDate>
+        <actionTime>12:14:41</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1333. (consideration: CR H3838-3862; text: CR H3843-3860)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-03</actionDate>
+        <actionTime>09:18:44</actionTime>
+        <text>Rules Committee Resolution H. Res. 1333 Reported to House. Rule provides for consideration of H.R. 8646, H.R. 7726, H.R. 7892 and H.R. 8872. The resolution provides for consideration of H.R. 8646 under a structured rule and H.R. 7726, H.R. 7892, and H.R. 8872 under a closed rule, with one hour of general debate on each bill. The resolution provides for one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-01</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 548.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00548</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-05-01</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-632, by Mr. Harris (MD).</text>
+        <type>Committee</type>
+        <actionCode>H12100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-05-01</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-632, by Mr. Harris (MD).</text>
+        <type>Committee</type>
+        <actionCode>1010</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-05-01</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-632, by Mr. Harris (MD).</text>
+        <type>Committee</type>
+        <actionCode>1010</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>H001052</bioguideId>
+        <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+        <firstName>Andy</firstName>
+        <lastName>Harris</lastName>
+        <party>R</party>
+        <state>MD</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2026-06-30T16:05:45Z</updateDate>
+        </item>
+        <item>
+          <name>Aging</name>
+          <updateDate>2026-06-30T15:55:14Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural conservation and pollution</name>
+          <updateDate>2026-06-30T15:49:20Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural education</name>
+          <updateDate>2026-06-30T15:51:28Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural marketing and promotion</name>
+          <updateDate>2026-06-30T15:49:15Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural research</name>
+          <updateDate>2026-06-30T15:48:52Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural trade</name>
+          <updateDate>2026-06-30T15:52:03Z</updateDate>
+        </item>
+        <item>
+          <name>Alabama</name>
+          <updateDate>2026-06-30T15:57:35Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+          <updateDate>2026-06-30T16:01:59Z</updateDate>
+        </item>
+        <item>
+          <name>Animal and plant health</name>
+          <updateDate>2026-06-30T15:49:02Z</updateDate>
+        </item>
+        <item>
+          <name>Appalachian Regional Commission</name>
+          <updateDate>2026-06-30T15:55:29Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-06-30T15:45:58Z</updateDate>
+        </item>
+        <item>
+          <name>Arizona</name>
+          <updateDate>2026-06-30T15:56:37Z</updateDate>
+        </item>
+        <item>
+          <name>Arkansas</name>
+          <updateDate>2026-06-30T15:51:02Z</updateDate>
+        </item>
+        <item>
+          <name>Business investment and capital</name>
+          <updateDate>2026-06-30T15:55:20Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2026-06-30T15:55:55Z</updateDate>
+        </item>
+        <item>
+          <name>Child health</name>
+          <updateDate>2026-06-30T15:50:31Z</updateDate>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2026-06-30T16:05:51Z</updateDate>
+        </item>
+        <item>
+          <name>Commodities markets</name>
+          <updateDate>2026-06-30T15:49:39Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Credit Corporation</name>
+          <updateDate>2026-06-30T15:49:34Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Futures Trading Commission</name>
+          <updateDate>2026-06-30T15:50:51Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-06-30T15:51:33Z</updateDate>
+        </item>
+        <item>
+          <name>Delta Regional Authority</name>
+          <updateDate>2026-06-30T15:55:24Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Agriculture</name>
+          <updateDate>2026-06-30T15:46:07Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2026-06-30T16:00:56Z</updateDate>
+        </item>
+        <item>
+          <name>Educational technology and distance education</name>
+          <updateDate>2026-06-30T16:02:43Z</updateDate>
+        </item>
+        <item>
+          <name>Energy efficiency and conservation</name>
+          <updateDate>2026-06-30T16:02:34Z</updateDate>
+        </item>
+        <item>
+          <name>Executive Office of the President</name>
+          <updateDate>2026-06-30T15:46:03Z</updateDate>
+        </item>
+        <item>
+          <name>Farm Credit Administration</name>
+          <updateDate>2026-06-30T15:50:57Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Crop Insurance Corporation</name>
+          <updateDate>2026-06-30T15:49:28Z</updateDate>
+        </item>
+        <item>
+          <name>Federal preemption</name>
+          <updateDate>2026-06-30T16:05:26Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2026-06-30T15:54:26Z</updateDate>
+        </item>
+        <item>
+          <name>Food and Drug Administration (FDA)</name>
+          <updateDate>2026-06-30T15:46:11Z</updateDate>
+        </item>
+        <item>
+          <name>Food assistance and relief</name>
+          <updateDate>2026-06-30T15:49:59Z</updateDate>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+          <updateDate>2026-06-30T15:49:07Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+          <updateDate>2026-06-30T16:03:00Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia</name>
+          <updateDate>2026-06-30T16:00:50Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-06-30T15:51:12Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-06-30T15:49:49Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2026-06-30T15:54:32Z</updateDate>
+        </item>
+        <item>
+          <name>Grain</name>
+          <updateDate>2026-06-30T15:52:07Z</updateDate>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+          <updateDate>2026-06-30T15:51:22Z</updateDate>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+          <updateDate>2026-06-30T15:55:09Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2026-06-30T15:54:56Z</updateDate>
+        </item>
+        <item>
+          <name>Health technology, devices, supplies</name>
+          <updateDate>2026-06-30T16:02:54Z</updateDate>
+        </item>
+        <item>
+          <name>Hospital care</name>
+          <updateDate>2026-06-30T15:55:03Z</updateDate>
+        </item>
+        <item>
+          <name>Housing and community development funding</name>
+          <updateDate>2026-06-30T15:50:40Z</updateDate>
+        </item>
+        <item>
+          <name>Housing finance and home ownership</name>
+          <updateDate>2026-06-30T15:54:38Z</updateDate>
+        </item>
+        <item>
+          <name>Illinois</name>
+          <updateDate>2026-06-30T15:58:24Z</updateDate>
+        </item>
+        <item>
+          <name>Infrastructure development</name>
+          <updateDate>2026-06-30T15:51:06Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2026-06-30T16:02:49Z</updateDate>
+        </item>
+        <item>
+          <name>Kentucky</name>
+          <updateDate>2026-06-30T15:58:29Z</updateDate>
+        </item>
+        <item>
+          <name>Louisiana</name>
+          <updateDate>2026-06-30T15:58:34Z</updateDate>
+        </item>
+        <item>
+          <name>Low- and moderate-income housing</name>
+          <updateDate>2026-06-30T15:54:50Z</updateDate>
+        </item>
+        <item>
+          <name>Maine</name>
+          <updateDate>2026-06-30T15:55:33Z</updateDate>
+        </item>
+        <item>
+          <name>Marketing and advertising</name>
+          <updateDate>2026-06-30T16:05:40Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2026-06-30T15:57:25Z</updateDate>
+        </item>
+        <item>
+          <name>Medical tests and diagnostic methods</name>
+          <updateDate>2026-06-30T16:05:10Z</updateDate>
+        </item>
+        <item>
+          <name>Mississippi</name>
+          <updateDate>2026-06-30T15:58:41Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri</name>
+          <updateDate>2026-06-30T16:00:03Z</updateDate>
+        </item>
+        <item>
+          <name>New Hampshire</name>
+          <updateDate>2026-06-30T15:55:39Z</updateDate>
+        </item>
+        <item>
+          <name>New Mexico</name>
+          <updateDate>2026-06-30T15:56:32Z</updateDate>
+        </item>
+        <item>
+          <name>New York State</name>
+          <updateDate>2026-06-30T15:55:44Z</updateDate>
+        </item>
+        <item>
+          <name>North Carolina</name>
+          <updateDate>2026-06-30T15:57:07Z</updateDate>
+        </item>
+        <item>
+          <name>Nutrition and diet</name>
+          <updateDate>2026-06-30T15:49:54Z</updateDate>
+        </item>
+        <item>
+          <name>Ohio</name>
+          <updateDate>2026-06-30T15:56:49Z</updateDate>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+          <updateDate>2026-06-30T15:56:42Z</updateDate>
+        </item>
+        <item>
+          <name>Poverty and welfare assistance</name>
+          <updateDate>2026-06-30T15:50:25Z</updateDate>
+        </item>
+        <item>
+          <name>Prescription drugs</name>
+          <updateDate>2026-06-30T16:04:52Z</updateDate>
+        </item>
+        <item>
+          <name>Public housing</name>
+          <updateDate>2026-06-30T15:54:45Z</updateDate>
+        </item>
+        <item>
+          <name>Public utilities and utility rates</name>
+          <updateDate>2026-06-30T15:50:46Z</updateDate>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+          <updateDate>2026-06-30T15:48:57Z</updateDate>
+        </item>
+        <item>
+          <name>Research and development</name>
+          <updateDate>2026-06-30T16:05:20Z</updateDate>
+        </item>
+        <item>
+          <name>Rural conditions and development</name>
+          <updateDate>2026-06-30T15:49:44Z</updateDate>
+        </item>
+        <item>
+          <name>Small business</name>
+          <updateDate>2026-06-30T16:01:46Z</updateDate>
+        </item>
+        <item>
+          <name>Solid waste and recycling</name>
+          <updateDate>2026-06-30T16:02:16Z</updateDate>
+        </item>
+        <item>
+          <name>South Carolina</name>
+          <updateDate>2026-06-30T15:57:14Z</updateDate>
+        </item>
+        <item>
+          <name>Technology transfer and commercialization</name>
+          <updateDate>2026-06-30T16:01:40Z</updateDate>
+        </item>
+        <item>
+          <name>Telecommunication rates and fees</name>
+          <updateDate>2026-06-30T16:02:28Z</updateDate>
+        </item>
+        <item>
+          <name>Tennessee</name>
+          <updateDate>2026-06-30T16:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Texas</name>
+          <updateDate>2026-06-30T15:56:00Z</updateDate>
+        </item>
+        <item>
+          <name>User charges and fees</name>
+          <updateDate>2026-06-30T16:03:15Z</updateDate>
+        </item>
+        <item>
+          <name>Vermont</name>
+          <updateDate>2026-06-30T15:55:49Z</updateDate>
+        </item>
+        <item>
+          <name>Veterinary medicine and animal diseases</name>
+          <updateDate>2026-06-30T16:05:34Z</updateDate>
+        </item>
+        <item>
+          <name>Virginia</name>
+          <updateDate>2026-06-30T15:57:19Z</updateDate>
+        </item>
+        <item>
+          <name>Water storage</name>
+          <updateDate>2026-06-30T16:02:22Z</updateDate>
+        </item>
+        <item>
+          <name>Watersheds</name>
+          <updateDate>2026-06-30T15:52:11Z</updateDate>
+        </item>
+        <item>
+          <name>West Virginia</name>
+          <updateDate>2026-06-30T15:57:30Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2026-06-15T13:48:44Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-05-01</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-05-05T13:07:41Z</updateDate>
+        <text><![CDATA[<p><strong>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</strong></p><p>This bill provides FY2027 appropriations for the Department of Agriculture (USDA), the Food and Drug Administration, and related agencies.</p><p>The bill provides appropriations to USDA for agricultural programs, including</p><ul><li>the Office of the Secretary,</li><li>Executive Operations,</li><li>the Economic Research Service,</li><li>the National Agricultural Statistics Service,</li><li>the Agricultural Research Service,</li><li>the National Institute of Food and Agriculture,</li><li>the Animal and Plant Health Inspection Service,</li><li>the Agricultural Marketing Service, and</li><li>the Food Safety and Inspection Service.</li></ul><p>The bill also provides appropriations to USDA for farm production and conservation programs, including</p><ul><li>the Farm Production and Conservation Business Center,</li><li>the Farm Service Agency,</li><li>the Risk Management Agency, and</li><li>the Natural Resources Conservation Service.</li></ul><p>The bill provides appropriations to the Federal Crop Insurance Corporation Fund and the Commodity Credit Corporation Fund.</p><p>For USDA rural development programs, the bill includes appropriations for</p><ul><li>Salaries and Expenses,</li><li>the Rural Housing Service,</li><li>the Rural Business-Cooperative Service, and</li><li>the Rural Utilities Service.</li></ul><p>The bill provides appropriations to the Food and Nutrition Service for</p><ul><li>Child Nutrition Programs;</li><li>the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC);</li><li>the Supplemental Nutrition Assistance Program (SNAP);</li><li>the Commodity Assistance Program; and</li><li>Nutrition Programs Administration.</li></ul><p>The bill provides appropriations to the Foreign Agricultural Service for (1) Food for Peace Title II Grants, and (2) McGovern-Dole International Food for Education and Child Nutrition Program Grants.</p><p>The bill also provides appropriations for</p><ul><li>the Food and Drug Administration,</li><li>the Commodity Futures Trading Commission, and</li><li>the Farm Credit Administration.</li></ul><p>Additionally, the bill sets forth requirements and restrictions for using funds provided by this and other appropriations acts.</p><p>It also includes provisions that address the regulation of animal food, liability for donations of pet-related products, and payments for&nbsp;the construction of the Arkansas Valley Conduit.&nbsp;</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2026-05-01</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2026-05-05T13:19:51Z</updateDate>
+        <text><![CDATA[<p><strong>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</strong></p><p>This bill provides FY2027 appropriations for the Department of Agriculture (USDA), the Food and Drug Administration, and related agencies.</p><p>The bill provides appropriations to USDA for agricultural programs, including</p><ul><li>the Office of the Secretary,</li><li>Executive Operations,</li><li>the Economic Research Service,</li><li>the National Agricultural Statistics Service,</li><li>the Agricultural Research Service,</li><li>the National Institute of Food and Agriculture,</li><li>the Animal and Plant Health Inspection Service,</li><li>the Agricultural Marketing Service, and</li><li>the Food Safety and Inspection Service.</li></ul><p>The bill also provides appropriations to USDA for farm production and conservation programs, including</p><ul><li>the Farm Production and Conservation Business Center,</li><li>the Farm Service Agency,</li><li>the Risk Management Agency, and</li><li>the Natural Resources Conservation Service.</li></ul><p>The bill provides appropriations to the Federal Crop Insurance Corporation Fund and the Commodity Credit Corporation Fund.</p><p>For USDA rural development programs, the bill includes appropriations for</p><ul><li>Salaries and Expenses,</li><li>the Rural Housing Service,</li><li>the Rural Business-Cooperative Service, and</li><li>the Rural Utilities Service.</li></ul><p>The bill provides appropriations to the Food and Nutrition Service for</p><ul><li>Child Nutrition Programs;</li><li>the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC);</li><li>the Supplemental Nutrition Assistance Program (SNAP);</li><li>the Commodity Assistance Program; and</li><li>Nutrition Programs Administration.</li></ul><p>The bill provides appropriations to the Foreign Agricultural Service for (1) Food for Peace Title II Grants, and (2) McGovern-Dole International Food for Education and Child Nutrition Program Grants.</p><p>The bill also provides appropriations for</p><ul><li>the Food and Drug Administration,</li><li>the Commodity Futures Trading Commission, and</li><li>the Farm Credit Administration.</li></ul><p>Additionally, the bill sets forth requirements and restrictions for using funds provided by this and other appropriations acts.</p><p>It also includes provisions that address the regulation of animal food, liability for donations of pet-related products, and payments for&nbsp;the construction of the Arkansas Valley Conduit.&nbsp;</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>53</versionCode>
+        <actionDate>2026-06-04</actionDate>
+        <actionDesc>Passed House</actionDesc>
+        <updateDate>2026-06-15T14:25:31Z</updateDate>
+        <text><![CDATA[<p><strong>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</strong></p><p>This bill provides FY2027 appropriations for the Department of Agriculture (USDA), the Food and Drug Administration, and related agencies.</p><p>The bill provides appropriations to USDA for agricultural programs, including</p><ul><li>the Office of the Secretary,</li><li>Executive Operations,</li><li>the Economic Research Service,</li><li>the National Agricultural Statistics Service,</li><li>the Agricultural Research Service,</li><li>the National Institute of Food and Agriculture,</li><li>the Animal and Plant Health Inspection Service,</li><li>the Agricultural Marketing Service, and</li><li>the Food Safety and Inspection Service.</li></ul><p>The bill also provides appropriations to USDA for farm production and conservation programs, including</p><ul><li>the Farm Production and Conservation Business Center,</li><li>the Farm Service Agency,</li><li>the Risk Management Agency, and</li><li>the Natural Resources Conservation Service.</li></ul><p>The bill provides appropriations to the Federal Crop Insurance Corporation Fund and the Commodity Credit Corporation Fund.</p><p>For USDA rural development programs, the bill includes appropriations for</p><ul><li>Salaries and Expenses,</li><li>the Rural Housing Service,</li><li>the Rural Business-Cooperative Service, and</li><li>the Rural Utilities Service.</li></ul><p>The bill provides appropriations to the Food and Nutrition Service for</p><ul><li>Child Nutrition Programs;</li><li>the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC);</li><li>the Supplemental Nutrition Assistance Program (SNAP);</li><li>the Commodity Assistance Program; and</li><li>Nutrition Programs Administration.</li></ul><p>The bill provides appropriations to the Foreign Agricultural Service for (1) Food for Peace Title II Grants, and (2) McGovern-Dole International Food for Education and Child Nutrition Program Grants.</p><p>The bill also provides appropriations for</p><ul><li>the Food and Drug Administration,</li><li>the Commodity Futures Trading Commission, and</li><li>the Farm Credit Administration.</li></ul><p>Additionally, the bill sets forth requirements and restrictions for using funds provided by this and other appropriations acts.</p><p>It also includes provisions that address the regulation of animal food, liability for donations of pet-related products, and payments for&nbsp;the construction of the Arkansas Valley Conduit.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+        <updateDate>2026-09-19T23:30:48Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.</title>
+        <updateDate>2026-09-19T23:30:48Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House for portions of this bill</titleType>
+        <titleTypeCode>107</titleTypeCode>
+        <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+        <updateDate>2026-07-11T23:43:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+        <updateDate>2026-07-11T23:43:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+        <updateDate>2026-06-09T05:38:26Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.</title>
+        <updateDate>2026-06-09T05:38:26Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+        <updateDate>2026-05-02T08:23:26Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>226</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment comprised of the following amendments printed in House Report 119-676 as en bloc: Nos. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 21, 22, 23, 24, 25, and 26.</description>
+        <updateDate>2026-06-08T14:49:23Z</updateDate>
+        <latestAction>
+          <actionDate>2026-06-04</actionDate>
+          <text>On agreeing to the Harris (MD) amendments (A001) Agreed to by voice vote.</text>
+          <actionTime>13:19:03</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>H001052</bioguideId>
+            <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+            <firstName>Andy</firstName>
+            <lastName>Harris</lastName>
+            <party>R</party>
+            <state>MD</state>
+            <district>1</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-06-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8646</number>
+          <title>Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-06-04</actionDate>
+              <actionTime>13:19:03</actionTime>
+              <text>On agreeing to the Harris (MD) amendments (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-06-04</actionDate>
+              <actionTime>13:05:52</actionTime>
+              <text>Amendments en bloc (A001) offered by Mr. Harris (MD). (consideration: CR H3860-3862; text: CR H3860)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-06-04</actionDate>
+              <actionTime>13:19:03</actionTime>
+              <text>House amendment agreed to: On agreeing to the Harris (MD) amendments (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-06-04</actionDate>
+              <actionTime>13:05:52</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-06-04T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8646eh/xml/BILLS-119hr8646eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-05-01T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8646rh/xml/BILLS-119hr8646rh.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-06-08</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

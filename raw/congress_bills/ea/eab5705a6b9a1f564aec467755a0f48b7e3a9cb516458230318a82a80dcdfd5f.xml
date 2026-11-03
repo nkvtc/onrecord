@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>2931</number>
+    <updateDate>2026-09-08T18:08:35Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:08:35Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-04-17</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/2931</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 67 (Thursday, April 17, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. FINSTAD:H.R. 2931.Congress has the power to enact this legislation pursuantto the following:Article 1 Sec. 8[Page H1613]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sssb00</systemCode>
+        <name>Small Business and Entrepreneurship Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-06-09T20:06:26Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hssm00</systemCode>
+        <name>Small Business Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-06-05T20:43:17Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-06-05T16:50:08Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-05-21T16:48:15Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-04-30T17:35:57Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-04-17T13:32:25Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-110</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 2483) to reauthorize certain programs that provide for opioid use disorder prevention, treatment, and recovery, and for other purposes; providing for consideration of the bill (H.R. 2931) to direct the Administrator of the Small Business Administration to relocate certain offices of the Small Business Administration in sanctuary jurisdictions, and for other purposes; providing for consideration of the bill (H.R. 2966) to require the Administrator of the Small Business Administration to require an applicant for certain loans of the Administration to provide certain citizenship status documentation, and for other purposes; and providing for consideration of the bill (H.R. 2987) to amend the Small Business Act to require a limit on the number of small business lending companies, and for other purposes.</title>
+        <congress>119</congress>
+        <number>458</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-06-04</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:03:40</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-06-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>sssb00</systemCode>
+            <name>Small Business and Entrepreneurship Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>16:50:28</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>16:50:26</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 211 - 199 (Roll no. 153). (text of amendment in the nature of a substitute: CR H2483)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>153</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll153.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-06-05T20:50:26Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>16:50:26</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 211 - 199 (Roll no. 153). (text of amendment in the nature of a substitute: CR H2483)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>153</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll153.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-06-05T20:50:26Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>16:43:17</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 202 - 210 (Roll no. 152).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>152</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll152.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-06-05T20:43:17Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>16:16:25</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H2492-2493)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:50:34</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 2931, the Chair put the question on motion to recommit and by voice vote, announced that the noes had prevailed. Mr. Cisneros demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:50:16</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:50:08</actionTime>
+        <text>Mr. Cisneros moved to recommit to the Committee on Small Business. (text: CR H2488)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:49:29</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:16:20</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 2931.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:14:43</actionTime>
+        <text>Rule provides for consideration of H.R. 2483, H.R. 2931, H.R. 2966 and H.R. 2987. The resolution provides for consideration of H.R. 2483 under a structured rule and for consideration of H.R. 2931, H.R. 2966, and H.R. 2987 under a closed rule. The resolution provides for one hour of debate and one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-05</actionDate>
+        <actionTime>12:14:38</actionTime>
+        <text>Considered under the provisions of rule H. Res. 458. (consideration: CR H2483-2489)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-03</actionDate>
+        <actionTime>19:20:02</actionTime>
+        <text>Rules Committee Resolution H. Res. 458 Reported to House. Rule provides for consideration of H.R. 2483, H.R. 2931, H.R. 2966 and H.R. 2987. The resolution provides for consideration of H.R. 2483 under a structured rule and for consideration of H.R. 2931, H.R. 2966, and H.R. 2987 under a closed rule. The resolution provides for one hour of debate and one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-05-21</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 81.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00081</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-05-21</actionDate>
+        <text>Reported (Amended) by the Committee on Small Business. H. Rept. 119-110.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-05-21</actionDate>
+        <text>Reported (Amended) by the Committee on Small Business. H. Rept. 119-110.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-04-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 15 - 11.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-17</actionDate>
+        <text>Referred to the House Committee on Small Business.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hssm00</systemCode>
+            <name>Small Business Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-04-17</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-04-17</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000475</bioguideId>
+        <fullName>Rep. Finstad, Brad [R-MN-1]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Finstad</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>1</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000598</bioguideId>
+        <fullName>Rep. LaLota, Nick [R-NY-1]</fullName>
+        <firstName>Nick</firstName>
+        <lastName>LaLota</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>1</district>
+        <sponsorshipDate>2025-04-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative remedies</name>
+          <updateDate>2025-06-03T15:47:55Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2025-06-03T15:45:22Z</updateDate>
+        </item>
+        <item>
+          <name>Immigration status and procedures</name>
+          <updateDate>2025-06-03T15:45:13Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2025-06-03T15:50:57Z</updateDate>
+        </item>
+        <item>
+          <name>Small Business Administration</name>
+          <updateDate>2025-06-03T15:47:19Z</updateDate>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+          <updateDate>2025-06-03T15:45:54Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Commerce</name>
+        <updateDate>2025-05-19T16:20:09Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-04-17</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-06-03T13:09:06Z</updateDate>
+        <text><![CDATA[<p><strong>Save SBA from Sanctuary Cities Act</strong></p><p>This bill requires the relocation of a regional, district, or local office of the Small Business Administration (SBA) if the SBA makes a public determination that the office is located in a sanctuary jurisdiction.&nbsp;The SBA must relocate that office, within 60 days of such determination, to a location that is not a sanctuary jurisdiction.</p><p>Under the bill, a&nbsp;sanctuary jurisdiction is a state or political subdivision thereof that prohibits or restricts any government entity or official from (1) exchanging with another government entity information regarding the citizenship or immigration status of an individual; or (2) complying with specified requests by the Department of Homeland Security.</p><p>Additionally, the SBA may not establish an office in a sanctuary jurisdiction.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Save SBA from Sanctuary Cities Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To direct the Administrator of the Small Business Administration to relocate certain offices of the Small Business Administration in sanctuary jurisdictions, and for other purposes.</title>
+        <updateDate>2026-07-11T02:08:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Save SBA from Sanctuary Cities Act of 2025</title>
+        <updateDate>2025-06-11T03:53:17Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Save SBA from Sanctuary Cities Act of 2025</title>
+        <updateDate>2025-06-07T04:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Save SBA from Sanctuary Cities Act of 2025</title>
+        <updateDate>2025-05-22T03:53:19Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Save SBA from Sanctuary Cities Act of 2025</title>
+        <updateDate>2025-05-22T03:53:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Save SBA from Sanctuary Cities Act</title>
+        <updateDate>2025-04-25T03:38:17Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To direct the Administrator of the Small Business Administration to relocate certain offices of the Small Business Administration in sanctuary jurisdictions, and for other purposes.</title>
+        <updateDate>2025-04-25T03:33:27Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>27</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 458, the amendment in the nature of a substitute recommended by the Committee on Small Business now printed in the bill, modified by the amendment printed in part B of House Report 119-130 is considered as adopted.</description>
+        <updateDate>2025-06-06T08:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2025-06-05</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-06-05T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>2931</number>
+          <title>Save SBA from Sanctuary Cities Act of 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-06-05</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-06-05</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-06-05</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-06-05</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-06-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2931rfs/xml/BILLS-119hr2931rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-06-05T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2931eh/xml/BILLS-119hr2931eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-05-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2931rh/xml/BILLS-119hr2931rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-04-17T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr2931ih/xml/BILLS-119hr2931ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-06-09</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,239 @@
+{
+ "endpoint": "search/spending_by_category/recipient/",
+ "kind": "top_contractors",
+ "request": {
+  "filters": {
+   "award_type_codes": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "time_period": [
+    {
+     "end_date": "2026-09-30",
+     "start_date": "2025-10-01"
+    }
+   ]
+  },
+  "limit": 25
+ },
+ "response": {
+  "category": "recipient",
+  "limit": 25,
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+   "'subawards' will be deprecated in the future. Set ‘spending_level’ to ‘subawards’ instead. See documentation for more information. "
+  ],
+  "page_metadata": {
+   "hasNext": true,
+   "hasPrevious": false,
+   "next": 2,
+   "page": 1,
+   "previous": null
+  },
+  "results": [
+   {
+    "amount": 22494010526.18,
+    "code": "785030714",
+    "name": "OPTUM PUBLIC SECTOR SOLUTIONS, INC.",
+    "recipient_id": "41694631-0b0f-72ed-221b-29193c88f0d2-C",
+    "total_outlays": null,
+    "uei": "XMUZGJN98231"
+   },
+   {
+    "amount": 16608760434.24,
+    "code": "945580587",
+    "name": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "recipient_id": "bf1220c1-2373-042a-e8e1-33d5a29639d0-C",
+    "total_outlays": null,
+    "uei": "J7M9HPTGJ1S9"
+   },
+   {
+    "amount": 16578329435.16,
+    "code": "794571448",
+    "name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C",
+    "total_outlays": null,
+    "uei": "XFJMYSYFJEK4"
+   },
+   {
+    "amount": 15348624406.62,
+    "code": "008016958",
+    "name": "LOCKHEED MARTIN CORPORATION",
+    "recipient_id": "6cf5fb1b-4988-d087-5dc1-70939d8fc6c4-C",
+    "total_outlays": null,
+    "uei": "G4KDGE4JFFK7"
+   },
+   {
+    "amount": 14930332924.25,
+    "code": "177667227",
+    "name": "MCKESSON CORPORATION",
+    "recipient_id": "b54de748-ee64-a1e6-546e-e7007b054797-C",
+    "total_outlays": null,
+    "uei": "S1RUKWWRYFL6"
+   },
+   {
+    "amount": 13353127851.7,
+    "code": "100832570",
+    "name": "FISHER SAND & GRAVEL CO",
+    "recipient_id": "fa0b2d2c-6660-adbe-e0ea-4035b15e4cbd-C",
+    "total_outlays": null,
+    "uei": "XAVBDA4D13N7"
+   },
+   {
+    "amount": 12918290624.16,
+    "code": "963737366",
+    "name": "ELECTRIC BOAT CORPORATION",
+    "recipient_id": "d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C",
+    "total_outlays": null,
+    "uei": "E7BEKJ4V9528"
+   },
+   {
+    "amount": 11161629210.32,
+    "code": "794598573",
+    "name": "RAYTHEON COMPANY",
+    "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+    "total_outlays": null,
+    "uei": "VTEWM5QSE598"
+   },
+   {
+    "amount": 10028214803.42,
+    "code": "001447952",
+    "name": "RTX CORPORATION",
+    "recipient_id": "62e141b3-4887-5b39-6b75-eace9326395c-C",
+    "total_outlays": null,
+    "uei": "QN1BCFY7JDJ5"
+   },
+   {
+    "amount": 9184981996.46,
+    "code": "039267141",
+    "name": "THE BOEING COMPANY",
+    "recipient_id": "22d282c6-4508-7d30-97f1-7401ea73b12a-C",
+    "total_outlays": null,
+    "uei": "WZWRLY4G3PL8"
+   },
+   {
+    "amount": 6582814757.64,
+    "code": "007914906",
+    "name": "AMERISOURCEBERGEN DRUG CORP",
+    "recipient_id": "edc402f7-abac-eafe-2aae-3fdcd8d1bb8a-C",
+    "total_outlays": null,
+    "uei": "KABZK8W6PQT3"
+   },
+   {
+    "amount": 6391596418.29,
+    "code": "149879157",
+    "name": "THE BOEING COMPANY",
+    "recipient_id": "9ab85632-42cc-5fa4-2a9c-d734034ddd33-C",
+    "total_outlays": null,
+    "uei": "JJM4FRDZJDX1"
+   },
+   {
+    "amount": 6122609426.97,
+    "code": "010373165",
+    "name": "BARNARD CONSTRUCTION COMPANY, INCORPORATED",
+    "recipient_id": "cbd00b80-79b9-687c-5847-be4d1bf8750e-C",
+    "total_outlays": null,
+    "uei": "LEGGW1TNMVC9"
+   },
+   {
+    "amount": 6086759867.71,
+    "code": "006928857",
+    "name": "BOOZ ALLEN HAMILTON INC",
+    "recipient_id": "ffca72e5-fba2-798a-6969-2a6c45e9f985-C",
+    "total_outlays": null,
+    "uei": "JCBMLGPE6Z71"
+   },
+   {
+    "amount": 5632969659.0,
+    "code": "805349198",
+    "name": "HUMANA GOVERNMENT BUSINESS INC",
+    "recipient_id": "1068e466-707d-6b6f-367f-0255fab79b8c-C",
+    "total_outlays": null,
+    "uei": "ZE6ZM6NKSV43"
+   },
+   {
+    "amount": 5490349279.92,
+    "code": "080961356",
+    "name": "TRIAD NATIONAL SECURITY, LLC",
+    "recipient_id": "59ab4d30-abec-ded6-33c4-5d9f37fd2da0-C",
+    "total_outlays": null,
+    "uei": "X7WUS5LRBQU3"
+   },
+   {
+    "amount": 5426329833.0,
+    "code": "007113228",
+    "name": "NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC",
+    "recipient_id": "b52d549e-73f7-a818-8c63-4a75904c9df5-C",
+    "total_outlays": null,
+    "uei": "LUJEPCRRT377"
+   },
+   {
+    "amount": 5157565722.89,
+    "code": "027079776",
+    "name": "ATLANTIC DIVING SUPPLY, INC.",
+    "recipient_id": "9c708c7c-f339-5fc8-0455-a5aaea1d2da5-C",
+    "total_outlays": null,
+    "uei": "GJMSFBCNMSK3"
+   },
+   {
+    "amount": 4904723690.56,
+    "code": "067641597",
+    "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+    "recipient_id": "455555be-773d-eab1-1e6b-7b94400b757e-C",
+    "total_outlays": null,
+    "uei": "SMNWM6HN79X5"
+   },
+   {
+    "amount": 4280063178.79,
+    "code": "081071051",
+    "name": "FLUOR MARINE PROPULSION, LLC",
+    "recipient_id": "27de0316-220e-8297-411f-f99b6f60443a-C",
+    "total_outlays": null,
+    "uei": "CWHMVCX7K1N6"
+   },
+   {
+    "amount": 4004327664.94,
+    "code": "078883327",
+    "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+    "recipient_id": "20af0683-f17d-1f8f-38ee-2f11bd124559-C",
+    "total_outlays": null,
+    "uei": "MMLKPW9JLX64"
+   },
+   {
+    "amount": 3718934935.34,
+    "code": "785627931",
+    "name": "LAWRENCE LIVERMORE NATIONAL SECURITY, LLC",
+    "recipient_id": "6d990129-9566-ff86-e9ae-7c6eeef1df7c-C",
+    "total_outlays": null,
+    "uei": "PM52LCJH72T9"
+   },
+   {
+    "amount": 3691181987.68,
+    "code": "001307495",
+    "name": "HUNTINGTON INGALLS INC",
+    "recipient_id": "dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C",
+    "total_outlays": null,
+    "uei": "WMXDDH6HJNA5"
+   },
+   {
+    "amount": 3674400590.49,
+    "code": "830135799",
+    "name": "HUNTINGTON INGALLS INCORPORATED",
+    "recipient_id": "1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C",
+    "total_outlays": null,
+    "uei": "C3NLZNSMU254"
+   },
+   {
+    "amount": 3551540032.76,
+    "code": "196882310",
+    "name": "RAYTHEON COMPANY",
+    "recipient_id": "cce9df51-3950-87f4-0b34-4353d5a08f32-C",
+    "total_outlays": null,
+    "uei": "XSV6AZJ6SDJ7"
+   }
+  ],
+  "spending_level": "transactions"
+ }
+}

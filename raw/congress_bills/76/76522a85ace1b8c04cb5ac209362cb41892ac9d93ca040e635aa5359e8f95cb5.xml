@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>629</number>
+    <updateDate>2026-07-31T13:48:32Z</updateDate>
+    <updateDateIncludingText>2026-07-31T13:48:32Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2025-02-19</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-bill/629</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>ssaf00</systemCode>
+        <name>Agriculture, Nutrition, and Forestry Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2026-03-24T16:55:39Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-19T19:32:26Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Fix Our Forests Act</title>
+        <congress>119</congress>
+        <number>1462</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-10-27</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 212.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Emergency Conservation Program Improvement Act of 2025</title>
+        <congress>119</congress>
+        <number>1011</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-15</actionDate>
+          <text>Received in the Senate.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-07-12</actionDate>
+        <text>Became Public Law No: 119-102.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-12</actionDate>
+        <text>Became Public Law No: 119-102.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-12</actionDate>
+        <text>Sent to Archivist of the United States unsigned.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-30</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-30</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>18:59:46</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>18:59:45</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 368 - 19 (Roll no. 223). (text: CR H4137)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>223</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll223.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-23T22:59:45Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>18:59:45</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 368 - 19 (Roll no. 223). (text: CR H4137)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>223</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll223.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-06-23T22:59:45Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>18:31:49</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H4192)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>14:44:52</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>14:33:37</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on S. 629.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>14:33:35</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H4137-4138)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-23</actionDate>
+        <actionTime>14:33:20</actionTime>
+        <text>Mr. Lucas moved to suspend the rules and pass the bill.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <actionTime>14:11:22</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <actionTime>14:02:29</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S1565; text: CR S1565)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssaf00</systemCode>
+            <name>Agriculture, Nutrition, and Forestry Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Agriculture, Nutrition, and Forestry discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <text>Senate Committee on Agriculture, Nutrition, and Forestry discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssaf00</systemCode>
+            <name>Agriculture, Nutrition, and Forestry Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-19</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssaf00</systemCode>
+            <name>Agriculture, Nutrition, and Forestry Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-02-19</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000463</bioguideId>
+        <fullName>Sen. Fischer, Deb [R-NE]</fullName>
+        <firstName>Deb</firstName>
+        <lastName>Fischer</lastName>
+        <party>R</party>
+        <state>NE</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000570</bioguideId>
+        <fullName>Sen. Luján, Ben Ray [D-NM]</fullName>
+        <firstName>Ben</firstName>
+        <lastName>Luján</lastName>
+        <party>D</party>
+        <state>NM</state>
+        <middleName>R.</middleName>
+        <sponsorshipDate>2025-02-19</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001150</bioguideId>
+        <fullName>Sen. Schiff, Adam B. [D-CA]</fullName>
+        <firstName>Adam</firstName>
+        <lastName>Schiff</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2025-02-19</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-102</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Agricultural prices, subsidies, credit</name>
+          <updateDate>2026-03-26T15:47:31Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2026-03-26T15:47:31Z</updateDate>
+        </item>
+        <item>
+          <name>Farmland</name>
+          <updateDate>2026-04-15T12:33:37Z</updateDate>
+        </item>
+        <item>
+          <name>Fires</name>
+          <updateDate>2026-03-26T15:47:31Z</updateDate>
+        </item>
+        <item>
+          <name>Forests, forestry, trees</name>
+          <updateDate>2026-03-26T15:47:31Z</updateDate>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+          <updateDate>2026-03-26T15:47:31Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Agriculture and Food</name>
+        <updateDate>2026-07-16T20:56:33Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-19</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2026-01-29T15:06:09Z</updateDate>
+        <text><![CDATA[<p><strong>Emergency Conservation Program Improvement Act of 2025 </strong></p><p>This bill revises the Emergency Conservation Program (ECP) and the Emergency Forest Restoration Program (EFRP) to expand eligibility for payments to agricultural producers and owners of forest land impacted by natural disasters. The bill also&nbsp;provides additional options to receive an advance on cost-sharing payments before carrying out emergency measures.</p><p>The bill expands advance ECP payments  to include&nbsp;the replacement, repair, or restoration of farmland or conservation structures requiring an immediate response. Producers may receive an advance on cost-sharing payments for 75% of the cost of the replacement and 50% of the cost of the repair or restoration. Current law limits advance payments to 25% of the cost of the repair or replacement of fencing.</p><p>Under EFRP, the bill allows owners of nonindustrial private forest land impacted by a natural disaster to receive an advance on cost-sharing payments for up to 75% of the cost of the emergency measures. Currently, advance payments are not available under the program.</p><p>ECP and EFRP recipients must use the funds within 180 days after the funds are disbursed. This provides additional time to ECP recipients who currently must use the funds within 60 days.</p><p>The bill also expands eligibility for payments under the programs to include emergency measures to address damages caused by (1) a wildfire that is not caused naturally, if the damage is caused by the spread of the wildfire due to natural causes; and (2) a wildfire that is caused by the federal government.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2026-07-12</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-07-31T13:29:08Z</updateDate>
+        <text><![CDATA[<p><strong>Emergency Conservation Program Improvement Act of 2025 </strong></p><p>This act revises the Emergency Conservation Program (ECP) and the Emergency Forest Restoration Program (EFRP) to expand eligibility for payments to agricultural producers and owners of forest land impacted by natural disasters. The act also&nbsp;provides additional options to receive an advance on cost-sharing payments before carrying out emergency measures.</p><p>The act expands advance ECP payments to include&nbsp;the replacement, repair, or restoration of farmland or conservation structures requiring an immediate response. Producers may receive an advance on cost-sharing payments for 75% of the cost of the replacement and 50% of the cost of the repair or restoration. Current law limits advance payments to 25% of the cost of the repair or replacement of fencing.</p><p>Under EFRP, the act allows owners of nonindustrial private forest land impacted by a natural disaster to receive an advance on cost-sharing payments for up to 75% of the cost of the emergency measures. Currently, advance payments are not available under the program.</p><p>ECP and EFRP recipients must use the funds within 180 days after the funds are disbursed. This provides additional time to ECP recipients who currently must use the funds within 60 days.</p><p>The act also expands eligibility for payments under the programs to include emergency measures to address damages caused by (1) a wildfire that is not caused naturally, if the damage is caused by the spread of the wildfire due to natural causes; and (2) a wildfire that is caused by the federal government.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Emergency Conservation Program Improvement Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Emergency Conservation Program Improvement Act of 2025</title>
+        <updateDate>2026-06-25T04:23:30Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Emergency Conservation Program Improvement Act of 2025</title>
+        <updateDate>2026-03-25T10:58:20Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed Senate</titleType>
+        <titleTypeCode>105</titleTypeCode>
+        <title>Emergency Conservation Program Improvement Act of 2025</title>
+        <updateDate>2026-03-25T04:23:26Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Engrossed in Senate</billTextVersionName>
+        <billTextVersionCode>ES</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Emergency Conservation Program Improvement Act of 2025</title>
+        <updateDate>2025-03-12T02:23:30Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A bill to amend the Agricultural Credit Act of 1978 to remove barriers to agricultural producers in accessing funds to carry out emergency measures under the emergency conservation program, and for other purposes.</title>
+        <updateDate>2025-03-12T02:19:01Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s629enr/uslm/BILLS-119s629enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s629enr/xml/BILLS-119s629enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2026-03-24T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s629es/xml/BILLS-119s629es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-02-19T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s629is/xml/BILLS-119s629is.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-07-13T03:59:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ102/uslm/PLAW-119publ102.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-07-12</actionDate>
+      <text>Became Public Law No: 119-102.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

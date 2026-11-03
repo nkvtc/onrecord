@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1608</number>
+    <updateDate>2026-07-09T13:27:22Z</updateDate>
+    <updateDateIncludingText>2026-07-13T19:46:01Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-02-26</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/1608</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 38 (Wednesday, February 26, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. GIMENEZ:H.R. 1608.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18 of the Constitution statingthat Congress has the authority to `` make all laws whichshall be necessary and proper for carrying into execution theforegoing powers, and all other powers vested by theConstitution''.[Page H879]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>ssga00</systemCode>
+        <name>Homeland Security and Governmental Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-11-18T21:09:52Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hshm00</systemCode>
+        <name>Homeland Security Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hshm07</systemCode>
+            <name>Transportation and Maritime Security Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2025-02-26T18:21:22Z</date>
+              </item>
+            </activities>
+          </item>
+          <item>
+            <systemCode>hshm05</systemCode>
+            <name>Counterterrorism and Intelligence Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2025-02-26T18:21:22Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-08-08T16:06:34Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-04-09T13:30:50Z</date>
+          </item>
+          <item>
+            <name>Discharged from</name>
+            <date>2025-04-09T13:30:40Z</date>
+          </item>
+          <item>
+            <name>Discharged from</name>
+            <date>2025-04-09T13:30:40Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-26T15:05:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-222</citation>
+      </committeeReport>
+    </committeeReports>
+    <actions>
+      <item>
+        <actionDate>2025-11-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssga00</systemCode>
+            <name>Homeland Security and Governmental Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>18:56:30</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>18:56:29</actionTime>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 400 - 15 (Roll no. 286). (text: CR H4681-4682)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>286</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll286.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-11-17T23:56:29Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>18:56:29</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 400 - 15 (Roll no. 286). (text: CR H4681-4682)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>286</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll286.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-11-17T23:56:29Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>18:32:33</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H4691-4692)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>16:46:34</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>16:41:23</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 1608.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>16:41:20</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H4681-4682)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-11-17</actionDate>
+        <actionTime>16:41:08</actionTime>
+        <text>Mr. Garbarino moved to suspend the rules and pass the bill, as amended.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-08-08</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 180.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00180</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-08-08</actionDate>
+        <text>Reported (Amended) by the Committee on Homeland Security. H. Rept. 119-222.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-08-08</actionDate>
+        <text>Reported (Amended) by the Committee on Homeland Security. H. Rept. 119-222.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-04-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Counterterrorism and Intelligence Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-04-09</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Transportation and Maritime Security Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm05</systemCode>
+            <name>Counterterrorism and Intelligence Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Counterterrorism and Intelligence.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <committees>
+          <item>
+            <systemCode>hshm07</systemCode>
+            <name>Transportation and Maritime Security Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Transportation and Maritime Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <text>Referred to the House Committee on Homeland Security.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hshm00</systemCode>
+            <name>Homeland Security Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-26</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000593</bioguideId>
+        <fullName>Rep. Gimenez, Carlos A. [R-FL-28]</fullName>
+        <firstName>Carlos</firstName>
+        <lastName>Gimenez</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <middleName>A.</middleName>
+        <district>28</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000590</bioguideId>
+        <fullName>Rep. Green, Mark E. [R-TN-7]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Green</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>E.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2025-02-26</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001125</bioguideId>
+        <fullName>Rep. Carter, Troy A. [D-LA-2]</fullName>
+        <firstName>Troy</firstName>
+        <lastName>Carter</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-04-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-07-22T15:25:00Z</pubDate>
+        <title>H.R. 1608, Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+        <url>https://www.cbo.gov/publication/61588</url>
+        <description>As ordered reported by the House Committee on Homeland Security on April 9, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2025-04-21T15:14:42Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-04-21T15:14:35Z</updateDate>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+          <updateDate>2025-04-21T15:14:25Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2025-04-21T15:14:57Z</updateDate>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+          <updateDate>2025-04-21T15:15:22Z</updateDate>
+        </item>
+        <item>
+          <name>Industrial facilities</name>
+          <updateDate>2025-04-21T15:15:05Z</updateDate>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+          <updateDate>2025-04-21T15:14:12Z</updateDate>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+          <updateDate>2025-04-21T15:14:49Z</updateDate>
+        </item>
+        <item>
+          <name>Public transit</name>
+          <updateDate>2025-04-21T15:15:14Z</updateDate>
+        </item>
+        <item>
+          <name>Public-private cooperation</name>
+          <updateDate>2025-04-21T15:15:38Z</updateDate>
+        </item>
+        <item>
+          <name>State and local government operations</name>
+          <updateDate>2025-04-21T15:15:29Z</updateDate>
+        </item>
+        <item>
+          <name>Terrorism</name>
+          <updateDate>2025-04-21T15:14:18Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Transportation and Public Works</name>
+        <updateDate>2025-09-02T18:55:29Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-26</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-04-22T12:51:11Z</updateDate>
+        <text><![CDATA[<p><strong>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</strong></p><p>This bill directs the Department of Homeland Security (DHS) to submit a report to Congress on the department's efforts to prevent, deter, and respond to vehicular terrorism (i.e., an action that utilizes automotive transportation to commit terrorism). DHS must submit the report in coordination with the Transportation Security Administration and the Cybersecurity and Infrastructure Security Agency.</p><p>Among other things, the report on vehicular terrorism must include</p><ul><li>an assessment of the current and emerging threats;</li><li>a review of higher-risk locations and events that may be vulnerable, including critical infrastructure sites&nbsp;(e.g., airports and government facilities);</li><li>a description of DHS’s coordination efforts with federal, state, local, tribal, and territorial law enforcement agencies related to prevention; and</li><li>recommendations for the research, development, and deployment of technologies to detect, deter, and mitigate vehicular terrorism.</li></ul><p>DHS must submit a classified report to Congress, but may include an unclassified executive summary. DHS must publish the executive summary on the department's&nbsp;website.</p><p>In addition,&nbsp;DHS must&nbsp;brief Congress on the report's findings, conclusions, and recommendations.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+    <titles>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+        <updateDate>2025-11-20T05:38:24Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+        <updateDate>2025-11-19T03:23:17Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To require the Secretary of Homeland Security to produce a report on emerging threats and countermeasures related to vehicular terrorism, and for other purposes.</title>
+        <updateDate>2025-11-19T03:23:17Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+        <updateDate>2025-08-09T03:38:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+        <updateDate>2025-03-20T09:23:22Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025</title>
+        <updateDate>2025-03-20T09:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To require the Secretary of Homeland Security to produce a report on emerging threats and countermeasures related to vehicular terrorism, and for other purposes.</title>
+        <updateDate>2025-03-20T09:18:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-11-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1608rfs/xml/BILLS-119hr1608rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-11-17T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1608eh/xml/BILLS-119hr1608eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-08-08T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1608rh/xml/BILLS-119hr1608rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-02-26T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1608ih/xml/BILLS-119hr1608ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-11-18</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

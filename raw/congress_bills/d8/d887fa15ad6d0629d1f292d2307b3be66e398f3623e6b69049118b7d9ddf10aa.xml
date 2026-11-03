@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>9770</number>
+    <updateDate>2026-09-08T19:31:27Z</updateDate>
+    <updateDateIncludingText>2026-09-08T19:31:27Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-07-18</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/9770</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 117 (Saturday, July 18, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. COLE:H.R. 9770.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law . . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States .. . .'' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H4631]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsbu00</systemCode>
+        <name>Budget Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-07-18T14:00:10Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-07-18T14:00:05Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the concurrent resolution (H. Con. Res. 113) establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036; providing for consideration of the bill (H.R. 7008) to amend chapter 131 of title 5 to require certain restrictions on stocks for Members of Congress and their spouses and dependents, and for other purposes; providing for consideration of the bill (H.R. 6955) to make improvements to the Federal banking laws, and for other purposes; providing for consideration of the bill (H.R. 9770) making continuing appropriations for fiscal year 2027, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>1438</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-07-21</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:40:00</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-07-22</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>22:14:42</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>22:14:39</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 220 - 205 (Roll no. 272). (text: CR H4731-4733)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>272</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll272.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-07-22T02:14:39Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>22:14:39</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 220 - 205 (Roll no. 272).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>272</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll272.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-07-22T02:14:39Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>22:06:32</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H5019-5020)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>16:27:55</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 9770, the Chair put the question on passage of the bill and by voice vote, announced the ayes had prevailed. Ms. DeLauro demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>16:27:34</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>15:53:57</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 9770.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>15:53:11</actionTime>
+        <text>Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>15:53:06</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1438. (consideration: CR H4731-4736)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-21</actionDate>
+        <actionTime>14:39:59</actionTime>
+        <text>Rule H. Res. 1438 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-20</actionDate>
+        <actionTime>20:33:13</actionTime>
+        <text>Rules Committee Resolution H. Res. 1438 Reported to House. Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-18</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsbu00</systemCode>
+            <name>Budget Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-07-18</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-07-18</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-18</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Abortion</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Access Board</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Accounting and auditing</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative Conference of the U.S.</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Adoption and foster care</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Adult education and literacy</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Afghanistan</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Africa</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>African Development Foundation</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Aging</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural conservation and pollution</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural education</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural equipment and machinery</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural insurance</name>
+          <updateDate>2026-07-24T16:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural marketing and promotion</name>
+          <updateDate>2026-07-24T16:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural practices and innovations</name>
+          <updateDate>2026-07-24T16:00:25Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural prices, subsidies, credit</name>
+          <updateDate>2026-07-24T15:57:28Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural research</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural trade</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Air quality</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Alabama</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska Natives and Hawaiians</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Allergies</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Alliances</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>American Battle Monuments Commission</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>American Samoa</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>Animal and plant health</name>
+          <updateDate>2026-07-24T16:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Animal protection and human-animal relationships</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Appalachian Regional Commission</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-07-24T15:55:46Z</updateDate>
+        </item>
+        <item>
+          <name>Aquatic ecology</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Arab-Israeli relations</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Architect of the Capitol</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Arizona</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Arkansas</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Armed Forces Retirement Home</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Arms control and nonproliferation</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>Army Corps of Engineers</name>
+          <updateDate>2026-07-24T15:59:52Z</updateDate>
+        </item>
+        <item>
+          <name>Art, artists, authorship</name>
+          <updateDate>2026-07-24T15:59:55Z</updateDate>
+        </item>
+        <item>
+          <name>Asia</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Assault and harassment offenses</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Athletes</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Atmospheric science and weather</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Australia</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Azerbaijan</name>
+          <updateDate>2026-07-24T16:00:25Z</updateDate>
+        </item>
+        <item>
+          <name>Bahrain</name>
+          <updateDate>2026-07-24T15:59:17Z</updateDate>
+        </item>
+        <item>
+          <name>Birds</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Birth defects</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Blood and blood diseases</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Broadcasting, cable, digital technologies</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Budget process</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Burma</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Business investment and capital</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Buy American requirements</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Cambodia</name>
+          <updateDate>2026-07-24T16:00:25Z</updateDate>
+        </item>
+        <item>
+          <name>Canada</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Cancer</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Cardiovascular and respiratory health</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Caribbean area</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Cell biology and embryology</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Cemeteries and funerals</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Census and government statistics</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Centers for Disease Control and Prevention (CDC)</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Central African Republic</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Central Intelligence Agency (CIA)</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Chemical and biological weapons</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Child care and development</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Child health</name>
+          <updateDate>2026-07-24T15:56:09Z</updateDate>
+        </item>
+        <item>
+          <name>Child safety and welfare</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>China</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Citizenship and naturalization</name>
+          <updateDate>2026-07-24T15:59:17Z</updateDate>
+        </item>
+        <item>
+          <name>Civics education</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Climate change and greenhouse gases</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Coal</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Coast guard</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Collective security</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Colombia</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Colorado</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Commemorative events and holidays</name>
+          <updateDate>2026-07-24T15:59:55Z</updateDate>
+        </item>
+        <item>
+          <name>Commission of Fine Arts</name>
+          <updateDate>2026-07-24T15:59:55Z</updateDate>
+        </item>
+        <item>
+          <name>Commission on Civil Rights</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Commodities markets</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Credit Corporation</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Futures Trading Commission</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Community Development Financial Institutions Fund</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Community life and organization</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Competition and antitrust</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Competitiveness, trade promotion, trade deficits</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Conflicts and wars</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Congo</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional officers and employees</name>
+          <updateDate>2026-07-24T16:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional-executive branch relations</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Connecticut</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Consumer Product Safety Commission</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Consumer affairs</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Contracts and agency</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Corporation for National and Community Service</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Correctional facilities and imprisonment</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Crime victims</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against children</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against women</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal justice information and records</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal procedure and sentencing</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Cuba</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Cultural exchanges and relations</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Currency</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Customs enforcement</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Dams and canals</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Data collection, sharing, protection</name>
+          <updateDate>2026-07-24T15:59:17Z</updateDate>
+        </item>
+        <item>
+          <name>Defense Nuclear Facilities Safety Board</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Defense spending</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Delaware</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Delta Regional Authority</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Denali Commission</name>
+          <updateDate>2026-07-24T15:59:12Z</updateDate>
+        </item>
+        <item>
+          <name>Dental care</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Agriculture</name>
+          <updateDate>2026-07-24T15:56:44Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Commerce</name>
+          <updateDate>2026-07-24T15:59:52Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Education</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+          <updateDate>2026-07-24T15:59:52Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+          <updateDate>2026-07-24T15:56:48Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Housing and Urban Development</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Justice</name>
+          <updateDate>2026-07-24T15:59:52Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Labor</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Department of State</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Transportation</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Interior</name>
+          <updateDate>2026-07-24T15:59:52Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Treasury</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Digestive and metabolic diseases</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Diplomacy, foreign officials, Americans abroad</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Director of National Intelligence</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>Disability and health-based discrimination</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Disability and paralysis</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Disability assistance</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+          <updateDate>2026-07-24T15:56:40Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2026-07-24T15:58:03Z</updateDate>
+        </item>
+        <item>
+          <name>Domestic violence and child abuse</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Drug Enforcement Administration (DEA)</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Drug safety, medical device, and laboratory regulation</name>
+          <updateDate>2026-07-24T15:59:17Z</updateDate>
+        </item>
+        <item>
+          <name>Drug therapy</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Drug trafficking and controlled substances</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Drug, alcohol, tobacco use</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Education of the disadvantaged</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Educational facilities and institutions</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Educational technology and distance education</name>
+          <updateDate>2026-07-24T16:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Egypt</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>El Salvador</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Election Assistance Commission</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Elections, voting, political campaign regulation</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency communications systems</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Employee benefits and pensions</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Employee hiring</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+          <updateDate>2026-07-24T15:59:05Z</updateDate>
+        </item>
+        <item>
+          <name>Endangered and threatened species</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Energy assistance for the poor and aged</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Energy efficiency and conservation</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Energy storage, supplies, demand</name>
+          <updateDate>2026-07-24T16:00:25Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental Protection Agency (EPA)</name>
+          <updateDate>2026-07-24T15:59:52Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental health</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental regulatory procedures</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+          <updateDate>2026-07-24T16:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Equal Employment Opportunity Commission (EEOC)</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Estonia</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Ethiopia</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Europe</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>Evidence and witnesses</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Executive Office of the President</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2026-07-24T15:55:50Z</updateDate>
+        </item>
+        <item>
+          <name>Export-Import Bank of the United States</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Family planning and birth control</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Family relationships</name>
+          <updateDate>2026-07-24T15:58:13Z</updateDate>
+        </item>
+        <item>
+          <name>Family services</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Farm Credit Administration</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Farmland</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Bureau of Investigation (FBI)</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Communications Commission (FCC)</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Crop Insurance Corporation</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Deposit Insurance Corporation (FDIC)</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Election Commission (FEC)</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Emergency Management Agency (FEMA)</name>
+          <updateDate>2026-07-24T15:56:36Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Energy Regulatory Commission (FERC)</name>
+          <updateDate>2026-07-24T15:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Labor Relations Authority</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Maritime Commission</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Mediation and Conciliation Service</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Mine Safety and Health Review Commission</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Prison Industries, Inc.</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Trade Commission (FTC)</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Federal appellate courts</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Federal district courts</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Federal officials</name>
+          <updateDate>2026-07-24T15:57:45Z</updateDate>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+          <updateDate>2026-07-24T15:59:07Z</updateDate>
+        </item>
+        <item>
+          <name>Firearms and explosives</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Fires</name>
+          <updateDate>2026-07-24T15:56:53Z</updateDate>
+        </item>
+        <item>
+          <name>First Amendment rights</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>First responders and emergency personnel</name>
+          <updateDate>2026-07-24T15:57:07Z</updateDate>
+        </item>
+        <item>
+          <name>Fishes</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2026-07-24T15:57:34Z</updateDate>
+        </item>
+        <item>
+          <name>Florida</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Food and Drug Administration (FDA)</name>
+          <updateDate>2026-07-24T15:59:17Z</updateDate>
+        </item>
+        <item>
+          <name>Food assistance and relief</name>
+          <updateDate>2026-07-24T15:56:05Z</updateDate>
+        </item>
+        <item>
+          <name>Food industry and services</name>
+          <updateDate>2026-07-24T16:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+          <updateDate>2026-07-24T15:59:06Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign and international banking</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign labor</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign language and bilingual programs</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign loans and debt</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Forests, forestry, trees</name>
+          <updateDate>2026-07-24T15:56:58Z</updateDate>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+          <updateDate>2026-07-24T15:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Gaza Strip</name>
+          <updateDate>2026-07-24T15:59:15Z</updateDate>
+        </item>
+        <item>
+          <name>General Services Administration</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Genetics</name>
+          <updateDate>2026-07-24T15:59:10Z</updateDate>
+        </item>
+        <item>
+          <name>Geography and mapping</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia (Republic)</name>
+          <updateDate>2026-07-24T15:59:16Z</updateDate>
+        </item>
+        <item>
+          <name>Government National Mortgage Association (Ginnie Mae)</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-07-24T15:59:53Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-07-24T15:57:51Z</updateDate>
+        </item>
+        <item>
+          <name>Government ethics and transparency, public corruption</name>
+          <updateDate>2026-07-24T15:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-07-24T15:59:14Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2026-07-24T15:59:08Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-07-24T15:59:17Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-07-24T15:59:09Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2026-07-29T15:00:29Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-07-18</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-07-20T14:32:58Z</updateDate>
+        <text><![CDATA[<p><strong>Continuing Appropriations Act, 2027</strong></p><p>This bill provides continuing FY2027 appropriations for federal agencies and extends various expiring programs and authorities.</p><p>Specifically, the bill provides continuing FY2027 appropriations to federal agencies through the earlier of December 4, 2026, or the enactment of the applicable appropriations act. It is known as a continuing resolution (CR) and prevents a government shutdown that would otherwise occur if the FY2027 appropriations bills have not been enacted when FY2027 begins on October 1, 2026.</p><p>The&nbsp;CR funds most programs and activities at the FY2026 levels with several exceptions that provide funding flexibility or additional appropriations for various programs. For example, the bill includes exceptions for</p><ul><li>the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC);</li><li>Small Business Administration loan programs;</li><li>the Federal Emergency Management Agency’s Disaster Relief Fund;</li><li>the Indian Health Service; and</li><li>wildfire suppression activities.</li></ul><p>In addition, the bill extends several expiring programs, authorities, and restrictions, including</p><ul><li>the Department of Agriculture’s livestock mandatory price reporting program,</li><li>the National Flood Insurance Program,</li><li>limits on pay increases for the Vice President and certain senior political appointees,</li><li>the Temporary Assistance for Needy Families (TANF) program,</li><li>the authority to waive certain pay limitations that apply to wildland firefighters and other wildland fire personnel,&nbsp;</li><li>the authority for the District of Columbia to spend local funds, and</li><li>the freeze on cost-of-living adjustments for Members of Congress.&nbsp;</li></ul><p>The bill also provides the customary payments to the beneficiaries of the late Representative David Scott and the late Senator Lindsey Graham.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>53</versionCode>
+        <actionDate>2026-07-21</actionDate>
+        <actionDesc>Passed House</actionDesc>
+        <updateDate>2026-07-29T15:28:57Z</updateDate>
+        <text><![CDATA[<p><strong>Continuing Appropriations Act, 2027</strong></p><p>This bill provides continuing FY2027 appropriations for federal agencies and extends various expiring programs and authorities.</p><p>Specifically, the bill provides continuing FY2027 appropriations to federal agencies through the earlier of December 4, 2026, or the enactment of the applicable appropriations act. It is known as a continuing resolution (CR) and prevents a government shutdown that would otherwise occur if the FY2027 appropriations bills have not been enacted when FY2027 begins on October 1, 2026.</p><p>The&nbsp;CR funds most programs and activities at the FY2026 levels with several exceptions that provide funding flexibility or additional appropriations for various programs. For example, the bill includes exceptions for</p><ul><li>the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC);</li><li>Small Business Administration loan programs;</li><li>the Federal Emergency Management Agency’s Disaster Relief Fund;</li><li>the Indian Health Service; and</li><li>wildfire suppression activities.</li></ul><p>In addition, the bill extends several expiring programs, authorities, and restrictions, including</p><ul><li>the Department of Agriculture’s livestock mandatory price reporting program,</li><li>the National Flood Insurance Program,</li><li>limits on pay increases for the Vice President and certain senior political appointees,</li><li>the Temporary Assistance for Needy Families (TANF) program,</li><li>the authority to waive certain pay limitations that apply to wildland firefighters and other wildland fire personnel,&nbsp;</li><li>the authority for the District of Columbia to spend local funds, and</li><li>the freeze on cost-of-living adjustments for Members of Congress.&nbsp;</li></ul><p>The bill also provides the customary payments to the beneficiaries of the late Representative David Scott and the late Senator Lindsey Graham.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Continuing Appropriations Act, 2027</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Continuing Appropriations Act, 2027</title>
+        <updateDate>2026-08-13T13:08:40Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Continuing Appropriations Act, 2027</title>
+        <updateDate>2026-08-13T13:08:39Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making continuing appropriations for fiscal year 2027, and for other purposes.</title>
+        <updateDate>2026-07-23T03:38:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Continuing Appropriations Act, 2027</title>
+        <updateDate>2026-07-22T19:53:22Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making continuing appropriations for fiscal year 2027, and for other purposes.</title>
+        <updateDate>2026-07-19T13:48:29Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-07-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9770eh/xml/BILLS-119hr9770eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-07-18T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9770ih/xml/BILLS-119hr9770ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-07-22</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

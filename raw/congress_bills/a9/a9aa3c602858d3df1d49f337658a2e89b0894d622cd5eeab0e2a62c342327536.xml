@@ -1,0 +1,3287 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4553</number>
+    <updateDate>2026-07-18T00:00:29Z</updateDate>
+    <updateDateIncludingText>2026-07-18T00:00:29Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-07-21</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/4553</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 124 (Monday, July 21, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. FLEISCHMANN:H.R. 4553.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law. . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States.. . .'' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H3527]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-09-04T14:43:09Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-09-04T14:36:31Z</date>
+          </item>
+          <item>
+            <name>Reported Original Measure</name>
+            <date>2025-07-21T20:18:00Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-213</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 4553) making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the joint resolution (H.J. Res. 104) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment’’; providing for consideration of the joint resolution (H.J. Res. 105) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘North Dakota Field Office Record of Decision and Approved Resource Management Plan’’; providing for consideration of the joint resolution (H.J. Res. 106) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to ‘‘Central Yukon Record of Decision and Approved Resource Management Plan’’; and for other purposes.</title>
+        <congress>119</congress>
+        <number>672</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:06:12</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>3293</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-01</actionDate>
+          <text>Read twice and referred to the Committee on Appropriations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>6938</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-01-23</actionDate>
+          <text>Became Public Law No: 119-74.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 156.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-09-09</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the first time. Placed on Senate Legislative Calendar under Read the First Time.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-09-08</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>11:01:11</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>11:01:10</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 214 - 213 (Roll no. 239).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>239</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll239.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-09-04T15:01:10Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>11:01:10</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 214 - 213 (Roll no. 239).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>239</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll239.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-09-04T15:01:10Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>10:43:09</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 209 - 218 (Roll no. 238).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>238</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll238.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-09-04T14:43:09Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>10:36:42</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>10:36:31</actionTime>
+        <text>Ms. Budzinski moved to recommit to the Committee on Appropriations. (text: CR H3841)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>10:35:43</actionTime>
+        <text>The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.</text>
+        <type>Floor</type>
+        <actionCode>H34400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>10:35:15</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>10:34:06</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 4553.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:45:19</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Schweikert amendment No. 33, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Mr. Schweikert demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:38:17</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Schweikert amendment No. 33.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:37:37</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 32, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Mr. Perry demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:31:09</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 32.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:30:19</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 31, the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had prevailed. Ms. Kaptur demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:20:45</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 31.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:17:06</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-04</actionDate>
+        <actionTime>09:16:50</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H3835)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>22:11:19</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 4553 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>22:11:09</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>22:10:49</actionTime>
+        <text>Mr. Fleischmann moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>21:40:59</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>21:40:46</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H3821)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>18:10:56</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 4553 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>18:10:24</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>18:10:04</actionTime>
+        <text>Mr. Fleischmann moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>18:09:31</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 30, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Ms. Kaptur demanded a recorded vote, and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>18:04:41</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 30.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>18:03:56</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 29, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Ms. Kaptur demanded a recorded vote, and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:59:34</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 29.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:58:36</actionTime>
+        <text>POSTPONED PROCEDDINGS - At the conclusion of debate on the Perry amendment No. 28, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Ms. Kaptur demanded a recorded vote, and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:51:55</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 28.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:51:03</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 27, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Fleischmann demanded a recorded vote, and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:45:12</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 27.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:43:59</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 26, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Ms. Kaptur demanded a recorded vote, and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:34:01</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 26.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:33:25</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 25, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Fleischmann demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:29:00</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 25.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:28:06</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 24, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Fitzpatrick demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:22:44</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 24.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:21:09</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Perry amendment No. 23, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Fitzpatrick demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:14:14</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 23.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:07:30</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the McCormick amendment No. 21.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>17:02:01</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 672, the Committee of the Whole proceeded with 10 minutes of debate on the Griffith amendment No. 8.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>16:45:03</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H.Res. 672, the Committee of the Whole proceeded with 20 minutes of debate on the Fleischmann amendment en bloc.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>16:16:19</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 4553.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>16:15:32</actionTime>
+        <text>The Speaker designated the Honorable Randy Fine to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>16:15:31</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 672 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>16:14:03</actionTime>
+        <text>Rule provides for consideration of H.R. 4553, H.J. Res. 104, H.J. Res. 105 and H.J. Res. 106. The resolution provides for consideration of H.R. 4553 under a structured rule, and H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106 under a closed rule. The resolution provides for one hour of general debate and a motion to recommit on each measure. The resolution further provides that H. Res. 668 and H. Res. 605 are adopted, and H. Res. 598 is laid on the table.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>16:13:58</actionTime>
+        <text>Considered under the provisions of rule H. Res. 672. (consideration: CR H3796-3818; text: CR H3799-3807)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-03</actionDate>
+        <actionTime>09:57:13</actionTime>
+        <text>Rules Committee Resolution H. Res. 672 Reported to House. Rule provides for consideration of H.R. 4553, H.J. Res. 104, H.J. Res. 105 and H.J. Res. 106. The resolution provides for consideration of H.R. 4553 under a structured rule, and H.J. Res. 104, H.J. Res. 105, and H.J. Res. 106 under a closed rule. The resolution provides for one hour of general debate and a motion to recommit on each measure. The resolution further provides that H. Res. 668 and H. Res. 605 are adopted, and H. Res. 598 is laid on the table.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-21</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 173.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00173</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-07-21</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-213, by Mr. Fleischmann.</text>
+        <type>Committee</type>
+        <actionCode>H12100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-21</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-213, by Mr. Fleischmann.</text>
+        <type>Committee</type>
+        <actionCode>1010</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>F000459</bioguideId>
+        <fullName>Rep. Fleischmann, Charles J. "Chuck" [R-TN-3]</fullName>
+        <firstName>Charles</firstName>
+        <lastName>Fleischmann</lastName>
+        <party>R</party>
+        <state>TN</state>
+        <middleName>J. "Chuck"</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2025-08-26T14:18:32Z</updateDate>
+        </item>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2025-08-26T14:27:23Z</updateDate>
+        </item>
+        <item>
+          <name>Alabama</name>
+          <updateDate>2025-08-26T14:44:04Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska</name>
+          <updateDate>2025-08-26T14:45:03Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+          <updateDate>2025-08-26T14:40:39Z</updateDate>
+        </item>
+        <item>
+          <name>Appalachian Regional Commission</name>
+          <updateDate>2025-08-26T14:43:19Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2025-08-26T14:17:47Z</updateDate>
+        </item>
+        <item>
+          <name>Aquatic ecology</name>
+          <updateDate>2025-08-26T14:33:55Z</updateDate>
+        </item>
+        <item>
+          <name>Arizona</name>
+          <updateDate>2025-08-26T14:49:34Z</updateDate>
+        </item>
+        <item>
+          <name>Arkansas</name>
+          <updateDate>2025-08-26T14:45:08Z</updateDate>
+        </item>
+        <item>
+          <name>Arms control and nonproliferation</name>
+          <updateDate>2025-08-26T14:41:02Z</updateDate>
+        </item>
+        <item>
+          <name>Army Corps of Engineers</name>
+          <updateDate>2025-08-26T14:18:05Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2025-08-26T14:40:33Z</updateDate>
+        </item>
+        <item>
+          <name>Coal</name>
+          <updateDate>2025-08-26T14:25:57Z</updateDate>
+        </item>
+        <item>
+          <name>Colorado</name>
+          <updateDate>2025-08-26T14:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2025-08-26T14:25:18Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-08-26T14:36:00Z</updateDate>
+        </item>
+        <item>
+          <name>Dams and canals</name>
+          <updateDate>2025-08-26T14:40:25Z</updateDate>
+        </item>
+        <item>
+          <name>Delta Regional Authority</name>
+          <updateDate>2025-08-26T14:43:34Z</updateDate>
+        </item>
+        <item>
+          <name>Denali Commission</name>
+          <updateDate>2025-08-26T14:43:38Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+          <updateDate>2025-08-26T14:18:20Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Interior</name>
+          <updateDate>2025-08-26T14:18:15Z</updateDate>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+          <updateDate>2025-08-26T14:38:00Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2025-08-26T14:43:25Z</updateDate>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+          <updateDate>2025-08-26T14:25:34Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2025-08-26T14:25:27Z</updateDate>
+        </item>
+        <item>
+          <name>Energy efficiency and conservation</name>
+          <updateDate>2025-08-26T14:25:13Z</updateDate>
+        </item>
+        <item>
+          <name>Energy research</name>
+          <updateDate>2025-08-26T14:27:55Z</updateDate>
+        </item>
+        <item>
+          <name>Energy storage, supplies, demand</name>
+          <updateDate>2025-08-26T14:43:14Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2025-08-26T14:18:10Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Energy Regulatory Commission (FERC)</name>
+          <updateDate>2025-08-26T14:18:24Z</updateDate>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+          <updateDate>2025-08-26T14:25:09Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2025-08-26T14:25:01Z</updateDate>
+        </item>
+        <item>
+          <name>Florida</name>
+          <updateDate>2025-08-26T14:49:54Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia</name>
+          <updateDate>2025-08-26T14:44:09Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2025-08-26T14:40:51Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2025-08-26T14:27:41Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-08-26T14:30:44Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2025-08-26T14:34:07Z</updateDate>
+        </item>
+        <item>
+          <name>Great Lakes</name>
+          <updateDate>2025-08-26T14:43:45Z</updateDate>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+          <updateDate>2025-08-26T14:27:16Z</updateDate>
+        </item>
+        <item>
+          <name>Hybrid, electric, and advanced technology vehicles</name>
+          <updateDate>2025-08-26T14:27:46Z</updateDate>
+        </item>
+        <item>
+          <name>Illinois</name>
+          <updateDate>2025-08-26T14:45:13Z</updateDate>
+        </item>
+        <item>
+          <name>Infrastructure development</name>
+          <updateDate>2025-08-26T14:24:57Z</updateDate>
+        </item>
+        <item>
+          <name>Kentucky</name>
+          <updateDate>2025-08-26T14:44:15Z</updateDate>
+        </item>
+        <item>
+          <name>Lakes and rivers</name>
+          <updateDate>2025-08-26T14:40:02Z</updateDate>
+        </item>
+        <item>
+          <name>Land transfers</name>
+          <updateDate>2025-08-26T14:40:55Z</updateDate>
+        </item>
+        <item>
+          <name>Land use and conservation</name>
+          <updateDate>2025-08-26T14:39:50Z</updateDate>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+          <updateDate>2025-08-26T14:50:04Z</updateDate>
+        </item>
+        <item>
+          <name>Lighting, heating, cooling</name>
+          <updateDate>2025-08-26T14:30:38Z</updateDate>
+        </item>
+        <item>
+          <name>Louisiana</name>
+          <updateDate>2025-08-26T14:49:03Z</updateDate>
+        </item>
+        <item>
+          <name>Maine</name>
+          <updateDate>2025-08-26T14:49:26Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+          <updateDate>2025-08-26T14:39:45Z</updateDate>
+        </item>
+        <item>
+          <name>Marketing and advertising</name>
+          <updateDate>2025-08-26T14:42:09Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2025-08-26T14:44:20Z</updateDate>
+        </item>
+        <item>
+          <name>Mississippi</name>
+          <updateDate>2025-08-26T14:43:57Z</updateDate>
+        </item>
+        <item>
+          <name>Mississippi River</name>
+          <updateDate>2025-08-26T14:24:49Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri</name>
+          <updateDate>2025-08-26T14:49:12Z</updateDate>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+          <updateDate>2025-08-26T14:27:36Z</updateDate>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+          <updateDate>2025-08-26T14:37:54Z</updateDate>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+          <updateDate>2025-08-26T14:34:00Z</updateDate>
+        </item>
+        <item>
+          <name>New Hampshire</name>
+          <updateDate>2025-08-26T14:49:22Z</updateDate>
+        </item>
+        <item>
+          <name>New Mexico</name>
+          <updateDate>2025-08-26T14:49:43Z</updateDate>
+        </item>
+        <item>
+          <name>New York State</name>
+          <updateDate>2025-08-26T14:43:53Z</updateDate>
+        </item>
+        <item>
+          <name>North Carolina</name>
+          <updateDate>2025-08-26T14:44:25Z</updateDate>
+        </item>
+        <item>
+          <name>Nuclear Regulatory Commission (NRC)</name>
+          <updateDate>2025-08-26T14:18:28Z</updateDate>
+        </item>
+        <item>
+          <name>Nuclear Waste Technical Review Board</name>
+          <updateDate>2025-08-26T14:49:59Z</updateDate>
+        </item>
+        <item>
+          <name>Nuclear power</name>
+          <updateDate>2025-08-26T14:25:40Z</updateDate>
+        </item>
+        <item>
+          <name>Ohio</name>
+          <updateDate>2025-08-26T14:44:29Z</updateDate>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+          <updateDate>2025-08-26T14:25:47Z</updateDate>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+          <updateDate>2025-08-26T14:44:34Z</updateDate>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+          <updateDate>2025-08-26T14:40:46Z</updateDate>
+        </item>
+        <item>
+          <name>Radioactive wastes and releases</name>
+          <updateDate>2025-08-26T14:27:11Z</updateDate>
+        </item>
+        <item>
+          <name>Regional and metropolitan planning</name>
+          <updateDate>2025-08-26T14:43:30Z</updateDate>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+          <updateDate>2025-08-26T14:27:51Z</updateDate>
+        </item>
+        <item>
+          <name>Seashores and lakeshores</name>
+          <updateDate>2025-08-26T14:33:50Z</updateDate>
+        </item>
+        <item>
+          <name>South Carolina</name>
+          <updateDate>2025-08-26T14:44:39Z</updateDate>
+        </item>
+        <item>
+          <name>Strategic materials and reserves</name>
+          <updateDate>2025-08-26T14:26:59Z</updateDate>
+        </item>
+        <item>
+          <name>Tennessee</name>
+          <updateDate>2025-08-26T14:44:47Z</updateDate>
+        </item>
+        <item>
+          <name>Texas</name>
+          <updateDate>2025-08-26T14:49:50Z</updateDate>
+        </item>
+        <item>
+          <name>User charges and fees</name>
+          <updateDate>2025-08-26T14:40:29Z</updateDate>
+        </item>
+        <item>
+          <name>Utah</name>
+          <updateDate>2025-08-26T14:25:04Z</updateDate>
+        </item>
+        <item>
+          <name>Vermont</name>
+          <updateDate>2025-08-26T14:49:17Z</updateDate>
+        </item>
+        <item>
+          <name>Virginia</name>
+          <updateDate>2025-08-26T14:44:52Z</updateDate>
+        </item>
+        <item>
+          <name>Water resources funding</name>
+          <updateDate>2025-08-26T14:36:12Z</updateDate>
+        </item>
+        <item>
+          <name>West Virginia</name>
+          <updateDate>2025-08-26T14:44:57Z</updateDate>
+        </item>
+        <item>
+          <name>Wetlands</name>
+          <updateDate>2025-08-26T14:36:07Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2025-08-21T18:31:41Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2025-07-21</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2025-08-22T13:19:51Z</updateDate>
+        <text><![CDATA[<p><strong>Energy and Water Development and Related Agencies Appropriations Act, 2026</strong></p><p>This bill provides FY2026 appropriations for U.S. Army Corps of Engineers civil works projects, the Department of the Interior's Bureau of Reclamation, the Department of Energy (DOE), and several independent agencies.</p><p>The bill provides appropriations for U.S. Army Corps of Engineers civil works projects, including for</p><ul><li>Investigations,</li><li>Construction,</li><li>Mississippi River and Tributaries,</li><li>Operation and Maintenance,</li><li>the Regulatory Program,</li><li>Flood Control and Coastal Emergencies,</li><li>Expenses,</li><li>the Office of the Assistant Secretary of the Army for Civil Works, and</li><li>the Water Infrastructure Finance and Innovation Program.</li></ul><p>The bill provides appropriations to the Department of the Interior for the Central Utah Project and the Bureau of Reclamation.</p><p>The bill provides appropriations to DOE for energy programs, including</p><ul><li>Energy Efficiency and Renewable Energy;</li><li>Cybersecurity, Energy Security, and Emergency Response;</li><li>Electricity;</li><li>Grid Deployment;</li><li>Nuclear Energy;</li><li>Fossil Energy;</li><li>Naval Petroleum and Oil Shale Reserves;</li><li>the Strategic Petroleum Reserve;</li><li>the Northeast Home Heating Oil Reserve;</li><li>the Energy Information Administration;</li><li>Non-Defense Environmental Cleanup;</li><li>the Uranium Enrichment Decontamination and Decommissioning Fund;</li><li>Science;</li><li>Nuclear Waste Disposal;</li><li>the Advanced Research Projects Agency—Energy;</li><li>the Title 17 Innovative Technology Loan Guarantee Program;</li><li>the Advanced Technology Vehicles Manufacturing Loan Program;</li><li>the Tribal Energy Loan Guarantee Program;</li><li>Indian Energy Policy and Programs;</li><li>Departmental Administration; and</li><li>the Office of the Inspector General.</li></ul><p>The bill also provides appropriations to DOE for</p><ul><li>Atomic Energy Defense Activities of the National Nuclear Security Administration,</li><li>Environmental and Other Defense Activities, and</li><li>the Power Marketing Administrations.</li></ul><p>The bill provides appropriations to several independent agencies, including the Federal Energy Regulatory Commission and the Nuclear Regulatory Commission.</p><p>The bill also sets forth requirements and restrictions for using funds provided by this and other appropriations acts.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2026-07-18T00:00:29Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-07-18T00:00:28Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2026-07-11T16:28:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House for portions of this bill</titleType>
+        <titleTypeCode>107</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2026-07-11T16:28:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-07-11T16:28:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>151</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2026-07-11T16:28:20Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2025-09-25T04:43:12Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2025-09-09T04:23:32Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+        <updateDate>2025-07-22T08:23:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>76</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 33 printed in House Report 119-232 to revise appropriations to reduce unobligated funds from top-line accounts totaling $37,353,345,385.09.</description>
+        <purpose>Amendment sought to reduce unobligated funds from top-line accounts totaling $37,353,345,385.09.</purpose>
+        <updateDate>2026-01-16T09:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-04</actionDate>
+          <text>On agreeing to the Schweikert amendment (A014) Failed by recorded vote: 76 - 351 (Roll no. 237).</text>
+          <actionTime>10:33:57</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 237</name>
+              <url>https://www.congress.gov/votes/house/119-1/237</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S001183</bioguideId>
+            <fullName>Rep. Schweikert, David [R-AZ-1]</fullName>
+            <firstName>David</firstName>
+            <lastName>Schweikert</lastName>
+            <party>R</party>
+            <state>AZ</state>
+            <district>1</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:33:57</actionTime>
+              <text>On agreeing to the Schweikert amendment (A014) Failed by recorded vote: 76 - 351 (Roll no. 237).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>237</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:33:57Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll237.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:33:57</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>237</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:33:57Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll237.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>09:37:57</actionTime>
+              <text>Amendment (A014) offered by Mr. Schweikert. (consideration: CR H3835; text: CR H3835)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>09:37:57</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:33:57</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Schweikert amendment (A014) Failed by recorded vote: 76 - 351 (Roll no. 237).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>237</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:33:57Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll237.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:33:57</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>237</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:33:57Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll237.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>75</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 32 printed in House Report 119-232 to strike all funding for the Office of Energy Efficiency and Renewable Energy.</description>
+        <purpose>Amendment sought to strike all funding for the Office of Energy Efficiency and Renewable Energy.</purpose>
+        <updateDate>2025-09-24T17:23:16Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-04</actionDate>
+          <text>On agreeing to the Perry amendment (A013) Failed by recorded vote: 127 - 297 (Roll no. 236).</text>
+          <actionTime>10:28:35</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 236</name>
+              <url>https://www.congress.gov/votes/house/119-1/236</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:28:35</actionTime>
+              <text>On agreeing to the Perry amendment (A013) Failed by recorded vote: 127 - 297 (Roll no. 236).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>236</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:28:35Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll236.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:28:35</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>236</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:28:35Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll236.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>09:30:46</actionTime>
+              <text>Amendment (A013) offered by Mr. Perry. (consideration: CR H3836-3837, H3839-3840; text: CR H3835)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>09:30:46</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:28:35</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A013) Failed by recorded vote: 127 - 297 (Roll no. 236).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>236</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:28:35Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll236.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:28:35</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>236</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:28:35Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll236.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>74</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 31 printed in House Report 119-232 to reduce funding for the Great Lakes Authority and transfer to the SRA.</description>
+        <purpose>Amendment sought to reduce the account for the Great Lakes Authority by $2,063,381 and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-12T09:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-04</actionDate>
+          <text>On agreeing to the Perry amendment (A012) Failed by recorded vote: 120 - 302 (Roll no. 235).</text>
+          <actionTime>10:22:23</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 235</name>
+              <url>https://www.congress.gov/votes/house/119-1/235</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-04T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:22:23</actionTime>
+              <text>On agreeing to the Perry amendment (A012) Failed by recorded vote: 120 - 302 (Roll no. 235).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>235</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:22:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll235.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:22:23</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>235</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:22:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll235.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>09:20:26</actionTime>
+              <text>Amendment (A012) offered by Mr. Perry. (consideration: CR H3835; text: CR H3835)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:22:23</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A012) Failed by recorded vote: 120 - 302 (Roll no. 235).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>235</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:22:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll235.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>10:22:23</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>235</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T14:22:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll235.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-04</actionDate>
+              <actionTime>09:20:26</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>73</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 30 printed House Report 119-232 to reduce funding for the Southeast Crescent Regional Commission and transfer to the Spending Reduction Account.</description>
+        <purpose>Amendment sought to reduce funding for the Southeast Crescent Regional Commission by $16,003,526 and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-12T09:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A011) Failed by recorded vote: 120 - 307 (Roll no. 234).</text>
+          <actionTime>22:10:11</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 234</name>
+              <url>https://www.congress.gov/votes/house/119-1/234</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:10:11</actionTime>
+              <text>On agreeing to the Perry amendment (A011) Failed by recorded vote: 120 - 307 (Roll no. 234).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>234</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:10:11Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll234.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:10:11</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>234</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:10:11Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll234.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>18:04:26</actionTime>
+              <text>Amendment (A011) offered by Mr. Perry. (consideration: CR H3796; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>18:04:26</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:10:11</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A011) Failed by recorded vote: 120 - 307 (Roll no. 234).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>234</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:10:11Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll234.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:10:11</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>234</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:10:11Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll234.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>72</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 29 printed House Report 119-232 to reduce funding for the Southwest Border Regional Commission and transfer to the Spending Reduction Account.</description>
+        <purpose>Amendment sought to reduce funding for the Southwest Border Regional Commission by $2,063,381 and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-12T09:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A010) Failed by recorded vote: 127 - 299 (Roll no. 233).</text>
+          <actionTime>22:06:16</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 233</name>
+              <url>https://www.congress.gov/votes/house/119-1/233</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:06:16</actionTime>
+              <text>On agreeing to the Perry amendment (A010) Failed by recorded vote: 127 - 299 (Roll no. 233).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>233</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:06:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll233.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:06:16</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>233</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:06:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll233.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:58:59</actionTime>
+              <text>Amendment (A010) offered by Mr. Perry. (consideration: CR H3817-3818, H3825; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:58:59</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:06:16</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A010) Failed by recorded vote: 127 - 299 (Roll no. 233).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>233</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:06:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll233.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:06:16</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>233</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:06:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll233.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>71</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 28 printed House Report 119-232 to reduce funding for the Northern Border Regional Commission and transfer to the Spending Reduction Account.</description>
+        <purpose>Amendment sought to reduce the account for the Northern Border Regional Commission by $13,319,727 and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-12T09:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A009) Failed by recorded vote: 124 - 303 (Roll no. 232).</text>
+          <actionTime>22:01:30</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 232</name>
+              <url>https://www.congress.gov/votes/house/119-1/232</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:01:30</actionTime>
+              <text>On agreeing to the Perry amendment (A009) Failed by recorded vote: 124 - 303 (Roll no. 232).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>232</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:01:30Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll232.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:01:30</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>232</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:01:30Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll232.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:51:28</actionTime>
+              <text>Amendment (A009) offered by Mr. Perry. (consideration: CR H3816-3817, H3824-3825; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:51:28</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:01:30</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A009) Failed by recorded vote: 124 - 303 (Roll no. 232).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>232</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:01:30Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll232.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>22:01:30</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>232</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T02:01:30Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll232.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>70</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 27 printed House Report 119-232 to eliminate funding for the Title 17 loan program and transfer to the Spending Reduction Account.</description>
+        <purpose>Amendment sought to reduce the account for the Title 17 loan program by $35 million and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-16T09:09:12Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A008) Failed by recorded vote: 120 - 306 (Roll no. 231).</text>
+          <actionTime>21:58:26</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 231</name>
+              <url>https://www.congress.gov/votes/house/119-1/231</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:58:26</actionTime>
+              <text>On agreeing to the Perry amendment (A008) Failed by recorded vote: 120 - 306 (Roll no. 231).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>231</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:58:26Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll231.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:58:26</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>231</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:58:26Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll231.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:44:25</actionTime>
+              <text>Amendment (A008) offered by Mr. Perry. (consideration: CR H3815-3816, H3823-3824; text: CR H3815)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:58:26</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>231</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:58:26Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll231.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:44:25</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:58:26</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A008) Failed by recorded vote: 120 - 306 (Roll no. 231).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>231</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:58:26Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll231.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>69</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 26 printed in House Report 119-232 to eliminate funding for the Advanced Technology Vehicles Manufacturing Loan Program and transfers to the SRA.</description>
+        <purpose>Amendment sought to reduce funding for the Advanced Technology Vehicles Manufacturing Loan Program by $13 million and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-12T09:09:11Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A007) Failed by recorded vote: 140 - 286 (Roll no. 230).</text>
+          <actionTime>21:55:25</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 230</name>
+              <url>https://www.congress.gov/votes/house/119-1/230</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:55:25</actionTime>
+              <text>On agreeing to the Perry amendment (A007) Failed by recorded vote: 140 - 286 (Roll no. 230).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>230</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:55:25Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll230.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:55:25</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>230</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:55:25Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll230.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:34:00</actionTime>
+              <text>Amendment (A007) offered by Mr. Perry. (consideration: CR H3814-3815, H3823; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:34:00</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:55:25</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A007) Failed by recorded vote: 140 - 286 (Roll no. 230).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>230</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:55:25Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll230.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:55:25</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>230</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:55:25Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll230.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>68</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 25 printed in House Report 119-232 to eliminate funding for ARPA-E and transfers funds to the SRA.</description>
+        <purpose>Amendment sought to reduce funding for Advanced Research Projects Agency-Energy by $350 million and apply the savings to the Spending Reduction Account by a similar amount.</purpose>
+        <updateDate>2026-01-16T09:09:14Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A006) Failed by recorded vote: 77 - 347 (Roll no. 229).</text>
+          <actionTime>21:52:23</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 229</name>
+              <url>https://www.congress.gov/votes/house/119-1/229</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:52:23</actionTime>
+              <text>On agreeing to the Perry amendment (A006) Failed by recorded vote: 77 - 347 (Roll no. 229).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>229</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:52:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll229.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:52:23</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>229</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:52:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll229.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:28:57</actionTime>
+              <text>Amendment (A006) offered by Mr. Perry. (consideration: CR H3813-3814, H3822-3823; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:28:57</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:52:23</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A006) Failed by recorded vote: 77 - 347 (Roll no. 229).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>229</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:52:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll229.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:52:23</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>229</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:52:23Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll229.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>67</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 24 printed in House Report 119-232 to prohibit funding for the Delaware River Basin Commission.</description>
+        <updateDate>2025-09-24T17:26:45Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A005) Failed by recorded vote: 143 - 285 (Roll no. 228).</text>
+          <actionTime>21:49:18</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 228</name>
+              <url>https://www.congress.gov/votes/house/119-1/228</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:49:18</actionTime>
+              <text>On agreeing to the Perry amendment (A005) Failed by recorded vote: 143 - 285 (Roll no. 228).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>228</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:49:18Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll228.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:49:18</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>228</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:49:18Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll228.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:22:40</actionTime>
+              <text>Amendment (A005) offered by Mr. Perry. (consideration: CR H3812-3813, H3821-3822; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:22:40</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:49:18</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A005) Failed by recorded vote: 143 - 285 (Roll no. 228).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>228</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:49:18Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll228.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:49:18</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>228</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:49:18Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll228.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>66</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 23 printed in House Report 119-232 to prohibit the use of funds for the Delaware River Basin "Commission to implement or enforce the final rule entitled, Comprehensive Plan and Special Regulations With Respect to High Volume Hydraulic Fracturing; Rules of Practice and Procedure Regarding Project Review Classifications and Fees.".</description>
+        <updateDate>2025-09-24T17:28:46Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Perry amendment (A004) Failed by recorded vote: 195 - 235 (Roll no. 227).</text>
+          <actionTime>21:45:56</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 227</name>
+              <url>https://www.congress.gov/votes/house/119-1/227</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:45:56</actionTime>
+              <text>On agreeing to the Perry amendment (A004) Failed by recorded vote: 195 - 235 (Roll no. 227).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>227</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:45:56Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll227.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:45:56</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>227</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:45:56Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll227.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:13:54</actionTime>
+              <text>Amendment (A004) offered by Mr. Perry. (consideration: CR H3796; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:13:54</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:45:56</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Perry amendment (A004) Failed by recorded vote: 195 - 235 (Roll no. 227).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>227</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:45:56Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll227.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>21:45:56</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>227</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-09-04T01:45:56Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll227.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>65</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 21 printed in House Report 119-232 to prohibit funds made available by this Act from being used to close campgrounds operated by the Army Corps of Engineers that are located at Lake Sidney Lanier, Georgia.</description>
+        <updateDate>2025-09-24T17:29:16Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the McCormick amendment (A003) Agreed to by voice vote.</text>
+          <actionTime>17:13:40</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>M001218</bioguideId>
+            <fullName>Rep. McCormick, Richard [R-GA-7]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>McCormick</lastName>
+            <party>R</party>
+            <state>GA</state>
+            <district>7</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:13:40</actionTime>
+              <text>On agreeing to the McCormick amendment (A003) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:07:05</actionTime>
+              <text>Amendment (A003) offered by Mr. McCormick. (consideration: CR H3811; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:07:05</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:13:40</actionTime>
+              <text>House amendment agreed to: On agreeing to the McCormick amendment (A003) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>64</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 8 printed in House Report 119-232 to increase funding for the Department of Energy's Fossil Energy and Carbon Management program by $6,875,000 while reducing funding for Departmental Administration by $6,875,000.</description>
+        <updateDate>2025-09-24T17:29:47Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Griffith amendment (A002) Agreed to by voice vote.</text>
+          <actionTime>17:06:47</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>G000568</bioguideId>
+            <fullName>Rep. Griffith, H. Morgan [R-VA-9]</fullName>
+            <firstName>H.</firstName>
+            <lastName>Griffith</lastName>
+            <party>R</party>
+            <state>VA</state>
+            <middleName>Morgan</middleName>
+            <district>9</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:06:47</actionTime>
+              <text>On agreeing to the Griffith amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:01:43</actionTime>
+              <text>Amendment (A002) offered by Mr. Griffith. (consideration: CR H3810-3811; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:01:43</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:06:47</actionTime>
+              <text>House amendment agreed to: On agreeing to the Griffith amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>63</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment comprised of the following amendments printed in House Report 119-232 as en bloc: Nos. 1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 34, 35, and 36.</description>
+        <updateDate>2025-09-24T17:30:07Z</updateDate>
+        <latestAction>
+          <actionDate>2025-09-03</actionDate>
+          <text>On agreeing to the Fleischmann amendments (A001) Agreed to by voice vote.</text>
+          <actionTime>17:01:16</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>F000459</bioguideId>
+            <fullName>Rep. Fleischmann, Charles J. "Chuck" [R-TN-3]</fullName>
+            <firstName>Charles</firstName>
+            <lastName>Fleischmann</lastName>
+            <party>R</party>
+            <state>TN</state>
+            <middleName>J. "Chuck"</middleName>
+            <district>3</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-09-03T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:01:16</actionTime>
+              <text>On agreeing to the Fleischmann amendments (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>16:44:25</actionTime>
+              <text>Amendments en bloc (A001) offered by Mr. Fleischmann. (consideration: CR H3808-3810; text: CR H3796)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>16:44:25</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-09-03</actionDate>
+              <actionTime>17:01:16</actionTime>
+              <text>House amendment agreed to: On agreeing to the Fleischmann amendments (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>4353</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-03-05T19:15:31Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>B001319</bioguideId>
+            <fullName>Sen. Britt, Katie Boyd [R-AL]</fullName>
+            <firstName>Katie</firstName>
+            <lastName>Britt</lastName>
+            <party>R</party>
+            <state>AL</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-03-05T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-03-05</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-05</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4301</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-02-13T12:08:22Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>B001319</bioguideId>
+            <fullName>Sen. Britt, Katie Boyd [R-AL]</fullName>
+            <firstName>Katie</firstName>
+            <lastName>Britt</lastName>
+            <party>R</party>
+            <state>AL</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-02-12T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4553</number>
+          <title>Energy and Water Development and Related Agencies Appropriations Act, 2026</title>
+          <updateDateIncludingText>2026-07-18</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2025-09-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4553pcs/xml/BILLS-119hr4553pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-09-04T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4553eh/xml/BILLS-119hr4553eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-07-21T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4553rh/xml/BILLS-119hr4553rh.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-09-10</actionDate>
+      <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 156.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>3898</number>
+    <updateDate>2026-09-08T18:12:22Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:12:22Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-06-11</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/3898</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 100 (Wednesday, June 11, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. COLLINS:H.R. 3898.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 grants the legislative power toCongress, and jursidiction over waters of the United States.[Page H2655]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>ssev00</systemCode>
+        <name>Environment and Public Works Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-12-15T21:03:20Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Referred to</name>
+                <date>2025-06-13T15:17:20Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-11T19:49:40Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-11T19:43:11Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-07-02T13:25:16Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-06-25T20:16:49Z</date>
+          </item>
+          <item>
+            <name>Discharged from</name>
+            <date>2025-06-25T20:16:40Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-06-11T14:04:35Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-180</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 3898) to amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes; providing for consideration of the bill (H.R. 3383) to amend the Investment Company Act of 1940 with respect to the authority of closed-end companies to invest in private funds; providing for consideration of the bill (H.R. 3638) to direct the Secretary of Energy to prepare periodic assessments and submit reports on the supply chain for the generation and transmission of electricity, and for other purposes; providing for consideration of the bill (H.R. 3628) to amend the Public Utility Regulatory Policies Act of 1978 to add a standard related to State consideration of reliable generation, and for other purposes; providing for consideration of the bill (H.R. 3668) to promote interagency coordination for reviewing certain authorizations under section 3 of the Natural Gas Act, and for other purposes; providing for consideration of the bill (S. 1071) to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>936</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>15:25:13</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To encourage States to participate with the Federal Permitting Improvement Steering Council's online dashboard for certain covered projects.</title>
+        <congress>119</congress>
+        <number>4135</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-25</actionDate>
+          <text>Referred to the House Committee on Natural Resources.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssev00</systemCode>
+            <name>Environment and Public Works Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:55:44</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:55:42</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 221 - 205 (Roll no. 330).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>330</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll330.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-11T19:55:42Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:55:42</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 221 - 205 (Roll no. 330).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>330</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll330.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-11T19:55:42Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:49:40</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 210 - 216 (Roll no. 329).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>329</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll329.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-11T19:49:40Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:43:22</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:43:11</actionTime>
+        <text>Ms. McDonald Rivet moved to recommit to the Committee on Transportation and Infrastructure. (text: CR H5793)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:42:35</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H5793-5794)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>14:42:33</actionTime>
+        <text>Pursuant to clause 1(c) of rule XIX, the House resumed consideration on HR 3898.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>13:20:02</actionTime>
+        <text>POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced further proceedings on H.R. 3898 would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>13:19:30</actionTime>
+        <text>The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.</text>
+        <type>Floor</type>
+        <actionCode>H34400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>13:19:16</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>13:18:43</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 3898.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>13:13:51</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Peters amendment No. 8.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>13:05:28</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Nunn (IA) amendment No. 7.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>12:55:53</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Crawford amendment No. 6.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>12:49:50</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Biggs (AZ) amendment No. 4.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>12:43:14</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Biggs (AZ) amendment No. 3.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>12:31:33</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Babin amendment No. 2.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>12:22:37</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 936, the Committee of the Whole proceeded with 10 minutes of debate on the Bean (FL) amendment No. 1.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>11:25:05</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 3898.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>11:24:39</actionTime>
+        <text>The Speaker designated the Honorable Addison P. McDowell to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>11:24:38</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 936 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>11:24:16</actionTime>
+        <text>Rule provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, H.R. 3668 and S. 1071. The resolution provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, and H.R. 3628 under a structured rule; and H.R. 3668 and S. 1071 under a closed rule. The resolution provides for one motion to recommit on H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, and H.R. 3668; and one motion to commit on S. 1071.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <actionTime>11:24:11</actionTime>
+        <text>Considered under the provisions of rule H. Res. 936. (consideration: CR H5768-5787; text of amendment in the nature of a substitute: CR H5775-5779)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-09</actionDate>
+        <actionTime>19:52:18</actionTime>
+        <text>Rules Committee Resolution H. Res. 936 Reported to House. Rule provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, H.R. 3668 and S. 1071. The resolution provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, and H.R. 3628 under a structured rule; and H.R. 3668 and S. 1071 under a closed rule. The resolution provides for one motion to recommit on H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, and H.R. 3668; and one motion to commit on S. 1071.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-02</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 145.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00145</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-07-02</actionDate>
+        <text>Reported (Amended) by the Committee on Transportation and Infrastructure. H. Rept. 119-180.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-02</actionDate>
+        <text>Reported (Amended) by the Committee on Transportation and Infrastructure. H. Rept. 119-180.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 34 - 30.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Water Resources and Environment Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-13</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-06-11</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-06-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-06-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001129</bioguideId>
+        <fullName>Rep. Collins, Mike [R-GA-10]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>10</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000546</bioguideId>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <firstName>Sam</firstName>
+        <lastName>Graves</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>6</district>
+        <sponsorshipDate>2025-06-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000578</bioguideId>
+        <fullName>Rep. LaMalfa, Doug [R-CA-1]</fullName>
+        <firstName>Doug</firstName>
+        <lastName>LaMalfa</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>1</district>
+        <sponsorshipDate>2025-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000603</bioguideId>
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <firstName>David</firstName>
+        <lastName>Rouzer</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>7</district>
+        <sponsorshipDate>2025-06-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001100</bioguideId>
+        <fullName>Rep. Hurd, Jeff [R-CO-3]</fullName>
+        <firstName>Jeff</firstName>
+        <lastName>Hurd</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>3</district>
+        <sponsorshipDate>2025-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000086</bioguideId>
+        <fullName>Rep. Owens, Burgess [R-UT-4]</fullName>
+        <firstName>Burgess</firstName>
+        <lastName>Owens</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>4</district>
+        <sponsorshipDate>2025-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001212</bioguideId>
+        <fullName>Rep. Stauber, Pete [R-MN-8]</fullName>
+        <firstName>Pete</firstName>
+        <lastName>Stauber</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>8</district>
+        <sponsorshipDate>2025-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001087</bioguideId>
+        <fullName>Rep. Crawford, Eric A. "Rick" [R-AR-1]</fullName>
+        <firstName>Eric</firstName>
+        <lastName>Crawford</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <middleName>A. "Rick"</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-06-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000490</bioguideId>
+        <fullName>Rep. Taylor, David J. [R-OH-2]</fullName>
+        <firstName>David</firstName>
+        <lastName>Taylor</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-06-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Farmland</name>
+          <updateDate>2025-07-02T12:59:27Z</updateDate>
+        </item>
+        <item>
+          <name>Marine pollution</name>
+          <updateDate>2025-07-02T12:58:50Z</updateDate>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+          <updateDate>2025-07-02T12:59:04Z</updateDate>
+        </item>
+        <item>
+          <name>Seashores and lakeshores</name>
+          <updateDate>2025-07-02T12:59:11Z</updateDate>
+        </item>
+        <item>
+          <name>Solid waste and recycling</name>
+          <updateDate>2025-07-02T12:59:18Z</updateDate>
+        </item>
+        <item>
+          <name>Water quality</name>
+          <updateDate>2025-07-02T12:58:57Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+        <updateDate>2025-07-01T13:02:00Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-06-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-07-08T17:06:07Z</updateDate>
+        <text><![CDATA[<p><strong>Promoting Efficient Review for Modern Infrastructure Today Act or the PERMIT Act</strong></p><p>This bill limits the scope of the Clean Water Act by redefining <em>navigable waters</em> to exclude (1) waste treatment systems, (2) ephemeral features that flow only in direct response to precipitation, (3) prior converted cropland, (4) groundwater, or (5) any other features determined to be excluded by the U.S. Army Corps of Engineers.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>PERMIT Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Promoting Efficient Review for Modern Infrastructure Today Act</title>
+        <updateDate>2025-12-17T04:23:21Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>PERMIT Act</title>
+        <updateDate>2025-12-17T04:23:21Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>PERMIT Act</title>
+        <updateDate>2025-12-13T03:13:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Promoting Efficient Review for Modern Infrastructure Today Act</title>
+        <updateDate>2025-12-13T03:13:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes.</title>
+        <updateDate>2025-12-13T03:13:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>PERMIT Act</title>
+        <updateDate>2025-07-04T02:08:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Promoting Efficient Review for Modern Infrastructure Today Act</title>
+        <updateDate>2025-07-04T02:08:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>PERMIT Act</title>
+        <updateDate>2025-06-17T06:23:18Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Promoting Efficient Review for Modern Infrastructure Today Act</title>
+        <updateDate>2025-06-17T06:23:17Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>PERMIT Act</title>
+        <updateDate>2025-06-17T06:23:17Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes.</title>
+        <updateDate>2025-06-17T06:18:26Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>134</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 8 printed in Part A of House Report 119-399 to authorize the International Boundary and Water Commission (IBWC) to accept funds for activities relating to wastewater treatment and flood control works, and for other purposes.</description>
+        <updateDate>2025-12-12T17:46:35Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Peters amendment (A007) Agreed to by voice vote.</text>
+          <actionTime>13:17:36</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000608</bioguideId>
+            <fullName>Rep. Peters, Scott H. [D-CA-50]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Peters</lastName>
+            <party>D</party>
+            <state>CA</state>
+            <middleName>H.</middleName>
+            <district>50</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:17:36</actionTime>
+              <text>On agreeing to the Peters amendment (A007) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:13:28</actionTime>
+              <text>Amendment (A007) offered by Mr. Peters. (consideration: CR H5786-5787; text: CR H5786)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:13:28</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:17:36</actionTime>
+              <text>House amendment agreed to: On agreeing to the Peters amendment (A007) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>133</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 7 printed in Part A of House Report 119-399 to establish a voluntary pilot program to support State-led water quality improvements in waters impaired for nitrogen or phosphorus under section 303(d).</description>
+        <updateDate>2025-12-12T17:46:04Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Nunn (IA) amendment (A006) Agreed to by voice vote.</text>
+          <actionTime>13:12:50</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>N000193</bioguideId>
+            <fullName>Rep. Nunn, Zachary [R-IA-3]</fullName>
+            <firstName>Zachary</firstName>
+            <lastName>Nunn</lastName>
+            <party>R</party>
+            <state>IA</state>
+            <district>3</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:12:50</actionTime>
+              <text>On agreeing to the Nunn (IA) amendment (A006) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:05:01</actionTime>
+              <text>Amendment (A006) offered by Mr. Nunn (IA). (consideration: CR H5785-5786; text: CR H5785)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:05:01</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:12:50</actionTime>
+              <text>House amendment agreed to: On agreeing to the Nunn (IA) amendment (A006) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>132</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 6 printed in Part A of House Report 119-399 to increase the available supply of mitigation bank credits, driving down the cost curve and lowering home prices both through directly lowering the regulatory cost of building a new home and allowing builders to use lots that the cost of mitigation today prevents them from using.</description>
+        <updateDate>2025-12-12T17:45:33Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Crawford amendment (A005) Agreed to by voice vote.</text>
+          <actionTime>13:04:32</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C001087</bioguideId>
+            <fullName>Rep. Crawford, Eric A. "Rick" [R-AR-1]</fullName>
+            <firstName>Eric</firstName>
+            <lastName>Crawford</lastName>
+            <party>R</party>
+            <state>AR</state>
+            <middleName>A. "Rick"</middleName>
+            <district>1</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:04:32</actionTime>
+              <text>On agreeing to the Crawford amendment (A005) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:55:37</actionTime>
+              <text>Amendment (A005) offered by Mr. Crawford. (consideration: CR H5783-5785; text: CR H5784)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>13:04:32</actionTime>
+              <text>House amendment agreed to: On agreeing to the Crawford amendment (A005) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:55:37</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>131</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 4 printed in Part A of House Report 119-399 to direct the Secretary of the Army, acting through the Chief of Engineers, to identify parcels of federal land suitable for aquifer recharge projects and require the agencies to establish clear, expedited permitting pathways.</description>
+        <updateDate>2025-12-12T17:45:05Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Biggs (AZ) amendment (A004) Agreed to by voice vote.</text>
+          <actionTime>12:53:54</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>B001302</bioguideId>
+            <fullName>Rep. Biggs, Andy [R-AZ-5]</fullName>
+            <firstName>Andy</firstName>
+            <lastName>Biggs</lastName>
+            <party>R</party>
+            <state>AZ</state>
+            <district>5</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:53:54</actionTime>
+              <text>On agreeing to the Biggs (AZ) amendment (A004) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:49:25</actionTime>
+              <text>Amendment (A004) offered by Mr. Biggs (AZ). (consideration: CR H5783; text: CR H5783)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:49:25</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:53:54</actionTime>
+              <text>House amendment agreed to: On agreeing to the Biggs (AZ) amendment (A004) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>130</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 3 printed in Part A of House Report 119-399 to amend the definition of prior converted cropland under the Waters of the United States rule by striking "five years" and inserting "ten years".</description>
+        <updateDate>2025-12-12T17:44:34Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Biggs (AZ) amendment (A003) Agreed to by voice vote.</text>
+          <actionTime>12:49:05</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>B001302</bioguideId>
+            <fullName>Rep. Biggs, Andy [R-AZ-5]</fullName>
+            <firstName>Andy</firstName>
+            <lastName>Biggs</lastName>
+            <party>R</party>
+            <state>AZ</state>
+            <district>5</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:49:05</actionTime>
+              <text>On agreeing to the Biggs (AZ) amendment (A003) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:42:43</actionTime>
+              <text>Amendment (A003) offered by Mr. Biggs (AZ). (consideration: CR H5782-5783; text: CR H5782)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:42:43</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:49:05</actionTime>
+              <text>House amendment agreed to: On agreeing to the Biggs (AZ) amendment (A003) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>129</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 2 printed in Part A of House Report 119-399 to ensure that the judicial review process for Section 401 of the Clean Water Act is efficient and lays out a path for certainty in resolving such actions.</description>
+        <updateDate>2025-12-12T17:44:02Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Babin amendment (A002) Agreed to by voice vote.</text>
+          <actionTime>12:42:08</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>B001291</bioguideId>
+            <fullName>Rep. Babin, Brian [R-TX-36]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Babin</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <district>36</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:42:08</actionTime>
+              <text>On agreeing to the Babin amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:31:19</actionTime>
+              <text>Amendment (A002) offered by Mr. Babin. (consideration: CR H5781-5782; text: CR H5781)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:31:19</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:42:08</actionTime>
+              <text>House amendment agreed to: On agreeing to the Babin amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>128</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 1 printed in Part A of House Report 119-399 to codify the dredge and fill permitting programs administered by the States of Florida, Michigan, and New Jersey and clarify the law so that other states may successfully navigate the process to assume this authority.</description>
+        <updateDate>2025-12-12T17:43:06Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>On agreeing to the Bean (FL) amendment (A001) Agreed to by voice vote.</text>
+          <actionTime>12:30:35</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>B001314</bioguideId>
+            <fullName>Rep. Bean, Aaron [R-FL-4]</fullName>
+            <firstName>Aaron</firstName>
+            <lastName>Bean</lastName>
+            <party>R</party>
+            <state>FL</state>
+            <district>4</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>3898</number>
+          <title>PERMIT Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:30:35</actionTime>
+              <text>On agreeing to the Bean (FL) amendment (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:22:29</actionTime>
+              <text>Amendment (A001) offered by Mr. Bean (FL). (consideration: CR H5779-5781; text: CR H5779)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:22:29</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <actionTime>12:30:35</actionTime>
+              <text>House amendment agreed to: On agreeing to the Bean (FL) amendment (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-12-15T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3898rfs/xml/BILLS-119hr3898rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-12-11T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3898eh/xml/BILLS-119hr3898eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-07-02T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3898rh/xml/BILLS-119hr3898rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-06-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr3898ih/xml/BILLS-119hr3898ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-12-15</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

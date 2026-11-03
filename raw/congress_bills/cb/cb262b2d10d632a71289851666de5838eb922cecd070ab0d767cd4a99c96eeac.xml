@@ -1,0 +1,4805 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1071</number>
+    <updateDate>2026-10-08T15:33:28Z</updateDate>
+    <updateDateIncludingText>2026-10-08T15:33:28Z</updateDateIncludingText>
+    <originChamber>Senate</originChamber>
+    <originChamberCode>S</originChamberCode>
+    <type>S</type>
+    <introducedDate>2025-03-14</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/senate-bill/1071</legislationUrl>
+    <committees>
+      <item>
+        <systemCode>hsas00</systemCode>
+        <name>Armed Services Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-10T22:24:21Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-10T21:37:11Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>ssva00</systemCode>
+        <name>Veterans' Affairs Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Discharged From</name>
+            <date>2025-08-02T01:56:44Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-14T14:48:33Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>A bill to increase competition in Defense contracting, and for other purposes.</title>
+        <congress>119</congress>
+        <number>3541</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-17</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Establishing Cyber Security Educational Programs at Academic Institutions Act</title>
+        <congress>119</congress>
+        <number>6631</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the Committee on Armed Services, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A bill to repeal the Caesar Syria Civilian Protection Act of 2019.</title>
+        <congress>119</congress>
+        <number>2133</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-06-18</actionDate>
+          <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Protecting Animals in Military Training Act</title>
+        <congress>119</congress>
+        <number>6514</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-09</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Total Force Family Education Act</title>
+        <congress>119</congress>
+        <number>5987</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-11-07</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Military Helicopter Training Safety Act of 2025</title>
+        <congress>119</congress>
+        <number>1898</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-03-06</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>National Guard Protective Zone Act</title>
+        <congress>119</congress>
+        <number>3558</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Camden National Battlefield Park Study Act</title>
+        <congress>119</congress>
+        <number>2644</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2026-09-16</actionDate>
+          <text>Committee on Energy and Natural Resources. Hearings held.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>United States International Development Corporation Chief Development Officer Act</title>
+        <congress>119</congress>
+        <number>6910</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-19</actionDate>
+          <text>Referred to the House Committee on Foreign Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To require the Secretary of Defense to establish a pilot program for emerging technologies for moisture control and mitigation in covered housing, to standardize certain mold remediation guidelines, and for other purposes.</title>
+        <congress>119</congress>
+        <number>6759</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-16</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To amend title 10, United States Code, to require the Secretary of Defense to annually review the amount of financial assistance for child care and youth program services providers provided by the Secretary.</title>
+        <congress>119</congress>
+        <number>5400</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-09-16</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>SERVE Act</title>
+        <congress>119</congress>
+        <number>3388</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-08</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>The Center for Strategic Deterrence and Weapons of Mass Destruction Studies Act of 2025</title>
+        <congress>119</congress>
+        <number>6557</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Hudson River Protection Act</title>
+        <congress>119</congress>
+        <number>2959</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-04-17</actionDate>
+          <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Public Lands Military Readiness Act of 2025</title>
+        <congress>119</congress>
+        <number>5131</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A bill to prohibit the participation of males in athletic programs or activities at the military service academies that are designated for women or girls.</title>
+        <congress>119</congress>
+        <number>1988</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-06-09</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Modernizing and Improving the National Terrorism Advisory System Act of 2026</title>
+        <congress>119</congress>
+        <number>7448</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-06-24</actionDate>
+          <text>Ordered to be Reported (Amended) by the Yeas and Nays: 30 - 0.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Cyber Talent Development and Recruitment Act</title>
+        <congress>119</congress>
+        <number>6584</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Atlantic Coast Shipping Safety Act</title>
+        <congress>119</congress>
+        <number>6410</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-02-02</actionDate>
+          <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To establish a Biotechnology Management Office in the Department of Defense and to provide support for the research and development of bioindustrial manufacturing processes, and for other purposes.</title>
+        <congress>119</congress>
+        <number>6664</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Streamlining American Manufacturing Strategy Act</title>
+        <congress>119</congress>
+        <number>2318</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-10-29</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 222.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>BIOSECURE Act of 2025</title>
+        <congress>119</congress>
+        <number>3469</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Emergency Response Authority Act</title>
+        <congress>119</congress>
+        <number>3450</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>SAFER SKIES Act</title>
+        <congress>119</congress>
+        <number>3481</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-15</actionDate>
+          <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>South Pacific Tuna Treaty Act of 2025</title>
+        <congress>119</congress>
+        <number>531</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-05-14</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A bill to require the Director of National Intelligence to develop a strategy on intelligence coordination and sharing relating to critical and emerging technologies.</title>
+        <congress>119</congress>
+        <number>3288</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-01</actionDate>
+          <text>Read twice and referred to the Select Committee on Intelligence.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A bill to require the provision of alternative drinking water to households whose private drinking water is contaminated with perfluorooctanesulfonic acid and perfluorooctanoic acid substances from activities of the Department of Defense.</title>
+        <congress>119</congress>
+        <number>3445</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Enhanced COVID-19 Transparency Act of 2025</title>
+        <congress>119</congress>
+        <number>3291</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-01</actionDate>
+          <text>Read twice and referred to the Select Committee on Intelligence.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>United States Development Finance Corporation Effectiveness Act</title>
+        <congress>119</congress>
+        <number>6562</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Referred to the House Committee on Foreign Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Comprehensive Outbound Investment National Security Act of 2025</title>
+        <congress>119</congress>
+        <number>3555</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-17</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>PROTECT Our Children Reauthorization Act of 2025</title>
+        <congress>119</congress>
+        <number>1274</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-02-12</actionDate>
+          <text>Referred to the House Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Honoring Our Fallen Heroes Act of 2025</title>
+        <congress>119</congress>
+        <number>1269</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-02-12</actionDate>
+          <text>Referred to the House Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Terrorist Watchlist Modification Review Act</title>
+        <congress>119</congress>
+        <number>6563</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Referred to the House Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>PROTECT Our Children Reauthorization Act of 2025</title>
+        <congress>119</congress>
+        <number>539</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-05-20</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 80.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Chief Herbert D. Proffitt Act of 2025</title>
+        <congress>119</congress>
+        <number>911</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-08-01</actionDate>
+          <text>Received in the House.</text>
+          <actionTime>10:02:02</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 3898) to amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes; providing for consideration of the bill (H.R. 3383) to amend the Investment Company Act of 1940 with respect to the authority of closed-end companies to invest in private funds; providing for consideration of the bill (H.R. 3638) to direct the Secretary of Energy to prepare periodic assessments and submit reports on the supply chain for the generation and transmission of electricity, and for other purposes; providing for consideration of the bill (H.R. 3628) to amend the Public Utility Regulatory Policies Act of 1978 to add a standard related to State consideration of reliable generation, and for other purposes; providing for consideration of the bill (H.R. 3668) to promote interagency coordination for reviewing certain authorizations under section 3 of the Natural Gas Act, and for other purposes; providing for consideration of the bill (S. 1071) to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>936</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>15:25:13</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026</title>
+        <congress>119</congress>
+        <number>3838</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-09-30</actionDate>
+          <text>Received in the Senate.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Directing the Secretary of the Senate to make a correction in the enrollment of the bill S. 1071.</title>
+        <congress>119</congress>
+        <number>66</number>
+        <type>HCONRES</type>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>Message on Senate action sent to the House.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To authorize the Secretary of Defense to carry out a program to support the defense biotechnology supply chain, and for other purposes.</title>
+        <congress>119</congress>
+        <number>5186</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-09-08</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>The F–47 Program Total Force Act of 2025</title>
+        <congress>119</congress>
+        <number>6611</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Strategic Ports Reporting Act</title>
+        <congress>119</congress>
+        <number>1701</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-05-22</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Foreign Relations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Mariner Exam Modernization Act</title>
+        <congress>119</congress>
+        <number>3331</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-11</actionDate>
+          <text>Ordered to be Reported (Amended) by the Yeas and Nays: 52 - 12.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To authorize the Department of Justice and the Department of State to provide law enforcement and intelligence technical assistance, training, capacity building, and advisory support to the Government of Ukraine to achieve the exchange of prisoners of war, the release of civilian detainees, and the return of forcibly transferred Ukrainian children, and for other purposes.</title>
+        <congress>119</congress>
+        <number>5962</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-11-07</actionDate>
+          <text>Referred to the House Committee on Foreign Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>BUST FENTANYL Act</title>
+        <congress>119</congress>
+        <number>860</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-04-28</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 54.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Improving Police CARE Act</title>
+        <congress>119</congress>
+        <number>1595</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-08-01</actionDate>
+          <text>Held at the desk.</text>
+          <actionTime>10:02:14</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Taiwan Non-Discrimination Act of 2025</title>
+        <congress>119</congress>
+        <number>910</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-24</actionDate>
+          <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 103.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Taiwan Non-Discrimination Act of 2025</title>
+        <congress>119</congress>
+        <number>1900</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-06-18</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 100.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Sound Insulation Treatment Repair and Replacement Program Act</title>
+        <congress>119</congress>
+        <number>2307</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-07-16</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Sound Insulation Treatment Repair and Replacement Program Act</title>
+        <congress>119</congress>
+        <number>4383</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-07-15</actionDate>
+          <text>Referred to the Subcommittee on Aviation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Strategic Ports Reporting Act</title>
+        <congress>119</congress>
+        <number>777</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-02-27</actionDate>
+          <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To direct the Commandant of the Coast Guard to update the policy of the Coast Guard regarding the use of medication to treat drug overdose, and for other purposes.</title>
+        <congress>119</congress>
+        <number>2351</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-10</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Great Lakes Icebreaker Act of 2025</title>
+        <congress>119</congress>
+        <number>4375</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-07-15</actionDate>
+          <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Mexico Security Assistance Accountability Act</title>
+        <congress>119</congress>
+        <number>1780</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-06-18</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 97.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Partnership for Indo-Pacific Industrial Resilience Authorization Act</title>
+        <congress>119</congress>
+        <number>2453</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-07-24</actionDate>
+          <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>GUARD Act</title>
+        <congress>119</congress>
+        <number>5466</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-09-18</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Coast Guard Authorization Act of 2025</title>
+        <congress>119</congress>
+        <number>4275</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-07-23</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Coast Guard Authorization Act of 2025</title>
+        <congress>119</congress>
+        <number>524</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-03-10</actionDate>
+          <text>Held at the Desk</text>
+          <actionTime>18:41:12</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Improving Police CARE Act</title>
+        <congress>119</congress>
+        <number>5864</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-10-28</actionDate>
+          <text>Referred to the House Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To direct the Secretary of Defense and the Secretary of Veterans Affairs to improve the availability of care for veterans at facilities of the Department of Defense.</title>
+        <congress>119</congress>
+        <number>6595</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Defense Civilian Faculty Copyright Act of 2025</title>
+        <congress>119</congress>
+        <number>6612</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A bill to require the Secretary of Defense to seek to engage appropriate officials of Taiwan in a joint program with Taiwan to enable the fielding of uncrewed systems and counter-uncrewed systems capabilities.</title>
+        <congress>119</congress>
+        <number>3163</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-11-07</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Defense Biotechnology Strategy Act</title>
+        <congress>119</congress>
+        <number>6009</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-11-10</actionDate>
+          <text>Referred to the Committee on Armed Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>National Military Civilian Medical Surge Program Act of 2025</title>
+        <congress>119</congress>
+        <number>6510</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-09</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Improving the Enlisted to Officer Judge Advocate Program Act</title>
+        <congress>119</congress>
+        <number>6627</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Expanding Mental Health Access for Cyber Command Personnel Act</title>
+        <congress>119</congress>
+        <number>6630</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Developing Master Plans for Military Service Academies Act of 2025</title>
+        <congress>119</congress>
+        <number>6629</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Protect Greenbury Point Conservation Area Act</title>
+        <congress>119</congress>
+        <number>6628</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>GUARD Act of 2025</title>
+        <congress>119</congress>
+        <number>3454</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Protect Greenbury Point Conservation Area Act of 2025</title>
+        <congress>119</congress>
+        <number>3463</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A bill to require the Secretary of Defense to submit a strategy to accelerate the response efforts of the Department of Defense with respect to releases of perfluoroalkyl substances or polyfluoroalkyl substances from the activities of the Department.</title>
+        <congress>119</congress>
+        <number>3446</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-12-11</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Public Shipyard Workforce Protection Act of 2025</title>
+        <congress>119</congress>
+        <number>6793</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-17</actionDate>
+          <text>Referred to the Committee on Armed Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.</title>
+        <congress>119</congress>
+        <number>6456</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-04</actionDate>
+          <text>Referred to the House Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To prohibit the participation of males in athletic programs or activities at the military service academies that are designated for women or girls.</title>
+        <congress>119</congress>
+        <number>3917</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-11</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To expand the contested logistics demonstration and prototyping program to include commercial additive manufacturing facilities in contested logistics environments, and for other purposes.</title>
+        <congress>119</congress>
+        <number>5190</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-09-08</actionDate>
+          <text>Referred to the House Committee on Armed Services.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Intelligence Authorization Act for Fiscal Year 2026</title>
+        <congress>119</congress>
+        <number>5167</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-11-28</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 339.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>A resolution condemning Russia's illegal abduction of Ukrainian children.</title>
+        <congress>119</congress>
+        <number>110</number>
+        <type>SRES</type>
+        <latestAction>
+          <actionDate>2025-03-05</actionDate>
+          <text>Referred to the Committee on Foreign Relations. (text: CR S1583-1584)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Honoring Our Fallen Heroes Act of 2025</title>
+        <congress>119</congress>
+        <number>237</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-05-20</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 78.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <text>Became Public Law No: 119-60.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <text>Became Public Law No: 119-60.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate agreed to the House amendment to S. 1071 by Yea-Nay Vote. 77 - 20. Record Vote Number: 648.</text>
+        <type>ResolvingDifferences</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>648</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00648.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-12-17T17:26:14Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <text>Resolving differences -- Senate actions: Senate agreed to the House amendment to S. 1071 by Yea-Nay Vote. 77 - 20. Record Vote Number: 648.</text>
+        <type>NotUsed</type>
+        <actionCode>20500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>648</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00648.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-12-17T17:26:14Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to concur in the House amendment to S. 1071 with an amendment (SA 3961) withdrawn in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate (Message from the House considered).</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate (Message from the House considered). (consideration: CR S8749)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate (Message from the House considered). (consideration: CR S8707-8708)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to refer to Senate Committee on Armed Services the House message to accompany S. 1071 with instructions to report back forthwith with the following amendment (SA 3963) fell when cloture was invoked on the motion to concur in the House amendment to S. 1071 in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture on the motion to concur in the House amendment to S. 1071 invoked in Senate by Yea-Nay Vote. 76 - 20. Record Vote Number: 647. (CR S8707)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>647</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00647.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-12-15T23:20:29Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to refer to Senate Committee on Armed Services the House message to accompany S. 1071 with instructions to report back forthwith with the following amendment (SA 3963) made in Senate. (CR S8656)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to concur in the House amendment to S. 1071 with an amendment (SA 3961) made in Senate. (CR S8656)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the motion to concur in the House amendment to S. 1071 presented in Senate. (CR S8655-8656)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to concur in the House amendment to S. 1071 made in Senate. (CR S8655)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by motion. (consideration: CR S8655-8656)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of the House message to accompany S. 1071 agreed to in Senate by Yea-Nay Vote. 75 - 22. Record Vote Number: 646. (CR S8655)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>646</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00646.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-12-11T19:18:50Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on House action received in Senate and at desk: House amendment to Senate bill.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>17:32:42</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>17:32:40</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 312 - 112 (Roll no. 320). (text of amendment in the nature of a substitute: CR H5136-5510)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>320</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll320.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-10T22:32:40Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>17:32:40</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 312 - 112 (Roll no. 320). (text of amendment in the nature of a substitute: CR H5136-5510)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>320</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll320.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-10T22:32:40Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>17:24:21</actionTime>
+        <text>On motion to commit Failed by the Yeas and Nays: 209 - 216 (Roll no. 319).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>319</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll319.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-10T22:24:21Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>16:50:36</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H5519-5520)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>16:37:45</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on S. 1071, the Chair put the question on motion to commit and by voice vote announced the noes had prevailed. Mr. Norcross demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>16:37:30</actionTime>
+        <text>The previous question on the motion to commit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>16:37:11</actionTime>
+        <text>Mr. Norcross moved to commit to the Committee on Armed Services. (text: CR H5518)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsas00</systemCode>
+            <name>Armed Services Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>16:36:54</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>15:28:24</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on S. 1071.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>15:27:46</actionTime>
+        <text>Rule provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, H.R. 3668 and S. 1071. The resolution provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, and H.R. 3628 under a structured rule; and H.R. 3668 and S. 1071 under a closed rule. The resolution provides for one motion to recommit on H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, and H.R. 3668; and one motion to commit on S. 1071.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>15:27:41</actionTime>
+        <text>Considered under the provisions of rule H. Res. 936. (consideration: CR H5136-5518)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-10</actionDate>
+        <actionTime>15:25:13</actionTime>
+        <text>Rule H. Res. 936 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-09</actionDate>
+        <actionTime>19:52:18</actionTime>
+        <text>Rules Committee Resolution H. Res. 936 Reported to House. Rule provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, H.R. 3668 and S. 1071. The resolution provides for consideration of H.R. 3898, H.R. 3383, H.R. 3638, and H.R. 3628 under a structured rule; and H.R. 3668 and S. 1071 under a closed rule. The resolution provides for one motion to recommit on H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, and H.R. 3668; and one motion to commit on S. 1071.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-08-08</actionDate>
+        <actionTime>11:44:49</actionTime>
+        <text>Held at the desk.</text>
+        <type>Floor</type>
+        <actionCode>H15000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-08-08</actionDate>
+        <actionTime>11:33:33</actionTime>
+        <text>Received in the House.</text>
+        <type>Floor</type>
+        <actionCode>H14000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-08-08</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-08-01</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S5475; text: CR S5475)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-08-01</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-08-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionDate>2025-08-01</actionDate>
+        <text>Senate Committee on Veterans' Affairs discharged by Unanimous Consent.</text>
+        <type>Committee</type>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssva00</systemCode>
+            <name>Veterans' Affairs Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001056</bioguideId>
+        <fullName>Sen. Cornyn, John [R-TX]</fullName>
+        <firstName>John</firstName>
+        <lastName>Cornyn</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>C001098</bioguideId>
+        <fullName>Sen. Cruz, Ted [R-TX]</fullName>
+        <firstName>Ted</firstName>
+        <lastName>Cruz</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <sponsorshipDate>2025-03-14</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-12-09T21:01:00Z</pubDate>
+        <title>Estimated Changes in Direct Spending Under S. 1071, the National Defense Authorization Act for Fiscal Year 2026</title>
+        <url>https://www.cbo.gov/publication/61935</url>
+        <description>Rules Committee Print 119-16, As Posted on the Website of the House Committee on Rules on December 7, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-60</number>
+      </item>
+    </laws>
+    <notes>
+      <item>
+        <text><![CDATA[The Joint Explanatory Statement and text to accompany Public Law 119-60 are found within Armed Services Committee Print No. 3, <a href="https://www.congress.gov/committee-print/119th-congress/house-committee-print/62529?outputFormat=pdf">book 1</a> and <a href="https://www.congress.gov/committee-print/119th-congress/house-committee-print/62660?outputFormat=pdf">book 2</a>]]></text>
+      </item>
+    </notes>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Accounting and auditing</name>
+          <updateDate>2026-07-28T15:53:24Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2026-07-28T15:47:56Z</updateDate>
+        </item>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2026-07-08T16:35:37Z</updateDate>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2026-07-28T17:29:54Z</updateDate>
+        </item>
+        <item>
+          <name>Afghanistan</name>
+          <updateDate>2026-07-28T16:55:06Z</updateDate>
+        </item>
+        <item>
+          <name>Africa</name>
+          <updateDate>2026-07-28T17:51:45Z</updateDate>
+        </item>
+        <item>
+          <name>Air quality</name>
+          <updateDate>2026-07-28T17:46:00Z</updateDate>
+        </item>
+        <item>
+          <name>Alabama</name>
+          <updateDate>2026-07-28T15:42:51Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska</name>
+          <updateDate>2026-07-28T17:14:07Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska Natives and Hawaiians</name>
+          <updateDate>2026-07-28T18:52:19Z</updateDate>
+        </item>
+        <item>
+          <name>Albania</name>
+          <updateDate>2026-07-28T19:06:47Z</updateDate>
+        </item>
+        <item>
+          <name>Alliances</name>
+          <updateDate>2026-07-28T16:57:43Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative treatments</name>
+          <updateDate>2026-07-28T15:50:47Z</updateDate>
+        </item>
+        <item>
+          <name>Animal protection and human-animal relationships</name>
+          <updateDate>2026-07-28T15:40:23Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-07-28T17:39:37Z</updateDate>
+        </item>
+        <item>
+          <name>Arctic and polar regions</name>
+          <updateDate>2026-07-28T17:51:11Z</updateDate>
+        </item>
+        <item>
+          <name>Arizona</name>
+          <updateDate>2026-07-28T16:54:43Z</updateDate>
+        </item>
+        <item>
+          <name>Arkansas</name>
+          <updateDate>2026-07-28T17:28:57Z</updateDate>
+        </item>
+        <item>
+          <name>Armed Forces Retirement Home</name>
+          <updateDate>2026-07-28T17:04:31Z</updateDate>
+        </item>
+        <item>
+          <name>Arms control and nonproliferation</name>
+          <updateDate>2026-07-28T17:31:08Z</updateDate>
+        </item>
+        <item>
+          <name>Asia</name>
+          <updateDate>2026-07-28T15:48:51Z</updateDate>
+        </item>
+        <item>
+          <name>Assault and harassment offenses</name>
+          <updateDate>2026-07-28T17:53:39Z</updateDate>
+        </item>
+        <item>
+          <name>Astronomy</name>
+          <updateDate>2026-07-28T20:01:55Z</updateDate>
+        </item>
+        <item>
+          <name>Atmospheric science and weather</name>
+          <updateDate>2026-07-28T15:39:24Z</updateDate>
+        </item>
+        <item>
+          <name>Australia</name>
+          <updateDate>2026-07-28T16:55:15Z</updateDate>
+        </item>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2026-07-28T15:24:51Z</updateDate>
+        </item>
+        <item>
+          <name>Behavioral sciences</name>
+          <updateDate>2026-07-28T19:59:54Z</updateDate>
+        </item>
+        <item>
+          <name>Biological and life sciences</name>
+          <updateDate>2026-07-28T17:16:17Z</updateDate>
+        </item>
+        <item>
+          <name>Blood and blood diseases</name>
+          <updateDate>2026-07-28T17:43:23Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2026-07-28T16:54:35Z</updateDate>
+        </item>
+        <item>
+          <name>Bosnia and Herzegovina</name>
+          <updateDate>2026-07-28T19:06:58Z</updateDate>
+        </item>
+        <item>
+          <name>Brazil</name>
+          <updateDate>2026-07-28T18:45:32Z</updateDate>
+        </item>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2026-07-28T16:54:21Z</updateDate>
+        </item>
+        <item>
+          <name>Business investment and capital</name>
+          <updateDate>2026-07-28T18:43:35Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2026-07-28T17:40:42Z</updateDate>
+        </item>
+        <item>
+          <name>Canada</name>
+          <updateDate>2026-07-28T17:21:57Z</updateDate>
+        </item>
+        <item>
+          <name>Cancer</name>
+          <updateDate>2026-07-28T15:51:15Z</updateDate>
+        </item>
+        <item>
+          <name>Cardiovascular and respiratory health</name>
+          <updateDate>2026-07-28T18:48:24Z</updateDate>
+        </item>
+        <item>
+          <name>Caribbean area</name>
+          <updateDate>2026-07-28T17:52:14Z</updateDate>
+        </item>
+        <item>
+          <name>Cemeteries and funerals</name>
+          <updateDate>2025-08-07T15:43:03Z</updateDate>
+        </item>
+        <item>
+          <name>Central Intelligence Agency (CIA)</name>
+          <updateDate>2026-07-28T17:53:21Z</updateDate>
+        </item>
+        <item>
+          <name>Chemical and biological weapons</name>
+          <updateDate>2026-07-28T17:03:06Z</updateDate>
+        </item>
+        <item>
+          <name>Child care and development</name>
+          <updateDate>2026-07-28T15:47:24Z</updateDate>
+        </item>
+        <item>
+          <name>Child safety and welfare</name>
+          <updateDate>2026-07-28T15:47:10Z</updateDate>
+        </item>
+        <item>
+          <name>China</name>
+          <updateDate>2026-07-28T15:52:25Z</updateDate>
+        </item>
+        <item>
+          <name>Citizenship and naturalization</name>
+          <updateDate>2026-07-28T18:56:19Z</updateDate>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2026-07-28T17:48:36Z</updateDate>
+        </item>
+        <item>
+          <name>Coast guard</name>
+          <updateDate>2026-07-28T18:48:56Z</updateDate>
+        </item>
+        <item>
+          <name>Collective security</name>
+          <updateDate>2026-07-28T16:57:31Z</updateDate>
+        </item>
+        <item>
+          <name>Colorado</name>
+          <updateDate>2026-07-28T17:49:02Z</updateDate>
+        </item>
+        <item>
+          <name>Commuting</name>
+          <updateDate>2026-07-28T17:49:20Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-07-08T16:35:12Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-07-08T16:35:24Z</updateDate>
+        </item>
+        <item>
+          <name>Conflicts and wars</name>
+          <updateDate>2026-07-28T15:48:30Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional operations and organization</name>
+          <updateDate>2026-07-28T18:50:48Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-07-28T15:40:06Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional tributes</name>
+          <updateDate>2026-07-28T15:48:11Z</updateDate>
+        </item>
+        <item>
+          <name>Connecticut</name>
+          <updateDate>2026-07-28T17:26:35Z</updateDate>
+        </item>
+        <item>
+          <name>Correctional facilities and imprisonment</name>
+          <updateDate>2026-07-28T15:54:15Z</updateDate>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+          <updateDate>2026-07-28T15:43:37Z</updateDate>
+        </item>
+        <item>
+          <name>Crime victims</name>
+          <updateDate>2026-07-28T18:54:01Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against children</name>
+          <updateDate>2026-07-28T15:47:02Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+          <updateDate>2026-07-28T19:03:04Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal justice information and records</name>
+          <updateDate>2026-07-28T19:03:16Z</updateDate>
+        </item>
+        <item>
+          <name>Cuba</name>
+          <updateDate>2026-07-28T15:54:08Z</updateDate>
+        </item>
+        <item>
+          <name>Cultural exchanges and relations</name>
+          <updateDate>2026-07-28T17:52:42Z</updateDate>
+        </item>
+        <item>
+          <name>Data collection, sharing, protection</name>
+          <updateDate>2026-07-08T16:35:02Z</updateDate>
+        </item>
+        <item>
+          <name>Defense spending</name>
+          <updateDate>2026-07-28T15:24:32Z</updateDate>
+        </item>
+        <item>
+          <name>Delaware</name>
+          <updateDate>2026-07-28T17:27:13Z</updateDate>
+        </item>
+        <item>
+          <name>Dental care</name>
+          <updateDate>2026-07-28T15:51:24Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+          <updateDate>2026-07-28T15:37:00Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+          <updateDate>2026-07-28T17:39:49Z</updateDate>
+        </item>
+        <item>
+          <name>Department of State</name>
+          <updateDate>2026-07-28T17:50:13Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Transportation</name>
+          <updateDate>2026-07-28T17:47:13Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2026-07-28T17:30:27Z</updateDate>
+        </item>
+        <item>
+          <name>Diplomacy, foreign officials, Americans abroad</name>
+          <updateDate>2026-07-28T17:18:00Z</updateDate>
+        </item>
+        <item>
+          <name>Director of National Intelligence</name>
+          <updateDate>2026-07-28T17:53:10Z</updateDate>
+        </item>
+        <item>
+          <name>Disability assistance</name>
+          <updateDate>2026-07-28T19:05:09Z</updateDate>
+        </item>
+        <item>
+          <name>Domestic violence and child abuse</name>
+          <updateDate>2026-07-28T15:47:16Z</updateDate>
+        </item>
+        <item>
+          <name>Drug safety, medical device, and laboratory regulation</name>
+          <updateDate>2026-07-28T17:43:33Z</updateDate>
+        </item>
+        <item>
+          <name>Drug trafficking and controlled substances</name>
+          <updateDate>2026-07-28T15:53:38Z</updateDate>
+        </item>
+        <item>
+          <name>Earth sciences</name>
+          <updateDate>2026-07-28T17:49:48Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2026-07-28T17:51:26Z</updateDate>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+          <updateDate>2026-07-28T17:45:46Z</updateDate>
+        </item>
+        <item>
+          <name>Educational technology and distance education</name>
+          <updateDate>2026-07-28T15:44:18Z</updateDate>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+          <updateDate>2026-07-28T15:43:43Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency medical services and trauma care</name>
+          <updateDate>2026-07-28T19:04:45Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2026-07-28T17:21:50Z</updateDate>
+        </item>
+        <item>
+          <name>Employee benefits and pensions</name>
+          <updateDate>2026-07-28T17:20:34Z</updateDate>
+        </item>
+        <item>
+          <name>Employee hiring</name>
+          <updateDate>2026-07-28T15:52:06Z</updateDate>
+        </item>
+        <item>
+          <name>Employee leave</name>
+          <updateDate>2026-07-28T15:49:12Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2026-07-28T15:44:04Z</updateDate>
+        </item>
+        <item>
+          <name>Energy research</name>
+          <updateDate>2026-07-28T17:49:11Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+          <updateDate>2026-07-28T17:45:19Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental health</name>
+          <updateDate>2026-07-28T17:44:00Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+          <updateDate>2026-07-28T17:45:00Z</updateDate>
+        </item>
+        <item>
+          <name>Espionage and treason</name>
+          <updateDate>2026-07-28T17:46:09Z</updateDate>
+        </item>
+        <item>
+          <name>Estonia</name>
+          <updateDate>2026-07-28T17:30:42Z</updateDate>
+        </item>
+        <item>
+          <name>Europe</name>
+          <updateDate>2026-07-28T15:52:39Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2026-07-28T17:50:33Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Bureau of Investigation (FBI)</name>
+          <updateDate>2026-07-28T17:53:52Z</updateDate>
+        </item>
+        <item>
+          <name>Federal officials</name>
+          <updateDate>2026-07-28T15:50:23Z</updateDate>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+          <updateDate>2026-07-28T19:17:12Z</updateDate>
+        </item>
+        <item>
+          <name>Financial literacy</name>
+          <updateDate>2026-07-28T17:19:58Z</updateDate>
+        </item>
+        <item>
+          <name>Firearms and explosives</name>
+          <updateDate>2026-07-28T17:16:09Z</updateDate>
+        </item>
+        <item>
+          <name>Fires</name>
+          <updateDate>2026-07-28T15:38:56Z</updateDate>
+        </item>
+        <item>
+          <name>First responders and emergency personnel</name>
+          <updateDate>2026-07-28T18:58:05Z</updateDate>
+        </item>
+        <item>
+          <name>Fishes</name>
+          <updateDate>2026-07-28T19:09:15Z</updateDate>
+        </item>
+        <item>
+          <name>Florida</name>
+          <updateDate>2026-07-28T17:28:15Z</updateDate>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+          <updateDate>2026-07-28T17:20:43Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+          <updateDate>2026-07-28T16:57:14Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign and international corporations</name>
+          <updateDate>2026-07-28T17:13:38Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign language and bilingual programs</name>
+          <updateDate>2026-07-28T17:52:24Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign property</name>
+          <updateDate>2026-07-28T18:45:14Z</updateDate>
+        </item>
+        <item>
+          <name>Forests, forestry, trees</name>
+          <updateDate>2026-07-28T15:39:03Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia</name>
+          <updateDate>2026-07-28T17:28:06Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-07-28T17:41:54Z</updateDate>
+        </item>
+        <item>
+          <name>Government corporations and government-sponsored enterprises</name>
+          <updateDate>2026-07-28T20:00:10Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-07-28T15:48:58Z</updateDate>
+        </item>
+        <item>
+          <name>Government ethics and transparency, public corruption</name>
+          <updateDate>2026-07-28T15:44:12Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-07-28T15:37:12Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2026-07-28T17:31:25Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-07-28T15:43:23Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-07-28T19:08:45Z</updateDate>
+        </item>
+        <item>
+          <name>Great Lakes</name>
+          <updateDate>2026-07-28T18:52:38Z</updateDate>
+        </item>
+        <item>
+          <name>Guam</name>
+          <updateDate>2026-07-28T15:42:38Z</updateDate>
+        </item>
+        <item>
+          <name>Haiti</name>
+          <updateDate>2026-07-28T17:52:03Z</updateDate>
+        </item>
+        <item>
+          <name>Hawaii</name>
+          <updateDate>2026-07-28T20:04:17Z</updateDate>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+          <updateDate>2026-07-28T15:38:12Z</updateDate>
+        </item>
+        <item>
+          <name>Health care costs and insurance</name>
+          <updateDate>2026-07-28T17:23:43Z</updateDate>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+          <updateDate>2026-07-28T15:50:14Z</updateDate>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+          <updateDate>2026-07-28T17:04:11Z</updateDate>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+          <updateDate>2026-07-28T17:47:53Z</updateDate>
+        </item>
+        <item>
+          <name>Health personnel</name>
+          <updateDate>2026-07-28T15:50:41Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2026-07-28T17:21:42Z</updateDate>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+          <updateDate>2026-07-28T17:20:25Z</updateDate>
+        </item>
+        <item>
+          <name>Health technology, devices, supplies</name>
+          <updateDate>2026-07-28T17:43:42Z</updateDate>
+        </item>
+        <item>
+          <name>Higher education</name>
+          <updateDate>2026-07-28T15:37:38Z</updateDate>
+        </item>
+        <item>
+          <name>Historical and cultural resources</name>
+          <updateDate>2026-07-28T16:54:51Z</updateDate>
+        </item>
+        <item>
+          <name>Homeland security</name>
+          <updateDate>2026-07-28T19:01:33Z</updateDate>
+        </item>
+        <item>
+          <name>Hong Kong</name>
+          <updateDate>2026-07-28T18:44:42Z</updateDate>
+        </item>
+        <item>
+          <name>House of Representatives</name>
+          <updateDate>2026-07-28T15:44:47Z</updateDate>
+        </item>
+        <item>
+          <name>Housing and community development funding</name>
+          <updateDate>2026-07-28T16:56:36Z</updateDate>
+        </item>
+        <item>
+          <name>Human trafficking</name>
+          <updateDate>2026-07-28T17:31:36Z</updateDate>
+        </item>
+        <item>
+          <name>Hybrid, electric, and advanced technology vehicles</name>
+          <updateDate>2026-07-28T15:38:25Z</updateDate>
+        </item>
+        <item>
+          <name>Idaho</name>
+          <updateDate>2026-07-28T17:44:35Z</updateDate>
+        </item>
+        <item>
+          <name>Illinois</name>
+          <updateDate>2026-07-28T17:04:03Z</updateDate>
+        </item>
+        <item>
+          <name>India</name>
+          <updateDate>2026-07-28T17:31:16Z</updateDate>
+        </item>
+        <item>
+          <name>Indian claims</name>
+          <updateDate>2026-07-28T19:17:00Z</updateDate>
+        </item>
+        <item>
+          <name>Indian lands and resources rights</name>
+          <updateDate>2026-07-28T19:17:23Z</updateDate>
+        </item>
+        <item>
+          <name>Indiana</name>
+          <updateDate>2026-07-28T17:29:14Z</updateDate>
+        </item>
+        <item>
+          <name>Industrial facilities</name>
+          <updateDate>2026-07-28T17:42:04Z</updateDate>
+        </item>
+        <item>
+          <name>Infectious and parasitic diseases</name>
+          <updateDate>2026-07-28T15:50:55Z</updateDate>
+        </item>
+        <item>
+          <name>Infrastructure development</name>
+          <updateDate>2026-07-28T15:39:54Z</updateDate>
+        </item>
+        <item>
+          <name>Insects</name>
+          <updateDate>2026-07-28T19:13:37Z</updateDate>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+          <updateDate>2026-07-08T16:52:14Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2026-07-28T17:17:04Z</updateDate>
+        </item>
+        <item>
+          <name>International organizations and cooperation</name>
+          <updateDate>2026-07-28T16:55:37Z</updateDate>
+        </item>
+        <item>
+          <name>International scientific cooperation</name>
+          <updateDate>2026-07-28T17:43:15Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2026-07-28T17:16:26Z</updateDate>
+        </item>
+        <item>
+          <name>Iowa</name>
+          <updateDate>2026-07-28T20:03:44Z</updateDate>
+        </item>
+        <item>
+          <name>Iran</name>
+          <updateDate>2026-07-28T16:56:50Z</updateDate>
+        </item>
+        <item>
+          <name>Iraq</name>
+          <updateDate>2026-07-28T16:57:07Z</updateDate>
+        </item>
+        <item>
+          <name>Israel</name>
+          <updateDate>2026-07-28T15:52:56Z</updateDate>
+        </item>
+        <item>
+          <name>Japan</name>
+          <updateDate>2026-07-28T17:18:08Z</updateDate>
+        </item>
+        <item>
+          <name>Jordan</name>
+          <updateDate>2026-07-28T16:56:22Z</updateDate>
+        </item>
+        <item>
+          <name>Judges</name>
+          <updateDate>2026-07-28T18:50:14Z</updateDate>
+        </item>
+        <item>
+          <name>Kentucky</name>
+          <updateDate>2026-07-28T17:28:39Z</updateDate>
+        </item>
+        <item>
+          <name>Kosovo</name>
+          <updateDate>2026-07-28T19:06:24Z</updateDate>
+        </item>
+        <item>
+          <name>Labor market</name>
+          <updateDate>2026-07-28T17:54:16Z</updateDate>
+        </item>
+        <item>
+          <name>Labor-management relations</name>
+          <updateDate>2026-07-28T17:47:40Z</updateDate>
+        </item>
+        <item>
+          <name>Latin America</name>
+          <updateDate>2026-07-28T17:24:07Z</updateDate>
+        </item>
+        <item>
+          <name>Latvia</name>
+          <updateDate>2026-07-28T17:30:51Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement administration and funding</name>
+          <updateDate>2026-07-28T15:54:03Z</updateDate>
+        </item>
+        <item>
+          <name>Lawyers and legal services</name>
+          <updateDate>2026-07-28T17:18:28Z</updateDate>
+        </item>
+        <item>
+          <name>Lebanon</name>
+          <updateDate>2026-07-28T16:57:23Z</updateDate>
+        </item>
+        <item>
+          <name>Legislative rules and procedure</name>
+          <updateDate>2026-07-28T18:51:11Z</updateDate>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+          <updateDate>2026-07-28T15:50:34Z</updateDate>
+        </item>
+        <item>
+          <name>Lithuania</name>
+          <updateDate>2026-07-28T17:31:00Z</updateDate>
+        </item>
+        <item>
+          <name>Louisiana</name>
+          <updateDate>2026-07-28T17:28:27Z</updateDate>
+        </item>
+        <item>
+          <name>Macau</name>
+          <updateDate>2026-07-28T18:44:53Z</updateDate>
+        </item>
+        <item>
+          <name>Maine</name>
+          <updateDate>2026-07-28T17:25:52Z</updateDate>
+        </item>
+        <item>
+          <name>Manufacturing</name>
+          <updateDate>2026-07-28T15:37:45Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+          <updateDate>2026-07-28T17:51:36Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and inland water transportation</name>
+          <updateDate>2026-07-28T18:49:52Z</updateDate>
+        </item>
+        <item>
+          <name>Marine pollution</name>
+          <updateDate>2026-07-28T18:57:46Z</updateDate>
+        </item>
+        <item>
+          <name>Marshall Islands</name>
+          <updateDate>2026-07-28T15:50:06Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2026-07-28T17:27:25Z</updateDate>
+        </item>
+        <item>
+          <name>Massachusetts</name>
+          <updateDate>2026-07-28T17:26:51Z</updateDate>
+        </item>
+        <item>
+          <name>Medical education</name>
+          <updateDate>2026-07-28T17:23:23Z</updateDate>
+        </item>
+        <item>
+          <name>Medical research</name>
+          <updateDate>2026-07-28T15:51:03Z</updateDate>
+        </item>
+        <item>
+          <name>Members of Congress</name>
+          <updateDate>2026-07-28T15:44:31Z</updateDate>
+        </item>
+        <item>
+          <name>Mental health</name>
+          <updateDate>2026-07-28T15:51:32Z</updateDate>
+        </item>
+        <item>
+          <name>Metals</name>
+          <updateDate>2026-07-28T17:42:58Z</updateDate>
+        </item>
+        <item>
+          <name>Mexico</name>
+          <updateDate>2026-07-28T16:58:24Z</updateDate>
+        </item>
+        <item>
+          <name>Michigan</name>
+          <updateDate>2026-07-28T18:56:41Z</updateDate>
+        </item>
+        <item>
+          <name>Middle East</name>
+          <updateDate>2026-07-28T15:53:05Z</updateDate>
+        </item>
+        <item>
+          <name>Military assistance, sales, and agreements</name>
+          <updateDate>2026-07-28T16:56:43Z</updateDate>
+        </item>
+        <item>
+          <name>Military civil functions</name>
+          <updateDate>2026-07-28T15:51:51Z</updateDate>
+        </item>
+        <item>
+          <name>Military command and structure</name>
+          <updateDate>2026-07-28T17:19:04Z</updateDate>
+        </item>
+        <item>
+          <name>Military education and training</name>
+          <updateDate>2026-07-28T15:44:25Z</updateDate>
+        </item>
+        <item>
+          <name>Military facilities and property</name>
+          <updateDate>2026-07-28T15:50:00Z</updateDate>
+        </item>
+        <item>
+          <name>Military history</name>
+          <updateDate>2026-07-28T15:42:25Z</updateDate>
+        </item>
+        <item>
+          <name>Military law</name>
+          <updateDate>2026-07-28T15:43:16Z</updateDate>
+        </item>
+        <item>
+          <name>Military medicine</name>
+          <updateDate>2026-07-28T15:47:32Z</updateDate>
+        </item>
+        <item>
+          <name>Military operations and strategy</name>
+          <updateDate>2026-07-28T15:24:42Z</updateDate>
+        </item>
+        <item>
+          <name>Military personnel and dependents</name>
+          <updateDate>2026-07-28T15:39:48Z</updateDate>
+        </item>
+        <item>
+          <name>Military procurement, research, weapons development</name>
+          <updateDate>2026-07-28T15:51:45Z</updateDate>
+        </item>
+        <item>
+          <name>Military readiness</name>
+          <updateDate>2026-07-28T15:39:40Z</updateDate>
+        </item>
+        <item>
+          <name>Mining</name>
+          <updateDate>2026-07-28T15:52:51Z</updateDate>
+        </item>
+        <item>
+          <name>Missing persons</name>
+          <updateDate>2026-07-28T16:54:28Z</updateDate>
+        </item>
+        <item>
+          <name>Mississippi</name>
+          <updateDate>2026-07-28T17:29:04Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri</name>
+          <updateDate>2026-07-28T17:40:50Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri River</name>
+          <updateDate>2026-07-28T18:55:29Z</updateDate>
+        </item>
+        <item>
+          <name>Mongolia</name>
+          <updateDate>2026-07-28T17:52:56Z</updateDate>
+        </item>
+        <item>
+          <name>Montenegro</name>
+          <updateDate>2026-07-28T19:07:08Z</updateDate>
+        </item>
+        <item>
+          <name>Monuments and memorials</name>
+          <updateDate>2026-07-28T16:56:15Z</updateDate>
+        </item>
+        <item>
+          <name>Motor carriers</name>
+          <updateDate>2026-07-28T17:29:42Z</updateDate>
+        </item>
+        <item>
+          <name>Motor fuels</name>
+          <updateDate>2026-07-28T19:11:05Z</updateDate>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+          <updateDate>2026-07-28T15:38:19Z</updateDate>
+        </item>
+        <item>
+          <name>Museums, exhibitions, cultural centers</name>
+          <updateDate>2026-07-28T15:40:17Z</updateDate>
+        </item>
+        <item>
+          <name>National Guard and reserves</name>
+          <updateDate>2026-07-28T15:38:49Z</updateDate>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+          <updateDate>2026-07-28T18:49:27Z</updateDate>
+        </item>
+        <item>
+          <name>Neurological disorders</name>
+          <updateDate>2026-07-28T18:53:42Z</updateDate>
+        </item>
+        <item>
+          <name>Nevada</name>
+          <updateDate>2026-07-28T17:13:52Z</updateDate>
+        </item>
+        <item>
+          <name>New Hampshire</name>
+          <updateDate>2026-07-28T17:26:25Z</updateDate>
+        </item>
+        <item>
+          <name>New Jersey</name>
+          <updateDate>2026-07-28T17:27:05Z</updateDate>
+        </item>
+        <item>
+          <name>New Mexico</name>
+          <updateDate>2026-07-28T17:40:34Z</updateDate>
+        </item>
+        <item>
+          <name>New York State</name>
+          <updateDate>2026-07-28T17:26:58Z</updateDate>
+        </item>
+        <item>
+          <name>New Zealand</name>
+          <updateDate>2026-07-28T17:22:34Z</updateDate>
+        </item>
+        <item>
+          <name>Noise pollution</name>
+          <updateDate>2026-07-28T19:17:33Z</updateDate>
+        </item>
+        <item>
+          <name>North America</name>
+          <updateDate>2026-07-28T17:02:49Z</updateDate>
+        </item>
+        <item>
+          <name>North Carolina</name>
+          <updateDate>2026-07-28T17:27:48Z</updateDate>
+        </item>
+        <item>
+          <name>North Korea</name>
+          <updateDate>2026-07-28T15:48:18Z</updateDate>
+        </item>
+        <item>
+          <name>North Macedonia</name>
+          <updateDate>2026-07-28T19:07:20Z</updateDate>
+        </item>
+        <item>
+          <name>Nuclear power</name>
+          <updateDate>2026-07-28T15:39:18Z</updateDate>
+        </item>
+        <item>
+          <name>Nuclear weapons</name>
+          <updateDate>2026-07-28T17:30:34Z</updateDate>
+        </item>
+        <item>
+          <name>Nutrition and diet</name>
+          <updateDate>2026-07-28T16:55:45Z</updateDate>
+        </item>
+        <item>
+          <name>Oceania</name>
+          <updateDate>2026-07-28T16:55:29Z</updateDate>
+        </item>
+        <item>
+          <name>Ohio</name>
+          <updateDate>2026-07-28T20:04:36Z</updateDate>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+          <updateDate>2026-07-28T15:52:45Z</updateDate>
+        </item>
+        <item>
+          <name>Oregon</name>
+          <updateDate>2026-07-28T17:48:16Z</updateDate>
+        </item>
+        <item>
+          <name>Organized crime</name>
+          <updateDate>2026-07-28T15:53:31Z</updateDate>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+          <updateDate>2026-07-28T17:27:33Z</updateDate>
+        </item>
+        <item>
+          <name>Performance measurement</name>
+          <updateDate>2026-07-28T15:52:13Z</updateDate>
+        </item>
+        <item>
+          <name>Pest management</name>
+          <updateDate>2026-07-28T19:15:42Z</updateDate>
+        </item>
+        <item>
+          <name>Philippines</name>
+          <updateDate>2026-07-28T16:58:17Z</updateDate>
+        </item>
+        <item>
+          <name>Photography and imaging</name>
+          <updateDate>2026-07-28T15:45:40Z</updateDate>
+        </item>
+        <item>
+          <name>Pipelines</name>
+          <updateDate>2026-07-28T18:57:06Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Armed Forces and National Security</name>
+        <updateDate>2025-05-12T14:50:04Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-03-14</actionDate>
+        <actionDesc>Introduced in Senate</actionDesc>
+        <updateDate>2025-12-10T13:20:27Z</updateDate>
+        <text><![CDATA[<p>This bill requires the Department of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, after notifying his next of kin. The VA must&nbsp;relinquish the remains to the next of kin or, if no next of kin responds to the notification, arrange for the disposition of the remains. Cota was interred prior to the enactment of regulations that would have barred his interment due to a 1975&nbsp;rape conviction.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>53</versionCode>
+        <actionDate>2025-12-10</actionDate>
+        <actionDesc>Passed House</actionDesc>
+        <updateDate>2026-06-23T15:56:02Z</updateDate>
+        <text><![CDATA[<p><strong>National Defense Authorization Act for Fiscal Year 2026</strong></p><p>This bill sets forth policies and authorities for FY2026 for Department of Defense (DOD) programs and activities, military construction, and the national security programs of the Department of Energy (DOE). The bill also sets forth policies and authorities for the Department of State, the Coast Guard, and the Intelligence Community (IC).</p><p>Among other elements, the bill</p><ul><li>authorizes the procurement of various items, including aircraft, ships, and missiles;</li><li>sets active duty and reserve component personnel strength levels;</li><li>sets policy regarding various aspects of military health care and military compensation;</li><li>sets policy regarding DOD acquisitions and acquisition management, including contracting authorities and domestic sourcing;</li><li>sets policy for various matters related to DOD interactions with foreign nations, including matters concerning Israel, Ukraine, and the Indo-Pacific;</li><li>sets policy for various matters related to DOD cyber operations, cybersecurity, and artificial intelligence;</li><li>authorizes specified military construction projects and extends the authorization of certain projects from previous fiscal years;</li><li>authorizes the National Nuclear Security Administration, Defense Nuclear Facilities Safety Board, Naval Petroleum Reserves, and Maritime Administration;</li><li>sets policy regarding the organization and workforce of the State Department;</li><li>sets acquisition and personnel policy for the Coast Guard;&nbsp;</li><li>sets policy for merchant mariner credentials, vessel safety, and oil pollution response; and</li><li>sets policy for the IC regarding artificial intelligence and biotechnology.</li></ul><p>For additional information on the National Defense Authorization Act (NDAA) see</p><ul><li><a href="https://www.congress.gov/crs-product/IF10516">In Focus IF10516, Defense Primer: Navigating the&nbsp;NDAA</a>, and</li><li><a href="https://www.congress.gov/crs-product/IF10515">In Focus IF10515, Defense Primer: The&nbsp;NDAA Process</a>.</li></ul>]]></text>
+      </summary>
+    </summaries>
+    <title>National Defense Authorization Act for Fiscal Year 2026</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>National Defense Authorization Act for Fiscal Year 2026</title>
+        <updateDate>2026-10-08T15:33:28Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles as Enacted</titleType>
+        <titleTypeCode>19</titleTypeCode>
+        <title>National Defense Authorization Act for Fiscal Year 2026</title>
+        <updateDate>2026-10-08T15:29:57Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Title as Agreed to by House and Senate</titleType>
+        <titleTypeCode>9</titleTypeCode>
+        <title>An Act to authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.</title>
+        <updateDate>2026-10-08T15:29:35Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Atomic Energy Testing Liability Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Western Balkans Democracy and Prosperity Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>BUST Fentanyl Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Break Up Suspicious Transactions of Fentanyl Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Taiwan Non-Discrimination Act of 2025</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>DFC Modernization and Reauthorization Act of 2025</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>SAFER SKIES Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Countering Wrongful Detention Act of 2025</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Coast Guard Authorization Act of 2025</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Intelligence Authorization Act for Fiscal Year 2026</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Lumbee Fairness Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>National Defense Authorization Act for Fiscal Year 2026</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Abducted Ukrainian Children Recovery and Accountability Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>146</titleTypeCode>
+        <title>Holding Foreign Insiders Accountable Act</title>
+        <updateDate>2026-01-22T20:08:24Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House bill text</titleType>
+        <titleTypeCode>252</titleTypeCode>
+        <title>National Defense Authorization Act for Fiscal Year 2026</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Lumbee Fairness Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Abducted Ukrainian Children Recovery and Accountability Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Holding Foreign Insiders Accountable Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Atomic Energy Testing Liability Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Western Balkans Democracy and Prosperity Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>BUST Fentanyl Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Break Up Suspicious Transactions of Fentanyl Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Taiwan Non-Discrimination Act of 2025</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>DFC Modernization and Reauthorization Act of 2025</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>SAFER SKIES Act</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Countering Wrongful Detention Act of 2025</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Coast Guard Authorization Act of 2025</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House for portions of this bill</titleType>
+        <titleTypeCode>253</titleTypeCode>
+        <title>Intelligence Authorization Act for Fiscal Year 2026</title>
+        <updateDate>2025-12-11T10:38:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.</title>
+        <updateDate>2025-04-11T02:18:18Z</updateDate>
+        <billTextVersionName>Introduced in Senate</billTextVersionName>
+        <billTextVersionCode>IS</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>3999</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-16T17:56:12Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>S000033</bioguideId>
+            <fullName>Sen. Sanders, Bernard [I-VT]</fullName>
+            <firstName>Bernie</firstName>
+            <lastName>Sanders</lastName>
+            <party>I</party>
+            <state>VT</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-16T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3983</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T21:06:31Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3982</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T21:06:21Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3981</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T21:06:11Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3980</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T23:51:41Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>M000934</bioguideId>
+            <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+            <firstName>Jerry</firstName>
+            <lastName>Moran</lastName>
+            <party>R</party>
+            <state>KS</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>H001061</bioguideId>
+            <fullName>Sen. Hoeven, John [R-ND]</fullName>
+            <firstName>John</firstName>
+            <lastName>Hoeven</lastName>
+            <party>R</party>
+            <state>ND</state>
+            <type>Submitted on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3978</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T20:36:35Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>P000603</bioguideId>
+            <fullName>Sen. Paul, Rand [R-KY]</fullName>
+            <firstName>Rand</firstName>
+            <lastName>Paul</lastName>
+            <party>R</party>
+            <state>KY</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3977</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T20:36:26Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>L000577</bioguideId>
+            <fullName>Sen. Lee, Mike [R-UT]</fullName>
+            <firstName>Mike</firstName>
+            <lastName>Lee</lastName>
+            <party>R</party>
+            <state>UT</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3976</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T20:36:20Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>L000577</bioguideId>
+            <fullName>Sen. Lee, Mike [R-UT]</fullName>
+            <firstName>Mike</firstName>
+            <lastName>Lee</lastName>
+            <party>R</party>
+            <state>UT</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3975</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-15T20:36:11Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>L000577</bioguideId>
+            <fullName>Sen. Lee, Mike [R-UT]</fullName>
+            <firstName>Mike</firstName>
+            <lastName>Lee</lastName>
+            <party>R</party>
+            <state>UT</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-15T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3970</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-11T20:49:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001098</bioguideId>
+            <fullName>Sen. Cruz, Ted [R-TX]</fullName>
+            <firstName>Ted</firstName>
+            <lastName>Cruz</lastName>
+            <party>R</party>
+            <state>TX</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>8</countIncludingWithdrawnCosponsors>
+          <count>8</count>
+          <item>
+            <bioguideId>C000127</bioguideId>
+            <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+            <firstName>Maria</firstName>
+            <lastName>Cantwell</lastName>
+            <party>D</party>
+            <state>WA</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>M000934</bioguideId>
+            <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+            <firstName>Jerry</firstName>
+            <lastName>Moran</lastName>
+            <party>R</party>
+            <state>KS</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>D000622</bioguideId>
+            <fullName>Sen. Duckworth, Tammy [D-IL]</fullName>
+            <firstName>Tammy</firstName>
+            <lastName>Duckworth</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>M001198</bioguideId>
+            <fullName>Sen. Marshall, Roger [R-KS]</fullName>
+            <firstName>Roger</firstName>
+            <lastName>Marshall</lastName>
+            <party>R</party>
+            <state>KS</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000367</bioguideId>
+            <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+            <firstName>Amy</firstName>
+            <lastName>Klobuchar</lastName>
+            <party>D</party>
+            <state>MN</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001243</bioguideId>
+            <fullName>Sen. Blackburn, Marsha [R-TN]</fullName>
+            <firstName>Marsha</firstName>
+            <lastName>Blackburn</lastName>
+            <party>R</party>
+            <state>TN</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000790</bioguideId>
+            <fullName>Sen. Warnock, Raphael G. [D-GA]</fullName>
+            <firstName>Raphael</firstName>
+            <lastName>Warnock</lastName>
+            <party>D</party>
+            <state>GA</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000805</bioguideId>
+            <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Warner</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>R.</middleName>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3969</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-12-11T17:52:01Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C000127</bioguideId>
+            <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+            <firstName>Maria</firstName>
+            <lastName>Cantwell</lastName>
+            <party>D</party>
+            <state>WA</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>C001098</bioguideId>
+            <fullName>Sen. Cruz, Ted [R-TX]</fullName>
+            <firstName>Ted</firstName>
+            <lastName>Cruz</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <sponsorshipDate>2025-12-11</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3965</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To improve the bill.</purpose>
+        <updateDate>2025-12-16T00:15:07Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-15</actionDate>
+          <text>SA 3965 fell when SA 3964 fell.</text>
+          <links>
+            <link>
+              <name>SA 3964</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3964</url>
+            </link>
+            <link>
+              <name>SA 3965</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3965</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2025-12-11T05:00:00Z</proposedDate>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>3964</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To improve the bill.</purpose>
+          <updateDate>2025-12-12T18:09:27Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>5</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>SA 3965 fell when SA 3964 fell.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 3965 proposed by Senator Thune to Amendment SA 3964. (consideration: CR S8656) To improve the bill.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 3965 proposed by Senator Thune to Amendment SA 3964.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3964</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To improve the bill.</purpose>
+        <updateDate>2025-12-15T23:40:01Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-15</actionDate>
+          <text>SA 3964 fell when SA 3963 (the instructions of the motion to refer) fell.</text>
+          <links>
+            <link>
+              <name>SA 3963</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3963</url>
+            </link>
+            <link>
+              <name>SA 3964</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3964</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2025-12-11T05:00:00Z</proposedDate>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>3963</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To improve the bill.</purpose>
+          <updateDate>2025-12-12T12:08:28Z</updateDate>
+        </amendedAmendment>
+        <amendmentsToAmendment>
+          <count>1</count>
+        </amendmentsToAmendment>
+        <actions>
+          <count>5</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>SA 3964 fell when SA 3963 (the instructions of the motion to refer) fell.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 3964 proposed by Senator Thune to Amendment SA 3963 (the instructions of the motion to refer). (consideration: CR S8656) To improve the bill.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 3964 proposed by Senator Thune to Amendment SA 3963 (the instructions of the motion to refer).</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3963</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To improve the bill.</purpose>
+        <updateDate>2026-03-24T20:55:30Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-15</actionDate>
+          <text>SA 3963 (the instructions of the motion to refer) fell when cloture invoked on the motion to concur in the House amendment to S. 1071 agreed to.</text>
+          <links>
+            <link>
+              <name>S. 1071</name>
+              <url>https://www.congress.gov/bill/119th-congress/senate-bill/1071</url>
+            </link>
+            <link>
+              <name>SA 3963</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3963</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2025-12-11T05:00:00Z</proposedDate>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <amendmentsToAmendment>
+          <count>1</count>
+        </amendmentsToAmendment>
+        <actions>
+          <count>5</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>SA 3963 (the instructions of the motion to refer) fell when cloture invoked on the motion to concur in the House amendment to S. 1071 agreed to.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 3963 proposed by Senator Thune. (consideration: CR S8656) To improve the bill.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 3963 proposed by Senator Thune.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3962</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To improve the bill.</purpose>
+        <updateDate>2025-12-17T16:48:54Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-17</actionDate>
+          <text>SA 3962 fell when SA 3961 withdrawn.</text>
+          <links>
+            <link>
+              <name>SA 3961</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3961</url>
+            </link>
+            <link>
+              <name>SA 3962</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3962</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2025-12-11T05:00:00Z</proposedDate>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>3961</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To improve the bill.</purpose>
+          <updateDate>2025-12-18T12:08:30Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>8</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-17</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>SA 3962 fell when SA 3961 withdrawn.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-17</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Considered by Senate (Message from the House considered).</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Considered by Senate (Message from the House considered). (consideration: CR S8749)</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Considered by Senate (Message from the House considered). (consideration: CR S8708)</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 3962 proposed by Senator Thune to Amendment SA 3961. (consideration: CR S8656) To improve the bill.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 3962 proposed by Senator Thune to Amendment SA 3961.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>3961</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To improve the bill.</purpose>
+        <updateDate>2025-12-17T16:47:59Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-17</actionDate>
+          <text>Proposed amendment SA 3961 withdrawn when motion by Senator Thune to concur in the House amendment to S. 1071 withdrawn in Senate.</text>
+          <links>
+            <link>
+              <name>S. 1071</name>
+              <url>https://www.congress.gov/bill/119th-congress/senate-bill/1071</url>
+            </link>
+            <link>
+              <name>SA 3961</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/3961</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2025-12-11T05:00:00Z</proposedDate>
+        <submittedDate>2025-12-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <amendmentsToAmendment>
+          <count>1</count>
+        </amendmentsToAmendment>
+        <actions>
+          <count>8</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-17</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Proposed amendment SA 3961 withdrawn when motion by Senator Thune to concur in the House amendment to S. 1071 withdrawn in Senate.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-17</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Considered by Senate (Message from the House considered).</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-16</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Considered by Senate (Message from the House considered). (consideration: CR S8749)</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-15</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Considered by Senate (Message from the House considered). (consideration: CR S8707)</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 3961 proposed by Senator Thune. (consideration: CR S8656) To improve the bill.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 3961 proposed by Senator Thune.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>116</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H.Res. 936, the amendment in the nature of a substitute consisting of the text of Rules Committee Print 119-16 is considered adopted.</description>
+        <updateDate>2025-12-11T09:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-10</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-10T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>S</type>
+          <originChamber>Senate</originChamber>
+          <originChamberCode>S</originChamberCode>
+          <number>1071</number>
+          <title>National Defense Authorization Act for Fiscal Year 2026</title>
+          <updateDateIncludingText>2026-10-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-10</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-10</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-10</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-10</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1071enr/uslm/BILLS-119s1071enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1071enr/xml/BILLS-119s1071enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed Amendment House</type>
+        <date>2025-12-10T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1071eah/xml/BILLS-119s1071eah.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in Senate</type>
+        <date>2025-08-01T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1071es/xml/BILLS-119s1071es.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in Senate</type>
+        <date>2025-03-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119s1071is/xml/BILLS-119s1071is.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-12-19T04:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ60/uslm/PLAW-119publ60.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-12-18</actionDate>
+      <text>Became Public Law No: 119-60.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

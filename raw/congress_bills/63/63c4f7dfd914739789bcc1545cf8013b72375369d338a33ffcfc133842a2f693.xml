@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>8469</number>
+    <updateDate>2026-09-19T23:39:37Z</updateDate>
+    <updateDateIncludingText>2026-09-19T23:39:37Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-04-23</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/8469</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 72 (Thursday, April 23, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. CARTER:H.R. 8469.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law . . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States .. . .'' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H3092]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported Original Measure</name>
+            <date>2026-04-23T17:44:51Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-622</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 5625) to direct the Attorney General to make publicly available a list of each State and unit of local government that permits cashless bail, and for other purposes; providing for consideration of the bill (H.R. 6260) to amend title 18, United States Code, to prohibit fraud in connection with posting bail; providing for consideration of the bill (H.R. 8365) to provide for conditions on the appointment of monitors by courts, and for other purposes; providing for consideration of the concurrent resolution (H. Con. Res. 96) expressing support for law enforcement officers; and providing for consideration of the bill (H.R. 8469) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+        <congress>119</congress>
+        <number>1275</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-05-13</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>15:28:48</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-07-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 455.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-07-13</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the first time. Placed on Senate Legislative Calendar under Read the First Time.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-05-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>10:26:38</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>10:26:35</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 400 - 15 (Roll no. 175).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>175</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll175.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-05-15T14:26:35Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>10:26:35</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 400 - 15 (Roll no. 175).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>175</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll175.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-05-15T14:26:35Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>10:10:38</actionTime>
+        <text>The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.</text>
+        <type>Floor</type>
+        <actionCode>H34400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>10:10:29</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>10:09:36</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 8469.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>09:27:33</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Steube amendment No. 50.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>09:26:06</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Steube amendment No. 49.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>09:16:34</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Perry amendment No. 29.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>09:15:18</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-15</actionDate>
+        <actionTime>09:14:14</actionTime>
+        <text>Considered as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>15:32:06</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 8469 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>15:31:23</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>15:30:31</actionTime>
+        <text>Mr. Carter (TX) moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>15:21:47</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Mast amendment No. 23.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>15:17:44</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Correa amendment No. 10.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>15:09:16</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 20 minutes of debate on the Carter (TX) amendment en bloc.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>14:32:41</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 8469.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>14:32:01</actionTime>
+        <text>The Speaker designated the Honorable Randy Fine to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>14:32:00</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 1275 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>14:31:28</actionTime>
+        <text>Rule provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, H. Con. Res. 96 and H.R. 8469. The resolution provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, and H.Con.Res. 96 under a closed rule. The resolution provides for consideration of H.R. 8469 under a structured rule. The resolution makes in order one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-14</actionDate>
+        <actionTime>14:31:23</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1275.</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-13</actionDate>
+        <actionTime>15:28:45</actionTime>
+        <text>Rule H. Res. 1275 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-05-12</actionDate>
+        <actionTime>19:51:11</actionTime>
+        <text>Rules Committee Resolution H. Res. 1275 Reported to House. Rule provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, H. Con. Res. 96 and H.R. 8469. The resolution provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, and H.Con.Res. 96 under a closed rule. The resolution provides for consideration of H.R. 8469 under a structured rule. The resolution makes in order one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-23</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 539.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00539</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-04-23</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-622, by Mr. Carter (TX).</text>
+        <type>Committee</type>
+        <actionCode>H12100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-04-23</actionDate>
+        <text>The House Committee on Appropriations reported an original measure, H. Rept. 119-622, by Mr. Carter (TX).</text>
+        <type>Committee</type>
+        <actionCode>1010</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001051</bioguideId>
+        <fullName>Rep. Carter, John R. [R-TX-31]</fullName>
+        <firstName>John</firstName>
+        <lastName>Carter</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>R.</middleName>
+        <district>31</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative remedies</name>
+          <updateDate>2026-05-22T19:00:50Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska</name>
+          <updateDate>2026-05-22T19:02:52Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska Natives and Hawaiians</name>
+          <updateDate>2026-05-22T19:02:58Z</updateDate>
+        </item>
+        <item>
+          <name>Alliances</name>
+          <updateDate>2026-05-22T18:58:46Z</updateDate>
+        </item>
+        <item>
+          <name>American Battle Monuments Commission</name>
+          <updateDate>2026-05-22T18:58:31Z</updateDate>
+        </item>
+        <item>
+          <name>Animal protection and human-animal relationships</name>
+          <updateDate>2026-05-22T19:03:31Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-05-22T18:56:51Z</updateDate>
+        </item>
+        <item>
+          <name>Armed Forces Retirement Home</name>
+          <updateDate>2026-05-22T18:58:36Z</updateDate>
+        </item>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2026-05-22T19:01:32Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2026-05-22T19:04:07Z</updateDate>
+        </item>
+        <item>
+          <name>Cemeteries and funerals</name>
+          <updateDate>2026-05-22T18:57:29Z</updateDate>
+        </item>
+        <item>
+          <name>Collective security</name>
+          <updateDate>2026-05-22T18:58:41Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-05-22T19:00:56Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-05-22T18:59:32Z</updateDate>
+        </item>
+        <item>
+          <name>Currency</name>
+          <updateDate>2026-05-22T19:04:13Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+          <updateDate>2026-05-22T18:57:01Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+          <updateDate>2026-05-22T18:56:56Z</updateDate>
+        </item>
+        <item>
+          <name>Disability and paralysis</name>
+          <updateDate>2026-05-22T19:02:37Z</updateDate>
+        </item>
+        <item>
+          <name>Disability assistance</name>
+          <updateDate>2026-05-22T19:02:43Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2026-05-22T19:04:31Z</updateDate>
+        </item>
+        <item>
+          <name>Domestic violence and child abuse</name>
+          <updateDate>2026-05-22T19:03:49Z</updateDate>
+        </item>
+        <item>
+          <name>Drug, alcohol, tobacco use</name>
+          <updateDate>2026-05-22T19:03:43Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency communications systems</name>
+          <updateDate>2026-05-22T19:02:08Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2026-05-22T18:59:56Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental health</name>
+          <updateDate>2026-05-22T19:01:50Z</updateDate>
+        </item>
+        <item>
+          <name>Europe</name>
+          <updateDate>2026-05-22T18:58:51Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2026-05-22T18:56:44Z</updateDate>
+        </item>
+        <item>
+          <name>Family planning and birth control</name>
+          <updateDate>2026-05-22T19:02:15Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-05-22T19:01:12Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-05-22T19:03:25Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2026-05-22T18:59:50Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-05-22T19:03:13Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-05-22T19:04:26Z</updateDate>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+          <updateDate>2026-05-22T19:01:44Z</updateDate>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+          <updateDate>2026-05-22T19:00:08Z</updateDate>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+          <updateDate>2026-05-22T19:01:02Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2026-05-22T19:00:15Z</updateDate>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+          <updateDate>2026-05-22T19:03:07Z</updateDate>
+        </item>
+        <item>
+          <name>Health technology, devices, supplies</name>
+          <updateDate>2026-05-22T19:00:40Z</updateDate>
+        </item>
+        <item>
+          <name>Housing and community development funding</name>
+          <updateDate>2026-05-22T18:59:04Z</updateDate>
+        </item>
+        <item>
+          <name>Indian social and development programs</name>
+          <updateDate>2026-05-22T19:00:02Z</updateDate>
+        </item>
+        <item>
+          <name>International organizations and cooperation</name>
+          <updateDate>2026-05-22T18:58:59Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2026-05-22T19:04:47Z</updateDate>
+        </item>
+        <item>
+          <name>Life, casualty, property insurance</name>
+          <updateDate>2026-05-22T18:59:42Z</updateDate>
+        </item>
+        <item>
+          <name>Long-term, rehabilitative, and terminal care</name>
+          <updateDate>2026-05-22T19:01:38Z</updateDate>
+        </item>
+        <item>
+          <name>Medical research</name>
+          <updateDate>2026-05-22T19:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Mental health</name>
+          <updateDate>2026-05-22T19:02:02Z</updateDate>
+        </item>
+        <item>
+          <name>Military facilities and property</name>
+          <updateDate>2026-05-22T18:57:06Z</updateDate>
+        </item>
+        <item>
+          <name>Military personnel and dependents</name>
+          <updateDate>2026-05-22T18:59:27Z</updateDate>
+        </item>
+        <item>
+          <name>Mississippi</name>
+          <updateDate>2026-05-22T19:04:41Z</updateDate>
+        </item>
+        <item>
+          <name>National Guard and reserves</name>
+          <updateDate>2026-05-22T18:59:13Z</updateDate>
+        </item>
+        <item>
+          <name>Neurological disorders</name>
+          <updateDate>2026-05-22T19:03:38Z</updateDate>
+        </item>
+        <item>
+          <name>Research administration and funding</name>
+          <updateDate>2026-05-22T19:03:19Z</updateDate>
+        </item>
+        <item>
+          <name>Sex and reproductive health</name>
+          <updateDate>2026-05-22T19:02:30Z</updateDate>
+        </item>
+        <item>
+          <name>Specialized courts</name>
+          <updateDate>2026-05-22T19:04:18Z</updateDate>
+        </item>
+        <item>
+          <name>Veterans' education, employment, rehabilitation</name>
+          <updateDate>2026-05-22T18:59:37Z</updateDate>
+        </item>
+        <item>
+          <name>Veterans' loans, housing, homeless programs</name>
+          <updateDate>2026-05-22T18:57:23Z</updateDate>
+        </item>
+        <item>
+          <name>Veterans' medical care</name>
+          <updateDate>2026-05-22T18:57:14Z</updateDate>
+        </item>
+        <item>
+          <name>Veterans' pensions and compensation</name>
+          <updateDate>2026-05-22T18:57:34Z</updateDate>
+        </item>
+        <item>
+          <name>Women's health</name>
+          <updateDate>2026-05-22T19:00:30Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2026-04-27T22:56:50Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-04-23</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-04-28T13:28:22Z</updateDate>
+        <text><![CDATA[<p><strong>Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027</strong></p><p>This bill provides FY2027 appropriations for military construction, the Department of Veterans Affairs (VA), and related agencies.</p><p>The bill provides appropriations to the Department of Defense (DOD) for military construction for</p><ul><li>the Army;</li><li>the Navy and Marine Corps;</li><li>the Air Force;</li><li>Defense-wide agencies and activities;</li><li>the Army and Air National Guard; and</li><li>the Army, Navy, and Air Force Reserves.</li></ul><p>The bill also provides appropriations to DOD for</p><ul><li>the North Atlantic Treaty Organization (NATO) Security Investment Program;</li><li>the Base Closure Account;</li><li>Construction and Operation and Maintenance of Family Housing for the Army, the Navy and Marine Corps, the Air Force, and Defense-wide agencies and activities;</li><li>the Family Housing Improvement Fund; and</li><li>the Military Unaccompanied Housing Improvement Fund.</li></ul><p>Within the VA budget, the bill provides appropriations for</p><ul><li>the Veterans Benefits Administration,</li><li>the Veterans Health Administration,</li><li>the National Cemetery Administration,</li><li>Departmental Administration, and</li><li>the Cost of War Toxic Exposures Fund.</li></ul><p>The bill provides appropriations for related agencies and programs, including</p><ul><li>the American Battle Monuments Commission,</li><li>the U.S. Court of Appeals for Veterans Claims,</li><li>Cemeterial Expenses of the Army, and</li><li>the Armed Forces Retirement Home.</li></ul><p>The bill also sets forth requirements and restrictions for using funds provided by this and other appropriations acts.&nbsp;</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+        <updateDate>2026-09-19T23:39:37Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+        <updateDate>2026-09-19T23:22:21Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>151</titleTypeCode>
+        <title>Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027</title>
+        <updateDate>2026-08-13T13:23:41Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027</title>
+        <updateDate>2026-05-27T18:23:35Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+        <updateDate>2026-05-22T02:38:25Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House for portions of this bill</titleType>
+        <titleTypeCode>107</titleTypeCode>
+        <title>Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027</title>
+        <updateDate>2026-04-24T23:42:35Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>219</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 50 printed in Part B of House Report 119-648 to redirect $481,832,000 from the NATO Security Investment Program to Military Construction Defense-Wide.</description>
+        <purpose>Amendment sought to redirect $481,832,000 from the NATO Security Investment Program account to the Military Construction, Defense-Wide account.</purpose>
+        <updateDate>2026-05-20T08:09:20Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-15</actionDate>
+          <text>On agreeing to the Steube amendment (A006) Failed by recorded vote: 80 - 333 (Roll no. 174). (consideration: CR H3538-3540; text: CR H3538)</text>
+          <actionTime>10:09:28</actionTime>
+          <links>
+            <link>
+              <name>H3538</name>
+              <url>https://www.congress.gov/congressional-record/volume-172/house-section/page/H3538</url>
+            </link>
+            <link>
+              <name>H3538-3540</name>
+              <url>https://www.congress.gov/congressional-record/volume-172/house-section/page/H3538-3540</url>
+            </link>
+            <link>
+              <name>Roll no. 174</name>
+              <url>https://www.congress.gov/votes/house/119-2/174</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S001214</bioguideId>
+            <fullName>Rep. Steube, W. Gregory [R-FL-17]</fullName>
+            <firstName>W.</firstName>
+            <lastName>Steube</lastName>
+            <party>R</party>
+            <state>FL</state>
+            <middleName>Gregory</middleName>
+            <district>17</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-05-15T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8469</number>
+          <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>10:09:28</actionTime>
+              <text>On agreeing to the Steube amendment (A006) Failed by recorded vote: 80 - 333 (Roll no. 174). (consideration: CR H3538-3540; text: CR H3538)</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>174</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-05-15T14:09:28Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll174.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>10:09:28</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>174</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-05-15T14:09:28Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll174.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:27:09</actionTime>
+              <text>Amendment (A006) offered by Mr. Steube.</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>10:09:28</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Steube amendment (A006) Failed by recorded vote: 80 - 333 (Roll no. 174).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>174</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-05-15T14:09:28Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll174.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>10:09:28</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>174</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2026-05-15T14:09:28Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2026/roll174.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:27:09</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>218</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 49 printed in Part B of House Report 119-648 to prohibit funds from being used to close the Port Charlotte VA Clinic in Port Charlotte, FL.</description>
+        <updateDate>2026-05-18T13:05:21Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-15</actionDate>
+          <text>On agreeing to the Steube amendment (A005) Agreed to by voice vote. (consideration: CR H3538; text: CR H3538)</text>
+          <actionTime>09:26:57</actionTime>
+          <links>
+            <link>
+              <name>H3538</name>
+              <url>https://www.congress.gov/congressional-record/volume-172/house-section/page/H3538</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S001214</bioguideId>
+            <fullName>Rep. Steube, W. Gregory [R-FL-17]</fullName>
+            <firstName>W.</firstName>
+            <lastName>Steube</lastName>
+            <party>R</party>
+            <state>FL</state>
+            <middleName>Gregory</middleName>
+            <district>17</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-05-15T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8469</number>
+          <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:26:57</actionTime>
+              <text>On agreeing to the Steube amendment (A005) Agreed to by voice vote. (consideration: CR H3538; text: CR H3538)</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:25:28</actionTime>
+              <text>Amendment (A005) offered by Mr. Steube.</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:25:28</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:26:57</actionTime>
+              <text>House amendment agreed to: On agreeing to the Steube amendment (A005) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>217</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 29 printed in Part B of House Report 119-648 to increase and decrease Veterans Health Administration, Medical Services, by $1 million for furnishing Stellate Ganglion Block (SGB) therapy to personnel who elect to receive the treatment.</description>
+        <updateDate>2026-05-18T12:22:46Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-15</actionDate>
+          <text>On agreeing to the Perry amendment (A004) Agreed to by voice vote. (consideration: CR H3537-3538; text: CR H3537)</text>
+          <actionTime>09:25:01</actionTime>
+          <links>
+            <link>
+              <name>H3537</name>
+              <url>https://www.congress.gov/congressional-record/volume-172/house-section/page/H3537</url>
+            </link>
+            <link>
+              <name>H3537-3538</name>
+              <url>https://www.congress.gov/congressional-record/volume-172/house-section/page/H3537-3538</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000605</bioguideId>
+            <fullName>Rep. Perry, Scott [R-PA-10]</fullName>
+            <firstName>Scott</firstName>
+            <lastName>Perry</lastName>
+            <party>R</party>
+            <state>PA</state>
+            <district>10</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-05-15T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8469</number>
+          <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:25:01</actionTime>
+              <text>On agreeing to the Perry amendment (A004) Agreed to by voice vote. (consideration: CR H3537-3538; text: CR H3537)</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:15:58</actionTime>
+              <text>Amendment (A004) offered by Mr. Perry.</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:15:58</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-15</actionDate>
+              <actionTime>09:25:01</actionTime>
+              <text>House amendment agreed to: On agreeing to the Perry amendment (A004) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>216</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 23 printed in Part B of House Report 119-648 to prohibit funds appropriated to the Department of Veterans Affairs from being used to enforce provisions of VHA Directive 1315 that restrict VA providers from assisting veterans with participation in State-approved marijuana programs.</description>
+        <updateDate>2026-05-15T20:28:18Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-14</actionDate>
+          <text>On agreeing to the Mast amendment (A003) Agreed to by voice vote.</text>
+          <actionTime>15:29:59</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>M001199</bioguideId>
+            <fullName>Rep. Mast, Brian J. [R-FL-21]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Mast</lastName>
+            <party>R</party>
+            <state>FL</state>
+            <middleName>J.</middleName>
+            <district>21</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-05-14T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8469</number>
+          <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:29:59</actionTime>
+              <text>On agreeing to the Mast amendment (A003) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:21:18</actionTime>
+              <text>Amendment (A003) offered by Mr. Mast. (consideration: CR H3503-3505; text: CR H3503)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:21:18</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:29:59</actionTime>
+              <text>House amendment agreed to: On agreeing to the Mast amendment (A003) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>215</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 10 printed in Part B of House Report 119-648 to increase and decrease funding by $45 million for the Medical and Prosthetic Research account at the Department of Veterans Affairs to emphasize the importance of the Department's research on areas benefiting veterans such as oncology, traumatic brain injury care, psychedelic therapies, and assistive devices.</description>
+        <updateDate>2026-05-15T20:27:15Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-14</actionDate>
+          <text>On agreeing to the Correa amendment (A002) Agreed to by voice vote.</text>
+          <actionTime>15:20:56</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C001110</bioguideId>
+            <fullName>Rep. Correa, J. Luis [D-CA-46]</fullName>
+            <firstName>J.</firstName>
+            <lastName>Correa</lastName>
+            <party>D</party>
+            <state>CA</state>
+            <middleName>Luis</middleName>
+            <district>46</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-05-14T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8469</number>
+          <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:20:56</actionTime>
+              <text>On agreeing to the Correa amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:17:01</actionTime>
+              <text>Amendment (A002) offered by Mr. Correa. (consideration: CR H3503; text: CR H3503)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:17:01</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:20:56</actionTime>
+              <text>House amendment agreed to: On agreeing to the Correa amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>214</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment comprised of the following amendments printed in Part B of House Report 119-648 as en bloc: Nos. 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 46, 47, 48, and 51.</description>
+        <updateDate>2026-05-15T20:26:18Z</updateDate>
+        <latestAction>
+          <actionDate>2026-05-14</actionDate>
+          <text>On agreeing to the Carter (TX) amendments (A001) Agreed to by voice vote.</text>
+          <actionTime>15:16:46</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C001051</bioguideId>
+            <fullName>Rep. Carter, John R. [R-TX-31]</fullName>
+            <firstName>John</firstName>
+            <lastName>Carter</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <middleName>R.</middleName>
+            <district>31</district>
+          </item>
+        </sponsors>
+        <submittedDate>2026-05-14T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>8469</number>
+          <title>Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.</title>
+          <updateDateIncludingText>2026-09-19</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:16:46</actionTime>
+              <text>On agreeing to the Carter (TX) amendments (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:08:04</actionTime>
+              <text>Amendments en bloc (A001) offered by Mr. Carter (TX). (consideration: CR H3501-3503; text: CR H3501-3502)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:08:04</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-05-14</actionDate>
+              <actionTime>15:16:46</actionTime>
+              <text>House amendment agreed to: On agreeing to the Carter (TX) amendments (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-07-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8469pcs/xml/BILLS-119hr8469pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-05-15T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8469eh/xml/BILLS-119hr8469eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-04-23T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr8469rh/xml/BILLS-119hr8469rh.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-07-14</actionDate>
+      <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 455.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

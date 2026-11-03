@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1048</number>
+    <updateDate>2026-07-10T17:08:29Z</updateDate>
+    <updateDateIncludingText>2026-07-13T19:41:43Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-02-06</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/1048</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 25 (Thursday, February 6, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. BAUMGARTNER:H.R. 1048.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H556]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>sshr00</systemCode>
+        <name>Health, Education, Labor, and Pensions Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-31T20:36:11Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsed00</systemCode>
+        <name>Education and Workforce Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2025-03-14T13:02:00Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-02-12T14:55:13Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-02-06T15:08:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-16</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>No Contracts with Foreign Adversaries Act</title>
+        <congress>119</congress>
+        <number>938</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-02-04</actionDate>
+          <text>Referred to the House Committee on Education and Workforce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>RIFA Act</title>
+        <congress>119</congress>
+        <number>1023</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-02-05</actionDate>
+          <text>Referred to the House Committee on Education and Workforce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>INSTRUCT Act of 2025</title>
+        <congress>119</congress>
+        <number>1018</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-02-05</actionDate>
+          <text>Referred to the House Committee on Education and Workforce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the joint resolution (H.J. Res. 24) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to "Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers"; providing for consideration of the joint resolution (H.J. Res. 75) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to "Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers"; and providing for consideration of the bill (H.R. 1048) to amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and contracts, to prohibit contracts between institutions of higher education and certain foreign entities and countries of concern, and for other purposes.</title>
+        <congress>119</congress>
+        <number>242</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-03-25</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:28:50</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>DETERRENT Act</title>
+        <congress>119</congress>
+        <number>1296</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-04-03</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Disclose GIFT Act</title>
+        <congress>119</congress>
+        <number>1999</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-03-10</actionDate>
+          <text>Referred to the House Committee on Education and Workforce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-03-31</actionDate>
+        <committees>
+          <item>
+            <systemCode>sshr00</systemCode>
+            <name>Health, Education, Labor, and Pensions Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:54:49</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:54:47</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 241 - 169 (Roll no. 83).</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>83</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll083.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-27T14:54:47Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:54:47</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 241 - 169 (Roll no. 83).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>83</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll083.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-27T14:54:47Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:47:55</actionTime>
+        <text>The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.</text>
+        <type>Floor</type>
+        <actionCode>H34400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:47:44</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:46:40</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 1048.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:26:25</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-27</actionDate>
+        <actionTime>10:26:11</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H1312-1316)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:59:21</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 1048 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:59:08</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:58:53</actionTime>
+        <text>Mr. Walberg moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:58:12</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Tlaib amendment No. 6, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Ms. Tlaib demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:48:49</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 242, the Committee of the Whole proceeded with 10 minutes of debate on the Tlaib amendment No. 6.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:48:13</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Tlaib amendment No. 5, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Ms. Tlaib demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:39:55</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 242, the Committee of the Whole proceeded with 10 minutes of debate on the Tlaib amendment No. 5.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:39:02</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Self amendment No. 4, the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had prevailed. Mr. Scott (VA) demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:35:59</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 242, the Committee of the Whole proceeded with 10 minutes of debate on the Self amendment No. 4.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:35:13</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Scott (VA) amendment No. 3, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Mr. Scott (VA) demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:26:28</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 242, the Committee of the Whole proceeded with 10 minutes of debate on the Scott (VA) amendment No. 3.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:21:13</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 242, the Committee of the Whole proceeded with 10 minutes of debate on the Ogles amendment No. 2.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>15:10:51</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 242, the Committee of the Whole proceeded with 10 minutes of debate on the Ogles amendment No. 1.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>14:30:52</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 1048.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>14:30:27</actionTime>
+        <text>The Speaker designated the Honorable Pat Harrigan to act as Chairman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>14:30:26</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 242 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>14:29:15</actionTime>
+        <text>Rule provides for consideration of H.J. Res. 24, H.J. Res. 75 and H.R. 1048. The resolution provides for consideration of H.J. Res. 24 and H.J. Res. 75 under a closed rule, and provides for consideration of H.R. 1048 under a structured rule. Also, the resolution provides for one hour of general debate and one motion to recommit on each measure.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>14:29:10</actionTime>
+        <text>Considered under the provisions of rule H. Res. 242. (consideration: CR H1241-1260)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-25</actionDate>
+        <actionTime>14:28:50</actionTime>
+        <text>Rule H. Res. 242 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-24</actionDate>
+        <actionTime>19:43:25</actionTime>
+        <text>Rules Committee Resolution H. Res. 242 Reported to House. Rule provides for consideration of H.J. Res. 24, H.J. Res. 75 and H.R. 1048. The resolution provides for consideration of H.J. Res. 24 and H.J. Res. 75 under a closed rule, and provides for consideration of H.R. 1048 under a structured rule. Also, the resolution provides for one hour of general debate and one motion to recommit on each measure.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 9.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-16.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-16.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 20 - 14.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-12</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-02-06</actionDate>
+        <text>Referred to the House Committee on Education and Workforce.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsed00</systemCode>
+            <name>Education and Workforce Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-02-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-02-06</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>B001322</bioguideId>
+        <fullName>Rep. Baumgartner, Michael [R-WA-5]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Baumgartner</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <district>5</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>M001233</bioguideId>
+        <fullName>Rep. Messmer, Mark [R-IN-8]</fullName>
+        <firstName>Mark</firstName>
+        <lastName>Messmer</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <middleName>B.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000086</bioguideId>
+        <fullName>Rep. Owens, Burgess [R-UT-4]</fullName>
+        <firstName>Burgess</firstName>
+        <lastName>Owens</lastName>
+        <party>R</party>
+        <state>UT</state>
+        <district>4</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>A000372</bioguideId>
+        <fullName>Rep. Allen, Rick W. [R-GA-12]</fullName>
+        <firstName>Rick</firstName>
+        <lastName>Allen</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <middleName>W.</middleName>
+        <district>12</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000401</bioguideId>
+        <fullName>Rep. Kiley, Kevin [R-CA-3]</fullName>
+        <firstName>Kevin</firstName>
+        <lastName>Kiley</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <district>3</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000798</bioguideId>
+        <fullName>Rep. Walberg, Tim [R-MI-5]</fullName>
+        <firstName>Tim</firstName>
+        <lastName>Walberg</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>5</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000795</bioguideId>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <party>R</party>
+        <state>SC</state>
+        <district>2</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>R000619</bioguideId>
+        <fullName>Rep. Rulli, Michael A. [R-OH-6]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Rulli</lastName>
+        <party>R</party>
+        <state>OH</state>
+        <middleName>A.</middleName>
+        <district>6</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000450</bioguideId>
+        <fullName>Rep. Foxx, Virginia [R-NC-5]</fullName>
+        <firstName>Virginia</firstName>
+        <lastName>Foxx</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <district>5</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000576</bioguideId>
+        <fullName>Rep. Grothman, Glenn [R-WI-6]</fullName>
+        <firstName>Glenn</firstName>
+        <lastName>Grothman</lastName>
+        <party>R</party>
+        <state>WI</state>
+        <district>6</district>
+        <sponsorshipDate>2025-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000177</bioguideId>
+        <fullName>Rep. Onder, Robert [R-MO-3]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Onder</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <middleName>F.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2025-02-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000478</bioguideId>
+        <fullName>Rep. Tenney, Claudia [R-NY-24]</fullName>
+        <firstName>Claudia</firstName>
+        <lastName>Tenney</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>24</district>
+        <sponsorshipDate>2025-02-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000467</bioguideId>
+        <fullName>Rep. Thompson, Glenn [R-PA-15]</fullName>
+        <firstName>Glenn</firstName>
+        <lastName>Thompson</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>15</district>
+        <sponsorshipDate>2025-02-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000814</bioguideId>
+        <fullName>Rep. Weber, Randy K. Sr. [R-TX-14]</fullName>
+        <firstName>Randy</firstName>
+        <lastName>Weber</lastName>
+        <party>R</party>
+        <state>TX</state>
+        <middleName>K.</middleName>
+        <district>14</district>
+        <sponsorshipDate>2025-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001282</bioguideId>
+        <fullName>Rep. Barr, Andy [R-KY-6]</fullName>
+        <firstName>Andy</firstName>
+        <lastName>Barr</lastName>
+        <party>R</party>
+        <state>KY</state>
+        <district>6</district>
+        <sponsorshipDate>2025-02-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001093</bioguideId>
+        <fullName>Rep. Houchin, Erin [R-IN-9]</fullName>
+        <firstName>Erin</firstName>
+        <lastName>Houchin</lastName>
+        <party>R</party>
+        <state>IN</state>
+        <district>9</district>
+        <sponsorshipDate>2025-02-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001314</bioguideId>
+        <fullName>Rep. Bean, Aaron [R-FL-4]</fullName>
+        <firstName>Aaron</firstName>
+        <lastName>Bean</lastName>
+        <party>R</party>
+        <state>FL</state>
+        <district>4</district>
+        <sponsorshipDate>2025-02-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000230</bioguideId>
+        <fullName>Rep. Davis, Donald G. [D-NC-1]</fullName>
+        <firstName>Donald</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>G.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000475</bioguideId>
+        <fullName>Rep. Finstad, Brad [R-MN-1]</fullName>
+        <firstName>Brad</firstName>
+        <lastName>Finstad</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>1</district>
+        <sponsorshipDate>2025-03-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000600</bioguideId>
+        <fullName>Rep. Perez, Marie Gluesenkamp [D-WA-3]</fullName>
+        <firstName>Marie</firstName>
+        <lastName>Perez</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <middleName>Gluesenkamp</middleName>
+        <district>3</district>
+        <sponsorshipDate>2025-03-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>J000307</bioguideId>
+        <fullName>Rep. James, John [R-MI-10]</fullName>
+        <firstName>John</firstName>
+        <lastName>James</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <district>10</district>
+        <sponsorshipDate>2025-03-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001194</bioguideId>
+        <fullName>Rep. Moolenaar, John R. [R-MI-2]</fullName>
+        <firstName>John</firstName>
+        <lastName>Moolenaar</lastName>
+        <party>R</party>
+        <state>MI</state>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-03-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-03-10T18:01:00Z</pubDate>
+        <title>H.R. 1048, DETERRENT Act</title>
+        <url>https://www.cbo.gov/publication/61244</url>
+        <description>As ordered reported by the House Committee on Education and Workforce on February 12, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Contracts and agency</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Financial services and investments</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Higher education</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Subversive activities</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+        <item>
+          <name>Teaching, teachers, curricula</name>
+          <updateDate>2025-02-14T18:30:10Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Education</name>
+        <updateDate>2025-02-11T14:51:31Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-02-06</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-03-19T14:59:41Z</updateDate>
+        <text><![CDATA[<p><strong>Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act or the DETERRENT Act</strong></p><p>This bill expands oversight and disclosure requirements related to foreign sources and institutions of higher education (IHEs).</p><p>Specifically, the bill requires an IHE to annually disclose to the Department of Education (ED) any year in which the IHE</p><ul><li>receives a gift from a foreign country of concern (e.g., China or Russia) or foreign entity of concern of any dollar amount;</li><li>receives a gift or contract from a foreign source (other than a foreign country of concern or foreign entity of concern) that is valued at $50,000 or more, considered alone or in combination with all other gifts or contracts within a calendar year (current disclosure threshold is $250,000 or more), or which has an undetermined monetary value;</li><li>enters into a contract with a foreign country of concern or foreign entity of concern after receiving a waiver for such contract; or</li><li>is substantially controlled by a foreign source.</li></ul><p>Additionally, the bill</p><ul><li>prohibits IHEs from entering into contracts with a foreign country of concern or with a foreign entity of concern without obtaining a waiver,</li><li>requires certain IHEs to disclose gifts or contracts between covered individuals (e.g., researchers) and foreign sources, and</li><li>requires private IHEs with specified assets or investments to file annual investment disclosure reports.</li></ul><p>The bill requires ED to investigate possible violations of this bill and outlines the various penalties for each violation. Penalties may include losing eligibility for federal student financial aid.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>DETERRENT Act</title>
+    <titles>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and con- tracts, to prohibit contracts between institutions of high- er education and certain foreign entities and countries of concern, and for other purposes.</title>
+        <updateDate>2026-07-10T17:08:29Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act</title>
+        <updateDate>2025-04-04T05:08:17Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>DETERRENT Act</title>
+        <updateDate>2025-04-04T05:08:17Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>DETERRENT Act</title>
+        <updateDate>2025-03-28T11:23:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act</title>
+        <updateDate>2025-03-28T11:23:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>DETERRENT Act</title>
+        <updateDate>2025-03-15T03:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act</title>
+        <updateDate>2025-03-15T03:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>DETERRENT Act</title>
+        <updateDate>2025-02-08T06:23:21Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions Act</title>
+        <updateDate>2025-02-08T06:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>DETERRENT Act</title>
+        <updateDate>2025-02-08T06:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Higher Education Act of 1965 to strengthen disclosure requirements relating to foreign gifts and contracts, to prohibit contracts between institutions of higher education and certain foreign entities and countries of concern, and for other purposes.</title>
+        <updateDate>2025-02-08T06:18:37Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>15</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 6 printed in House Report 119-38 to amend the definition of "Investment of Concern" to include any entity that the Secretary of State determines consistently, knowingly, and directly facilitates and enables state violence and repression, war and occupation, or severe violations of international law and human rights.</description>
+        <purpose>Amendment sought to amend the definition of "Investment of Concern" to include any entity that the Secretary of State determines consistently, knowingly, and directly facilitates and enables state violence and repression, war and occupation, or severe violations of international law and human rights.</purpose>
+        <updateDate>2025-03-28T08:09:16Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-27</actionDate>
+          <text>On agreeing to the Tlaib amendment (A006) Failed by recorded vote: 4 - 404, 1 Present (Roll no. 82).</text>
+          <actionTime>10:46:27</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 82</name>
+              <url>https://www.congress.gov/votes/house/119-1/82</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000481</bioguideId>
+            <fullName>Rep. Tlaib, Rashida [D-MI-12]</fullName>
+            <firstName>Rashida</firstName>
+            <lastName>Tlaib</lastName>
+            <party>D</party>
+            <state>MI</state>
+            <district>12</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1048</number>
+          <title>DETERRENT Act</title>
+          <updateDateIncludingText>2026-07-13</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:46:27</actionTime>
+              <text>On agreeing to the Tlaib amendment (A006) Failed by recorded vote: 4 - 404, 1 Present (Roll no. 82).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>82</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:46:27Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll082.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:46:27</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>82</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:46:27Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll082.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:48:40</actionTime>
+              <text>Amendment (A006) offered by Ms. Tlaib. (consideration: CR H1259-1260; text: CR H1259)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:46:27</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Tlaib amendment (A006) Failed by recorded vote: 4 - 404, 1 Present (Roll no. 82).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>82</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:46:27Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll082.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:46:27</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>82</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:46:27Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll082.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:48:40</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>14</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 5 printed in House Report 119-38 to amend the definition of "Foreign Country Of Concern" to include any country that is defending a case before the International Court of Justice relating to an alleged violation of the Geneva Conventions of 1949 or their Additional Protocols or the Convention on the Prevention and Punishment of the Crime of Genocide; and to include any country the government of which includes officials that have outstanding arrest warrants issued by the International Criminal Court.</description>
+        <purpose>Amendment sought to amend the definition of "Foreign Country Of Concern".</purpose>
+        <updateDate>2025-07-16T08:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-27</actionDate>
+          <text>On agreeing to the Tlaib amendment (A005) Failed by recorded vote: 3 - 410 (Roll no. 81).</text>
+          <actionTime>10:42:38</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 81</name>
+              <url>https://www.congress.gov/votes/house/119-1/81</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000481</bioguideId>
+            <fullName>Rep. Tlaib, Rashida [D-MI-12]</fullName>
+            <firstName>Rashida</firstName>
+            <lastName>Tlaib</lastName>
+            <party>D</party>
+            <state>MI</state>
+            <district>12</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1048</number>
+          <title>DETERRENT Act</title>
+          <updateDateIncludingText>2026-07-13</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:42:38</actionTime>
+              <text>On agreeing to the Tlaib amendment (A005) Failed by recorded vote: 3 - 410 (Roll no. 81).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>81</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:42:38Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll081.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:42:38</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>81</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:42:38Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll081.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:39:49</actionTime>
+              <text>Amendment (A005) offered by Ms. Tlaib. (consideration: CR H1258-1259; text: CR H1258)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:42:38</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Tlaib amendment (A005) Failed by recorded vote: 3 - 410 (Roll no. 81).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>81</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:42:38Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll081.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:42:38</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>81</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:42:38Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll081.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:39:49</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>13</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 4 printed in House Report 119-38 to amend the threshold value at which gifts must be reported from $50,000 to $1.</description>
+        <purpose>Amendment sought to amend the threshold value at which gifts must be reported from $50,000 to $1.</purpose>
+        <updateDate>2025-03-28T08:09:17Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-27</actionDate>
+          <text>On agreeing to the Self amendment (A004) Failed by recorded vote: 92 - 321 (Roll no. 80).</text>
+          <actionTime>10:37:10</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 80</name>
+              <url>https://www.congress.gov/votes/house/119-1/80</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S001224</bioguideId>
+            <fullName>Rep. Self, Keith [R-TX-3]</fullName>
+            <firstName>Keith</firstName>
+            <lastName>Self</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <district>3</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1048</number>
+          <title>DETERRENT Act</title>
+          <updateDateIncludingText>2026-07-13</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:37:10</actionTime>
+              <text>On agreeing to the Self amendment (A004) Failed by recorded vote: 92 - 321 (Roll no. 80).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>80</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:37:10Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll080.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:37:10</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>80</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:37:10Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll080.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:35:44</actionTime>
+              <text>Amendment (A004) offered by Mr. Self. (consideration: CR H1257-1258; text: CR H1257)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:37:10</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Self amendment (A004) Failed by recorded vote: 92 - 321 (Roll no. 80).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>80</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:37:10Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll080.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:37:10</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>80</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:37:10Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll080.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:35:44</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>12</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 3 printed in House Report 119-38 to amend Section 117 to streamline foreign gift and contract reporting, aligns reporting with other federal research security compliance requirements, establishes sanctions for noncompliance and requires the Secretary of Education to conduct negotiated rulemaking to receive stakeholder feedback.</description>
+        <purpose>Amendment sought to amend section 117 to streamline foreign gift and contract reporting, align reporting with other federal research security compliance requirements, establish sanctions for noncompliance and require the Secretary of Education to conduct negotiated rulemaking to receive stakeholder feedback.</purpose>
+        <updateDate>2025-07-15T08:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-27</actionDate>
+          <text>On agreeing to the Scott (VA) amendment (A003) Failed by recorded vote: 199 - 214 (Roll no. 79).</text>
+          <actionTime>10:32:53</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 79</name>
+              <url>https://www.congress.gov/votes/house/119-1/79</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>S000185</bioguideId>
+            <fullName>Rep. Scott, Robert C. "Bobby" [D-VA-3]</fullName>
+            <firstName>Robert</firstName>
+            <lastName>Scott</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>C. "Bobby"</middleName>
+            <district>3</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1048</number>
+          <title>DETERRENT Act</title>
+          <updateDateIncludingText>2026-07-13</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:32:53</actionTime>
+              <text>On agreeing to the Scott (VA) amendment (A003) Failed by recorded vote: 199 - 214 (Roll no. 79).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>79</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:32:53Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll079.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:32:53</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>79</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:32:53Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll079.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:26:25</actionTime>
+              <text>Amendment (A003) offered by Mr. Scott (VA). (consideration: CR H1254-1257; text of amendment in the nature of a substitute: CR H1254-1256)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:32:53</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Scott (VA) amendment (A003) Failed by recorded vote: 199 - 214 (Roll no. 79).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>79</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:32:53Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll079.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-27</actionDate>
+              <actionTime>10:32:53</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>79</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-27T14:32:53Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll079.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:26:25</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>11</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 2 printed in House Report 119-38 to amend the definition of 'foreign entity of concern' to include Chinese military companies identified on the list required by section 1260H of the FY 2021 NDAA (colloquially referred to as the "Section 1260H list").</description>
+        <updateDate>2025-03-26T15:00:55Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-25</actionDate>
+          <text>On agreeing to the Ogles amendment (A002) Agreed to by voice vote.</text>
+          <actionTime>15:25:53</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>O000175</bioguideId>
+            <fullName>Rep. Ogles, Andrew [R-TN-5]</fullName>
+            <firstName>Andrew</firstName>
+            <lastName>Ogles</lastName>
+            <party>R</party>
+            <state>TN</state>
+            <district>5</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1048</number>
+          <title>DETERRENT Act</title>
+          <updateDateIncludingText>2026-07-13</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:25:53</actionTime>
+              <text>On agreeing to the Ogles amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:20:21</actionTime>
+              <text>Amendment (A002) offered by Mr. Ogles. (consideration: CR H1254; text: CR H1254)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:20:21</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:25:53</actionTime>
+              <text>House amendment agreed to: On agreeing to the Ogles amendment (A002) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>10</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 1 printed in House Report 119-38 to include any special administrative region or other territory within one of the covered nations referenced in the bill within the bill's definition of "foreign country of concern.".</description>
+        <updateDate>2025-03-26T14:59:51Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-25</actionDate>
+          <text>On agreeing to the Ogles amendment (A001) Agreed to by voice vote.</text>
+          <actionTime>15:20:10</actionTime>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>O000175</bioguideId>
+            <fullName>Rep. Ogles, Andrew [R-TN-5]</fullName>
+            <firstName>Andrew</firstName>
+            <lastName>Ogles</lastName>
+            <party>R</party>
+            <state>TN</state>
+            <district>5</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-25T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1048</number>
+          <title>DETERRENT Act</title>
+          <updateDateIncludingText>2026-07-13</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:20:10</actionTime>
+              <text>On agreeing to the Ogles amendment (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:10:20</actionTime>
+              <text>Amendment (A001) offered by Mr. Ogles. (consideration: CR H1253-1254; text: CR H1253)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:10:20</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-25</actionDate>
+              <actionTime>15:20:10</actionTime>
+              <text>House amendment agreed to: On agreeing to the Ogles amendment (A001) Agreed to by voice vote.</text>
+              <type>Floor</type>
+              <actionCode>72000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-03-31T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1048rfs/xml/BILLS-119hr1048rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-03-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1048eh/xml/BILLS-119hr1048eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-03-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1048rh/xml/BILLS-119hr1048rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-02-06T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1048ih/xml/BILLS-119hr1048ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-03-31</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

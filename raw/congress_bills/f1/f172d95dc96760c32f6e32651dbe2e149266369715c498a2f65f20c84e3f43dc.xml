@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>9497</number>
+    <updateDate>2026-09-29T19:48:32Z</updateDate>
+    <updateDateIncludingText>2026-09-29T19:48:32Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-06-29</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/9497</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 108 (Monday, June 29, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. GRAVES:H.R. 9497.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 3.[Page H4316]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hspw00</systemCode>
+        <name>Transportation and Infrastructure Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <subcommittees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+            <activities>
+              <item>
+                <name>Discharged from</name>
+                <date>2026-07-14T18:58:54Z</date>
+              </item>
+              <item>
+                <name>Referred to</name>
+                <date>2026-06-30T20:28:28Z</date>
+              </item>
+            </activities>
+          </item>
+        </subcommittees>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2026-09-03T15:48:36Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2026-07-14T18:59:03Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2026-06-29T16:03:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-795</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>To require the Secretary of the Army to expedite the completion of agreements with non-Federal interests for beneficial use of dredged material from federally authorized harbors in the State of Ohio, and for other purposes.</title>
+        <congress>119</congress>
+        <number>10383</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-09-15</actionDate>
+          <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To amend the Water Resources Development Act of 2000 to authorize the Secretary of the Army to carry out additional Great Lakes fishery and ecosystem restoration projects not eligible under current policy of the Department of the Army, and for other purposes.</title>
+        <congress>119</congress>
+        <number>10387</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-09-15</actionDate>
+          <text>Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>To amend the Water Resources Development Act of 1992 to increase the amount and purposes of funds authorized for the Secretary of the Army to carry out water and wastewater infrastructure projects in Toledo and Oregon, Ohio, and for other purposes.</title>
+        <congress>119</congress>
+        <number>10386</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-09-15</actionDate>
+          <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-09-17</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>18:58:43</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>18:58:41</actionTime>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 415 - 9 (Roll no. 313). (text: CR H5850-5888)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>313</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll313.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-09-16T22:58:41Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>18:58:41</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 415 - 9 (Roll no. 313).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>313</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll313.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-09-16T22:58:41Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>18:54:04</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H5959-5960)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>11:02:19</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <type>Floor</type>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>10:23:19</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 9497.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>10:23:18</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H5850-5893)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>10:23:02</actionTime>
+        <text>Mr. Graves moved to suspend the rules and pass the bill, as amended.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-03</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 695.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00695</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-09-03</actionDate>
+        <text>Reported (Amended) by the Committee on Transportation and Infrastructure. H. Rept. 119-795.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-09-03</actionDate>
+        <text>Reported (Amended) by the Committee on Transportation and Infrastructure. H. Rept. 119-795.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 66 - 0.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-07-14</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Water Resources and Environment Discharged</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-06-30</actionDate>
+        <committees>
+          <item>
+            <systemCode>hspw02</systemCode>
+            <name>Water Resources and Environment Subcommittee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water Resources and Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hspw00</systemCode>
+            <name>Transportation and Infrastructure Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>G000546</bioguideId>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <firstName>Sam</firstName>
+        <lastName>Graves</lastName>
+        <party>R</party>
+        <state>MO</state>
+        <district>6</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>L000560</bioguideId>
+        <fullName>Rep. Larsen, Rick [D-WA-2]</fullName>
+        <firstName>Rick</firstName>
+        <lastName>Larsen</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <district>2</district>
+        <sponsorshipDate>2026-06-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001129</bioguideId>
+        <fullName>Rep. Collins, Mike [R-GA-10]</fullName>
+        <firstName>Mike</firstName>
+        <lastName>Collins</lastName>
+        <party>R</party>
+        <state>GA</state>
+        <district>10</district>
+        <sponsorshipDate>2026-06-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>W000808</bioguideId>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <firstName>Frederica</firstName>
+        <lastName>Wilson</lastName>
+        <party>D</party>
+        <state>FL</state>
+        <middleName>S.</middleName>
+        <district>24</district>
+        <sponsorshipDate>2026-06-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Water Resources Development</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2026-08-26T19:34:54Z</updateDate>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2026-08-26T19:34:00Z</updateDate>
+        </item>
+        <item>
+          <name>Alabama</name>
+          <updateDate>2026-08-26T19:45:36Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska</name>
+          <updateDate>2026-08-26T19:45:47Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+          <updateDate>2026-08-26T19:44:22Z</updateDate>
+        </item>
+        <item>
+          <name>Aquatic ecology</name>
+          <updateDate>2026-08-26T19:42:54Z</updateDate>
+        </item>
+        <item>
+          <name>Arizona</name>
+          <updateDate>2026-08-26T19:45:52Z</updateDate>
+        </item>
+        <item>
+          <name>Arkansas</name>
+          <updateDate>2026-08-26T19:47:04Z</updateDate>
+        </item>
+        <item>
+          <name>Army Corps of Engineers</name>
+          <updateDate>2026-08-26T19:34:33Z</updateDate>
+        </item>
+        <item>
+          <name>Atmospheric science and weather</name>
+          <updateDate>2026-08-26T19:47:09Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2026-08-26T19:45:06Z</updateDate>
+        </item>
+        <item>
+          <name>Caribbean area</name>
+          <updateDate>2026-08-26T19:44:10Z</updateDate>
+        </item>
+        <item>
+          <name>Colorado</name>
+          <updateDate>2026-08-26T19:48:32Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-08-26T19:33:51Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-08-26T19:33:11Z</updateDate>
+        </item>
+        <item>
+          <name>Connecticut</name>
+          <updateDate>2026-08-26T19:41:46Z</updateDate>
+        </item>
+        <item>
+          <name>Dams and canals</name>
+          <updateDate>2026-08-26T19:41:33Z</updateDate>
+        </item>
+        <item>
+          <name>Delaware</name>
+          <updateDate>2026-08-26T19:45:59Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2026-08-26T19:48:56Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2026-08-26T19:44:16Z</updateDate>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+          <updateDate>2026-08-26T19:44:30Z</updateDate>
+        </item>
+        <item>
+          <name>Employee hiring</name>
+          <updateDate>2026-08-26T19:44:59Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+          <updateDate>2026-08-26T19:34:44Z</updateDate>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+          <updateDate>2026-08-26T19:47:27Z</updateDate>
+        </item>
+        <item>
+          <name>Fires</name>
+          <updateDate>2026-08-26T19:42:44Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2026-08-26T19:34:07Z</updateDate>
+        </item>
+        <item>
+          <name>Florida</name>
+          <updateDate>2026-08-26T19:41:53Z</updateDate>
+        </item>
+        <item>
+          <name>Forests, forestry, trees</name>
+          <updateDate>2026-08-26T19:42:49Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia</name>
+          <updateDate>2026-08-26T19:46:05Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-08-26T19:48:03Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-08-26T19:44:52Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-08-26T19:33:20Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-08-26T19:33:44Z</updateDate>
+        </item>
+        <item>
+          <name>Great Lakes</name>
+          <updateDate>2026-08-26T19:48:50Z</updateDate>
+        </item>
+        <item>
+          <name>Hawaii</name>
+          <updateDate>2026-08-26T19:46:10Z</updateDate>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+          <updateDate>2026-08-26T19:33:56Z</updateDate>
+        </item>
+        <item>
+          <name>Idaho</name>
+          <updateDate>2026-08-26T19:42:31Z</updateDate>
+        </item>
+        <item>
+          <name>Illinois</name>
+          <updateDate>2026-08-26T19:45:12Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2026-08-26T19:33:38Z</updateDate>
+        </item>
+        <item>
+          <name>Iowa</name>
+          <updateDate>2026-08-26T19:46:15Z</updateDate>
+        </item>
+        <item>
+          <name>Kansas</name>
+          <updateDate>2026-08-26T19:42:58Z</updateDate>
+        </item>
+        <item>
+          <name>Kentucky</name>
+          <updateDate>2026-08-26T19:45:17Z</updateDate>
+        </item>
+        <item>
+          <name>Lakes and rivers</name>
+          <updateDate>2026-08-26T19:31:52Z</updateDate>
+        </item>
+        <item>
+          <name>Land transfers</name>
+          <updateDate>2026-08-26T19:48:22Z</updateDate>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+          <updateDate>2026-08-26T19:34:38Z</updateDate>
+        </item>
+        <item>
+          <name>Louisiana</name>
+          <updateDate>2026-08-26T19:46:23Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and coastal resources, fisheries</name>
+          <updateDate>2026-08-26T19:47:21Z</updateDate>
+        </item>
+        <item>
+          <name>Maryland</name>
+          <updateDate>2026-08-26T19:46:30Z</updateDate>
+        </item>
+        <item>
+          <name>Massachusetts</name>
+          <updateDate>2026-08-26T19:43:12Z</updateDate>
+        </item>
+        <item>
+          <name>Michigan</name>
+          <updateDate>2026-08-26T19:41:27Z</updateDate>
+        </item>
+        <item>
+          <name>Minnesota</name>
+          <updateDate>2026-08-26T19:48:27Z</updateDate>
+        </item>
+        <item>
+          <name>Mississippi</name>
+          <updateDate>2026-08-26T19:46:36Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri</name>
+          <updateDate>2026-08-26T19:44:38Z</updateDate>
+        </item>
+        <item>
+          <name>Missouri River</name>
+          <updateDate>2026-08-26T19:48:09Z</updateDate>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+          <updateDate>2026-08-26T19:41:20Z</updateDate>
+        </item>
+        <item>
+          <name>Nevada</name>
+          <updateDate>2026-08-26T19:42:26Z</updateDate>
+        </item>
+        <item>
+          <name>New Hampshire</name>
+          <updateDate>2026-08-26T19:48:37Z</updateDate>
+        </item>
+        <item>
+          <name>New Jersey</name>
+          <updateDate>2026-08-26T19:42:06Z</updateDate>
+        </item>
+        <item>
+          <name>New Mexico</name>
+          <updateDate>2026-08-26T19:42:11Z</updateDate>
+        </item>
+        <item>
+          <name>New York State</name>
+          <updateDate>2026-08-26T19:43:25Z</updateDate>
+        </item>
+        <item>
+          <name>North Carolina</name>
+          <updateDate>2026-08-26T19:46:41Z</updateDate>
+        </item>
+        <item>
+          <name>Ohio</name>
+          <updateDate>2026-08-26T19:41:39Z</updateDate>
+        </item>
+        <item>
+          <name>Oklahoma</name>
+          <updateDate>2026-08-26T19:43:03Z</updateDate>
+        </item>
+        <item>
+          <name>Oregon</name>
+          <updateDate>2026-08-26T19:43:36Z</updateDate>
+        </item>
+        <item>
+          <name>Outdoor recreation</name>
+          <updateDate>2026-08-26T19:44:46Z</updateDate>
+        </item>
+        <item>
+          <name>Pennsylvania</name>
+          <updateDate>2026-08-26T19:43:44Z</updateDate>
+        </item>
+        <item>
+          <name>Pest management</name>
+          <updateDate>2026-08-26T19:48:45Z</updateDate>
+        </item>
+        <item>
+          <name>Public-private cooperation</name>
+          <updateDate>2026-08-26T19:47:14Z</updateDate>
+        </item>
+        <item>
+          <name>Research and development</name>
+          <updateDate>2026-08-26T19:47:39Z</updateDate>
+        </item>
+        <item>
+          <name>Rhode Island</name>
+          <updateDate>2026-08-26T19:43:48Z</updateDate>
+        </item>
+        <item>
+          <name>Solid waste and recycling</name>
+          <updateDate>2026-08-26T19:42:40Z</updateDate>
+        </item>
+        <item>
+          <name>South Carolina</name>
+          <updateDate>2026-08-26T19:46:58Z</updateDate>
+        </item>
+        <item>
+          <name>Sports and recreation facilities</name>
+          <updateDate>2026-08-26T19:44:42Z</updateDate>
+        </item>
+        <item>
+          <name>Tennessee</name>
+          <updateDate>2026-08-26T19:46:46Z</updateDate>
+        </item>
+        <item>
+          <name>Texas</name>
+          <updateDate>2026-08-26T19:42:15Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. territories and protectorates</name>
+          <updateDate>2026-08-26T19:44:04Z</updateDate>
+        </item>
+        <item>
+          <name>Utah</name>
+          <updateDate>2026-08-26T19:42:20Z</updateDate>
+        </item>
+        <item>
+          <name>Vermont</name>
+          <updateDate>2026-08-26T19:43:56Z</updateDate>
+        </item>
+        <item>
+          <name>Virginia</name>
+          <updateDate>2026-08-26T19:45:21Z</updateDate>
+        </item>
+        <item>
+          <name>Washington State</name>
+          <updateDate>2026-08-26T19:46:52Z</updateDate>
+        </item>
+        <item>
+          <name>Water quality</name>
+          <updateDate>2026-08-26T19:47:46Z</updateDate>
+        </item>
+        <item>
+          <name>Water resources funding</name>
+          <updateDate>2026-08-26T19:32:03Z</updateDate>
+        </item>
+        <item>
+          <name>Water storage</name>
+          <updateDate>2026-08-26T19:33:31Z</updateDate>
+        </item>
+        <item>
+          <name>Water use and supply</name>
+          <updateDate>2026-08-26T19:33:25Z</updateDate>
+        </item>
+        <item>
+          <name>Watersheds</name>
+          <updateDate>2026-08-26T19:34:49Z</updateDate>
+        </item>
+        <item>
+          <name>Wisconsin</name>
+          <updateDate>2026-08-26T19:49:02Z</updateDate>
+        </item>
+        <item>
+          <name>Wyoming</name>
+          <updateDate>2026-08-26T19:42:35Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Water Resources Development</name>
+        <updateDate>2026-09-25T14:13:22Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2026-09-03</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2026-09-10T16:37:48Z</updateDate>
+        <text><![CDATA[<p><strong>Water Resources Development Act of 2026</strong></p><p>This bill authorizes and modifies certain water resource infrastructure projects and programs of the U.S. Army Corps of Engineers and makes related requirements. For example, the bill authorizes and modifies various water resources feasibility studies and projects of the Corps of Engineers, such as studies or projects&nbsp;to</p><ul><li>maintain ports and harbors,</li><li>make certain waterways more navigable,</li><li>reduce flood and storm damage,</li><li>restore aquatic ecosystems and protect fish and wildlife,</li><li>protect shorelines,</li><li>address harmful algal blooms,</li><li>rehabilitate dams,</li><li>manage recreational sites and facilities,</li><li>support water supply and storage projects, and</li><li>support other water resources infrastructure.</li></ul><p>The bill also directs the Corps of Engineers to establish an Office on Alternative Delivery Methods in order to accelerate project delivery of infrastructure.&nbsp;</p><p>In addition, the bill directs the Corps of Engineers to issue a rule that establishes categorical permissions for certain harbor or river improvements&nbsp;that will cause only minimal adverse environmental effects.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Water Resources Development Act of 2026</title>
+    <titles>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Water Resources Development Act of 2026</title>
+        <updateDate>2026-09-18T05:23:20Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To provide for improvements to the rivers and harbors of the United States, to provide for the conservation and development of water and related resources, and for other purposes.</title>
+        <updateDate>2026-09-18T05:23:20Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Water Resources Development Act of 2026</title>
+        <updateDate>2026-09-04T05:23:19Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Water Resources Development Act of 2026</title>
+        <updateDate>2026-06-30T10:53:25Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Water Resources Development Act of 2026</title>
+        <updateDate>2026-06-30T10:53:22Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To provide for improvements to the rivers and harbors of the United States, to provide for the conservation and development of water and related resources, and for other purposes.</title>
+        <updateDate>2026-06-30T10:48:33Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-09-16T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9497eh/xml/BILLS-119hr9497eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-09-03T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9497rh/xml/BILLS-119hr9497rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-06-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9497ih/xml/BILLS-119hr9497ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-09-17</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

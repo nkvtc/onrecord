@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>4776</number>
+    <updateDate>2026-09-08T18:12:22Z</updateDate>
+    <updateDateIncludingText>2026-09-08T18:12:22Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-07-25</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/4776</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 128 (Friday, July 25, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. WESTERMAN:H.R. 4776.Congress has the power to enact this legislation pursuantto the following:clause 3 of section 8 of article I of the Constitution[Page H3656]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>ssev00</systemCode>
+        <name>Environment and Public Works Committee</name>
+        <chamber>Senate</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-12-18T21:49:33Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsii00</systemCode>
+        <name>Natural Resources Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-18T19:36:48Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-12-18T19:34:44Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-12-15T22:58:47Z</date>
+          </item>
+          <item>
+            <name>Reported By</name>
+            <date>2025-12-04T17:53:22Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2025-11-20T15:00:00Z</date>
+          </item>
+          <item>
+            <name>Hearings By (full committee)</name>
+            <date>2025-09-10T12:42:05Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-07-25T15:00:40Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-395</citation>
+      </committeeReport>
+      <committeeReport>
+        <citation>H. Rept. 119-395,Part 2</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process; providing for consideration of the bill (H.R. 1366) to provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes; providing for consideration of the bill (H.R. 845) to require the Secretary of the Interior to reissue regulations removing the gray wolf from the list of endangered and threatened wildlife under the Endangered Species Act of 1973; providing for consideration of the bill (H.R. 3616) to require the Federal Energy Regulatory Commission to review regulations that may affect the reliable operation of the bulk-power system; providing for consideration of the bill (H.R. 3632) to amend the Federal Power Act to adjust the requirements for orders, rules, and regulations relating to furnishing adequate service, to require owners or operators of generating facilities to provide notice of planned retirements of certain electric generating units, and for other purposes; and providing for consideration of the bill (H.R. 4371) to amend the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 to enhance efforts to combat the trafficking of children.</title>
+        <congress>119</congress>
+        <number>951</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-12-16</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:32:50</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 6703) to ensure access to affordable health insurance; providing for consideration of the bill (H.R. 498) to amend title XIX of the Social Security Act to prohibit Federal Medicaid funding for gender transition procedures for minors; providing for consideration of the bill (H.R. 3492) to amend section 116 of title 18, United States Code, with respect to genital and bodily mutilation and chemical castration of minors; and relating to consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process.</title>
+        <congress>119</congress>
+        <number>953</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-12-17</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>11:07:03</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <committees>
+          <item>
+            <systemCode>ssev00</systemCode>
+            <name>Environment and Public Works Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:40:23</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:40:22</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 221 - 196 (Roll no. 356). (text of amendment in the nature of a substitute: CR H6037-6040)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>356</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll356.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-18T19:40:22Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:40:22</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 221 - 196 (Roll no. 356).</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>356</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll356.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-18T19:40:22Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:36:48</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 206 - 211 (Roll no. 355).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>355</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll355.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-12-18T19:36:48Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:35:08</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8A000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:34:44</actionTime>
+        <text>Ms. Lee (NV) moved to recommit to the Committee on Natural Resources. (text: CR H6068)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:34:35</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>14:32:54</actionTime>
+        <text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 4776.</text>
+        <type>Floor</type>
+        <actionCode>H32600</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>13:51:20</actionTime>
+        <text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text>
+        <type>Floor</type>
+        <actionCode>H32050</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>13:51:09</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H6065-6069)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:02:09</actionTime>
+        <text>Committee of the Whole House on the state of the Union rises leaving H.R. 4776 as unfinished business.</text>
+        <type>Floor</type>
+        <actionCode>H32700</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:02:01</actionTime>
+        <text>On motion that the committee rise Agreed to by voice vote.</text>
+        <type>Floor</type>
+        <actionCode>H32341</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:01:45</actionTime>
+        <text>Mr. Westerman moved that the committee rise.</text>
+        <type>Floor</type>
+        <actionCode>H32340</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>11:01:19</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Roy amendment No. 6, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Huffman demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>10:50:20</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 951, the Committee of the Whole proceeded with 10 minutes of debate on the Roy amendment No. 6.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>10:49:40</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Roy amendment No. 5, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Huffman demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>10:40:07</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 951, the Committee of the Whole proceeded with 10 minutes of debate on the Roy amendment No. 5.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>10:39:19</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Clyde amendment No. 1, the Chair put the question on agreeing to the amendment and by voice vote, announced the ayes had prevailed. Mr. Huffman demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>10:29:23</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 951, the Committee of the Whole proceeded with 10 minutes of debate on the Clyde amendment No. 1.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:58:07</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole resumed general debate on H.R. 4776.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:21:12</actionTime>
+        <text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 4776.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:20:23</actionTime>
+        <text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 951 and Rule XVIII.</text>
+        <type>Floor</type>
+        <actionCode>H32020</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:20:23</actionTime>
+        <text>The Speaker designated the Honorable Carol D. Miller to act as Chairwoman of the Committee.</text>
+        <type>Floor</type>
+        <actionCode>H32400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:20:08</actionTime>
+        <text>Rule provides for consideration of H.R. 4776, H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632 and H.R. 4371. The resolution provides for consideration of H.R. 4776, under a structured rule and H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632, and H.R. 4371 under a closed rule. The resolution provides one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-18</actionDate>
+        <actionTime>09:20:03</actionTime>
+        <text>Considered under the provisions of rule H. Res. 951. (consideration: CR H6029-6044)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-16</actionDate>
+        <actionTime>09:59:03</actionTime>
+        <text>Rules Committee Resolution H. Res. 951 Reported to House. Rule provides for consideration of H.R. 4776, H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632 and H.R. 4371. The resolution provides for consideration of H.R. 4776, under a structured rule and H.R. 1366, H.R. 845, H.R. 3616, H.R. 3632, and H.R. 4371 under a closed rule. The resolution provides one motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <text>Supplemental report filed by the Committee on Natural Resources, H. Rept. 119-395, Part II.</text>
+        <type>Committee</type>
+        <actionCode>H12210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-15</actionDate>
+        <text>Supplemental report filed by the Committee on Natural Resources, H. Rept. 119-395, Part II.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 344.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00344</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-395.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-12-04</actionDate>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-395.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-11-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 25 - 18.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-11-20</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-10</actionDate>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Hearings Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-07-25</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsii00</systemCode>
+            <name>Natural Resources Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-07-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-07-25</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>W000821</bioguideId>
+        <fullName>Rep. Westerman, Bruce [R-AR-4]</fullName>
+        <firstName>Bruce</firstName>
+        <lastName>Westerman</lastName>
+        <party>R</party>
+        <state>AR</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>G000592</bioguideId>
+        <fullName>Rep. Golden, Jared F. [D-ME-2]</fullName>
+        <firstName>Jared</firstName>
+        <lastName>Golden</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <middleName>F.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-07-25</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001063</bioguideId>
+        <fullName>Rep. Cuellar, Henry [D-TX-28]</fullName>
+        <firstName>Henry</firstName>
+        <lastName>Cuellar</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>28</district>
+        <sponsorshipDate>2025-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001212</bioguideId>
+        <fullName>Rep. Stauber, Pete [R-MN-8]</fullName>
+        <firstName>Pete</firstName>
+        <lastName>Stauber</lastName>
+        <party>R</party>
+        <state>MN</state>
+        <district>8</district>
+        <sponsorshipDate>2025-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000581</bioguideId>
+        <fullName>Rep. Gonzalez, Vicente [D-TX-34]</fullName>
+        <firstName>Vicente</firstName>
+        <lastName>Gonzalez</lastName>
+        <party>D</party>
+        <state>TX</state>
+        <district>34</district>
+        <sponsorshipDate>2025-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>H001096</bioguideId>
+        <fullName>Rep. Hageman, Harriet M. [R-WY-At Large]</fullName>
+        <firstName>Harriet</firstName>
+        <lastName>Hageman</lastName>
+        <party>R</party>
+        <state>WY</state>
+        <middleName>M.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2025-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001322</bioguideId>
+        <fullName>Rep. Baumgartner, Michael [R-WA-5]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Baumgartner</lastName>
+        <party>R</party>
+        <state>WA</state>
+        <district>5</district>
+        <sponsorshipDate>2025-09-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>E000300</bioguideId>
+        <fullName>Rep. Evans, Gabe [R-CO-8]</fullName>
+        <firstName>Gabe</firstName>
+        <lastName>Evans</lastName>
+        <party>R</party>
+        <state>CO</state>
+        <district>8</district>
+        <sponsorshipDate>2025-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000600</bioguideId>
+        <fullName>Rep. Perez, Marie Gluesenkamp [D-WA-3]</fullName>
+        <firstName>Marie</firstName>
+        <lastName>Perez</lastName>
+        <party>D</party>
+        <state>WA</state>
+        <middleName>Gluesenkamp</middleName>
+        <district>3</district>
+        <sponsorshipDate>2025-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000230</bioguideId>
+        <fullName>Rep. Davis, Donald G. [D-NC-1]</fullName>
+        <firstName>Donald</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>NC</state>
+        <middleName>G.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-09-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001215</bioguideId>
+        <fullName>Rep. Miller-Meeks, Mariannette [R-IA-1]</fullName>
+        <firstName>Mariannette</firstName>
+        <lastName>Miller-Meeks</lastName>
+        <party>R</party>
+        <state>IA</state>
+        <district>1</district>
+        <sponsorshipDate>2025-09-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000605</bioguideId>
+        <fullName>Rep. Gray, Adam [D-CA-13]</fullName>
+        <firstName>Adam</firstName>
+        <lastName>Gray</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>13</district>
+        <sponsorshipDate>2025-11-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001323</bioguideId>
+        <fullName>Rep. Begich, Nicholas J. [R-AK-At Large]</fullName>
+        <firstName>Nicholas</firstName>
+        <lastName>Begich</lastName>
+        <party>R</party>
+        <state>AK</state>
+        <middleName>J.</middleName>
+        <district>0</district>
+        <sponsorshipDate>2025-11-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001059</bioguideId>
+        <fullName>Rep. Costa, Jim [D-CA-21]</fullName>
+        <firstName>Jim</firstName>
+        <lastName>Costa</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>21</district>
+        <sponsorshipDate>2025-11-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000399</bioguideId>
+        <fullName>Rep. Kiggans, Jennifer A. [R-VA-2]</fullName>
+        <firstName>Jennifer</firstName>
+        <lastName>Kiggans</lastName>
+        <party>R</party>
+        <state>VA</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-11-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+          <updateDate>2025-11-18T19:51:33Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-11-18T19:51:46Z</updateDate>
+        </item>
+        <item>
+          <name>Judicial review and appeals</name>
+          <updateDate>2025-11-18T19:51:57Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Environmental Protection</name>
+        <updateDate>2025-09-16T15:49:49Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>07</versionCode>
+        <actionDate>2025-12-04</actionDate>
+        <actionDesc>Reported to House</actionDesc>
+        <updateDate>2025-12-16T21:22:24Z</updateDate>
+        <text><![CDATA[<p><strong>Standardizing Permitting and Expediting Economic Development Act or the SPEED Act</strong></p><p>This bill limits the scope of the National Environmental Policy Act of 1969 (NEPA) and modifies the environmental review of major federal actions under NEPA to generally limit the number of federal actions that trigger NEPA review and to expedite the review process.</p><p>For example, the bill&nbsp;redefines <em>major federal actions</em>, including to specify that an agency may not determine that an action is a major federal action based solely on the provision of federal funds.</p><p>It also excludes from the requirement for NEPA review certain proposed agency actions that have already been reviewed under another federal, state, or tribal environmental review statute that meets the requirements of&nbsp;NEPA.</p><p>The bill directs an agency, when preparing an environmental document for a proposed agency action, to consider only those effects  proximately caused by the immediate project or action under consideration. Agencies may not consider effects that are speculative, attenuated from the project or action, separate in time or place from the project or action, or in relation to separate projects or actions.</p><p>The bill modifies the requirement for agencies to prepare an environmental assessment to apply to agency actions that are not likely to have a reasonably foreseeable significant effect on the quality of the human environment. (Currently, the requirement only applies to actions that do not have such an effect.) </p><p>The bill makes a variety of other modifications to NEPA, including by limiting judicial review of NEPA cases.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>SPEED Act</title>
+    <titles>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>Standardizing Permitting and Expediting Economic Development Act</title>
+        <updateDate>2025-12-23T06:23:15Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from RFS (Referred to Senate) bill text</titleType>
+        <titleTypeCode>255</titleTypeCode>
+        <title>SPEED Act</title>
+        <updateDate>2025-12-23T06:23:15Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Referred in Senate</billTextVersionName>
+        <billTextVersionCode>RFS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>SPEED Act</title>
+        <updateDate>2025-12-19T12:08:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Standardizing Permitting and Expediting Economic Development Act</title>
+        <updateDate>2025-12-19T12:08:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process.</title>
+        <updateDate>2025-12-19T12:08:22Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>SPEED Act</title>
+        <updateDate>2025-12-05T04:08:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Standardizing Permitting and Expediting Economic Development Act</title>
+        <updateDate>2025-12-05T04:08:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>SPEED Act</title>
+        <updateDate>2025-08-06T04:53:23Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Standardizing Permitting and Expediting Economic Development Act</title>
+        <updateDate>2025-08-06T04:53:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>SPEED Act</title>
+        <updateDate>2025-08-06T04:53:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process.</title>
+        <updateDate>2025-08-06T04:48:27Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>143</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H.Res. 951, the amendment in the nature of a substitute recommended by the Committee on Natural Resources is considered adopted and pursuant to the provisions of H.Res. 953, the further amendment specified in section 5 is considered adopted.</description>
+        <updateDate>2025-12-19T09:09:14Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>On agreeing to the Rules amendment (A004) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-18T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4776</number>
+          <title>SPEED Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>On agreeing to the Rules amendment (A004) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>House amendment offered/reported by: Amendment in the nature of a substitute reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A004) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>140</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 6 printed in House Report 119-410 to define further what significant effects will trigger an Environmental Impact Statement.</description>
+        <purpose>Amendment sought to define further what significant effects will trigger an Environmental Impact Statement.</purpose>
+        <updateDate>2025-12-30T16:01:51Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>On agreeing to the Roy amendment (A003) Failed by recorded vote: 204 - 217 (Roll no. 354).</text>
+          <actionTime>14:32:43</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 354</name>
+              <url>https://www.congress.gov/votes/house/119-1/354</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>R000614</bioguideId>
+            <fullName>Rep. Roy, Chip [R-TX-21]</fullName>
+            <firstName>Chip</firstName>
+            <lastName>Roy</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <district>21</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-18T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4776</number>
+          <title>SPEED Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:43</actionTime>
+              <text>On agreeing to the Roy amendment (A003) Failed by recorded vote: 204 - 217 (Roll no. 354).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>354</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll354.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:43</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>354</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll354.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>10:50:05</actionTime>
+              <text>Amendment (A003) offered by Mr. Roy. (consideration: CR H6042-6043, H6067; text: CR H6042)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>10:50:05</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:43</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Roy amendment (A003) Failed by recorded vote: 204 - 217 (Roll no. 354).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>354</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll354.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:43</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>354</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll354.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>139</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 5 printed in House Report 119-410 to revise the scope of review clause so the bill clarifies that NEPA review only applies to environmental impacts that the lead agency or cooperating federal agencies have the legal authority to regulate.</description>
+        <purpose>Amendment sought to clarify that the National Environmental Policy Act reviews only apply to environmental impacts that the lead agency or cooperating federal agencies have the legal authority to regulate.</purpose>
+        <updateDate>2026-01-16T09:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>On agreeing to the Roy amendment (A002) Failed by recorded vote: 208 - 214 (Roll no. 353).</text>
+          <actionTime>14:32:21</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 353</name>
+              <url>https://www.congress.gov/votes/house/119-1/353</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>R000614</bioguideId>
+            <fullName>Rep. Roy, Chip [R-TX-21]</fullName>
+            <firstName>Chip</firstName>
+            <lastName>Roy</lastName>
+            <party>R</party>
+            <state>TX</state>
+            <district>21</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-18T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4776</number>
+          <title>SPEED Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:21</actionTime>
+              <text>On agreeing to the Roy amendment (A002) Failed by recorded vote: 208 - 214 (Roll no. 353).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>353</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:21Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll353.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:21</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>353</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:21Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll353.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>10:40:04</actionTime>
+              <text>Amendment (A002) offered by Mr. Roy. (consideration: CR H6041-6042, H6066-6067; text: CR H6041)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>10:40:04</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:21</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Roy amendment (A002) Failed by recorded vote: 208 - 214 (Roll no. 353).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>353</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:21Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll353.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:32:21</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>353</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:32:21Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll353.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>138</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>An amendment numbered 1 printed in House Report 119-410 to clarify that direct harm does not include emotional, aesthetic, or recreational harm unaccompanied by a material physical or property harm.</description>
+        <purpose>Amendment sought to clarify that direct harm does not include emotional, aesthetic, or recreational harm unaccompanied by a material physical or property harm.</purpose>
+        <updateDate>2025-12-30T16:01:04Z</updateDate>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>On agreeing to the Clyde amendment (A001) Failed by recorded vote: 205 - 220 (Roll no. 352).</text>
+          <actionTime>14:22:16</actionTime>
+          <links>
+            <link>
+              <name>Roll no. 352</name>
+              <url>https://www.congress.gov/votes/house/119-1/352</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>C001116</bioguideId>
+            <fullName>Rep. Clyde, Andrew S. [R-GA-9]</fullName>
+            <firstName>Andrew</firstName>
+            <lastName>Clyde</lastName>
+            <party>R</party>
+            <state>GA</state>
+            <middleName>S.</middleName>
+            <district>9</district>
+          </item>
+        </sponsors>
+        <submittedDate>2025-12-18T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>4776</number>
+          <title>SPEED Act</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:22:16</actionTime>
+              <text>On agreeing to the Clyde amendment (A001) Failed by recorded vote: 205 - 220 (Roll no. 352).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>352</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:22:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll352.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:22:16</actionTime>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>352</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:22:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll352.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>10:29:04</actionTime>
+              <text>Amendment (A001) offered by Mr. Clyde. (consideration: CR H6040-6041, H6066; text: CR H6040)</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:22:16</actionTime>
+              <text>Roll call votes on amendments in House</text>
+              <type>Floor</type>
+              <actionCode>75000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>352</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:22:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll352.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>10:29:04</actionTime>
+              <text>House Amendment Offered</text>
+              <type>Floor</type>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-12-18</actionDate>
+              <actionTime>14:22:16</actionTime>
+              <text>House amendment not agreed to: On agreeing to the Clyde amendment (A001) Failed by recorded vote: 205 - 220 (Roll no. 352).</text>
+              <type>Floor</type>
+              <actionCode>73000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>352</rollNumber>
+                  <chamber>House</chamber>
+                  <congress>119</congress>
+                  <date>2025-12-18T19:22:16Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://clerk.house.gov/evs/2025/roll352.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-12-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4776eh/xml/BILLS-119hr4776eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Referred in Senate</type>
+        <date>2025-12-18T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4776rfs/xml/BILLS-119hr4776rfs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2025-12-04T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4776rh/xml/BILLS-119hr4776rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-07-25T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr4776ih/xml/BILLS-119hr4776ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-12-18</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,3818 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>1968</number>
+    <updateDate>2026-09-08T19:31:27Z</updateDate>
+    <updateDateIncludingText>2026-09-08T19:31:27Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-03-10</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/1968</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 44 (Monday, March 10, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. COLE:H.R. 1968.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law. . . .'' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States.. . .'' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H1067]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Unknown</name>
+            <date>2025-03-11T21:40:49Z</date>
+          </item>
+          <item>
+            <name>Unknown</name>
+            <date>2025-03-11T21:10:32Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-10T16:00:05Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsbu00</systemCode>
+        <name>Budget Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2025-03-10T16:00:10Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Temporary Extension of Fentanyl-Related Substances Scheduling Act</title>
+        <congress>119</congress>
+        <number>724</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2025-02-25</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Public law contains the text</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the joint resolution (H.J. Res. 25) providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to ‘‘Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales’’; providing for consideration of the bill (H.R. 1156) to amend the CARES Act to extend the statute of limitations for fraud under certain unemployment programs, and for other purposes; providing for consideration of the bill (H.R. 1968) making further continuing appropriations and other extensions for the fiscal year ending September 30, 2025, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>211</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2025-09-16</actionDate>
+          <text>Pursuant to the provisions of H.Res. 707, H.Res. 211 is amended.</text>
+          <actionTime>15:13:08</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2025-03-15</actionDate>
+        <text>Became Public Law No: 119-4.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-15</actionDate>
+        <text>Became Public Law No: 119-4.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-15</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-15</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Yea-Nay Vote. 54 - 46. Record Vote Number: 133.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>133</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-03-14T22:08:01Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Yea-Nay Vote. 54 - 46. Record Vote Number: 133.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>133</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-03-14T22:08:01Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture on the measure invoked in Senate by Yea-Nay Vote. 62 - 38. Record Vote Number: 128. (CR S1768)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>128</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2025-03-14T21:07:26Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the measure presented in Senate. (CR S1768)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S1768-1772)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure agreed to in Senate by Unanimous Consent. (CR S1768)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the motion to proceed to the measure withdrawn by unanimous consent in Senate. (CR S1768)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the motion to proceed to the measure presented in Senate. (CR S1700)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1681)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 26.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time. (Legislative Day March 10, 2025).</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:47:30</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:47:28</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 217 - 213 (Roll no. 70). (text of amendment in the nature of a substitute: CR H1102-1113)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>70</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll070.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-11T21:47:28Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:47:28</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 217 - 213 (Roll no. 70). (text of amendment in the nature of a substitute: CR H1102-1113)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>70</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll070.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-11T21:47:28Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:40:49</actionTime>
+        <text>On motion to recommit Failed by the Yeas and Nays: 213 - 216 (Roll no. 69).</text>
+        <type>Floor</type>
+        <actionCode>H36210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>69</rollNumber>
+            <url>https://clerk.house.gov/evs/2025/roll069.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2025-03-11T21:40:49Z</date>
+            <sessionNumber>1</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:34:21</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H1124-1126)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:11:11</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 1968, the Chair put the question on the motion to recommit and announced that the noes had prevailed. Ms. Meng demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:10:45</actionTime>
+        <text>The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:10:32</actionTime>
+        <text>Ms. Meng moved to recommit to the Committee on Appropriations. (text: CR H1123-1124)</text>
+        <type>Floor</type>
+        <actionCode>H36200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>17:10:00</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>15:38:22</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 1968.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>15:37:38</actionTime>
+        <text>Rule provides for consideration of H.J. Res. 25, H.R. 1156 and H.R. 1968. The resolution provides for consideration of H.J. Res. 25, H.R. 1156, and H.R. 1968 under a closed rule. Also, the resolution provides for one hour of general debate and one motion to recommit on each measure.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>15:37:33</actionTime>
+        <text>Considered under the provisions of rule H. Res. 211. (consideration: CR H1102-1124)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>14:06:23</actionTime>
+        <text>Rule H. Res. 211 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-11</actionDate>
+        <actionTime>10:09:59</actionTime>
+        <text>Rules Committee Resolution H. Res. 211 Reported to House. Rule provides for consideration of H.J. Res. 25, H.R. 1156 and H.R. 1968. The resolution provides for consideration of H.J. Res. 25, H.R. 1156, and H.R. 1968 under a closed rule. Also, the resolution provides for one hour of general debate and one motion to recommit on each measure.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-10</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsbu00</systemCode>
+            <name>Budget Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-10</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-03-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-03-10</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2025-03-11T15:41:00Z</pubDate>
+        <title>H.R. 1968, Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+        <url>https://www.cbo.gov/publication/61248</url>
+        <description>As Posted on the Website of the House Committee on Rules, March 8, 2025</description>
+      </item>
+    </cboCostEstimates>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-4</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Abortion</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Access Board</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Accounting and auditing</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Administrative remedies</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Adoption and foster care</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Advanced technology and technological innovations</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Advisory bodies</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Aging</name>
+          <updateDate>2025-03-12T17:52:22Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural conservation and pollution</name>
+          <updateDate>2025-03-12T17:43:29Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural education</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural equipment and machinery</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural insurance</name>
+          <updateDate>2025-03-12T17:44:50Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural marketing and promotion</name>
+          <updateDate>2025-03-12T17:45:01Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural prices, subsidies, credit</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural research</name>
+          <updateDate>2025-03-12T17:43:34Z</updateDate>
+        </item>
+        <item>
+          <name>Agricultural trade</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Air quality</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Alabama</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Alaska Natives and Hawaiians</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Alliances</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Alternative and renewable resources</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>American Battle Monuments Commission</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>American Samoa</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Animal and plant health</name>
+          <updateDate>2025-03-12T17:43:40Z</updateDate>
+        </item>
+        <item>
+          <name>Animal protection and human-animal relationships</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Appalachian Regional Commission</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2025-03-12T17:40:44Z</updateDate>
+        </item>
+        <item>
+          <name>Aquatic ecology</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Architect of the Capitol</name>
+          <updateDate>2025-03-12T17:53:27Z</updateDate>
+        </item>
+        <item>
+          <name>Arizona</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Arkansas</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Armed Forces Retirement Home</name>
+          <updateDate>2025-03-13T14:58:13Z</updateDate>
+        </item>
+        <item>
+          <name>Arms control and nonproliferation</name>
+          <updateDate>2025-03-12T17:47:32Z</updateDate>
+        </item>
+        <item>
+          <name>Army Corps of Engineers</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Asia</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Assault and harassment offenses</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Athletes</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Atmospheric science and weather</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2025-03-12T17:41:56Z</updateDate>
+        </item>
+        <item>
+          <name>Birds</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2025-03-12T17:48:32Z</updateDate>
+        </item>
+        <item>
+          <name>Budget process</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Building construction</name>
+          <updateDate>2025-03-12T17:45:37Z</updateDate>
+        </item>
+        <item>
+          <name>Business investment and capital</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>Buy American requirements</name>
+          <updateDate>2025-03-13T15:00:20Z</updateDate>
+        </item>
+        <item>
+          <name>California</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Canada</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Cardiovascular and respiratory health</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Cell biology and embryology</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Cemeteries and funerals</name>
+          <updateDate>2025-03-13T14:57:57Z</updateDate>
+        </item>
+        <item>
+          <name>Census and government statistics</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Child health</name>
+          <updateDate>2025-03-12T17:44:44Z</updateDate>
+        </item>
+        <item>
+          <name>Child safety and welfare</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>China</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Climate change and greenhouse gases</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Coal</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Coast guard</name>
+          <updateDate>2025-03-12T17:49:06Z</updateDate>
+        </item>
+        <item>
+          <name>Collective security</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Colorado</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Commission of Fine Arts</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Commission on Civil Rights</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Commodities markets</name>
+          <updateDate>2025-03-12T17:43:21Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Credit Corporation</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Commodity Futures Trading Commission</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Community life and organization</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Competition and antitrust</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Competitiveness, trade promotion, trade deficits</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2025-03-12T17:41:37Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2025-03-12T17:44:14Z</updateDate>
+        </item>
+        <item>
+          <name>Conflicts and wars</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional officers and employees</name>
+          <updateDate>2025-03-12T17:53:07Z</updateDate>
+        </item>
+        <item>
+          <name>Connecticut</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Correctional facilities and imprisonment</name>
+          <updateDate>2025-03-12T17:46:15Z</updateDate>
+        </item>
+        <item>
+          <name>Crime prevention</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Crime victims</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against children</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Crimes against women</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal investigation, prosecution, interrogation</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal justice information and records</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Criminal procedure and sentencing</name>
+          <updateDate>2025-03-12T17:42:07Z</updateDate>
+        </item>
+        <item>
+          <name>Cuba</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Currency</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Customs enforcement</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Dams and canals</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Defense Nuclear Facilities Safety Board</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Defense spending</name>
+          <updateDate>2025-03-12T17:46:25Z</updateDate>
+        </item>
+        <item>
+          <name>Delta Regional Authority</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Denali Commission</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Agriculture</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Commerce</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Defense</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Energy</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Health and Human Services</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Housing and Urban Development</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Justice</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Labor</name>
+          <updateDate>2025-03-13T15:00:28Z</updateDate>
+        </item>
+        <item>
+          <name>Department of State</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Transportation</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Veterans Affairs</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Interior</name>
+          <updateDate>2025-03-13T15:00:21Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Treasury</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Digestive and metabolic diseases</name>
+          <updateDate>2025-03-12T17:42:31Z</updateDate>
+        </item>
+        <item>
+          <name>Disability and paralysis</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Disability assistance</name>
+          <updateDate>2025-03-12T17:52:28Z</updateDate>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+          <updateDate>2025-03-12T17:41:25Z</updateDate>
+        </item>
+        <item>
+          <name>District of Columbia</name>
+          <updateDate>2025-03-12T17:48:19Z</updateDate>
+        </item>
+        <item>
+          <name>Domestic violence and child abuse</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Drug Enforcement Administration (DEA)</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Drug safety, medical device, and laboratory regulation</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Drug therapy</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Drug trafficking and controlled substances</name>
+          <updateDate>2025-03-12T17:42:15Z</updateDate>
+        </item>
+        <item>
+          <name>Drug, alcohol, tobacco use</name>
+          <updateDate>2025-03-12T17:52:07Z</updateDate>
+        </item>
+        <item>
+          <name>Economic development</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Education of the disadvantaged</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Education programs funding</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Educational technology and distance education</name>
+          <updateDate>2025-03-12T17:44:32Z</updateDate>
+        </item>
+        <item>
+          <name>Election Assistance Commission</name>
+          <updateDate>2025-03-12T17:47:58Z</updateDate>
+        </item>
+        <item>
+          <name>Elections, voting, political campaign regulation</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Electric power generation and transmission</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Elementary and secondary education</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency communications systems</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2025-03-12T17:48:25Z</updateDate>
+        </item>
+        <item>
+          <name>Employee benefits and pensions</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2025-03-12T17:51:25Z</updateDate>
+        </item>
+        <item>
+          <name>Employment discrimination and employee rights</name>
+          <updateDate>2025-03-12T17:43:13Z</updateDate>
+        </item>
+        <item>
+          <name>Endangered and threatened species</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Energy efficiency and conservation</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental Protection Agency (EPA)</name>
+          <updateDate>2025-03-12T17:50:20Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental assessment, monitoring, research</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental health</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental regulatory procedures</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Environmental technology</name>
+          <updateDate>2025-03-12T17:47:42Z</updateDate>
+        </item>
+        <item>
+          <name>Equal Employment Opportunity Commission (EEOC)</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Europe</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Evidence and witnesses</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Executive Office of the President</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2025-03-12T17:40:51Z</updateDate>
+        </item>
+        <item>
+          <name>Family planning and birth control</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Family relationships</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Family services</name>
+          <updateDate>2025-03-12T17:52:13Z</updateDate>
+        </item>
+        <item>
+          <name>Farm Credit Administration</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Farmland</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Bureau of Investigation (FBI)</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Crop Insurance Corporation</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Emergency Management Agency (FEMA)</name>
+          <updateDate>2025-03-12T17:49:19Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Energy Regulatory Commission (FERC)</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Maritime Commission</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal appellate courts</name>
+          <updateDate>2025-03-13T15:00:19Z</updateDate>
+        </item>
+        <item>
+          <name>Federal officials</name>
+          <updateDate>2025-03-13T15:00:22Z</updateDate>
+        </item>
+        <item>
+          <name>Federal-Indian relations</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Firearms and explosives</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Fires</name>
+          <updateDate>2025-03-12T17:50:30Z</updateDate>
+        </item>
+        <item>
+          <name>First responders and emergency personnel</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Fishes</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2025-03-12T17:41:30Z</updateDate>
+        </item>
+        <item>
+          <name>Florida</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Food and Drug Administration (FDA)</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Food assistance and relief</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Food industry and services</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Food supply, safety, and labeling</name>
+          <updateDate>2025-03-12T17:44:38Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign aid and international relief</name>
+          <updateDate>2025-03-12T17:46:58Z</updateDate>
+        </item>
+        <item>
+          <name>Forests, forestry, trees</name>
+          <updateDate>2025-03-12T17:50:39Z</updateDate>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>General Services Administration</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Genetics</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Geography and mapping</name>
+          <updateDate>2025-03-12T17:49:53Z</updateDate>
+        </item>
+        <item>
+          <name>Georgia</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Government National Mortgage Association (Ginnie Mae)</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2025-03-12T17:48:06Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2025-03-12T17:43:47Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Government lending and loan guarantees</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2025-03-12T17:51:01Z</updateDate>
+        </item>
+        <item>
+          <name>Great Lakes</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Guam</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>HIV/AIDS</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Hate crimes</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Hawaii</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Hazardous wastes and toxic substances</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Health care costs and insurance</name>
+          <updateDate>2025-03-13T14:59:43Z</updateDate>
+        </item>
+        <item>
+          <name>Health care coverage and access</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+          <updateDate>2025-03-12T17:50:46Z</updateDate>
+        </item>
+        <item>
+          <name>Health information and medical records</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Health personnel</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Health programs administration and funding</name>
+          <updateDate>2025-03-12T17:41:09Z</updateDate>
+        </item>
+        <item>
+          <name>Health promotion and preventive care</name>
+          <updateDate>2025-03-12T17:43:05Z</updateDate>
+        </item>
+        <item>
+          <name>Health technology, devices, supplies</name>
+          <updateDate>2025-03-12T17:42:37Z</updateDate>
+        </item>
+        <item>
+          <name>Hereditary and development disorders</name>
+          <updateDate>2025-03-13T15:00:28Z</updateDate>
+        </item>
+        <item>
+          <name>Higher education</name>
+          <updateDate>2025-03-12T17:52:35Z</updateDate>
+        </item>
+        <item>
+          <name>Historic sites and heritage areas</name>
+          <updateDate>2025-03-12T17:49:41Z</updateDate>
+        </item>
+        <item>
+          <name>Historical and cultural resources</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Home and outpatient care</name>
+          <updateDate>2025-03-12T17:42:47Z</updateDate>
+        </item>
+        <item>
+          <name>Homelessness and emergency shelter</name>
+          <updateDate>2025-03-13T14:59:31Z</updateDate>
+        </item>
+        <item>
+          <name>Hong Kong</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Hospital care</name>
+          <updateDate>2025-03-12T17:42:42Z</updateDate>
+        </item>
+        <item>
+          <name>House of Representatives</name>
+          <updateDate>2025-03-12T17:52:58Z</updateDate>
+        </item>
+        <item>
+          <name>Housing and community development funding</name>
+          <updateDate>2025-03-12T17:45:07Z</updateDate>
+        </item>
+        <item>
+          <name>Housing discrimination</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Housing finance and home ownership</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Housing for the elderly and disabled</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Housing industry and standards</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Housing supply and affordability</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Human rights</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>Human trafficking</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Humanities programs funding</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Idaho</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Illinois</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Immigration status and procedures</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Immunology and vaccination</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Indian claims</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Indian lands and resources rights</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Indian social and development programs</name>
+          <updateDate>2025-03-12T17:50:12Z</updateDate>
+        </item>
+        <item>
+          <name>Infectious and parasitic diseases</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Infrastructure development</name>
+          <updateDate>2025-03-13T15:00:23Z</updateDate>
+        </item>
+        <item>
+          <name>Insects</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Intellectual property</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+          <updateDate>2025-03-12T17:49:13Z</updateDate>
+        </item>
+        <item>
+          <name>Interagency Council on Homelessness</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Intergovernmental relations</name>
+          <updateDate>2025-03-13T14:59:48Z</updateDate>
+        </item>
+        <item>
+          <name>International exchange and broadcasting</name>
+          <updateDate>2025-03-13T15:00:27Z</updateDate>
+        </item>
+        <item>
+          <name>International monetary system and foreign exchange</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>International organizations and cooperation</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Internet, web applications, social media</name>
+          <updateDate>2025-03-12T17:44:26Z</updateDate>
+        </item>
+        <item>
+          <name>Iran</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Judges</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Juvenile crime and gang violence</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Kansas</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Kentucky</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Lakes and rivers</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Land transfers</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Land use and conservation</name>
+          <updateDate>2025-03-12T17:49:33Z</updateDate>
+        </item>
+        <item>
+          <name>Landlord and tenant</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement administration and funding</name>
+          <updateDate>2025-03-12T17:45:49Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement officers</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Lawyers and legal services</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Lease and rental services</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Legal Services Corporation</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Legal fees and court costs</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Libraries and archives</name>
+          <updateDate>2025-03-13T14:57:49Z</updateDate>
+        </item>
+        <item>
+          <name>Licensing and registrations</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+        <item>
+          <name>Livestock</name>
+          <updateDate>2025-03-12T17:42:01Z</updateDate>
+        </item>
+        <item>
+          <name>Long-term, rehabilitative, and terminal care</name>
+          <updateDate>2025-03-13T14:58:18Z</updateDate>
+        </item>
+        <item>
+          <name>Louisiana</name>
+          <updateDate>2025-03-13T15:00:24Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2025-03-11T12:10:59Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-03-10</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2025-03-11T21:50:59Z</updateDate>
+        <text><![CDATA[<p><strong>Full-Year Continuing Appropriations and Extensions Act, 2025</strong></p><p>This bill provides continuing FY2025 appropriations for federal agencies and extends various expiring programs and authorities.&nbsp;</p><p>Specifically, the bill provides continuing FY2025 appropriations to federal agencies for the remainder of FY2025. It is known as a continuing resolution (CR) and prevents a government shutdown that would otherwise occur if the FY2025 appropriations bills have not been enacted when the existing CR expires on March 14, 2025.&nbsp;</p><p>The CR funds most programs and activities at the FY2024 levels. It also includes several additional provisions that increase or decrease funding for various programs compared to FY2024 levels.&nbsp;</p><p>In addition, the bill extends several expiring programs and authorities, including</p><ul><li>several public health, Medicare, and Medicaid authorities and programs;</li><li>the National Flood Insurance Program;</li><li>authorities related to the Commodity Futures Trading Commission whistleblower program;</li><li>the Department of Homeland Security (DHS) National Cybersecurity Protection System;</li><li>authorities for DHS and the Department of Justice to take certain actions to mitigate a credible threat from an unmanned aircraft system;</li><li>the Temporary Assistance for Needy Families (TANF) program;</li><li>several immigration-related programs and authorities;&nbsp;</li><li>the special assessment on nonindigent persons or entities convicted of certain offenses involving sexual abuse or human trafficking;</li><li>the temporary scheduling order issued by the Drug Enforcement Administration to place fentanyl-related substances in Schedule I of the Controlled Substances Act;</li><li>the authorization for the U.S. Parole Commission; and</li><li>the Department of Agriculture livestock mandatory price reporting program.</li></ul>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2025-03-15</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-08-03T15:15:04Z</updateDate>
+        <text><![CDATA[<p><strong>Full-Year Continuing Appropriations and Extensions Act, 2025</strong></p><p>This act provides continuing FY2025 appropriations for federal agencies and extends various expiring programs and authorities.</p><p>DIVISION A--FULL-YEAR CONTINUING APPROPRIATIONS ACT, 2025</p><p><em>Full-Year Continuing Appropriations Act, 2025</em></p><p>This division provides continuing FY2025 appropriations to federal agencies for the remainder of FY2025 and extends various expiring programs and authorities. It is known as a continuing resolution (CR) and prevents a government shutdown that would otherwise occur if the FY2025 appropriations bills have not been enacted when the existing CR expires on March 14, 2025.&nbsp;</p><p>The CR funds most programs and activities at the FY2024 levels. It also includes several additional provisions that increase or decrease funding for various programs compared to FY2024 levels.&nbsp;</p><p>For more information, see <a href="https://www.congress.gov/crs-product/R48517">CRS Report R48517, Section-by-Section Summary of the Full-Year Continuing Appropriations Act, 2025 (Division A of P.L. 119-4) &nbsp;</a></p><p>DIVISION B--HEALTH</p><p>This division extends several expiring programs and authorities related to public health, Medicare, and Medicaid.&nbsp;</p><p>TITLE I--PUBLIC HEALTH EXTENDERS</p><p>(Sec. 2101) This section extends through FY2025 funding for the Teaching Health Center Graduate Medical Education Program, the Community Health Center Fund, and the National Health Service Corps.</p><p>The Teaching Health Center Graduate Medical Education Program supports education and training of medical students in primary care residency programs in community-based ambulatory patient care centers. The Community Health Center Fund supports (1) grants for outpatient health care facilities that serve medically underserved populations; and (2) the National Health Service Corps, which provides scholarships and student loan repayment awards to health care providers who agree to work in areas with health care provider shortages.</p><p>(Sec. 2102) This section extends funding through FY2025 for the Special Diabetes Program for Type I Diabetes and the Special Diabetes Program for Indians. (The Special Diabetes Program for Type I Diabetes supports research on the prevention and cure of Type I diabetes, and the Special Diabetes Program for Indians supports diabetes treatment and prevention for tribal populations.)</p><p>(Sec. 2103) This section extends through FY2025 the authority that allows states and tribes to request the temporary reassignment of state and local health department personnel who are funded through certain federal programs to immediately address a public health emergency.</p><p>It also extends through FY2025 provisions that prohibit the disclosure of information about Department of Health and Human Services (HHS) programs that could compromise national security (e.g., information regarding biomedical threats).</p><p>The section extends through FY2025 provisions that authorize HHS to engage with developers of medical countermeasures, and that provide for related antitrust exemptions, for the purpose of furthering product development.</p><p>Additionally, the section extends through FY2025 the National Advisory Committee on Children and Disasters, the National Advisory Committee on Seniors and Disasters, and the National Advisory Committee on Individuals with Disabilities and Disasters.</p><p>It also extends through FY2025 the authority of HHS to directly appoint candidates to positions within the National Disaster Medical System if HHS determines the number of personnel in the system is insufficient to address a public health emergency or potential public health emergency. (The National Disaster Medical System is a partnership between HHS, the Department of Defense, and other federal departments that responds to public health and other emergencies, including by deploying medical response teams.)</p><p>TITLE II--MEDICARE</p><p>(Sec. 2201) This section extends through FY2025 certain increased payment adjustments for low-volume hospitals under Medicare's inpatient prospective payment system.</p><p>(Sec. 2202) This section extends through FY2025 the Medicare-Dependent Hospital Program, which provides additional payments to certain small rural hospitals that have a high proportion of Medicare patients.</p><p>(Sec. 2203) This section extends through FY2025 certain increased payment adjustments for ground ambulance services in rural and other areas under Medicare.</p><p>(Sec. 2204) This section extends through FY2025 funding for certain Medicare quality-measurement activities.</p><p>(Sec. 2205) This section extends through FY2025 funding for state health insurance programs, area agencies on aging, aging and disability resource centers, and technical assistance related to outreach and enrollment with respect to Medicare and other programs.</p><p>(Sec. 2206) This section extends through FY2025 certain minimum adjustments to the work geographic index with respect to payments for physician services under Medicare.</p><p>(Sec. 2207) This section extends through FY2025 certain telehealth flexibilities under Medicare.</p><p>Specifically, the section (1) removes geographic restrictions on originating sites (i.e., the location of the beneficiary); (2) allows the home of the beneficiary to serve as the originating site for all services; (3) allows audiologists, physical therapists, occupational therapists, and speech-language pathologists to furnish telehealth services; (4) allows federally qualified health centers and rural health clinics to serve as the distant site (i.e., the location of the health care practitioner); (5) delays implementation of certain in-person evaluation requirements for mental health telehealth services; (6) expands coverage to include audio-only services for evaluation and management and behavioral health services; and (7) allows, for purposes of hospice care recertification under Medicare, physicians and nurse practitioners to fulfill the requirement of a face-to-face encounter with the hospice patient via telehealth.</p><p>(Sec. 2208) This section extends through FY2025 the Acute Hospital Care at Home Program under Medicare. (The program allows hospitals to treat certain patients from emergency departments or inpatient hospital beds at home.)</p><p>(Sec. 2209) This section extends through FY2025 coverage under the Medicare prescription drug benefit of prescription oral antiviral drugs that were authorized in response to the COVID-19 public health emergency.</p><p>(Sec. 2210) This section increases funding for the Medicare Improvement Fund beginning in FY2026.</p><p>(Sec. 2211) This section extends by two months the sequestration that applies to Medicare payments in FY2032.</p><p>TITLE III--HUMAN SERVICES</p><p>(Sec. 2301) This section extends through FY2025 the Sexual Risk Avoidance Education Program. This program supports projects to implement sexual risk avoidance education that teaches participants to voluntarily refrain from nonmarital sexual activities.</p><p>(Sec. 2302) This section extends through FY2025 the Personal Responsibility Education Program. This program provides grants to states to (1) educate young people about abstinence and contraception to prevent pregnancy and sexually transmitted infections, and (2) support pregnant youth and mothers under the age of 21.</p><p>(Sec. 2303) This section extends through FY2025 the Family-to-Family Health Information Centers Program, which is administered by the Health Resources and Services Administration. The program awards grants to family-run organizations to support the provision of information and peer support to families of children with special health care needs.&nbsp;</p><p>TITLE IV--MEDICAID</p><p>This section delays reductions to Medicaid disproportionate-share hospital (DSH) allotments until FY2026. (DSHs are hospitals that receive additional payments under Medicaid for treating a large share of low-income patients.)</p><p>DIVISION C--OTHER MATTERS</p><p>This division extends several expiring programs and authorities through FY2025.</p><p>(Sec. 3101) This section extends authorities related to the Commodity Futures Trading Commission’s whistleblower program.</p><p>(Sec. 3102) This section extends the authority of the Department of Homeland Security (DHS) and the Department of Justice to take certain actions to mitigate a credible threat to certain facilities or assets from an unmanned aircraft system (UAS). These include certain facilities that are located in the United States and identified as high-risk and a potential target for unlawful UAS activity.</p><p>(Sec. 3103) &nbsp;This section extends the special assessment on nonindigent persons or entities convicted of certain offenses involving sexual abuse or human trafficking. The assessment funds programs for human trafficking survivors.</p><p>(Sec. 3104) This section extends the authority for DHS’s National Cybersecurity Protection System and related reporting requirements. The system authorizes multiple activities by&nbsp;DHS to help defend federal agencies from cyberthreats.</p><p>(Sec. 3105) &nbsp;This section extends, the temporary scheduling order issued by the Drug Enforcement Administration to place fentanyl-related substances in schedule I of the Controlled Substances Act.&nbsp;</p><p>(Sec. 3106) This section exempts the budgetary effects of Divisions B and C of this act from (1) the Statutory Pay-As-You-Go (PAYGO) Act of 2010, (2) the Senate PAYGO rule, and (3) certain budget scorekeeping rules.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+    <titles>
+      <item>
+        <titleType>Official Titles from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making further continuing appropriations and other extensions for the fiscal year ending September 30, 2025, and for other purposes.</title>
+        <updateDate>2026-07-10T19:23:33Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+        <updateDate>2025-03-18T04:38:21Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+        <updateDate>2025-03-12T12:53:20Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+        <updateDate>2025-03-12T04:38:21Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+        <updateDate>2025-03-11T08:23:19Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+        <updateDate>2025-03-11T08:23:19Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making further continuing appropriations and other extensions for the fiscal year ending September 30, 2025, and for other purposes.</title>
+        <updateDate>2025-03-11T08:18:29Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>8</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 211, the amendment printed in report 119-15 is considered adopted.</description>
+        <updateDate>2025-03-12T08:09:13Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-11</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-11T04:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-11</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-11</actionDate>
+              <text>Amendment reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-03-11</actionDate>
+              <text>House amendment offered/reported by: Amendment reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2025-03-11</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+      <amendment>
+        <number>1288</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T20:09:51Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>E000295</bioguideId>
+            <fullName>Sen. Ernst, Joni [R-IA]</fullName>
+            <firstName>Joni</firstName>
+            <lastName>Ernst</lastName>
+            <party>R</party>
+            <state>IA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>1272</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To prohibit the use of appropriated amounts by DOGE.</purpose>
+          <updateDate>2025-03-18T16:00:37Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1287</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T18:52:55Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>B001288</bioguideId>
+            <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+            <firstName>Cory</firstName>
+            <lastName>Booker</lastName>
+            <party>D</party>
+            <state>NJ</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1285</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-24T21:26:58Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001088</bioguideId>
+            <fullName>Sen. Coons, Christopher A. [D-DE]</fullName>
+            <firstName>Christopher</firstName>
+            <lastName>Coons</lastName>
+            <party>D</party>
+            <state>DE</state>
+            <middleName>A.</middleName>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>3</countIncludingWithdrawnCosponsors>
+          <count>3</count>
+          <item>
+            <bioguideId>D000563</bioguideId>
+            <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Durbin</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <middleName>J.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001194</bioguideId>
+            <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Schatz</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <sponsorshipDate>2025-03-24</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1284</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T17:59:22Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>S001181</bioguideId>
+            <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+            <firstName>Jeanne</firstName>
+            <lastName>Shaheen</lastName>
+            <party>D</party>
+            <state>NH</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1283</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T17:21:14Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001113</bioguideId>
+            <fullName>Sen. Cortez Masto, Catherine [D-NV]</fullName>
+            <firstName>Catherine</firstName>
+            <lastName>Cortez Masto</lastName>
+            <party>D</party>
+            <state>NV</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1282</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T17:21:04Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001113</bioguideId>
+            <fullName>Sen. Cortez Masto, Catherine [D-NV]</fullName>
+            <firstName>Catherine</firstName>
+            <lastName>Cortez Masto</lastName>
+            <party>D</party>
+            <state>NV</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1281</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T17:20:53Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000805</bioguideId>
+            <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Warner</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>R.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1280</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T17:02:37Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>A000382</bioguideId>
+            <fullName>Sen. Alsobrooks, Angela D. [D-MD]</fullName>
+            <firstName>Angela</firstName>
+            <lastName>Alsobrooks</lastName>
+            <party>D</party>
+            <state>MD</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1279</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T17:02:27Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>A000382</bioguideId>
+            <fullName>Sen. Alsobrooks, Angela D. [D-MD]</fullName>
+            <firstName>Angela</firstName>
+            <lastName>Alsobrooks</lastName>
+            <party>D</party>
+            <state>MD</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1278</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T16:57:35Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>S001181</bioguideId>
+            <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+            <firstName>Jeanne</firstName>
+            <lastName>Shaheen</lastName>
+            <party>D</party>
+            <state>NH</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1277</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T20:15:35Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>R000608</bioguideId>
+            <fullName>Sen. Rosen, Jacky [D-NV]</fullName>
+            <firstName>Jacky</firstName>
+            <lastName>Rosen</lastName>
+            <party>D</party>
+            <state>NV</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1276</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T16:37:50Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1275</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T15:50:00Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>R000122</bioguideId>
+            <fullName>Sen. Reed, Jack [D-RI]</fullName>
+            <firstName>John</firstName>
+            <lastName>Reed</lastName>
+            <party>D</party>
+            <state>RI</state>
+            <middleName>F.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1274</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To make veteran Federal employees who were involuntarily dismissed without cause eligible for reinstatement and to require reports from Executive agencies on the number of veteran employees fired from such agencies.</purpose>
+        <updateDate>2026-03-12T15:04:05Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-14</actionDate>
+          <text>Amendment SA 1274, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 130.</text>
+          <links>
+            <link>
+              <name>Record Vote Number: 130</name>
+              <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00130.xml</url>
+            </link>
+            <link>
+              <name>SA 1274</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/1274</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>D000622</bioguideId>
+            <fullName>Sen. Duckworth, Tammy [D-IL]</fullName>
+            <firstName>Tammy</firstName>
+            <lastName>Duckworth</lastName>
+            <party>D</party>
+            <state>IL</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>D000622</bioguideId>
+            <fullName>Sen. Duckworth, Tammy [D-IL]</fullName>
+            <firstName>Tammy</firstName>
+            <lastName>Duckworth</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>12</countIncludingWithdrawnCosponsors>
+          <count>12</count>
+          <item>
+            <bioguideId>K000394</bioguideId>
+            <fullName>Sen. Kim, Andy [D-NJ]</fullName>
+            <firstName>Andy</firstName>
+            <lastName>Kim</lastName>
+            <party>D</party>
+            <state>NJ</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000384</bioguideId>
+            <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+            <firstName>Timothy</firstName>
+            <lastName>Kaine</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>M.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000779</bioguideId>
+            <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+            <firstName>Ron</firstName>
+            <lastName>Wyden</lastName>
+            <party>D</party>
+            <state>OR</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>D000563</bioguideId>
+            <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Durbin</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <middleName>J.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>G000555</bioguideId>
+            <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+            <firstName>Kirsten</firstName>
+            <lastName>Gillibrand</lastName>
+            <party>D</party>
+            <state>NY</state>
+            <middleName>E.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001194</bioguideId>
+            <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Schatz</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000377</bioguideId>
+            <fullName>Sen. Kelly, Mark [D-AZ]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Kelly</lastName>
+            <party>D</party>
+            <state>AZ</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>H001046</bioguideId>
+            <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+            <firstName>Martin</firstName>
+            <lastName>Heinrich</lastName>
+            <party>D</party>
+            <state>NM</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>G000574</bioguideId>
+            <fullName>Sen. Gallego, Ruben [D-AZ]</fullName>
+            <firstName>Ruben</firstName>
+            <lastName>Gallego</lastName>
+            <party>D</party>
+            <state>AZ</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>R000608</bioguideId>
+            <fullName>Sen. Rosen, Jacky [D-NV]</fullName>
+            <firstName>Jacky</firstName>
+            <lastName>Rosen</lastName>
+            <party>D</party>
+            <state>NV</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000805</bioguideId>
+            <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Warner</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>R.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2025-03-14T04:00:00Z</proposedDate>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>7</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1274, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 130.</text>
+              <type>Floor</type>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>130</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00130.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1274 proposed by Senator Duckworth. (consideration: CR S1770-1771) To make veteran Federal employees who were involuntarily dismissed without cause eligible for reinstatement and to require reports from Executive agencies on the number of veteran employees fired from such agencies.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1274 proposed by Senator Duckworth.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment not agreed to: Amendment SA 1274, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 130.</text>
+              <type>Floor</type>
+              <actionCode>95000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>130</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00130.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Roll call votes on amendments in Senate: Amendment SA 1274, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 130.</text>
+              <type>Floor</type>
+              <actionCode>97000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>130</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:32:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00130.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1273</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To except the application of certain rescissions.</purpose>
+        <updateDate>2026-03-12T15:04:05Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-14</actionDate>
+          <text>Amendment SA 1273, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 129.</text>
+          <links>
+            <link>
+              <name>Record Vote Number: 129</name>
+              <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00129.xml</url>
+            </link>
+            <link>
+              <name>SA 1273</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/1273</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>M001176</bioguideId>
+            <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+            <firstName>Jeff</firstName>
+            <lastName>Merkley</lastName>
+            <party>D</party>
+            <state>OR</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>M001176</bioguideId>
+            <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+            <firstName>Jeff</firstName>
+            <lastName>Merkley</lastName>
+            <party>D</party>
+            <state>OR</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>2</countIncludingWithdrawnCosponsors>
+          <count>2</count>
+          <item>
+            <bioguideId>W000779</bioguideId>
+            <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+            <firstName>Ron</firstName>
+            <lastName>Wyden</lastName>
+            <party>D</party>
+            <state>OR</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001194</bioguideId>
+            <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Schatz</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2025-03-14T04:00:00Z</proposedDate>
+        <submittedDate>2025-03-14T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>7</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1273, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 129.</text>
+              <type>Floor</type>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>129</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:14:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00129.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1273 proposed by Senator Merkley. (consideration: CR S1769) To except the application of certain rescissions.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1273 proposed by Senator Merkley.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment not agreed to: Amendment SA 1273, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 129.</text>
+              <type>Floor</type>
+              <actionCode>95000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>129</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:14:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00129.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Roll call votes on amendments in Senate: Amendment SA 1273, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 47 - 53. Record Vote Number: 129.</text>
+              <type>Floor</type>
+              <actionCode>97000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>129</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:14:43Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00129.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1272</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To prohibit the use of appropriated amounts by DOGE.</purpose>
+        <updateDate>2026-03-12T15:04:05Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-14</actionDate>
+          <text>Amendment SA 1272, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 131.</text>
+          <links>
+            <link>
+              <name>Record Vote Number: 131</name>
+              <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00131.xml</url>
+            </link>
+            <link>
+              <name>SA 1272</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/1272</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>V000128</bioguideId>
+            <fullName>Sen. Van Hollen, Chris [D-MD]</fullName>
+            <firstName>Chris</firstName>
+            <lastName>Van Hollen</lastName>
+            <party>D</party>
+            <state>MD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>V000128</bioguideId>
+            <fullName>Sen. Van Hollen, Chris [D-MD]</fullName>
+            <firstName>Chris</firstName>
+            <lastName>Van Hollen</lastName>
+            <party>D</party>
+            <state>MD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>4</countIncludingWithdrawnCosponsors>
+          <count>4</count>
+          <item>
+            <bioguideId>A000382</bioguideId>
+            <fullName>Sen. Alsobrooks, Angela D. [D-MD]</fullName>
+            <firstName>Angela</firstName>
+            <lastName>Alsobrooks</lastName>
+            <party>D</party>
+            <state>MD</state>
+            <sponsorshipDate>2025-03-13</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000384</bioguideId>
+            <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+            <firstName>Timothy</firstName>
+            <lastName>Kaine</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>M.</middleName>
+            <sponsorshipDate>2025-03-13</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001194</bioguideId>
+            <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Schatz</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>D000563</bioguideId>
+            <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Durbin</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <middleName>J.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2025-03-14T04:00:00Z</proposedDate>
+        <submittedDate>2025-03-13T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <amendmentsToAmendment>
+          <count>1</count>
+        </amendmentsToAmendment>
+        <actions>
+          <count>7</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1272, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 131.</text>
+              <type>Floor</type>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>131</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:51:24Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00131.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1272 proposed by Senator Van Hollen. (consideration: CR S1771) To prohibit the use of appropriated amounts by DOGE.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1272 proposed by Senator Van Hollen.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment not agreed to: Amendment SA 1272, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 131.</text>
+              <type>Floor</type>
+              <actionCode>95000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>131</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:51:24Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00131.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Roll call votes on amendments in Senate: Amendment SA 1272, under the order of 3/14/2025, not having achieved 60 votes in the affirmative, was not agreed to in Senate by Yea-Nay Vote. 48 - 52. Record Vote Number: 131.</text>
+              <type>Floor</type>
+              <actionCode>97000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>131</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T21:51:24Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00131.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1271</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T16:14:53Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>K000384</bioguideId>
+            <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+            <firstName>Timothy</firstName>
+            <lastName>Kaine</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>M.</middleName>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>W000805</bioguideId>
+            <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Warner</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>R.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-03-13T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1270</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T16:14:40Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>K000384</bioguideId>
+            <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+            <firstName>Timothy</firstName>
+            <lastName>Kaine</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>M.</middleName>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>W000805</bioguideId>
+            <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Warner</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>R.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-03-13T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1269</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-13T20:54:21Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>M001111</bioguideId>
+            <fullName>Sen. Murray, Patty [D-WA]</fullName>
+            <firstName>Patty</firstName>
+            <lastName>Murray</lastName>
+            <party>D</party>
+            <state>WA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-13T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1268</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-13T17:17:15Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>J000293</bioguideId>
+            <fullName>Sen. Johnson, Ron [R-WI]</fullName>
+            <firstName>Ron</firstName>
+            <lastName>Johnson</lastName>
+            <party>R</party>
+            <state>WI</state>
+          </item>
+        </sponsors>
+        <submittedDate>2025-03-13T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-13</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1267</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2025-03-14T20:15:24Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>A000382</bioguideId>
+            <fullName>Sen. Alsobrooks, Angela D. [D-MD]</fullName>
+            <firstName>Angela</firstName>
+            <lastName>Alsobrooks</lastName>
+            <party>D</party>
+            <state>MD</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>11</countIncludingWithdrawnCosponsors>
+          <count>11</count>
+          <item>
+            <bioguideId>K000384</bioguideId>
+            <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+            <firstName>Timothy</firstName>
+            <lastName>Kaine</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>M.</middleName>
+            <sponsorshipDate>2025-03-13</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>V000128</bioguideId>
+            <fullName>Sen. Van Hollen, Chris [D-MD]</fullName>
+            <firstName>Chris</firstName>
+            <lastName>Van Hollen</lastName>
+            <party>D</party>
+            <state>MD</state>
+            <sponsorshipDate>2025-03-13</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000805</bioguideId>
+            <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+            <firstName>Mark</firstName>
+            <lastName>Warner</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>R.</middleName>
+            <sponsorshipDate>2025-03-13</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>G000555</bioguideId>
+            <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+            <firstName>Kirsten</firstName>
+            <lastName>Gillibrand</lastName>
+            <party>D</party>
+            <state>NY</state>
+            <middleName>E.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000394</bioguideId>
+            <fullName>Sen. Kim, Andy [D-NJ]</fullName>
+            <firstName>Andy</firstName>
+            <lastName>Kim</lastName>
+            <party>D</party>
+            <state>NJ</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>P000595</bioguideId>
+            <fullName>Sen. Peters, Gary C. [D-MI]</fullName>
+            <firstName>Gary</firstName>
+            <lastName>Peters</lastName>
+            <party>D</party>
+            <state>MI</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000779</bioguideId>
+            <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+            <firstName>Ron</firstName>
+            <lastName>Wyden</lastName>
+            <party>D</party>
+            <state>OR</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001288</bioguideId>
+            <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+            <firstName>Cory</firstName>
+            <lastName>Booker</lastName>
+            <party>D</party>
+            <state>NJ</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>D000563</bioguideId>
+            <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Durbin</lastName>
+            <party>D</party>
+            <state>IL</state>
+            <middleName>J.</middleName>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001194</bioguideId>
+            <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Schatz</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <sponsorshipDate>2025-03-14</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2025-03-12T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>1266</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To reduce the amount appropriated for the United States Agency for International Development.</purpose>
+        <updateDate>2026-03-12T15:04:04Z</updateDate>
+        <latestAction>
+          <actionDate>2025-03-14</actionDate>
+          <text>Amendment SA 1266 not agreed to in Senate by Yea-Nay Vote. 27 - 73. Record Vote Number: 132.</text>
+          <links>
+            <link>
+              <name>Record Vote Number: 132</name>
+              <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00132.xml</url>
+            </link>
+            <link>
+              <name>SA 1266</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/1266</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000603</bioguideId>
+            <fullName>Sen. Paul, Rand [R-KY]</fullName>
+            <firstName>Rand</firstName>
+            <lastName>Paul</lastName>
+            <party>R</party>
+            <state>KY</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>P000603</bioguideId>
+            <fullName>Sen. Paul, Rand [R-KY]</fullName>
+            <firstName>Rand</firstName>
+            <lastName>Paul</lastName>
+            <party>R</party>
+            <state>KY</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2025-03-14T04:00:00Z</proposedDate>
+        <submittedDate>2025-03-12T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>1968</number>
+          <title>Full-Year Continuing Appropriations and Extensions Act, 2025</title>
+          <updateDateIncludingText>2026-09-08</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>7</count>
+          <actions>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1266 not agreed to in Senate by Yea-Nay Vote. 27 - 73. Record Vote Number: 132.</text>
+              <type>Floor</type>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>132</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T22:04:42Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00132.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 1266 proposed by Senator Paul. (consideration: CR S1771) To reduce the amount appropriated for the United States Agency for International Development.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2025-03-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 1266 proposed by Senator Paul.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Senate amendment not agreed to: Amendment SA 1266 not agreed to in Senate by Yea-Nay Vote. 27 - 73. Record Vote Number: 132.</text>
+              <type>Floor</type>
+              <actionCode>95000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>132</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T22:04:42Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00132.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-14</actionDate>
+              <text>Roll call votes on amendments in Senate: Amendment SA 1266 not agreed to in Senate by Yea-Nay Vote. 27 - 73. Record Vote Number: 132.</text>
+              <type>Floor</type>
+              <actionCode>97000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>132</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2025-03-14T22:04:42Z</date>
+                  <sessionNumber>1</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00132.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2025-03-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1968enr/uslm/BILLS-119hr1968enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1968enr/xml/BILLS-119hr1968enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2025-03-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1968pcs/xml/BILLS-119hr1968pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2025-03-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1968eh/xml/BILLS-119hr1968eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-03-10T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr1968ih/xml/BILLS-119hr1968ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2025-03-16T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ4/uslm/PLAW-119publ4.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2025-03-15</actionDate>
+      <text>Became Public Law No: 119-4.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

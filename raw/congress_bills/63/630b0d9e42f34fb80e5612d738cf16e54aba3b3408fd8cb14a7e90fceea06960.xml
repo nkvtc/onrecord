@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>7147</number>
+    <updateDate>2026-10-14T18:43:27Z</updateDate>
+    <updateDateIncludingText>2026-10-14T18:43:27Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-01-20</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/7147</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 13 (Tuesday, January 20, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. COLE:H.R. 7147.Congress has the power to enact this legislation pursuantto the following:The principal constitutional authority for this legislationis clause 7 of section 9 of article I of the Constitution ofthe United States (the appropriation power), which states:``No Money shall be drawn from the Treasury, but inConsequence of Appropriations made by Law . . . . '' Inaddition, clause 1 of section 8 of article I of theConstitution (the spending power) provides: ``The Congressshall have the Power . . . to pay the Debts and provide forthe common Defence and general Welfare of the United States .. . . '' Together, these specific constitutional provisionsestablish the congressional power of the purse, grantingCongress the authority to appropriate funds, to determinetheir purpose, amount, and period of availability, and to setforth terms and conditions governing their use.[Page H948]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hsbu00</systemCode>
+        <name>Budget Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-01-20T17:00:35Z</date>
+          </item>
+        </activities>
+      </item>
+      <item>
+        <systemCode>hsap00</systemCode>
+        <name>Appropriations Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Referred To</name>
+            <date>2026-01-20T17:00:30Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>4213</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-06-26</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 139.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Consolidated Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>7148</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-02-03</actionDate>
+          <text>Became Public Law No: 119-75.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>7481</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-02-11</actionDate>
+          <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>7744</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-03-09</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Appropriations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Pay Our Homeland Defenders Act</title>
+        <congress>119</congress>
+        <number>8029</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-02</actionDate>
+          <text>Received in the Senate.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026</title>
+        <congress>119</congress>
+        <number>8206</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-06</actionDate>
+          <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Reforming ICE and Protecting America Act</title>
+        <congress>119</congress>
+        <number>8173</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-04-02</actionDate>
+          <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Providing for consideration of the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; and for other purposes.</title>
+        <congress>119</congress>
+        <number>1014</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-01-22</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>11:52:34</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Directing the Clerk of the House of Representatives to make a correction in the engrossment of H.R. 7147.</title>
+        <congress>119</congress>
+        <number>1016</number>
+        <type>HRES</type>
+        <latestAction>
+          <actionDate>2026-01-22</actionDate>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>17:35:07</actionTime>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Became Public Law No: 119-86.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Became Public Law No: 119-86.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <actionTime>13:06:15</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H41931</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <actionTime>13:06:00</actionTime>
+        <text>On motion that the House suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment Agreed to by voice vote. (text: CR H3311-3321)</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H41610</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <text>Resolving differences -- House actions: On motion that the House suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment Agreed to by voice vote. (text: CR H3311-3321)</text>
+        <type>NotUsed</type>
+        <actionCode>19500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <actionTime>13:05:09</actionTime>
+        <text>DEBATE - The House proceeded with 40 minutes of debate on the motion to suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <actionTime>13:04:51</actionTime>
+        <text>Mr. Alford moved that the House suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment (consideration: CR H3311-3322)</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H40140</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-30</actionDate>
+        <actionTime>12:59:38</actionTime>
+        <text>Mr. Alford asked unanimous consent to take from the Speaker's table the bill H.R. 7147, with the House amendment to the Senate amendment thereto, to recede from the House amendment, and to concur in the Senate amendment. Objection heard.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-04-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to table the House message to accompany H.R. 7147 agreed to by Voice Vote.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-04-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S1696)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-04-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on House action received in Senate and at desk: House amendment to Senate amendment.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <actionTime>23:26:24</actionTime>
+        <text>Pursuant to the provisions of H. Res. 1142, the Senate amendment to H.R. 7147 is considered as agreed to with an amendment consisting of the text of Rules Committee Print 119-21.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <actionTime>23:26:24</actionTime>
+        <text>House agreed to Senate amendment with amendment pursuant to H. Res. 1142</text>
+        <type>Floor</type>
+        <actionCode>H1B000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <text>Resolving differences -- House actions: House agreed to Senate amendment with amendment pursuant to H. Res. 1142</text>
+        <type>NotUsed</type>
+        <actionCode>19500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote by which the fourth cloture on the motion to proceed to the measure was not invoked (Record Vote No. 73) rendered moot in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Fifth cloture motion on the motion to proceed to the measure rendered moot in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment by Voice Vote.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment by Voice Vote.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by unanimous consent. (consideration: CR S1660)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-27</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure agreed to in Senate by Unanimous Consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote by which the fourth cloture on the motion to proceed to the measure was not invoked (Record Vote No. 74) entered in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Fourth cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 53 - 47. Record Vote Number: 74. (CR S1651-1652)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>74</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00074.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-03-26T23:44:19Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1648)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Fifth cloture motion on the motion to proceed to the measure presented in Senate. (CR S1609)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Upon reconsideration, third cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 54 - 46. Record Vote Number: 71. (CR S1599-1600)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>71</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00071.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-03-25T21:00:57Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote (Record Vote No. 54) by which the third cloture motion on the motion to proceed to the measure was not invoked agreed to in Senate by Voice Vote.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of the motion to reconsider the vote by which the third cloture on the motion to proceed to the measure was not invoked (Record Vote No. 54) agreed to in Senate by Voice Vote.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1589)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Fourth cloture motion on the motion to proceed to the measure presented in Senate. (CR S1577)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1570)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure withdrawn in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1561)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-22</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1495)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-21</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1461)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Upon reconsideration, second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 37. Record Vote Number: 59. (CR S1425)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>59</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00059.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-03-20T19:50:48Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote by which the second cloture motion on the motion to proceed to the measure was not invoked (Record Vote No. 39) agreed to in Senate by Voice Vote.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of the motion to reconsider the vote by which the second cloture on the motion to proceed to the measure was not invoked (Record Vote No. 39) agreed to in Senate by Voice Vote.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-20</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1419)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-19</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S1311)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote by which the third cloture on the motion to proceed to the measure was not invoked (Record Vote No. 54) entered in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Third cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 51 - 46. Record Vote Number: 54. (CR S1034)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>54</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00054.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-03-12T18:27:55Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to measure considered in Senate. (CR S1024)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Third cloture motion on the motion to proceed to the measure presented in Senate. (CR S946)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S946)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Upon reconsideration, cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 51 - 45. Record Vote Number: 47.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>47</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00047.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-03-05T19:27:42Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-03-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote (Record Vote No. 38) by which cloture was not invoked on the motion to proceed to the measure agreed to in Senate by Voice Vote. (CR S871)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-03-05</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of the motion to reconsider the vote by which cloture was not invoked on the motion to proceed to the measure (Record Vote No. 38) agreed to in Senate by Voice Vote. (CR S871)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote by which the second cloture on the motion to proceed to the measure was not invoked (Record Vote No. 39) entered in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-24</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 50 - 45. Record Vote Number: 39. (CR S641)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>39</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00039.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-02-24T23:13:38Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Second cloture motion on the motion to proceed to the measure presented in Senate. (CR S593)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion by Senator Thune to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked (Record Vote No. 38) entered in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 52 - 47. Record Vote Number: 38.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>38</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00038.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-02-12T18:59:28Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-02-12</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to measure considered in Senate. (CR S593)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-11</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to measure considered in Senate. (CR S559)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the motion to proceed to the measure presented in Senate. (CR S557)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to measure considered in Senate. (CR S547)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-09</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-02-02</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 311.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-01-30</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the first time. Placed on Senate Legislative Calendar under Read the First Time.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-01-26</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>16:41:55</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>16:41:54</actionTime>
+        <text>On passage Passed by the Yeas and Nays: 220 - 207 (Roll no. 42). (text of amendment in the nature of a substitute: CR H1300-1311)</text>
+        <type>Floor</type>
+        <actionCode>H37100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>42</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll042.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-22T21:41:54Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>16:41:54</actionTime>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 220 - 207 (Roll no. 42). (text of amendment in the nature of a substitute: CR H1300-1311)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>42</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll042.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-01-22T21:41:54Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>16:10:03</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H1330)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>14:23:26</actionTime>
+        <text>POSTPONED PROCEEDINGS - The Chair put the question on passage of the bill. Pursuant to clause 10 of rule 20, the yeas and nays are ordered. Further proceedings are postponed.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>14:22:50</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>Floor</type>
+        <actionCode>H35000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>13:27:23</actionTime>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 7147.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>13:26:08</actionTime>
+        <text>Rule provides for consideration of H.R. 7148 and H.R. 7147. The resolution provides for consideration of H.R. 7148 under a structured rule and H.R. 7147 under a closed rule. The rule provides for one hour of debate and a motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>13:26:03</actionTime>
+        <text>Considered under the provisions of rule H. Res. 1014. (consideration: CR H1299-1317)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>11:52:33</actionTime>
+        <text>Rule H. Res. 1014 passed House.</text>
+        <type>Floor</type>
+        <actionCode>H1L220</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-22</actionDate>
+        <actionTime>09:03:25</actionTime>
+        <text>Rules Committee Resolution H. Res. 1014 Reported to House. Rule provides for consideration of H.R. 7148 and H.R. 7147. The resolution provides for consideration of H.R. 7148 under a structured rule and H.R. 7147 under a closed rule. The rule provides for one hour of debate and a motion to recommit on each bill.</text>
+        <type>Floor</type>
+        <actionCode>H1L210</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-20</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsbu00</systemCode>
+            <name>Budget Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-20</actionDate>
+        <text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hsap00</systemCode>
+            <name>Appropriations Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-01-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-01-20</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>C001053</bioguideId>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <party>R</party>
+        <state>OK</state>
+        <district>4</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-01-21T19:56:00Z</pubDate>
+        <title>H.R. 7147, Department of Homeland Security Appropriations Act, 2026</title>
+        <url>https://www.cbo.gov/publication/62028</url>
+        <description>As posted on the website of the House Committee on Rules on January 20, 2026</description>
+      </item>
+    </cboCostEstimates>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-86</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Appropriations</name>
+          <updateDate>2026-03-16T14:21:02Z</updateDate>
+        </item>
+        <item>
+          <name>Aviation and airports</name>
+          <updateDate>2026-03-16T15:08:21Z</updateDate>
+        </item>
+        <item>
+          <name>Border security and unlawful immigration</name>
+          <updateDate>2026-03-16T14:22:42Z</updateDate>
+        </item>
+        <item>
+          <name>Citizenship and naturalization</name>
+          <updateDate>2026-03-16T15:08:01Z</updateDate>
+        </item>
+        <item>
+          <name>Coast guard</name>
+          <updateDate>2026-03-16T14:23:29Z</updateDate>
+        </item>
+        <item>
+          <name>Computer security and identity theft</name>
+          <updateDate>2026-03-16T14:55:39Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-03-16T14:21:23Z</updateDate>
+        </item>
+        <item>
+          <name>Customs enforcement</name>
+          <updateDate>2026-03-16T14:22:34Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Homeland Security</name>
+          <updateDate>2026-03-16T14:21:13Z</updateDate>
+        </item>
+        <item>
+          <name>Department of Transportation</name>
+          <updateDate>2026-03-16T15:08:25Z</updateDate>
+        </item>
+        <item>
+          <name>Detention of persons</name>
+          <updateDate>2026-03-16T15:06:59Z</updateDate>
+        </item>
+        <item>
+          <name>Director of National Intelligence</name>
+          <updateDate>2026-03-16T15:08:11Z</updateDate>
+        </item>
+        <item>
+          <name>Disaster relief and insurance</name>
+          <updateDate>2026-03-16T15:07:04Z</updateDate>
+        </item>
+        <item>
+          <name>Emergency planning and evacuation</name>
+          <updateDate>2026-03-16T15:07:52Z</updateDate>
+        </item>
+        <item>
+          <name>Employee benefits and pensions</name>
+          <updateDate>2026-03-16T14:55:30Z</updateDate>
+        </item>
+        <item>
+          <name>Employment and training programs</name>
+          <updateDate>2026-03-16T15:06:24Z</updateDate>
+        </item>
+        <item>
+          <name>Executive agency funding and structure</name>
+          <updateDate>2026-03-16T14:21:08Z</updateDate>
+        </item>
+        <item>
+          <name>Federal Emergency Management Agency (FEMA)</name>
+          <updateDate>2026-03-16T14:55:44Z</updateDate>
+        </item>
+        <item>
+          <name>First responders and emergency personnel</name>
+          <updateDate>2026-03-16T15:07:22Z</updateDate>
+        </item>
+        <item>
+          <name>Floods and storm protection</name>
+          <updateDate>2026-03-16T15:07:33Z</updateDate>
+        </item>
+        <item>
+          <name>Geography and mapping</name>
+          <updateDate>2026-03-16T15:07:39Z</updateDate>
+        </item>
+        <item>
+          <name>Government buildings, facilities, and property</name>
+          <updateDate>2026-03-16T14:22:28Z</updateDate>
+        </item>
+        <item>
+          <name>Government employee pay, benefits, personnel management</name>
+          <updateDate>2026-03-16T14:21:37Z</updateDate>
+        </item>
+        <item>
+          <name>Government information and archives</name>
+          <updateDate>2026-03-16T15:06:52Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-03-16T15:06:46Z</updateDate>
+        </item>
+        <item>
+          <name>Government trust funds</name>
+          <updateDate>2026-03-16T14:55:20Z</updateDate>
+        </item>
+        <item>
+          <name>Immigration status and procedures</name>
+          <updateDate>2026-03-16T15:06:30Z</updateDate>
+        </item>
+        <item>
+          <name>Intellectual property</name>
+          <updateDate>2026-03-16T14:22:57Z</updateDate>
+        </item>
+        <item>
+          <name>Intelligence activities, surveillance, classified information</name>
+          <updateDate>2026-03-16T14:21:18Z</updateDate>
+        </item>
+        <item>
+          <name>Law enforcement administration and funding</name>
+          <updateDate>2026-03-16T14:22:47Z</updateDate>
+        </item>
+        <item>
+          <name>Lease and rental services</name>
+          <updateDate>2026-03-16T15:06:35Z</updateDate>
+        </item>
+        <item>
+          <name>Members of Congress</name>
+          <updateDate>2026-03-16T15:08:34Z</updateDate>
+        </item>
+        <item>
+          <name>Motor vehicles</name>
+          <updateDate>2026-03-16T14:32:26Z</updateDate>
+        </item>
+        <item>
+          <name>Natural disasters</name>
+          <updateDate>2026-03-16T15:07:28Z</updateDate>
+        </item>
+        <item>
+          <name>Pollution liability</name>
+          <updateDate>2026-03-16T14:55:24Z</updateDate>
+        </item>
+        <item>
+          <name>Protection of officials</name>
+          <updateDate>2026-03-16T14:55:34Z</updateDate>
+        </item>
+        <item>
+          <name>Public contracts and procurement</name>
+          <updateDate>2026-03-16T14:21:32Z</updateDate>
+        </item>
+        <item>
+          <name>Public transit</name>
+          <updateDate>2026-03-16T15:07:13Z</updateDate>
+        </item>
+        <item>
+          <name>Puerto Rico</name>
+          <updateDate>2026-03-16T15:07:08Z</updateDate>
+        </item>
+        <item>
+          <name>Radiation</name>
+          <updateDate>2026-03-16T15:07:56Z</updateDate>
+        </item>
+        <item>
+          <name>Railroads</name>
+          <updateDate>2026-03-16T15:07:17Z</updateDate>
+        </item>
+        <item>
+          <name>Research and development</name>
+          <updateDate>2026-03-16T14:23:09Z</updateDate>
+        </item>
+        <item>
+          <name>Senate</name>
+          <updateDate>2026-03-16T15:08:30Z</updateDate>
+        </item>
+        <item>
+          <name>Supreme Court</name>
+          <updateDate>2026-03-16T15:08:16Z</updateDate>
+        </item>
+        <item>
+          <name>Transportation safety and security</name>
+          <updateDate>2026-03-16T14:23:04Z</updateDate>
+        </item>
+        <item>
+          <name>User charges and fees</name>
+          <updateDate>2026-03-16T15:06:40Z</updateDate>
+        </item>
+        <item>
+          <name>Youth employment and child labor</name>
+          <updateDate>2026-03-16T14:22:52Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Economics and Public Finance</name>
+        <updateDate>2026-05-04T21:32:29Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-01-20</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-01-21T13:32:01Z</updateDate>
+        <text><![CDATA[<p>This bill provides FY2026 appropriations for the Department of Homeland Security (DHS).</p><p>Specifically, the bill provides appropriations to DHS for Departmental Management, Intelligence, Situational Awareness, and Oversight, including</p><ul><li>the Office of the Secretary and Executive Management;</li><li>the Management Directorate;</li><li>Intelligence, Analysis, and Situational Awareness; and</li><li>the Office of Inspector General.</li></ul><p>In addition, the bill provides appropriations for Security, Enforcement, and Investigations, including</p><ul><li>U.S. Customs and Border Protection,</li><li>U.S. Immigration and Customs Enforcement,</li><li>the Transportation Security Administration,</li><li>the U.S. Coast Guard, and</li><li>the U.S. Secret Service.</li></ul><p>The bill provides appropriations for Protection, Preparedness, Response, and Recovery, including</p><ul><li>the Cybersecurity and Infrastructure Security Agency, and</li><li>the Federal Emergency Management Agency (FEMA).</li></ul><p>The bill provides appropriations for Research, Development, Training, and Services, including</p><ul><li>U.S. Citizenship and Immigration Services,</li><li>the Federal Law Enforcement Training Centers, and</li><li>the Science and Technology Directorate.</li></ul><p>The bill also sets forth requirements and restrictions for using funds provided by this and other appropriations acts.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>59</versionCode>
+        <actionDate>2026-03-27</actionDate>
+        <actionDesc>House agreed to Senate amendment</actionDesc>
+        <updateDate>2026-10-14T18:41:27Z</updateDate>
+        <text><![CDATA[<p><strong>Further Additional Continuing Appropriations Act, 2026</strong></p><p>This bill provides continuing FY2026 appropriations to the Department of Homeland Security (DHS) through May 22, 2026. It is known as a continuing resolution (CR) and ends the partial DHS shutdown that began on February 14, 2026, due to a lapse in appropriations for DHS.</p><p>The CR generally funds most&nbsp;DHS agencies and&nbsp;programs&nbsp;at the FY2025 levels through the earlier of May 22, 2026, or the enactment of the FY2026 DHS appropriations act.</p><p>The bill also requires specified funds to be used to provide back pay, in accordance with current law, to federal employees affected by a government shutdown due to a lapse in appropriations.</p><p>Finally, the bill ratifies and approves certain obligations that were incurred during a government shutdown, including obligations incurred to maintain the essential level of activity to protect life and property and bring about an orderly termination of government functions.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2026-03-27</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2026-10-14T18:31:15Z</updateDate>
+        <text><![CDATA[<p><strong>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</strong></p><p>This bill provides FY2026 appropriations for various agencies and offices within the Department of Homeland Security (DHS), except for U.S. Immigration and Customs Enforcement and the U.S. Border Patrol (USBP).&nbsp;</p><p>Specifically, the bill provides appropriations to&nbsp;DHS for Departmental Management, Intelligence, Situational Awareness, and Oversight, including</p><ul><li>the Office of the Secretary and Executive Management;</li><li>the Management Directorate;</li><li>Intelligence, Analysis, and Situational Awareness; and</li><li>the Office of Inspector General.</li></ul><p>In addition, the bill provides appropriations for Security, Enforcement, and Investigations, including</p><ul><li>U.S. Customs and Border Protection (excluding border security operations of the USBP),</li><li>the Transportation Security Administration,</li><li>the U.S. Coast Guard, and</li><li>the U.S. Secret Service.</li></ul><p>The bill provides appropriations for Protection, Preparedness, Response, and Recovery, including</p><ul><li>the Cybersecurity and Infrastructure Security Agency, and</li><li>the Federal Emergency Management Agency (FEMA).</li></ul><p>The bill provides appropriations for Research, Development, Training, and Services, including</p><ul><li>U.S. Citizenship and Immigration Services,</li><li>the Federal Law Enforcement Training Centers, and</li><li>the Science and Technology Directorate.</li></ul><p>The bill also requires specified funds&nbsp;to be used to provide back pay, in accordance with current law, to federal employees affected by a government shutdown due to a lapse in appropriations.</p><p>Finally, the bill ratifies certain obligations incurred during a government shutdown in anticipation of the funds and authority provided by this bill and the Continuing Appropriations Act, 2026, including obligations incurred to maintain the essential level of activity to protect life and property and bring about an orderly termination of government functions.</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>49</versionCode>
+        <actionDate>2026-04-30</actionDate>
+        <actionDesc>Public Law</actionDesc>
+        <updateDate>2026-10-14T18:10:01Z</updateDate>
+        <text><![CDATA[<p><strong>Homeland Security and Further Additional Continuing Appropriations Act, 2026</strong></p><p>This act provides FY2026 appropriations for agencies and offices within the Department of Homeland Security (DHS) except for (1) U.S. Immigration and Customs Enforcement (ICE), and (2) the U.S. Border Patrol.</p><p>The act also includes provisions that approve obligations and provide for back pay related to the partial DHS shutdown that began on February 14, 2026, due to a lapse in appropriations for DHS.</p><p>(Sec. 3) This section provides that references to <em>this Act</em> included in any division of this act refer only to the provisions of that division unless the act expressly provides otherwise.</p><p>(Sec. 4) This section provides that the explanatory statement regarding this act that was printed in the Congressional Record has the same effect with respect to the allocation of funds and implementation of this act as a joint explanatory statement of a conference committee. It also specifies exceptions related to funding for U.S. Immigration and Customs Enforcement (ICE) and U.S. Customs and Border Protection (CBP) Border Security Operations that is excluded from this act.</p><p>(Sec. 5) This section specifies that the sums in this act are appropriated for FY2026.</p><p>DIVISION A--DEPARTMENT OF HOMELAND SECURITY APPROPRIATIONS ACT, 2026</p><p><em>Department of Homeland Security Appropriations Act, 2026</em></p><p>TITLE I--DEPARTMENTAL MANAGEMENT, INTELLIGENCE, SITUATIONAL AWARENESS, AND OVERSIGHT</p><p>This title provides appropriations to&nbsp;DHS for</p><ul><li>the Office of the Secretary and Executive Management;</li><li>the Management Directorate;</li><li>Intelligence, Analysis, and Situational Awareness; and</li><li>the Office of Inspector General.</li></ul><p>(Sec. 101) This section requires the Secretary of Homeland Security to submit a report to the&nbsp;DHS Office of Inspector General (OIG) listing all grants and contracts awarded during FY2025 and FY2026 without a full and open competition. The OIG must review the report for compliance with laws and regulations and submit the results to Congress.</p><p>(Sec. 102) This section requires the&nbsp;DHS Chief Financial Officer to submit monthly budget and staffing reports to Congress.</p><p>(Sec. 103) This section requires&nbsp;DHS to notify Congress of proposed transfers from the Department of the Treasury Forfeiture Fund to any DHS agency and prohibits obligation of the funds until Congress is notified of the transfer.</p><p>(Sec. 104) This section requires all official costs for the use of government aircraft by&nbsp;DHS to support official travel of the Secretary and the Deputy Secretary to be paid from amounts made available for the Office of the Secretary.</p><p>(Sec. 105) This section requires the Under Secretary for Management to (1) provide quarterly briefings to Congress on specified acquisition programs, and (2) submit each approved Acquisition Decision Memorandum for the programs to Congress within five business days of approval.</p><p>(Sec. 106) This section prohibits funding from being used for certain new pilot or demonstration programs unless&nbsp;DHS provides specified information to Congress regarding the objectives, assessment methodology, and implementation plan for the program.</p><p>(Sec. 107) This section prohibits the DHS Office of Intelligence and Analysis from using funds provided by this division to conduct certain intelligence collection activities, including:</p><ul><li>conducting an interview with anyone with a pending criminal case without the consent of the interviewee after they have consulted with counsel,</li><li>intelligence collection targeting journalists in the performance of journalistic functions, or</li><li>conducting an interview for intelligence collection with a U.S. person absent a reasonable belief based on facts and circumstances that the person may possess significant foreign intelligence.</li></ul><p>(Sec. 108) This section requires the DHS Office of Inspector General to submit reports to Congress regarding the oversight of the funding provided to DHS by the 2025 reconciliation act, including recommendations for ways to improve effectiveness and efficiency of the funds and prevent waste, fraud, and abuse.</p><p>(Sec. 109) This section provides additional funding for the procurement, deployment, and operations of body-worn cameras for agents and officers performing immigration enforcement activities.</p><p>TITLE II--SECURITY, ENFORCEMENT, AND INVESTIGATIONS</p><p>This title provides appropriations to U.S. Customs and Border Protection (CBP) for (1) Operations and Support; and (2) Procurement, Construction, and Improvements.</p><p>The title provides appropriations to the Transportation Security Administration (TSA) for</p><ul><li>Operations and Support;</li><li>Procurement, Construction, and Improvements; and</li><li>Research and Development.</li></ul><p>The title provides appropriations to the U.S. Coast Guard for</p><ul><li>Operations and Support;</li><li>Procurement, Construction, and Improvements;</li><li>Research and Development; and</li><li>Retired Pay.</li></ul><p>The title provides appropriations to the Secret Service for</p><ul><li>Operations and Support;</li><li>Procurement, Construction, and Improvements; and</li><li>Research and Development.</li></ul><p>(Sec. 201) This section limits overtime compensation for employees of CBP, ICE, and the Secret Service except in individual cases that DHS determines to be necessary for national security purposes, to prevent excessive costs, or for immigration emergencies.</p><p>(Sec. 202) This section provides that specified fees collected from passengers arriving from Canada, Mexico, or an adjacent island shall be available until expended.</p><p>(Sec. 203) This section prohibits funds from being used to waive certain navigation and vessel-inspection laws for the transportation of crude oil distributed from and to the Strategic Petroleum Reserve until DHS takes adequate measures to ensure the use of U.S. flag vessels.</p><p>(Sec. 204) This section prohibits&nbsp;DHS from collecting new border crossing fees or conducting a study related to the imposition of a border crossing fee.</p><p>(Sec. 205) This section requires&nbsp;CBP to submit to Congress an expenditure plan for funds provided for the CBP Procurement, Construction, and Improvements account. The funds may not be obligated until the plan is submitted.</p><p>(Sec. 206) This section permits funds provided by this division to be used to alter operations within the CBP's National Targeting Center. It also prohibits funds from being used to reduce anticipated or planned vetting operations at existing locations unless the reduction is specifically authorized by a statute enacted after the enactment of this division.</p><p>(Sec. 207) This section prohibits funds provided to CBP for Border Security Assets and Infrastructure from being used for the procurement or deployment of surveillance systems that are not autonomous.</p><p>(Sec. 208) This section requires DHS to ensure that the November 30, 2021, CBP policy statement titled <em>Policy Statement and Required Actions Regarding Pregnant, Postpartum, Nursing Individuals, and Infants in Custody,</em> or substantively similar standards of treatment developed in consultation with maternal and pediatric health providers and experts, are in effect and are fully implemented to safeguard the health, safety, and rights of pregnant women in CBP custody.</p><p>(Sec. 209) This section prohibits the TSA from exempting Members of Congress and specified federal officials from federal passenger and baggage screening. It also prohibits funds from being used to carry out legislation that alters the applicability of the screening requirements.</p><p>(Sec. 210) This section permits the&nbsp;TSA to use funds from the Aviation Security Capital Fund for the procurement and installation of explosives detection systems or for the issuance of other transaction agreements to fund certain airport security improvement projects authorized under current law.</p><p>(Sec. 211) This section requires the&nbsp;TSA to submit to Congress a report regarding a Capital Investment Plan, a five-year technology investment plan, and Advanced Integrated Passenger Screening Technologies.</p><p>(Sec. 212) This section modifies an annual reporting requirement on the amount and disposition of unclaimed money collected at airports to require an annual briefing instead of a report.</p><p>(Sec. 213) This section prohibits funds provided by this division for Coast Guard Operations and Support from being used for certain recreational vessel expenses, except to the extent fees are collected from owners of yachts and credited to the account.</p><p>(Sec. 214) This section requires the Coast Guard to submit to Congress a future-years capital investment plan.</p><p>(Sec. 215) This section prohibits funds provided by this division from being used to reduce the Coast Guard's legacy Operations Systems Center's mission or its government-employed or contract staff levels.</p><p>(Sec. 216) This section prohibits funds provided by this division from being used to conduct, or to implement the results of, a competition under Office of Management and Budget Circular A-76 for activities performed with respect to the Coast Guard National Vessel Documentation Center.</p><p>(Sec. 217) This section permits funds provided by this division to be used to alter operations within the Coast Guard's Civil Engineering Program, except that no funds may be used to reduce operations within any civil engineering unit unless the reduction is specifically authorized by a statute enacted after this division is enacted.</p><p>(Sec. 218) This section permits amounts deposited into the Coast Guard Housing Fund in FY2026 to remain available until expended for the purposes of the fund (i.e., carrying out activities related to military family housing and military unaccompanied housing).</p><p>(Sec. 219) This section provides additional funding to the Coast Guard for the purchase and support of MQ-9 Reaper unmanned aircraft, including associated base stations, equipment related to the aircraft and associated base stations, and program management.</p><p>It also prohibits DHS from (1) procuring or acquiring long-range unmanned aircraft with kinetic capabilities, or (2) equipping any long-range unmanned aircraft with kinetic capabilities.</p><p>(Sec. 220) This section prohibits the Coast Guard from using funds provided by this division for the implementation of Force Design 2028 until it provides Congress with detailed briefings on the initiatives of organization, people, technology, and contracting and acquisitions.</p><p>(Sec. 221) This section permits the Secret Service to obligate funds in anticipation of reimbursements from executive agencies for personnel receiving training sponsored by the James&nbsp;J. Rowley Training Center, except that total obligations at the end of the fiscal year may not exceed budgetary resources available for the Operations and Support account.</p><p>(Sec. 222) This section prohibits Secret Service funds from being used for the protection of the head of a federal agency other than the Secretary of Homeland Security. The Secret Service may enter into agreements to provide such protection on a fully reimbursable basis.</p><p>(Sec. 223) This section permits the Secret Service to reprogram specified funds within the Operations and Support account.</p><p>(Sec. 224) This section permits funds provided to the Secret Service for Operations and Support to be used for travel of employees on protective missions without regard to limitations on the expenditures if Congress is notified in advance.</p><p>(Sec. 225) This section requires specifed Secret Service funds&nbsp;to be distributed as a grant or cooperative agreement for the existing National Computer Forensics Institute facilities used by the Secret Service.</p><p>(Sec. 226) This section retroactively raises the limit on overtime pay in calendar year 2024 for the Secret Service personnel who performed protective duties in calendar year 2024, requires an analysis of operational demands placed on Secret Service personnel by the increases in the service's protection mission, and allows additional Secret Service appropriations to be used for overtime pay.</p><p>(Sec. 227) This section prohibits the&nbsp;CBP from using funds provided by this division to prevent individuals from importing personal-use quantities of certain prescription drugs from Canada.</p><p>(Sec. 228) This section permits specified&nbsp;CBP funds to be used for customs expenses when necessary to maintain operations and prevent adverse personnel actions in Puerto Rico and the U.S. Virgin Islands.</p><p>(Sec. 229) This section permits CBP to access certain reimbursements for preclearance activities.</p><p>TITLE III--PROTECTION, PREPAREDNESS, RESPONSE, AND RECOVERY</p><p>This title provides appropriations to the&nbsp;Cybersecurity and Infrastructure Security Agency (CISA) for (1) Operations and Support; and (2) Procurement, Construction, and Improvements.</p><p>The title also provides appropriations to the Federal Emergency Management Agency (FEMA) for</p><ul><li>Operations and Support;</li><li>Procurement, Construction, and Improvements;</li><li>Federal Assistance;</li><li>the Disaster Relief Fund; and</li><li>the National Flood Insurance Fund.</li></ul><p>(Sec. 301) This section allows specified&nbsp;CISA funds to be used for procuring and providing access to cybersecurity threat feeds to specified entities, including federal agencies; state, local, tribal, and territorial entities; fusion centers; and Information Sharing and Analysis Organizations.</p><p>(Sec. 302) This section limits expenses for the administration of&nbsp;FEMA grants.</p><p>(Sec. 303) This section specifies time frames for&nbsp;FEMA grant applications and awards.</p><p>(Sec. 304) This section requires&nbsp;FEMA to brief Congress in advance of announcing the intention to award certain grants. It also rescinds specified funds if the requirements are not met.</p><p>(Sec. 305) This section specifies that, for the purpose of certain&nbsp;FEMA grants, the installation of communications towers is not considered construction of a building or other physical facility.</p><p>(Sec. 306) This section extends and modifies reporting requirements for expenditures from&nbsp;FEMA's Disaster Relief Fund.</p><p>(Sec. 307) This section allows&nbsp;FEMA to waive specified program requirements for Staffing for Adequate Fire and Emergency Response (SAFER) grants.</p><p>(Sec. 308) This section sets forth requirements for assessing, collecting, and spending fees for the Radiological Emergency Preparedness Program.</p><p>(Sec. 309) This section permits&nbsp;DHS to waive certain matching and maintenance of expenditure requirements when making Assistance to Firefighters Grants.</p><p>(Sec. 310) This section establishes requirements for transferring&nbsp;unobligated funds that were provided to FEMA for the National Predisaster Mitigation Fund.&nbsp;</p><p>(Sec. 311) This section requires certain FEMA funds to be transferred between accounts for Flood Hazard Mapping and Risk Analysis.</p><p>(Sec. 312) This section requires specified FEMA grants to have a period of performance that is not less than three years and not more than five years.</p><p>(Sec. 313) This section requires FEMA to post an interactive dashboard on a public website that shows requests for reimbursement under public or individual assistance related to an emergency or major disaster not more than 90 days after FEMA has received the request and not more than 60 days after the request is under final review by DHS.</p><p>(Sec. 314) This section prohibits funds provided by this division from being used to pause a training or grant funded with FEMA’s Federal Assistance account unless DHS notifies Congress at least 10 business days in advance of the pause. DHS may waive the notification requirement in the event of extraordinary circumstances that imminently threaten the safety of human life or the protection of property.</p><p>TITLE IV--RESEARCH, DEVELOPMENT, TRAINING, AND SERVICES</p><p>This title provides appropriations for U.S. Citizenship and Immigration Services (USCIS) for Operations and Support.</p><p>The title provides appropriations to the Federal Law Enforcement Training Centers (FLETC) for (1) Operations and Support; and (2) Procurement, Construction, and Improvements.</p><p>The title provides appropriations for the Science and Technology Directorate for</p><ul><li>Operations and Support;</li><li>Procurement, Construction, and Improvements; and</li><li>Research and Development.</li></ul><p>(Sec. 401) This section permits the&nbsp;USCIS to (1) acquire, operate, equip, and dispose of up to five vehicles, for replacement only, for areas where the General Services Administration does not provide vehicles for lease; and (2) authorize employees who are assigned to those areas to use the vehicles to travel between their residences and places of employment.</p><p>(Sec. 402) This section prohibits funds provided by this division from being used for a competition for services provided by&nbsp;USCIS employees known as Immigration Information Officers, Immigration Service Analysts, Contact Representatives, Investigative Assistants, or Immigration Services Officers.</p><p>(Sec. 403) This section permits&nbsp;USCIS to use federal funds for the collection and use of biometrics taken at a USCIS Application Support Center that is overseen virtually by USCIS personnel using appropriate technology.</p><p>(Sec. 404) This section permits&nbsp;FLETC to distribute funds to federal law enforcement agencies for expenses incurred participating in training accreditation.</p><p>(Sec. 405) This section directs the Federal Law Enforcement Training Accreditation Board to lead the federal law enforcement training accreditation process to measure and assess federal law enforcement training programs, facilities, and instructors.</p><p>(Sec. 406) This section allows the&nbsp;FLETC to accept certain transfers of funds from government agencies requesting the construction of special use facilities. The FLETC must maintain administrative control and ownership upon completion of the facilities.</p><p>(Sec. 407) This section classifies the functions of the&nbsp;FLETC instructor staff as inherently governmental (rather than commercial, which would require source competition) for the purposes of the Federal Activities Inventory Reform Act of 1998.</p><p>TITLE V--GENERAL PROVISIONS</p><p>(Sec. 501) This section prohibits appropriations provided by this division from remaining available for obligation beyond the current fiscal year unless the authority is expressly provided by this division.</p><p>(Sec. 502) This section permits unexpended balances of prior appropriations to be transferred and merged to new accounts and used for the same purpose, subject to reprogramming guidelines.</p><p>(Sec. 503) This section sets forth authorities and restrictions for the reprogramming and transfer of funds provided by this division.</p><p>(Sec. 504) This section extends the authority for the&nbsp;DHS Working Capital Fund.</p><p>(Sec. 505) This section permits up to 50% of the&nbsp;unobligated balances from each Operations and Support appropriation to remain available through FY2027, subject to the congressional notification requirements included in Section 503.</p><p>(Sec. 506) This section deems funds provided by this division for intelligence activities to be specifically authorized during FY2026 until the enactment of an act authorizing intelligence activities for FY2026. After an authorization bill is enacted, funds provided by this division for the Intelligence, Analysis, and Situational Awareness--Operations and Support account that exceed the authorized amounts for the account must be transferred to the Management Directorate--Operations and Support account.</p><p>(Sec. 507) This section requires&nbsp;DHS to notify Congress prior to executing or announcing certain grant allocations, grant awards, contract awards, task or delivery orders, other transaction agreements, or letters of intent. A waiver is permitted if compliance would pose a substantial risk to human life, health, or safety, and DHS notifies Congress after the award is made.</p><p>(Sec. 508) This section prohibits agencies from purchasing, constructing, or leasing additional facilities for federal law enforcement training without notifying Congress in advance. The section includes exceptions for (1) facilities that are within or contiguous to existing locations, and (2) certain temporary facilities obtained by Federal Law Enforcement Training Centers for training that cannot be accommodated in existing facilities.</p><p>(Sec. 509) This section prohibits funds provided by this division from being used for a construction, repair, alteration, or acquisition project for which a required prospectus has not been approved. The section allows funds to be used for required expenses for the development of a proposed prospectus.</p><p>(Sec. 510)&nbsp;This section applies provisions of the Department of Homeland Security Appropriations Act, 2008 related to disclosure of sensitive security information and the minimum federal fleet requirements for alternative fuel vehicles to funds provided by this division.</p><p>(Sec. 511) This section prohibits funds provided by this division from being used in contravention of the Buy American Act.</p><p>(Sec. 512) This section prohibits funds provided by this division from being used to amend the oath of allegiance required by the Immigration and Nationality Act.</p><p>(Sec. 513) This section prohibits DHS from using funds provided by this division to carry out a reorganization unless it is explicitly authorized by Congress. It also includes exceptions related to the functions of the Countering Weapons of Mass Destruction Office.</p><p>(Sec. 514) This section prohibits funds provided by this division from being used for a national identification card.</p><p>(Sec. 515) This section prohibits officials from delegating this division's requirements to report or certify to Congress unless it is specifically authorized by this division.</p><p>(Sec. 516) This section prohibits funds provided by this division from being used for first-class travel by employees of agencies funded by the division.</p><p>(Sec. 517) This section prohibits the use of funds provided by this division to employ workers who are illegal workers under the Immigration and Nationality Act.</p><p>(Sec. 518) This section prohibits funds provided by this division from being used to pay award or incentive fees for contractor performance that is below satisfactory or fails to meet the basic requirements of a contract.</p><p>(Sec. 519) This section prohibits funds provided by this division from being used for a computer network unless pornography is blocked, with exceptions for law enforcement, prosecution, or adjudication activities.</p><p>(Sec. 520) This section prohibits a federal law enforcement officer from using funds provided by this division to transfer an operable firearm to an agent of a drug cartel unless U.S. law enforcement personnel continuously monitor or control the firearm.</p><p>(Sec. 521) This section sets forth restrictions and congressional notification requirements for the use of funds provided by this division to attend international conferences.</p><p>(Sec. 522) This section prohibits funds provided by this division from being used to reimburse any federal department or agency for participation in a National Special Security Event.</p><p>(Sec. 523) This section requires&nbsp;DHS to notify Congress prior to implementing a structural pay reform or introducing any new position classification that will affect more than 100 full-time employee positions or cost more than $5 million in a single year. This requirement does not apply if (1) the change was included in the President's budget proposal for the fiscal year funded by this division, and (2) funds for the change have not been explicitly denied or restricted in this division.</p><p>(Sec. 524) This section requires agencies receiving funds in this division to post reports required to be submitted to Congress on the public website of the agency if it serves the national interest, subject to exceptions for homeland security, national security, or proprietary information.</p><p>(Sec. 525) This section permits funds provided by this division for Operations and Support to be used for minor procurement, construction, and improvements (end items with a unit cost of $250,000 or less for personal property and $4 million or less for real property).</p><p>(Sec. 526) This section permits&nbsp;DHS to use funds for the primary and secondary schooling (including transportation) of dependents of certain DHS personnel who are stationed outside of the continental United States in certain areas where the available schools are unable to provide adequately for the education of the dependents.</p><p>(Sec. 527) This section prohibits funds provided by this division from being used to place restraints on a woman who is in&nbsp;DHS custody and is pregnant or in post-delivery recuperation, except in specified circumstances.</p><p>(Sec. 528) This section prohibits funds provided by this division from being used to destroy any records pertaining to (1) the death, sexual assault, or abuse of any individual held in&nbsp;DHS custody; or (2) an allegation of abuse, criminal activity, or disruption committed by an individual in DHS custody. The section also establishes requirements for making the records available to individuals who have been charged with a crime, place into segregation, or otherwise punished as a result of an allegation included in the records.&nbsp;</p><p>(Sec. 529) This section prohibits funds from being used for any position designated as a Principal Federal Official during a&nbsp;Stafford Act declared disaster or emergency unless certain requirements are met.</p><p>(Sec. 530) This section requires&nbsp;DHS to report to Congress on unfunded priorities for which appropriations would be classified as budget function 050 (national defense)</p><p>(Sec. 531) This section establishes congressional notification and reporting requirements regarding determinations to evaluate and initiate, extend, or terminate protection for a former or retired government official or employee.</p><p>(Sec. 532) This section establishes congressional notification and reporting requirements regarding the submission of initial project proposals to the Technology Modernization Fund. It also prohibits DHS from obligating funds provided by the Technology Modernization Fund until a report has been submitted to Congress regarding the proposed project.&nbsp;</p><p>(Sec. 533) This section provides that, within 60 days of submitting a budget proposal for FY2027 that assumes revenues or proposes a reduction from the previous year based on user fees proposals that have not been enacted into law prior to the submission of the budget,&nbsp;DHS must submit to Congress proposed spending reductions to offset revenues assumed in the proposals if they are not enacted.</p><p>(Sec. 534) This section prohibits funds provided by this division from being used to implement the Arms Trade Treaty regulating international trade in conventional arms until it is ratified by the Senate.</p><p>(Sec. 535) This section prohibits&nbsp;DHS funds from being used to provide assistance to or enter into certain agreements with an entity that the Department of Defense has identified as a Chinese military company operating in the United States or any subsidiary of such an entity.</p><p>(Sec. 536) This section prohibits funds from being used to transfer or release certain individuals detained at the U.S. Naval Station at Guantanamo Bay, Cuba, to or within the United States, its territories, or its possessions.</p><p>(Sec. 537) This section requires&nbsp;DHS to provide monthly estimates of the number of migrants anticipated to arrive at the southwest border of the United States. This section also suspends certain authorities to transfer and reprogram funds if the estimates are not provided.&nbsp;</p><p>(Sec. 538) This section requires DHS to provide monthly estimates of the number of individuals anticipated to be detained in and removed from the United States. It also suspends DHS’s authority to reprogram or transfer funds if this reporting requirement is not met.</p><p>(Sec. 539) This section requires&nbsp;DHS to conduct an alternatives analysis and a cost-benefit analysis prior to requesting assistance from the Department of Defense for border security operations. The section also establishes related reporting requirements.&nbsp;</p><p>(Sec. 540) This section permits Operations and Support funds to be used for the necessary expenses of providing an employee emergency back-up care program.</p><p>(Sec. 541) This section imposes a $100,000 daily reduction on certain funding for the Office of the Secretary and Executive Management for every day when (1) the statutory deadline for filing the monthly report on Disaster Relief Fund activity is missed; or (2) the number of requests for disaster assistance reimbursement from declared disasters for individual or public assistance that have been in final review for more than 60 days exceeds 500.</p><p>The second daily reduction does not apply if the balance of funding for the Disaster Relief Fund is sufficient only for the purpose of obligating funds for lifesaving or life-sustaining activities.&nbsp;</p><p>(Sec. 542) This section extends the authority for medical personnel working for DHS to practice medicine (as part of their federal duties) anywhere in the country, as long as they have a current, valid license, and are not affirmatively excluded from practicing.</p><p>(Sec. 543) This section requires levels for appropriations accounts specified for classified programs in this division to conform to the direction included in the classified annex accompanying this division and implemented in a manner consistent with Section 545 of this division.</p><p>(Sec. 544) This section allows the Office of the Director of National Intelligence, with the approval of DHS and the Office of Management and Budget, to transfer funds for the National Intelligence Program under specified transfer and reprogramming authorities and consistent with certain limits included in this division.</p><p>(Sec. 545) This section requires DHS to submit quarterly reports to Congress that include an obligation plan and estimated fee collections for the funding and fee authorizations included in the 2025 reconciliation act.</p><p>(Sec. 546) This section prohibits funds provided by this division from being used to (1) prevent a Member of Congress or certain congressional employees from entering, for the purpose of conducting oversight, any&nbsp;DHS facility used to detain or otherwise house aliens; or (2) make any temporary modification to such a facility that alters what is observed by a visiting Member of Congress or congressional employee, compared to what would be observed without the modification.</p><p>(Sec. 547) This section provides additional appropriations to the U.S. Supreme Court for salaries and expenses.</p><p>(Sec. 548) This section provides appropriations for the Federal Aviation Administration to provide a pay increase to air traffic controllers for calendar year 2026.</p><p>(Sec. 549) This section prohibits funds from being transferred to CBP for Border Security Operations.</p><p>For additional information on this division, see</p><p>CRS Report <a href="https://www.congress.gov/crs-product/R48705">R48705, Department of Homeland Security Appropriations: FY2026 Provisions</a></p><p>CRS Report <a href="https://www.congress.gov/crs-product/R48874">R48874, Department of Homeland Security Appropriations: FY2026 State of Play</a></p><p>DIVISION B--FURTHER ADDITIONAL CONTINUING APPROPRIATIONS ACT, 2026</p><p><em>Further Additional Continuing Appropriations Act, 2026</em></p><p>(Sec. 101) This section extends the Continuing Appropriations Act, 2026 through the enactment date of this division.</p><p>(Sec. 102) This section provides that the time covered by the Continuing Appropriations Act, 2026, includes the partial DHS shutdown that began on February 14, 2026.</p><p>(Sec. 103) This section requires specified funds provided for personnel pay, allowances, and benefits to be used to provide back pay, in accordance with current law, to federal employees who were affected by a government shutdown due to a lapse in appropriations.</p><p>(Sec. 104) This section ratifies and approves certain obligations that were incurred during a government shutdown in anticipation of the funds and authority provided by Division A of this act and the&nbsp;Continuing Appropriations Act, 2026, including obligations incurred to maintain the essential level of activity to protect life and property and bring about an orderly termination of government functions.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+        <updateDate>2026-09-19T23:30:46Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Titles from ENR (Enrolled) bill text</titleType>
+        <titleTypeCode>147</titleTypeCode>
+        <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+        <updateDate>2026-05-01T06:53:28Z</updateDate>
+        <chamberCode>J</chamberCode>
+        <chamberName>Joint</chamberName>
+        <billTextVersionName>Enrolled Bill</billTextVersionName>
+        <billTextVersionCode>ENR</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment Senate for portions of this bill</titleType>
+        <titleTypeCode>254</titleTypeCode>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <updateDate>2026-04-24T23:42:36Z</updateDate>
+        <billTextVersionName>Engrossed Amendment Senate</billTextVersionName>
+        <billTextVersionCode>EAS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment Senate for portions of this bill</titleType>
+        <titleTypeCode>254</titleTypeCode>
+        <title>Further Additional Continuing Appropriations Act, 2026</title>
+        <updateDate>2026-04-24T23:42:36Z</updateDate>
+        <billTextVersionName>Engrossed Amendment Senate</billTextVersionName>
+        <billTextVersionCode>EAS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment House bill text</titleType>
+        <titleTypeCode>252</titleTypeCode>
+        <title>Further Additional Continuing Appropriations Act, 2026</title>
+        <updateDate>2026-03-28T09:23:21Z</updateDate>
+        <billTextVersionName>Engrossed Amendment House</billTextVersionName>
+        <billTextVersionCode>EAH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment Senate bill text</titleType>
+        <titleTypeCode>250</titleTypeCode>
+        <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+        <updateDate>2026-03-27T11:08:30Z</updateDate>
+        <billTextVersionName>Engrossed Amendment Senate</billTextVersionName>
+        <billTextVersionCode>EAS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>151</titleTypeCode>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <updateDate>2026-03-02T18:28:21Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House for portions of this bill</titleType>
+        <titleTypeCode>109</titleTypeCode>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <updateDate>2026-02-04T14:53:18Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-01-24T03:53:24Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced for portions of this bill</titleType>
+        <titleTypeCode>106</titleTypeCode>
+        <title>Department of Homeland Security Appropriations Act, 2026</title>
+        <updateDate>2026-01-21T18:58:15Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.</title>
+        <updateDate>2026-01-21T11:18:29Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>4790</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>In the nature of a substitute.</purpose>
+        <updateDate>2026-03-28T11:08:25Z</updateDate>
+        <latestAction>
+          <actionDate>2026-03-27</actionDate>
+          <text>Amendment SA 4790 agreed to in Senate by Voice Vote.</text>
+          <links>
+            <link>
+              <name>SA 4790</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/4790</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>T000250</bioguideId>
+            <fullName>Sen. Thune, John [R-SD]</fullName>
+            <firstName>John</firstName>
+            <lastName>Thune</lastName>
+            <party>R</party>
+            <state>SD</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <proposedDate>2026-03-27T06:19:21Z</proposedDate>
+        <submittedDate>2026-03-27T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-03-27</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4790 agreed to in Senate by Voice Vote.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-03-27</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 4790 proposed by Senator Thune. (consideration: CR S1660) In the nature of a substitute.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-03-27</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-27</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 4790 proposed by Senator Thune.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-27</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-27</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 4790 agreed to in Senate by Voice Vote.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4789</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-03-27T11:08:25Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>S001227</bioguideId>
+            <fullName>Sen. Schmitt, Eric [R-MO]</fullName>
+            <firstName>Eric</firstName>
+            <lastName>Schmitt</lastName>
+            <party>R</party>
+            <state>MO</state>
+            <middleName>S.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2026-03-26T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>4775</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <updateDate>2026-03-25T11:08:42Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-03-26</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-26</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4775</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-03-25T11:08:42Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001035</bioguideId>
+            <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+            <firstName>Susan</firstName>
+            <lastName>Collins</lastName>
+            <party>R</party>
+            <state>ME</state>
+            <middleName>M.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2026-03-24T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <amendmentsToAmendment>
+          <count>1</count>
+        </amendmentsToAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-03-24</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-03-24</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4300</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-02-13T12:08:22Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000790</bioguideId>
+            <fullName>Sen. Warnock, Raphael G. [D-GA]</fullName>
+            <firstName>Raphael</firstName>
+            <lastName>Warnock</lastName>
+            <party>D</party>
+            <state>GA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-02-12T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4299</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-02-13T12:08:22Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>P000145</bioguideId>
+            <fullName>Sen. Padilla, Alex [D-CA]</fullName>
+            <firstName>Alex</firstName>
+            <lastName>Padilla</lastName>
+            <party>D</party>
+            <state>CA</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2026-02-12</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-02-12T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4298</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-02-13T12:08:22Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>P000145</bioguideId>
+            <fullName>Sen. Padilla, Alex [D-CA]</fullName>
+            <firstName>Alex</firstName>
+            <lastName>Padilla</lastName>
+            <party>D</party>
+            <state>CA</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>5</countIncludingWithdrawnCosponsors>
+          <count>5</count>
+          <item>
+            <bioguideId>B001267</bioguideId>
+            <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+            <firstName>Michael</firstName>
+            <lastName>Bennet</lastName>
+            <party>D</party>
+            <state>CO</state>
+            <sponsorshipDate>2026-02-12</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000800</bioguideId>
+            <fullName>Sen. Welch, Peter [D-VT]</fullName>
+            <firstName>Peter</firstName>
+            <lastName>Welch</lastName>
+            <party>D</party>
+            <state>VT</state>
+            <sponsorshipDate>2026-02-12</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2026-02-12</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001194</bioguideId>
+            <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+            <firstName>Brian</firstName>
+            <lastName>Schatz</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <sponsorshipDate>2026-02-12</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>C001113</bioguideId>
+            <fullName>Sen. Cortez Masto, Catherine [D-NV]</fullName>
+            <firstName>Catherine</firstName>
+            <lastName>Cortez Masto</lastName>
+            <party>D</party>
+            <state>NV</state>
+            <sponsorshipDate>2026-02-12</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-02-12T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4297</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-02-13T12:08:21Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>P000145</bioguideId>
+            <fullName>Sen. Padilla, Alex [D-CA]</fullName>
+            <firstName>Alex</firstName>
+            <lastName>Padilla</lastName>
+            <party>D</party>
+            <state>CA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-02-12T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-02-12</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>4296</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-02-12T12:08:29Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>G000359</bioguideId>
+            <fullName>Sen. Graham, Lindsey [R-SC]</fullName>
+            <firstName>Lindsey</firstName>
+            <lastName>Graham</lastName>
+            <party>R</party>
+            <state>SC</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-02-11T05:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-02-11</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-02-11</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>157</number>
+        <congress>119</congress>
+        <type>HAMDT</type>
+        <description>Pursuant to the provisions of H. Res. 1014, the amendment specified in section 7 of H. Res. 1014 is considered adopted.</description>
+        <updateDate>2026-01-23T09:09:15Z</updateDate>
+        <latestAction>
+          <actionDate>2026-01-22</actionDate>
+          <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+        </latestAction>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2026-01-22T05:00:00Z</submittedDate>
+        <chamber>House of Representatives</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>7147</number>
+          <title>Homeland Security and Further Additional Continuing Appropriations Act, 2026.</title>
+          <updateDateIncludingText>2026-10-14</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>4</count>
+          <actions>
+            <item>
+              <actionDate>2026-01-22</actionDate>
+              <text>On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-01-22</actionDate>
+              <text>Amendment reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2026-01-22</actionDate>
+              <text>House amendment offered/reported by: Amendment reported by the House Committee on Rules.</text>
+              <type>NotUsed</type>
+              <actionCode>71500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <committees>
+                <item>
+                  <systemCode>hsru00</systemCode>
+                  <name>Rules Committee</name>
+                </item>
+              </committees>
+            </item>
+            <item>
+              <actionDate>2026-01-22</actionDate>
+              <text>House amendment considered as adopted: On agreeing to the Rules amendment (A001) Agreed to without objection.</text>
+              <type/>
+              <actionCode>72500</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147enr/uslm/BILLS-119hr7147enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147enr/xml/BILLS-119hr7147enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed Amendment House</type>
+        <date>2026-03-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147eah/xml/BILLS-119hr7147eah.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed Amendment Senate</type>
+        <date>2026-03-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147eas/xml/BILLS-119hr7147eas.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-02-02T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147pcs/xml/BILLS-119hr7147pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-01-22T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147eh/xml/BILLS-119hr7147eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-01-20T05:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr7147ih/xml/BILLS-119hr7147ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-05-01T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ86/uslm/PLAW-119publ86.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-04-30</actionDate>
+      <text>Became Public Law No: 119-86.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
