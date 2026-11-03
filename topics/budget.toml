@@ -23,7 +23,7 @@ min_budget_authority = 1e9
 feed = "https://www.gao.gov/rss/reports.xml"
 
 [site]
-order = 6
+order = 2
 tab = "Where it goes"
 view = "budget"
 headline = "Where the money goes"

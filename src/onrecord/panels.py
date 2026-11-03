@@ -12,7 +12,7 @@ import re
 from collections.abc import Callable
 from datetime import date
 
-from .adapters.congress_bills import URL_TYPE
+from .adapters.congress_bills import URL_TYPE, decides_bill
 from .store import Store
 
 # Presidential terms covered by the Federal Register's online records (1994 onward).
@@ -501,14 +501,6 @@ BUILDERS.update(
 
 # ---- Bills that split Congress ----------------------------------------------------
 
-# House roll call questions that decide a bill itself, not a procedural step.
-PASSAGE = (
-    "Passage",
-    "Suspend the Rules and Pass",
-    "Senate Amendment",
-    "Conference Report",
-    "Objections of the President",
-)
 CLOSE = 0.2  # a margin of 20 points or less: the losing side had at least 40%
 SUMMARY_CHARS = 1500
 
@@ -542,13 +534,32 @@ def _status(bill: dict) -> str:
     return "Voted on, not passed"
 
 
+CODE = {"Yea": "Y", "Nay": "N", "Present": "P", "Not Voting": "-"}
+
+
 def contested_bills(store: Store, today: date) -> dict:
+    members: dict[str, dict] = {}
     house: dict[str, list[dict]] = {}
     for v in _extras(store, "congress_bills", "house_vote"):
-        q = v.get("question", "")
-        if v.get("bill") and v.get("yea") is not None and any(p in q for p in PASSAGE):
-            if "Recommit" not in q:
-                house.setdefault(v["bill"], []).append(v)
+        if v.get("bill") and v.get("yea") is not None and decides_bill(v.get("question", "")):
+            house.setdefault(v["bill"], []).append(v)
+            for m in v.get("members") or []:
+                # The latest vote wins, so a member's party and name are their most recent.
+                if m["id"] not in members or v["date"] >= members[m["id"]]["_date"]:
+                    members[m["id"]] = {**m, "_date": v["date"]}
+    order = sorted(members, key=lambda i: (members[i]["state"], members[i]["name"]))
+    index = {mid: n for n, mid in enumerate(order)}
+
+    def codes(v: dict) -> str | None:
+        # One character per member in `order`: Y, N, P, - (not voting), or a space when
+        # the member was not in the House for that vote.
+        if not v.get("members"):
+            return None
+        out = [" "] * len(order)
+        for m in v["members"]:
+            out[index[m["id"]]] = CODE.get(m["vote"], "-")
+        return "".join(out)
+
     bills = []
     for b in _extras(store, "congress_bills", "bill"):
         votes = [
@@ -563,6 +574,8 @@ def contested_bills(store: Store, today: date) -> dict:
                 "url": f"https://clerk.house.gov/Votes/{v['date'][:4]}{v['roll']}",
                 "parties": [p for p in v["rows"] if p["yea"] + p["nay"] > 0],
                 "party_line": _party_line(v["rows"]),
+                "majority": v.get("majority"),
+                "codes": codes(v),
             }
             for v in sorted(house.get(f"{b['type']}{b['number']}", []), key=lambda v: v["date"])
         ]
@@ -592,7 +605,9 @@ def contested_bills(store: Store, today: date) -> dict:
                 "title": b["short_title"] or b["title"],
                 "official_title": b["title"],
                 "sponsor": b["sponsor"],
+                "sponsor_party": b["sponsor_party"],
                 "policy_area": b["policy_area"],
+                "cbo": b.get("cbo") or [],
                 "introduced": b["introduced"],
                 "latest_action": b["latest_action"],
                 "law": b["law"],
@@ -618,6 +633,7 @@ def contested_bills(store: Store, today: date) -> dict:
     bills.sort(key=lambda x: x["latest_action"]["date"], reverse=True)
     return {
         "bills": bills,
+        "members": [{k: members[i][k] for k in ("id", "name", "party", "state")} for i in order],
         "close": CLOSE,
         "source": "US House Clerk roll calls; Congress.gov bill status via GovInfo",
         "rule": (
@@ -629,9 +645,60 @@ def contested_bills(store: Store, today: date) -> dict:
             "on opposite sides. Bills are found through House roll calls, so a bill only the "
             "Senate has voted on is not listed yet; Senate counts are as stated in the bill's "
             "official actions. What a bill would change is the Congressional Research "
-            "Service's summary of the latest version it has summarized, quoted as published."
+            "Service's summary of the latest version it has summarized, quoted as published. "
+            "Member-by-member votes are the House Clerk's roll calls; senate.gov does not allow "
+            "automated access, so Senate votes are shown as totals only."
         ),
     }
 
 
 BUILDERS["contested_bills"] = contested_bills
+
+
+SPENDING = re.compile(r"appropriation|rescission|reconciliation|debt limit", re.I)
+
+
+def spending_laws(store: Store, today: date) -> dict:
+    """Which party's votes carried the bills that set federal spending."""
+    bills = [
+        b
+        for b in contested_bills(store, today)["bills"]
+        if SPENDING.search(f"{b['title']} {b['official_title']}")
+        or b["policy_area"] == "Economics and Public Finance"
+    ]
+    for b in bills:
+        b.pop("summary", None)
+        for v in b["votes"]:
+            v.pop("codes", None)
+    return {
+        "bills": bills,
+        "source": "US House Clerk roll calls; Congress.gov bill status via GovInfo",
+        "rule": (
+            "Spending bills are bills with a recorded vote on the bill itself whose title "
+            "mentions appropriations, rescissions, reconciliation or the debt limit, or that "
+            "Congress.gov files under Economics and Public Finance. For each, the House's "
+            "deciding vote is broken down by party from the Clerk's roll call, and the majority "
+            "party is the one the Clerk records for that vote. Senate votes are totals as "
+            "stated in the bill's official actions, without a party breakdown. A yes vote is "
+            "a vote for the bill as it stood then, not for every provision in it."
+        ),
+    }
+
+
+def member_votes(store: Store, today: date) -> dict:
+    # The member list and their votes ride on the contested_bills panel; the site reads them
+    # from there rather than shipping them twice.
+    return {
+        "source": "US House Clerk roll calls",
+        "rule": (
+            "Each representative's recorded vote on the House's deciding votes on contested "
+            'bills (see the rule above). "With party" means the member voted the same way as '
+            "most members of their party who voted yea or nay. Present and not voting are "
+            "shown but not counted either way. The House only; senate.gov does not allow "
+            "automated access to its member-by-member votes."
+        ),
+    }
+
+
+BUILDERS["spending_laws"] = spending_laws
+BUILDERS["member_votes"] = member_votes

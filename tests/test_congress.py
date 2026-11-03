@@ -3,7 +3,7 @@
 from datetime import date
 
 from onrecord.adapters.congress_bills import CongressBills, bill_key
-from onrecord.panels import contested_bills
+from onrecord.panels import contested_bills, spending_laws
 from onrecord.store import Store
 
 
@@ -22,6 +22,14 @@ def test_roll_call_header_from_partial_file(fixture):
     assert (rep["yea"], rep["nay"]) == (219, 0)
 
 
+def test_full_roll_call_has_every_member(fixture):
+    x = CongressBills.parse(fixture("congress_bills", "house_2025_137_full.xml")).meta.extra
+    assert x["majority"] == "R"
+    votes = [m["vote"] for m in x["members"]]
+    assert votes.count("Yea") == 220 and votes.count("Nay") == 207
+    assert all(m["id"] and m["party"] and m["state"] for m in x["members"])
+
+
 def test_bill_status(fixture):
     r = CongressBills.parse(fixture("congress_bills", "bill_119sjres13.xml"))
     x = r.meta.extra
@@ -36,7 +44,7 @@ def test_bill_status(fixture):
 
 def test_contested_rule(tmp_path, fixture):
     store = Store(tmp_path)
-    for name in ("house_2025_137.xml", "bill_119sjres13.xml"):
+    for name in ("house_2025_137_full.xml", "bill_119sjres13.xml"):
         raw = fixture("congress_bills", name)
         store.ingest(raw, CongressBills.parse(raw), topic="c")
     p = contested_bills(store, date(2026, 11, 2))
@@ -45,3 +53,8 @@ def test_contested_rule(tmp_path, fixture):
     house = next(v for v in b["votes"] if v["chamber"] == "House")
     assert house["url"] == "https://clerk.house.gov/Votes/2025137"
     assert "40%" in p["rule"]
+    # One vote code per member, aligned with the member list.
+    assert len(house["codes"]) == len(p["members"]) and house["codes"].count("Y") == 220
+
+    s = spending_laws(store, date(2026, 11, 2))
+    assert s["bills"] == []  # a rule disapproval is not a spending bill

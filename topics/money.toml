@@ -33,7 +33,7 @@ queries = [
 ]
 
 [site]
-order = 5
+order = 3
 tab = "Follow the money"
 view = "money"
 headline = "Follow the money"

@@ -34,7 +34,7 @@ series = [
 ]
 
 [site]
-order = 2
+order = 6
 tab = "EU–US"
 headline = "EU–US trade, on the record"
 lede = """US presidential actions on tariffs affecting the EU, the EU's own legal acts and \

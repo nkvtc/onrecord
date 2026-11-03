@@ -131,6 +131,16 @@ that rule under the chart.
 - **Vote counts.** House counts and the party breakdown come from the Clerk's roll call
   file. Senate counts are as stated in the bill's official actions ("51 - 50. Record Vote
   Number: 372"). "Present" and not voting are left out of the margin.
+- **How each representative voted** uses the full Clerk roll call for every House vote
+  that decided a bill (other roll calls are archived as their header only). "With their
+  party" means the member voted the same way as most members of their party who voted
+  yea or nay. Senate member votes are not shown: senate.gov does not allow automated
+  access, and onrecord does not work around that.
+- **Spending bills** are those whose title mentions appropriations, rescissions,
+  reconciliation or the debt limit, or that Congress.gov files under Economics and Public
+  Finance. "Republicans cast 80% of the yes votes" adds up the yes votes by party on the
+  last House vote on each bill. A yes vote is a vote for the bill as it stood, not for
+  every provision in it. CBO cost estimates are linked where Congress.gov lists them.
 
 ## Accountability records
 

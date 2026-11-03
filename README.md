@@ -30,7 +30,8 @@ Six topics so far:
 - **Bills**: bills Congress has voted on this term, what each would change in the
   Congressional Research Service's summary, how close each vote was, how the parties
   split in the House, and where each bill stands. Contested bills are flagged by a
-  stated rule.
+  stated rule. Look up how any representative voted, and see which party's votes
+  passed each spending bill.
 - **In context**: the same records counted the same way across presidents: executive
   orders by day in office (1994 onward), clemency per president (back to 1900), and
   money raised by inaugural committees (2005 onward). Each chart states its counting rule.

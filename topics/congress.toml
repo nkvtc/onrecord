@@ -5,26 +5,34 @@ id = "congress"
 title = "Bills that split Congress"
 since = 2025-01-03
 description = """
-Bills and joint resolutions that got a recorded House vote in the current Congress, with
-the Congressional Research Service summary of what each would change, the vote counts in
-each chamber, how each party voted in the House, and where the bill stands now.
+Every bill the House has voted on this Congress: what it would change in the Congressional
+Research Service's words, how close the votes were, how each representative voted, and
+which party's votes passed the spending bills.
 """
 
 [congress_bills]
 congress = 119
 
 [site]
-order = 7
+order = 1
 tab = "Bills"
 view = "congress"
 headline = "Bills that split Congress"
 lede = """What Congress has voted on this term and what each bill would actually change, \
 in the nonpartisan Congressional Research Service's summary, with how close each vote was \
-and how the parties voted. Sorted so the most divided votes are easy to find."""
+how each representative voted, and which party's votes carried the spending bills."""
 
 [[site.panels]]
 kind = "contested_bills"
 title = "Contested bills, and what they would change"
+
+[[site.panels]]
+kind = "member_votes"
+title = "How each representative voted"
+
+[[site.panels]]
+kind = "spending_laws"
+title = "Who passed the spending bills"
 
 [[site.filters]]
 label = "All"

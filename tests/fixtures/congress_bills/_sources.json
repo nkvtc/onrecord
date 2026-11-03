@@ -1,4 +1,14 @@
 {
-  "house_2025_137.xml": {"source_id": "house:2025:137", "url": "https://clerk.house.gov/evs/2025/roll137.xml"},
-  "bill_119sjres13.xml": {"source_id": "bill:119sjres13", "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119sjres13.xml"}
+ "house_2025_137.xml": {
+  "source_id": "house:2025:137",
+  "url": "https://clerk.house.gov/evs/2025/roll137.xml"
+ },
+ "bill_119sjres13.xml": {
+  "source_id": "bill:119sjres13",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119sjres13.xml"
+ },
+ "house_2025_137_full.xml": {
+  "source_id": "house:2025:137",
+  "url": "https://clerk.house.gov/evs/2025/roll137.xml"
+ }
 }

@@ -3,24 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>onrecord</title>
-<meta name="description" content="What governments actually did, sourced line by line: US–Canada and EU–US trade actions with both sides' trade figures, executive orders, pardons and inaugural donations.">
+<title>onrecord · the US government, on the record</title>
+<meta name="description" content="What the US government did, said and spent, sourced line by line: bills and how Congress voted, the federal budget, audits, executive orders, pardons and trade, each figure linked to its official record.">
 <!-- API keys live in this page, so lock down where scripts load from and where data can go. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://api.anthropic.com https://api.openai.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="wrap">
-  <div class="topbar">
-    <a class="brand" href="#">onrecord</a>
+<div class="masthead">
+  <div class="wrap topbar">
+    <a class="brand" href="#">on<span>record</span></a>
     <nav class="tabs" id="tabs" aria-label="Topics"></nav>
   </div>
+</div>
+
+<header class="wrap topic-only">
+  <p class="kicker" id="kicker"></p>
   <h1 id="headline">Loading…</h1>
   <p class="lede" id="lede"></p>
   <p class="meta" id="meta"></p>
 </header>
 
 <main class="wrap">
+  <section id="home" class="home" hidden>
+    <p class="kicker">Independent · open source · every figure sourced</p>
+    <h1 class="home-title">What the US government did, said and spent, on the record.</h1>
+    <p class="lede home-lede">onrecord reads official records every day: laws and votes, executive orders, budgets, audits, pardons and trade figures. Every number links to the government document it came from, and the rule for how it is counted is printed next to it. No commentary and no labels; you can check all of it.</p>
+    <div class="tiles" id="tiles"></div>
+    <div class="principles">
+      <div><h3>Primary sources only</h3><p>Federal Register, the House Clerk, Congress.gov, Treasury, OMB, the FEC, the Justice Department. Each item keeps a hash of the exact file it came from.</p></div>
+      <div><h3>Rules you can read</h3><p>Every chart says what it counts and what it leaves out. "Improper" is not fraud; a party-line vote is a fact about the votes, not a verdict on the bill.</p></div>
+      <div><h3>Open data and code</h3><p>Download the database, query it in your browser, or rerun the pipeline yourself. Code AGPL-3.0, data CC BY-SA 4.0.</p></div>
+    </div>
+  </section>
   <div class="stats" id="stats" hidden></div>
   <div id="panels" hidden></div>
 

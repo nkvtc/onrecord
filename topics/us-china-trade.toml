@@ -24,7 +24,7 @@ series = [
 ]
 
 [site]
-order = 3
+order = 7
 tab = "US–China"
 headline = "US–China trade, on the record"
 lede = """Every US tariff action and export control against China since the 2018 trade \

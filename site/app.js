@@ -51,15 +51,19 @@ async function init() {
   $("#xref-q").addEventListener("input", debounce(renderXref, 200));
   new ResizeObserver(() => state.topic && renderChart()).observe($("#chart"));
   new ResizeObserver(debounce(() => state.topic && renderPanels(), 100)).observe($("#panels"));
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { renderChart(); renderPanels(); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (state.topic) { renderChart(); renderPanels(); } });
   addEventListener("hashchange", route);
   await route();
 }
 
 async function route() {
   const id = location.hash.slice(1);
-  const topic = topics.find((t) => t.id === id) || topics[0];
+  const topic = topics.find((t) => t.id === id);
+  document.body.classList.toggle("is-home", !topic);
+  $("#home").hidden = !!topic;
+  if (!topic) { state.topic = null; renderHome(); return; }
   if (state.topic?.id === topic.id) return;
+  scrollTo(0, 0);
   Object.assign(state, { topic, chart: 0, view: 0, filter: 0, q: "", moneyQ: "", moneyAll: false });
   $("#q").value = ""; $("#money-q").value = "";
   data = await loadTopic(topic.id);
@@ -69,10 +73,18 @@ async function route() {
   listeners.forEach((fn) => fn(topic));
 }
 
+function renderHome() {
+  document.title = "onrecord · the US government, on the record";
+  $("#tabs").querySelectorAll("a").forEach((a) => a.setAttribute("aria-current", "false"));
+  $("#tiles").innerHTML = topics.map((t) => `<a class="tile" href="#${esc(t.id)}"><span class="kicker">${esc(t.site.tab || t.title)}</span>` +
+    `<h2>${esc(t.site.headline || t.title)}</h2><p>${esc(t.description)}</p><span class="sub">${fmtNum(t.counts.documents)} source documents →</span></a>`).join("");
+}
+
 function renderTopic() {
   const t = state.topic, s = t.site;
   document.title = `${s.tab || t.title} · onrecord`;
   $("#tabs").querySelectorAll("a").forEach((a) => a.setAttribute("aria-current", a.dataset.id === t.id ? "page" : "false"));
+  $("#kicker").textContent = s.tab || t.title;
   $("#headline").textContent = s.headline || t.title;
   $("#lede").textContent = s.lede || t.description;
   $("#meta").textContent = `${t.counts.documents} source documents · updated ${meta.generated_at.slice(0, 10)}`;
@@ -379,7 +391,7 @@ function renderPanels() {
   panels.forEach((p, i) => {
     const el = host.querySelector(`[data-panel="${i}"]`);
     ({ eo_pace: drawEoPace, clemency_by_president: drawClemency, inaugural_totals: drawInaugural, monthly_revenue: drawRevenue, spending_map: drawMap, top_contractors: drawContractors,
-      budget_functions: drawFunctions, receipts_outlays: drawReceipts, money_flow: drawFlow, agency_outlays: drawAgencies, improper_payments: drawImproper, contested_bills: drawBills })[p.kind]?.(el, p);
+      budget_functions: drawFunctions, receipts_outlays: drawReceipts, money_flow: drawFlow, agency_outlays: drawAgencies, improper_payments: drawImproper, contested_bills: drawBills, member_votes: drawMembers, spending_laws: drawSpending })[p.kind]?.(el, p);
   });
 }
 
@@ -678,7 +690,7 @@ function voteRow(v) {
   return `<li><div class="vote-head"><b>${v.chamber}</b> <span>${fmtDay(v.date)} · ${esc(v.question)}</span></div>` +
     `<div class="vote-bar" role="img" aria-label="${v.yea} yea, ${v.nay} nay"><span class="yea" style="flex:${v.yea}"></span><span class="nay" style="flex:${v.nay}"></span></div>` +
     `<div class="vote-foot"><span><b>${v.yea}–${v.nay}</b> ${esc(v.result.toLowerCase())}${Math.abs(margin) <= 10 ? ` by ${Math.abs(margin)} vote${Math.abs(margin) === 1 ? "" : "s"}` : ""} (${pct(Math.max(v.yea, v.nay) / total)} to ${pct(Math.min(v.yea, v.nay) / total)})</span>` +
-    `${parties ? `<span>${esc(parties)}${v.party_line ? ` <em class="flag">party line</em>` : ""}</span>` : ""}<span>${label}</span></div></li>`;
+    `${parties ? `<span>${esc(parties)}${v.party_line ? ` <em class="flag">party line</em>` : ""}</span>` : ""}<span>${label}</span></div>${v.codes ? memberList(contestedPanel().members, v) : ""}</li>`;
 }
 
 function billCard(b) {
@@ -725,6 +737,134 @@ function drawBills(el, p) {
   host.querySelector("[data-more]")?.addEventListener("click", () => { billState.limit += 15; drawBills(el, p); });
   el.querySelector("[data-foot]").innerHTML = tableToggle(["Bill", "Status", "Closest vote", "Party line", "Latest action"],
     rows.map((b) => [`${b.label}: ${b.title}`, b.law ? `Law (${b.law})` : b.status, closestVote(b), b.party_line ? "Yes" : "", b.latest_action.date]));
+}
+
+// ---- Who voted for what ------------------------------------------------------------
+
+const VOTE_NAME = { Y: "Yea", N: "Nay", P: "Present", "-": "Not voting" };
+const partyColor = (p) => css(p === "R" ? "--rep" : p === "D" ? "--dem" : "--agency");
+const memberLabel = (m) => `${m.name.replace(/ \([A-Z]{2}\)$/, "")} (${m.party}-${m.state})`;
+
+// Which way most of each party voted on one roll call, from its member codes.
+function partyMajorities(members, codes) {
+  const t = {};
+  members.forEach((m, i) => {
+    const c = codes[i]; if (c !== "Y" && c !== "N") return;
+    (t[m.party] ||= { Y: 0, N: 0 })[c]++;
+  });
+  return Object.fromEntries(Object.entries(t).map(([p, x]) => [p, x.Y === x.N ? null : x.Y > x.N ? "Y" : "N"]));
+}
+
+function memberList(members, v) {
+  const maj = partyMajorities(members, v.codes);
+  const groups = {}, rebels = [];
+  members.forEach((m, i) => {
+    const c = v.codes[i]; if (c === " ") return;
+    (groups[`${m.party}${c}`] ||= []).push(m);
+    if ((c === "Y" || c === "N") && maj[m.party] && maj[m.party] !== c) rebels.push([m, c]);
+  });
+  const line = (party, c) => {
+    const ms = groups[`${party}${c}`] || [];
+    return ms.length ? `<p><b style="color:${partyColor(party)}">${party} ${VOTE_NAME[c].toLowerCase()} (${ms.length})</b> ${ms.map((m) => esc(memberLabel(m))).join(", ")}</p>` : "";
+  };
+  return `<details class="members"><summary>How each member voted${rebels.length ? ` · ${rebels.length} broke with their party` : ""}</summary>` +
+    (rebels.length ? `<p class="rebels"><b>Broke with their party:</b> ${rebels.map(([m, c]) => `${esc(memberLabel(m))} voted ${VOTE_NAME[c].toLowerCase()}`).join("; ")}</p>` : "") +
+    ["R", "D", "I"].flatMap((p) => ["Y", "N", "P", "-"].map((c) => line(p, c))).join("") + `</details>`;
+}
+
+function contestedPanel() { return (data.panels || []).find((x) => x.kind === "contested_bills"); }
+
+const memberState = { id: null };
+
+function drawMembers(el, p) {
+  const cp = contestedPanel();
+  if (!cp?.members?.length) { el.querySelector("[data-lead]").innerHTML = `<p class="sub">Member votes are not loaded yet.</p>`; return; }
+  const ms = cp.members;
+  // Every House deciding vote on a contested bill that has member-level data.
+  const votes = cp.bills.filter((b) => b.contested).flatMap((b) => b.votes.filter((v) => v.codes).map((v) => ({ ...v, bill: b, maj: partyMajorities(ms, v.codes) })));
+  const record = (i) => {
+    let cast = 0, withParty = 0;
+    const rows = votes.map((v) => {
+      const c = v.codes[i];
+      if (c === " ") return null;
+      const m = v.maj[ms[i].party];
+      if (c === "Y" || c === "N") { cast++; if (m === c) withParty++; }
+      return { v, c, m };
+    }).filter(Boolean);
+    return { rows, cast, withParty };
+  };
+  const byState = {};
+  ms.forEach((m, i) => (byState[m.state] ||= []).push([m, i]));
+  const controls = el.querySelector("[data-controls]");
+  controls.innerHTML = `<select aria-label="Representative" data-member><option value="">Choose a representative…</option>${Object.keys(byState).sort().map((st) =>
+    `<optgroup label="${st}">${byState[st].map(([m, i]) => `<option value="${esc(m.id)}"${m.id === memberState.id ? " selected" : ""}>${esc(memberLabel(m))}</option>`).join("")}</optgroup>`).join("")}</select>`;
+  controls.querySelector("[data-member]").onchange = (e) => { memberState.id = e.target.value || null; drawMembers(el, p); };
+  el.querySelector("[data-legend]").innerHTML = "";
+  const host = el.querySelector("[data-chart]");
+  const i = ms.findIndex((m) => m.id === memberState.id);
+  if (i < 0) {
+    // No one picked: who broke with their party most often.
+    const all = ms.map((m, j) => ({ m, j, ...record(j) })).filter((r) => r.cast >= 10);
+    all.sort((a, b) => a.withParty / a.cast - b.withParty / b.cast);
+    el.querySelector("[data-lead]").innerHTML = `<p class="big">Pick a representative to see every contested vote they cast. <b>${fmtNum(votes.length)}</b> House votes decided a contested bill this Congress.</p>` +
+      `<p class="sub">Most likely to break with their own party on those votes (members with at least 10 yea or nay votes):</p>`;
+    hbars(el, all.slice(0, 12).map((r) => ({
+      label: memberLabel(r.m), values: [r.cast - r.withParty], onClick: () => { memberState.id = r.m.id; drawMembers(el, p); },
+      note: `Voted against most of their party on ${r.cast - r.withParty} of ${r.cast} contested votes (${pct(1 - r.withParty / r.cast)}). Click for the list.`,
+    })), [{ label: "Votes against their party", color: css("--series-2") }], (v) => fmtNum(v));
+    el.querySelector("[data-foot]").innerHTML = tableToggle(["Representative", "Contested votes cast", "With party", "Against party"],
+      all.map((r) => [memberLabel(r.m), fmtNum(r.cast), pct(r.withParty / r.cast), fmtNum(r.cast - r.withParty)]));
+    return;
+  }
+  const m = ms[i], r = record(i);
+  el.querySelector("[data-lead]").innerHTML = `<p class="big"><b>${esc(memberLabel(m))}</b> voted with most of their party on <b>${pct(r.withParty / (r.cast || 1))}</b> of the ${fmtNum(r.cast)} contested votes they cast.</p>` +
+    `<p class="sub"><a href="https://bioguide.congress.gov/search/bio/${esc(m.id)}" target="_blank" rel="noopener">Congressional biography</a> · <button type="button" class="link" data-clear>Back to the overview</button></p>`;
+  el.querySelector("[data-clear]").onclick = () => { memberState.id = null; drawMembers(el, p); };
+  host.innerHTML = `<ul class="member-votes">${r.rows.slice().reverse().map(({ v, c, m: maj }) => {
+    const against = (c === "Y" || c === "N") && maj && maj !== c;
+    return `<li><span class="mv ${c === "Y" ? "yea" : c === "N" ? "nay" : ""}">${VOTE_NAME[c]}</span><div><a href="${esc(v.bill.url)}" target="_blank" rel="noopener">${esc(v.bill.label)}: ${esc(v.bill.title)}</a>` +
+      `<p class="sub">${fmtDay(v.date)} · ${esc(v.question)} · ${esc(v.result.toLowerCase())} ${v.yea}–${v.nay}${against ? ` · <em class="flag">against most of their party</em>` : ""}</p></div></li>`;
+  }).join("")}</ul>`;
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Date", "Bill", "Question", "Their vote", "Most of their party", "Result"],
+    r.rows.map(({ v, c, m: maj }) => [v.date, `${v.bill.label}: ${v.bill.title}`, v.question, VOTE_NAME[c], maj ? VOTE_NAME[maj] : "split", `${v.result} ${v.yea}–${v.nay}`]));
+}
+
+const spendState = { show: "law" };
+
+function drawSpending(el, p) {
+  const controls = el.querySelector("[data-controls]");
+  controls.innerHTML = `<div class="seg" role="group" aria-label="Which bills">${[["law", "Became law"], ["all", "All spending bills"]].map(([v, l]) =>
+    `<button type="button" data-v="${v}" aria-pressed="${spendState.show === v}">${l}</button>`).join("")}</div>`;
+  controls.querySelector(".seg").onclick = (e) => { const b = e.target.closest("button"); if (b) { spendState.show = b.dataset.v; drawSpending(el, p); } };
+  const bills = p.bills.filter((b) => spendState.show === "all" || b.law);
+  // The House vote that settled each bill: the last one recorded.
+  const lastHouse = (b) => b.votes.filter((v) => v.chamber === "House" && v.parties?.length).pop();
+  const tally = { R: { Y: 0, N: 0 }, D: { Y: 0, N: 0 } };
+  let majority = null;
+  bills.forEach((b) => {
+    const v = lastHouse(b); if (!v) return;
+    majority = majority || v.majority;
+    v.parties.forEach((x) => { const k = PARTY[x.party]; if (tally[k]) { tally[k].Y += x.yea; tally[k].N += x.nay; } });
+  });
+  const yes = tally.R.Y + tally.D.Y;
+  el.querySelector("[data-lead]").innerHTML = `<p class="big">${fmtNum(bills.length)} ${spendState.show === "law" ? "spending bills became law" : "spending bills got a recorded vote"} this Congress. ` +
+    (yes ? `On the House's deciding votes, <b style="color:${css("--rep")}">Republicans cast ${pct(tally.R.Y / yes)}</b> of the yes votes and <b style="color:${css("--dem")}">Democrats ${pct(tally.D.Y / yes)}</b>.` : "") + `</p>` +
+    (majority ? `<p class="sub">The House majority on these votes, as the Clerk records it: ${majority === "R" ? "Republican" : majority === "D" ? "Democratic" : esc(majority)}.</p>` : "");
+  el.querySelector("[data-legend]").innerHTML = `<span><i style="background:${css("--rep")}"></i>Republican</span><span><i style="background:${css("--dem")}"></i>Democratic</span><span>Left of the line: yea · right: nay</span>`;
+  const host = el.querySelector("[data-chart]");
+  host.innerHTML = `<div class="spend">${bills.map((b) => {
+    const v = lastHouse(b), s = b.votes.filter((x) => x.chamber === "Senate").pop();
+    const seg = (party, c) => { const x = v?.parties.find((y) => PARTY[y.party] === party); const n = x ? (c === "Y" ? x.yea : x.nay) : 0; return n ? `<span style="flex:${n};background:${partyColor(party)}" title="${party} ${c === "Y" ? "yea" : "nay"}: ${n}"></span>` : ""; };
+    const split = v ? v.parties.filter((x) => x.yea + x.nay).map((x) => `${PARTY[x.party] || x.party} ${x.yea}–${x.nay}`).join(" · ") : "";
+    return `<div class="spend-row"><div class="spend-head"><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.label)}: ${esc(b.title)}</a>` +
+      `<span class="status ${b.law ? "law" : b.status.startsWith("Failed") || b.status === "Vetoed" ? "stop" : "moving"}">${esc(b.law ? b.law : b.status)}</span></div>` +
+      (v ? `<div class="spend-bar" role="img" aria-label="House ${v.yea} yea, ${v.nay} nay"><div class="yea" style="flex:${v.yea}">${seg("R", "Y")}${seg("D", "Y")}${seg("I", "Y")}</div><i></i><div class="nay" style="flex:${Math.max(v.nay, 0.0001)}">${seg("D", "N")}${seg("R", "N")}${seg("I", "N")}</div></div>` : "") +
+      `<p class="sub">${v ? `House ${fmtDay(v.date)}: ${v.yea}–${v.nay} (${esc(split)})` : "No House roll call"}${s ? ` · Senate ${fmtDay(s.date)}: ${s.yea}–${s.nay}` : ""}` +
+      `${b.sponsor ? ` · Sponsor ${esc(b.sponsor)}` : ""}${b.cbo?.length ? ` · <a href="${esc(b.cbo[b.cbo.length - 1].url)}" target="_blank" rel="noopener">CBO cost estimate</a>` : ""}</p></div>`;
+  }).join("")}</div>`;
+  el.querySelector("[data-foot]").innerHTML = tableToggle(["Bill", "Status", "House vote", "Party split", "Senate vote"],
+    bills.map((b) => { const v = lastHouse(b), s = b.votes.filter((x) => x.chamber === "Senate").pop();
+      return [`${b.label}: ${b.title}`, b.law || b.status, v ? `${v.yea}–${v.nay}` : "", v ? v.parties.map((x) => `${PARTY[x.party] || x.party} ${x.yea}–${x.nay}`).join(", ") : "", s ? `${s.yea}–${s.nay}` : ""]; }));
 }
 
 // ---- Where the money goes panels ----------------------------------------------

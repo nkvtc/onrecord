@@ -50,7 +50,7 @@ series = [
 # How the website presents this topic. Series ids are "<adapter prefix>:<id>".
 
 [site]
-order = 1
+order = 5
 tab = "US–Canada"
 headline = "US–Canada trade, on the record"
 lede = """Every US presidential action and Canadian government announcement on tariffs since January 2025, against both countries' official monthly trade figures. Each item links to the primary source. Nothing here is from news coverage."""

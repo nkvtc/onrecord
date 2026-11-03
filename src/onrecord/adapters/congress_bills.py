@@ -50,6 +50,16 @@ FLOOR = (
     "Passed Senate",
     "Passed House",
 )
+# House roll call questions that decide a bill itself, not a procedural step. Those votes
+# are archived in full, with every member's vote; the rest keep only their header.
+PASSAGE = (
+    "Passage",
+    "Suspend the Rules and Pass",
+    "Senate Amendment",
+    "Conference Report",
+    "Objections of the President",
+)
+VOTE = {"Aye": "Yea", "No": "Nay"}  # the Clerk uses both spellings
 CHAMBER = {"House": "US House of Representatives", "Senate": "US Senate"}
 # "Yea-Nay Vote. 51 - 50", "Yeas and Nays: 215 - 214", "recorded vote: 218 - 214"; not page
 # ranges such as "CR S4797-4798".
@@ -59,6 +69,10 @@ TALLY = re.compile(r"(?:Vote\.|Nays:|vote:)\s*(\d+)\s*-\s*(\d+)")
 def bill_key(legis_num: str) -> tuple[str, int] | None:
     m = re.fullmatch(r"(H R|S|H J RES|S J RES) (\d+)", (legis_num or "").strip())
     return (LEGIS[m.group(1)], int(m.group(2))) if m else None
+
+
+def decides_bill(question: str) -> bool:
+    return any(p in question for p in PASSAGE) and "Recommit" not in question
 
 
 def _text(el, path: str) -> str:
@@ -101,11 +115,13 @@ class CongressBills(Adapter):
                     misses += 1
                     continue
                 misses = 0
-                raw = self._raw(f"house:{year}:{n - 1}", url, resp.content)
-                yield raw
-                key = bill_key(self._roll(resp.content).get("legis_num", ""))
+                head = self._roll(resp.content)
+                key = bill_key(head.get("legis_num", ""))
                 if key:
                     bills[key] = None
+                    if decides_bill(head.get("question", "")):
+                        resp = self.http.get(url)
+                yield self._raw(f"house:{year}:{n - 1}", url, resp.content)
         for kind, number in bills:
             url = f"{BILLSTATUS}/{congress}/{kind}/BILLSTATUS-{congress}{kind}{number}.xml"
             try:
@@ -137,7 +153,8 @@ class CongressBills(Adapter):
 
     @staticmethod
     def _roll(body: bytes) -> dict:
-        # The archived bytes stop partway through the member list; parse the header only.
+        # Most archived files stop partway through the member list (a range request), so
+        # the header is parsed on its own; members are read only when the file is whole.
         s = body.decode("utf-8", errors="replace")
         end = s.find("</vote-metadata>")
         if end < 0:
@@ -155,7 +172,24 @@ class CongressBills(Adapter):
                 }
             )
         total = meta.find("vote-totals/totals-by-vote")
+        members = None
+        if "</rollcall-vote>" in s:
+            root = ET.fromstring(s[s.find("<rollcall-vote") :])
+            members = []
+            for rv in root.findall("vote-data/recorded-vote"):
+                leg = rv.find("legislator")
+                vote = _text(rv, "vote")
+                members.append(
+                    {
+                        "id": leg.get("name-id"),
+                        "name": (leg.text or "").strip(),
+                        "party": leg.get("party"),
+                        "state": leg.get("state"),
+                        "vote": VOTE.get(vote, vote),
+                    }
+                )
         return {
+            "majority": _text(meta, "majority") or None,
             "roll": int(_text(meta, "rollcall-num") or 0),
             "congress": int(_text(meta, "congress") or 0),
             "legis_num": _text(meta, "legis-num"),
@@ -167,6 +201,7 @@ class CongressBills(Adapter):
             "yea": int(_text(total, "yea-total") or 0) if total is not None else None,
             "nay": int(_text(total, "nay-total") or 0) if total is not None else None,
             "rows": parties,
+            "members": members,
         }
 
     @classmethod
@@ -307,6 +342,14 @@ class CongressBills(Adapter):
             "sponsor_party": _text(sponsor, "party") if sponsor is not None else None,
             "introduced": introduced or None,
             "policy_area": _text(b, "policyArea/name") or None,
+            "cbo": [
+                {
+                    "url": _text(c, "url"),
+                    "date": _text(c, "pubDate")[:10],
+                    "note": _text(c, "description"),
+                }
+                for c in b.findall("cboCostEstimates/item")
+            ],
             "latest_action": {
                 "date": _text(b, "latestAction/actionDate"),
                 "text": _text(b, "latestAction/text"),
