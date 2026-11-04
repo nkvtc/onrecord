@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>5334</number>
+    <updateDate>2026-11-04T17:28:27Z</updateDate>
+    <updateDateIncludingText>2026-11-04T17:28:27Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2025-09-11</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/5334</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 171, Number 149 (Thursday, September 11, 2025)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. PANETTA:H.R. 5334.Congress has the power to enact this legislation pursuantto the following:Article 1 Section 8[Page H4266]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Reported By</name>
+            <date>2026-04-09T16:01:05Z</date>
+          </item>
+          <item>
+            <name>Markup By</name>
+            <date>2026-03-25T15:04:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2025-09-11T13:03:50Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 119-600</citation>
+      </committeeReport>
+    </committeeReports>
+    <relatedBills>
+      <item>
+        <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+        <congress>119</congress>
+        <number>10076</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2026-08-10</actionDate>
+          <text>Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Oversight and Government Reform, Financial Services, Ways and Means, Rules, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Peace Through Strength Against Russia Act of 2025</title>
+        <congress>119</congress>
+        <number>6856</number>
+        <type>HR</type>
+        <latestAction>
+          <actionDate>2025-12-18</actionDate>
+          <text>Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Ways and Means, Oversight and Government Reform, Energy and Commerce, and Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <title>Lindsey O. Graham Sanctioning Russia Act of 2026</title>
+        <congress>119</congress>
+        <number>5025</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2026-07-16</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-09-18</actionDate>
+        <text>Became Public Law No: 119-111.</text>
+        <type>President</type>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-18</actionDate>
+        <text>Became Public Law No: 119-111.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-18</actionDate>
+        <text>Signed by President.</text>
+        <type>President</type>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-18</actionDate>
+        <text>Signed by President.</text>
+        <type>BecameLaw</type>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-17</actionDate>
+        <text>Presented to President.</text>
+        <type>Floor</type>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-17</actionDate>
+        <text>Presented to President.</text>
+        <type>President</type>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>18:28:23</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H41931</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>18:28:20</actionTime>
+        <text>On motion that the House agree to the Senate amendments Agreed to by the Yeas and Nays: 262 - 159 (Roll no. 308).</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H41610</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>308</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll308.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-09-16T22:28:20Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <text>Resolving differences -- House actions: On motion that the House agree to the Senate amendments Agreed to by the Yeas and Nays: 262 - 159 (Roll no. 308).</text>
+        <type>NotUsed</type>
+        <actionCode>19500</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>308</rollNumber>
+            <url>https://clerk.house.gov/evs/2026/roll308.xml</url>
+            <chamber>House</chamber>
+            <congress>119</congress>
+            <date>2026-09-16T22:28:20Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>10:20:38</actionTime>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 5334, the Chair put the question on agreeing to the Senate amendments and by voice vote, announced the ayes had prevailed. Mr. Meeks demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>10:20:29</actionTime>
+        <text>The previous question was ordered pursuant to the rule.</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H41400</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>09:13:49</actionTime>
+        <text>DEBATE - Pursuant to the provisions of H. Res. 1530, the House proceeded with one hour of debate on motion to agree to the Senate amendments to H.R. 5334.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>09:13:22</actionTime>
+        <text>Mr. McCaul moved that the House agree to the Senate amendments.</text>
+        <type>ResolvingDifferences</type>
+        <actionCode>H40150</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-09-16</actionDate>
+        <actionTime>09:13:18</actionTime>
+        <text>Pursuant to the provisions of H. Res. 1530, Mr. McCaul called up the Senate amendments to H.R. 5334.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-08-10</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-08-07</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>224</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-08-07T17:23:02Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-08-07</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224.</text>
+        <type>Floor</type>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>224</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-08-07T17:23:02Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-08-07</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Considered by Senate. (consideration: CR S4538-4540)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-07-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Measure laid before Senate by motion. (consideration: CR S4323)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-07-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 84 - 12. Record Vote Number: 213.</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>213</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00213.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-07-29T22:53:00Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-07-29</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to measure considered in Senate. (CR S4301)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-07-28</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 86 - 12. Record Vote Number: 212. (CR S4292)</text>
+        <type>Floor</type>
+        <recordedVotes>
+          <recordedVote>
+            <rollNumber>212</rollNumber>
+            <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00212.xml</url>
+            <chamber>Senate</chamber>
+            <congress>119</congress>
+            <date>2026-07-28T23:43:34Z</date>
+            <sessionNumber>2</sessionNumber>
+          </recordedVote>
+        </recordedVotes>
+      </item>
+      <item>
+        <actionDate>2026-07-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4253)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-07-23</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Motion to proceed to consideration of measure made in Senate. (CR S4253)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2026-07-14</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 454.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-07-13</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read the first time. Placed on Senate Legislative Calendar under Read the First Time.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2026-04-28</actionDate>
+        <sourceSystem>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <actionTime>16:35:01</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <type>Floor</type>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <actionTime>16:35:00</actionTime>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3111-3112)</text>
+        <type>Floor</type>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <actionTime>16:35:00</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3111-3112)</text>
+        <type>Floor</type>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <actionTime>16:27:20</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 5334.</text>
+        <type>Floor</type>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <actionTime>16:27:10</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H3111-3113)</text>
+        <type>Floor</type>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-27</actionDate>
+        <actionTime>16:27:07</actionTime>
+        <text>Mr. Smith (MO) moved to suspend the rules and pass the bill, as amended.</text>
+        <type>Floor</type>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 520.</text>
+        <type>Calendars</type>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <calendarNumber>
+          <calendar>U00520</calendar>
+        </calendarNumber>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-600.</text>
+        <type>Committee</type>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-04-09</actionDate>
+        <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-600.</text>
+        <type>Committee</type>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 43 - 0.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-03-25</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2025-09-11</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2025-09-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2025-09-11</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>P000613</bioguideId>
+        <fullName>Rep. Panetta, Jimmy [D-CA-19]</fullName>
+        <firstName>Jimmy</firstName>
+        <lastName>Panetta</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>19</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>F000466</bioguideId>
+        <fullName>Rep. Fitzpatrick, Brian K. [R-PA-1]</fullName>
+        <firstName>Brian</firstName>
+        <lastName>Fitzpatrick</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>K.</middleName>
+        <district>1</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000604</bioguideId>
+        <fullName>Rep. Goodlander, Maggie [D-NH-2]</fullName>
+        <firstName>Maggie</firstName>
+        <lastName>Goodlander</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <district>2</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>V000129</bioguideId>
+        <fullName>Rep. Valadao, David G. [R-CA-22]</fullName>
+        <firstName>David</firstName>
+        <lastName>Valadao</lastName>
+        <party>R</party>
+        <state>CA</state>
+        <middleName>G.</middleName>
+        <district>22</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>D000096</bioguideId>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <firstName>Danny</firstName>
+        <lastName>Davis</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <middleName>K.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>M001225</bioguideId>
+        <fullName>Rep. Mullin, Kevin [D-CA-15]</fullName>
+        <firstName>Kevin</firstName>
+        <lastName>Mullin</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>15</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000597</bioguideId>
+        <fullName>Rep. Pingree, Chellie [D-ME-1]</fullName>
+        <firstName>Chellie</firstName>
+        <lastName>Pingree</lastName>
+        <party>D</party>
+        <state>ME</state>
+        <district>1</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001125</bioguideId>
+        <fullName>Rep. Carter, Troy A. [D-LA-2]</fullName>
+        <firstName>Troy</firstName>
+        <lastName>Carter</lastName>
+        <party>D</party>
+        <state>LA</state>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>C001119</bioguideId>
+        <fullName>Rep. Craig, Angie [D-MN-2]</fullName>
+        <firstName>Angie</firstName>
+        <lastName>Craig</lastName>
+        <party>D</party>
+        <state>MN</state>
+        <district>2</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>P000614</bioguideId>
+        <fullName>Rep. Pappas, Chris [D-NH-1]</fullName>
+        <firstName>Chris</firstName>
+        <lastName>Pappas</lastName>
+        <party>D</party>
+        <state>NH</state>
+        <district>1</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>N000191</bioguideId>
+        <fullName>Rep. Neguse, Joe [D-CO-2]</fullName>
+        <firstName>Joe</firstName>
+        <lastName>Neguse</lastName>
+        <party>D</party>
+        <state>CO</state>
+        <district>2</district>
+        <sponsorshipDate>2025-09-11</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>L000599</bioguideId>
+        <fullName>Rep. Lawler, Michael [R-NY-17]</fullName>
+        <firstName>Michael</firstName>
+        <lastName>Lawler</lastName>
+        <party>R</party>
+        <state>NY</state>
+        <district>17</district>
+        <sponsorshipDate>2025-09-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001225</bioguideId>
+        <fullName>Rep. Sorensen, Eric [D-IL-17]</fullName>
+        <firstName>Eric</firstName>
+        <lastName>Sorensen</lastName>
+        <party>D</party>
+        <state>IL</state>
+        <district>17</district>
+        <sponsorshipDate>2025-09-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001326</bioguideId>
+        <fullName>Rep. Bynum, Janelle S. [D-OR-5]</fullName>
+        <firstName>Janelle</firstName>
+        <lastName>Bynum</lastName>
+        <party>D</party>
+        <state>OR</state>
+        <middleName>S.</middleName>
+        <district>5</district>
+        <sponsorshipDate>2025-09-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>F000483</bioguideId>
+        <fullName>Rep. Friedman, Laura [D-CA-30]</fullName>
+        <firstName>Laura</firstName>
+        <lastName>Friedman</lastName>
+        <party>D</party>
+        <state>CA</state>
+        <district>30</district>
+        <sponsorshipDate>2025-09-30</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>G000583</bioguideId>
+        <fullName>Rep. Gottheimer, Josh [D-NJ-5]</fullName>
+        <firstName>Josh</firstName>
+        <lastName>Gottheimer</lastName>
+        <party>D</party>
+        <state>NJ</state>
+        <district>5</district>
+        <sponsorshipDate>2025-10-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>O000176</bioguideId>
+        <fullName>Rep. Olszewski, Johnny [D-MD-2]</fullName>
+        <firstName>Johnny</firstName>
+        <lastName>Olszewski</lastName>
+        <party>D</party>
+        <state>MD</state>
+        <district>2</district>
+        <sponsorshipDate>2025-10-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000487</bioguideId>
+        <fullName>Rep. Tokuda, Jill N. [D-HI-2]</fullName>
+        <firstName>Jill</firstName>
+        <lastName>Tokuda</lastName>
+        <party>D</party>
+        <state>HI</state>
+        <middleName>N.</middleName>
+        <district>2</district>
+        <sponsorshipDate>2025-11-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>B001327</bioguideId>
+        <fullName>Rep. Bresnahan, Robert P. [R-PA-8]</fullName>
+        <firstName>Robert</firstName>
+        <lastName>Bresnahan</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <middleName>P.</middleName>
+        <district>8</district>
+        <sponsorshipDate>2025-12-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001230</bioguideId>
+        <fullName>Rep. Subramanyam, Suhas [D-VA-10]</fullName>
+        <firstName>Suhas</firstName>
+        <lastName>Subramanyam</lastName>
+        <party>D</party>
+        <state>VA</state>
+        <district>10</district>
+        <sponsorshipDate>2026-01-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>S001201</bioguideId>
+        <fullName>Rep. Suozzi, Thomas R. [D-NY-3]</fullName>
+        <firstName>Thomas</firstName>
+        <lastName>Suozzi</lastName>
+        <party>D</party>
+        <state>NY</state>
+        <middleName>R.</middleName>
+        <district>3</district>
+        <sponsorshipDate>2026-01-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000488</bioguideId>
+        <fullName>Rep. Thanedar, Shri [D-MI-13]</fullName>
+        <firstName>Shri</firstName>
+        <lastName>Thanedar</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>13</district>
+        <sponsorshipDate>2026-02-04</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>K000398</bioguideId>
+        <fullName>Rep. Kean, Thomas H. [R-NJ-7]</fullName>
+        <firstName>Thomas</firstName>
+        <lastName>Kean</lastName>
+        <party>R</party>
+        <state>NJ</state>
+        <middleName>H.</middleName>
+        <district>7</district>
+        <sponsorshipDate>2026-02-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <bioguideId>T000481</bioguideId>
+        <fullName>Rep. Tlaib, Rashida [D-MI-12]</fullName>
+        <firstName>Rashida</firstName>
+        <lastName>Tlaib</lastName>
+        <party>D</party>
+        <state>MI</state>
+        <district>12</district>
+        <sponsorshipDate>2026-02-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-04-24T19:09:00Z</pubDate>
+        <title>H.R. 5334, Supporting Early-childhood Educators’ Deductions Act</title>
+        <url>https://www.cbo.gov/publication/62382</url>
+        <description>As reported by the House Committee on Ways and Means on April 9, 2026</description>
+      </item>
+    </cboCostEstimates>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>119-111</number>
+      </item>
+    </laws>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Civil actions and liability</name>
+          <updateDate>2026-08-20T18:20:40Z</updateDate>
+        </item>
+        <item>
+          <name>Computers and information technology</name>
+          <updateDate>2026-08-20T18:21:16Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-08-20T18:22:35Z</updateDate>
+        </item>
+        <item>
+          <name>Europe</name>
+          <updateDate>2026-08-20T18:19:11Z</updateDate>
+        </item>
+        <item>
+          <name>Federal officials</name>
+          <updateDate>2026-08-20T18:19:42Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign and international banking</name>
+          <updateDate>2026-08-20T18:19:19Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign loans and debt</name>
+          <updateDate>2026-08-20T18:22:28Z</updateDate>
+        </item>
+        <item>
+          <name>Foreign property</name>
+          <updateDate>2026-08-20T18:20:49Z</updateDate>
+        </item>
+        <item>
+          <name>Fraud offenses and financial crimes</name>
+          <updateDate>2026-08-20T18:21:32Z</updateDate>
+        </item>
+        <item>
+          <name>Human rights</name>
+          <updateDate>2026-08-20T18:21:24Z</updateDate>
+        </item>
+        <item>
+          <name>Immigration status and procedures</name>
+          <updateDate>2026-08-20T18:22:16Z</updateDate>
+        </item>
+        <item>
+          <name>Income tax deductions</name>
+          <updateDate>2026-04-28T13:58:38Z</updateDate>
+        </item>
+        <item>
+          <name>Legislative rules and procedure</name>
+          <updateDate>2026-08-20T18:22:44Z</updateDate>
+        </item>
+        <item>
+          <name>Marine and inland water transportation</name>
+          <updateDate>2026-08-20T18:21:57Z</updateDate>
+        </item>
+        <item>
+          <name>Metals</name>
+          <updateDate>2026-08-20T18:20:04Z</updateDate>
+        </item>
+        <item>
+          <name>Navigation, waterways, harbors</name>
+          <updateDate>2026-08-20T18:21:49Z</updateDate>
+        </item>
+        <item>
+          <name>Oil and gas</name>
+          <updateDate>2026-08-20T18:20:27Z</updateDate>
+        </item>
+        <item>
+          <name>Preschool education</name>
+          <updateDate>2026-04-28T13:58:53Z</updateDate>
+        </item>
+        <item>
+          <name>Presidents and presidential powers, Vice Presidents</name>
+          <updateDate>2026-08-20T18:19:35Z</updateDate>
+        </item>
+        <item>
+          <name>Russia</name>
+          <updateDate>2026-08-20T18:18:56Z</updateDate>
+        </item>
+        <item>
+          <name>Sanctions</name>
+          <updateDate>2026-08-20T18:18:48Z</updateDate>
+        </item>
+        <item>
+          <name>Securities</name>
+          <updateDate>2026-08-20T18:19:58Z</updateDate>
+        </item>
+        <item>
+          <name>Service industries</name>
+          <updateDate>2026-08-20T18:21:07Z</updateDate>
+        </item>
+        <item>
+          <name>Tariffs</name>
+          <updateDate>2026-08-20T18:20:33Z</updateDate>
+        </item>
+        <item>
+          <name>Teaching, teachers, curricula</name>
+          <updateDate>2026-08-20T18:24:15Z</updateDate>
+        </item>
+        <item>
+          <name>Trade restrictions</name>
+          <updateDate>2026-08-20T18:20:13Z</updateDate>
+        </item>
+        <item>
+          <name>U.S. and foreign investments</name>
+          <updateDate>2026-08-20T18:19:27Z</updateDate>
+        </item>
+        <item>
+          <name>Ukraine</name>
+          <updateDate>2026-08-20T18:19:03Z</updateDate>
+        </item>
+        <item>
+          <name>Violent crime</name>
+          <updateDate>2026-08-20T18:21:40Z</updateDate>
+        </item>
+        <item>
+          <name>Visas and passports</name>
+          <updateDate>2026-08-20T18:19:49Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>International Affairs</name>
+        <updateDate>2026-09-22T15:07:31Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2025-09-11</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-04-06T14:13:18Z</updateDate>
+        <text><![CDATA[<p><strong>Supporting Early-childhood Educators' Deductions Act of 2025 or the SEED Act of 2025</strong></p><p>This bill expands&nbsp;eligibility for the above-the-line federal tax deduction for certain eligible educator expenses to include early childhood educators. (An above-the-line tax deduction is subtracted from gross income to calculate adjusted gross income.)</p><p>Under current law, kindergarten through grade 12 teachers, instructors, counselors, principals, or aides in schools that provide&nbsp;elementary or secondary education are allowed an above-the-line tax deduction of up to $300 (in 2025 and adjusted annually) for certain unreimbursed professional development and classroom expenses. (Other conditions apply.)</p><p>The bill expands eligibility for the tax deduction for such educator expenses to include early childhood educators in schools that provide early childhood (pre-kindergarten) education.&nbsp;</p>]]></text>
+      </summary>
+      <summary>
+        <versionCode>55</versionCode>
+        <actionDate>2026-08-07</actionDate>
+        <actionDesc>Passed Senate</actionDesc>
+        <updateDate>2026-08-31T14:26:51Z</updateDate>
+        <text><![CDATA[<p><strong>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</strong></p><p>This bill imposes a variety of sanctions, tariffs, and prohibitions related to Russia, extends an Iran-related sanctions law, and expands a tax deduction&nbsp;for teacher expenses to include early childhood educators.</p><p>For example, under the bill, the President must&nbsp;impose visa- and property-blocking sanctions on specified persons&nbsp;(individuals and entities) such as the Russian president&nbsp;and certain Russian military commanders. The President must also&nbsp;increase&nbsp;the rate of duty up to 100% ad valorem&nbsp;(i.e., relative to the value) on all goods imported into the United States from a country that was among the&nbsp;five largest importers of Russian-origin crude oil or natural gas if such country knowingly makes new purchases of such products after enactment of the bill.</p><p>The bill prohibits (1) the export, reexport, or in-country transfer to or in Russia of any U.S.-produced energy or energy product; (2) U.S. persons from making new investments in Russia or purchasing Russian sovereign debt; and (3) trading the securities of Russian government-owned, -controlled, or -affiliated entities on U.S. national securities exchanges.</p><p>The bill extends through 2031 the Iran Sanctions Act of 1996, which&nbsp;requires the President, with some exceptions, to impose sanctions on certain persons engaged in specified transactions related to Iran's energy sector or Iran's efforts to acquire or develop certain weapons.</p><p>The bill expands eligibility for federal tax deductions of certain educator expenses to early childhood educators providing educational or childcare services to those under age 6.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+        <updateDate>2026-09-19T23:23:24Z</updateDate>
+      </item>
+      <item>
+        <titleType>Official Titles as Amended by Senate</titleType>
+        <titleTypeCode>8</titleTypeCode>
+        <title>An act to impose sanctions and other measures with respect to the Russian Federation, as championed by the late Senator Lindsey O. Graham, and for other purposes.</title>
+        <updateDate>2026-08-08T15:26:46Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <titleType>Short Title(s) from Engrossed Amendment Senate bill text</titleType>
+        <titleTypeCode>250</titleTypeCode>
+        <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+        <updateDate>2026-08-08T03:17:44Z</updateDate>
+        <billTextVersionName>Engrossed Amendment Senate</billTextVersionName>
+        <billTextVersionCode>EAS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>Supporting Early-childhood Educators’ Deductions Act</title>
+        <updateDate>2026-07-16T13:23:36Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) from PCS (Placed on Senate Calendar) bill text</titleType>
+        <titleTypeCode>152</titleTypeCode>
+        <title>SEED Act</title>
+        <updateDate>2026-07-16T13:23:36Z</updateDate>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <billTextVersionName>Placed on Calendar Senate</billTextVersionName>
+        <billTextVersionCode>PCS</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title from EH (Engrossed in House) bill text</titleType>
+        <titleTypeCode>259</titleTypeCode>
+        <title>To amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes.</title>
+        <updateDate>2026-04-29T05:08:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>SEED Act</title>
+        <updateDate>2026-04-29T05:08:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Passed House</titleType>
+        <titleTypeCode>104</titleTypeCode>
+        <title>Supporting Early-childhood Educators’ Deductions Act</title>
+        <updateDate>2026-04-29T05:08:27Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Engrossed in House</billTextVersionName>
+        <billTextVersionCode>EH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>Supporting Early-childhood Educators’ Deductions Act</title>
+        <updateDate>2026-04-10T06:08:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Reported to House</titleType>
+        <titleTypeCode>102</titleTypeCode>
+        <title>SEED Act</title>
+        <updateDate>2026-04-10T06:08:23Z</updateDate>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <billTextVersionName>Reported in House</billTextVersionName>
+        <billTextVersionCode>RH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Supporting Early-childhood Educators’ Deductions Act of 2025</title>
+        <updateDate>2025-09-24T06:38:14Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>SEED Act of 2025</title>
+        <updateDate>2025-09-24T06:38:14Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes.</title>
+        <updateDate>2025-09-24T06:33:18Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <number>6731</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-08-04T11:08:26Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>S001150</bioguideId>
+            <fullName>Sen. Schiff, Adam B. [D-CA]</fullName>
+            <firstName>Adam</firstName>
+            <lastName>Schiff</lastName>
+            <party>D</party>
+            <state>CA</state>
+            <middleName>B.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2026-08-03T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-08-03</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-03</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6730</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-08-04T11:08:26Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>S001150</bioguideId>
+            <fullName>Sen. Schiff, Adam B. [D-CA]</fullName>
+            <firstName>Adam</firstName>
+            <lastName>Schiff</lastName>
+            <party>D</party>
+            <state>CA</state>
+            <middleName>B.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2026-08-03T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-08-03</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-03</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6729</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-08-04T11:08:25Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>G000574</bioguideId>
+            <fullName>Sen. Gallego, Ruben [D-AZ]</fullName>
+            <firstName>Ruben</firstName>
+            <lastName>Gallego</lastName>
+            <party>D</party>
+            <state>AZ</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>G000386</bioguideId>
+            <fullName>Sen. Grassley, Chuck [R-IA]</fullName>
+            <firstName>Chuck</firstName>
+            <lastName>Grassley</lastName>
+            <party>R</party>
+            <state>IA</state>
+            <sponsorshipDate>2026-08-03</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-08-03T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-08-03</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-03</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6728</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>M001176</bioguideId>
+            <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+            <firstName>Jeff</firstName>
+            <lastName>Merkley</lastName>
+            <party>D</party>
+            <state>OR</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6727</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000790</bioguideId>
+            <fullName>Sen. Warnock, Raphael G. [D-GA]</fullName>
+            <firstName>Raphael</firstName>
+            <lastName>Warnock</lastName>
+            <party>D</party>
+            <state>GA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6726</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001098</bioguideId>
+            <fullName>Sen. Cruz, Ted [R-TX]</fullName>
+            <firstName>Ted</firstName>
+            <lastName>Cruz</lastName>
+            <party>R</party>
+            <state>TX</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6724</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000790</bioguideId>
+            <fullName>Sen. Warnock, Raphael G. [D-GA]</fullName>
+            <firstName>Raphael</firstName>
+            <lastName>Warnock</lastName>
+            <party>D</party>
+            <state>GA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6723</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000802</bioguideId>
+            <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+            <firstName>Sheldon</firstName>
+            <lastName>Whitehouse</lastName>
+            <party>D</party>
+            <state>RI</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6722</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000802</bioguideId>
+            <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+            <firstName>Sheldon</firstName>
+            <lastName>Whitehouse</lastName>
+            <party>D</party>
+            <state>RI</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6721</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:28Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000802</bioguideId>
+            <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+            <firstName>Sheldon</firstName>
+            <lastName>Whitehouse</lastName>
+            <party>D</party>
+            <state>RI</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6720</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-31T11:08:27Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000790</bioguideId>
+            <fullName>Sen. Warnock, Raphael G. [D-GA]</fullName>
+            <firstName>Raphael</firstName>
+            <lastName>Warnock</lastName>
+            <party>D</party>
+            <state>GA</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>C001075</bioguideId>
+            <fullName>Sen. Cassidy, Bill [R-LA]</fullName>
+            <firstName>Bill</firstName>
+            <lastName>Cassidy</lastName>
+            <party>R</party>
+            <state>LA</state>
+            <sponsorshipDate>2026-07-30</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-07-30T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-30</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6719</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-30T11:08:26Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>B001267</bioguideId>
+            <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+            <firstName>Michael</firstName>
+            <lastName>Bennet</lastName>
+            <party>D</party>
+            <state>CO</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6717</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-08-08T15:18:57Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>K000393</bioguideId>
+            <fullName>Sen. Kennedy, John [R-LA]</fullName>
+            <firstName>John</firstName>
+            <lastName>Kennedy</lastName>
+            <party>R</party>
+            <state>LA</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>W000802</bioguideId>
+            <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+            <firstName>Sheldon</firstName>
+            <lastName>Whitehouse</lastName>
+            <party>D</party>
+            <state>RI</state>
+            <sponsorshipDate>2026-07-30</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6716</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-08-10T17:21:25Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>W000800</bioguideId>
+            <fullName>Sen. Welch, Peter [D-VT]</fullName>
+            <firstName>Peter</firstName>
+            <lastName>Welch</lastName>
+            <party>D</party>
+            <state>VT</state>
+          </item>
+        </sponsors>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>B001303</bioguideId>
+            <fullName>Sen. Blunt Rochester, Lisa [D-DE]</fullName>
+            <firstName>Lisa</firstName>
+            <lastName>Blunt Rochester</lastName>
+            <party>D</party>
+            <state>DE</state>
+            <sponsorshipDate>2026-08-07</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6715</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion.</purpose>
+        <updateDate>2026-08-11T11:08:28Z</updateDate>
+        <latestAction>
+          <actionDate>2026-08-07</actionDate>
+          <text>Amendment SA 6715 not agreed to in Senate by Yea-Nay Vote. 32 - 64. Record Vote Number: 223.</text>
+          <links>
+            <link>
+              <name>Record Vote Number: 223</name>
+              <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00223.xml</url>
+            </link>
+            <link>
+              <name>SA 6715</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/6715</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>P000603</bioguideId>
+            <fullName>Sen. Paul, Rand [R-KY]</fullName>
+            <firstName>Rand</firstName>
+            <lastName>Paul</lastName>
+            <party>R</party>
+            <state>KY</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>P000603</bioguideId>
+            <fullName>Sen. Paul, Rand [R-KY]</fullName>
+            <firstName>Rand</firstName>
+            <lastName>Paul</lastName>
+            <party>R</party>
+            <state>KY</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>10</countIncludingWithdrawnCosponsors>
+          <count>10</count>
+          <item>
+            <bioguideId>W000779</bioguideId>
+            <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+            <firstName>Ron</firstName>
+            <lastName>Wyden</lastName>
+            <party>D</party>
+            <state>OR</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>C000127</bioguideId>
+            <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+            <firstName>Maria</firstName>
+            <lastName>Cantwell</lastName>
+            <party>D</party>
+            <state>WA</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>H001042</bioguideId>
+            <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+            <firstName>Mazie</firstName>
+            <lastName>Hirono</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <middleName>K.</middleName>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>W000790</bioguideId>
+            <fullName>Sen. Warnock, Raphael G. [D-GA]</fullName>
+            <firstName>Raphael</firstName>
+            <lastName>Warnock</lastName>
+            <party>D</party>
+            <state>GA</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>S001150</bioguideId>
+            <fullName>Sen. Schiff, Adam B. [D-CA]</fullName>
+            <firstName>Adam</firstName>
+            <lastName>Schiff</lastName>
+            <party>D</party>
+            <state>CA</state>
+            <middleName>B.</middleName>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>P000145</bioguideId>
+            <fullName>Sen. Padilla, Alex [D-CA]</fullName>
+            <firstName>Alex</firstName>
+            <lastName>Padilla</lastName>
+            <party>D</party>
+            <state>CA</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000394</bioguideId>
+            <fullName>Sen. Kim, Andy [D-NJ]</fullName>
+            <firstName>Andy</firstName>
+            <lastName>Kim</lastName>
+            <party>D</party>
+            <state>NJ</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>M001111</bioguideId>
+            <fullName>Sen. Murray, Patty [D-WA]</fullName>
+            <firstName>Patty</firstName>
+            <lastName>Murray</lastName>
+            <party>D</party>
+            <state>WA</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>K000384</bioguideId>
+            <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+            <firstName>Timothy</firstName>
+            <lastName>Kaine</lastName>
+            <party>D</party>
+            <state>VA</state>
+            <middleName>M.</middleName>
+            <sponsorshipDate>2026-08-04</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+          <item>
+            <bioguideId>B001303</bioguideId>
+            <fullName>Sen. Blunt Rochester, Lisa [D-DE]</fullName>
+            <firstName>Lisa</firstName>
+            <lastName>Blunt Rochester</lastName>
+            <party>D</party>
+            <state>DE</state>
+            <sponsorshipDate>2026-08-04</sponsorshipDate>
+            <isOriginalCosponsor>False</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2026-08-07T04:00:00Z</proposedDate>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>7</count>
+          <actions>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 6715 not agreed to in Senate by Yea-Nay Vote. 32 - 64. Record Vote Number: 223.</text>
+              <type>Floor</type>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>223</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2026-08-07T16:38:15Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00223.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 6715 proposed by Senator Paul to Amendment SA 6711. (consideration: CR S4538-4539) To strike the provision relating to duties on countries that purchase Russian-origin crude oil or natural gas or facilitate sanctions evasion.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 6715 proposed by Senator Paul to Amendment SA 6711.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Senate amendment not agreed to: Amendment SA 6715 not agreed to in Senate by Yea-Nay Vote. 32 - 64. Record Vote Number: 223.</text>
+              <type>Floor</type>
+              <actionCode>95000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>223</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2026-08-07T16:38:15Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00223.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Roll call votes on amendments in Senate: Amendment SA 6715 not agreed to in Senate by Yea-Nay Vote. 32 - 64. Record Vote Number: 223.</text>
+              <type>Floor</type>
+              <actionCode>97000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+              <recordedVotes>
+                <recordedVote>
+                  <rollNumber>223</rollNumber>
+                  <chamber>Senate</chamber>
+                  <congress>119</congress>
+                  <date>2026-08-07T16:38:15Z</date>
+                  <sessionNumber>2</sessionNumber>
+                  <url>https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00223.xml</url>
+                </recordedVote>
+              </recordedVotes>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6714</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-30T11:08:25Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C000127</bioguideId>
+            <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+            <firstName>Maria</firstName>
+            <lastName>Cantwell</lastName>
+            <party>D</party>
+            <state>WA</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendedAmendment>
+          <number>6711</number>
+          <congress>119</congress>
+          <type>SAMDT</type>
+          <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+          <updateDate>2026-08-10T17:21:24Z</updateDate>
+        </amendedAmendment>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6713</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-30T11:08:25Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>H001042</bioguideId>
+            <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+            <firstName>Mazie</firstName>
+            <lastName>Hirono</lastName>
+            <party>D</party>
+            <state>HI</state>
+            <middleName>K.</middleName>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6712</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To amend the title.</purpose>
+        <updateDate>2026-08-11T11:08:27Z</updateDate>
+        <latestAction>
+          <actionDate>2026-08-07</actionDate>
+          <text>Amendment SA 6712, under the order of 8/6/2026, agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 6712</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/6712</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>G000608</bioguideId>
+            <fullName>Sen. Graham, Darline [R-SC]</fullName>
+            <firstName>Darline</firstName>
+            <lastName>Graham</lastName>
+            <party>R</party>
+            <state>SC</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>B001319</bioguideId>
+            <fullName>Sen. Britt, Katie Boyd [R-AL]</fullName>
+            <firstName>Katie</firstName>
+            <lastName>Britt</lastName>
+            <party>R</party>
+            <state>AL</state>
+            <type>Submitted on behalf of</type>
+          </item>
+          <item>
+            <bioguideId>G000608</bioguideId>
+            <fullName>Sen. Graham, Darline [R-SC]</fullName>
+            <firstName>Darline</firstName>
+            <lastName>Graham</lastName>
+            <party>R</party>
+            <state>SC</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2026-08-07T04:00:00Z</proposedDate>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 6712, under the order of 8/6/2026, agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 6712 proposed by Senator Graham. (consideration: CR S4540)</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 6712 proposed by Senator Graham.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 6712, under the order of 8/6/2026, agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6711</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <purpose>To impose sanctions and other measures with respect to the Russian Federation.</purpose>
+        <updateDate>2026-08-11T11:08:27Z</updateDate>
+        <latestAction>
+          <actionDate>2026-08-07</actionDate>
+          <text>Amendment SA 6711, under the order of 8/6/2026, agreed to in Senate by Unanimous Consent.</text>
+          <links>
+            <link>
+              <name>SA 6711</name>
+              <url>https://www.congress.gov/amendment/119th-congress/senate-amendment/6711</url>
+            </link>
+          </links>
+        </latestAction>
+        <sponsors>
+          <item>
+            <bioguideId>G000608</bioguideId>
+            <fullName>Sen. Graham, Darline [R-SC]</fullName>
+            <firstName>Darline</firstName>
+            <lastName>Graham</lastName>
+            <party>R</party>
+            <state>SC</state>
+          </item>
+        </sponsors>
+        <onBehalfOfSponsor>
+          <item>
+            <bioguideId>B001319</bioguideId>
+            <fullName>Sen. Britt, Katie Boyd [R-AL]</fullName>
+            <firstName>Katie</firstName>
+            <lastName>Britt</lastName>
+            <party>R</party>
+            <state>AL</state>
+            <type>Submitted on behalf of</type>
+          </item>
+          <item>
+            <bioguideId>G000608</bioguideId>
+            <fullName>Sen. Graham, Darline [R-SC]</fullName>
+            <firstName>Darline</firstName>
+            <lastName>Graham</lastName>
+            <party>R</party>
+            <state>SC</state>
+            <type>Proposed on behalf of</type>
+          </item>
+        </onBehalfOfSponsor>
+        <cosponsors>
+          <countIncludingWithdrawnCosponsors>1</countIncludingWithdrawnCosponsors>
+          <count>1</count>
+          <item>
+            <bioguideId>B001277</bioguideId>
+            <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+            <firstName>Richard</firstName>
+            <lastName>Blumenthal</lastName>
+            <party>D</party>
+            <state>CT</state>
+            <sponsorshipDate>2026-07-29</sponsorshipDate>
+            <isOriginalCosponsor>True</isOriginalCosponsor>
+          </item>
+        </cosponsors>
+        <proposedDate>2026-08-07T04:00:00Z</proposedDate>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <amendmentsToAmendment>
+          <count>14</count>
+        </amendmentsToAmendment>
+        <actions>
+          <count>6</count>
+          <actions>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 6711, under the order of 8/6/2026, agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <sourceSystem>
+                <code>0</code>
+                <name>Senate</name>
+              </sourceSystem>
+              <text>Amendment SA 6711 proposed by Senator Graham. (consideration: CR S4538-4539) To impose sanctions and other measures with respect to the Russian Federation.</text>
+              <type>Floor</type>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Senate amendment proposed (on the floor): Amendment SA 6711 proposed by Senator Graham.</text>
+              <type>Floor</type>
+              <actionCode>93000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-08-07</actionDate>
+              <text>Senate amendment agreed to: Amendment SA 6711, under the order of 8/6/2026, agreed to in Senate by Unanimous Consent.</text>
+              <type>Floor</type>
+              <actionCode>94000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+      <amendment>
+        <number>6710</number>
+        <congress>119</congress>
+        <type>SAMDT</type>
+        <updateDate>2026-07-30T11:08:25Z</updateDate>
+        <sponsors>
+          <item>
+            <bioguideId>C001113</bioguideId>
+            <fullName>Sen. Cortez Masto, Catherine [D-NV]</fullName>
+            <firstName>Catherine</firstName>
+            <lastName>Cortez Masto</lastName>
+            <party>D</party>
+            <state>NV</state>
+          </item>
+        </sponsors>
+        <submittedDate>2026-07-29T04:00:00Z</submittedDate>
+        <chamber>Senate</chamber>
+        <amendedBill>
+          <congress>119</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <number>5334</number>
+          <title>Lindsey O. Graham Sanctioning Russia and Iran Act of 2026</title>
+          <updateDateIncludingText>2026-11-04</updateDateIncludingText>
+        </amendedBill>
+        <actions>
+          <count>2</count>
+          <actions>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <type>IntroReferral</type>
+              <actionCode>Intro-S</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+            <item>
+              <actionDate>2026-07-29</actionDate>
+              <text>Senate amendment submitted</text>
+              <type>Floor</type>
+              <actionCode>91000</actionCode>
+              <sourceSystem>
+                <code>9</code>
+                <name>Library of Congress</name>
+              </sourceSystem>
+            </item>
+          </actions>
+        </actions>
+        <textVersions>
+          <count>1</count>
+        </textVersions>
+      </amendment>
+    </amendments>
+    <textVersions>
+      <item>
+        <type>Enrolled Bill</type>
+        <date/>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334enr/uslm/BILLS-119hr5334enr.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334enr/xml/BILLS-119hr5334enr.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed Amendment Senate</type>
+        <date>2026-08-07T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334eas/xml/BILLS-119hr5334eas.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Placed on Calendar Senate</type>
+        <date>2026-07-14T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334pcs/xml/BILLS-119hr5334pcs.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Engrossed in House</type>
+        <date>2026-04-27T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334eh/xml/BILLS-119hr5334eh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Reported in House</type>
+        <date>2026-04-09T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334rh/xml/BILLS-119hr5334rh.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <type>Introduced in House</type>
+        <date>2025-09-11T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr5334ih/xml/BILLS-119hr5334ih.xml</url>
+          </item>
+        </formats>
+      </item>
+      <item>
+        <date>2026-09-19T03:59:59Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/PLAW-119publ111/uslm/PLAW-119publ111.xml</url>
+            <type>United States Legislative Markup</type>
+          </item>
+        </formats>
+        <type>Public Law</type>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-09-18</actionDate>
+      <text>Became Public Law No: 119-111.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
