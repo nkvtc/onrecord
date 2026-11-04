@@ -2,6 +2,8 @@
 //
 // There is no onrecord server. The key stays in this browser (memory, or localStorage if the
 // reader opts in) and requests go straight from the browser to Anthropic or OpenAI.
+// Exception: under `onrecord serve` locally, the server holds a key from .env and forwards
+// Anthropic requests itself (GET api/ai says so); the browser then never sees a key.
 // The model only sees the current topic's exported records and must cite them as [R#];
 // answers are shown as interpretation, with every citation linking back to the timeline item.
 
@@ -19,7 +21,20 @@ const STORE_KEY = "onrecord.ai";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-export const ai = { provider: "anthropic", key: "", model: "", remember: false, history: [], refs: [], busy: false };
+export const ai = { provider: "anthropic", key: "", model: "", remember: false, local: false, history: [], refs: [], busy: false };
+
+// One place builds the Anthropic client, so the claim checker uses the local server too.
+export function anthropicClient() {
+  if (ai.local) return new Anthropic({ apiKey: "held-by-local-server", baseURL: new URL("api/anthropic", location.href).href, dangerouslyAllowBrowser: true });
+  return new Anthropic({ apiKey: ai.key, dangerouslyAllowBrowser: true });
+}
+
+async function detectLocal() {
+  try {
+    const r = await fetch("api/ai", { cache: "no-store" });
+    return r.ok && (await r.json()).via === "local";
+  } catch { return false; }
+}
 
 // ---- settings -------------------------------------------------------------
 
@@ -31,6 +46,7 @@ function loadSaved() {
 }
 
 function save() {
+  if (ai.local) return; // nothing of the reader's to remember
   try {
     if (ai.remember) localStorage.setItem(STORE_KEY, JSON.stringify({ provider: ai.provider, key: ai.key, model: ai.model }));
     else localStorage.removeItem(STORE_KEY);
@@ -60,7 +76,9 @@ function showState() {
   const connected = Boolean(ai.key);
   $("#ai-setup").hidden = connected;
   $("#ai-chat").hidden = !connected;
-  $("#ai-who").textContent = connected ? `Using your ${ai.provider === "anthropic" ? "Anthropic" : "OpenAI"} key` : "";
+  $("#ai-who").textContent = !connected ? "" : ai.local ? "Using the key in .env (local server)"
+    : `Using your ${ai.provider === "anthropic" ? "Anthropic" : "OpenAI"} key`;
+  $("#ai-forget").textContent = ai.local ? "Use a different key instead" : "Disconnect and forget key";
   dispatchEvent(new Event("onrecord:ai")); // the claim checker offers its AI step only when connected
 }
 
@@ -111,7 +129,7 @@ ${tables.length ? `\nFIGURES (monthly)\n${tables.join("\n")}\n` : ""}${donations
 // ---- providers ------------------------------------------------------------
 
 async function askAnthropic(system, onText) {
-  const client = new Anthropic({ apiKey: ai.key, dangerouslyAllowBrowser: true });
+  const client = anthropicClient();
   const params = {
     model: ai.model,
     max_tokens: 16000,
@@ -125,7 +143,7 @@ async function askAnthropic(system, onText) {
   try {
     msg = await stream.finalMessage();
   } catch (e) {
-    if (e instanceof Anthropic.AuthenticationError) throw new Error("Anthropic rejected this key.");
+    if (e instanceof Anthropic.AuthenticationError) throw new Error(ai.local ? "Anthropic rejected the key in .env." : "Anthropic rejected this key.");
     if (e instanceof Anthropic.PermissionDeniedError) throw new Error(`This key can't use ${ai.model}.`);
     if (e instanceof Anthropic.RateLimitError) throw new Error("Rate limited by Anthropic. Wait a moment and try again.");
     if (e instanceof Anthropic.APIError) throw new Error(`Anthropic error ${e.status ?? ""}: ${e.message}`);
@@ -221,7 +239,7 @@ async function ask(question) {
 
 // ---- wiring -------------------------------------------------------------------
 
-function init() {
+async function init() {
   loadSaved();
   $("#ai-provider").value = ai.provider;
   const showExamples = (topic) => {
@@ -242,6 +260,7 @@ function init() {
     err.textContent = "";
     ai.provider = $("#ai-provider").value;
     ai.key = $("#ai-key").value.trim();
+    ai.local = false;
     ai.remember = $("#ai-remember").checked;
     if (!ai.key) { err.textContent = "Paste an API key first."; return; }
     try {
@@ -257,7 +276,7 @@ function init() {
   });
   $("#ai-model").addEventListener("change", () => { ai.model = $("#ai-model").value; ai.history = []; save(); showState(); });
   $("#ai-forget").addEventListener("click", () => {
-    Object.assign(ai, { key: "", history: [], remember: false });
+    Object.assign(ai, { key: "", local: false, history: [], remember: false });
     save();
     $("#ai-log").innerHTML = "";
     showState();
@@ -279,6 +298,7 @@ function init() {
     window.onrecord.jumpTo(a.dataset.id);
   });
 
+  if (!ai.key && await detectLocal()) Object.assign(ai, { provider: "anthropic", key: "local", local: true });
   if (ai.key) fillModels().then(() => { ai.model = $("#ai-model").value; showState(); }).catch(() => showState());
   else showState();
 }

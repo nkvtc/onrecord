@@ -7,7 +7,7 @@
 // mouth: whoever shares it picks the records and the sides, never what the records say.
 
 import Anthropic from "https://cdn.jsdelivr.net/npm/@anthropic-ai/sdk@0.131.0/+esm";
-import { ai } from "./chat.js";
+import { ai, anthropicClient } from "./chat.js";
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -270,13 +270,13 @@ function runSearch(input) {
 }
 
 async function anthropicTurn(messages) {
-  const client = new Anthropic({ apiKey: ai.key, dangerouslyAllowBrowser: true });
+  const client = anthropicClient();
   try {
     const msg = await client.messages.create({ model: ai.model, max_tokens: 8000, system: SYSTEM, tools: TOOLS, messages });
     messages.push({ role: "assistant", content: msg.content });
     return msg.content.filter((b) => b.type === "tool_use").map((b) => ({ id: b.id, name: b.name, input: b.input }));
   } catch (e) {
-    if (e instanceof Anthropic.AuthenticationError) throw new Error("Anthropic rejected this key.");
+    if (e instanceof Anthropic.AuthenticationError) throw new Error(ai.local ? "Anthropic rejected the key in .env." : "Anthropic rejected this key.");
     if (e instanceof Anthropic.RateLimitError) throw new Error("Rate limited by Anthropic. Wait a moment and try again.");
     if (e instanceof Anthropic.APIError) throw new Error(`Anthropic error ${e.status ?? ""}: ${e.message}`);
     throw e;

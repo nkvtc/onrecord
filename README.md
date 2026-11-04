@@ -66,7 +66,7 @@ Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 uv sync
 uv run onrecord pull      # fetch every topic from its official sources (~3 min)
 uv run onrecord export    # write the static site to build/
-python -m http.server --directory build 8000
+uv run onrecord serve     # preview at http://localhost:8765/
 ```
 
 Other commands: `onrecord status`, `onrecord sources`, `onrecord reparse` (re-run parsers
@@ -128,6 +128,13 @@ There is no onrecord server: the key stays in your browser (in memory, or in loc
 storage if you tick "remember") and requests go directly to the provider. A question
 costs a few cents on your account (about 20k tokens of records per first question,
 cached for follow-ups). Code: [`site/chat.js`](site/chat.js).
+
+**Locally, with a key in `.env`.** Copy `.env.example` to `.env` (git ignores it), set
+`ANTHROPIC_API_KEY`, and run `uv run onrecord serve`. The local server holds the key and
+forwards the site's Anthropic requests itself, so the page connects without pasting
+anything and the key never reaches the browser. It listens on 127.0.0.1 only, forwards
+only the Messages API, and refuses requests from pages it didn't serve. Code:
+[`src/onrecord/serve.py`](src/onrecord/serve.py).
 
 ## Check a claim
 

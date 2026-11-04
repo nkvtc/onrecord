@@ -1,4 +1,4 @@
-"""Command line: onrecord pull | reparse | export | status | sources"""
+"""Command line: onrecord pull | reparse | export | serve | status | sources"""
 
 from __future__ import annotations
 
@@ -95,6 +95,12 @@ def cmd_export(args) -> int:
     return 0
 
 
+def cmd_serve(args) -> int:
+    from .serve import serve
+
+    return serve(ROOT, args.site, args.port)
+
+
 def cmd_status(args) -> int:
     store = Store(args.data)
     rows = store.db.execute(
@@ -142,6 +148,11 @@ def main(argv=None) -> int:
     ex.add_argument("--out", type=Path, default=ROOT / "build")
     ex.add_argument("--topics", type=Path, default=TOPICS_DIR)
     ex.set_defaults(fn=cmd_export)
+
+    sv = sub.add_parser("serve", help="preview the site locally, with AI via .env key")
+    sv.add_argument("--site", type=Path, default=ROOT / "build")
+    sv.add_argument("--port", type=int, default=8765)
+    sv.set_defaults(fn=cmd_serve)
 
     sub.add_parser("status", help="what's in the database").set_defaults(fn=cmd_status)
     sub.add_parser("sources", help="list adapters").set_defaults(fn=cmd_sources)
