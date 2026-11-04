@@ -375,3 +375,12 @@ button.primary.alt { background: var(--text); color: var(--surface); }
 .rec-foot { display: flex; gap: 8px; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 6px; }
 .seg.small button { font-size: 12px; padding: 3px 8px; }
 .ref { font-weight: 700; text-decoration: none; }
+.check-ans .bottom { font-family: var(--serif); font-size: 19px; font-weight: 700; line-height: 1.4; margin: 10px 0 6px; }
+.check-ans ul { margin: 8px 0; padding-left: 20px; line-height: 1.55; max-width: 760px; }
+.check-ans li { margin: 3px 0; }
+.check-ans .gaps { font-size: 14px; color: var(--text-2); border-top: 1px solid var(--border); padding-top: 8px; }
+.check-ans.follow { margin-left: 18px; border-left: 3px solid var(--accent); }
+.check-ans.tally ul { list-style: none; padding: 0; }
+.verdict.small { font-size: 12px; padding: 2px 8px; }
+.follow-row { margin: 4px 0 14px; }
+.follow-row input { font-size: 15px; padding: 9px 12px; }

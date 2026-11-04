@@ -132,15 +132,20 @@ cached for follow-ups). Code: [`site/chat.js`](site/chat.js).
 ## Check a claim
 
 The "Check a claim" page searches every archived record at once, in your browser, from
-`data/records.json`. Without a key it ranks matching records and you mark the ones that
-support or contradict the claim. With a key, the AI runs its own searches (a tool that
-calls the same in-browser search), then returns a verdict, a short cited answer and a
-side and reason for each record; you can change its picks.
+`data/records.json`. Without a key it ranks matching records, shows a plain count of
+what matched (by kind of record, who and when), and you mark the ones that support or
+contradict the claim. With a key, the AI runs its own searches (a tool that calls the
+same in-browser search), then returns a verdict, a one-line answer, a full cited synopsis
+of everything relevant it found, what the records can't tell you, and a side and reason
+for each record; you can change its picks. You can then ask follow-up questions in the
+same conversation; each gets its own searches and cited answer.
 
 A shared link carries only the question and record keys with a side for each. The page
 rebuilds every record from onrecord's data, so a link can't make onrecord appear to say
 something its records don't; the page also says the sides were chosen by whoever shared
 it. Record keys hash what the record says, so a link survives the source adding entries.
+The synopsis and follow-ups aren't in the link for the same reason; "Copy with sources"
+puts them in the text you paste, with numbered links to the primary sources.
 Code: [`site/check.js`](site/check.js).
 
 ## Use the data

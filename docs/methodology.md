@@ -191,8 +191,14 @@ The optional AI step uses the reader's own key. It is told what the archive cove
 cite only records it found, to be exact about who and what (a pardon for a committee's
 staff is not a pardon for the president's staff), and that a missing record means the
 archive doesn't settle a claim, not that it didn't happen. Its answer is labelled as an
-AI reading. Shared links carry record keys and sides only, never text, and say who chose
-the sides.
+AI reading. It gives a one-line answer, a synopsis of everything relevant it found (every
+fact cited), and a line on what the archive can't tell the reader. Follow-up questions
+continue the same conversation; a follow-up never changes which side the original
+claim's records are on, and new records it relies on are added as context. Shared links
+carry record keys and sides only, never text, and say who chose the sides.
+
+Without a key, the page shows a count of what matched by kind of record, who and date.
+It describes the search results; it doesn't judge the claim.
 
 ## Corrections
 

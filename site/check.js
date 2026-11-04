@@ -41,7 +41,7 @@ const stem = (w) => w.replace(/'s$/, "").replace(/(ies)$/, "y").replace(/(ing|ed
 const words = (text) => (String(text || "").toLowerCase().match(/[a-z0-9][a-z0-9.'-]*/g) || []).map((w) => w.replace(/[.'-]+$/, ""));
 
 let records = null, byKey = null, df = null, loading = null;
-const view = { q: "", results: [], marks: {}, why: {}, answer: null, verdict: null, shared: false, busy: false, note: "" };
+const view = { q: "", results: [], marks: {}, why: {}, thread: [], convo: null, shared: false, busy: false, note: "" };
 
 function load() {
   loading ||= fetch("data/records.json").then((r) => { if (!r.ok) throw new Error(`records: ${r.status}`); return r.json(); }).then((rows) => {
@@ -81,6 +81,10 @@ function search(query, { president = null, type = null, limit = 20 } = {}) {
     // "his son", "his family": the record names a relative by surname, not by relation.
     if (named.some((p) => PRESIDENTS[p].test(r.title))) { s += 3; hits++; }
     if (!hits && !(named.length && !terms.length)) continue;
+    // A question about a president: a record that doesn't involve them needs more than
+    // one shared word to count (a trade notice that mentions "staff" isn't relevant).
+    const involves = named.some((p) => PRESIDENTS[p].test(`${r._who} ${r.title}`));
+    if (named.length && !involves && hits < 2) continue;
     phrases.forEach((p) => { if (r._text.includes(p)) s += 4; });
     if (named.length && named.some((p) => PRESIDENTS[p].test(r._who))) s *= 1.5;
     if (hinted.has(r.type)) s *= 1.6;
@@ -117,10 +121,45 @@ function numbering() {
   return [...marked, ...view.results.filter((r) => !view.marks[r.key])];
 }
 
+const REFS = /\[([0-9a-f]{12}(?:\s*,\s*[0-9a-f]{12})*)\]/g;
+const citedKeys = (text) => [...String(text || "").matchAll(REFS)].flatMap((m) => m[1].split(/\s*,\s*/));
+
+// Light Markdown: paragraphs, "- " bullet lists, **bold**, and [ref] citations as numbers.
 function answerHtml(text, nums) {
-  return esc(text).replace(/\[([0-9a-f]{12}(?:\s*,\s*[0-9a-f]{12})*)\]/g, (_, keys) =>
+  return esc(text).replace(REFS, (_, keys) =>
     `[${keys.split(/\s*,\s*/).map((k) => nums.has(k) ? `<a href="#" class="ref" data-rec="${k}">${nums.get(k)}</a>` : "?").join(", ")}]`)
-    .split(/\n{2,}/).map((p) => `<p>${p.replace(/\n/g, "<br>")}</p>`).join("");
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .split(/\n{2,}/).map((block) => {
+      const rows = block.split("\n");
+      if (rows.every((r) => /^\s*[-*]\s/.test(r))) return `<ul>${rows.map((r) => `<li>${r.replace(/^\s*[-*]\s/, "")}</li>`).join("")}</ul>`;
+      return `<p>${rows.join("<br>")}</p>`;
+    }).join("");
+}
+
+// Without a key: a plain count of what matched, by kind and by who. Describes, never judges.
+function tallyHtml(list) {
+  const groups = new Map();
+  for (const r of list) {
+    const k = `${TYPE[r.type] || r.type}|${r.who}`;
+    const g = groups.get(k) || { type: TYPE[r.type] || r.type, who: r.who, n: 0, first: r.date, last: r.date };
+    g.n++; if (r.date < g.first) g.first = r.date; if (r.date > g.last) g.last = r.date;
+    groups.set(k, g);
+  }
+  const lines = [...groups.values()].sort((a, b) => b.n - a.n).slice(0, 6).map((g) =>
+    `<li><b>${g.n}</b> ${esc(g.type.toLowerCase())}${g.n > 1 && !/s$/.test(g.type) ? "s" : ""} · ${esc(g.who)} · ${g.first === g.last ? fmtDay(g.first) : `${fmtDay(g.first)} to ${fmtDay(g.last)}`}</li>`);
+  return `<div class="check-ans tally"><div class="ai-label">What matched (a count, not a verdict)</div><ul>${lines.join("")}</ul>` +
+    `<p class="sub">Read the records below and mark which ones support or contradict the claim.${ai.key ? " Or press “Check with AI” for a full answer." : " Connect an AI key below for a full written answer you can ask follow-up questions about."}</p></div>`;
+}
+
+function turnHtml(t, i, nums) {
+  const [cls, label] = VERDICT[t.verdict] || VERDICT.mixed;
+  return `<div class="check-ans${i ? " follow" : ""}">${i ? `<p class="ai-q">${esc(t.q)}</p>` : ""}` +
+    `<div class="verdict v-${cls}${i ? " small" : ""}">${esc(label)}</div>` +
+    (t.bottom ? `<p class="bottom">${answerHtml(t.bottom, nums).replace(/^<p>|<\/p>$/g, "")}</p>` : "") +
+    answerHtml(t.synopsis || "", nums) +
+    (t.gaps ? `<p class="gaps"><b>What these records can't tell you:</b> ${esc(t.gaps)}</p>` : "") +
+    (t.verdict === "not_in_record" ? `<p class="sub">onrecord hasn't archived a record that settles this. That doesn't mean it didn't happen.</p>` : "") +
+    `<p class="ai-foot">AI reading of the records below (${esc(t.model)}). It can be wrong: open the primary sources.</p></div>`;
 }
 
 function render() {
@@ -128,15 +167,14 @@ function render() {
   $("#check-q").value = view.q;
   $("#check-banner").innerHTML = view.shared ? `<div class="note"><b>Someone shared this check.</b> Every record below comes from onrecord's archive of official sources and links to the original. ` +
     `Which side each record is on was chosen by the person who shared it, not by onrecord: read them and decide for yourself. <button type="button" class="link" data-fresh>Run a fresh search for this question</button></div>` : "";
-  if (view.busy) ans.innerHTML = `<div class="check-ans"><p class="sub">${esc(view.note || "Checking…")}</p></div>`;
-  else if (view.error) ans.innerHTML = `<div class="check-ans"><p class="ai-err">${esc(view.error)}</p></div>`;
-  else if (view.answer || view.verdict) {
-    const [cls, label] = VERDICT[view.verdict] || VERDICT.mixed;
-    const nums = new Map(numbering().map((r, i) => [r.key, i + 1]));
-    ans.innerHTML = `<div class="check-ans"><div class="verdict v-${cls}">${esc(label)}</div>${answerHtml(view.answer || "", nums)}` +
-      (view.verdict === "not_in_record" ? `<p class="sub">This means onrecord hasn't archived a record that settles it, not that it didn't happen. See what onrecord covers below.</p>` : "") +
-      `<p class="ai-foot">AI reading of the records below (${esc(view.model)}). It can be wrong: open the primary sources.</p></div>`;
-  } else ans.innerHTML = "";
+  const nums = new Map(numbering().map((r, i) => [r.key, i + 1]));
+  ans.innerHTML = view.thread.map((t, i) => turnHtml(t, i, nums)).join("") +
+    (view.busy ? `<div class="check-ans"><p class="sub">${esc(view.note || "Checking…")}</p></div>` : "") +
+    (view.error ? `<div class="check-ans"><p class="ai-err">${esc(view.error)}</p></div>` : "") +
+    (!view.thread.length && !view.busy && !view.shared && view.results.length ? tallyHtml(view.results) : "");
+  const canFollow = view.thread.length && ai.key && !view.shared;
+  $("#check-follow").hidden = !canFollow;
+  $("#check-follow-send").disabled = view.busy;
   if (!view.q) { out.innerHTML = ""; $("#check-share").hidden = true; return; }
   const list = numbering();
   const groups = [["s", SIDES.s], ["c", SIDES.c], ["x", SIDES.x]].map(([k, label]) => [label, list.filter((r) => view.marks[r.key] === k)]).filter(([, rs]) => rs.length);
@@ -164,7 +202,7 @@ ${COVERAGE}
 How to work:
 1. Search several times with different wording: names, the legal term the record would use (a "pardon" may be listed as clemency; a group may be
    described by role, e.g. "staff of the Select Committee"), and the president's name. Read what each record actually says.
-2. Then call submit_check once. Cite records only by their ref, like [3f9a0c1d2e4b]. Every factual sentence in the answer needs a citation.
+2. Then call submit_check. Cite records only by their ref, like [3f9a0c1d2e4b]. Every factual sentence needs a citation.
 3. Be exact about who and what. If the claim says "his staff" but the record grants a pardon to a committee's staff, say precisely that: the answer
    is "mixed", and the difference is the point. Quote the record's own words for the key detail.
 4. "not_in_record" means the archive doesn't settle it. Never say something didn't happen just because it isn't in the archive.
@@ -173,7 +211,12 @@ How to work:
    from memory, mark it "Outside the record:" and don't cite it.
 7. Evidence: list only records that bear on the claim (usually 1-8). "supports" = shows the claim is true, "contradicts" = shows it is false or
    different, "context" = needed to understand it. Give each a one-sentence reason.
-8. Answer in 2-6 short sentences. Plain words, no preamble.`;
+8. bottom_line: one sentence that answers the question directly. synopsis: the full answer, covering everything relevant you found,
+   not just the closest match: who, what, when, and how many, grouped sensibly (by date, person or kind of action). Use short paragraphs or
+   "- " bullet lists, at most about 250 words, plain words, no preamble. not_covered: one or two sentences on what the archive can't tell
+   the reader about this question (e.g. no staff lists, no court records), so they know where the answer stops.
+9. The reader may ask follow-up questions. Each one gets its own searches and its own submit_check, answering the follow-up; you can reuse
+   records from earlier in the conversation. For a follow-up, evidence lists the records the follow-up answer relies on.`;
 
 const TOOLS = [
   {
@@ -191,12 +234,14 @@ const TOOLS = [
   },
   {
     name: "submit_check",
-    description: "Submit the finished check. Call exactly once, at the end.",
+    description: "Submit the finished answer to the current question. Call once per question, at the end.",
     input_schema: {
       type: "object",
       properties: {
         verdict: { type: "string", enum: Object.keys(VERDICT) },
-        answer: { type: "string", description: "2-6 sentences citing refs like [3f9a0c1d2e4b]." },
+        bottom_line: { type: "string", description: "One sentence answering the question, citing refs like [3f9a0c1d2e4b]." },
+        synopsis: { type: "string", description: "The full cited answer covering everything relevant that was found." },
+        not_covered: { type: "string", description: "What the archive can't tell the reader about this question." },
         evidence: {
           type: "array",
           items: {
@@ -210,7 +255,7 @@ const TOOLS = [
           },
         },
       },
-      required: ["verdict", "answer", "evidence"],
+      required: ["verdict", "bottom_line", "synopsis", "evidence"],
     },
   },
 ];
@@ -227,7 +272,7 @@ function runSearch(input) {
 async function anthropicTurn(messages) {
   const client = new Anthropic({ apiKey: ai.key, dangerouslyAllowBrowser: true });
   try {
-    const msg = await client.messages.create({ model: ai.model, max_tokens: 4000, system: SYSTEM, tools: TOOLS, messages });
+    const msg = await client.messages.create({ model: ai.model, max_tokens: 8000, system: SYSTEM, tools: TOOLS, messages });
     messages.push({ role: "assistant", content: msg.content });
     return msg.content.filter((b) => b.type === "tool_use").map((b) => ({ id: b.id, name: b.name, input: b.input }));
   } catch (e) {
@@ -257,52 +302,81 @@ async function openaiTurn(messages) {
   return (m.tool_calls || []).map((c) => ({ id: c.id, name: c.function.name, input: JSON.parse(c.function.arguments || "{}") }));
 }
 
-async function aiCheck() {
-  if (view.busy || !ai.key || !view.q) return;
-  Object.assign(view, { busy: true, error: "", note: "Searching the record…", answer: null, verdict: null, why: {} });
-  render();
-  const anthropic = ai.provider === "anthropic";
-  const messages = [{ role: "user", content: `Claim or question to check: ${view.q}\n\nA first keyword search found:\n${runSearch({ query: view.q })}` }];
-  let result = null;
-  try {
-    for (let turn = 0; turn < 8 && !result; turn++) {
-      const calls = await (anthropic ? anthropicTurn(messages) : openaiTurn(messages));
-      if (!calls.length) {
-        const last = messages[messages.length - 1];
-        const text = anthropic ? last.content.filter((b) => b.type === "text").map((b) => b.text).join("") : last.content;
-        messages.push({ role: "user", content: "Please finish by calling submit_check." });
-        if (turn > 5) result = { verdict: "mixed", answer: text || "No answer.", evidence: [] };
-        continue;
-      }
-      const replies = [];
-      for (const c of calls) {
-        if (c.name === "submit_check") { result = c.input; break; }
-        view.note = `Searching the record: “${c.input.query}”…`; render();
-        replies.push([c.id, runSearch(c.input)]);
-      }
-      if (result) break;
-      if (anthropic) messages.push({ role: "user", content: replies.map(([id, text]) => ({ type: "tool_result", tool_use_id: id, content: text })) });
-      else replies.forEach(([id, text]) => messages.push({ role: "tool", tool_call_id: id, content: text }));
+// Send the tool results owed from the last turn plus new user text, as one user turn.
+function pushUser(convo, text) {
+  if (convo.anthropic) {
+    const content = convo.owed.map(([id, out]) => ({ type: "tool_result", tool_use_id: id, content: out }));
+    convo.messages.push({ role: "user", content: text ? [...content, { type: "text", text }] : content });
+  } else {
+    convo.owed.forEach(([id, out]) => convo.messages.push({ role: "tool", tool_call_id: id, content: out }));
+    if (text) convo.messages.push({ role: "user", content: text });
+  }
+  convo.owed = [];
+}
+
+// One question: let the model search until it submits an answer.
+async function runTurn(convo) {
+  for (let turn = 0; turn < 8; turn++) {
+    const calls = await (convo.anthropic ? anthropicTurn(convo.messages) : openaiTurn(convo.messages));
+    if (!calls.length) { pushUser(convo, "Please finish by calling submit_check."); continue; }
+    let result = null;
+    for (const c of calls) {
+      if (c.name === "submit_check") { result = c.input; convo.owed.push([c.id, "Shown to the reader."]); continue; }
+      view.note = `Searching the record: “${c.input.query}”…`; render();
+      convo.owed.push([c.id, runSearch(c.input)]);
     }
-    if (!result) throw new Error("The model didn't finish the check. Try again or pick another model.");
-    const marks = {}, why = {}, cited = [];
+    if (result) return result;
+    pushUser(convo);
+  }
+  throw new Error("The model didn't finish. Try again or pick another model.");
+}
+
+async function ask(question, first) {
+  if (view.busy || !ai.key || !question) return;
+  Object.assign(view, { busy: true, error: "", note: "Searching the record…" });
+  if (first) Object.assign(view, { thread: [], why: {}, convo: { anthropic: ai.provider === "anthropic", messages: [], owed: [] } });
+  render();
+  const convo = view.convo;
+  const before = { length: convo.messages.length, owed: [...convo.owed] };
+  pushUser(convo, first
+    ? `Claim or question to check: ${question}\n\nA first keyword search found:\n${runSearch({ query: question })}`
+    : `Follow-up question: ${question}`);
+  try {
+    const result = await runTurn(convo);
+    const cited = [];
     for (const e of result.evidence || []) {
       const r = seen.get(e.ref) || byKey.get(e.ref);
-      if (!r || !STANCE[e.stance] || marks[r.key]) continue;
-      marks[r.key] = STANCE[e.stance];
-      why[r.key] = e.why;
+      if (!r || !STANCE[e.stance] || cited.includes(r)) continue;
       cited.push(r);
+      if (first) { view.marks[r.key] = STANCE[e.stance]; view.why[r.key] = e.why; }
+      // A follow-up answers a different question, so it doesn't re-side the original
+      // claim's records; anything new it relies on joins as context.
+      else if (!view.marks[r.key]) { view.marks[r.key] = "x"; view.why[r.key] = e.why; }
     }
+    // Records the text cites but the evidence list left out still need a card to point at.
+    for (const k of citedKeys(`${result.bottom_line} ${result.synopsis}`)) {
+      const r = seen.get(k) || byKey.get(k);
+      if (r && !view.marks[r.key]) { view.marks[r.key] = "x"; cited.push(r); }
+    }
+    if (first) view.marks = Object.fromEntries(Object.entries(view.marks).filter(([k]) => cited.some((r) => r.key === k)));
     // The model's evidence first, in its order; then what the keyword search found.
-    view.results = [...cited, ...view.results.filter((r) => !marks[r.key])];
-    Object.assign(view, { marks, why, answer: result.answer, verdict: VERDICT[result.verdict] ? result.verdict : "mixed", model: ai.model });
+    view.results = [...cited, ...view.results.filter((r) => !cited.includes(r))];
+    view.thread.push({
+      q: question, verdict: VERDICT[result.verdict] ? result.verdict : "mixed", bottom: result.bottom_line || "",
+      synopsis: result.synopsis || result.answer || "", gaps: result.not_covered || "", model: ai.model,
+    });
   } catch (e) {
     view.error = e.message || String(e);
+    // Rewind to before this question so the conversation stays valid for another try.
+    if (first) view.convo = null;
+    else { convo.messages.length = before.length; convo.owed = before.owed; }
   } finally {
     view.busy = false;
     render();
   }
 }
+
+const aiCheck = () => ask(view.q, true);
 
 // ---- sharing -----------------------------------------------------------------------
 
@@ -318,11 +392,14 @@ function shareText() {
   const nums = new Map(list.map((r, i) => [r.key, i + 1]));
   const title = (t) => (t.length > 160 ? t.slice(0, 157) + "…" : t).replace(/[[\]]/g, "\\$&");
   const line = (r) => `${nums.get(r.key)}. [${title(r.title)}](${r.url}) (${TYPE[r.type] || r.type}, ${fmtDay(r.date)}, ${r.who})`;
+  const cite = (text) => text.replace(REFS, (_, ks) => `[${ks.split(/\s*,\s*/).map((k) => nums.get(k) || "?").join(", ")}]`);
+  const quote = (text) => text.split("\n").map((l) => (l ? `> ${l}` : ">")).join("\n");
   const parts = [`**${view.q}** Checked against official records:`];
-  if (view.answer) {
-    parts.push(view.answer.replace(/\[([0-9a-f]{12}(?:\s*,\s*[0-9a-f]{12})*)\]/g, (_, ks) => `[${ks.split(/\s*,\s*/).map((k) => nums.get(k) || "?").join(", ")}]`)
-      .split("\n").map((l) => `> ${l}`).join("\n") + "\n\n*(AI summary of the records; check the sources.)*");
-  }
+  view.thread.forEach((t, i) => {
+    parts.push(quote(cite([i ? `**Follow-up: ${t.q}**` : "", t.bottom && `**${t.bottom}**`, t.synopsis,
+      t.gaps && `*Not in these records:* ${t.gaps}`].filter(Boolean).join("\n\n"))));
+  });
+  if (view.thread.length) parts.push("*(AI summary of the records below; check the sources.)*");
   for (const [k, label] of Object.entries(SIDES)) {
     const rs = list.filter((r) => view.marks[r.key] === k);
     if (rs.length) parts.push(`**${label}:**\n\n${rs.map(line).join("\n")}`);
@@ -345,7 +422,7 @@ async function show() {
   const q = params.get("q") || "";
   const shared = params.get("r");
   if (q === view.q && !shared && !view.shared && view.results.length) return render();
-  Object.assign(view, { q, results: [], marks: {}, why: {}, answer: null, verdict: null, shared: !!shared, error: "" });
+  Object.assign(view, { q, results: [], marks: {}, why: {}, thread: [], convo: null, shared: !!shared, error: "" });
   render();
   if (!q) return;
   $("#check-results").innerHTML = `<p class="sub">Loading every record…</p>`;
@@ -398,6 +475,13 @@ $("#check-banner").addEventListener("click", (e) => {
   if (e.target.closest("[data-fresh]")) { location.hash = `#check?q=${encodeURIComponent(view.q)}`; }
 });
 $("#check-ai").addEventListener("click", aiCheck);
+$("#check-follow").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const q = $("#check-follow-q").value.trim();
+  if (!q || view.busy) return;
+  $("#check-follow-q").value = "";
+  ask(q, false);
+});
 $("#check-link").addEventListener("click", (e) => copy(shareUrl(), e.target));
 $("#check-copy").addEventListener("click", (e) => copy(shareText(), e.target));
 addEventListener("onrecord:ai", () => { if (document.body.classList.contains("is-check")) render(); });
