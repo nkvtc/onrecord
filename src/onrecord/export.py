@@ -18,9 +18,11 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import shutil
 from datetime import UTC, datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from .panels import build_panels
 from .store import Store
@@ -247,10 +249,35 @@ def build_records(timelines: dict[str, list[dict]]) -> list[dict]:
     return sorted(out.values(), key=lambda r: r["date"], reverse=True)
 
 
+def configure_hosted_ai(out_dir: Path, endpoint: str) -> None:
+    """Point the site at a free hosted claim-check endpoint (worker/), if one is deployed.
+
+    Writes ai.json for the page to find and allows the endpoint's origin in the page's
+    Content-Security-Policy. Without an endpoint the site works as before: readers bring a key.
+    """
+    endpoint = endpoint.strip().rstrip("/")
+    (out_dir / "ai.json").unlink(missing_ok=True)
+    if not endpoint:
+        return
+    url = urlsplit(endpoint)
+    if url.scheme != "https" or not url.netloc:
+        raise ValueError(f"ONRECORD_AI_ENDPOINT must be an https URL, got {endpoint!r}")
+    (out_dir / "ai.json").write_text(json.dumps({"endpoint": endpoint}), encoding="utf-8")
+    index = out_dir / "index.html"
+    html = index.read_text(encoding="utf-8")
+    origin = f"{url.scheme}://{url.netloc}"
+    if "connect-src 'self'" not in html:
+        raise ValueError("index.html has no connect-src 'self' to extend")
+    index.write_text(
+        html.replace("connect-src 'self'", f"connect-src 'self' {origin}", 1), encoding="utf-8"
+    )
+
+
 def export(store: Store, out_dir: Path, topics: list[Topic], site_dir: Path | None = None) -> dict:
     out_dir = Path(out_dir)
     if site_dir and Path(site_dir).exists():
         shutil.copytree(site_dir, out_dir, dirs_exist_ok=True)
+        configure_hosted_ai(out_dir, os.environ.get("ONRECORD_AI_ENDPOINT", ""))
     data_dir = out_dir / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
 

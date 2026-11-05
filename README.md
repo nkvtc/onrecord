@@ -136,6 +136,13 @@ anything and the key never reaches the browser. It listens on 127.0.0.1 only, fo
 only the Messages API, and refuses requests from pages it didn't serve. Code:
 [`src/onrecord/serve.py`](src/onrecord/serve.py).
 
+**Free hosted check, for visitors without a key.** onrecord can run a small capped endpoint
+([`worker/`](worker/README.md)) that answers the claim checker's "Check with AI" with
+onrecord's own key, limited per visitor and per day. It accepts only the claim-check
+conversation and adds the instructions itself, so it can't be used as a general chatbot.
+A visitor's own key always takes priority. The site uses the endpoint only when the
+`ONRECORD_AI_ENDPOINT` repository variable is set.
+
 ## Check a claim
 
 The "Check a claim" page searches every archived record at once, in your browser, from

@@ -1,0 +1,19 @@
+# onrecord's free hosted claim check. Deploy steps: worker/README.md
+name = "onrecord-ai"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+MODEL = "claude-sonnet-5-5"
+ALLOWED_ORIGINS = "https://nkvtc.github.io,http://localhost:8765"
+# One unit = one model call; a claim check takes about 3-6.
+PER_VISITOR_CALLS = "40"
+DAILY_CALLS = "1000"
+
+[[durable_objects.bindings]]
+name = "LIMITER"
+class_name = "Limiter"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Limiter"]

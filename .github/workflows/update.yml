@@ -51,6 +51,9 @@ jobs:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
       - run: uv run onrecord status
       - run: uv run onrecord export --out build
+        env:
+          # Set this repository variable once the free claim-check worker is deployed.
+          ONRECORD_AI_ENDPOINT: ${{ vars.ONRECORD_AI_ENDPOINT }}
 
       - name: Commit archive changes
         working-directory: data

@@ -10,3 +10,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+.dev.vars
+worker/.wrangler/
+worker/node_modules/

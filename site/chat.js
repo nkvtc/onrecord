@@ -21,12 +21,22 @@ const STORE_KEY = "onrecord.ai";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-export const ai = { provider: "anthropic", key: "", model: "", remember: false, local: false, history: [], refs: [], busy: false };
+export const ai = { provider: "anthropic", key: "", model: "", remember: false, local: false, hosted: "", history: [], refs: [], busy: false };
 
 // One place builds the Anthropic client, so the claim checker uses the local server too.
 export function anthropicClient() {
   if (ai.local) return new Anthropic({ apiKey: "held-by-local-server", baseURL: new URL("api/anthropic", location.href).href, dangerouslyAllowBrowser: true });
   return new Anthropic({ apiKey: ai.key, dangerouslyAllowBrowser: true });
+}
+
+// A deployed site may name a free hosted endpoint for the claim checker (export writes ai.json
+// when ONRECORD_AI_ENDPOINT is set). Only the claim checker uses it; this panel still needs a key.
+async function detectHosted() {
+  try {
+    const r = await fetch("ai.json", { cache: "no-store" });
+    const url = r.ok && (await r.json()).endpoint;
+    return /^(https:\/\/|http:\/\/(localhost|127\.0\.0\.1)[:/])/.test(url || "") ? url.replace(/\/+$/, "") : "";
+  } catch { return ""; }
 }
 
 async function detectLocal() {
@@ -298,6 +308,7 @@ async function init() {
     window.onrecord.jumpTo(a.dataset.id);
   });
 
+  ai.hosted = await detectHosted();
   if (!ai.key && await detectLocal()) Object.assign(ai, { provider: "anthropic", key: "local", local: true });
   if (ai.key) fillModels().then(() => { ai.model = $("#ai-model").value; showState(); }).catch(() => showState());
   else showState();

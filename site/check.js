@@ -41,6 +41,8 @@ const stem = (w) => w.replace(/'s$/, "").replace(/(ies)$/, "y").replace(/(ing|ed
 const words = (text) => (String(text || "").toLowerCase().match(/[a-z0-9][a-z0-9.'-]*/g) || []).map((w) => w.replace(/[.'-]+$/, ""));
 
 let records = null, byKey = null, df = null, loading = null;
+// Your own key (or the local server's) first; otherwise onrecord's free hosted check, if this site has one.
+const canAI = () => Boolean(ai.key || ai.hosted);
 const view = { q: "", results: [], marks: {}, why: {}, thread: [], convo: null, shared: false, busy: false, note: "" };
 
 function load() {
@@ -148,7 +150,7 @@ function tallyHtml(list) {
   const lines = [...groups.values()].sort((a, b) => b.n - a.n).slice(0, 6).map((g) =>
     `<li><b>${g.n}</b> ${esc(g.type.toLowerCase())}${g.n > 1 && !/s$/.test(g.type) ? "s" : ""} · ${esc(g.who)} · ${g.first === g.last ? fmtDay(g.first) : `${fmtDay(g.first)} to ${fmtDay(g.last)}`}</li>`);
   return `<div class="check-ans tally"><div class="ai-label">What matched (a count, not a verdict)</div><ul>${lines.join("")}</ul>` +
-    `<p class="sub">Read the records below and mark which ones support or contradict the claim.${ai.key ? " Or press “Check with AI” for a full answer." : " Connect an AI key below for a full written answer you can ask follow-up questions about."}</p></div>`;
+    `<p class="sub">Read the records below and mark which ones support or contradict the claim.${canAI() ? " Or press “Check with AI” for a full answer." : " Connect an AI key below for a full written answer you can ask follow-up questions about."}</p></div>`;
 }
 
 function turnHtml(t, i, nums) {
@@ -172,7 +174,7 @@ function render() {
     (view.busy ? `<div class="check-ans"><p class="sub">${esc(view.note || "Checking…")}</p></div>` : "") +
     (view.error ? `<div class="check-ans"><p class="ai-err">${esc(view.error)}</p></div>` : "") +
     (!view.thread.length && !view.busy && !view.shared && view.results.length ? tallyHtml(view.results) : "");
-  const canFollow = view.thread.length && ai.key && !view.shared;
+  const canFollow = view.thread.length && canAI() && !view.shared;
   $("#check-follow").hidden = !canFollow;
   $("#check-follow-send").disabled = view.busy;
   if (!view.q) { out.innerHTML = ""; $("#check-share").hidden = true; return; }
@@ -183,82 +185,22 @@ function render() {
   out.innerHTML = (list.length ? "" : `<p class="sub">No records matched. Try different words, a name, or a president's name.</p>`) +
     groups.map(([label, rs]) => `<h3 class="side-h">${esc(label)} (${rs.length})</h3><ol class="recs">${rs.map((r) => recordCard(r, ++n)).join("")}</ol>`).join("") +
     (rest.length && !view.shared ? `<h3 class="side-h">${groups.length ? "Other records that matched" : `${rest.length} records matched, best first`}</h3>` +
-      `${groups.length ? "" : `<p class="sub">Mark the ones that support or contradict the claim, then share the link.${ai.key ? "" : " Or connect an AI key below to have them sorted for you."}</p>`}` +
+      `${groups.length ? "" : `<p class="sub">Mark the ones that support or contradict the claim, then share the link.${canAI() ? "" : " Or connect an AI key below to have them sorted for you."}</p>`}` +
       `<ol class="recs">${rest.map((r) => recordCard(r, ++n)).join("")}</ol>` : "");
   $("#check-share").hidden = !Object.keys(view.marks).length;
-  $("#check-ai").hidden = !ai.key || view.shared;
+  $("#check-ai").hidden = !canAI() || view.shared;
+  $("#check-ai").textContent = ai.key ? "Check with AI" : "Check with AI (free, limited per day)";
 }
 
 // ---- AI: search, read, sort --------------------------------------------------------
 
-const COVERAGE = `What onrecord has archived (official sources only): executive orders 1994 to today (Federal Register); every named pardon and commutation
-by Presidents Clinton, G. W. Bush, Obama, Trump (both terms) and Biden, plus mass grants by proclamation, as listed by the Justice Department's Pardon Attorney;
-bills that got a recorded vote in the 119th Congress (2025-) with House roll calls and CRS summaries; federal budget, spending and audit records;
-US trade actions with Canada, the EU and China. News coverage, court records, White House staff lists and anything else is NOT in the archive.`;
-
-const SYSTEM = `You check claims about the US government against onrecord's archive of official records, using the search_records tool.
-${COVERAGE}
-
-How to work:
-1. Search several times with different wording: names, the legal term the record would use (a "pardon" may be listed as clemency; a group may be
-   described by role, e.g. "staff of the Select Committee"), and the president's name. Read what each record actually says.
-2. Then call submit_check. Cite records only by their ref, like [3f9a0c1d2e4b]. Every factual sentence needs a citation.
-3. Be exact about who and what. If the claim says "his staff" but the record grants a pardon to a committee's staff, say precisely that: the answer
-   is "mixed", and the difference is the point. Quote the record's own words for the key detail.
-4. "not_in_record" means the archive doesn't settle it. Never say something didn't happen just because it isn't in the archive.
-5. If the question compares two presidents ("didn't Biden do that too?"), check both sides and lay them side by side, facts only.
-6. No judgments about motive, legality or wrongdoing unless a record states it. No outside knowledge presented as fact; if you add background
-   from memory, mark it "Outside the record:" and don't cite it.
-7. Evidence: list only records that bear on the claim (usually 1-8). "supports" = shows the claim is true, "contradicts" = shows it is false or
-   different, "context" = needed to understand it. Give each a one-sentence reason.
-8. bottom_line: one sentence that answers the question directly. synopsis: the full answer, covering everything relevant you found,
-   not just the closest match: who, what, when, and how many, grouped sensibly (by date, person or kind of action). Use short paragraphs or
-   "- " bullet lists, at most about 250 words, plain words, no preamble. not_covered: one or two sentences on what the archive can't tell
-   the reader about this question (e.g. no staff lists, no court records), so they know where the answer stops.
-9. The reader may ask follow-up questions. Each one gets its own searches and its own submit_check, answering the follow-up; you can reuse
-   records from earlier in the conversation. For a follow-up, evidence lists the records the follow-up answer relies on.`;
-
-const TOOLS = [
-  {
-    name: "search_records",
-    description: "Search every archived official record. Returns up to 12 matches, best first, each with a ref to cite.",
-    input_schema: {
-      type: "object",
-      properties: {
-        query: { type: "string", description: "Words to look for: names, terms, places, bill titles." },
-        president: { type: "string", enum: Object.keys(PRESIDENTS), description: "Only presidential records (pardons, executive orders, proclamations) signed by this president." },
-        type: { type: "string", enum: Object.keys(TYPE), description: "Only this kind of record." },
-      },
-      required: ["query"],
-    },
-  },
-  {
-    name: "submit_check",
-    description: "Submit the finished answer to the current question. Call once per question, at the end.",
-    input_schema: {
-      type: "object",
-      properties: {
-        verdict: { type: "string", enum: Object.keys(VERDICT) },
-        bottom_line: { type: "string", description: "One sentence answering the question, citing refs like [3f9a0c1d2e4b]." },
-        synopsis: { type: "string", description: "The full cited answer covering everything relevant that was found." },
-        not_covered: { type: "string", description: "What the archive can't tell the reader about this question." },
-        evidence: {
-          type: "array",
-          items: {
-            type: "object",
-            properties: {
-              ref: { type: "string" },
-              stance: { type: "string", enum: Object.keys(STANCE) },
-              why: { type: "string" },
-            },
-            required: ["ref", "stance", "why"],
-          },
-        },
-      },
-      required: ["verdict", "bottom_line", "synopsis", "evidence"],
-    },
-  },
-];
+// The instructions and tools live in check-prompt.json so the hosted endpoint (worker/) can
+// send exactly the same ones: it accepts only the conversation, never a prompt of its own.
+let PROMPT = null;
+const prompt = () => (PROMPT ||= fetch("check-prompt.json").then((r) => {
+  if (!r.ok) throw new Error(`check-prompt.json: ${r.status}`);
+  return r.json();
+}));
 
 const seen = new Map();
 function runSearch(input) {
@@ -271,8 +213,9 @@ function runSearch(input) {
 
 async function anthropicTurn(messages) {
   const client = anthropicClient();
+  const { system, tools } = await prompt();
   try {
-    const msg = await client.messages.create({ model: ai.model, max_tokens: 8000, system: SYSTEM, tools: TOOLS, messages });
+    const msg = await client.messages.create({ model: ai.model, max_tokens: 8000, system, tools, messages });
     messages.push({ role: "assistant", content: msg.content });
     return msg.content.filter((b) => b.type === "tool_use").map((b) => ({ id: b.id, name: b.name, input: b.input }));
   } catch (e) {
@@ -283,13 +226,27 @@ async function anthropicTurn(messages) {
   }
 }
 
+// The free hosted check: onrecord's endpoint adds the prompt, model and key, and caps use per day.
+async function hostedTurn(messages) {
+  let r;
+  try {
+    r = await fetch(`${ai.hosted}/check`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages }) });
+  } catch { throw new Error("Couldn't reach onrecord's free AI check. Connect your own key below, or try again later."); }
+  const body = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(body.error?.message || body.error || `The free AI check failed (${r.status}). Connect your own key below, or try again later.`);
+  view.model = body.model;
+  messages.push({ role: "assistant", content: body.content });
+  return body.content.filter((b) => b.type === "tool_use").map((b) => ({ id: b.id, name: b.name, input: b.input }));
+}
+
 async function openaiTurn(messages) {
+  const { system, tools: TOOLS } = await prompt();
   const r = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: { Authorization: `Bearer ${ai.key}`, "Content-Type": "application/json" },
     body: JSON.stringify({
       model: ai.model,
-      messages: [{ role: "system", content: SYSTEM }, ...messages],
+      messages: [{ role: "system", content: system }, ...messages],
       tools: TOOLS.map((t) => ({ type: "function", function: { name: t.name, description: t.description, parameters: t.input_schema } })),
     }),
   });
@@ -317,7 +274,8 @@ function pushUser(convo, text) {
 // One question: let the model search until it submits an answer.
 async function runTurn(convo) {
   for (let turn = 0; turn < 8; turn++) {
-    const calls = await (convo.anthropic ? anthropicTurn(convo.messages) : openaiTurn(convo.messages));
+    const turn = convo.hosted ? hostedTurn : convo.anthropic ? anthropicTurn : openaiTurn;
+    const calls = await turn(convo.messages);
     if (!calls.length) { pushUser(convo, "Please finish by calling submit_check."); continue; }
     let result = null;
     for (const c of calls) {
@@ -332,9 +290,9 @@ async function runTurn(convo) {
 }
 
 async function ask(question, first) {
-  if (view.busy || !ai.key || !question) return;
+  if (view.busy || !canAI() || !question) return;
   Object.assign(view, { busy: true, error: "", note: "Searching the record…" });
-  if (first) Object.assign(view, { thread: [], why: {}, convo: { anthropic: ai.provider === "anthropic", messages: [], owed: [] } });
+  if (first) Object.assign(view, { thread: [], why: {}, convo: { hosted: !ai.key, anthropic: !ai.key || ai.provider === "anthropic", messages: [], owed: [] } });
   render();
   const convo = view.convo;
   const before = { length: convo.messages.length, owed: [...convo.owed] };
@@ -363,7 +321,8 @@ async function ask(question, first) {
     view.results = [...cited, ...view.results.filter((r) => !cited.includes(r))];
     view.thread.push({
       q: question, verdict: VERDICT[result.verdict] ? result.verdict : "mixed", bottom: result.bottom_line || "",
-      synopsis: result.synopsis || result.answer || "", gaps: result.not_covered || "", model: ai.model,
+      synopsis: result.synopsis || result.answer || "", gaps: result.not_covered || "",
+      model: convo.hosted ? `${view.model || "AI"} · onrecord's free daily check` : ai.model,
     });
   } catch (e) {
     view.error = e.message || String(e);
