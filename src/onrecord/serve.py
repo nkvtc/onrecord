@@ -101,7 +101,8 @@ class Handler(SimpleHTTPRequestHandler):
                     if k in r.headers:
                         self.send_header(k, r.headers[k])
                 self.end_headers()
-                for chunk in r.iter_raw():  # stream events through as they arrive
+                # iter_bytes undoes Anthropic's gzip; we don't pass Content-Encoding on.
+                for chunk in r.iter_bytes():  # stream events through as they arrive
                     self.wfile.write(chunk)
                     self.wfile.flush()
         except httpx.HTTPError as e:
@@ -114,6 +115,13 @@ class Handler(SimpleHTTPRequestHandler):
             super().log_message(fmt, *args)  # skip the noise of static file requests
 
 
+class Server(ThreadingHTTPServer):
+    # On Windows, address reuse lets a second server bind a port that's already taken,
+    # and requests then go to whichever one Windows picks. Fail loudly instead.
+    allow_reuse_address = False
+    daemon_threads = True
+
+
 def serve(root: Path, site: Path, port: int) -> int:
     load_env(root / ".env")
     key = os.environ.get("ANTHROPIC_API_KEY") or None
@@ -122,7 +130,11 @@ def serve(root: Path, site: Path, port: int) -> int:
         return 1
     Handler.key = key
     Handler.client = httpx.Client(timeout=httpx.Timeout(600, connect=15))
-    server = ThreadingHTTPServer(("127.0.0.1", port), partial(Handler, directory=str(site)))
+    try:
+        server = Server(("127.0.0.1", port), partial(Handler, directory=str(site)))
+    except OSError:
+        print(f"Port {port} is already in use. Stop that server or pass --port.")
+        return 1
     print(f"Serving {site} at http://localhost:{port}/", flush=True)
     print(
         "AI: using ANTHROPIC_API_KEY from "
