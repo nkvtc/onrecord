@@ -37,6 +37,7 @@ TOKEN_RE = re.compile(
 PRESIDENT_RE = re.compile(r"President ([A-Z][\w.]*(?: [A-Z][\w.]*)*)")
 MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 FIELDS = {"offense": "offense", "sentence": "sentence", "terms of grant": "terms"}
+NEXT_IS_OFFENSE = re.compile(r"\s*<tr\b(?:(?!</tr>).){0,400}?Offense:", re.S)
 
 
 def _text(fragment: str) -> str:
@@ -197,7 +198,12 @@ class DojClemency(Adapter):
                 len(cells) == 2
                 and not texts[0]
                 and texts[1]
-                and re.search(r"<(strong|b)\b", cells[1])
+                and (
+                    re.search(r"<(strong|b)\b", cells[1])
+                    # Some names on the Obama page aren't bold (Chelsea Manning's, for one);
+                    # a name row is still recognisable by the "Offense:" row right after it.
+                    or NEXT_IS_OFFENSE.match(body, m.end())
+                )
             ):
                 # Older layout: a bold name, then "Offense:", "Sentence:" ... rows.
                 close_person()

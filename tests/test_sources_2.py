@@ -132,3 +132,35 @@ def test_oldest_layout_one_long_table(fixture):
     )
     assert first.details["terms"].startswith("Sentence of imprisonment to expire immediately")
     assert len(r.events) > 60
+
+
+def test_unbolded_name_in_old_layout():
+    # DOJ's Obama commutations page leaves some names unbolded, e.g. Chelsea Manning's.
+    from datetime import UTC, datetime
+
+    from onrecord.models import RawDocument
+
+    row = "<tr><td>&nbsp;</td><td><p><span>{}</span></p></td></tr>"
+    field = "<tr><td><p><span>{}:</span></p></td><td><p><span>{}</span></p></td></tr>"
+    page = (
+        "<h1>Commutations Granted by President Barack H. Obama (2009-2017)</h1>"
+        '<div class="field_body">'
+        "<table><tr><td colspan=2><h3>January 17, 2017</h3></td></tr>"
+        + row.format("<strong>Connie Lee Lyons</strong>")
+        + field.format("Offense", "Conspiracy")
+        + row.format("Chelsea Elizabeth Manning")
+        + field.format("Offense", "Wrongful publication")
+        + field.format("Sentence", "35 years")
+        + row.format("&nbsp;")
+        + "</table></div>"
+    )
+    raw = RawDocument(
+        source="doj_clemency",
+        source_id="x",
+        url="https://www.justice.gov/pardon/x",
+        fetched_at=datetime.now(UTC),
+        content_type="text/html",
+        body=page.encode(),
+    )
+    names = [e.subject for e in DojClemency.parse(raw).events]
+    assert names == ["Connie Lee Lyons", "Chelsea Elizabeth Manning"]
