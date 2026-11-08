@@ -14,7 +14,7 @@ def test_no_endpoint_leaves_site_alone(tmp_path):
     (tmp_path / "index.html").write_text(PAGE)
     (tmp_path / "ai.json").write_text("{}")  # left over from an earlier export
     configure_hosted_ai(tmp_path, "")
-    assert not (tmp_path / "ai.json").exists()
+    assert json.loads((tmp_path / "ai.json").read_text()) == {"endpoint": None}
     assert (tmp_path / "index.html").read_text() == PAGE
 
 

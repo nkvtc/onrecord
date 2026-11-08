@@ -256,8 +256,10 @@ def configure_hosted_ai(out_dir: Path, endpoint: str) -> None:
     Content-Security-Policy. Without an endpoint the site works as before: readers bring a key.
     """
     endpoint = endpoint.strip().rstrip("/")
-    (out_dir / "ai.json").unlink(missing_ok=True)
+    ai_json = out_dir / "ai.json"
     if not endpoint:
+        # Written anyway so the page's check for it isn't a 404 in every visitor's console.
+        ai_json.write_text(json.dumps({"endpoint": None}), encoding="utf-8")
         return
     url = urlsplit(endpoint)
     if url.scheme != "https" or not url.netloc:

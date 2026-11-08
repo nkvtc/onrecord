@@ -34,7 +34,7 @@ export function anthropicClient() {
 async function detectHosted() {
   try {
     const r = await fetch("ai.json", { cache: "no-store" });
-    const url = r.ok && (await r.json()).endpoint;
+    const url = r.ok && (await r.json()).endpoint; // export always writes ai.json; null = no hosted check
     return /^(https:\/\/|http:\/\/(localhost|127\.0\.0\.1)[:/])/.test(url || "") ? url.replace(/\/+$/, "") : "";
   } catch { return ""; }
 }
@@ -309,7 +309,9 @@ async function init() {
   });
 
   ai.hosted = await detectHosted();
-  if (!ai.key && await detectLocal()) Object.assign(ai, { provider: "anthropic", key: "local", local: true });
+  // Only `onrecord serve` answers api/ai; don't ask the public site and log a 404.
+  const isLocal = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname);
+  if (!ai.key && isLocal && await detectLocal()) Object.assign(ai, { provider: "anthropic", key: "local", local: true });
   if (ai.key) fillModels().then(() => { ai.model = $("#ai-model").value; showState(); }).catch(() => showState());
   else showState();
 }

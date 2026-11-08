@@ -101,6 +101,13 @@ function search(query, { president = null, type = null, limit = 20 } = {}) {
 
 // ---- rendering -------------------------------------------------------------------
 
+// Opens the "Data error" issue form with the record already identified.
+function reportUrl(r) {
+  const q = new URLSearchParams({ template: "data-error.yml", title: `Data error: ${r.title.slice(0, 80)}`,
+    item: `${r.title.slice(0, 200)} (${r.date}, record ${r.key}) ${r.page || r.url}` });
+  return `https://github.com/nkvtc/onrecord/issues/new?${q}`;
+}
+
 function recordCard(r, n) {
   const mark = view.marks[r.key] || "";
   const events = r.events ? `<p class="sub">${r.events.map(([k, on, who]) => `${esc(k)} ${fmtDay(on)}${who ? ` (${esc(who)})` : ""}`).join(" · ")}</p>` : "";
@@ -111,7 +118,8 @@ function recordCard(r, n) {
     (r.summary ? `<p class="rec-sum">${esc(r.summary)}</p>` : "") + events +
     (why ? `<p class="rec-why"><b>Why it's here:</b> ${esc(why)}</p>` : "") +
     `<div class="rec-foot"><span class="sub">${esc(r.publisher)}${r.citation ? ` · ${esc(r.citation)}` : ""} · <a href="${esc(r.url)}" target="_blank" rel="noopener">primary source</a>` +
-    `${r.page ? ` · <a href="${esc(r.page)}" target="_blank" rel="noopener">where it's listed</a>` : ""}</span>` +
+    `${r.page ? ` · <a href="${esc(r.page)}" target="_blank" rel="noopener">where it's listed</a>` : ""}` +
+    ` · <a href="${esc(reportUrl(r))}" target="_blank" rel="noopener">report a problem</a></span>` +
     (view.shared ? "" : `<div class="seg small" role="group" aria-label="Does this record support the claim?" data-key="${esc(r.key)}">${Object.entries({ s: "Supports", c: "Contradicts", x: "Context" }).map(([k, l]) =>
       `<button type="button" data-v="${k}" aria-pressed="${mark === k}">${l}</button>`).join("")}</div>`) + `</div></li>`;
 }
@@ -413,7 +421,7 @@ document.addEventListener("click", (e) => {
   if (chip) { e.preventDefault(); go(chip.dataset.check); }
 });
 $("#check-examples").innerHTML = $("#home-examples").innerHTML = [
-  "Did Biden pardon his staff?", "Did Biden pardon his son?", "Did Trump pardon people convicted over January 6?", "Did Clinton pardon Marc Rich?",
+  "Did Biden pardon his staff?", "Did Trump pardon people convicted over January 6?", "Did Obama pardon Chelsea Manning?", "Did Clinton pardon Marc Rich?",
 ].map((q) => `<button type="button" class="chip" data-check="${esc(q)}">${esc(q)}</button>`).join("");
 $("#check-results").addEventListener("click", (e) => {
   const b = e.target.closest(".seg button");
