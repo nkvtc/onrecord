@@ -1,0 +1,119 @@
+{
+ "endpoint": "search/spending_by_category/awarding_agency/",
+ "kind": "agencies_by_state",
+ "request": {
+  "filters": {
+   "place_of_performance_locations": [
+    {
+     "country": "USA",
+     "state": "NV"
+    }
+   ],
+   "time_period": [
+    {
+     "end_date": "2026-09-30",
+     "start_date": "2025-10-01"
+    }
+   ]
+  },
+  "limit": 10
+ },
+ "response": {
+  "category": "awarding_agency",
+  "limit": 10,
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+   "'subawards' will be deprecated in the future. Set ‘spending_level’ to ‘subawards’ instead. See documentation for more information. "
+  ],
+  "page_metadata": {
+   "hasNext": true,
+   "hasPrevious": false,
+   "next": 2,
+   "page": 1,
+   "previous": null
+  },
+  "results": [
+   {
+    "agency_slug": "social-security-administration",
+    "amount": 15181998785.73,
+    "code": "SSA",
+    "id": 539,
+    "name": "Social Security Administration",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-health-and-human-services",
+    "amount": 8227988130.83,
+    "code": "HHS",
+    "id": 806,
+    "name": "Department of Health and Human Services",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-veterans-affairs",
+    "amount": 3278172313.07,
+    "code": "VA",
+    "id": 561,
+    "name": "Department of Veterans Affairs",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-defense",
+    "amount": 1570979836.99,
+    "code": "DOD",
+    "id": 1173,
+    "name": "Department of Defense",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-agriculture",
+    "amount": 1276604325.37,
+    "code": "USDA",
+    "id": 95,
+    "name": "Department of Agriculture",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-energy",
+    "amount": 1093754572.52,
+    "code": "DOE",
+    "id": 930,
+    "name": "Department of Energy",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-transportation",
+    "amount": 760186888.96,
+    "code": "DOT",
+    "id": 731,
+    "name": "Department of Transportation",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-education",
+    "amount": 639991852.08,
+    "code": "ED",
+    "id": 1068,
+    "name": "Department of Education",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "general-services-administration",
+    "amount": 563436312.65,
+    "code": "GSA",
+    "id": 614,
+    "name": "General Services Administration",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-the-interior",
+    "amount": 482642336.38,
+    "code": "DOI",
+    "id": 209,
+    "name": "Department of the Interior",
+    "total_outlays": null
+   }
+  ],
+  "spending_level": "transactions"
+ }
+}

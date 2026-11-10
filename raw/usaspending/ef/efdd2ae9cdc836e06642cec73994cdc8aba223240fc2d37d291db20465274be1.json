@@ -1,0 +1,426 @@
+{
+ "endpoint": "search/spending_by_geography/",
+ "kind": "geo_state",
+ "request": {
+  "filters": {
+   "time_period": [
+    {
+     "end_date": "2026-09-30",
+     "start_date": "2025-10-01"
+    }
+   ]
+  },
+  "geo_layer": "state",
+  "scope": "place_of_performance"
+ },
+ "response": {
+  "geo_layer": "state",
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+   "The 'subawards' field will be deprecated in the future. Set 'spending_level' to 'subawards' instead. See documentation for more information."
+  ],
+  "results": [
+   {
+    "aggregated_amount": 138405050442.29,
+    "display_name": "Illinois",
+    "per_capita": 10802.34,
+    "population": 12812508,
+    "shape_code": "IL"
+   },
+   {
+    "aggregated_amount": 497799624366.98,
+    "display_name": "California",
+    "per_capita": 12590.34,
+    "population": 39538223,
+    "shape_code": "CA"
+   },
+   {
+    "aggregated_amount": 296377702645.41,
+    "display_name": "Pennsylvania",
+    "per_capita": 22793.55,
+    "population": 13002700,
+    "shape_code": "PA"
+   },
+   {
+    "aggregated_amount": 360306872586.85,
+    "display_name": "Texas",
+    "per_capita": 12362.35,
+    "population": 29145505,
+    "shape_code": "TX"
+   },
+   {
+    "aggregated_amount": 209889488875.0,
+    "display_name": "Virginia",
+    "per_capita": 24316.99,
+    "population": 8631393,
+    "shape_code": "VA"
+   },
+   {
+    "aggregated_amount": 101494791407.52,
+    "display_name": "New Jersey",
+    "per_capita": 10926.35,
+    "population": 9288994,
+    "shape_code": "NJ"
+   },
+   {
+    "aggregated_amount": 132322105163.2,
+    "display_name": "Michigan",
+    "per_capita": 13130.67,
+    "population": 10077331,
+    "shape_code": "MI"
+   },
+   {
+    "aggregated_amount": 338289724146.66,
+    "display_name": "Florida",
+    "per_capita": 15706.51,
+    "population": 21538187,
+    "shape_code": "FL"
+   },
+   {
+    "aggregated_amount": 271380286854.16,
+    "display_name": "New York",
+    "per_capita": 13433.84,
+    "population": 20201249,
+    "shape_code": "NY"
+   },
+   {
+    "aggregated_amount": 130905306412.05,
+    "display_name": "North Carolina",
+    "per_capita": 12539.56,
+    "population": 10439388,
+    "shape_code": "NC"
+   },
+   {
+    "aggregated_amount": 97681255278.25,
+    "display_name": "Missouri",
+    "per_capita": 15870.45,
+    "population": 6154913,
+    "shape_code": "MO"
+   },
+   {
+    "aggregated_amount": 133573490291.09,
+    "display_name": "Ohio",
+    "per_capita": 11320.32,
+    "population": 11799448,
+    "shape_code": "OH"
+   },
+   {
+    "aggregated_amount": 108393908057.61,
+    "display_name": "Georgia",
+    "per_capita": 10119.01,
+    "population": 10711908,
+    "shape_code": "GA"
+   },
+   {
+    "aggregated_amount": 32577222832.34,
+    "display_name": "Kansas",
+    "per_capita": 11088.68,
+    "population": 2937880,
+    "shape_code": "KS"
+   },
+   {
+    "aggregated_amount": 245462195687.15,
+    "display_name": "Minnesota",
+    "per_capita": 43014.54,
+    "population": 5706494,
+    "shape_code": "MN"
+   },
+   {
+    "aggregated_amount": 34951524048.07,
+    "display_name": "Iowa",
+    "per_capita": 10955.32,
+    "population": 3190369,
+    "shape_code": "IA"
+   },
+   {
+    "aggregated_amount": 75636026781.75,
+    "display_name": "Alabama",
+    "per_capita": 15054.11,
+    "population": 5024279,
+    "shape_code": "AL"
+   },
+   {
+    "aggregated_amount": 202319129459.35,
+    "display_name": "Kentucky",
+    "per_capita": 44901.57,
+    "population": 4505836,
+    "shape_code": "KY"
+   },
+   {
+    "aggregated_amount": 102083484141.45,
+    "display_name": "Washington",
+    "per_capita": 13248.51,
+    "population": 7705281,
+    "shape_code": "WA"
+   },
+   {
+    "aggregated_amount": 118005038318.21,
+    "display_name": "Wisconsin",
+    "per_capita": 20022.17,
+    "population": 5893718,
+    "shape_code": "WI"
+   },
+   {
+    "aggregated_amount": 28714183536.48,
+    "display_name": "Nebraska",
+    "per_capita": 14638.86,
+    "population": 1961504,
+    "shape_code": "NE"
+   },
+   {
+    "aggregated_amount": 113653067979.17,
+    "display_name": "Massachusetts",
+    "per_capita": 16167.06,
+    "population": 7029917,
+    "shape_code": "MA"
+   },
+   {
+    "aggregated_amount": 101104747384.64,
+    "display_name": "Maryland",
+    "per_capita": 16367.34,
+    "population": 6177224,
+    "shape_code": "MD"
+   },
+   {
+    "aggregated_amount": 38651056345.47,
+    "display_name": "Mississippi",
+    "per_capita": 13052.15,
+    "population": 2961279,
+    "shape_code": "MS"
+   },
+   {
+    "aggregated_amount": 51071584042.4,
+    "display_name": "Oklahoma",
+    "per_capita": 12898.97,
+    "population": 3959353,
+    "shape_code": "OK"
+   },
+   {
+    "aggregated_amount": 129572495577.98,
+    "display_name": "Tennessee",
+    "per_capita": 18749.17,
+    "population": 6910840,
+    "shape_code": "TN"
+   },
+   {
+    "aggregated_amount": 207218835016.29,
+    "display_name": "Indiana",
+    "per_capita": 30538.35,
+    "population": 6785528,
+    "shape_code": "IN"
+   },
+   {
+    "aggregated_amount": 70624105430.7,
+    "display_name": "Colorado",
+    "per_capita": 12232.01,
+    "population": 5773714,
+    "shape_code": "CO"
+   },
+   {
+    "aggregated_amount": 145058797821.68,
+    "display_name": "South Carolina",
+    "per_capita": 28340.51,
+    "population": 5118425,
+    "shape_code": "SC"
+   },
+   {
+    "aggregated_amount": 63021224484.32,
+    "display_name": "Louisiana",
+    "per_capita": 13530.38,
+    "population": 4657757,
+    "shape_code": "LA"
+   },
+   {
+    "aggregated_amount": 152333114223.8,
+    "display_name": "Connecticut",
+    "per_capita": 42245.0,
+    "population": 3605944,
+    "shape_code": "CT"
+   },
+   {
+    "aggregated_amount": 34602421897.76,
+    "display_name": "Arkansas",
+    "per_capita": 11490.0,
+    "population": 3011524,
+    "shape_code": "AR"
+   },
+   {
+    "aggregated_amount": 12043452421.52,
+    "display_name": "South Dakota",
+    "per_capita": 13582.84,
+    "population": 886667,
+    "shape_code": "SD"
+   },
+   {
+    "aggregated_amount": 130935009862.93,
+    "display_name": "Arizona",
+    "per_capita": 18308.74,
+    "population": 7151502,
+    "shape_code": "AZ"
+   },
+   {
+    "aggregated_amount": 53063712419.29,
+    "display_name": "District Of Columbia",
+    "per_capita": 76954.68,
+    "population": 689545,
+    "shape_code": "DC"
+   },
+   {
+    "aggregated_amount": 103733880910.31,
+    "display_name": "North Dakota",
+    "per_capita": 133146.81,
+    "population": 779094,
+    "shape_code": "ND"
+   },
+   {
+    "aggregated_amount": 61089577617.47,
+    "display_name": "Oregon",
+    "per_capita": 14417.25,
+    "population": 4237256,
+    "shape_code": "OR"
+   },
+   {
+    "aggregated_amount": 15033226778.96,
+    "display_name": "Montana",
+    "per_capita": 13865.41,
+    "population": 1084225,
+    "shape_code": "MT"
+   },
+   {
+    "aggregated_amount": 33946236300.53,
+    "display_name": "Nevada",
+    "per_capita": 10934.12,
+    "population": 3104614,
+    "shape_code": "NV"
+   },
+   {
+    "aggregated_amount": 22880109766.17,
+    "display_name": "Idaho",
+    "per_capita": 12440.89,
+    "population": 1839106,
+    "shape_code": "ID"
+   },
+   {
+    "aggregated_amount": 31368319906.3,
+    "display_name": "Utah",
+    "per_capita": 9588.02,
+    "population": 3271616,
+    "shape_code": "UT"
+   },
+   {
+    "aggregated_amount": 41244899388.19,
+    "display_name": "Puerto Rico",
+    "per_capita": 12552.19,
+    "population": 3285874,
+    "shape_code": "PR"
+   },
+   {
+    "aggregated_amount": 46405239236.79,
+    "display_name": "New Mexico",
+    "per_capita": 21914.88,
+    "population": 2117522,
+    "shape_code": "NM"
+   },
+   {
+    "aggregated_amount": 25156836044.56,
+    "display_name": "West Virginia",
+    "per_capita": 14024.98,
+    "population": 1793716,
+    "shape_code": "WV"
+   },
+   {
+    "aggregated_amount": 19014577791.75,
+    "display_name": "Hawaii",
+    "per_capita": 13066.0,
+    "population": 1455271,
+    "shape_code": "HI"
+   },
+   {
+    "aggregated_amount": 19702648423.28,
+    "display_name": "Alaska",
+    "per_capita": 26865.14,
+    "population": 733391,
+    "shape_code": "AK"
+   },
+   {
+    "aggregated_amount": 22252256214.83,
+    "display_name": "Maine",
+    "per_capita": 16333.62,
+    "population": 1362359,
+    "shape_code": "ME"
+   },
+   {
+    "aggregated_amount": 7017600262.76,
+    "display_name": "Wyoming",
+    "per_capita": 12165.36,
+    "population": 576851,
+    "shape_code": "WY"
+   },
+   {
+    "aggregated_amount": 16145449620.13,
+    "display_name": "Rhode Island",
+    "per_capita": 14712.74,
+    "population": 1097379,
+    "shape_code": "RI"
+   },
+   {
+    "aggregated_amount": 17415243616.58,
+    "display_name": "New Hampshire",
+    "per_capita": 12642.38,
+    "population": 1377529,
+    "shape_code": "NH"
+   },
+   {
+    "aggregated_amount": 8938893026.1,
+    "display_name": "Vermont",
+    "per_capita": 13900.19,
+    "population": 643077,
+    "shape_code": "VT"
+   },
+   {
+    "aggregated_amount": 13095668550.95,
+    "display_name": "Delaware",
+    "per_capita": 13228.64,
+    "population": 989948,
+    "shape_code": "DE"
+   },
+   {
+    "aggregated_amount": 3405714095.5,
+    "display_name": "Guam",
+    "per_capita": 22138.6,
+    "population": 153836,
+    "shape_code": "GU"
+   },
+   {
+    "aggregated_amount": 963618472.62,
+    "display_name": "Northern Mariana Islands",
+    "per_capita": 20360.0,
+    "population": 47329,
+    "shape_code": "MP"
+   },
+   {
+    "aggregated_amount": 1539125800.7,
+    "display_name": "U.S. Virgin Islands",
+    "per_capita": 17661.46,
+    "population": 87146,
+    "shape_code": "VI"
+   },
+   {
+    "aggregated_amount": 505491124.34,
+    "display_name": "American Samoa",
+    "per_capita": 10168.8,
+    "population": 49710,
+    "shape_code": "AS"
+   },
+   {
+    "aggregated_amount": 80349.81,
+    "display_name": null,
+    "per_capita": null,
+    "population": null,
+    "shape_code": ""
+   }
+  ],
+  "scope": "place_of_performance",
+  "spending_level": "transactions"
+ }
+}
