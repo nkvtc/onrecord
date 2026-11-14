@@ -1,0 +1,119 @@
+{
+ "endpoint": "search/spending_by_category/awarding_agency/",
+ "kind": "agencies_by_state",
+ "request": {
+  "filters": {
+   "place_of_performance_locations": [
+    {
+     "country": "USA",
+     "state": "AR"
+    }
+   ],
+   "time_period": [
+    {
+     "end_date": "2026-09-30",
+     "start_date": "2025-10-01"
+    }
+   ]
+  },
+  "limit": 10
+ },
+ "response": {
+  "category": "awarding_agency",
+  "limit": 10,
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+   "'subawards' will be deprecated in the future. Set ‘spending_level’ to ‘subawards’ instead. See documentation for more information. "
+  ],
+  "page_metadata": {
+   "hasNext": true,
+   "hasPrevious": false,
+   "next": 2,
+   "page": 1,
+   "previous": null
+  },
+  "results": [
+   {
+    "agency_slug": "social-security-administration",
+    "amount": 16966414199.23,
+    "code": "SSA",
+    "id": 539,
+    "name": "Social Security Administration",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-health-and-human-services",
+    "amount": 8741443114.1,
+    "code": "HHS",
+    "id": 806,
+    "name": "Department of Health and Human Services",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-veterans-affairs",
+    "amount": 2856879561.18,
+    "code": "VA",
+    "id": 561,
+    "name": "Department of Veterans Affairs",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-agriculture",
+    "amount": 1399793106.69,
+    "code": "USDA",
+    "id": 95,
+    "name": "Department of Agriculture",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-transportation",
+    "amount": 1370806537.67,
+    "code": "DOT",
+    "id": 731,
+    "name": "Department of Transportation",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-defense",
+    "amount": 971504547.26,
+    "code": "DOD",
+    "id": 1173,
+    "name": "Department of Defense",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-education",
+    "amount": 898367946.8,
+    "code": "ED",
+    "id": 1068,
+    "name": "Department of Education",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-housing-and-urban-development",
+    "amount": 374883171.97,
+    "code": "HUD",
+    "id": 882,
+    "name": "Department of Housing and Urban Development",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "railroad-retirement-board",
+    "amount": 269907739.28,
+    "code": "RRB",
+    "id": 693,
+    "name": "Railroad Retirement Board",
+    "total_outlays": null
+   },
+   {
+    "agency_slug": "department-of-energy",
+    "amount": 198134393.13,
+    "code": "DOE",
+    "id": 930,
+    "name": "Department of Energy",
+    "total_outlays": null
+   }
+  ],
+  "spending_level": "transactions"
+ }
+}
