@@ -1,0 +1,99 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 4
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 40094816930.51,
+      "name": "Atomic energy defense activities",
+      "obligated_amount": 45178894780.77
+     }
+    ],
+    "gross_outlay_amount": 40094816930.51,
+    "name": "National Defense",
+    "obligated_amount": 45178894780.77
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 12767661871.08,
+      "name": "Energy supply",
+      "obligated_amount": 16014365400.92
+     },
+     {
+      "gross_outlay_amount": 5016169624.69,
+      "name": "Energy conservation",
+      "obligated_amount": 5181238012.71
+     },
+     {
+      "gross_outlay_amount": 1284756314.25,
+      "name": "Energy information, policy, and regulation",
+      "obligated_amount": 1341166348.96
+     },
+     {
+      "gross_outlay_amount": 713388153.25,
+      "name": "Emergency energy preparedness",
+      "obligated_amount": 752728139.74
+     }
+    ],
+    "gross_outlay_amount": 19781975963.27,
+    "name": "Energy",
+    "obligated_amount": 23289497902.33
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 8926904574.06,
+      "name": "General science and basic research",
+      "obligated_amount": 9023341808.21
+     }
+    ],
+    "gross_outlay_amount": 8926904574.06,
+    "name": "General Science, Space, and Technology",
+    "obligated_amount": 9023341808.21
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 0.0,
+      "name": "General purpose fiscal assistance",
+      "obligated_amount": 3071735.86
+     }
+    ],
+    "gross_outlay_amount": 0.0,
+    "name": "General Government",
+    "obligated_amount": 3071735.86
+   }
+  ],
+  "toptier_code": "089"
+ },
+ "endpoint": "agency/089/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOE",
+  "about_agency_data": null,
+  "agency_id": 930,
+  "congressional_justification_url": "https://energy.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOEnergy.jpg",
+  "messages": [],
+  "mission": "The mission of the Energy Department is to ensure America's security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions.",
+  "name": "Department of Energy",
+  "subtier_agency_count": 9,
+  "toptier_code": "089",
+  "website": "https://energy.gov/"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 2
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": -46576418.48,
+      "name": "General property and records management",
+      "obligated_amount": 47492128083.59
+     },
+     {
+      "gross_outlay_amount": 0.0,
+      "name": "Executive direction and management",
+      "obligated_amount": 5262440.29
+     },
+     {
+      "gross_outlay_amount": 0.0,
+      "name": "Other general government",
+      "obligated_amount": 3864712.31
+     }
+    ],
+    "gross_outlay_amount": -46576418.48,
+    "name": "General Government",
+    "obligated_amount": 47501255236.19
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": -46903.58,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 107165373.43
+     }
+    ],
+    "gross_outlay_amount": -46903.58,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 107165373.43
+   }
+  ],
+  "toptier_code": "047"
+ },
+ "endpoint": "agency/047/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "GSA",
+  "about_agency_data": null,
+  "agency_id": 614,
+  "congressional_justification_url": "https://www.gsa.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "GSA.jpg",
+  "messages": [],
+  "mission": "The mission of GSA is to deliver the best value in real estate, acquisition, and technology services to government and the American people.",
+  "name": "General Services Administration",
+  "subtier_agency_count": 12,
+  "toptier_code": "047",
+  "website": "https://www.gsa.gov/"
+ }
+}

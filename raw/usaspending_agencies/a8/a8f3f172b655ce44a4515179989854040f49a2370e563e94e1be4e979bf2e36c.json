@@ -1,0 +1,121 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 5
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 9214456229.09,
+      "name": "Conservation and land management",
+      "obligated_amount": 9792542945.07
+     },
+     {
+      "gross_outlay_amount": 6839654384.26,
+      "name": "Recreational resources",
+      "obligated_amount": 7400264194.78
+     },
+     {
+      "gross_outlay_amount": 6919087265.49,
+      "name": "Other natural resources",
+      "obligated_amount": 7365373797.61
+     },
+     {
+      "gross_outlay_amount": 4687211257.96,
+      "name": "Water resources",
+      "obligated_amount": 5841281752.0
+     },
+     {
+      "gross_outlay_amount": 1045308537.62,
+      "name": "Pollution control and abatement",
+      "obligated_amount": 1178552938.34
+     }
+    ],
+    "gross_outlay_amount": 28705717674.42,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 31578015627.8
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 7350003746.15,
+      "name": "General purpose fiscal assistance",
+      "obligated_amount": 7342698797.6
+     },
+     {
+      "gross_outlay_amount": 715614937.91,
+      "name": "Other general government",
+      "obligated_amount": 795802161.48
+     }
+    ],
+    "gross_outlay_amount": 8065618684.06,
+    "name": "General Government",
+    "obligated_amount": 8138500959.08
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 3214516590.45,
+      "name": "Area and regional development",
+      "obligated_amount": 3502414519.65
+     }
+    ],
+    "gross_outlay_amount": 3214516590.45,
+    "name": "Community and Regional Development",
+    "obligated_amount": 3502414519.65
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1461704023.24,
+      "name": "Elementary, secondary, and vocational education",
+      "obligated_amount": 1427491276.68
+     }
+    ],
+    "gross_outlay_amount": 1461704023.24,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 1427491276.68
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 723637193.0,
+      "name": "Health care services",
+      "obligated_amount": 723637193.0
+     }
+    ],
+    "gross_outlay_amount": 723637193.0,
+    "name": "Health",
+    "obligated_amount": 723637193.0
+   }
+  ],
+  "toptier_code": "014"
+ },
+ "endpoint": "agency/014/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOI",
+  "about_agency_data": null,
+  "agency_id": 209,
+  "congressional_justification_url": "https://www.doi.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOI.jpg",
+  "messages": [],
+  "mission": "The Department of the Interior protects and manages the Nation's natural resources and cultural heritage; provides scientific and other information about those resources; and honors its trust responsibilities or special commitments to American Indians, Alaska Natives, and affiliated island communities.",
+  "name": "Department of the Interior",
+  "subtier_agency_count": 16,
+  "toptier_code": "014",
+  "website": "https://www.doi.gov/"
+ }
+}

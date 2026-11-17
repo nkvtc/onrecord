@@ -1,0 +1,92 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 3
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 28829231651.74,
+      "name": "Conduct of foreign affairs",
+      "obligated_amount": 30141501972.61
+     },
+     {
+      "gross_outlay_amount": 12226075276.63,
+      "name": "International development and humanitarian assistance",
+      "obligated_amount": 17025136113.84
+     },
+     {
+      "gross_outlay_amount": 1055566163.26,
+      "name": "International security assistance",
+      "obligated_amount": 1543819825.21
+     },
+     {
+      "gross_outlay_amount": 901060931.93,
+      "name": "Foreign information and exchange activities",
+      "obligated_amount": 1152632027.51
+     }
+    ],
+    "gross_outlay_amount": 43011934023.56,
+    "name": "International Affairs",
+    "obligated_amount": 49863089939.17
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1549126295.46,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 1558240774.18
+     }
+    ],
+    "gross_outlay_amount": 1549126295.46,
+    "name": "Income Security",
+    "obligated_amount": 1558240774.18
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 232664389.69,
+      "name": "Water resources",
+      "obligated_amount": 705937572.89
+     },
+     {
+      "gross_outlay_amount": 66498674.89,
+      "name": "Conservation and land management",
+      "obligated_amount": 68531780.45
+     }
+    ],
+    "gross_outlay_amount": 299163064.58,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 774469353.34
+   }
+  ],
+  "toptier_code": "019"
+ },
+ "endpoint": "agency/019/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOS",
+  "about_agency_data": null,
+  "agency_id": 315,
+  "congressional_justification_url": "https://www.state.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOS.jpg",
+  "messages": [],
+  "mission": "The Department's mission is to shape and sustain a peaceful, prosperous, just, and democratic world and foster conditions for stability and progress for the benefit of the American people and people everywhere. This mission is shared with the USAID, ensuring we have a common path forward in partnership as we invest in the shared security and prosperity that will ultimately better prepare us for the challenges of tomorrow.",
+  "name": "Department of State",
+  "subtier_agency_count": 2,
+  "toptier_code": "019",
+  "website": "https://www.state.gov/"
+ }
+}

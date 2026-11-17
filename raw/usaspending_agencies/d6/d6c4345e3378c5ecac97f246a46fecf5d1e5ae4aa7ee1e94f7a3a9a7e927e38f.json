@@ -1,0 +1,53 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 1
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 17377189152.04,
+      "name": "General retirement and disability insurance (excluding social se",
+      "obligated_amount": 17373781527.51
+     },
+     {
+      "gross_outlay_amount": 140591079.79,
+      "name": "Unemployment compensation",
+      "obligated_amount": 140123186.75
+     }
+    ],
+    "gross_outlay_amount": 17517780231.83,
+    "name": "Income Security",
+    "obligated_amount": 17513904714.26
+   }
+  ],
+  "toptier_code": "060"
+ },
+ "endpoint": "agency/060/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "RRB",
+  "about_agency_data": null,
+  "agency_id": 693,
+  "congressional_justification_url": "https://www.rrb.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": null,
+  "messages": [],
+  "mission": "The RRB's mission is to administer retirement/survivor and unemployment/sickness insurance benefit programs for railroad workers and their families under the Railroad Retirement Act and the Railroad Unemployment Insurance Act. These programs provide income protection during old age and in the event of disability, death or temporary unemployment and sickness. The RRB also administers aspects of the Medicare program and has administrative responsibilities under the Social Security Act and the Internal Revenue Code. In carrying out its mission, the RRB will pay benefits to the right people, in the right amounts, in a timely manner, and will take appropriate action to safeguard our customers' trust funds. The RRB will treat every person who comes into contact with the agency with courtesy and concern, and respond to all inquiries promptly, accurately and clearly.",
+  "name": "Railroad Retirement Board",
+  "subtier_agency_count": 1,
+  "toptier_code": "060",
+  "website": "https://www.rrb.gov/"
+ }
+}

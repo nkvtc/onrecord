@@ -1,0 +1,87 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 3
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 11100464510.58,
+      "name": "Federal litigative and judicial activities",
+      "obligated_amount": 11939622794.24
+     },
+     {
+      "gross_outlay_amount": 10098919432.23,
+      "name": "Federal law enforcement activities",
+      "obligated_amount": 10606819581.01
+     },
+     {
+      "gross_outlay_amount": 10505604157.11,
+      "name": "Criminal justice assistance",
+      "obligated_amount": 10439938455.03
+     },
+     {
+      "gross_outlay_amount": 8609090365.24,
+      "name": "Federal correctional activities",
+      "obligated_amount": 9569811767.89
+     }
+    ],
+    "gross_outlay_amount": 40314078465.16,
+    "name": "Administration of Justice",
+    "obligated_amount": 42556192598.17
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 14583028941.18,
+      "name": "Defense-related activities",
+      "obligated_amount": 15252880698.89
+     }
+    ],
+    "gross_outlay_amount": 14583028941.18,
+    "name": "National Defense",
+    "obligated_amount": 15252880698.89
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 2071880.59,
+      "name": "Conduct of foreign affairs",
+      "obligated_amount": 2101782.51
+     }
+    ],
+    "gross_outlay_amount": 2071880.59,
+    "name": "International Affairs",
+    "obligated_amount": 2101782.51
+   }
+  ],
+  "toptier_code": "015"
+ },
+ "endpoint": "agency/015/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOJ",
+  "about_agency_data": null,
+  "agency_id": 252,
+  "congressional_justification_url": "https://www.justice.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOJ.jpg",
+  "messages": [],
+  "mission": "To enforce the law and defend the interests of the United States according to the law; to ensure public safety against threats foreign and domestic; to provide federal leadership in preventing and controlling crime; to seek just punishment for those guilty of unlawful behavior; and to ensure fair and impartial administration of justice for all Americans.",
+  "name": "Department of Justice",
+  "subtier_agency_count": 9,
+  "toptier_code": "015",
+  "website": "https://www.justice.gov/"
+ }
+}

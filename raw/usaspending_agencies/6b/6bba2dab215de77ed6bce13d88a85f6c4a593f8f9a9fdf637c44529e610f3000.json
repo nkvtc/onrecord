@@ -1,0 +1,65 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 2
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 8500718034.42,
+      "name": "International development and humanitarian assistance",
+      "obligated_amount": 7030470314.82
+     },
+     {
+      "gross_outlay_amount": 3656137279.87,
+      "name": "International security assistance",
+      "obligated_amount": 3809015415.03
+     }
+    ],
+    "gross_outlay_amount": 12156855314.29,
+    "name": "International Affairs",
+    "obligated_amount": 10839485729.85
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 25548207.93,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 5829348.61
+     }
+    ],
+    "gross_outlay_amount": 25548207.93,
+    "name": "Income Security",
+    "obligated_amount": 5829348.61
+   }
+  ],
+  "toptier_code": "072"
+ },
+ "endpoint": "agency/072/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "USAID",
+  "about_agency_data": null,
+  "agency_id": 801,
+  "congressional_justification_url": "https://www.usaid.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "USAID.jpg",
+  "messages": [],
+  "mission": "We partner to end extreme poverty and promote resilient, democratic societies while advancing our security and prosperity.",
+  "name": "Agency for International Development",
+  "subtier_agency_count": 1,
+  "toptier_code": "072",
+  "website": "https://www.usaid.gov/"
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 6
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1141054158757.16,
+      "name": "Department of Defense-Military",
+      "obligated_amount": 1364730741428.75
+     },
+     {
+      "gross_outlay_amount": 179967000000.0,
+      "name": "Defense-related activities",
+      "obligated_amount": 179967000000.0
+     }
+    ],
+    "gross_outlay_amount": 1321021158757.16,
+    "name": "National Defense",
+    "obligated_amount": 1544697741428.75
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 82950479713.97,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 83166157492.69
+     }
+    ],
+    "gross_outlay_amount": 82950479713.97,
+    "name": "Income Security",
+    "obligated_amount": 83166157492.69
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 13491385499.36,
+      "name": "Health care services",
+      "obligated_amount": 13835511500.42
+     }
+    ],
+    "gross_outlay_amount": 13491385499.36,
+    "name": "Health",
+    "obligated_amount": 13835511500.42
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 174561979.48,
+      "name": "Other veterans benefits and services",
+      "obligated_amount": 356196813.71
+     },
+     {
+      "gross_outlay_amount": 156301780.79,
+      "name": "Veterans education, training, and rehabilitation",
+      "obligated_amount": 156294491.67
+     }
+    ],
+    "gross_outlay_amount": 330863760.27,
+    "name": "Veterans Benefits and Services",
+    "obligated_amount": 512491305.38
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 13807946.04,
+      "name": "Recreational resources",
+      "obligated_amount": 48308653.24
+     }
+    ],
+    "gross_outlay_amount": 13807946.04,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 48308653.24
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 7589889.92,
+      "name": "International security assistance",
+      "obligated_amount": 9697463.87
+     },
+     {
+      "gross_outlay_amount": 0.0,
+      "name": "International development and humanitarian assistance",
+      "obligated_amount": 2550999.84
+     }
+    ],
+    "gross_outlay_amount": 7589889.92,
+    "name": "International Affairs",
+    "obligated_amount": 12248463.71
+   }
+  ],
+  "toptier_code": "097"
+ },
+ "endpoint": "agency/097/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOD",
+  "about_agency_data": "For reasons of national security, Department of Defense (including Army, Navy, Air Force, and DOD itself) contract and IDV data is subject to a 90-day publication delay (i.e., DOD procurement awards cannot be published until 90 days have elapsed after the award Action Date). Other DOD data (including financial assistance and account data) are not subject to this delay. Read more about this delay on our About the Data page.",
+  "agency_id": 1173,
+  "congressional_justification_url": "https://www.defense.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOD.jpg",
+  "messages": [],
+  "mission": "The mission of the Department of Defense is to provide the military forces needed to deter war and to protect the security of our country.",
+  "name": "Department of Defense",
+  "subtier_agency_count": 36,
+  "toptier_code": "097",
+  "website": "https://www.defense.gov/"
+ }
+}

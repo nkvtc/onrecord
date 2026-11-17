@@ -1,0 +1,82 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 3
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 14235794523.67,
+      "name": "Other advancement of commerce",
+      "obligated_amount": 14826232732.63
+     }
+    ],
+    "gross_outlay_amount": 14235794523.67,
+    "name": "Commerce and Housing Credit",
+    "obligated_amount": 14826232732.63
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 8324548204.6,
+      "name": "Other natural resources",
+      "obligated_amount": 8018008943.24
+     },
+     {
+      "gross_outlay_amount": 13287921.63,
+      "name": "Pollution control and abatement",
+      "obligated_amount": 15131917.59
+     },
+     {
+      "gross_outlay_amount": 7619327.47,
+      "name": "Conservation and land management",
+      "obligated_amount": 9141941.0
+     }
+    ],
+    "gross_outlay_amount": 8345455453.7,
+    "name": "Natural Resources and Environment",
+    "obligated_amount": 8042282801.83
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 1303350053.59,
+      "name": "Area and regional development",
+      "obligated_amount": 823369540.69
+     }
+    ],
+    "gross_outlay_amount": 1303350053.59,
+    "name": "Community and Regional Development",
+    "obligated_amount": 823369540.69
+   }
+  ],
+  "toptier_code": "013"
+ },
+ "endpoint": "agency/013/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOC",
+  "about_agency_data": null,
+  "agency_id": 183,
+  "congressional_justification_url": "https://www.commerce.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOC.jpg",
+  "messages": [],
+  "mission": "The mission of the Department is to create the conditions for economic growth and opportunity.",
+  "name": "Department of Commerce",
+  "subtier_agency_count": 11,
+  "toptier_code": "013",
+  "website": "https://www.commerce.gov/"
+ }
+}

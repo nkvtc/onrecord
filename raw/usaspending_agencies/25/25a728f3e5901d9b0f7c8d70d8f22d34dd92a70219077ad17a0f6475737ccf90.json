@@ -1,0 +1,72 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 3
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 24410801724.43,
+      "name": "Space flight, research, and supporting activities",
+      "obligated_amount": 27666426661.14
+     }
+    ],
+    "gross_outlay_amount": 24410801724.43,
+    "name": "General Science, Space, and Technology",
+    "obligated_amount": 27666426661.14
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 796026300.14,
+      "name": "Air transportation",
+      "obligated_amount": 831445052.74
+     }
+    ],
+    "gross_outlay_amount": 796026300.14,
+    "name": "Transportation",
+    "obligated_amount": 831445052.74
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 839281.52,
+      "name": "Research and general education aids",
+      "obligated_amount": 841954.77
+     }
+    ],
+    "gross_outlay_amount": 839281.52,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 841954.77
+   }
+  ],
+  "toptier_code": "080"
+ },
+ "endpoint": "agency/080/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "NASA",
+  "about_agency_data": null,
+  "agency_id": 862,
+  "congressional_justification_url": "https://www.nasa.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "NASA.jpg",
+  "messages": [],
+  "mission": "Drive advances in science, technology, aeronautics, and space exploration to enhance knowledge, education, innovation, economic vitality, and stewardship of Earth.",
+  "name": "National Aeronautics and Space Administration",
+  "subtier_agency_count": 2,
+  "toptier_code": "080",
+  "website": "https://www.nasa.gov/"
+ }
+}
