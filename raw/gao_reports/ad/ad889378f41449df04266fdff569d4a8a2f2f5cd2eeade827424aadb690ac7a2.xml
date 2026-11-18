@@ -1,0 +1,120 @@
+<item>
+                <title>Federal Data Centers: Congress Has an Opportunity to Improve Agencies' Acquisition and Operations</title>
+                <link>https://www.gao.gov/products/gao-27-108971</link>
+                <description>
+What GAO Found
+
+Of the 24 Chief Financial Officers Act agencies, 21 reported having data centers. Those 21 agencies varied in incorporating the Office of Management and Budget’s (OMB) five acquisition and operational requirements into the management and planning of their data centers. As of August 2026, none of the agencies had fully addressed all five requirements. For example, nine agencies reported using automated tools to monitor data center operations but the documentation they provided did not always reflect this. In addition, for the five agencies with new data centers, all of them partially addressed the requirement to incorporate energy and water usage into decision-making. Furthermore, many agencies reported meeting mission availability requirements but did not demonstrate that they had a process for managing risks to determine the maximum tolerable duration and frequency of downtime for their data centers.
+
+Extent to Which Federal Agencies Addressed OMB’s Acquisition and Operational Requirements for Data Centers, as of August 2026
+
+
+	
+		
+			
+			Requirement
+			
+			
+			Fully addressed
+			
+			
+			Partially addressed
+			
+			
+			Not addressed
+			
+		
+		
+			
+			Make key data center decisions at the agency level
+			
+			
+			10
+			
+			
+			11
+			
+			
+			0
+			
+		
+		
+			
+			Monitor data center operations using automated tools
+			
+			
+			10
+			
+			
+			9
+			
+			
+			2
+			
+		
+		
+			
+			Incorporate energy and water usage into decision-makinga
+			
+			
+			0
+			
+			
+			5
+			
+			
+			0
+			
+		
+		
+			
+			Meet mission availability requirements
+			
+			
+			2
+			
+			
+			19
+			
+			
+			0
+			
+		
+		
+			
+			Meet information security and physical security requirements
+			
+			
+			4
+			
+			
+			17
+			
+			
+			0
+			
+		
+	
+
+
+Legend: Fully addressed = The agency fully addressed all of the requirement’s evaluation criteria. Partially addressed = The agency fully or partially addressed some, but not all, of the requirement’s evaluation criteria. Not addressed = the agency did not address any of the requirement’s evaluation criteria.
+
+Source: GAO analysis of agency documentation. | GAO-27-108971
+
+aThe requirement was not applicable for 16 agencies because they reported having no new data centers and OMB did not require agencies to apply the requirement to existing data centers.
+
+GAO is not making recommendations to the agencies because, in accordance with the Federal Data Center Enhancement Act (FDCEA) of 2023, the OMB requirements expired on September 30, 2026. Since the law was enacted in 2023, the IT landscape has changed. Advances in artificial intelligence capabilities and its growing use among agencies have further increased demand for high-performance computing provided by data centers. Congress has introduced various legislative proposals for data centers that are intended to, among other things, address data center energy use reporting. Although these apply more broadly to data centers nationwide, they may also impact federal data centers. If Congress takes legislative action to reauthorize or replace the FDCEA, it has the opportunity to direct OMB to update requirements for agencies to continue their efforts to enhance the cybersecurity, resiliency, and availability of data centers.
+
+Why GAO Did This Study
+
+Federal agencies use data centers for their mission-critical data and operations. In December 2023, Congress passed the Federal Data Center Enhancement Act of 2023 to ensure high standards of cybersecurity, resiliency, and availability for federal data centers. In response, in January 2025, OMB established five minimum requirements for acquiring and operating federal data centers. Agencies were to have satisfied these requirements by January 14, 2026, for agency-operated data centers, with potentially later dates for contractor-operated data centers.
+
+The act includes a provision for GAO to annually review and verify the compliance of the 24 Chief Financial Officers Act agencies with OMB’s requirements for new and existing data centers. In this third and final review, GAO’s objective was to determine the extent to which federal agencies have incorporated OMB’s acquisition and operational requirements for data centers.
+
+GAO analyzed 21 agencies’ data center documentation, including policies, procedures, and risk management and security plans. GAO then assessed the results of the analysis against the five OMB requirements. GAO also interviewed relevant agency officials.
+
+
+</description>
+                <pubDate>Wed, 18 Nov 2026 07:21:50 -0500</pubDate>
+                <guid isPermaLink="false">/products/gao-27-108971</guid>
+            </item>

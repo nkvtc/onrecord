@@ -1,0 +1,111 @@
+{
+ "budget_function": {
+  "fiscal_year": 2026,
+  "messages": [],
+  "page_metadata": {
+   "hasNext": false,
+   "hasPrevious": false,
+   "limit": 100,
+   "next": null,
+   "page": 1,
+   "previous": null,
+   "total": 5
+  },
+  "results": [
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 45504509782.69,
+      "name": "Unemployment compensation",
+      "obligated_amount": 44856954997.32
+     },
+     {
+      "gross_outlay_amount": 4319233726.49,
+      "name": "Federal employee retirement and disability",
+      "obligated_amount": 4350264457.98
+     },
+     {
+      "gross_outlay_amount": 802719651.87,
+      "name": "General retirement and disability insurance (excluding social se",
+      "obligated_amount": 803861509.0
+     }
+    ],
+    "gross_outlay_amount": 50626463161.05,
+    "name": "Income Security",
+    "obligated_amount": 50011080964.3
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 12464146923.75,
+      "name": "Training and employment",
+      "obligated_amount": 14051297961.34
+     },
+     {
+      "gross_outlay_amount": 2288940969.63,
+      "name": "Other labor services",
+      "obligated_amount": 2563308821.8
+     }
+    ],
+    "gross_outlay_amount": 14753087893.38,
+    "name": "Education, Training, Employment, and Social Services",
+    "obligated_amount": 16614606783.14
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 3475785985.94,
+      "name": "Atomic energy defense activities",
+      "obligated_amount": 3483712343.99
+     }
+    ],
+    "gross_outlay_amount": 3475785985.94,
+    "name": "National Defense",
+    "obligated_amount": 3483712343.99
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 980310311.38,
+      "name": "Consumer and occupational health and safety",
+      "obligated_amount": 1021922347.37
+     }
+    ],
+    "gross_outlay_amount": 980310311.38,
+    "name": "Health",
+    "obligated_amount": 1021922347.37
+   },
+   {
+    "children": [
+     {
+      "gross_outlay_amount": 317741615.53,
+      "name": "Veterans education, training, and rehabilitation",
+      "obligated_amount": 343930357.92
+     }
+    ],
+    "gross_outlay_amount": 317741615.53,
+    "name": "Veterans Benefits and Services",
+    "obligated_amount": 343930357.92
+   }
+  ],
+  "toptier_code": "1601"
+ },
+ "endpoint": "agency/1601/",
+ "fiscal_year": 2026,
+ "kind": "agency",
+ "profile": {
+  "abbreviation": "DOL",
+  "about_agency_data": null,
+  "agency_id": 267,
+  "congressional_justification_url": "https://www.dol.gov/cj",
+  "def_codes": [],
+  "fiscal_year": 2027,
+  "icon_filename": "DOL.jpg",
+  "messages": [],
+  "mission": "To foster, promote, and develop the welfare of the wage earners, job seekers, and retirees of the United States; improve working conditions; advance opportunities for profitable employment; and assure work-related benefits and rights.",
+  "name": "Department of Labor",
+  "subtier_agency_count": 12,
+  "toptier_code": "1601",
+  "website": "https://www.dol.gov/"
+ }
+}

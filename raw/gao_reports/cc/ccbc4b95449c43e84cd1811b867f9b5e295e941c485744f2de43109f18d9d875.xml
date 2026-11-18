@@ -1,0 +1,27 @@
+<item>
+                <title>Cybersecurity: Agencies Need to Fully Address Federal Guidance as They Refine Zero Trust Architecture</title>
+                <link>https://www.gao.gov/products/gao-27-108661</link>
+                <description>
+What GAO Found
+
+A zero trust architecture (ZTA) is a set of cybersecurity principles that state that organizations must verify everything that attempts to access their systems and services. Almost all of the 22 agencies in this review had plans for zero trust architectures in their information technology (IT) environments. ZTA implementation will evolve over time as technology changes. As of August 2026, five agencies had addressed guidance from the Office of Management and Budget (OMB) or National Institute of Standards and Technology (NIST) in their ZTA planning. However, 17 agencies had not fully done so.
+
+Extent to Which 22 Civilian Chief Financial Officers Act of 1990 Agencies Addressed Selected Federal Guidance in Their Zero Trust Implementation Plans
+
+
+
+Agency officials provided numerous reasons, including limited staffing and funding, for not fully addressing federal guidance. Nevertheless, agencies continue to implement zero trust on their systems. However, until these agencies address selected ZTA guidance in their zero trust implementation plans, they may risk not having what they need to fully establish and maintain zero trust architectures. For instance, agency management may not be able to adequately apply resources where they are needed to continue zero trust implementation. As a result, agencies may risk not being able to effectively employ a more modern, robust way of securing their assets. Agencies would therefore be at increased risk of cyberattacks that could interrupt operations or otherwise compromise agency resources.
+
+Why GAO Did This Study
+
+To protect federal information and systems, the Federal Information Security Modernization Act of 2014 (FISMA) requires federal agencies to protect the information and systems that support the agencies’ operations and assets. One approach is to implement ZTA principles founded on the concept that no actor, system, network, or service operating outside of, or within, an organization’s security perimeter should be trusted.
+
+FISMA also includes a provision for GAO to periodically report to Congress on agencies’ implementation of the act. This report examines the extent to which agencies’ plans to implement zero trust architecture addressed selected federal guidance.
+
+GAO assessed plans to implement zero trust architecture from 22 civilian Chief Financial Officer Act of 1990 agencies and assessed the agencies’ compliance with selected OMB and NIST guidance, relevant to ZTA implementation and IT project planning. GAO also interviewed cognizant agency officials to better understand their zero trust planning efforts and to better understand the guidance they developed.
+
+
+</description>
+                <pubDate>Wed, 18 Nov 2026 08:01:21 -0500</pubDate>
+                <guid isPermaLink="false">/products/gao-27-108661</guid>
+            </item>
