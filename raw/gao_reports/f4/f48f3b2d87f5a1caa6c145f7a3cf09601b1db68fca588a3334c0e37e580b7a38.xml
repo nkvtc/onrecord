@@ -1,0 +1,142 @@
+<item>
+                <title>AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense</title>
+                <link>https://www.gao.gov/products/gao-27-108458</link>
+                <description>
+What GAO Found
+
+Artificial Intelligence (AI) technologies have provided threat actors with the ability to magnify the reach and impact of traditional cyberattacks. For example, AI makes it possible to create high-quality content for phishing and deepfakes and to improve the precision and accuracy of cyberattacks, accelerating the speed and scale of malicious cyber activity. Among emerging trends in AI-leveraged cyberattacks is the use of agentic AI to autonomously carry out multiple stages of an attack with minimal human input.
+
+Examples of artificial intelligence (AI)-leveraged cyberattacks
+
+
+	
+		
+			
+			Incident
+			
+			
+			Summary of attack
+			
+		
+		
+			
+			June 2026: AI-powered malware lab built for evading detection
+			
+			
+			A threat actor used AI to build a testing framework to refine techniques for malware to evade detection. An investigation revealed that threat actors used multiple AI agents to test malicious code against different security products.a The agents were tasked with finding new attack techniques from security research, mapping them to known cybersecurity frameworks, conducting the attacks in test environments, and reporting the results.
+			
+		
+		
+			
+			Feb. 2026: Exploitation of stolen passwords
+			
+			
+			A low-skill level threat actor used multiple commercial generative AI services to launch a widespread attack exploiting gaps in foundational cybersecurity. Reportedly, the threat actor compromised several devices by using stolen credentials from past incidents on devices that had weak passwords and no multi-factor authentication enabled.
+			
+		
+	
+
+
+Source: GAO analysis of industry reporting | GAO-27-108458
+
+aAgentic AI is an AI system that operates with a level of autonomy, enabling independent decision-making and adaptive behaviors. AI agents are AI systems that can not only create content but also operate autonomously to accomplish complex tasks and make decisions in response to changing conditions.
+
+While different types of AI have been used to improve cybersecurity applications for decades, recent advancements in generative AI have expanded cyber defense capabilities. Cyber defenders use AI technologies, such as machine learning and generative AI applications, to safeguard information systems. Specifically, they use AI to improve the efficiency of their security tools, teams, and operations. For example, cyber defenders use tools to analyze network traffic. Integrating generative AI into tools allows for dynamic scanning capabilities while factoring in new known vulnerabilities and environment activities. Additionally, cyber defenders can use generative AI to detect vulnerabilities in source code and parse through large amounts of network information quickly. These improvements allow defenders to expand their cyber defense capabilities and better equip them to address the rising threats of malicious cyber activities.
+
+However, cyber defenders also face challenges when using AI-enabled cybersecurity tools. Most of the risks and challenges identified by experts pertain to the use of generative AI. For example, there are no widely accepted evaluation criteria for assessing offensive or defensive capabilities of generative AI. In addition, generative AI introduces new risks that can expand the attack surface. Experts identified data privacy and quality challenges; technical challenges involving the underlying architecture of generative AI; governance and trust obstacles due to the rapid pace of AI evolution and outdated frameworks; and organizational obstacles, such as cost, the AI skills gap, and complications with integration, among others. Multiple experts identified fragmented regulatory approaches and insufficient data sharing as key challenges.
+
+GAO identified four potential policy goals with respect to the use of AI in cybersecurity through discussions with experts and research. These goals are to: address gaps in cybersecurity guidance and practices, address AI-related research gaps, govern AI tools throughout their cybersecurity lifecycle, or enhance the cybersecurity workforce. GAO also identified 16 policy options that represent a menu of alternatives that policymakers could consider to help support these policy goals. For purposes of this report, policymakers include legislative bodies, agencies, standards organizations, industry, and other groups. The policy goals, options, and related details are not intended to be exhaustive. See the tables linked below for additional details on each policy option, including opportunities and considerations.
+
+Policy Goals and Policy Options for AI Cybersecurity Applications
+
+
+	
+		
+			
+			Policy goal: Address gaps in cybersecurity guidance and practices
+			
+		
+		
+			
+			Policy options&amp;nbsp;(report page 41)
+
+			
+				Harmonize cybersecurity requirements
+				Improve cyber threat information sharing
+				Close gaps in artificial intelligence (AI)-related privacy risks
+				Improve application of fundamental cybersecurity practices
+			
+			
+		
+		
+			
+			Policy Goal: Address AI-related research gaps in cybersecurity
+			
+		
+		
+			
+			Policy options&amp;nbsp;(report page 43)
+
+			
+				Expand research to enable the safe adoption of AI for cybersecurity
+				Enhance innovation and research in agentic AI identity management
+				Expand AI testing environments
+			
+			
+		
+		
+			
+			Policy Goal: Govern AI tools throughout their cybersecurity lifecycle
+			
+		
+		
+			
+			Policy options&amp;nbsp;(report page 45)
+
+			
+				Establish a deterministic AI fallback capability for critical cybersecurity functionsa,b
+				Require human authorization for consequential AI-initiated cybersecurity actions
+				Establish a risk-based approach to acquiring AI products
+				Validate the output of AI cybersecurity tools before and during deployment
+				Evaluate AI cybersecurity solutions for value gain
+				Establish a senior role that can manage privacy risks when using AI
+				Restrict autonomous and nondeterministic AI in consequential functions pending certificationa
+			
+			
+		
+		
+			
+			Policy Goal: Enhance the cybersecurity workforce
+			
+		
+		
+			
+			Policy options&amp;nbsp;(report page 49)
+
+			
+				Sustain workforce skills in current cybersecurity practices
+				Strengthen AI expertise for the cybersecurity workforce
+			
+			
+		
+	
+
+
+Source: GAO. | GAO-27-108458
+
+aDeterministic AI refers to models that are designed to operate under strict rules with predictable outputs. In contrast, nondeterministic AI, such as generative AI models, incorporates probabilities, randomness, or choice and identical inputs may produce different outputs. Nondeterministic AI may exhibit a range of behaviors under the same input conditions resulting in outputs that are less predictable.
+bFor the purposes of this report, we use the term "fallback" to refer to a predefined alternative capability, such as rule-based tools or manual procedures that an organization can use to continue performing a critical cybersecurity function if an AI system becomes unavailable, fails, or demonstrates outcomes inconsistent with its intended use.
+
+Why GAO Did This Study
+
+AI is a rapidly growing, transformative technology with applications in every aspect of modern life. The government is still not operating at a pace commensurate with evolving cybersecurity threats to the nation's security, economy, and well-being. State and non-state actors attack government and private-sector systems thousands of times each day, threatening national security and essential services such as water, energy, telecommunications, and financial systems.
+
+This report examines: (1) how AI has enhanced the cyberattack capabilities of threat actors; (2) how AI is used for cybersecurity and its benefits to cyber defenders; (3) challenges cyber defenders face when using AI to safeguard information systems; and (4) policy options that could help support various policy goals in this area.
+
+For all four objectives, GAO reviewed literature and agency documents; interviewed agency, academic, and industry stakeholders; and convened a multi-day expert meeting with experts from government, industry, and academia. For the fourth objective, GAO also identified policy goals from executive orders, national strategies, the GAO High Risk List, federal laws, and other sources. GAO is identifying policy options in this report.
+
+For more information, contact Kevin Walsh&amp;nbsp;at WalshK@gao.gov, or Karen L. Howard, PhD at HowardK@gao.gov, or Jennifer R. Franks at FranksJ@gao.gov.
+</description>
+                <pubDate>Fri, 20 Nov 2026 07:05:04 -0500</pubDate>
+                <guid isPermaLink="false">/products/gao-27-108458</guid>
+            </item>

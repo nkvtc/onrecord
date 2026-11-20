@@ -1,0 +1,81 @@
+<item>
+                <title>Science &amp; Tech Spotlight: AI Chatbots and Mental Health</title>
+                <link>https://www.gao.gov/products/gao-27-109184</link>
+                <description>
+Why This Matters
+
+Nearly one-fifth of Americans aged 12 to 21 reported using an AI chatbot for mental health advice in 2025. Experts warn that general-purpose chatbots are not designed for such needs and can be dangerous if used for this purpose. Further, while purpose-built chatbots may be designed to help, they are not a replacement for qualified mental health providers.
+
+Key Takeaways
+
+
+	The Food and Drug Administration (FDA) has not authorized any AI chatbot to support mental health.
+	Settings for how agreeably chatbots interact with users are critical, and some guardrails may not be effective.
+	Challenges include the potential for harm, unproven effectiveness, and evolving regulations.
+
+
+The Technology
+
+What is it?&amp;nbsp;AI chatbots are computer programs that simulate conversations. General-purpose chatbots allow users to ask about and receive responses on a wide range of topics. However, chatbots tend to be agreeable and flattering (sycophantic) and reinforce the user’s perspective rather than challenge it. There is no universal off switch; reducing sycophancy requires users to leverage custom settings or prompts and companies to adjust system prompts, reward signals, context framing, and other settings.
+
+Purpose-built chatbots are developed for a specific task. For example, chatbots may be designed to provide education on mental health topics, instructions for breathing or therapeutic exercises, or support between counselor or therapist visits.
+
+How does it work?&amp;nbsp;Modern chatbots feature user-friendly interfaces that rely on an underlying generative AI, specifically large language models, which are trained on massive amounts of data to “learn” human language patterns. General-purpose chatbots construct their responses to users’ questions from online information and training data. Purpose-built chatbots are trained on mental health data and therapeutic techniques, according to developers. While both types of chatbots can generate confident-sounding responses based on patterns in language, they may not be accurate or understand personal context. Nor do they have the clinical judgment of a mental health professional.
+
+How mature is it?&amp;nbsp;As of November 2026, the FDA has not granted marketing authorization for any chatbots for mental health care.
+
+General-purpose chatbots are widely used, including for emotional and psychological support. After such chatbots were linked to individuals harming themselves, some developers implemented guardrails (see figure). But experts warn that some guardrails may be ineffective and their development may fail to keep pace with rapid technological advancements.
+
+Figure 1. Examples of Potential AI Guardrails
+
+
+
+Purpose-built chatbots designed for mental health support have been developed. Some developers claim their chatbots are based on or utilize therapeutic approaches to improve the user’s wellness. But experts caution that these claims can mislead users into believing that these chatbots offer care comparable to a mental health professional.
+
+Two companies have advertised that their purpose-built chatbots have received an FDA designation that allows for accelerated review for narrow and specific medical use cases, but this does not guarantee future FDA authorization. Some companies report that their chatbots have undergone or are undergoing randomized controlled trials. However, experts warn that more high-quality studies are needed and that it is too early to consider substituting any chatbot for professional care.
+
+Opportunities&amp;nbsp;
+
+
+	May complement professionals and improve access. Purpose-built chatbots could help bridge accessibility gaps due to high costs of care, provider shortages, and stigma.
+	Referral to resources. Commonly used general-purpose chatbots may quickly and reliably identify mental health resources and connect users with qualified providers.
+
+
+Challenges
+
+
+	Health and safety risks. Using chatbots, particularly those without effective guardrails, can be harmful to at-risk populations, such as adolescents and the elderly.
+	Sycophancy bias. Some chatbots tend to keep conversations going and agree with the user in a way that can reinforce delusions, negative feelings, or self-harm.
+	Uncertain efficacy. Researchers warn that further studies are needed to determine if purpose-built chatbots could support a user’s mental health.
+	Regulation and user protection. Chatbot regulation is evolving at the state and federal level. But some experts say that existing regulations do not adequately address the risks chatbots pose to users’ mental health.
+	Privacy risks. To help inform their responses, chatbots can retain data from previous conversations, which may pose privacy risks.
+
+
+Policy Context and Questions
+
+
+	What research is needed to determine if chatbots can safely support users with mental health needs?
+	How can policymakers develop standards that mitigate risks and maximize any benefits of using chatbots to supplement mental health care?
+	What regulatory steps or ongoing monitoring is needed to ensure chatbots have effective guardrails to help protect and safely provide mental health support to users?
+	Who is responsible for negative outcomes of chatbot use, and how should responsible entities be held accountable?
+
+
+Selected GAO Work
+
+Artificial Intelligence: Generative AI Technologies and Their Commercial Applications, GAO-24-106946.
+
+Artificial Intelligence: Generative AI’s Environmental and Human Effects, GAO-25-107172.
+
+Selected Reference
+
+American Psychological Association, APA Health Advisory on the Use of Generative AI Chatbots and Wellness Applications for Mental Health (APA, 2025).
+
+National Academy of Medicine, AI Chatbots for Mental Health: What Works, What Harms, and What’s Next (National Academy of Medicine, May 13, 2026).
+
+Standford University Human-Centered Artificial Intelligence, The Complexities of Governing Mental Health AI (July 24, 2026).
+
+For more information, contact Sarah Harvey at HarveyS@gao.gov.
+</description>
+                <pubDate>Fri, 20 Nov 2026 07:04:36 -0500</pubDate>
+                <guid isPermaLink="false">/products/gao-27-109184</guid>
+            </item>
